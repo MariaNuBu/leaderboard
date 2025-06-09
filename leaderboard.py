@@ -61,4 +61,4 @@ except FileNotFoundError:
     st.info("Asegúrate de que el archivo de Excel esté en la misma carpeta que el script y tenga las columnas 'Nombre' y 'Preguntas Acertadas'.")
 
 # Un pequeño pie de página
-st.caption("Hecho con ❤️ usando Streamlit.")
+st.caption("Hecho con ❤️ ")
