@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import card_game
-
+import crucigrama
 # --- Configuración de la página ---
 # Esto le da un título a la pestaña de tu navegador y un ícono.
 st.set_page_config(
@@ -71,19 +71,28 @@ def leaderboard_view():
 def mostrar_juego():
     card_game.mostrar_juego()
 
+def mostrar_juego2():
+    crucigrama.mostrar_crucigrama()
+
+
 if "vista" not in st.session_state:
     st.session_state.vista = "leaderboard"
 # Botón para cargar otro archivo o visualización
 # Botones para cambiar la vista (en una fila)
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 with col1:
     if st.button("🏆 Ver Leaderboard"):
         st.session_state.vista = "leaderboard"
 with col2:
-    if st.button("🃏 Ver Juego de Cartas"):
+    if st.button("🃏 Modulo 1.1"):
         st.session_state.vista = "juego"
+with col3:
+    if st.button("🧩 Modulo 1.2"):
+        st.session_state.vista = "juego2"
 
 if st.session_state.vista == "leaderboard":
     leaderboard_view()
 elif st.session_state.vista == "juego":
     mostrar_juego()
+elif st.session_state.vista == "juego2":
+    mostrar_juego2()
