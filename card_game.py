@@ -182,8 +182,8 @@ def render_service_buttons():
 # -------------------------------------------------
 
 def mostrar_juego():
-    st.set_page_config(page_title="Memorama AWS – Definiciones", page_icon="🂠")
-    st.title("🂠 Memorama AWS – Definición a Servicio")
+    st.set_page_config(page_title="Modulo 1 AWS – Definiciones", page_icon="🂠")
+    st.title("🂠 Modulo 1 AWS – Definición a Servicio")
 
     # ---- Sidebar (nombre) ----
     with st.sidebar:
