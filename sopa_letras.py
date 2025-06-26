@@ -1,6 +1,11 @@
 import streamlit as st
 import random
 import string
+import csv
+from datetime import datetime
+import os
+import pandas as pd
+
 
 # --- 1. Game Configuration & Word List ---
 
@@ -16,6 +21,8 @@ WORDS_TO_FIND = {
 
 # Grid configuration
 GRID_SIZE = 20 # Increased size to accommodate long words
+SCORE_FILE = "score_sopaletras.csv"
+
 DIRECTIONS = {
     "horizontal": (0, 1),
     "vertical": (1, 0),
@@ -30,6 +37,26 @@ DIRECTIONS = {
 
 
 # --- 2. Core Game Logic Functions ---
+
+def persist_score():
+    """Registra la puntuación final en disco (CSV)."""
+    player = st.session_state.get("player_name", "").strip()
+    if not player:
+        return
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    intentos = st.session_state.fails + len(WORDS_TO_FIND)
+    with open(SCORE_FILE, "a", newline="", encoding="utf-8") as f:
+        csv.writer(f).writerow([player, intentos, now])
+
+
+def load_scores() -> pd.DataFrame:
+    """Carga las puntuaciones en un DataFrame ordenado."""
+    if not os.path.exists(SCORE_FILE):
+        return pd.DataFrame(columns=["Jugador","Intentos","Fecha"])
+    df = pd.read_csv(
+        SCORE_FILE, names=["Jugador",  "Intentos", "Fecha"], dtype={"Jugador": str}
+    )
+    return df.sort_values(by=["Intentos"], ascending=[True])
 
 def can_place_word(grid, word, start_row, start_col, direction):
     """Checks if a word can be placed at a specific location without collision."""
@@ -104,6 +131,8 @@ def initialize_game():
     st.session_state.word_locations = word_locations
     st.session_state.found_words = set()
     st.session_state.game_over = False
+    st.session_state.fails = 0
+    st.session_state.player_present = False
 
 def get_highlighted_coords():
     """Returns a set of all (row, col) tuples that should be highlighted."""
@@ -149,7 +178,7 @@ def generate_grid_html():
 def mostrar_sopa_letras():
     # --- 3. Streamlit App UI and Interaction ---
 
-    #st.set_page_config(layout="wide",initial_sidebar_state="expanded")
+    st.set_page_config(layout="wide", initial_sidebar_state="expanded")
     st.title("🧩 AWS Services Alphabet Soup")
     st.markdown("Find the hidden AWS service names in the grid. They can be horizontal, vertical, or diagonal.")
 
@@ -158,51 +187,66 @@ def mostrar_sopa_letras():
 
     # --- Main Layout (Sidebar for controls, Main area for grid) ---
     with st.sidebar:
-        st.header("Words to Find")
-        
-        # Display the list of words and their found status
-        for word, definition in WORDS_TO_FIND.items():
-            if word in st.session_state.found_words:
-                st.markdown(f"✅ {word}: {definition}")
-            else:
-                st.markdown(f"🤔 **{definition}**")
-                
-        st.header("Enter Your Guess")
-        
-        # Form for user input to prevent reruns on every keystroke
-        with st.form("guess_form", clear_on_submit=True):
-            user_guess = st.text_input("Type a word and press Enter", "").upper().strip().replace(" ", "")
-            submit_button = st.form_submit_button("Check Word")
-
-        if submit_button and user_guess:
-            if user_guess in WORDS_TO_FIND:
-                if user_guess not in st.session_state.found_words:
-                    st.session_state.found_words.add(user_guess)
-                    st.success(f"You found {user_guess}!")
-                    # Check for win condition
-                    if len(st.session_state.found_words) == len(WORDS_TO_FIND):
-                        st.session_state.game_over = True
+        if not st.session_state.player_present:
+            st.header("👤 Jugador")
+            jugador = st.text_input("Ingresa tu nombre", key="player_name")
+            if st.button("🔄 Nuevo juego"):
+                if not jugador:
+                    st.error("Por favor, ingresa tu nombre antes de comenzar.")
+                    return
                 else:
-                    st.warning(f"You already found {user_guess}!")
-            else:
-                st.error(f"{user_guess} is not in the list.")
-        
-        if st.button("New Game / Reset"):
-            # Clear all relevant session state keys to restart
-            for key in ['grid', 'word_locations', 'found_words', 'game_over']:
-                if key in st.session_state:
-                    del st.session_state[key]
-            st.rerun()
+                    st.session_state.player_present = True
+                st.rerun()
+        if st.session_state.player_present:
+            st.header("Words to Find")
+            
+            # Display the list of words and their found status
+            for word, definition in WORDS_TO_FIND.items():
+                if word in st.session_state.found_words:
+                    st.markdown(f"✅ {word}: {definition}")
+                else:
+                    st.markdown(f"🤔 **{definition}**")
+                    
+            st.header("Enter Your Guess")
+            
+            # Form for user input to prevent reruns on every keystroke
+            with st.form("guess_form", clear_on_submit=True):
+                user_guess = st.text_input("Type a word and press Enter", "").upper().strip().replace(" ", "")
+                submit_button = st.form_submit_button("Check Word")
 
-    # --- Display the Grid ---
-    grid_html = generate_grid_html()
-    st.markdown(grid_html, unsafe_allow_html=True)
+            if submit_button and user_guess:
+                if user_guess in WORDS_TO_FIND:
+                    if user_guess not in st.session_state.found_words:
+                        st.session_state.found_words.add(user_guess)
+                        st.success(f"You found {user_guess}!")
+                        # Check for win condition
+                        if len(st.session_state.found_words) == len(WORDS_TO_FIND):
+                            st.session_state.game_over = True
+                    else:
+                        st.warning(f"You already found {user_guess}!")
+                else:
+                    st.error(f"{user_guess} is not in the list.")
+                    st.session_state.fails += 1
+            
+            if st.button("New Game / Reset"):
+                # Clear all relevant session state keys to restart
+                for key in ['grid', 'word_locations', 'found_words', 'game_over']:
+                    if key in st.session_state:
+                        del st.session_state[key]
+                st.rerun()
+    if st.session_state.player_present:
 
-    # --- Win Condition Celebration ---
-    if st.session_state.get('game_over', False):
-        st.balloons()
-        st.success("🎉 Congratulations! You've found all the words! 🎉")
+        # --- Display the Grid ---
+        grid_html = generate_grid_html()
+        st.markdown(grid_html, unsafe_allow_html=True)
 
+        # --- Win Condition Celebration ---
+        if st.session_state.get('game_over', False):
+            st.balloons()
+            st.success("🎉 Congratulations! You've found all the words! 🎉")
+            persist_score()
 
-if __name__ == "__main__":
-    mostrar_sopa_letras()
+    # ---- Tabla de puntuaciones ----
+    st.markdown("---")
+    st.subheader("🏆 Tabla de puntuaciones")
+    st.table(load_scores())
