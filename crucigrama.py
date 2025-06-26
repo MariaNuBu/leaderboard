@@ -1,6 +1,9 @@
 
 import streamlit as st
 import pandas as pd
+import csv
+from datetime import datetime
+import os
 
 # --- 1. Definición de Datos y Configuración Inicial ---
 
@@ -36,15 +39,20 @@ puzzle_layout = [
 
 GRID_ROWS = 18
 GRID_COLS = 18
-
+SCORE_FILE = "score_crucigrama.csv"
 # --- 3. Funciones Auxiliares ---
 
 def inicializar_estado():
     """Inicializa el estado de la sesión si no existe."""
-    if 'grid_state' not in st.session_state:
-        st.session_state.grid_state = [['' for _ in range(GRID_COLS)] for _ in range(GRID_ROWS)]
-        st.session_state.user_answers = {f"{item[3]}_{item[2]}": "" for item in puzzle_layout}
-        st.session_state.correct_answers = {f"{item[3]}_{item[2]}": False for item in puzzle_layout}
+    if 'grid_state' in st.session_state:
+        return
+    
+    st.session_state.grid_state = [['' for _ in range(GRID_COLS)] for _ in range(GRID_ROWS)]
+    st.session_state.user_answers = {f"{item[3]}_{item[2]}": "" for item in puzzle_layout}
+    st.session_state.correct_answers = {f"{item[3]}_{item[2]}": False for item in puzzle_layout}
+    st.session_state.fails = 0
+    st.session_state.player_present = False
+
 
 def generar_cuadricula_html(grid_data):
     """Genera el HTML para mostrar la cuadrícula del crucigrama."""
@@ -93,17 +101,67 @@ def revisar_respuestas():
             else: # vertical
                 for i, char in enumerate(word):
                     st.session_state.grid_state[r_start + i][c_start] = char
+        else:
+            st.session_state.fails += 1
+            st.warning(f"Respuesta incorrecta para {key}. Inténtalo de nuevo.")
             
+
+def persist_score():
+    """Registra la puntuación final en disco (CSV)."""
+    player = st.session_state.get("player_name", "").strip()
+    if not player:
+        return
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    intentos = st.session_state.fails + len(DICCIONARIO_PISTAS)
+    with open(SCORE_FILE, "a", newline="", encoding="utf-8") as f:
+        csv.writer(f).writerow([player, intentos, now])
+
+
+def load_scores() -> pd.DataFrame:
+    """Carga las puntuaciones en un DataFrame ordenado."""
+    if not os.path.exists(SCORE_FILE):
+        return pd.DataFrame(columns=["Jugador","Intentos","Fecha"])
+    df = pd.read_csv(
+        SCORE_FILE, names=["Jugador",  "Intentos", "Fecha"], dtype={"Jugador": str}
+    )
+    return df.sort_values(by=["Intentos"], ascending=[True])
 
 
 # --- 4. Renderizado de la App en Streamlit ---
 def mostrar_crucigrama():
-    st.set_page_config(layout="wide")
+    st.set_page_config( 
+        page_title = "Modulo 1.2",
+        page_icon= "🧩",
+        layout="wide", 
+        initial_sidebar_state="expanded"
+    )
     st.title("🧩 Crucigrama de Servicios de Datos de AWS")
     st.markdown("Completa el crucigrama con los nombres de los servicios de AWS basándote en las pistas. ¡No uses espacios!")
 
     inicializar_estado()
-
+    # ---- Sidebar (nombre) ----
+    if not st.session_state.player_present:
+        with st.sidebar:
+            st.header("👤 Jugador")
+            jugador = st.text_input("Ingresa tu nombre", key="player_name")
+            if st.button("🚀 Empezar Juego"):
+                if not jugador:
+                    st.error("Por favor, ingresa tu nombre antes de comenzar.")
+                    return
+                else:
+                    st.session_state.player_present = True
+                    print('jugador', jugador)
+                    print('jugador presente', st.session_state.player_present)
+                    st.rerun()
+        return
+    with st.sidebar:
+        st.markdown("---")
+        st.subheader("Instrucciones⌨️")
+        st.markdown(
+            "1. Haz clic en un **❓** para revelar una definición.\n"
+            "2. Elige el servicio correcto de la lista.\n"
+            "3. Repite hasta acertar todas las definiciones."
+        )
     col1, col2 = st.columns([2, 1.5])
 
     with col1:
@@ -144,6 +202,8 @@ def mostrar_crucigrama():
         if all(st.session_state.correct_answers.values()):
             st.balloons()
             st.success("¡Felicidades! ¡Has completado el crucigrama correctamente!")
+            persist_score()
+
         else:
             st.info("Algunas respuestas correctas se han añadido a la cuadrícula. ¡Sigue intentándolo!")
         st.rerun()
@@ -151,4 +211,10 @@ def mostrar_crucigrama():
     if st.button("Reiniciar Juego"):
         for key in list(st.session_state.keys()):
             del st.session_state[key]
+        inicializar_estado()
         st.rerun()
+
+        # ---- Tabla de puntuaciones ----
+    st.markdown("---")
+    st.subheader("🏆 Tabla de puntuaciones")
+    st.table(load_scores())
