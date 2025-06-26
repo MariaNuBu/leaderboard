@@ -149,7 +149,7 @@ def generate_grid_html():
 def mostrar_sopa_letras():
     # --- 3. Streamlit App UI and Interaction ---
 
-    #st.set_page_config(layout="wide")
+    #st.set_page_config(layout="wide",initial_sidebar_state="expanded")
     st.title("🧩 AWS Services Alphabet Soup")
     st.markdown("Find the hidden AWS service names in the grid. They can be horizontal, vertical, or diagonal.")
 
@@ -163,7 +163,7 @@ def mostrar_sopa_letras():
         # Display the list of words and their found status
         for word, definition in WORDS_TO_FIND.items():
             if word in st.session_state.found_words:
-                st.markdown(f"✅ ~~_{word}: {definition}_~~")
+                st.markdown(f"✅ {word}: {definition}")
             else:
                 st.markdown(f"🤔 **{definition}**")
                 
