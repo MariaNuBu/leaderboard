@@ -163,7 +163,7 @@ def mostrar_sopa_letras():
         # Display the list of words and their found status
         for word, definition in WORDS_TO_FIND.items():
             if word in st.session_state.found_words:
-                st.markdown(f"✅ ~~_{word}_~~")
+                st.markdown(f"✅ ~~_{word}: {definition}_~~")
             else:
                 st.markdown(f"🤔 **{definition}**")
                 
