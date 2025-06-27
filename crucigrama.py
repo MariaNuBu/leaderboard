@@ -228,6 +228,7 @@ def mostrar_crucigrama():
 
     if submit_button:
         revisar_respuestas()
+        st.rerun()
         if all(st.session_state.correct_answers.values()):
             st.balloons()
             st.success("¡Felicidades! ¡Has completado el crucigrama correctamente!")
