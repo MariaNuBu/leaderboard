@@ -4,6 +4,7 @@ import pandas as pd
 import csv
 from datetime import datetime
 import os
+from supabase import create_client, Client
 
 # --- 1. Definición de Datos y Configuración Inicial ---
 
@@ -41,6 +42,17 @@ GRID_ROWS = 18
 GRID_COLS = 18
 SCORE_FILE = "score_crucigrama.csv"
 # --- 3. Funciones Auxiliares ---
+    
+
+# ---------- Supabase init ----------
+# Lee credenciales seguras desde st.secrets
+SUPABASE_URL: str = st.secrets["supabase"]["url"]
+SUPABASE_KEY: str = st.secrets["supabase"]["key"]
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+TABLE_NAME = "scores"  # nombre de la tabla que creaste
+# -----------------------------------
 
 def inicializar_estado():
     """Inicializa el estado de la sesión si no existe."""
@@ -104,27 +116,44 @@ def revisar_respuestas():
         else:
             st.session_state.fails += 1
             st.warning(f"Respuesta incorrecta para {key}. Inténtalo de nuevo.")
-            
+   
 
-def persist_score():
-    """Registra la puntuación final en disco (CSV)."""
+def persist_score() -> None:
+    """Guarda la puntuación del jugador en Supabase."""
     player = st.session_state.get("player_name", "").strip()
     if not player:
         return
+
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     intentos = st.session_state.fails + len(DICCIONARIO_PISTAS)
-    with open(SCORE_FILE, "a", newline="", encoding="utf-8") as f:
-        csv.writer(f).writerow([player, intentos, now])
 
+    data = {
+        "Jugador": player,
+        "Intentos": intentos,
+        "Fecha": now,
+    }
+
+    # Inserta el registro
+    try:
+        supabase.table(TABLE_NAME).insert(data).execute()
+    except Exception as e:
+        st.error(f"No se pudo guardar la puntuación: {e}")
 
 def load_scores() -> pd.DataFrame:
-    """Carga las puntuaciones en un DataFrame ordenado."""
-    if not os.path.exists(SCORE_FILE):
-        return pd.DataFrame(columns=["Jugador","Intentos","Fecha"])
-    df = pd.read_csv(
-        SCORE_FILE, names=["Jugador",  "Intentos", "Fecha"], dtype={"Jugador": str}
-    )
-    return df.sort_values(by=["Intentos"], ascending=[True])
+    """Carga todas las puntuaciones ordenadas por menos intentos."""
+    try:
+        resp = supabase.table(TABLE_NAME).select("*").execute()
+    except Exception as e:
+        st.error(f"No se pudieron cargar las puntuaciones: {e}")
+        return pd.DataFrame(columns=["Jugador", "Intentos", "Fecha"])
+
+    # Si no hay datos todavía
+    if not resp.data:
+        return pd.DataFrame(columns=["Jugador", "Intentos", "Fecha"])
+
+    df = pd.DataFrame(resp.data)
+    df["Jugador"] = df["Jugador"].astype(str)
+    return df.sort_values(by="Intentos", ascending=True)
 
 
 # --- 4. Renderizado de la App en Streamlit ---
