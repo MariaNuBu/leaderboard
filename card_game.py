@@ -199,7 +199,7 @@ def mostrar_juego():
         st.session_state.selected_cards_set = topics[selected_topic_name]
         st.session_state.selected_topic_name = selected_topic_name
         SERVICES = st.session_state.selected_cards_set
-
+        st.rerun()
         if st.button("🔄 Nuevo juego"):
             if not jugador:
                 st.error("Por favor, ingresa tu nombre antes de comenzar.")
