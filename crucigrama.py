@@ -40,7 +40,6 @@ puzzle_layout = [
 
 GRID_ROWS = 18
 GRID_COLS = 18
-SCORE_FILE = "score_crucigrama.csv"
 # --- 3. Funciones Auxiliares ---
     
 
