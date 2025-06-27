@@ -9,12 +9,12 @@ import os
 
 # Diccionario original con las pistas
 DICCIONARIO_PISTAS = {
-    "Mechanical Turk": "access to an on-demand global workforce to quickly complete data transformation microtasks at low cost, streamlining the overall process by decomposing workflows into discrete tasks",
-    "Ground Truth": "service that uses Mechanical Turk and other data processing methods to streamline the data preparation process even further",
-    "Data Wrangler": "visual, code-free tool for data preprocessing and feature engineering that integrates with AWS data sources. streamlines data ingestion through a visual interface to profile, understand, clean, and transform data using built-in recipes. It connects to sources, transforms, cleans, and loads data.",
-    "Feature Store": "managed repository for storing, sharing, and managing features used for ML models.",
-    "AWS GLUE": "fully managed extract, transform, and load (ETL) service that makes it convenient to prepare and load data for analytics",
-    "AWS Glue Data Catalog": "central repository to store metadata for all of your structured and semi-structured data assets across various data sources."
+    "Mechanical Turk": "Access to an on-demand global workforce to quickly complete data transformation microtasks at low cost, streamlining the overall process by decomposing workflows into discrete tasks",
+    "Ground Truth": "Service that uses Mechanical Turk and other data processing methods to streamline the data preparation process even further",
+    "Data Wrangler": "Visual, code-free tool for data preprocessing and feature engineering that integrates with AWS data sources. Streamlines data ingestion through a visual interface to profile, understand, clean, and transform data using built-in recipes.",
+    "Feature Store": "Managed repository for storing, sharing, and managing features used for ML models.",
+    "AWS GLUE": "Fully anaged extract, transform, and load (ETL) service that makes it convenient to prepare and load data for analytics",
+    "AWS Glue Data Catalog": "Central repository to store metadata for all of your structured and semi-structured data assets across various data sources."
 }
 
 # Limpiamos las claves para usarlas como respuestas (sin espacios, mayúsculas)

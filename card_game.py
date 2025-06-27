@@ -16,8 +16,8 @@ COLLECT_CARDS = {
     "Database": "Store structured data in relational databases. Optimized for transactional processes",
     "Amazon S3": "Highly scalable, available, and redundant object-storage service accessed through an API.",
     "Amazon EBS": "Persistent, block-level storage volumes for Amazon Elastic Compute Cloud (Amazon EC2) instances so you can scale storage performance and cost as needed.",
-    "Amazon EFS:": "Designed to grow and shrink automatically as files are added or removed",
-    "Amazon FSx:": "Fully managed service that provides access to popular file systems like Lustre, NetApp ONTAP, OpenZFS, and Windows File Server",
+    "Amazon EFS": "Designed to grow and shrink automatically as files are added or removed",
+    "Amazon FSx": "Fully managed service that provides access to popular file systems like Lustre, NetApp ONTAP, OpenZFS, and Windows File Server",
 }
 
 INGEST_CARDS = {
@@ -31,7 +31,7 @@ EXTRACT_CARDS = {
     "AWS CLI": "Similar functionality to the graphical AWS Management Console while handling authentication, validation, and formatting.",
     "AWS SDKs": "software toolkits that provides ready-made code packages to extract data",
     "Amazon S3 Transfer Acceleration": "Uses Amazon CloudFront edge locations to accelerate large data transfers to and from Amazon S3",
-    "AWS DMS": "AWS Data Migration Service facilitates database migration between databases or to Amazon S3 by extracting data in various formats, such as SQL, JSON, CSV, and XML",
+    "AWS DMS": "AWS Data Migration Service facilitates database migration between databases or to Amazon S3 by extracting data in various formats",
     "AWS Lambda": "Serverless compute service that runs code without provisioning servers, you can run functions with events that extract data from AWS storage services",
     "AWS Glue": "ETL service that prepares and loads data. Can extract data from AWS services and integrate with ML workflows",
     "AWS DataSync": "Transfer data between on-premises systems or AWS services by extracting data from different sources and then upload it to AWS services.",
