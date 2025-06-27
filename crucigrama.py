@@ -51,7 +51,7 @@ SUPABASE_KEY: str = st.secrets["supabase"]["key"]
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-TABLE_NAME = "scores"  # nombre de la tabla que creaste
+TABLE_NAME = "scores_crucigrama"  # nombre de la tabla que creaste
 # -----------------------------------
 
 def inicializar_estado():
