@@ -4,9 +4,18 @@ import random
 import streamlit as st
 import pandas as pd
 from typing import Set, List, Dict, Any
+from datetime import datetime
+from supabase import create_client, Client
 
-# --- CONFIGURACIÓN DE ARCHIVOS ---
-SCORES_FILE = "quiz_scores.json"
+
+# Lee credenciales seguras desde st.secrets
+SUPABASE_URL: str = st.secrets["supabase"]["url"]
+SUPABASE_KEY: str = st.secrets["supabase"]["key"]
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+TABLE_NAME = "scores_quiz"  # nombre de la tabla que creaste
+# -----------------------------------
 
 # -----------------------------------------------------------------------------
 # HELPERS (LÓGICA DE DATOS)
@@ -53,24 +62,40 @@ def load_questions(root_dir: str, selected_topics: Set[str]) -> List[Dict[str, A
     random.shuffle(questions)
     return questions
 
-def load_scores() -> Dict[str, int]:
-    """Carga las puntuaciones desde el archivo JSON."""
-    if not os.path.exists(SCORES_FILE):
-        return {}
+def load_scores() -> pd.DataFrame:
+    """Carga todas las puntuaciones ordenadas por menos intentos."""
     try:
-        with open(SCORES_FILE, "r") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, FileNotFoundError):
-        return {}
+        resp = supabase.table(TABLE_NAME).select("*").execute()
+    except Exception as e:
+        st.error(f"No se pudieron cargar las puntuaciones: {e}")
+        return pd.DataFrame(columns=["Jugador", "Puntuacion", "Fecha"])
 
-def save_score(player_name: str, score: int):
+    # Si no hay datos todavía
+    if not resp.data:
+        return pd.DataFrame(columns=["Jugador", "Puntuacion", "Fecha"])
+
+    df = pd.DataFrame(resp.data)
+    df["Jugador"] = df["Jugador"].astype(str)
+    return df.sort_values(by="Puntuacion", ascending=False)
+
+
+def persist_score(player_name: str, score: int, questions_count: int):
     """Guarda la puntuación de un jugador si es su mejor marca."""
-    scores = load_scores()
-    # Guardar solo si la nueva puntuación es mayor
-    if score > scores.get(player_name, 0):
-        scores[player_name] = score
-        with open(SCORES_FILE, "w") as f:
-            json.dump(scores, f, indent=4)
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    intentos = score / questions_count
+
+    data = {
+        "Jugador": player_name,
+        "Puntuacion": intentos,
+        "Fecha": now,
+    }
+
+    # Inserta el registro
+    try:
+        supabase.table(TABLE_NAME).insert(data).execute()
+    except Exception as e:
+        st.error(f"No se pudo guardar la puntuación: {e}")
+    
 
 # -----------------------------------------------------------------------------
 # FUNCIÓN PRINCIPAL DE LA APP DE STREAMLIT
@@ -129,19 +154,11 @@ def run_quiz_app():
         }
         st.rerun()
 
-    st.sidebar.markdown("---")
     
     # --- TABLA DE PUNTUACIONES ---
-    st.sidebar.header("🏆 Tabla de Puntuaciones")
-    scores = load_scores()
-    if scores:
-        scores_df = pd.DataFrame(
-            scores.items(), columns=["Jugador", "Mejor Puntuación"]
-        ).sort_values("Mejor Puntuación", ascending=False).reset_index(drop=True)
-        st.sidebar.dataframe(scores_df)
-    else:
-        st.sidebar.info("Aún no hay puntuaciones. ¡Sé el primero!")
-
+    st.markdown("---")
+    st.subheader("🏆 Tabla de puntuaciones")
+    st.table(load_scores())
 
     # --- PANEL PRINCIPAL ---
     st.title("📚 ML Practice Quiz")
@@ -228,7 +245,7 @@ def run_quiz_app():
 
     # --- LÓGICA DE FIN DE JUEGO ---
     if len(gs["user_answers"]) == total_qs and not gs["game_over"]:
-        save_score(gs["player_name"], gs["score"])
+        persist_score(gs["player_name"], gs["score"],len(gs['questions']))
         gs["game_over"] = True
         st.rerun()
 

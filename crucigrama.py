@@ -190,14 +190,6 @@ def mostrar_crucigrama():
             "2. Elige el servicio correcto de la lista.\n"
             "3. Repite hasta acertar todas las definiciones."
         )
-    col1, col2 = st.columns([2, 1.5])
-
-    with col1:
-        st.header("Crucigrama")
-        grid_html = generar_cuadricula_html(st.session_state.grid_state)
-        st.markdown(grid_html, unsafe_allow_html=True)
-
-    with col2:
         st.header("Pistas")
         
         with st.form("answers_form"):
@@ -224,18 +216,24 @@ def mostrar_crucigrama():
                     )
             
             submit_button = st.form_submit_button(label='Revisar Respuestas')
+            if submit_button:
+                revisar_respuestas()
+                st.rerun()
+                if all(st.session_state.correct_answers.values()):
+                    st.balloons()
+                    st.success("¡Felicidades! ¡Has completado el crucigrama correctamente!")
+                    persist_score()
 
-    if submit_button:
-        revisar_respuestas()
-        st.rerun()
-        if all(st.session_state.correct_answers.values()):
-            st.balloons()
-            st.success("¡Felicidades! ¡Has completado el crucigrama correctamente!")
-            persist_score()
+                else:
+                    st.info("Algunas respuestas correctas se han añadido a la cuadrícula. ¡Sigue intentándolo!")
+                st.rerun()
 
-        else:
-            st.info("Algunas respuestas correctas se han añadido a la cuadrícula. ¡Sigue intentándolo!")
-        st.rerun()
+    st.header("Crucigrama")
+    grid_html = generar_cuadricula_html(st.session_state.grid_state)
+    st.markdown(grid_html, unsafe_allow_html=True)
+        
+
+    
 
     if st.button("Reiniciar Juego"):
         for key in list(st.session_state.keys()):
