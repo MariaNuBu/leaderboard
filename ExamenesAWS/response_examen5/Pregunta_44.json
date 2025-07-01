@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "A Machine Learning Engineer is using Amazon SageMaker to build and train a binary classification model. The training dataset contains a severe class imbalance, with 95% of the data belonging to the negative class and only 5% to the positive class. After training, the model achieves high accuracy but performs poorly on the positive class.\n\nWhich two techniques should the engineer consider to address this issue? (Choose TWO.)",
+      "options": [
+        "Use the area under the ROC curve (AUC) as the evaluation metric.",
+        "Decrease the size of the negative class through undersampling.",
+        "Increase the size of the positive class through oversampling.",
+        "Apply class weights to penalize misclassification of the minority class.",
+        "Use precision as the primary evaluation metric instead of accuracy."
+      ],
+      "correct_answers": [
+        "Increase the size of the positive class through oversampling.",
+        "Apply class weights to penalize misclassification of the minority class."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

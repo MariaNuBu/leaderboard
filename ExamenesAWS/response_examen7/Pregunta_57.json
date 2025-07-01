@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "A data scientist is setting up a new SageMaker pipeline for automating an ML workflow. They need to define the steps in the pipeline, which include training a model, registering the model in the model registry, and deploying it. What structure should they follow to create a functional SageMaker pipeline?\n\nOnly define the steps, without specifying any parameters or names, since SageMaker Pipelines automatically handles these.\n\nExplicación\nDefining the steps, names, and parameters is necessary for proper configuration and execution of the pipeline.\n\nUse AWS CloudFormation to define and automate all steps of the pipeline without utilizing SageMaker's pipeline features.\n\nExplicación\nWhile AWS CloudFormation can automate infrastructure, SageMaker Pipelines are purpose-built for automating ML workflows and provide better integration for model-related tasks",
+      "options": [
+        "Only define the steps, without specifying any parameters or names, since SageMaker Pipelines automatically handles these.",
+        "Use AWS CloudFormation to define and automate all steps of the pipeline without utilizing SageMaker's pipeline features.",
+        "Define the name of the pipeline, the steps for each action, and parameters for step configuration.",
+        "Create a notebook in SageMaker Studio, then manually execute each step in the pipeline."
+      ],
+      "correct_answers": [
+        "Define the name of the pipeline, the steps for each action, and parameters for step configuration."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

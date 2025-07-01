@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "You are working as a machine learning engineer for a startup that provides image recognition services. The service is currently in its beta phase, and the company expects varying levels of traffic, with some days having very few requests and other days experiencing sudden spikes. The company wants to minimize costs during low-traffic periods while still being able to handle large, infrequent spikes of requests efficiently. Given these requirements, you are considering using Amazon SageMaker for your deployment.\n\nWhich of the following statements is the BEST recommendation for the given scenario?",
+      "options": [
+        "Use Amazon SageMaker Serverless Inference that minimizes costs during low-traffic periods while managing large infrequent spikes of requests efficiently",
+        "Use Batch transform to run inference with Amazon SageMaker that minimizes costs during low-traffic periods while managing large infrequent spikes of requests efficiently",
+        "Use Amazon SageMaker Asynchronous Inference that minimizes costs during low-traffic periods while managing large infrequent spikes of requests efficiently",
+        "Use Amazon SageMaker Real-time Inference that minimizes costs during low-traffic periods while managing large infrequent spikes of requests efficiently"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Serverless Inference that minimizes costs during low-traffic periods while managing large infrequent spikes of requests efficiently"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-deployment.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

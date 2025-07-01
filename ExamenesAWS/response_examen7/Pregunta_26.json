@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "Your team has deployed a machine learning model for batch inference on Amazon SageMaker. You want to monitor the model's performance and be notified if the model's accuracy declines over time, indicating a potential model quality drift.\n\nWhich steps should you take to set up model quality monitoring for this batch inference model using SageMaker Model Monitor? (Choose Two)",
+      "options": [
+        "Schedule monitoring jobs to capture the incoming data and baseline comparison results.",
+        "Merge the ground truth labels with the captured predictions to assess the model’s accuracy.",
+        "Deploy a new version of the model every time drift is detected.",
+        "Manually track the model’s prediction results on a daily basis.",
+        "Enable CloudTrail logs to track the data drift in batch jobs."
+      ],
+      "correct_answers": [
+        "Schedule monitoring jobs to capture the incoming data and baseline comparison results.",
+        "Merge the ground truth labels with the captured predictions to assess the model’s accuracy."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

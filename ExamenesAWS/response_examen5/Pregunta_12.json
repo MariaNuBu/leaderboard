@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A company is training a large neural network model with billions of parameters on Amazon SageMaker. The model is too large to fit into the memory of a single GPU. What technique should the company use to distribute the training across multiple instances in this scenario?",
+      "options": [
+        "Gradient Parallelism",
+        "Data Parallelism",
+        "Model Parallelism",
+        "Hybrid Model and Data Parallelism"
+      ],
+      "correct_answers": [
+        "Model Parallelism"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A media company is developing a machine learning model to categorize a large library of video content. Since manually labeling thousands of videos would be costly, the team wants to reduce labeling costs by automating part of the labeling process while ensuring that complex cases are reviewed by human annotators. They also want the labeling process to improve over time based on the labeled data.\n\nWhat is the BEST strategy for optimizing labeling costs while ensuring high-quality results?",
+      "options": [
+        "Use SageMaker Ground Truth’s active learning to automate simple labeling tasks and send more complex labeling tasks to human annotators.",
+        "Rely solely on human workers to manually label all video content, ensuring maximum accuracy but at a higher cost.",
+        "Use SageMaker Ground Truth to automate all labeling tasks without human involvement to reduce costs.",
+        "Use SageMaker Experiments to track labeling performance and automatically adjust labeling strategies based on accuracy metrics."
+      ],
+      "correct_answers": [
+        "Use SageMaker Ground Truth’s active learning to automate simple labeling tasks and send more complex labeling tasks to human annotators."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

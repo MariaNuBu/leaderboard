@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A machine learning team is using Amazon SageMaker Experiments to run multiple training jobs with different hyperparameter configurations and feature sets. They want to organize, track, and compare the results to identify the best-performing model. Which of the following components in SageMaker Experiments allows the team to track and compare each individual training run within the experiment?\n\nSageMaker Pipelines\n\nExplicación\nSageMaker Pipelines is used to orchestrate and automate machine learning workflows but does not specifically track individual training runs.",
+      "options": [
+        "SageMaker Pipelines",
+        "Trials",
+        "SageMaker Autopilot",
+        "Trial Components"
+      ],
+      "correct_answers": [
+        "Trials"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

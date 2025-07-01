@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "An ML engineer is developing a computer vision ML model to identify visual defects on the products. The engineer is using a dataset with 50,000 images of products that will be split for training and evaluation. During the validation step, the model is not accurately capturing the underlying relationship in the training dataset.\n\nWhich approach will improve the model performance?",
+      "options": [
+        "A\nIncrease the amount of domain-specific features in the training dataset.",
+        "B\nIncrease the amount of L2 regularization that is used.",
+        "C\nIncrease the amount of L1 regularization that is used.",
+        "D\nDecrease the number of passes on the training data."
+      ],
+      "correct_answers": [
+        "A\nIncrease the amount of domain-specific features in the training dataset."
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

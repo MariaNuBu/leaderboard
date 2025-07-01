@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "An organization is using SageMaker to train and deploy a reinforcement learning (RL) model that optimizes a portfolio of financial assets. Which of the following features of SageMaker RL would benefit their use case? (Select Two)",
+      "options": [
+        "SageMaker supports pre-built RL toolkits like Intel Coach and Ray RLlib for state-of-the-art algorithms.",
+        "SageMaker allows monitoring and adjusting the training through Python SDK integration.",
+        "The RL model must always be deployed on real-world environments; simulated environments are not supported.",
+        "Training jobs can only run on external instances and not locally on notebook instances."
+      ],
+      "correct_answers": [
+        "SageMaker supports pre-built RL toolkits like Intel Coach and Ray RLlib for state-of-the-art algorithms.",
+        "SageMaker allows monitoring and adjusting the training through Python SDK integration."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

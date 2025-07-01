@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An organization requires a scalable solution for preprocessing and transforming big data for machine learning. The data is spread across multiple sources and needs to be processed using a distributed computing framework.\n\nWhich of the following solutions would you recommend?",
+      "options": [
+        "Use Amazon EMR in Amazon SageMaker Studio",
+        "Use built-in SQL extension in Amazon SageMaker Studio",
+        "Use Data Wrangler within Amazon SageMaker Canvas",
+        "Use Amazon SageMaker Ground Truth"
+      ],
+      "correct_answers": [
+        "Use Amazon EMR in Amazon SageMaker Studio"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-prep.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sms.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-sql-extension.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

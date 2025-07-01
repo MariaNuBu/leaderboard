@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A financial services company operates in a hybrid cloud environment and has deployed a machine learning model on premises to provide personalized financial recommendations. The model processes data stored in Amazon S3, which includes sensitive customer information such as Social Security numbers and financial transaction details. The company must ensure that all sensitive data is identified and removed before it is processed by the model. The company needs to implement a solution that can handle these requirements with the least operational overhead.\n\nWhich solution will meet these requirements?\n\nDeploy an AWS Glue ETL job to scan the S3 bucket, detect sensitive data using a custom Python script, and redact the sensitive information\n\nUse AWS DataBrew to create a data transformation pipeline that scans for sensitive data and applies predefined rules to clean the dataset\n\nLeverage Amazon Comprehend to classify and redact sensitive entities from the data stored in Amazon S3 before it is used by the model",
+      "options": [
+        "Deploy an AWS Glue ETL job to scan the S3 bucket, detect sensitive data using a custom Python script, and redact the sensitive information",
+        "Use AWS DataBrew to create a data transformation pipeline that scans for sensitive data and applies predefined rules to clean the dataset",
+        "Leverage Amazon Comprehend to classify and redact sensitive entities from the data stored in Amazon S3 before it is used by the model",
+        "Use Amazon Macie to automatically identify sensitive data in Amazon S3 and then call a Lambda function to remove the sensitive data"
+      ],
+      "correct_answers": [
+        "Use Amazon Macie to automatically identify sensitive data in Amazon S3 and then call a Lambda function to remove the sensitive data"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/big-data/automate-the-archival-and-deletion-of-sensitive-data-using-amazon-macie/",
+        "https://aws.amazon.com/blogs/security/use-macie-to-discover-sensitive-data-as-part-of-automated-data-pipelines/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

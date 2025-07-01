@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "An organization has large volumes of log data stored in Amazon S3. They plan to process this data using AWS Glue ETL jobs, which will run daily to extract, transform, and load the data into Amazon Redshift. The organization wants to ensure that only the newly added log files are processed in each ETL run to reduce cost and optimize performance.\n\nWhich AWS Glue feature can be leveraged to achieve this goal most cost-effectively?\n\nAWS Glue Crawler with automatic schema detection\n\nExplicación\nAWS Glue Crawler detects schema changes but does not handle incremental data loading on its own.",
+      "options": [
+        "AWS Glue Crawler with automatic schema detection",
+        "Incremental loading using partitioning",
+        "Using AWS Lambda to trigger ETL jobs on every new file upload",
+        "Defining custom transformations in AWS Glue to identify new data"
+      ],
+      "correct_answers": [
+        "Incremental loading using partitioning"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

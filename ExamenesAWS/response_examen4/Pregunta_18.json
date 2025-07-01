@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A company focused on sustainable technology is training a deep learning model using Amazon SageMaker to develop a computer vision application. The training process involves a large dataset of high-resolution images and requires significant computational resources. The company’s primary goal is to minimize energy consumption and carbon footprint while still achieving efficient training performance.\n\nWhich instance type should the company select for their training job in Amazon SageMaker to maximize energy efficiency and meet their sustainability goals?",
+      "options": [
+        "ml.trn1.2xlarge",
+        "ml.inf1.24xlarge",
+        "ml.c6g.large",
+        "ml.p4d.24xlarge"
+      ],
+      "correct_answers": [
+        "ml.trn1.2xlarge"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

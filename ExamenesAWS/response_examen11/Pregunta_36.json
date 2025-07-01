@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A company is using Amazon SageMaker to train and evaluate an ML model. The company will use the model to predict if an email is spam or not. Because the model will be used for internal emails, the company wants to ensure that legitimate emails are not incorrectly flagged as spam.\n\nWhich model evaluation metric will meet these requirements?",
+      "options": [
+        "A\nRecall",
+        "B\nAccuracy",
+        "C\nF1 score",
+        "D\nPrecision"
+      ],
+      "correct_answers": [
+        "D\nPrecision"
+      ],
+      "references": [],
+      "topic": "TOPIC: 2.3 Analyze model performance",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

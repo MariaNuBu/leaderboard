@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "A telecommunications company is building a machine learning model to predict customer churn. The model requires features such as call duration, number of support tickets, and customer feedback scores. The company wants to store these features in a centralized repository for reuse across multiple models. The system also needs to provide low-latency access to features for real-time predictions while supporting batch updates for periodic model training.\n\nWhich of the following options provides the MOST effective solution for their requirements?",
+      "options": [
+        "Store features in SageMaker Feature Store’s offline store for real-time predictions and in Amazon S3 for batch updates.",
+        "Use SageMaker Feature Store’s online store for real-time predictions and offline store for batch model training.",
+        "Store all features in Amazon RDS for batch updates and in SageMaker Feature Store’s online store for real-time predictions.",
+        "Use SageMaker Ground Truth to create labeled features and store them in SageMaker Feature Store’s offline store for real-time predictions."
+      ],
+      "correct_answers": [
+        "Use SageMaker Feature Store’s online store for real-time predictions and offline store for batch model training."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "An organization wants to visually preprocess and clean its data before using it in machine learning models. They need a tool that allows non-coding users to create data transformation workflows and schedule them for periodic execution. Which AWS service should they use to meet these requirements?\n\nAWS Glue ETL jobs\n\nExplicación\nAWS Glue ETL jobs are typically used for large-scale extract, transform, and load (ETL) tasks, but they are code-centric and require developers to write transformations in Python or Scala. This makes it unsuitable for non-coding users who need a more intuitive, visual interface.\n\n\nAmazon SageMaker Data Wrangler\n\nExplicación\nAmazon SageMaker Data Wrangler is a powerful tool for data preparation, focusing on simplifying the workflow for machine learning data preprocessing. However, it requires some knowledge of machine learning and coding concepts and is geared toward users working specifically with SageMaker models, rather than providing general ETL (Extract, Transform, Load) functionality for broader data preparation.",
+      "options": [
+        "AWS Glue ETL jobs",
+        "Amazon SageMaker Data Wrangler",
+        "AWS Glue Databrew",
+        "AWS Lambda"
+      ],
+      "correct_answers": [
+        "AWS Glue Databrew"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

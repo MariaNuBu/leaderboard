@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A company wants to ensure efficient ETL operations on a large dataset stored in Amazon S3 using AWS Glue. They decide to partition the dataset by the \"year\" and \"month\" fields to optimize query performance and reduce costs. Which of the following is the MOST significant advantage of partitioning data in this manner?",
+      "options": [
+        "It ensures that the entire dataset is always scanned during each query.",
+        "It eliminates the need for Glue crawlers to detect new data.",
+        "It allows Glue ETL jobs to process partitions independently, improving performance and reducing query costs.",
+        "Partitioning ensures that data integrity is maintained across different S3 locations."
+      ],
+      "correct_answers": [
+        "It allows Glue ETL jobs to process partitions independently, improving performance and reducing query costs."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

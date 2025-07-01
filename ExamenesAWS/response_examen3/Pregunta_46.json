@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "A company is building a recommendation system to provide personalized product suggestions to its customers.\nThe company has collected historical user interaction data - including product views, purchases, and ratings.\nAn ML engineer needs to select the most suitable built-in Amazon SageMaker algorithm to train the recommendation model efficiently.\nThe engineer wants a solution that minimizes development effort while providing high-quality recommendations.\n\nWhich built-in SageMaker algorithm should the ML engineer use to meet these requirements?\n\nK-Means Clustering",
+      "options": [
+        "K-Means Clustering",
+        "Factorization Machines",
+        "Linear Learner",
+        "XGBoost (eXtreme Gradient Boosting)"
+      ],
+      "correct_answers": [
+        "Factorization Machines"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/fact-machines.html",
+        "https://aws.amazon.com/blogs/machine-learning/k-means-clustering-with-amazon-sagemaker/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

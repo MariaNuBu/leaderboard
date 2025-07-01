@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Your organization wants to perform image classification using Amazon SageMaker’s built-in algorithms.\nWhich steps are required to train a model using one of SageMaker’s pre-packaged algorithms for this task? (Choose Two)",
+      "options": [
+        "Select an appropriate algorithm such as XGBoost, which is optimized for image classification.",
+        "Provide a labeled dataset for training the model and define the necessary hyperparameters.",
+        "Write custom code to build and deploy a container with a pre-trained model for image classification.",
+        "Use SageMaker Ground Truth to automatically label the data before training.",
+        "Define the compute resources (e.g., instance type) and run a training job by referencing the pre-built container."
+      ],
+      "correct_answers": [
+        "Provide a labeled dataset for training the model and define the necessary hyperparameters.",
+        "Define the compute resources (e.g., instance type) and run a training job by referencing the pre-built container."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

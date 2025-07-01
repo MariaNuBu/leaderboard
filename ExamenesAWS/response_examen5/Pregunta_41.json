@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "A financial services company is using Amazon SageMaker Model Monitor to track the feature attribution drift of their credit risk prediction model. They notice that the importance of a particular feature, \"annual income,\" has shifted significantly over time, making it a more dominant factor in the model's predictions.\n\nWhat is the BEST course of action to address this shift in feature importance?",
+      "options": [
+        "Switch to a different model algorithm that automatically reduces the importance of \"annual income\" in predictions.",
+        "Retrain the model with a larger dataset that excludes the \"annual income\" feature to prevent bias in predictions.",
+        "Fine-tune the hyperparameters of the existing model to lower the weight of the \"annual income\" feature.",
+        "Use SageMaker Model Monitor to alert the team about this shift and retrain the model with updated data to ensure feature importance remains balanced."
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Monitor to alert the team about this shift and retrain the model with updated data to ensure feature importance remains balanced."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "A media analytics company processes raw video metadata stored in Amazon S3 buckets to generate insights on audience engagement. The company needs to create data ingestion pipelines for processing this metadata and ML model deployment pipelines to analyze and predict audience behavior patterns. The solution must efficiently handle large-scale data processing and integrate seamlessly with ML workflows.\n\nWhich solution will meet these requirements?\n\nUse Kinesis Data Firehose to stream video metadata from Amazon S3 into the ingestion pipeline and deploy models using AWS Lambda\n\nUse AWS Glue to preprocess raw video metadata in Amazon S3 and create a custom script to deploy models manually using SageMaker endpoints\n\nUse SageMaker Studio Classic for both data ingestion pipelines and ML model deployment pipelines to simplify the process",
+      "options": [
+        "Use Kinesis Data Firehose to stream video metadata from Amazon S3 into the ingestion pipeline and deploy models using AWS Lambda",
+        "Use AWS Glue to preprocess raw video metadata in Amazon S3 and create a custom script to deploy models manually using SageMaker endpoints",
+        "Use SageMaker Studio Classic for both data ingestion pipelines and ML model deployment pipelines to simplify the process"
+      ],
+      "correct_answers": [
+        "Use AWS Glue to create data ingestion pipelines for scalable data processing and SageMaker Studio Classic to manage ML model deployment pipelines"
+      ],
+      "references": [
+        "https://aws.amazon.com/glue/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/studio.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

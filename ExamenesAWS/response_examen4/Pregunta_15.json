@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A retail company wants to predict the likelihood of customers making a purchase based on their online browsing behavior. The data available includes customer demographics, browsing history, product preferences, and time spent on different product pages. The dataset contains millions of records with both numerical and categorical features. The company needs a scalable solution that can handle large datasets efficiently and provide explainable results to understand feature importance.\n\nWhich SageMaker built-in algorithm should the company use, and what key configuration settings should be applied to optimize the model performance for this scenario?",
+      "options": [
+        "Use SageMaker Linear Learner with the objective set to 'regression', learning rate set to 0.01, and batch size of 512. Use 'ml.c5.9xlarge' instances for training and 'ml.t2.medium' instances for inference.",
+        "Use SageMaker XGBoost with the objective set to 'binary', max_depth set to 6, and scale_pos_weight adjusted based on the class imbalance. Use 'ml.m5.4xlarge' instances for both training and inference.",
+        "Use SageMaker DeepAR with the context length set to 100, prediction length set to 10, and frequency set to 'D'. Use 'ml.m4.xlarge' instances for both training and inference.",
+        "Use SageMaker k-means with k set to 3, distance metric set to 'cosine', and mini_batch_size of 1000. Use 'ml.p2.xlarge' instances for training."
+      ],
+      "correct_answers": [
+        "Use SageMaker XGBoost with the objective set to 'binary', max_depth set to 6, and scale_pos_weight adjusted based on the class imbalance. Use 'ml.m5.4xlarge' instances for both training and inference."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

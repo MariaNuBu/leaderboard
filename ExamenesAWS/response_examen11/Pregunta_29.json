@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "An ML engineer is experimenting with a large language model (LLM) for text generation on the Amazon Bedrock text playground. The ML engineer tests inference on different prompts and discovers high randomness and variation of responses to the same repeated questions. The ML engineer must change the inference parameters to standardize answers and generate more consistent responses.\n\nWhich change to the inference parameters will meet these requirements?",
+      "options": [
+        "A Reduce the temperature parameter of the model.",
+        "B Increase the Top P parameter of the model.",
+        "C Reduce the maximum number of tokens that are generated.",
+        "D Specify an end token as an inference parameter."
+      ],
+      "correct_answers": [
+        "A Reduce the temperature parameter of the model."
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "You are a data scientist at an insurance company developing a machine learning model to predict the likelihood of claims being fraudulent. The company has a strong commitment to fairness and wants to ensure that the model does not disproportionately affect any specific demographic group. You decide to use Amazon SageMaker Clarify to assess potential bias in your model. In particular, you are interested in understanding how the model’s predictions differ across demographic groups when conditioned on relevant factors like income level, which could influence the likelihood of fraudulent claims.\n\nGiven this scenario, which of the following BEST describes how Conditional Demographic Disparity (CDD) can be used to assess and mitigate bias in your model?",
+      "options": [
+        "CDD evaluates the disparity in positive prediction rates across demographic groups, conditioned on a specific feature like income, to detect bias that may not be apparent when only considering overall outcomes",
+        "CDD measures the difference in average predicted outcomes between demographic groups, helping to identify overall bias without considering other factors",
+        "CDD assesses the proportion of correctly predicted outcomes for each demographic group, helping to ensure that the model is equally accurate across groups",
+        "CDD focuses on the relationship between feature importance and demographic groups, highlighting whether certain features disproportionately influence predictions for specific groups"
+      ],
+      "correct_answers": [
+        "CDD evaluates the disparity in positive prediction rates across demographic groups, conditioned on a specific feature like income, to detect bias that may not be apparent when only considering overall outcomes"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-data-bias-metric-cddl.html",
+        "https://aws.amazon.com/blogs/machine-learning/learn-how-amazon-sagemaker-clarify-helps-detect-bias/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

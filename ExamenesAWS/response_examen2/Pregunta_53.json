@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "You are a machine learning engineer at a tech company responsible for maintaining a recommendation engine that drives personalized content for users. The current model has been performing well, but you’ve recently developed a new model that incorporates additional features and advanced techniques. Before fully replacing the existing model, you want to evaluate the new model's performance in a real-world environment. To do this, you decide to use A/B testing to compare the performance of the new model against the current model in terms of business outcomes.\n\nWhich of the following approaches is the MOST EFFECTIVE for conducting A/B testing for this use case?",
+      "options": [
+        "Randomly assign a percentage of users to each model and measure engagement metrics, such as click-through rates and session duration, using Amazon CloudWatch to aggregate the results and determine the winning model",
+        "Fully deploy the new model and observe its performance over time. If it performs worse than the old model, revert to the previous model and analyze the differences",
+        "Deploy the new model as the primary endpoint and keep the current model as a fallback. Use AWS Lambda to route a percentage of traffic to the new model and compare the predictions manually to decide which model to keep",
+        "Deploy both models behind separate endpoints and use Amazon SageMaker Model Monitor to track key performance metrics like accuracy and latency, choosing the better model based on these metrics"
+      ],
+      "correct_answers": [
+        "Randomly assign a percentage of users to each model and measure engagement metrics, such as click-through rates and session duration, using Amazon CloudWatch to aggregate the results and determine the winning model"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/a-b-testing-ml-models-in-production-using-amazon-sagemaker/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "You are working as a data scientist at a company that specializes in predictive analytics. You are tasked with training a deep learning model using Amazon SageMaker to predict customer churn. The dataset you have is large and contains millions of records. The training process is taking longer than expected, and you suspect that the hyperparameters need fine-tuning. You want to balance the training time while ensuring the model converges effectively. You have set the batch size to 256, epochs to 50, and learning rate to 0.01. However, the training job is still not performing as expected.\n\nGiven this scenario, which of the following adjustments is MOST LIKELY to reduce the training time without compromising model performance?",
+      "options": [
+        "Increase the number of epochs and maintain the batch size",
+        "Decrease the batch size and increase the number of epochs",
+        "Increase the batch size and decrease the number of epochs",
+        "Decrease the learning rate and increase the batch size"
+      ],
+      "correct_answers": [
+        "Increase the batch size and decrease the number of epochs"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/hyperparameter-tuning/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-llms-finetuning-hyperparameters.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

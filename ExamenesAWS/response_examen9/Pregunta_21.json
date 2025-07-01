@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "In SageMaker Pipelines, how are the relationships between workflow steps defined?\\n\\nBy setting up event-driven notifications in Amazon SNS.\\n\\nExplicación\\nAmazon SNS is not directly used to define step relationships in SageMaker Pipelines.\\n\\nUsing a sequence of manual executions managed by the user.\\n\\nExplicación\\nManual executions are not required as the pipeline automates workflows.\\n\\nWith an AWS Lambda function that triggers each step based on conditions.\\n\\nExplicación\\nWhile Lambda could be used for triggers, the main structure in SageMaker Pipelines relies on DAGs.",
+      "options": [
+        "By setting up event-driven notifications in Amazon SNS.",
+        "Using a sequence of manual executions managed by the user.",
+        "With an AWS Lambda function that triggers each step based on conditions."
+      ],
+      "correct_answers": [
+        "Through a directed acyclic graph (DAG) that specifies dependencies and order."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

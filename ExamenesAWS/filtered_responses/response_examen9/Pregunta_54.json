@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "A company uses AWS Glue to run ETL jobs that process large datasets stored in Amazon S3. To optimize costs, the machine learning engineer wants to ensure that the ETL jobs are not using more resources than necessary. What steps should the engineer take to achieve this?",
+      "options": [
+        "Reduce the number of DPUs to the minimum required.",
+        "Set the jobs to run continuously without idle timeout.",
+        "Increase the default number of DPUs.",
+        "Use the default DPU settings without changes."
+      ],
+      "correct_answers": [
+        "Reduce the number of DPUs to the minimum required."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

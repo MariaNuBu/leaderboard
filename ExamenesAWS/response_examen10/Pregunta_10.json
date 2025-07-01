@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A data scientist is working with an ML model and needs to use new data to update the model. The model was previously tuned by Amazon SageMaker automatic model tuning (AMT). The data scientist wants to use previous tuning job results for more efficient training and to save compute time if the training accuracy is not improving.\n\nWhich hyperparameter tuning job will meet these requirements?",
+      "options": [
+        "Run a warm start tuning job by setting the type to IDENTICAL_DATA_AND_ALGORITHM, and decrease the total number of training jobs. Choose the Auto setting for the early stopping parameter.",
+        "Run a warm start tuning job by setting the type to TRANSFER_LEARNING. Choose the Auto setting for the early stopping parameter.",
+        "Run a hyperparameter tuning job with an updated input data configuration. Configure the maximum number of training jobs that can be run before the tuning job is stopped.",
+        "Run a warm start tuning job by setting the type to TRANSFER_LEARNING. Configure the maximum number of training jobs that can be run before the tuning job is stopped."
+      ],
+      "correct_answers": [
+        "Run a warm start tuning job by setting the type to TRANSFER_LEARNING. Choose the Auto setting for the early stopping parameter."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

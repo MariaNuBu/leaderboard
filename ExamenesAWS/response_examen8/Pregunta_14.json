@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A retail company wants to predict if a customer will purchase a product based on historical data, including past purchases, browsing behavior, and demographic details. Which type of machine learning model is best suited for this task?\n\nK-Means Clustering\n\nExplicación\nThis is an unsupervised learning algorithm used to group similar data points into clusters, not for making a binary prediction.\n\nRegression\n\nExplicación\nRegression is used to predict continuous values, such as house prices or sales, but not for binary outcomes.",
+      "options": [
+        "K-Means Clustering",
+        "Regression",
+        "Binary Classification",
+        "Reinforcement Learning"
+      ],
+      "correct_answers": [
+        "Binary Classification"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

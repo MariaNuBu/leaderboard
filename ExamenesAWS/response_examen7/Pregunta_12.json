@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "Team of data scientists is working on a computer vision project and wants to leverage AWS SageMaker’s built-in algorithms. They plan to use SageMaker JumpStart to streamline the process. What are the key advantages of using SageMaker JumpStart for this project?\n\nJumpStart forces data scientists to only use SageMaker Studio for deployment, limiting flexibility.\n\nExplicación\nJumpStart offers multiple options for deploying models, including SageMaker Studio and the SageMaker Python SDK, providing flexibility in how models are managed and deployed.\n\nUsing JumpStart will eliminate the need for any hyperparameter tuning and data preparation.\n\nExplicación\nWhile JumpStart reduces effort by providing pre-trained models and pipelines, data scientists may still need to perform hyperparameter tuning and customize the data processing for better results.\n\nSageMaker JumpStart only supports text-based models, so it will not be useful for image classification tasks.\n\nExplicación\nJumpStart supports various types of models, including those for image classification and text generation, making it highly versatile.",
+      "options": [
+        "JumpStart forces data scientists to only use SageMaker Studio for deployment, limiting flexibility.",
+        "Using JumpStart will eliminate the need for any hyperparameter tuning and data preparation.",
+        "SageMaker JumpStart only supports text-based models, so it will not be useful for image classification tasks.",
+        "SageMaker JumpStart allows the use of pre-built solutions that come with end-to-end pipelines, reducing time to deployment."
+      ],
+      "correct_answers": [
+        "SageMaker JumpStart allows the use of pre-built solutions that come with end-to-end pipelines, reducing time to deployment."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

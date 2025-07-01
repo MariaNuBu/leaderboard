@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\n\nA financial adviser plans to use machine learning to improve the efficiency and accuracy of processing mortgage loan requests. By incorporating relevant financial and behavioral data, they aim to reduce the time needed to evaluate applications.\n\nWhich options are important for gathering data during model training?\n\nEmployment history\nMedical history\nCredit bureau data\nEducation History",
+      "options": [
+        "Employment history",
+        "Medical history",
+        "Credit bureau data",
+        "Education History"
+      ],
+      "correct_answers": [
+        "Credit bureau data"
+      ],
+      "references": [
+        "https://www.experian.com/blogs/insights/what-is-credit-risk-analytics/",
+        "https://aws.amazon.com/blogs/machine-learning/prepare-data-for-predicting-credit-risk-using-amazon-sagemaker-data-wrangler-and-amazon-sagemaker-clarify/",
+        "https://tutorialsdojo.com/amazon-sagemaker/"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

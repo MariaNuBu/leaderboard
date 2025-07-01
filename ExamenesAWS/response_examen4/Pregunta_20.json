@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A financial services company wants to develop a sophisticated chatbot to assist customers with their investment inquiries. The chatbot should be able to provide detailed responses tailored to the company’s specific product offerings, such as investment plans, retirement accounts, and market trends. The company has unique terminology and a specific style of communication that they want the chatbot to adopt to align with their brand voice. Additionally, the chatbot needs to be able to handle sensitive financial information securely and operate within the company’s compliance guidelines.\n\nThe company decides to use Amazon Bedrock to build this chatbot. Given these requirements, they want to use a language model that can be customized to their specific needs.\n\nWhich approach should the company use to build the chatbot using Amazon Bedrock, and what key configurations should be applied to achieve the desired outcome?",
+      "options": [
+        "Use Amazon Bedrock to deploy a pre-trained transformer model without fine-tuning and rely on Amazon Kendra to provide context-specific answers based on a search of company documents and FAQs.",
+        "Use a foundation model from Amazon Bedrock and fine-tune it with a dataset containing the company’s product information, FAQs, and example customer interactions. Set the model parameters to include custom vocabularies and domain-specific terminology to ensure accurate and relevant responses.",
+        "Build a custom language model from scratch using Amazon SageMaker, training it on the company’s historical chat data and product manuals, and deploy it using Bedrock for real-time customer interaction.",
+        "Use a foundation model from Amazon Bedrock and implement Retrieval-Augmented Generation (RAG) to pull information from a knowledge base of company documents. Configure the chatbot to fetch real-time data on market trends and use it to enhance responses."
+      ],
+      "correct_answers": [
+        "Use a foundation model from Amazon Bedrock and fine-tune it with a dataset containing the company’s product information, FAQs, and example customer interactions. Set the model parameters to include custom vocabularies and domain-specific terminology to ensure accurate and relevant responses."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

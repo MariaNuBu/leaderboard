@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A financial services company is building a fraud detection model using Amazon SageMaker. The ML engineer receives a 40 MB Apache Parquet file as input data. The file contains several correlated columns that are not needed for the model. The engineer needs to drop these unnecessary columns with the least effort while ensuring the data remains compatible with SageMaker for further preprocessing and model training.\n\nWhat should the ML engineer do?",
+      "options": [
+        "Use SageMaker Data Wrangler to import the Parquet file, drop the unnecessary columns, and save the transformed data",
+        "Convert the Parquet file to CSV, manually edit the file to remove the columns, and re-upload the file to SageMaker",
+        "Use AWS Glue to transform the Parquet file and drop the unnecessary columns before importing it into SageMaker",
+        "Write a custom Python script using pandas to load the Parquet file, drop the unnecessary columns, and save it back as a Parquet file"
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler to import the Parquet file, drop the unnecessary columns, and save the transformed data"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-getting-started.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

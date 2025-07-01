@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.\n\nAn ML engineer wants to train a model to analyze customer turnover in a telecommunications company. The ML engineer created a script to fit a Cox model in an Amazon SageMaker training job by using a dataset available in Amazon S3. The training code requires access to third-party Python libraries including scikit-learn, NumPy, pandas, and a proprietary library. The proprietary library code cannot be modified and is available in a private artifact repository.\n\nWhich solution will run the training job with the LEAST operational overhead?",
+      "options": [
+        "A\nBuild and push a custom container with the necessary Python dependencies to Amazon Elastic Container Registry (Amazon ECR). Run the training job by using the container image.",
+        "B\nUse the prebuilt SageMaker scikit-learn framework container to run the training job.",
+        "C\nUse a SageMaker built-in algorithm to run the training job.",
+        "D\nExtend the prebuilt SageMaker scikit-learn framework container to include custom dependencies."
+      ],
+      "correct_answers": [
+        "D\nExtend the prebuilt SageMaker scikit-learn framework container to include custom dependencies."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "You are tasked with building a predictive model for customer lifetime value (CLV) using Amazon SageMaker. Given the complexity of the model, it’s crucial to optimize hyperparameters to achieve the best possible performance. You decide to use SageMaker’s automatic model tuning (hyperparameter optimization) with Random Search strategy to fine-tune the model. You have a large dataset, and the tuning job involves several hyperparameters, including the learning rate, batch size, and dropout rate.\n\nDuring the tuning process, you observe that some of the trials are not converging effectively, and the results are not as expected. You suspect that the hyperparameter ranges or the strategy you are using may need adjustment.\n\nWhich of the following approaches is MOST LIKELY to improve the effectiveness of the hyperparameter tuning process?",
+      "options": [
+        "Use the Grid Search strategy with a wide range for all hyperparameters and increase the number of total trials",
+        "Increase the number of hyperparameters being tuned and widen the range for all hyperparameters",
+        "Switch from the Random Search strategy to the Bayesian Optimization strategy and narrow the range of critical hyperparameters",
+        "Decrease the number of total trials but increase the number of parallel jobs to speed up the tuning process"
+      ],
+      "correct_answers": [
+        "Switch from the Random Search strategy to the Bayesian Optimization strategy and narrow the range of critical hyperparameters"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html",
+        "https://aws.amazon.com/what-is/hyperparameter-tuning/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

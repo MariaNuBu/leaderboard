@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A data engineer is tasked with building an ETL pipeline using AWS Glue to process semi-structured data stored in Amazon S3. The pipeline should automatically infer the schema of the input data, perform transformations, and store the output back to S3 in a different format. The process must be efficient and scalable, without the need for infrastructure management. Which of the following AWS Glue features best fulfill this requirement? (Choose Two)",
+      "options": [
+        "AWS Glue Crawler",
+        "AWS Glue Data Catalog",
+        "AWS Glue Auto Scaling",
+        "Amazon EC2-based Spark Cluster",
+        "AWS Glue Triggers"
+      ],
+      "correct_answers": [
+        "AWS Glue Crawler",
+        "AWS Glue Data Catalog"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

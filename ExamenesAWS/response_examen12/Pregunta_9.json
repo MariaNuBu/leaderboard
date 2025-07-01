@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler\nhttps://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/ \nPREGUNTA 9\n\nTOPIC:\nMLA – ML Model Development\nA data analyst needs to choose the most appropriate visualization methods for various data analysis tasks related to customer purchase patterns.\n\nMatch each visualization method with its primary use case in analyzing customer purchase records. Each service should be selected one or more times. (Select THREE.)\n\nBar Chart\nHistogram\nDensity plot\nHeatmap\nExamining the frequency of purchases for different items over a specific time period.\n(Histogram)\nUnderstanding the concentration and distribution of transaction values in a continuous range.\n(Density plot)\nIdentifying patterns in purchasing behavior across various time intervals and item categories.\n(Bar chart)",
+      "options": [
+        "Bar Chart",
+        "Histogram",
+        "Density plot",
+        "Heatmap"
+      ],
+      "correct_answers": [
+        "Histogram",
+        "Density plot",
+        "Bar Chart"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/data-visualization/",
+        "https://docs.aws.amazon.com/quicksight/latest/user/bar-charts.html",
+        "https://docs.aws.amazon.com/quicksight/latest/user/histogram-charts.html"
+      ],
+      "topic": "MLA – ML Model Development",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "You are working on a machine learning project for a financial services company, developing a model to predict credit risk. After deploying the initial version of the model using Amazon SageMaker, you find that its performance, measured by the AUC (Area Under the Curve), is not meeting the company’s accuracy requirements. Your team has gathered more data and believes that the model can be further optimized.\n\nYou are considering various methods to improve the model’s performance, including feature engineering, hyperparameter tuning, and trying different algorithms. However, given the limited time and computational resources, you need to prioritize the most impactful strategies.\n\nWhich of the following approaches are the MOST LIKELY to lead to a significant improvement in model performance? (Select two)",
+      "options": [
+        "Focus on feature engineering by creating domain-specific features and use SageMaker Clarify to evaluate feature importance",
+        "Switch to a more complex algorithm, such as deep learning, and use transfer learning to leverage pre-trained models",
+        "Increase the size of the training dataset by incorporating synthetic data and then retrain the existing model",
+        "Perform hyperparameter tuning using Bayesian optimization and increase the number of trials to explore a broader search space",
+        "Use Amazon SageMaker Debugger to debug and improve model performance by addressing underlying problems such as overfitting, saturated activation functions, and vanishing gradients"
+      ],
+      "correct_answers": [
+        "Focus on feature engineering by creating domain-specific features and use SageMaker Clarify to evaluate feature importance",
+        "Use Amazon SageMaker Debugger to debug and improve model performance by addressing underlying problems such as overfitting, saturated activation functions, and vanishing gradients"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/train-debugger.html",
+        "https://aws.amazon.com/sagemaker/clarify/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

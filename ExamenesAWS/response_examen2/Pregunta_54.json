@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "You are a machine learning engineer tasked with deploying a machine learning model to a mobile device for real-time object detection. The model currently performs well but is too large to fit within the device's memory and computational constraints. To ensure the model can run efficiently on the device without sacrificing too much accuracy, you need to reduce its size.\n\nGiven these constraints, which combination of techniques is the MOST LIKELY to effectively reduce the model’s size while maintaining acceptable performance?",
+      "options": [
+        "Use feature selection to reduce the number of input features, compress the model by converting the model weights from floating-point to integer format",
+        "Reduce the size of the training dataset, use dropout to decrease model complexity, thereby shrinking the deployed model size",
+        "Prune the model by removing less important neurons and layers, and apply quantization to reduce the precision of the model’s weights from 32-bit to 8-bit",
+        "Apply dimensionality reduction using PCA on the input data, and use model ensembling to combine smaller models, which collectively match the performance of the original model"
+      ],
+      "correct_answers": [
+        "Prune the model by removing less important neurons and layers, and apply quantization to reduce the precision of the model’s weights from 32-bit to 8-bit"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/leveraging-low-precision-and-quantization-for-deep-learning-using-the-amazon-ec2-c5-instance-and-bigdl/",
+        "https://aws.amazon.com/blogs/machine-learning/pruning-machine-learning-models-with-amazon-sagemaker-debugger-and-amazon-sagemaker-experiments/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

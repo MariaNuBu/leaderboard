@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "Which of the following strategies best aligns with the defense-in-depth security approach for generative AI applications on AWS?",
+      "options": [
+        "Applying multiple layers of security measures including input validation, access controls, and continuous monitoring to address vulnerabilities",
+        "Implementing a single-layer firewall to block unauthorized access to the AI models",
+        "Relying solely on data encryption to protect the AI training data",
+        "Using a single authentication mechanism for all users and services accessing the AI models"
+      ],
+      "correct_answers": [
+        "Applying multiple layers of security measures including input validation, access controls, and continuous monitoring to address vulnerabilities"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/architect-defense-in-depth-security-for-generative-ai-applications-using-the-owasp-top-10-for-llms/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

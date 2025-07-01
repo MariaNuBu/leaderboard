@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "Which of the following correctly describes the relationship between trials and trial components within SageMaker Experiments?\n\nA trial component tracks the hardware resources used during training, while a trial compares different algorithms.\n\nExplicación\nTrial components do not track hardware resources; they capture stages in the ML workflow.\n\nA trial captures different models trained in parallel, and trial components represent different datasets used.\n\nExplicación\nA trial represents a specific configuration, not parallel models, and trial components are not used to represent different datasets.\n\nA trial consists of multiple experiments, and each experiment captures metadata about data processing.\n\nExplicación\nTrials do not consist of multiple experiments; an experiment holds multiple trials.",
+      "options": [
+        "A trial component tracks the hardware resources used during training, while a trial compares different algorithms.",
+        "A trial captures different models trained in parallel, and trial components represent different datasets used.",
+        "A trial consists of multiple experiments, and each experiment captures metadata about data processing.",
+        "A trial is a single training run with specific configurations, and trial components capture different stages of the workflow such as data processing or model training."
+      ],
+      "correct_answers": [
+        "A trial is a single training run with specific configurations, and trial components capture different stages of the workflow such as data processing or model training."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3"
+    }
+  ]
+}

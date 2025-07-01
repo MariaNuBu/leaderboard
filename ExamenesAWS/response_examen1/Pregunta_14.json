@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A healthcare company has developed multiple machine learning (ML) models for predicting patient outcomes.\\nThese models are stored in Amazon Elastic Container Registry (Amazon ECR) repositories across different AWS accounts where they were trained.\\nThe company needs to create a centralized catalog of these models to streamline version management, deployment tracking, and governance compliance.\\nThe catalog must provide cross-account access, allowing each AWS account to interact with the central repository securely.\\nThe solution should also enable the company to organize models logically and manage the lifecycle of different model versions efficiently.\\n\\nWhich solution will meet these requirements?",
+      "options": [
+        "Use SageMaker Model Registry to create model groups for organizing models and managing versions. Configure cross-account access by attaching a resource-based policy to the SageMaker Model Registry that grants permissions to other AWS accounts",
+        "Set up an Amazon Redshift cluster to store metadata from ECR repositories across accounts and use SQL queries to track and catalog models centrally. Configure cross-account access to Redshift via federated roles",
+        "Use Amazon ECR to replicate model images across accounts and configure cross-account access using IAM roles. Track metadata and deployment status using custom tagging",
+        "Create a central Amazon S3 bucket to store exported model artifacts from each account, enable cross-account access via bucket policies, and manually maintain a versioning structure for compliance"
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Registry to create model groups for organizing models and managing versions. Configure cross-account access by attaching a resource-based policy to the SageMaker Model Registry that grants permissions to other AWS accounts"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry-version.html#model-registry-version-xaccount",
+        "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-sagemaker-model-registry-cross-account-ml-model-sharing/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

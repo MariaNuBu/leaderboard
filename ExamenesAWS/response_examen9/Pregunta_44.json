@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "A Machine Learning Engineer is running multiple trials to experiment with different algorithms and hyperparameters using Amazon SageMaker Experiments. They want to keep track of the data preprocessing, model training, and evaluation steps separately within each trial. What is the best way to organize and track these steps in SageMaker Experiments?\n\nCreate multiple trackers for each trial to track different steps.\n\nExplicación\nTrackers are used to log metadata, but using multiple trackers to represent steps is not the intended functionality.\n\nStore each step as an individual trial within an experiment.\n\nExplicación\nEach step should not be a separate trial; a trial represents a full execution of a workflow within an experiment.\n\nUse separate experiments for data preprocessing, model training, and evaluation.\n\nExplicación\nMultiple experiments would separate workflows, but they are not necessary to organize individual steps within the same trial.",
+      "options": [
+        "Create multiple trackers for each trial to track different steps.",
+        "Store each step as an individual trial within an experiment.",
+        "Use separate experiments for data preprocessing, model training, and evaluation.",
+        "Use trial components to represent each step of the workflow within a trial."
+      ],
+      "correct_answers": [
+        "Use trial components to represent each step of the workflow within a trial."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

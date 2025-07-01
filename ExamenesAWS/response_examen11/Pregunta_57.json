@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "TOPIC 4.2 Monitor and optimize infrastructure and costs.\n\nA company is developing a TensorFlow model by using Amazon SageMaker framework estimators. The model is experiencing heavy system utilization. An ML engineer must identify system utilization bottlenecks in real time.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A\nEnable SageMaker Model Monitor to continuously monitor system utilization.",
+        "B\nUse Amazon CloudWatch to monitor SageMaker instance metrics that are used by the model.",
+        "C\nUse AWS Config to track changes in SageMaker resource configurations and system utilization over time.",
+        "D\nImplement AWS X-Ray to trace and analyze user requests as requests move through the SageMaker endpoints."
+      ],
+      "correct_answers": [
+        "B\nUse Amazon CloudWatch to monitor SageMaker instance metrics that are used by the model."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.2 Monitor and optimize infrastructure and costs.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

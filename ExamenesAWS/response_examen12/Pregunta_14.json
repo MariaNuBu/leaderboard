@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "Category: MLA – ML Solution Monitoring, Maintenance, and Security\nA company wants to use cost allocation tags to manage and optimize its AWS costs related to Machine Learning (ML) workloads more effectively. It also aims to track and report on its spending across different ML projects and departments.\n\nSelect and order the correct steps from the following list to implement cost allocation tagging for this purpose. Each step should be selected one time or not at all. (Select and order THREE.)\n\nCreate user-defined tags (key-value pairs) for the ML resources.\nConfigure tag-based cost and usage reports for detailed analysis.\nEnable the cost allocation tags in the AWS Billing console.\nSet up automated alerts based on budget thresholds for ML expenses.\nAttach the tags to the ML resources in the AWS Management Console.",
+      "options": [
+        "Create user-defined tags (key-value pairs) for the ML resources.",
+        "Configure tag-based cost and usage reports for detailed analysis.",
+        "Enable the cost allocation tags in the AWS Billing console.",
+        "Set up automated alerts based on budget thresholds for ML expenses.",
+        "Attach the tags to the ML resources in the AWS Management Console."
+      ],
+      "correct_answers": [
+        "Create user-defined tags (key-value pairs) for the ML resources.",
+        "Attach the tags to the ML resources in the AWS Management Console.",
+        "Enable the cost allocation tags in the AWS Billing console."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/custom-tags.html",
+        "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html",
+        "https://tutorialsdojo.com/aws-billing-and-cost-management/"
+      ],
+      "topic": "MLA – ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

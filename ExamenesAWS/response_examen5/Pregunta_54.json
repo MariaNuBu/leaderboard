@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "An e-commerce company uses a Lambda function triggered by Amazon SNS to preprocess customer transaction data before sending it to an Amazon SageMaker model for fraud detection. The transaction data is then stored in Amazon RDS for long-term analytics. The company wants to ensure that only valid transactions (based on a predefined schema) are passed to the SageMaker model and that invalid transactions are logged and stored in Amazon S3 for further analysis.\n\nWhich of the following solutions BEST fits the company's requirements?",
+      "options": [
+        "Use Lambda to validate the schema, send valid data to SageMaker, and forward invalid data to an Amazon SQS queue, which will trigger another Lambda function to log and store it in S3.",
+        "Use Lambda to validate the schema of each transaction, send valid data to SageMaker for inference, and write invalid data directly to Amazon S3.",
+        "Use Amazon Kinesis Data Firehose to preprocess and validate the data, then trigger Lambda to send valid data to SageMaker, while invalid data is redirected to S3.",
+        "Set up a Step Functions workflow to manage validation and invoke Lambda for processing valid data and storing invalid data in S3."
+      ],
+      "correct_answers": [
+        "Use Lambda to validate the schema, send valid data to SageMaker, and forward invalid data to an Amazon SQS queue, which will trigger another Lambda function to log and store it in S3."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

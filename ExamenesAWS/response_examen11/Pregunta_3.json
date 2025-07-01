@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Topic: 1.1 Ingest and store data.\n\nAn ML engineer wants to create a text summarization model that is based on the Amazon SageMaker seq2seq algorithm. The ML model training data includes 1 TB of flat files. The ML engineer must convert the data to RecordIO-Protobuf format.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A\nUse AWS Step Functions and AWS Lambda to write the training data in RecordIO-Protobuf format on Amazon S3.",
+        "B\nCreate an extract, transform, and load (ETL) job by using AWS Glue to write the training data in RecordIO-Protobuf format on Amazon S3.",
+        "C\nUse Amazon Data Firehose to transform the training data to RecordIO-Protobuf format.",
+        "D\nLaunch an Apache Spark Amazon EMR cluster to transform the training data to RecordIO-Protobuf format on Amazon S3."
+      ],
+      "correct_answers": [
+        "D\nLaunch an Apache Spark Amazon EMR cluster to transform the training data to RecordIO-Protobuf format on Amazon S3."
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "A large e-commerce company is using Amazon Fraud Detector to prevent fraudulent account signups. The company wants to automate the detection process using machine learning models and receive fraud scores in real-time. What steps should the company take to implement this solution efficiently? (Choose TWO)",
+      "options": [
+        "Ingest historical data such as past account signups and user details to train the Amazon Fraud Detector model",
+        "Use Amazon Personalize to generate fraud scores based on user interaction data and account creation activities",
+        "Set up Amazon Fraud Detector to automatically extract relevant features, such as user location and device type, for model training",
+        "Deploy AWS Glue to periodically retrain the fraud detection model on newly ingested data",
+        "Use Amazon Fraud Detector to assign a fraud score in real-time, allowing the company to take immediate actions based on the score"
+      ],
+      "correct_answers": [
+        "Ingest historical data such as past account signups and user details to train the Amazon Fraud Detector model",
+        "Use Amazon Fraud Detector to assign a fraud score in real-time, allowing the company to take immediate actions based on the score"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4"
+    }
+  ]
+}

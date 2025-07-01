@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A machine learning engineer is evaluating a binary classification model that predicts whether a transaction is fraudulent or not. The model has the following evaluation metrics:\nPrecision: 85%\n\nRecall: 60%\n\nWhich of the following scenarios BEST describes what this model is achieving?",
+      "options": [
+        "The model is good at identifying fraudulent transactions, but it misses a significant portion of actual fraudulent transactions.",
+        "The model correctly identifies a high proportion of fraudulent transactions but often misses actual fraudulent cases.",
+        "The model often predicts non-fraudulent transactions as fraudulent, leading to a high number of false positives.",
+        "The model is good at correctly identifying most fraudulent transactions but occasionally misclassifies non-fraudulent transactions."
+      ],
+      "correct_answers": [
+        "The model is good at identifying fraudulent transactions, but it misses a significant portion of actual fraudulent transactions."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

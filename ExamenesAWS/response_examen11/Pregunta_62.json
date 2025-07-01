@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "A data scientist successfully used Amazon Comprehend from an Amazon SageMaker notebook instance through the boto3 Python APIs. Later, a security team configures a VPC endpoint dedicated to Amazon Comprehend. Security requirements state that AWS services should not be reached through the public internet. The data scientist attempts to update the SageMaker notebook to reach the DNS entry of the VPC endpoint, but the service call fails.\n\nHow can the data scientist resolve the error to access Amazon Comprehend from the SageMaker notebook instance?",
+      "options": [
+        "A Update the role used by the SageMaker notebook instance. Grant a new policy that can consume the VPC endpoint.",
+        "B Verify if the SageMaker notebook instance is configured to run inside the same VPC as the VPC endpoint.",
+        "C Associate the VPC with at least one public subnet and one NAT gateway.",
+        "D Replace boto3 with a custom API call for the SageMaker notebook to reach the DNS entry of the VPC endpoint."
+      ],
+      "correct_answers": [
+        "B Verify if the SageMaker notebook instance is configured to run inside the same VPC as the VPC endpoint."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.3 Secure AWS Resources.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "You are a data scientist at a healthcare startup tasked with developing a machine learning model to predict the likelihood of patients developing a specific chronic disease within the next five years. The dataset available includes patient demographics, medical history, lab results, and lifestyle factors, but it is relatively small, with only 1,000 records. Additionally, the dataset has missing values in some critical features, and the class distribution is highly imbalanced, with only 5% of patients labeled as having developed the disease.\n\nGiven the data limitations and the complexity of the problem, which of the following approaches is the MOST LIKELY to determine the feasibility of an ML solution and guide your next steps?",
+      "options": [
+        "Conduct exploratory data analysis (EDA) to understand the data distribution, address missing values, and assess the class imbalance before determining if an ML solution is feasible",
+        "Increase the dataset size by generating synthetic data and then train a simple logistic regression model to avoid overfitting",
+        "Proceed with training a deep neural network (DNN) model using the available data, as DNNs can handle small datasets by learning complex patterns",
+        "Immediately apply an oversampling technique to balance the dataset, then train an XGBoost model to maximize performance on the minority class"
+      ],
+      "correct_answers": [
+        "Conduct exploratory data analysis (EDA) to understand the data distribution, address missing values, and assess the class imbalance before determining if an ML solution is feasible"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/exploratory-data-analysis-feature-engineering-and-operationalizing-your-data-flow-into-your-ml-pipeline-with-amazon-sagemaker-data-wrangler/",
+        "https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-canvas-for-exploratory-data-analysis/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A retail company plans to use Amazon Bedrock to build a product recommendation system that generates personalized suggestions for users. The company wants to enhance the accuracy of the recommendations using real-time data and integrate additional knowledge sources to improve model responses.\nWhich features of Amazon Bedrock should the company use to meet these needs? (Choose TWO)",
+      "options": [
+        "Use agents in Amazon Bedrock to break down tasks and connect to real-time data via APIs.",
+        "Leverage AWS Lambda to trigger model updates after each user interaction.",
+        "Use Amazon Bedrock's knowledge bases to incorporate private data into the recommendation model.",
+        "Configure EC2 instances to run additional AI models for better performance.",
+        "Enable cross-region data sharing for better model accuracy."
+      ],
+      "correct_answers": [
+        "Use agents in Amazon Bedrock to break down tasks and connect to real-time data via APIs.",
+        "Use Amazon Bedrock's knowledge bases to incorporate private data into the recommendation model."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

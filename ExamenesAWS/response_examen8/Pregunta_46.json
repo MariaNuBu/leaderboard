@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "A data scientist is training a machine learning model using a large dataset with various features. During the initial evaluation, the model appears to be overfitting. Which combination of techniques can the data scientist apply to reduce overfitting and improve generalization? (Choose TWO)",
+      "options": [
+        "Use cross-validation by rotating through training and validation sets.",
+        "Increase the number of parameters in the model to capture more data patterns.",
+        "Apply regularization to penalize extreme model parameters.",
+        "Reduce the amount of training data to limit the complexity of the model.",
+        "Avoid using dimensionality reduction techniques to retain all feature information."
+      ],
+      "correct_answers": [
+        "Use cross-validation by rotating through training and validation sets.",
+        "Apply regularization to penalize extreme model parameters."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.\n\nCase Study - 4 Questions\n\nA company wants to implement predictive maintenance for critical equipment by using ML algorithms. The company requires development, deployment, and management of the predictive maintenance solutions.\n\nQuestion\nThe company wants to deploy a new version of a model into production. The company wants to shift only a small portion of traffic first. If the results are satisfactory, the company will shift the remainder of the traffic to the new version.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A\nImplement a blue/green deployment strategy in all-at-once mode.",
+        "B\nImplement a blue/green deployment strategy in canary mode.",
+        "C\nImplement a blue/green deployment strategy in linear mode.",
+        "D\nImplement a rolling deployment strategy."
+      ],
+      "correct_answers": [
+        "B\nImplement a blue/green deployment strategy in canary mode."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

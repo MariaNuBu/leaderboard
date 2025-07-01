@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "You are a machine learning engineer responsible for deploying a customer churn prediction model using Amazon SageMaker into production at a telecommunications company. The model is critical for proactive customer retention efforts, so maintaining high availability and reliability is essential. Given the model’s importance, you must implement best practices for deployment, including versioning and rollback strategies, to ensure that any issues with the new model version can be quickly addressed without impacting the business.\n\nWhich of the following approaches BEST exemplifies deployment best practices in this scenario?",
+      "options": [
+        "Deploy the new model version to a staging environment, test it thoroughly, and then manually replace the existing production model. If any issues occur, update the model in staging and redeploy",
+        "Deploy the new model version directly to production, replacing the existing model, and monitor its performance closely. If issues arise, retrain the model immediately and redeploy",
+        "Version the model by tagging the new version, deploy it to production, and use weighted traffic splitting to send a small percentage of traffic to the new model. If no issues are detected, gradually increase traffic to the new version",
+        "Use a blue/green deployment strategy to deploy the new model version in parallel with the existing version, allowing you to switch traffic to the new model gradually and roll back if necessary"
+      ],
+      "correct_answers": [
+        "Use a blue/green deployment strategy to deploy the new model version in parallel with the existing version, allowing you to switch traffic to the new model gradually and roll back if necessary"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deployment-guardrails-blue-green.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deployment-guardrails-rolling.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

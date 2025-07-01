@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "You are a machine learning engineer at a financial services company responsible for maintaining a fraud detection model deployed on Amazon SageMaker.\nThe model processes a high volume of real-time transactions and must respond with low latency to ensure a seamless customer experience.\nRecently, the model has experienced increased latency during peak traffic times, and there have been instances where requests were dropped due to insufficient capacity.\n\nWhich approach is the MOST EFFECTIVE for monitoring and resolving these latency and scaling issues in your ML solution?",
+      "options": [
+        "Configure Amazon CloudWatch to monitor key metrics such as invocation latency, model error rates, and CPU utilization. Set up CloudWatch Alarms to automatically trigger an increase in instance count when latency exceeds a predefined threshold, and enable auto-scaling on the SageMaker endpoint to handle traffic spikes",
+        "Manually monitor the model’s performance using the SageMaker console, and manually increase the instance size whenever latency is detected, to ensure the model remains responsive during peak periods",
+        "Implement a serverless architecture using AWS Lambda for model inference to eliminate latency and scaling issues. Use Amazon CloudFront to cache inference results for faster response times",
+        "Use Amazon SageMaker Model Monitor to track the performance of the model and identify data drift. Adjust the model’s hyperparameters based on the results to reduce latency and improve scalability during peak times"
+      ],
+      "correct_answers": [
+        "Configure Amazon CloudWatch to monitor key metrics such as invocation latency, model error rates, and CPU utilization. Set up CloudWatch Alarms to automatically trigger an increase in instance count when latency exceeds a predefined threshold, and enable auto-scaling on the SageMaker endpoint to handle traffic spikes"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/monitoring-cloudwatch.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

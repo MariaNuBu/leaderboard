@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A data scientist at a financial institution wants to train a machine learning model using Amazon SageMaker's built-in algorithms.\nThey need to optimize for ease of use and infrastructure management, while still having the flexibility to define their hyperparameters and perform automatic hyperparameter tuning.\nThe data scientist is considering the built-in \"XGBoost\" algorithm for a classification task.\nWhich of the following steps are necessary to properly set up and train the model using the built-in algorithm?",
+      "options": [
+        "Customize the XGBoost algorithm container and manage infrastructure manually before training.",
+        "Use the pre-packaged XGBoost algorithm container, specify the data location, define the hyperparameters, and select an appropriate compute instance.",
+        "Develop a custom XGBoost container to allow for proprietary data processing pipelines.",
+        "Install the XGBoost framework locally, develop the model, and upload the trained model to SageMaker for inference."
+      ],
+      "correct_answers": [
+        "Use the pre-packaged XGBoost algorithm container, specify the data location, define the hyperparameters, and select an appropriate compute instance."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

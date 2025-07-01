@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "TOPIC: MLA – Deployment and Orchestration of ML Workflows\nA financial services company is leveraging AWS machine learning services to enhance its operations and customer experience. The company is focused on implementing advanced solutions to detect fraudulent activities, gain insights from customer feedback, and offer personalized financial advice through an interactive chatbot.\n\nSelect the correct AWS service to meet this requirement for each case. Each service should be selected one or more times. (Select THREE.)\n\n– Amazon SageMaker AI\n\n– Amazon Comprehend\n\n– Amazon Lex\n\nDetecting fraudulent transactions\n(Amazon SageMaker AI)\nAnalyzing customer feedback for sentiment and insights\n(Amazon Comprehend)\nProviding personalized financial advice through a chatbot\n(Amazon Lex)",
+      "options": [
+        "Amazon SageMaker AI",
+        "Amazon Comprehend",
+        "Amazon Lex"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker AI – Detecting fraudulent transactions",
+        "Amazon Comprehend – Analyzing customer feedback for sentiment and insights",
+        "Amazon Lex – Providing personalized financial advice through a chatbot"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/detect-fraudulent-transactions-using-machine-learning-with-amazon-sagemaker/",
+        "https://docs.aws.amazon.com/comprehend/latest/dg/tutorial-reviews.html",
+        "https://aws.amazon.com/lex/financial-services/"
+      ],
+      "topic": "MLA – Deployment and Orchestration of ML Workflows",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

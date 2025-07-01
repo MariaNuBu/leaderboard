@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "TOPIC 4.2 Monitor and optimize infrastructure and costs.\n\nA company is continuously collecting data to help improve the company's online recommendation system. An ML engineer is using a built-in Amazon SageMaker ML model. The ML engineer trains the model on an ml.m5.xlarge instance as new customer data is collected. The model must be trained every week, but the training is not time sensitive.\n\nHow can the ML engineer train the model in the MOST cost-effective manner?",
+      "options": [
+        "A\nIn the SageMaker training job, set EnableManagedSpotTraining to True.",
+        "B\nCreate a reservation for Amazon EC2 instances for the training job.",
+        "C\nDeploy the training container on Amazon ECS on AWS Fargate on a schedule.",
+        "D\nRun a distributed ML job on an ephemeral Amazon EMR cluster."
+      ],
+      "correct_answers": [
+        "A\nIn the SageMaker training job, set EnableManagedSpotTraining to True."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.2 Monitor and optimize infrastructure and costs.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

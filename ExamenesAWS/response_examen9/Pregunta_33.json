@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "Which of the following is a primary benefit of using Amazon SageMaker Experiments in a machine learning workflow?",
+      "options": [
+        "Offering real-time collaboration for multiple users in a single experiment.",
+        "Capturing and organizing metadata for trials to ensure reproducibility.",
+        "Automatically tuning hyperparameters without manual intervention.",
+        "Deploying models directly to production environments."
+      ],
+      "correct_answers": [
+        "Capturing and organizing metadata for trials to ensure reproducibility."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

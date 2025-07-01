@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A data engineering team needs to analyze large datasets stored in an Amazon S3 data lake using SQL queries. The data is in semi-structured JSON format, and the team wants to improve query performance by converting it into a columnar format. They also want to ensure the schema is automatically inferred and stored, so that the data can be queried directly from Amazon S3 without loading it into a relational database. Which of the following steps should the team implement using AWS Glue and Amazon Athena? (Choose Two)\n\nEnable partitioning in Athena to automatically split large datasets by date, optimizing query performance.\n\nUse Amazon Athena to run a query that converts JSON data to Apache ORC format and saves it directly into Amazon Redshift.\n\nUse AWS Glue ETL jobs to convert the JSON data into Apache Parquet format and store it back in S3.\n\nSet up an AWS Glue Crawler to automatically infer the schema from the JSON files and store the metadata in the Glue Data Catalog.\n\nManually create an Amazon Athena schema for each dataset and register it in the Glue Data Catalog.",
+      "options": [
+        "Enable partitioning in Athena to automatically split large datasets by date, optimizing query performance.",
+        "Use Amazon Athena to run a query that converts JSON data to Apache ORC format and saves it directly into Amazon Redshift.",
+        "Use AWS Glue ETL jobs to convert the JSON data into Apache Parquet format and store it back in S3.",
+        "Set up an AWS Glue Crawler to automatically infer the schema from the JSON files and store the metadata in the Glue Data Catalog.",
+        "Manually create an Amazon Athena schema for each dataset and register it in the Glue Data Catalog."
+      ],
+      "correct_answers": [
+        "Use AWS Glue ETL jobs to convert the JSON data into Apache Parquet format and store it back in S3.",
+        "Set up an AWS Glue Crawler to automatically infer the schema from the JSON files and store the metadata in the Glue Data Catalog."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

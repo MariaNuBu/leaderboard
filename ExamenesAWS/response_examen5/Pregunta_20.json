@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "\nA data analyst wants to extract meaningful insights from unstructured customer feedback stored in Amazon S3. The insights should include key entities like people, organizations, and locations mentioned in the feedback, as well as the overall sentiment of the feedback. Which combination of Amazon Comprehend features should the analyst use to achieve this goal?\n\nKeyphrase Extraction and Topic Modeling\n\nExplicación\nKeyphrase Extraction identifies significant phrases, but it does not identify entities or determine sentiment. Topic Modeling groups documents by common themes, which isn’t directly relevant for analyzing individual feedback.\n",
+      "options": [
+        "Keyphrase Extraction and Topic Modeling",
+        "Entity Recognition and Sentiment Analysis",
+        "Topic Modeling and Keyphrase Extraction",
+        "Text Classification and Entity Recognition"
+      ],
+      "correct_answers": [
+        "Entity Recognition and Sentiment Analysis"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

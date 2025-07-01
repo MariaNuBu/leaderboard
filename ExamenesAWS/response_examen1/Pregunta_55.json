@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "You are a data scientist at a marketing agency tasked with creating a sentiment analysis model to analyze customer reviews for a new product. The company wants to quickly deploy a solution with minimal training time and development effort. You decide to leverage a pre-trained natural language processing (NLP) model and fine-tune it using a custom dataset of labeled customer reviews. Your team has access to both Amazon Bedrock and SageMaker JumpStart.\n\nWhich approach is the MOST APPROPRIATE for fine-tuning the pre-trained model with your custom dataset?",
+      "options": [
+        "Use SageMaker JumpStart to create a custom container for your pre-trained model and manually implement fine-tuning with TensorFlow",
+        "Use Amazon Bedrock to train a model from scratch using your custom dataset, as Bedrock is optimized for training large models efficiently",
+        "Use SageMaker JumpStart to deploy a pre-trained NLP model and use the built-in fine-tuning functionality with your custom dataset to create a customized sentiment analysis model",
+        "Use Amazon Bedrock to select a base foundation model from a third-party provider, then fine-tune the base model directly in the Bedrock interface using your custom dataset"
+      ],
+      "correct_answers": [
+        "Use SageMaker JumpStart to deploy a pre-trained NLP model and use the built-in fine-tuning functionality with your custom dataset to create a customized sentiment analysis model"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-fine-tune.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

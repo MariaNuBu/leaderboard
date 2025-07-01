@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA retail company is launching a series of new products across its global stores. The company wants to forecast daily demand for its products based on historical sales data. The historical data includes information on product sales, inventory levels, and marketing campaigns. However, the timestamps for this data are irregular, and some data points are missing due to occasional stockouts or incomplete records.\n\nWhich approach would you recommend to satisfy these requirements with the LEAST operational overhead?\n\nProcess and forecast data using Amazon EMR Serverless with PySpark.\nVisualize and forecast data using Amazon QuickSight.\nPrepare and analyze data using Amazon SageMaker Studio Data Wrangler.\nClean and forecast data using Amazon SageMaker Studio Notebook with Pandas.",
+      "options": [
+        "Process and forecast data using Amazon EMR Serverless with PySpark.",
+        "Visualize and forecast data using Amazon QuickSight.",
+        "Prepare and analyze data using Amazon SageMaker Studio Data Wrangler.",
+        "Clean and forecast data using Amazon SageMaker Studio Notebook with Pandas."
+      ],
+      "correct_answers": [
+        "Prepare and analyze data using Amazon SageMaker Studio Data Wrangler."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html",
+        "https://aws.amazon.com/blogs/machine-learning/prepare-time-series-data-with-amazon-sagemaker-data-wrangler/"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

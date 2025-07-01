@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "A company is using Amazon S3 to store sensitive business documents. To enhance security, they want to grant access to the S3 bucket only to certain IAM users, while denying access to others. Additionally, the company requires the S3 bucket to be accessed by an EC2 instance running in a different AWS account, but only for reading data.\\n\\nWhich combination of AWS IAM features should be used to meet these requirements? (Choose TWO)",
+      "options": [
+        "Use a customer-managed IAM policy attached to the S3 bucket to define granular access for the EC2 instance and the IAM users.",
+        "Use AWS Lambda to check the IAM users’ permissions before allowing access to the S3 bucket.",
+        "Create a role in the other AWS account with a trust policy allowing the EC2 instance to assume the role and read from the S3 bucket.",
+        "Use an identity-based policy to attach to IAM users that grants or denies access to the S3 bucket.",
+        "Apply a resource-based bucket policy in Amazon S3 to explicitly deny access from all users except the EC2 instance and required IAM users."
+      ],
+      "correct_answers": [
+        "Create a role in the other AWS account with a trust policy allowing the EC2 instance to assume the role and read from the S3 bucket.",
+        "Use an identity-based policy to attach to IAM users that grants or denies access to the S3 bucket."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

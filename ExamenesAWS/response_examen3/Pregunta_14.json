@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A company uses an ML model to generate text descriptions for product images uploaded by customers. Each uploaded image can be as large as 40 MB in size. To cost-effectively handle the inference request for these uploads, the images are saved in an Amazon S3 bucket. A data engineer needs to implement a scalable processing solution that can adapt to fluctuations in demand while minimizing operational overhead.\n\nWhat is the best solution to meet these requirements?\n\nCreate an Amazon SageMaker Real-Time Inference endpoint. Upon each image upload, trigger an AWS Lambda function to make an inference request\n\nCreate an Amazon SageMaker Serverless Inference endpoint and a scaling policy. Run a script to make an inference request for each image\n\nUtilize Amazon SageMaker's Batch Transform for inference to process the images stored in the Amazon S3 bucket in bulk",
+      "options": [
+        "Create an Amazon SageMaker Real-Time Inference endpoint. Upon each image upload, trigger an AWS Lambda function to make an inference request",
+        "Create an Amazon SageMaker Serverless Inference endpoint and a scaling policy. Run a script to make an inference request for each image",
+        "Utilize Amazon SageMaker's Batch Transform for inference to process the images stored in the Amazon S3 bucket in bulk",
+        "Create an Amazon SageMaker Asynchronous Inference endpoint and a scaling policy. Upon each image upload, trigger an AWS Lambda function to make anference request"
+      ],
+      "correct_answers": [
+        "Create an Amazon SageMaker Asynchronous Inference endpoint and a scaling policy. Upon each image upload, trigger an AWS Lambda function to make an inference request"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/async-inference.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/hosting-faqs.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints-invoke.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms-batch-code.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

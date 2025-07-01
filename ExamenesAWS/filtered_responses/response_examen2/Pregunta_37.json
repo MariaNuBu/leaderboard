@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "You are tasked with preparing a dataset for a machine learning model using SageMaker Data Wrangler. You need to perform a transformation that removes outliers from your dataset.\n\nWhich of the following actions in SageMaker Data Wrangler would you use to accomplish this task?\n\nOne-hot Encode\n\nFormat string",
+      "options": [
+        "One-hot Encode",
+        "Format string",
+        "Filter",
+        "Impute"
+      ],
+      "correct_answers": [
+        "Filter",
+        "Impute"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-transform.html#data-wrangler-transform-filter-data",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-transform.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

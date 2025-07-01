@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A data science team is working on a machine learning project that requires them to ingest large volumes of raw data for analysis and feature engineering. The team plans to use Amazon SageMaker for the project, and they need to efficiently ingest the data into a platform where they can perform transformations and store features for future model training.\n\nWhich of the following approaches is the most efficient for ingesting data, performing data transformations, and then storing the engineered features?",
+      "options": [
+        "Ingest the data into AWS Glue for transformations, then store the transformed data in Amazon S3 and load it into Amazon SageMaker using the AWS SDK for Python",
+        "Ingest the data into Amazon SageMaker Data Wrangler, perform transformations, and then store the transformed data in SageMaker Feature Store",
+        "Load the data into an Amazon RDS database, then use SageMaker Clarify to ingest and transform the data for storing in the Feature Store",
+        "Use Amazon S3 to store the raw data, then directly connect SageMaker Feature Store to ingest and transform the data"
+      ],
+      "correct_answers": [
+        "Ingest the data into Amazon SageMaker Data Wrangler, perform transformations, and then store the transformed data in SageMaker Feature Store"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

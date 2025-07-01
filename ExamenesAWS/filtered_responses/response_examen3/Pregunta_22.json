@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "What is a key difference in feature engineering tasks for structured data compared to unstructured data in the context of machine learning?\n\nFeature engineering tasks for structured data and unstructured data are identical and do not vary based on data type",
+      "options": [
+        "Feature engineering tasks for structured data and unstructured data are identical and do not vary based on data type",
+        "Feature engineering for structured data often involves tasks such as normalization and handling missing values, while for unstructured data, it involves tasks such as tokenization and vectorization",
+        "Feature engineering for structured data is not necessary as the data is already in a usable format, whereas for unstructured data, extensive preprocessing is always required",
+        "Feature engineering for structured data focuses on image recognition, whereas for unstructured data, it focuses on numerical data analysis"
+      ],
+      "correct_answers": [
+        "Feature engineering for structured data often involves tasks such as normalization and handling missing values, while for unstructured data, it involves tasks such as tokenization and vectorization"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/feature-engineering.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

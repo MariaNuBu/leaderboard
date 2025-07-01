@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A data scientist wants to optimize a machine learning model for deployment across multiple edge devices using SageMaker Neo. After training the model using TensorFlow in SageMaker, what are the next steps the data scientist should take to optimize the model for edge deployment while maintaining performance?\n\nSet up SageMaker Debugger to capture real-time metrics during inference on edge devices.\n\nExplicación\nSageMaker Debugger is useful for monitoring and debugging during training but is not used for optimizing models for edge deployment.",
+      "options": [
+        "Set up SageMaker Debugger to capture real-time metrics during inference on edge devices.",
+        "Use SageMaker Neo to compile the model for the target hardware platform and deploy it using AWS IoT Greengrass.",
+        "Use SageMaker Debugger to profile the edge device resource usage and optimize the model based on profiling results.",
+        "Manually rewrite the model’s code to ensure it is compatible with the target edge hardware."
+      ],
+      "correct_answers": [
+        "Use SageMaker Neo to compile the model for the target hardware platform and deploy it using AWS IoT Greengrass."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

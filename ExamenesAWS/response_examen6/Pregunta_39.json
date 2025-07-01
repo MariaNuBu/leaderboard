@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A data engineer is tasked with building a real-time streaming data pipeline where data from IoT devices is continuously ingested and needs to be distributed to multiple consumers for further processing and analysis. However, the engineer is concerned about potential bottlenecks due to multiple consumers sharing the same read throughput. What feature of Kinesis Data Streams can address this concern?",
+      "options": [
+        "Shard Splitting",
+        "Partition Key",
+        "Kinesis Producer Library",
+        "Enhanced Fan-out"
+      ],
+      "correct_answers": [
+        "Enhanced Fan-out"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

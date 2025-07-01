@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A data scientist is developing a machine learning model for a healthcare application. During model evaluation, they observe that the model has high bias and is underfitting the data. They decide to implement strategies to address the bias and variance issues to ensure the model generalizes well on new data.\n\nWhich combination of strategies would be MOST effective to balance bias and variance and avoid both underfitting and overfitting?",
+      "options": [
+        "Use early stopping during training to prevent overfitting and add regularization to simplify the model.",
+        "Add more training data and implement cross-validation to reduce overfitting and ensure better generalization.",
+        "Implement early stopping and dimensionality reduction to reduce the complexity of the model and prevent underfitting.",
+        "Increase the number of model parameters and reduce the training data size to reduce variance."
+      ],
+      "correct_answers": [
+        "Add more training data and implement cross-validation to reduce overfitting and ensure better generalization."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

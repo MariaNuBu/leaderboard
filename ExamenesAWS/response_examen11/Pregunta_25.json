@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A data scientist at a bank wants to train a model to predict loan approvals by using XGBoost on Amazon SageMaker. The training dataset is a tabular dataset. The dataset includes a column named \"approved\" that indicates if the loan is approved, with 1 indicating approved and 0 indicating not approved. When setting up the hyperparameter tuning, the data scientist needs to provide an evaluation metric.\n\nWhich evaluation metric is correct for this scenario?",
+      "options": [
+        "A validation: f1",
+        "B validation: mse",
+        "C validation: mae",
+        "D validation: rmse"
+      ],
+      "correct_answers": [
+        "A validation: f1"
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

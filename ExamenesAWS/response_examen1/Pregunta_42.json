@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "A financial institution has deployed a machine learning model using Amazon SageMaker to predict whether credit card transactions are fraudulent. To ensure model performance remains consistent, the company configured Amazon SageMaker Model Monitor to track deviations in the model accuracy over time. The model's baseline accuracy was recorded during its initial deployment. However, after several months of operation, the model’s accuracy drops significantly despite no changes being made to the model.\n\nWhat could be the reason for the reduced model accuracy?\n\nThe model’s hyperparameters have automatically adjusted during inference, causing a decline in predictive accuracy\n\nThe deployed model’s architecture degraded over time, reducing its predictive performance\n\nAmazon SageMaker Model Monitor miscalculated the accuracy metric due to a configuration error",
+      "options": [
+        "The model’s hyperparameters have automatically adjusted during inference, causing a decline in predictive accuracy",
+        "The deployed model’s architecture degraded over time, reducing its predictive performance",
+        "Amazon SageMaker Model Monitor miscalculated the accuracy metric due to a configuration error",
+        "Concept drift occurred in the underlying customer data that was used for predictions, changing the relationship between input features and the target variable over time"
+      ],
+      "correct_answers": [
+        "Concept drift occurred in the underlying customer data that was used for predictions, changing the relationship between input features and the target variable over time"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-model-retraining-with-amazon-sagemaker-pipelines-when-drift-is-detected/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

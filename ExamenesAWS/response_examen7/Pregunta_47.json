@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "A data scientist at a retail company needs to quickly build a machine learning model to predict customer churn. The data scientist has limited time and prefers to avoid the complexity of setting up custom infrastructure or algorithms. Which approach would be most suitable for this scenario using Amazon SageMaker?",
+      "options": [
+        "Build a custom algorithm using TensorFlow on a SageMaker notebook instance, with manual setup for data processing and infrastructure management.",
+        "Set up a custom model using a proprietary algorithm on Amazon EC2, ensuring complete control over the infrastructure.",
+        "Use SageMaker Jumpstart to deploy a pre-built solution for customer churn prediction without customization.",
+        "Use SageMaker built-in algorithms, such as XGBoost, with the provided dataset, specifying only the hyperparameters and instance type."
+      ],
+      "correct_answers": [
+        "Use SageMaker built-in algorithms, such as XGBoost, with the provided dataset, specifying only the hyperparameters and instance type."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

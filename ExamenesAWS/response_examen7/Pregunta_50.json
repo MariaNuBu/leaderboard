@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "You are managing a machine learning project and want to reuse a data preprocessing step from a previous pipeline for a new model. What feature of SageMaker Pipelines allows you to achieve this?",
+      "options": [
+        "Steps in a pipeline can be reused across different projects, saving time and effort.",
+        "Pipelines must be redefined for each new model.",
+        "Pipeline steps are not reusable and must be manually duplicated for each new model.",
+        "Only parameter values can be reused in different pipelines."
+      ],
+      "correct_answers": [
+        "Steps in a pipeline can be reused across different projects, saving time and effort."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

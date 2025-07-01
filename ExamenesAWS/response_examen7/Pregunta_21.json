@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "An organization is working on a text classification problem and decides to use Amazon SageMaker's built-in algorithms. The team is concerned about optimizing model performance without manually tuning hyperparameters. What features of SageMaker can help address this requirement?\n\nUtilize custom algorithms to bypass hyperparameter tuning altogether.\n\nExplicación\nCustom algorithms still need hyperparameter tuning in most cases, and bypassing it could lead to suboptimal performance.\n\nManually adjust hyperparameters for the built-in algorithm by trial and error.\n\nExplicación\nManually adjusting hyperparameters can be time-consuming and inefficient, especially when SageMaker provides built-in features for automatic tuning.\n\nUse SageMaker JumpStart to automatically deploy pre-trained text generation models without any customization.\n\nExplicación\nWhile SageMaker JumpStart offers pre-trained models, the question is focused on optimizing performance for a text classification task, which requires hyperparameter tuning for the custom dataset.",
+      "options": [
+        "Utilize custom algorithms to bypass hyperparameter tuning altogether.",
+        "Manually adjust hyperparameters for the built-in algorithm by trial and error.",
+        "Use SageMaker JumpStart to automatically deploy pre-trained text generation models without any customization.",
+        "Use SageMaker's automatic hyperparameter tuning with the built-in linear learner algorithm."
+      ],
+      "correct_answers": [
+        "Use SageMaker's automatic hyperparameter tuning with the built-in linear learner algorithm."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

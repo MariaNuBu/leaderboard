@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "TOPIC 4.3 Secure AWS Resources.\n\nA company is planning to develop an ML model by using Amazon SageMaker. The training dataset is sensitive and is stored in Amazon S3 in a different AWS Region from where the company plans to run SageMaker. The training dataset cannot be exposed to the public internet during processing.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A\nEncrypt the S3 data by using AWS Key Management Service (AWS KMS).",
+        "B\nDisable direct internet access for SageMaker instances. Enable an interface VPC endpoint within the VPC.",
+        "C\nDisable direct internet access for SageMaker instances. Enable a gateway VPC endpoint within the VPC.",
+        "D\nConfigure IAM roles and bucket policies to restrict SageMaker access to the S3 data."
+      ],
+      "correct_answers": [
+        "B\nDisable direct internet access for SageMaker instances. Enable an interface VPC endpoint within the VPC."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS Resources.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

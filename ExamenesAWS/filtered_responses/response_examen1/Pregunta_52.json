@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "Which AWS service is used to store, share and manage inputs to Machine Learning models used during training and inference?\n\nAmazon SageMaker Ground Truth\n\nAmazon SageMaker Data Wrangler\n\nAmazon SageMaker Clarify",
+      "options": [
+        "Amazon SageMaker Ground Truth",
+        "Amazon SageMaker Data Wrangler",
+        "Amazon SageMaker Clarify",
+        "Amazon SageMaker Feature Store"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Feature Store"
+      ],
+      "references": [
+        "https://aws.amazon.com/sagemaker/feature-store/",
+        "https://aws.amazon.com/sagemaker/groundtruth",
+        "https://aws.amazon.com/sagemaker/clarify/",
+        "https://aws.amazon.com/sagemaker/data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

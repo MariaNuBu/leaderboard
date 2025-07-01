@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "Pregunta 10\n\nA healthcare company is developing a machine learning model using Amazon SageMaker to predict whether patients are at risk of developing a rare but serious disease. The dataset is highly imbalanced, with only 1% of the records indicating that a patient has the disease. The model needs to ensure that high-risk patients are correctly identified as positive cases, as missing these cases could result in severe consequences for patient health. On the other hand, it is also important to minimize false positives to avoid unnecessary stress and medical expenses for patients.\n\nWhich evaluation metric should the company use to best evaluate the performance of the model?",
+      "options": [
+        "Accuracy",
+        "AUC-ROC",
+        "Mean Absolute Error (MAE)",
+        "F1 Score"
+      ],
+      "correct_answers": [
+        "F1 Score"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 - "
+    }
+  ]
+}

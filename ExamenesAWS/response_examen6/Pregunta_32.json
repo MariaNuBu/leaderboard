@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "You are developing an AI model for image classification that shows poor performance on both training and new data. The model exhibits high bias, meaning it is unable to capture the complexity of the data. According to responsible AI practices, which TWO strategies should you implement to reduce bias and improve model performance? (Choose TWO)",
+      "options": [
+        "Add more training data to increase the model's ability to learn patterns from diverse examples.",
+        "Reduce the number of features by applying dimensionality reduction techniques like PCA.",
+        "Implement oversampling to duplicate samples from the majority class in the dataset.",
+        "Apply early stopping to prevent the model from learning noise in the training data.",
+        "Use cross-validation to ensure the model is generalizing well across different subsets of data."
+      ],
+      "correct_answers": [
+        "Add more training data to increase the model's ability to learn patterns from diverse examples.",
+        "Use cross-validation to ensure the model is generalizing well across different subsets of data."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

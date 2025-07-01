@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A data science team is using SageMaker Jumpstart to deploy a pre-built model for text summarization. They need to further customize the model to ensure the summaries generated are highly relevant to their business needs. Which TWO customization techniques can they use with SageMaker Jumpstart? (Choose Two)",
+      "options": [
+        "Use SageMaker Neo to optimize the model for faster inference on edge devices.",
+        "Develop a new custom algorithm using TensorFlow and manually train it on SageMaker.",
+        "Fine-tune the pre-trained model on their custom dataset to adapt the summarization to their specific domain.",
+        "Use SageMaker Model Monitor to automatically adjust the model’s parameters during deployment.",
+        "Apply prompt engineering to modify the input prompts and improve the relevance of the text summarization."
+      ],
+      "correct_answers": [
+        "Fine-tune the pre-trained model on their custom dataset to adapt the summarization to their specific domain.",
+        "Apply prompt engineering to modify the input prompts and improve the relevance of the text summarization."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

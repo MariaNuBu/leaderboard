@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A data analytics company is using an Amazon EMR cluster to process large volumes of log data collected from various sources. The logs must be processed in batches, and the results are stored in Amazon S3 for downstream analytics. The company requires a cluster configuration that ensures no data loss during processing while being as cost-effective as possible.\n\nWhich instance purchasing option will meet these requirements?\n\nUse Spot instances for primary and core nodes, and On-Demand instances for task nodes to balance cost and availability\n\nUse Spot instances for all primary, core, and task nodes to minimize costs and automatically handle failures by replacing interrupted nodes",
+      "options": [
+        "Use Spot instances for primary and core nodes, and On-Demand instances for task nodes to balance cost and availability",
+        "Use Spot instances for all primary, core, and task nodes to minimize costs and automatically handle failures by replacing interrupted nodes",
+        "Use an On-Demand instance for the primary node along with the core nodes, and Spot instances for task nodes to reduce costs while ensuring fault tolerance",
+        "Use an On-Demand instance for the primary node and Spot instances for the core nodes as well as the task nodes to reduce costs while ensuring fault tolerance"
+      ],
+      "correct_answers": [
+        "Use an On-Demand instance for the primary node along with the core nodes, and Spot instances for task nodes to reduce costs while ensuring fault tolerance"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html",
+        "https://aws.amazon.com/ec2/spot/use-case/emr/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

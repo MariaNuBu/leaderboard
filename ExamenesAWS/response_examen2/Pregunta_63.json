@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "You are a machine learning engineer responsible for maintaining an ML pipeline that processes customer transaction data to detect fraudulent activity. The pipeline includes several stages: data ingestion, data preprocessing, model inference, and result storage. The pipeline runs continuously, processing large volumes of data in near real-time. Recently, you’ve noticed that some transactions are being incorrectly classified as non-fraudulent, raising concerns about potential anomalies or errors in the data processing or model inference stages.\n\nGiven the critical nature of the pipeline, which approach is the MOST EFFECTIVE for addressing these issues?",
+      "options": [
+        "Use AWS Lambda functions to log and audit every transaction processed by the pipeline, storing detailed logs in Amazon S3 for manual analysis when anomalies are suspected",
+        "Set up Amazon CloudWatch alarms to monitor CPU and memory usage across the pipeline’s compute resources, and trigger notifications if these metrics exceed predefined thresholds",
+        "Schedule periodic manual reviews of a random sample of processed transactions to check for anomalies or errors, documenting any issues for further investigation",
+        "Implement Amazon SageMaker Model Monitor to track the distribution of input data features and model predictions over time, alerting you when deviations from expected patterns occur"
+      ],
+      "correct_answers": [
+        "Implement Amazon SageMaker Model Monitor to track the distribution of input data features and model predictions over time, alerting you when deviations from expected patterns occur"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

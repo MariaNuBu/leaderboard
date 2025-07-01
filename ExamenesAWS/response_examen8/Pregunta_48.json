@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "A machine learning engineer is using Amazon SageMaker Debugger to monitor a training job. The engineer notices that the model’s validation loss starts to increase while the training loss continues to decrease. What action should the engineer take to address this issue?",
+      "options": [
+        "Increase the learning rate to improve the model's performance.",
+        "Use early stopping to prevent further overfitting.",
+        "Add more features to the model to increase its complexity.",
+        "Reduce the amount of training data to prevent overfitting."
+      ],
+      "correct_answers": [
+        "Use early stopping to prevent further overfitting."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

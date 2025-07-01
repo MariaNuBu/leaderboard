@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "Your company is starting a new machine learning project, and the data preparation tasks are being handled by a team of business analysts. These analysts are more comfortable working with visual tools rather than writing code, and they need to combine, transform, and clean large datasets efficiently. The goal is to use a SageMaker tool that allows them to perform these tasks using a visual, point-and-click interface.\n\nWhich SageMaker tool(s) would best suit the team's requirements for preparing and analyzing data without writing code?",
+      "options": [
+        "Use Amazon SageMaker Data Wrangler within Amazon SageMaker Canvas",
+        "Prepare data with SQL in Amazon SageMaker Studio. The SQL extension connections to Amazon Athena for working with datasets",
+        "Use Amazon SageMaker Data Wrangler within Amazon SageMaker JumpStart",
+        "Prepare data using Amazon EMR in Studio"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Data Wrangler within Amazon SageMaker Canvas"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-data-prep.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-prep.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "A machine learning (ML) engineer has developed a model using Amazon SageMaker and deployed it into production. The engineer wants to track the performance of the model in real-time, including metrics such as prediction accuracy and model drift, and ensure that the model maintains high quality over time.\n\nWhich of the following AWS services is the most suitable for monitoring the model's performance for the given scenario?\n\nAmazon CloudWatch",
+      "options": [
+        "Amazon CloudWatch",
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Autopilot",
+        "AWS Glue"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Model Monitor"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-model-monitor.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

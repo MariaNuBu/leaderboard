@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "You are a machine learning engineer working for a telecommunications company that needs to develop a predictive maintenance model. The goal is to predict when network equipment is likely to fail based on historical sensor data. The data includes features such as temperature, pressure, usage, and error rates recorded over time. The company wants to avoid unplanned downtime and optimize maintenance schedules by predicting failures just in time.\n\nGiven the nature of the data and the business objective, which Amazon SageMaker built-in algorithm is the MOST SUITABLE for this use case?",
+      "options": [
+        "DeepAR Algorithm to forecast future equipment failures based on historical data",
+        "Linear Learner Algorithm to classify equipment status as 'healthy' or 'at risk' based on sensor readings",
+        "Random Cut Forest (RCF) Algorithm to detect anomalies in sensor data that may indicate impending failures",
+        "Time Series K-Means Algorithm to cluster similar patterns in the sensor data and predict failures"
+      ],
+      "correct_answers": [
+        "Random Cut Forest (RCF) Algorithm to detect anomalies in sensor data that may indicate impending failures"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/randomcutforest.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

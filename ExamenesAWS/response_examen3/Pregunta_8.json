@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A media streaming company manages a data lake using AWS Lake Formation to store and analyze user behavior and content preferences.\nThe data lake contains both structured and unstructured data, including video metadata, user activity logs, and clickstream data.\nThe company’s data analysts are assigned to specific content categories, such as sports, movies, or documentaries.\nEach analyst needs access to only the data relevant to their assigned category for analysis through Amazon Athena.\nThe company wants to ensure fine-grained access control while reducing operational complexity.\n\nWhich solution will meet these requirements?\n\nUse AWS Glue workflows to tag data with category-specific tags and manage access using IAM policy conditions based on these tags\n\nUse S3 bucket policies to restrict access to folders corresponding to each content category and configure Athena workgroups for query-level access control\n\nUse AWS Lake Formation to define permissions based on Lake Formation tags. Assign category-specific tags to the data and associate them with the analysts’ IAM roles for fine-grained access control\n\nCreate separate S3 buckets for each content category and assign bucket-level permissions to analysts based on their roles",
+      "options": [
+        "Use AWS Glue workflows to tag data with category-specific tags and manage access using IAM policy conditions based on these tags",
+        "Use S3 bucket policies to restrict access to folders corresponding to each content category and configure Athena workgroups for query-level access control",
+        "Use AWS Lake Formation to define permissions based on Lake Formation tags. Assign category-specific tags to the data and associate them with the analysts’ IAM roles for fine-grained access control",
+        "Create separate S3 buckets for each content category and assign bucket-level permissions to analysts based on their roles"
+      ],
+      "correct_answers": [
+        "Use AWS Lake Formation to define permissions based on Lake Formation tags. Assign category-specific tags to the data and associate them with the analysts’ IAM roles for fine-grained access control"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html",
+        "https://docs.aws.amazon.com/lake-formation/latest/dg/tag-based-access-control.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "You are a data scientist at a healthcare company developing a machine learning model to analyze medical imaging data, such as X-rays and MRIs, for disease detection. The dataset consists of 10 million high-resolution images stored in Amazon S3, amounting to several terabytes of data. The training process requires processing these images efficiently to avoid delays due to I/O bottlenecks, and you must ensure that the chosen data access method aligns with the large dataset size and the high throughput requirements of the model.\n\nGiven the size and nature of the dataset, which SageMaker input mode and AWS Cloud Storage configuration is the MOST SUITABLE for this use case?",
+      "options": [
+        "Select the Pipe input mode to stream the data directly from Amazon S3 to the training instances, allowing the model to start processing data immediately without requiring local storage for the entire dataset",
+        "Use the File input mode with EFS (Amazon Elastic File System) to mount the dataset across multiple instances, ensuring data is shared and accessible during distributed training",
+        "Use the File input mode to download the entire dataset from Amazon S3 to the training instances' local storage before starting the training process, ensuring that all data is available locally during training",
+        "Implement the FastFile input mode with FSx for Lustre, to enable on-demand streaming of data chunks from Amazon S3 with low latency and high throughput"
+      ],
+      "correct_answers": [
+        "Select the Pipe input mode to stream the data directly from Amazon S3 to the training instances, allowing the model to start processing data immediately without requiring local storage for the entire dataset"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-access-training-data.html",
+        "https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-sagemaker-fast-file-mode/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

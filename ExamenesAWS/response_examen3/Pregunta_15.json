@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "You are a machine learning engineer managing an ML model deployed on Amazon SageMaker to provide real-time predictions for a financial application. The model is critical for fraud detection and must operate with high availability and low latency. Recently, users have reported increased latency in receiving predictions, and there have been occasional timeout errors. To maintain the performance and reliability of the model, you need to configure monitoring and alerting tools to troubleshoot and resolve these issues promptly.\n\nWhich of the following approaches is the MOST EFFECTIVE for configuring and using Amazon CloudWatch tools to troubleshoot and analyze the performance of your ML solution?\n\nUse CloudWatch Logs Insights to manually search and analyze logs from the SageMaker training jobs, and configure CloudWatch Alarms to track CPU and memory usage on the EC2 instances running the model\n\nRely on the SageMaker console to monitor model performance metrics, and configure CloudWatch Logs to store training logs without setting up specific alarms, analyzing logs only when issues arise\n\nEnable Amazon CloudTrail for logging all API calls, and use CloudWatch Logs to monitor network traffic. Create CloudWatch Alarms based on API activity to detect performance issues",
+      "options": [
+        "Use CloudWatch Logs Insights to manually search and analyze logs from the SageMaker training jobs, and configure CloudWatch Alarms to track CPU and memory usage on the EC2 instances running the model",
+        "Rely on the SageMaker console to monitor model performance metrics, and configure CloudWatch Logs to store training logs without setting up specific alarms, analyzing logs only when issues arise",
+        "Enable Amazon CloudTrail for logging all API calls, and use CloudWatch Logs to monitor network traffic. Create CloudWatch Alarms based on API activity to detect performance issues",
+        "Enable Amazon CloudWatch Logs to capture detailed logs from the SageMaker endpoint, configure CloudWatch Alarms to monitor invocation latency and error rates, and set up notifications to alert the team when thresholds are breached"
+      ],
+      "correct_answers": [
+        "Enable Amazon CloudWatch Logs to capture detailed logs from the SageMaker endpoint, configure CloudWatch Alarms to monitor invocation latency and error rates, and set up notifications to alert the team when thresholds are breached"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-incident-response.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/monitoring-cloudwatch.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

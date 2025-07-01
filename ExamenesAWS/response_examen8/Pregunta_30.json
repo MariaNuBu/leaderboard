@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A machine learning engineer is working with Amazon SageMaker to train a decision tree model and needs to optimize the hyperparameters. The model's performance needs to be optimized by tuning the depth of the tree and the minimum samples required for a split.\n\nWhich of the following describes the difference between hyperparameters and model parameters?\n\nHyperparameters are learned from the training data, while model parameters are set before training.\n\nHyperparameters are external configurations set before training begins, while model parameters are learned during training.\n\nHyperparameters control the size of the data input, while model parameters control the training speed.\n\nModel parameters influence how quickly the model learns, while hyperparameters control the training algorithm.",
+      "options": [
+        "Hyperparameters are learned from the training data, while model parameters are set before training.",
+        "Hyperparameters are external configurations set before training begins, while model parameters are learned during training.",
+        "Hyperparameters control the size of the data input, while model parameters control the training speed.",
+        "Model parameters influence how quickly the model learns, while hyperparameters control the training algorithm."
+      ],
+      "correct_answers": [
+        "Hyperparameters are external configurations set before training begins, while model parameters are learned during training."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "Pregunta 62\n\nA media company wants to build an automated video transcription and translation pipeline. They need to transcribe speech from videos, translate the text into multiple languages, and create audio versions of the translated text. Which AWS services would fulfill these requirements?\n\nUse AWS Glue for transcription, Amazon Translate for text translation, and AWS Lambda to convert the translated text to speech.\n\nUse Amazon Transcribe to convert speech to text, Amazon SageMaker for text translation, and Amazon Rekognition for speech synthesis.\n\nUse Amazon Transcribe to convert speech to text, Amazon Translate for text translation, and Amazon Polly to convert translated text to speech.\n\nUse Amazon Rekognition for transcription, AWS Lambda for text translation, and Amazon Polly for speech synthesis.",
+      "options": [
+        "Use AWS Glue for transcription, Amazon Translate for text translation, and AWS Lambda to convert the translated text to speech.",
+        "Use Amazon Transcribe to convert speech to text, Amazon SageMaker for text translation, and Amazon Rekognition for speech synthesis.",
+        "Use Amazon Transcribe to convert speech to text, Amazon Translate for text translation, and Amazon Polly to convert translated text to speech.",
+        "Use Amazon Rekognition for transcription, AWS Lambda for text translation, and Amazon Polly for speech synthesis."
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert speech to text, Amazon Translate for text translation, and Amazon Polly to convert translated text to speech."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

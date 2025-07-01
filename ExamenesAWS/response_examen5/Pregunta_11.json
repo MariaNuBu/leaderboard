@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A retail company uses Amazon SageMaker to forecast sales by training a machine learning model on historical data. The data includes columns such as product_id, date, price, promotion, and units_sold. The company wants to improve its forecast accuracy by incorporating new features, such as holidays and competitor pricing.\n\nWhat is the most effective way to include these new features in the model training workflow?",
+      "options": [
+        "Use Amazon SageMaker’s hyperparameter tuning to adjust the model based on new features.",
+        "Enable Amazon SageMaker’s AutoPilot feature to automatically detect and add holiday and competitor pricing features.",
+        "Use Amazon Forecast, which automatically incorporates external variables, such as holidays, into the forecasting model.",
+        "Add the new features to the dataset, retrain the model, and compare the new model’s performance."
+      ],
+      "correct_answers": [
+        "Add the new features to the dataset, retrain the model, and compare the new model’s performance."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

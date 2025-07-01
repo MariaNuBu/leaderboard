@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "A company is concerned about potential Distributed Denial of Service (DDoS) attacks on its application, which has been targeted in the past. They require advanced protection, including automatic mitigation for complex DDoS threats and access to AWS’s DDoS Response Team (DRT) for real-time support during incidents.\n\nWhich AWS service should they use to meet these requirements?\n\nAWS Shield Standard\n\nExplicación\nAWS Shield Standard provides basic DDoS protection, automatically enabled and free, but lacks advanced features and DRT support.",
+      "options": [
+        "AWS Shield Standard",
+        "AWS Shield Advanced",
+        "AWS WAF",
+        "Amazon CloudWatch"
+      ],
+      "correct_answers": [
+        "AWS Shield Advanced"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "A retail company trained an ML model on Amazon SageMaker to detect damaged products from warehouse surveillance images. The training dataset was created using SageMaker Data Wrangler, which included images of damaged and undamaged products. During training and validation, the model achieved high accuracy; however, in production, the model’s performance is degraded due to differences in lighting conditions and image quality across various warehouse locations. The ML engineer needs to improve the model's accuracy to handle variations in image quality with the LEAST amount of time and effort.\n\nWhat do you recommend?",
+      "options": [
+        "Use SageMaker Data Wrangler’s corrupt image transform to preprocess the training data by simulating variations in image quality for robust model training",
+        "Deploy a preprocessing pipeline in Amazon SageMaker to filter out low-quality images before sending them to the model for inference",
+        "Use SageMaker Data Wrangler’s outlier detection transform to remove outlier images from the dataset and improve the model’s performance",
+        "Fine-tune the model by manually collecting additional data from various cameras and retrain it with the new dataset"
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler’s corrupt image transform to preprocess the training data by simulating variations in image quality for robust model training"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/prepare-image-data-with-amazon-sagemaker-data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "A machine learning engineer is using Amazon SageMaker Data Wrangler to prepare data for training a model. The dataset has missing values, inconsistent scales across features, and categorical data. Which of the following actions can the engineer perform using Data Wrangler to resolve these issues? (Choose THREE)",
+      "options": [
+        "Manually code all the transformations using Python and upload the final dataset to SageMaker.",
+        "Normalize feature values to ensure all features are on a similar scale.",
+        "One-hot encode categorical data to convert it into a numerical format.",
+        "Use Amazon EMR to pre-process the data for missing values and scaling.",
+        "Perform imputation to fill in missing values using strategies like mean or median."
+      ],
+      "correct_answers": [
+        "Normalize feature values to ensure all features are on a similar scale.",
+        "One-hot encode categorical data to convert it into a numerical format.",
+        "Perform imputation to fill in missing values using strategies like mean or median."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

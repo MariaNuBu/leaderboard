@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A technology company uses AWS CloudFormation to manage its infrastructure as code. The team wants to create a CloudFormation stack that includes an Amazon S3 bucket and an Amazon EC2 instance. The S3 bucket should only be created if the EC2 instance is successfully launched. If the EC2 instance creation fails, the stack creation should be rolled back, and the S3 bucket should not be created.\n\nWhich configuration will meet these requirements?\n\nUse a CreationPolicy on the EC2 instance resource and an UpdatePolicy on the S3 bucket resource.\n\nExplicación\nA CreationPolicy helps in specifying how AWS CloudFormation waits for a resource to be created successfully. UpdatePolicy is used for updating resources. These do not directly ensure that the S3 bucket creation is dependent on the successful creation of the EC2 instance.\n\nUse a custom resource to check the status of the EC2 instance creation and create the S3 bucket based on that status.\n\nExplicación\nUsing a custom resource could achieve the desired result, but it is more complex and unnecessary when the DependsOn attribute can directly fulfill the requirement.\n\nUse the Condition attribute to create a condition that checks if the EC2 instance is created and use that condition in the S3 bucket resource.\n\nExplicación\nThe Condition attribute is used for conditional creation of resources based on parameters or other conditions, but it cannot directly check the success status of another resource’s creation.",
+      "options": [
+        "Use a CreationPolicy on the EC2 instance resource and an UpdatePolicy on the S3 bucket resource.",
+        "Use a custom resource to check the status of the EC2 instance creation and create the S3 bucket based on that status.",
+        "Use the Condition attribute to create a condition that checks if the EC2 instance is created and use that condition in the S3 bucket resource.",
+        "Use the DependsOn attribute in the S3 bucket resource to specify the EC2 instance resource."
+      ],
+      "correct_answers": [
+        "Use the DependsOn attribute in the S3 bucket resource to specify the EC2 instance resource."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

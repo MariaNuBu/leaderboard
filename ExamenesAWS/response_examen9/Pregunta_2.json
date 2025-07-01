@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A financial institution is using Amazon Macie to monitor sensitive data within its Amazon S3 buckets. The company needs to ensure compliance with regulations that require regular reporting on personal identifiable information (PII) found in their stored data. Which combination of features in Amazon Macie can the institution use to automate this process and generate regular reports?",
+      "options": [
+        "Scheduled sensitive data discovery jobs and Macie’s automated data classification.",
+        "Real-time monitoring of bucket access policies and Amazon Inspector reports.",
+        "Integration with Amazon GuardDuty for PII detection and using custom Lambda functions to scan data.",
+        "Macie’s anomaly detection and manual scanning of buckets."
+      ],
+      "correct_answers": [
+        "Scheduled sensitive data discovery jobs and Macie’s automated data classification."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A company manages an ML model in production. The company needs to improve the model's quality without impacting the model's performance. Additionally, the company wants to re-train the model by using additional data.\n\nWhich solution will meet these requirements with the LEAST development effort?",
+      "options": [
+        "Use Amazon QuickSight to make predictions for the model. Re-train the model based on the prediction results.",
+        "Use Amazon SageMaker Model Registry to collect new data. Use the new data for re-training.",
+        "Use Amazon SageMaker Experiments to collect new data. Use the new data to re-train the model.",
+        "Use Amazon SageMaker Model Monitor. Enable Data Capture on the endpoint, and use that data for model re-training."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Model Monitor. Enable Data Capture on the endpoint, and use that data for model re-training."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

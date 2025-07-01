@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "A media company wants to generate synthetic data to improve the training of its recommendation model and is considering Amazon Bedrock for this purpose. The company plans to use a foundation model for content generation and requires secure, scalable data handling. Which Amazon Bedrock feature ensures data privacy and compliance during content generation?\n\nIntegration with Amazon CloudWatch for monitoring\n\nExplicación\nCloudWatch integration assists with monitoring but does not ensure data privacy and regional compliance.\n\nOn-demand pricing based on token usage\n\nExplicación\nOn-demand pricing addresses cost-efficiency but does not involve data handling or privacy measures.",
+      "options": [
+        "Integration with Amazon CloudWatch for monitoring",
+        "On-demand pricing based on token usage",
+        "Region-specific data handling and encryption",
+        "Provisioned throughput mode for steady workloads"
+      ],
+      "correct_answers": [
+        "Region-specific data handling and encryption"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

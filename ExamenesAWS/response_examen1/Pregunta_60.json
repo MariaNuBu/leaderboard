@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "You are a machine learning engineer at a biotech company developing a custom deep learning model for analyzing genomic data. The model relies on a specific version of TensorFlow with custom Python libraries and dependencies that are not available in the standard SageMaker environments. To ensure compatibility and flexibility, you decide to use the \"Bring Your Own Container\" (BYOC) approach with Amazon SageMaker for both training and inference.\nGiven this scenario, which steps are MOST IMPORTANT for successfully deploying your custom container with SageMaker, ensuring that it meets the company’s requirements?\nDeploy the model locally using Docker, then use the AWS Management Console to manually copy the environment and model files to a SageMaker instance for training\nPackage the model as a SageMaker-compatible file, upload it to Amazon S3, and use a pre-built SageMaker container for training, ensuring that the training job uses the custom environment\nBuild a Docker container with the required TensorFlow version and dependencies, push the container image to Docker Hub, and reference the image in SageMaker when creating the training job",
+      "options": [
+        "Deploy the model locally using Docker, then use the AWS Management Console to manually copy the environment and model files to a SageMaker instance for training",
+        "Package the model as a SageMaker-compatible file, upload it to Amazon S3, and use a pre-built SageMaker container for training, ensuring that the training job uses the custom environment",
+        "Build a Docker container with the required TensorFlow version and dependencies, push the container image to Docker Hub, and reference the image in SageMaker when creating the training job",
+        "Create a Docker container with the required environment, push the container image to Amazon ECR (Elastic Container Registry), and use SageMaker’s Script Mode to execute the training script within the container"
+      ],
+      "correct_answers": [
+        "Create a Docker container with the required environment, push the container image to Amazon ECR (Elastic Container Registry), and use SageMaker’s Script Mode to execute the training script within the container"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-script-mode/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

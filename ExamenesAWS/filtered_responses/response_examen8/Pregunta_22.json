@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A machine learning is preparing a large dataset for machine learning model training using AWS Glue and AWS Glue Databrew. The goal is to clean and preprocess the data, including removing duplicates and converting text columns to uppercase. What is the BEST way to achieve this using AWS Glue Databrew?",
+      "options": [
+        "Use Databrew’s visual interface to apply transformation steps, such as removing duplicates and converting text to uppercase, then save these transformations as a recipe.",
+        "Manually write code to perform the transformations, and run it on an Amazon EC2 instance.",
+        "Use AWS Lambda functions to apply text transformations and remove duplicates before importing the data into Databrew.",
+        "Store the dataset in Amazon RDS and use SQL queries to preprocess the data."
+      ],
+      "correct_answers": [
+        "Use Databrew’s visual interface to apply transformation steps, such as removing duplicates and converting text to uppercase, then save these transformations as a recipe."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

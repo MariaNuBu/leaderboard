@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "TOPIC: 2.2 Train and refine models.\n\nA company is training a model on 50,000 images. A first evaluation of the model shows that the training error rapidly decreases as the number of epochs increases, which causes the model to generalize poorly on the evaluation data. A ML engineer must improve the generalization of the model.\n\nWhich method will meet the requirements?",
+      "options": [
+        "A\nDecrease the amount of images in the training dataset.",
+        "B\nIncrease the amount of features in the training dataset.",
+        "C\nIncrease the number for the regularization hyperparameter.",
+        "D\nIncrease the number of epochs on the training data."
+      ],
+      "correct_answers": [
+        "C\nIncrease the number for the regularization hyperparameter."
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

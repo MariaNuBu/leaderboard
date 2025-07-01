@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A financial services company is using Amazon Fraud Detector to detect fraudulent transactions. They have noticed that during peak traffic times, the model needs to scale quickly to handle the increased number of transactions without losing accuracy. How should they configure their fraud detection system to ensure scalability and real-time detection?\n\nUse Amazon SageMaker to train a custom fraud detection model and manually manage its deployment during high-traffic periods.\n\nExplicación\nSageMaker is not required here, as Amazon Fraud Detector already provides a scalable, fully managed fraud detection service tailored to real-time fraud detection.",
+      "options": [
+        "Use Amazon SageMaker to train a custom fraud detection model and manually manage its deployment during high-traffic periods.",
+        "Use Amazon Fraud Detector's built-in scalability to automatically adjust based on traffic and maintain fraud detection accuracy.",
+        "Set up an Auto Scaling group with EC2 instances to handle fraud detection requests.",
+        "Manually provision additional resources in AWS Lambda to scale during peak traffic."
+      ],
+      "correct_answers": [
+        "Use Amazon Fraud Detector's built-in scalability to automatically adjust based on traffic and maintain fraud detection accuracy."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "Pregunta 60\n\nA company is managing multiple AWS accounts and wants to implement a centralized user management system. They need to ensure that users can seamlessly access resources across all accounts without managing multiple credentials. The company also requires the ability to control access through policies and track user activities.\n\nWhich solution will meet these requirements MOST effectively?\n\nUse AWS Directory Service to create a single directory and link it to all AWS accounts.\n\nExplicación\nUsing AWS Directory Service to create a single directory and linking it to all AWS accounts can provide centralized user management, but it may not offer the ability to control access through policies or track user activities effectively.\nCreate IAM users in each AWS account and assign the necessary permissions.\n\nExplicación\nCreating IAM users in each AWS account and assigning necessary permissions may lead to credential management issues and make it difficult for users to seamlessly access resources across multiple accounts without switching credentials.",
+      "options": [
+        "Use AWS Directory Service to create a single directory and link it to all AWS accounts.",
+        "Create IAM users in each AWS account and assign the necessary permissions.",
+        "Set up AWS Organizations and enable Single Sign-On (SSO) for centralized access management across all accounts.",
+        "Configure IAM roles in each account and allow users to switch roles as needed."
+      ],
+      "correct_answers": [
+        "Set up AWS Organizations and enable Single Sign-On (SSO) for centralized access management across all accounts."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

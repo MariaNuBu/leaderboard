@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A retail business relies on an ML model to forecast daily sales, which helps manage inventory across its stores. The model runs once every evening to generate predictions for the next day. It uses sales data from the past few days as input with a maximum payload size of 3.5 MB, and the prediction process completes within 60 seconds.\n\nWhat is the most suitable deployment option on Amazon SageMaker to meet these requirements?",
+      "options": [
+        "Use a Real-time inference endpoint, with the Minimum number of copies set to 1",
+        "Use Batch transform for inference with Amazon SageMaker AI",
+        "Use an Asynchronous Inference endpoint and place the request payload in Amazon S3",
+        "Use a serverless inference endpoint, with MaxConcurrency parameter set to 1"
+      ],
+      "correct_answers": [
+        "Use a serverless inference endpoint, with MaxConcurrency parameter set to 1"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model-options.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints-invoke.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints-deploy-models.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

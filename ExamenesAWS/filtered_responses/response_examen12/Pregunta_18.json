@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA healthcare analytics team is discussing the lifecycle management of models deployed to production. The team’s data scientist is tasked with deciding whether the deployed machine learning models need to be retrained and updated regularly.\n\nWhich of the following statements accurately reflects the requirements for maintaining machine learning models in production?\n\nProduction data does not differ from training data over time, so models do not require continuous retraining.\nMachine learning models need to be regularly retrained as data changes over time.\nOnce a machine learning model is deployed, it can remain effective indefinitely without updates.\nProduction data is always consistent with training data, making retraining unnecessary.",
+      "options": [
+        "Production data does not differ from training data over time, so models do not require continuous retraining.",
+        "Machine learning models need to be regularly retrained as data changes over time.",
+        "Once a machine learning model is deployed, it can remain effective indefinitely without updates.",
+        "Production data is always consistent with training data, making retraining unnecessary."
+      ],
+      "correct_answers": [
+        "Machine learning models need to be regularly retrained as data changes over time."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

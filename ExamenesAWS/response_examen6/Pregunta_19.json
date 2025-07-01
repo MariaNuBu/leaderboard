@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A company wants to collaborate on an ongoing machine learning project.\nThey need an environment where multiple team members can work on different Jupyter notebooks in a persistent workspace with shared access to project resources.\nWhich of the following options should the company choose to meet this requirement?",
+      "options": [
+        "Amazon SageMaker Studio",
+        "Amazon SageMaker Ground Truth",
+        "Amazon SageMaker Notebook Instances",
+        "Amazon EC2"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Studio"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

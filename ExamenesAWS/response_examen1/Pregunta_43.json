@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "You are a machine learning engineer at an e-commerce company that uses a recommendation model to suggest products to customers. The model was trained on data from the past year, but after being in production for several months, you notice that the model's recommendations are becoming less relevant. You suspect that either data drift or model drift could be causing the decline in performance. To investigate and resolve the issue, you need to understand the difference between these two types of drift and how to monitor them using Amazon SageMaker.\n\nWhich of the following statements BEST describes the difference between data drift and model drift, and how you would address them using Amazon SageMaker?\n\nData drift is a sudden change in the model’s accuracy, while model drift is a gradual degradation in model performance. You should use SageMaker Feature Store to manage both types of drift by standardizing input data",
+      "options": [
+        "Data drift is a sudden change in the model’s accuracy, while model drift is a gradual degradation in model performance. You should use SageMaker Feature Store to manage both types of drift by standardizing input data",
+        "Data drift occurs when the distribution of the input data changes over time, while model drift happens when the model’s underlying assumptions or parameters become outdated. To address data drift, you should use SageMaker Model Monitor to track changes in input data distribution. For model drift, you should periodically retrain the model using the latest data",
+        "Data drift refers to changes in the model’s accuracy due to shifts in the data, while model drift refers to changes in the underlying data features over time. To address both, you should use SageMaker Clarify to detect bias and retrain the model monthly",
+        "Data drift occurs when the model’s predictions start to deviate from the expected outcomes, while model drift occurs when the model's accuracy declines due to changes in the input data. SageMaker Pipelines should be used to automate retraining for both types of drift"
+      ],
+      "correct_answers": [
+        "Data drift occurs when the distribution of the input data changes over time, while model drift happens when the model’s underlying assumptions or parameters become outdated. To address data drift, you should use SageMaker Model Monitor to track changes in input data distribution. For model drift, you should periodically retrain the model using the latest data"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

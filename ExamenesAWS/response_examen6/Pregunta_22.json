@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A machine learning engineer is training a deep learning model on SageMaker and notices that the model performs well on the training data but poorly on the validation set, indicating overfitting. The engineer wants to use SageMaker Debugger to automatically detect overfitting and take corrective actions.\n\nWhich of the following SageMaker Debugger features can help identify and resolve overfitting issues during training?",
+      "options": [
+        "Set up SageMaker Profiler to track GPU memory utilization and adjust the batch size to prevent overfitting.",
+        "Enable real-time alerts in SageMaker Debugger when CPU utilization exceeds a threshold to detect overfitting.",
+        "Use built-in SageMaker Debugger rules to monitor the loss curve and alert when overfitting is detected.",
+        "Monitor I/O operations using SageMaker Profiler to detect overfitting and dynamically adjust the learning rate."
+      ],
+      "correct_answers": [
+        "Use built-in SageMaker Debugger rules to monitor the loss curve and alert when overfitting is detected."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

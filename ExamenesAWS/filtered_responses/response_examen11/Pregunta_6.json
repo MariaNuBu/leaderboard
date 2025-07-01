@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Topic: 1.1 Ingest and store data.\n\nA company wants to implement an application by using retrieval augmented generation (RAG) that is based on Amazon Bedrock knowledge bases. The knowledge base should include company-internal documents.\n\nSelect and order the correct steps from the following list to create the knowledge base for RAG. Each step should be selected one time or not at all. (Select and order THREE.)\n\nUpload the data to Amazon OpenSearch Service.\nIngest the data into the knowledge base.\nCreate an Amazon S3 bucket.\nCreate and configure a knowledge base in Amazon Bedrock and select Amazon OpenSearch Service as the data source.\nCreate and configure a knowledge base in Amazon Bedrock and select the Amazon S3 bucket as the data source.\n\nStep 1:\n\n Create an Amazon S3 bucket.\nStep 2:\n\n Create and configure a knowledge base in Amazon Bedrock and select the Amazon S3 bucket as the data source.\nStep 3:\n\n Ingest the data into the knowledge base.",
+      "options": [
+        "Upload the data to Amazon OpenSearch Service.",
+        "Ingest the data into the knowledge base.",
+        "Create an Amazon S3 bucket.",
+        "Create and configure a knowledge base in Amazon Bedrock and select Amazon OpenSearch Service as the data source.",
+        "Create and configure a knowledge base in Amazon Bedrock and select the Amazon S3 bucket as the data source."
+      ],
+      "correct_answers": [
+        "Create an Amazon S3 bucket.",
+        "Create and configure a knowledge base in Amazon Bedrock and select the Amazon S3 bucket as the data source.",
+        "Ingest the data into the knowledge base."
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

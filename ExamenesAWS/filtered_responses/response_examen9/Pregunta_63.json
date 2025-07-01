@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "Which feature of Amazon S3 ensures that accidental deletions or overwrites of objects can be recovered?",
+      "options": [
+        "S3 Replication",
+        "S3 Versioning",
+        "S3 Encryption",
+        "S3 Lifecycle Policies"
+      ],
+      "correct_answers": [
+        "S3 Versioning"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

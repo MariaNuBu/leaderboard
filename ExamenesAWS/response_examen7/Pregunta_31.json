@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "A machine learning engineer is tasked with training a custom PyTorch model using Amazon SageMaker. They want to take advantage of SageMaker's pre-built PyTorch container while maintaining control over the training logic. The engineer also needs to include several custom Python libraries to handle specific pre-processing tasks.\n\nWhat steps should the engineer follow to set up and train the model using SageMaker's Script Mode?",
+      "options": [
+        "Use AWS Lambda to trigger a training job, passing the model and training script from the notebook instance.",
+        "Create a custom Docker container for the model, push it to Amazon ECR, and pull it into SageMaker for training.",
+        "Write a Python script with the training logic, specify it as an entry point in the SageMaker estimator, and include a requirements.txt file to install custom libraries during training.",
+        "Install the required Python packages directly on the SageMaker notebook instance and run the training using the SageMaker built-in algorithms."
+      ],
+      "correct_answers": [
+        "Write a Python script with the training logic, specify it as an entry point in the SageMaker estimator, and include a requirements.txt file to install custom libraries during training."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

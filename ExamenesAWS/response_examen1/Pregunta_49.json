@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "You are a lead machine learning engineer at a growing tech startup that is developing a recommendation system for a mobile app. The recommendation engine must be able to scale quickly as the user base grows, remain cost-effective to align with the startup’s budget constraints, and be easy to maintain by a small team of engineers. The company has decided to use AWS for the ML infrastructure. Your goal is to design an infrastructure that meets these needs, ensuring that it can handle rapid scaling, remains within budget, and is simple to update and monitor.\n\nWhich combination of practices and AWS services is MOST LIKELY to result in a maintainable, scalable, and cost-effective ML infrastructure?\n\nTrain models using Amazon EMR for cost efficiency, deploy the models using AWS Lambda for serverless inference, and manually monitor the system using CloudWatch to reduce operational overhead\n\nImplement Amazon SageMaker for model training, deploy the models using Amazon EC2 with manual scaling to handle inference, and use AWS CloudFormation for managing infrastructure as code to ensure repeatability\n\nUse Amazon SageMaker for training, deploy models on Amazon ECS for flexible scaling, and implement infrastructure monitoring with a combination of CloudWatch and AWS Systems Manager to ensure maintainability",
+      "options": [
+        "Train models using Amazon EMR for cost efficiency, deploy the models using AWS Lambda for serverless inference, and manually monitor the system using CloudWatch to reduce operational overhead",
+        "Implement Amazon SageMaker for model training, deploy the models using Amazon EC2 with manual scaling to handle inference, and use AWS CloudFormation for managing infrastructure as code to ensure repeatability",
+        "Use Amazon SageMaker for training, deploy models on Amazon ECS for flexible scaling, and implement infrastructure monitoring with a combination of CloudWatch and AWS Systems Manager to ensure maintainability",
+        "Use Amazon SageMaker for both training and deployment, leverage auto-scaling endpoints for real-time inference, and apply SageMaker Pipelines for orchestrating end-to-end ML workflows, ensuring scalability and automation"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker for both training and deployment, leverage auto-scaling endpoints for real-time inference, and apply SageMaker Pipelines for orchestrating end-to-end ML workflows, ensuring scalability and automation"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

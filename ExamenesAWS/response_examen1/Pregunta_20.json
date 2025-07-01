@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "You are a machine learning engineer at a financial services company tasked with building a real-time fraud detection system. The model needs to be highly accurate to minimize false positives and false negatives. However, the company has a limited budget for cloud resources, and the model needs to be retrained frequently to adapt to new fraud patterns. You must carefully balance model performance, training time, and cost to meet these requirements.\nWhich of the following strategies is the MOST LIKELY to achieve an optimal balance between model performance, training time, and cost?\nUse a deep neural network with multiple layers and complex architecture to maximize performance, even if it requires significant computational resources and longer training times\nDeploy a simpler model like logistic regression to reduce training time and cost, while accepting a slight reduction in model accuracy\nChoose a support vector machine (SVM) with a nonlinear kernel to enhance accuracy, regardless of the increased training time and cost associated with large datasets",
+      "options": [
+        "Use a deep neural network with multiple layers and complex architecture to maximize performance, even if it requires significant computational resources and longer training times",
+        "Deploy a simpler model like logistic regression to reduce training time and cost, while accepting a slight reduction in model accuracy",
+        "Choose a support vector machine (SVM) with a nonlinear kernel to enhance accuracy, regardless of the increased training time and cost associated with large datasets",
+        "Implement a tree-based model like XGBoost with early stopping and hyperparameter tuning, balancing accuracy with reduced training time and computational cost"
+      ],
+      "correct_answers": [
+        "Implement a tree-based model like XGBoost with early stopping and hyperparameter tuning, balancing accuracy with reduced training time and computational cost"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

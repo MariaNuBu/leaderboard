@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A healthcare startup is developing a deep learning model using Amazon SageMaker to predict patient outcomes based on medical imaging data. They are using a deep neural network (DNN) with multiple hidden layers. After a few epochs of training, they notice that the accuracy on the training data starts to oscillate significantly, and the model is not improving. The team suspects that the model might be overfitting or learning too quickly due to high variance in the gradients during training.\n\nWhich regularization technique should the team apply to stabilize the training process and improve model performance?",
+      "options": [
+        "Use Batch Normalization after each hidden layer to stabilize learning by normalizing the inputs to each layer and maintain a high learning rate.",
+        "Apply L1 regularization to the weights with a penalty parameter of 0.01 to encourage sparsity and reduce overfitting.",
+        "Apply L2 regularization with a penalty parameter of 0.1 to reduce the magnitude of the weights and reduce overfitting, while keeping the learning rate high.",
+        "Apply Dropout regularization with a dropout rate of 0.5 to the hidden layers and use a lower learning rate to reduce the variance in gradients."
+      ],
+      "correct_answers": [
+        "Apply Dropout regularization with a dropout rate of 0.5 to the hidden layers and use a lower learning rate to reduce the variance in gradients."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

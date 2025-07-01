@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "You are a machine learning engineer working for an e-commerce company. You have developed a recommendation model that predicts products customers are likely to buy based on their browsing history and past purchases. The model initially performs well, but after deploying it in production, you notice two issues: the model's performance degrades over time as new data is added (catastrophic forgetting) and the model shows signs of overfitting during retraining on updated datasets.\n\nGiven these challenges, which of the following strategies is the MOST LIKELY to help prevent overfitting and catastrophic forgetting while maintaining model accuracy?",
+      "options": [
+        "Regularly update the training dataset with new data, apply L2 regularization to manage overfitting, and use an ensemble of models to prevent catastrophic forgetting",
+        "Use early stopping during training to prevent overfitting, incorporate new data incrementally through transfer learning to mitigate catastrophic forgetting, and apply L1 regularization to ensure feature selection",
+        "Reduce the model complexity by decreasing the number of features, apply data augmentation to handle underfitting, and leverage L1 regularization to address catastrophic forgetting",
+        "Apply L2 regularization to reduce overfitting, use dropout to prevent underfitting, and retrain the model on the entire dataset periodically to avoid catastrophic forgetting"
+      ],
+      "correct_answers": [
+        "Use early stopping during training to prevent overfitting, incorporate new data incrementally through transfer learning to mitigate catastrophic forgetting, and apply L1 regularization to ensure feature selection"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/automatically-retrain-neural-networks-with-renate/",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/training-parameters.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-early-stopping.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

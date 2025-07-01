@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A healthcare organization manages a large dataset containing patient records stored in Amazon S3. The dataset includes information such as patient names, addresses, and phone numbers, but it contains duplicate records due to inconsistencies in data entry. Some duplicates are exact matches, while others have slight variations (e.g., spelling errors in names or incomplete addresses). The organization needs to identify and group duplicate records efficiently while ensuring minimal code development to streamline the deduplication process.\n\nWhich solution on AWS will detect duplicates in the dataset with the LEAST operational overhead?",
+      "options": [
+        "Use SageMaker Data Wrangler to detect and group duplicate records in the dataset by leveraging its data preparation and transformation features",
+        "Use AWS Glue ETL to create a custom job for processing and filtering duplicate records.",
+        "Use AWS Glue FindMatches to automatically detect and group duplicate records in the dataset",
+        "Use Amazon EMR with Apache Spark to write a custom deduplication script using SparkSQL"
+      ],
+      "correct_answers": [
+        "Use AWS Glue FindMatches to automatically detect and group duplicate records in the dataset"
+      ],
+      "references": [
+        "https://community.aws/content/2c0dOcTyJPnK1NR7H05Oii4HblJ/aws-glue"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

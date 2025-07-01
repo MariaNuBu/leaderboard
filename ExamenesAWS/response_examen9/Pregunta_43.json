@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "A team of data scientists is building a recommendation system to suggest movies to users based on their previous viewing behavior and ratings. They are considering using the factorization machines algorithm in Amazon SageMaker. Why is the factorization machines algorithm particularly suited for this task?",
+      "options": [
+        "It creates clusters of similar users and movies based on behavior.",
+        "It identifies outliers in user behavior that may indicate anomalies in preferences.",
+        "It models interactions between features and is effective for sparse datasets, such as recommendation systems.",
+        "It assigns a label to each user and movie, allowing personalized recommendations."
+      ],
+      "correct_answers": [
+        "It models interactions between features and is effective for sparse datasets, such as recommendation systems."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

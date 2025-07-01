@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "An agriculture company plans to use drone imagery to count their flock of sheep. The company is experimenting with Amazon SageMaker built-in algorithms, and needs advice on what type of ML model to use.\n\nWhich ML model should the company use?",
+      "options": [
+        "A Semantic segmentation model",
+        "B Binary classification model for imagery",
+        "C Multiclass classification model",
+        "D Object detection model"
+      ],
+      "correct_answers": [
+        "D Object detection model"
+      ],
+      "references": [],
+      "topic": "TOPIC: 2.1 Choose a modeling approach.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

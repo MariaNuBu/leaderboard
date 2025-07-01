@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "What is the main difference between model parameters and hyperparameters in machine learning?",
+      "options": [
+        "Hyperparameters are set before training, while model parameters are learned during training.",
+        "Both model parameters and hyperparameters are learned during training.",
+        "Both model parameters and hyperparameters are set before training.",
+        "Model parameters are set before training, while hyperparameters are learned during training."
+      ],
+      "correct_answers": [
+        "Hyperparameters are set before training, while model parameters are learned during training."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

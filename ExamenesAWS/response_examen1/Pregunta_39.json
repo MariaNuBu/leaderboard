@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A retail analytics company stores historical data in .csv files in Amazon S3. The data is partially populated, lacks column labels, and contains missing values. The company needs to prepare and structure this data so it can be used effectively for training ML models. Given this context, consider the following five steps:\n\nUse AWS Glue crawlers to infer the schemas and available columns.\n\nUse Amazon EMR with Apache Spark for data cleaning and feature engineering.\n\nStore the resulting data back in Amazon S3.\n\nUse Amazon Redshift Spectrum to infer the schemas and available columns.\n\nUse AWS Glue DataBrew for data cleaning and feature engineering.\n\nWhat is the correct order in which three of these steps should be selected to achieve this task efficiently?",
+      "options": [
+        "5,1,3",
+        "1,5,3",
+        "4,5,3",
+        "1,2,3"
+      ],
+      "correct_answers": [
+        "1,5,3"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/glue/latest/dg/add-crawler.html",
+        "https://docs.aws.amazon.com/databrew/latest/dg/what-is.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

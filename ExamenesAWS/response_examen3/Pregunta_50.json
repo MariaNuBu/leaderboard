@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "A healthcare organization is developing an ML model to predict whether patients are at risk of developing a rare but critical disease. Missing a patient with a disease (a false negative) could delay treatment, potentially leading to severe consequences. However, incorrectly predicting a disease (a false positive) may result in unnecessary follow-up tests, which are less costly compared to missing an actual case.\n\nWhich model characteristic should the healthcare organization prioritize to best meet its requirements?\n\nPrioritize a model with low recall\n\nPrioritize a model with high precision\n\nPrioritize a model with high accuracy",
+      "options": [
+        "Prioritize a model with low recall",
+        "Prioritize a model with high precision",
+        "Prioritize a model with high accuracy"
+      ],
+      "correct_answers": [
+        "Prioritize a model with high recall"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html",
+        "https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/im-metrics-use.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

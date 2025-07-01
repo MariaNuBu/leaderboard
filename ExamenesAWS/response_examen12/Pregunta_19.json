@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A financial company has accumulated a large volume of client feedback, reviews, and comments over the years. The company wants to analyze these data to identify common topics that frequently appear in the feedback to understand client sentiment better and improve their offerings. The specific topics are not predetermined, and the goal is to discover them automatically from the text data.\n\nWhich built-in Amazon SageMaker AI algorithm is the most appropriate for this task?",
+      "options": [
+        "Latent Dirichlet Allocation (LDA) Algorithm",
+        "Sequence-to-Sequence Algorithm",
+        "Text Classification – TensorFlow algorithm",
+        "BlazingText algorithm in Text Classification Mode"
+      ],
+      "correct_answers": [
+        "Latent Dirichlet Allocation (LDA) Algorithm"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/lda-how-it-works.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/lda.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html"
+      ],
+      "topic": "",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

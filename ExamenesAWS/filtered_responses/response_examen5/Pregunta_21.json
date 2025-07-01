@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A retail company uses Amazon SageMaker to train machine learning models for product recommendation. The team stores raw customer behavior data, such as clicks and purchases, in an Amazon S3 bucket. They want to preprocess this data to remove duplicates, normalize numerical features, and encode categorical variables before training their model. Additionally, the preprocessing needs to scale to handle increasing data volumes.\n\nWhich solution will most effectively meet their requirements?\n\nWrite a preprocessing script in Python and run it on Amazon EC2 instances with auto-scaling enabled.\n\nExplicación\nRunning custom scripts on EC2 instances introduces complexity and lacks the managed, scalable environment of SageMaker Processing Jobs.\n\n",
+      "options": [
+        "Write a preprocessing script in Python and run it on Amazon EC2 instances with auto-scaling enabled.",
+        "Use Amazon SageMaker Processing Jobs with a pre-built container for data preprocessing and store the processed data back in S3.",
+        "Leverage AWS Glue for ETL to preprocess the data, and then load the transformed data into Amazon SageMaker.",
+        "Use Amazon Athena to query the data and perform all preprocessing using SQL, then export the processed data back to Amazon S3."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Processing Jobs with a pre-built container for data preprocessing and store the processed data back in S3."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

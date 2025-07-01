@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "A retail company uses a recommendation model deployed on an Amazon SageMaker endpoint to provide product suggestions to customers in real time. The company has developed a new version of the recommendation model and wants to evaluate its performance using live customer data without affecting the current production model. The company needs to determine whether the new model provides better recommendations before replacing the production model.\n\nWhat do you recommend?",
+      "options": [
+        "Use Amazon SageMaker shadow testing to route a copy of live customer data to the new model for evaluation while maintaining the production model’s operation. Compare predictions from both models to assess performance",
+        "Replace the current production model with the new model on the existing SageMaker endpoint, monitor its performance, and roll back if issues are detected",
+        "Use Amazon SageMaker multi-model endpoints to deploy both the current and new models simultaneously and manually analyze the logs for prediction comparisons",
+        "Deploy the new model to a separate Amazon SageMaker endpoint and use a custom application to split live traffic between the endpoints for evaluation purposes"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker shadow testing to route a copy of live customer data to the new model for evaluation while maintaining the production model’s operation. Compare predictions from both models to assess performance"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/shadow-tests.html"
+      ],
+      "topic": "",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "An ML engineer built an ML solution that was deployed in an AWS account. The account was shared by the company's ML team, which is where additional projects are already running. The company needs to use AWS Cost Center to track costs across all the AWS resources that are used in the solution. These resources include training and batch inference workflows in Amazon SageMaker Pipelines, Amazon S3 buckets, and AWS Glue tables.\n\nWhich solution will meet the requirements to group and track the project costs?",
+      "options": [
+        "A Assign a user-defined tag to the project AWS resources that includes a project identifier. Activate user-defined tags in the AWS Billing and Cost Management console and use AWS Cost Explorer to filter costs by the project identifier.",
+        "B Add a project identifier prefix to the name of the AWS resources that are used in the project. Use the prefix to filter costs in AWS Cost Explorer.",
+        "C Activate AWS generated tags in the AWS Billing and Cost Management console. Use AWS Cost Explorer to group costs by the aws:createdBy tag, and track the resources created by the project ML engineer.",
+        "D Use AWS Cost Explorer to group costs by service. Filter by SageMaker, Amazon S3, and AWS Glue to track the project costs."
+      ],
+      "correct_answers": [
+        "A Assign a user-defined tag to the project AWS resources that includes a project identifier. Activate user-defined tags in the AWS Billing and Cost Management console and use AWS Cost Explorer to filter costs by the project identifier."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.2 Monitor and optimize infrastructure and costs.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

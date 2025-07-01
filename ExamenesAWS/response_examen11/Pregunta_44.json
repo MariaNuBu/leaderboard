@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.\n\n\nA global company wants to build an internal chatbot that employees can use to answer questions about company-relevant information. The chatbot will use a retrieval augmented generation (RAG) approach to retrieve relevant information from internal documents. The chatbot will use a large language model (LLM) to answer the employees' questions. The company expects the chatbot to consistently have a high number of queries. The chatbot must be available 24 hours a day, 7 days a week. The company wants to use a fully managed RAG solution.\n\nWhich solution will meet these requirements MOST cost-effectively?",
+      "options": [
+        "A\nUse Amazon Bedrock Knowledge Bases for RAG. Use Amazon Bedrock with provisioned throughput for the LLM.",
+        "B\nUse knowledge bases for Amazon Bedrock for RAG. Use Amazon Bedrock in on-demand mode for the LLM.",
+        "C\nUse Amazon OpenSearch Service for RAG. Use Amazon Bedrock with provisioned throughput for the LLM.",
+        "D\nUse Amazon OpenSearch Service for RAG. Use Amazon Bedrock in on-demand mode for the LLM."
+      ],
+      "correct_answers": [
+        "A\nUse Amazon Bedrock Knowledge Bases for RAG. Use Amazon Bedrock with provisioned throughput for the LLM."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

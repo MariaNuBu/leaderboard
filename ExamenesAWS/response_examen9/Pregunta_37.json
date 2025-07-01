@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "What is the primary purpose of the AWS Well-Architected Framework Tool?\n\nTo monitor real-time metrics and performance of AWS applications.\n\nExplicación\nMonitoring real-time metrics and performance of AWS applications is not the primary purpose of the AWS Well-Architected Framework Tool. While monitoring and performance optimization are important considerations in cloud architecture, this tool is specifically designed to provide guidance on building secure, high-performing, resilient, and efficient infrastructure.\nTo manage billing and cost optimization for AWS services.\n\nExplicación\nManaging billing and cost optimization for AWS services is not the primary purpose of the AWS Well-Architected Framework Tool. While cost optimization is an important aspect of cloud architecture, this tool specifically focuses on architectural best practices rather than financial management.\nTo automate the deployment of AWS resources.\n\nExplicación\nThe AWS Well-Architected Framework Tool is not designed to automate the deployment of AWS resources. Its primary focus is on providing best practices and guidance for building secure, high-performing, resilient, and efficient infrastructure.",
+      "options": [
+        "To monitor real-time metrics and performance of AWS applications.",
+        "To manage billing and cost optimization for AWS services.",
+        "To automate the deployment of AWS resources.",
+        "To provide best practices and guidance for building secure, high-performing, resilient, and efficient infrastructure"
+      ],
+      "correct_answers": [
+        "To provide best practices and guidance for building secure, high-performing, resilient, and efficient infrastructure"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

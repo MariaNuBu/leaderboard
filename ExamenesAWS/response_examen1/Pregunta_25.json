@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A manufacturing company is building an anomaly detection system to identify defective products in its production lines. The datasets include sensor logs from IoT devices stored in Amazon S3 and a list of production metadata from an on-premises SQL database.\n\nThe company must:\n\nAggregate and preprocess the data from multiple sources.\n\nImplement a solution to detect anomalies automatically in the sensor data.\n\nVisualize the results for analysis by the operations team.\n\nWhich solution will meet these requirements most efficiently?",
+      "options": [
+        "Use Amazon SageMaker Data Wrangler to aggregate, clean, and prepare data for anomaly detection while generating visual insights",
+        "Use Amazon Athena to query the sensor data and identify anomalies through SQL queries. Use Amazon QuickSight to visualize the results",
+        "Use Amazon Kinesis Data Streams to process and analyze the sensor data in real time for anomaly detection. Use Amazon QuickSight to visualize the results",
+        "Use Amazon EMR with Spark MLlib to run anomaly detection algorithms and visualize the results using custom dashboards"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Data Wrangler to aggregate, clean, and prepare data for anomaly detection while generating visual insights"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html",
+        "https://aws.amazon.com/sagemaker-ai/data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

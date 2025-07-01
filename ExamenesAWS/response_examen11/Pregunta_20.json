@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "TOPIC: 2.1 Choose a modeling approach.\n\nA data scientist must train an ML model in Amazon SageMaker. The model should be trained with customer purchasing data to classify customer segments based on behavior. The data scientist must evaluate multiple algorithms and track model performance.\n\nWhich solution will meet these requirements with the LEAST effort?",
+      "options": [
+        "A\nUse a pre-trained model from SageMaker JumpStart in Amazon SageMaker Studio. Use the evaluate workflow in SageMaker Studio to track model results.",
+        "B\nUse a custom script and a requirements.txt file within a SageMaker supported framework to train the model and track model results.",
+        "C\nConfigure a custom Docker image to install necessary packages to train the algorithms and track model results. Upload the Docker image to Amazon Elastic Container Registry (Amazon ECR).",
+        "D\nUse SageMaker built-in algorithms to train the model. Use SageMaker Experiments to track model runs and results."
+      ],
+      "correct_answers": [
+        "D\nUse SageMaker built-in algorithms to train the model. Use SageMaker Experiments to track model runs and results."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a modeling approach.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

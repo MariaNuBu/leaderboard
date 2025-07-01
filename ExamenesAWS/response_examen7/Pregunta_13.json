@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "An organization needs to train a machine learning model with a custom algorithm that is not natively supported by SageMaker's built-in algorithms. The organization prefers to use SageMaker’s pre-built containers for framework support, but with custom training and inference code.\nWhich approach should the organization take?\n\nUse SageMaker's built-in algorithms and modify them to include custom training code.\n\nExplicación\nSageMaker's built-in algorithms cannot be easily modified to include custom training code, making this approach infeasible.\n\nWrite custom training code directly in the SageMaker notebook instance and run it using the notebook’s execution kernel.\n\nExplicación\nRunning custom training code directly on the notebook instance does not leverage SageMaker’s managed training and scaling features, which are essential for efficient model training and deployment.\n\nBuild a custom Docker container from scratch, package all dependencies, and upload it to Amazon ECR for use in SageMaker.\n\nExplicación\nWhile building a custom Docker container is an option for more control, SageMaker Script Mode simplifies the process by allowing users to focus on training and inference code without dealing with container management.",
+      "options": [
+        "Use SageMaker's built-in algorithms and modify them to include custom training code.",
+        "Write custom training code directly in the SageMaker notebook instance and run it using the notebook’s execution kernel.",
+        "Build a custom Docker container from scratch, package all dependencies, and upload it to Amazon ECR for use in SageMaker.",
+        "Utilize SageMaker’s Script Mode, write the custom training logic in a Python script, and specify the entry point in a SageMaker estimator."
+      ],
+      "correct_answers": [
+        "Utilize SageMaker’s Script Mode, write the custom training logic in a Python script, and specify the entry point in a SageMaker estimator."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

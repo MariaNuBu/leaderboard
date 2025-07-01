@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A machine learning team wants to track the history of model versions, including training data, hyperparameters, and performance metrics over time. Which feature of SageMaker should they use?\n\nSageMaker Notebook Instances\n\nExplicación\nSageMaker Notebook Instances are used for development and experimentation, not for version tracking of models.",
+      "options": [
+        "SageMaker Notebook Instances",
+        "SageMaker Model Registry",
+        "SageMaker Pipelines",
+        "SageMaker Training Jobs"
+      ],
+      "correct_answers": [
+        "SageMaker Model Registry"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

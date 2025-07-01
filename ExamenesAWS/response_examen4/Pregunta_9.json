@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A financial services company wants to automate its machine learning (ML) workflows to quickly respond to new training data arriving in its Amazon S3 bucket. The company needs to retrain its ML models whenever new data is added to the bucket. To automate this, they want to set up a continuous integration and continuous deployment (CI/CD) pipeline using AWS services. The solution should automatically trigger the ML model training pipeline and perform necessary preprocessing whenever new data is uploaded.\n\nWhich combination of services and configurations should the company use to achieve this? (Select TWO.)",
+      "options": [
+        "Set up Amazon EventBridge to monitor the S3 bucket for object creation events and use it to trigger a SageMaker Pipeline execution.",
+        "Use Amazon SageMaker Pipelines to define and manage the ML workflow, including data preprocessing, model training, and evaluation steps.",
+        "Use AWS Step Functions to coordinate the SageMaker Pipeline and handle the flow of the different steps in the ML process.",
+        "Implement AWS CodePipeline to manage the CI/CD pipeline and integrate it with Amazon SageMaker to handle ML model deployments.",
+        "Configure Amazon S3 Event Notifications to directly trigger the SageMaker Pipeline when new data is uploaded to the S3 bucket."
+      ],
+      "correct_answers": [
+        "Set up Amazon EventBridge to monitor the S3 bucket for object creation events and use it to trigger a SageMaker Pipeline execution.",
+        "Use Amazon SageMaker Pipelines to define and manage the ML workflow, including data preprocessing, model training, and evaluation steps."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

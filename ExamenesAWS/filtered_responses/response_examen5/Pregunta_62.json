@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "Pregunta 62\n\nA transportation company is analyzing GPS data from its fleet of vehicles to optimize delivery routes. The company needs to preprocess and clean this data, create relevant features like average speed and distance traveled, and store these features in a scalable feature store. The team wants to ensure the features are available for real-time predictions on delivery times and wants to train a machine learning model using these features in an easily managed notebook environment.\n\nWhich services should the company use to preprocess the data, store the features, and train the model?",
+      "options": [
+        "Use SageMaker Data Wrangler for data preprocessing, SageMaker Feature Store to store features, and SageMaker Notebooks to train and deploy the machine learning model.",
+        "Use SageMaker Data Wrangler for preprocessing, Amazon Redshift for feature storage, and SageMaker Notebooks to train and deploy the machine learning model.",
+        "Use SageMaker Notebooks for data preprocessing, Amazon DynamoDB for feature storage, and SageMaker Feature Store to train the machine learning model.",
+        "Use Amazon QuickSight to preprocess and clean the data, SageMaker Feature Store for feature storage, and SageMaker Autopilot to train the machine learning model."
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler for data preprocessing, SageMaker Feature Store to store features, and SageMaker Notebooks to train and deploy the machine learning model."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

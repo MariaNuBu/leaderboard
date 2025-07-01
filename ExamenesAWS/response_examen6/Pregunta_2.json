@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "In SageMaker Pipelines, which component is used to define the sequence of operations such as data pre-processing, model training, and model registration?\n\nModel Package\n\nExplicación\nA Model Package is a component in SageMaker Model Registry that stores a versioned model, its metadata, and dependencies, not the workflow steps.\n\nModel Group\n\nExplicación\nModel Group is used in SageMaker Model Registry to manage different versions of a model, not to define pipeline operations.\n\n",
+      "options": [
+        "Model Package",
+        "Model Group",
+        "Pipeline Definition",
+        "Pipeline SDK"
+      ],
+      "correct_answers": [
+        "Pipeline Definition"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A company is using Amazon SageMaker to build predictive models to forecast weekly sales. A data science team wants to automate the execution of the most recent version of the model. The automation solution should generate a new set of predictions at the beginning of every week. The data science team wants to use SageMaker Pipelines to automate the inference process.\n\nSelect and order the correct steps from the following list to meet these requirements MOST cost-effectively. Each step should be selected one time or not at all. (Select and order THREE.)",
+      "options": [
+        "Create a role for Amazon EventBridge with the SageMaker::CreatePipeline permission and specify the pipeline.",
+        "Create a scheduled rule on Amazon EventBridge to execute the inference pipeline at the beginning of every week.",
+        "Create a SageMaker Pipelines pipeline to run inference by using a real-time endpoint.",
+        "Create a role for Amazon EventBridge with the SageMaker::StartPipelineExecution permission and specify the pipeline.",
+        "Create an event pattern on Amazon EventBridge to execute the inference pipeline at the beginning of every week.",
+        "Create a SageMaker Pipelines pipeline to run batch inference."
+      ],
+      "correct_answers": [
+        "Create a SageMaker Pipelines pipeline to run batch inference. Create a role for Amazon EventBridge with the SageMaker::StartPipelineExecution permission and specify the pipeline. Create a scheduled rule on Amazon EventBridge to execute the inference pipeline at the beginning of every week."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

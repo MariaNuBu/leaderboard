@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 74,
+      "question": "A data scientist wants to use one of Amazon SageMaker's built-in algorithms to solve a regression problem. They are considering the SageMaker Linear Learner algorithm because they need a straightforward, easy-to-deploy solution without managing custom infrastructure or creating their own containers. Which of the following steps are required to use SageMaker’s built-in algorithms for this task? (Choose two.)",
+      "options": [
+        "Use a custom machine learning framework like PyTorch or TensorFlow to modify the algorithm.",
+        "Select and define the hyperparameters for the algorithm.",
+        "Manually configure the infrastructure for the training environment.",
+        "Bring in the data and supply it to the SageMaker built-in algorithm.",
+        "Set up and manage custom containers with the algorithm and hyperparameters."
+      ],
+      "correct_answers": [
+        "Select and define the hyperparameters for the algorithm.",
+        "Bring in the data and supply it to the SageMaker built-in algorithm."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

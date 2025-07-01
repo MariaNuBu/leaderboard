@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A data scientist wants to quickly build and deploy a machine learning model for image classification using Amazon SageMaker. The team has limited expertise in managing infrastructure and wants to focus on solving the business problem. Which solution would be the most efficient for the team to implement?\n\nUse SageMaker Studio to build the model using SageMaker Autopilot.\n\nExplicación\nWhile Autopilot is useful, the question specifies that the team is specifically targeting image classification, which can be easily handled by the built-in algorithm.\n\nUse a custom PyTorch model and deploy using SageMaker Python SDK.\n\nExplicación\nUsing a custom PyTorch model requires more setup and expertise in infrastructure management.",
+      "options": [
+        "Use SageMaker Studio to build the model using SageMaker Autopilot.",
+        "Use a custom PyTorch model and deploy using SageMaker Python SDK.",
+        "Use SageMaker's built-in image classification algorithm with provided data and hyperparameter tuning.",
+        "Manually configure a TensorFlow model and manage it using EC2 instances."
+      ],
+      "correct_answers": [
+        "Use SageMaker's built-in image classification algorithm with provided data and hyperparameter tuning."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

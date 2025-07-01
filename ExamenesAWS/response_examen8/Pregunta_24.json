@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A healthcare company needs to ingest and store real-time health monitoring data from wearable devices. The data must be compressed and transformed into a format that supports fast querying in Amazon Athena. They also need to ensure the processed data is securely stored in Amazon S3.\n\nWhich of the following solutions would meet the company's requirements using Amazon Kinesis Data Firehose?\n\nIngest data using Amazon Kinesis Data Streams, transform the data using AWS Lambda, compress it with Gzip, and store it in Amazon S3 in CSV format.\n\nExplicación\nAlthough Amazon Kinesis Data Streams can be used for ingestion, the scenario mentions Firehose. Moreover, storing data in CSV format is less efficient for querying in Athena compared to columnar formats like Parquet.",
+      "options": [
+        "Ingest data using Amazon Kinesis Data Streams, transform the data using AWS Lambda, compress it with Gzip, and store it in Amazon S3 in CSV format.",
+        "Ingest data using Amazon Kinesis Data Firehose, compress the data using Gzip, convert it to Parquet format using the built-in data transformation feature, and store it in Amazon S3 with server-side encryption.",
+        "Ingest data using Amazon Kinesis Data Firehose, use a Lambda function for data transformation, compress the data with Snappy, and store it in Amazon Redshift.",
+        "Ingest data using Amazon Kinesis Data Streams, compress the data with Zlib, transform it to JSON format, and store it in Amazon S3."
+      ],
+      "correct_answers": [
+        "Ingest data using Amazon Kinesis Data Firehose, compress the data using Gzip, convert it to Parquet format using the built-in data transformation feature, and store it in Amazon S3 with server-side encryption."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

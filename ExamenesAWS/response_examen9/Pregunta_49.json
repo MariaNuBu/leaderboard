@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "A data scientist is training a reinforcement learning model in Amazon SageMaker. They want to experiment with different hyperparameters during training, without manually changing code each time. What approach should the data scientist take to configure the training jobs efficiently?",
+      "options": [
+        "Write a new training script for each set of hyperparameters.",
+        "Use SageMaker's batch transform functionality for hyperparameter tuning.",
+        "Use SageMaker's hyperparameter tuning functionality and presets to automate the configuration.",
+        "Manually update the training job parameters in the SageMaker console for each run."
+      ],
+      "correct_answers": [
+        "Use SageMaker's hyperparameter tuning functionality and presets to automate the configuration."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

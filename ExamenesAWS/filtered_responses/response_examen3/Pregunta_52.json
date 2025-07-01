@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "What is the bias versus variance trade-off in machine learning?\n\nThe bias versus variance trade-off involves choosing between a model with high complexity that may capture more noise (high bias) and a simpler model that may generalize better but miss important patterns (high variance)\n\nThe bias versus variance trade-off is a technique used to improve model performance by increasing both bias and variance simultaneously to achieve better generalization",
+      "options": [
+        "The bias versus variance trade-off involves choosing between a model with high complexity that may capture more noise (high bias) and a simpler model that may generalize better but miss important patterns (high variance)",
+        "The bias versus variance trade-off is a technique used to improve model performance by increasing both bias and variance simultaneously to achieve better generalization",
+        "The bias versus variance trade-off refers to the challenge of balancing the error due to the model's complexity (variance) and the error due to incorrect assumptions in the model (bias), where high bias can cause underfitting and high variance can cause overfitting",
+        "The bias versus variance trade-off refers to the balance between underfitting and overfitting, where high bias leads to overfitting and high variance leads to underfitting"
+      ],
+      "correct_answers": [
+        "The bias versus variance trade-off refers to the challenge of balancing the error due to the model's complexity (variance) and the error due to incorrect assumptions in the model (bias), where high bias can cause underfitting and high variance can cause overfitting"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlper-09.html",
+        "https://aws.amazon.com/what-is/overfitting/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

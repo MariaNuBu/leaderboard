@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A company wants to optimize the data ingestion process for a machine learning pipeline in Amazon SageMaker. The data, stored in Amazon S3, consists of large JSON files, and the current ETL job takes a long time to process the data before training. To improve performance, they want to minimize read and I/O times, especially for downstream analysis using Amazon Athena.\n\nWhich format should the company use to store their data in S3 for better processing and analytics performance?\n\nConvert the data to JSON Lines format to reduce file size.\n\nExplicación\nJSON Lines format may reduce file size compared to traditional JSON but does not improve performance significantly for large-scale queries in comparison to Parquet.",
+      "options": [
+        "Convert the data to JSON Lines format to reduce file size.",
+        "Use Apache Parquet to store the data in S3.",
+        "Convert the data to CSV format and store it in S3.",
+        "Compress the data as a ZIP file and upload it to S3."
+      ],
+      "correct_answers": [
+        "Use Apache Parquet to store the data in S3."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

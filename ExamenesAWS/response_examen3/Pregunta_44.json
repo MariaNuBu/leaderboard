@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "You are a data scientist working on a regression model to predict housing prices in a large metropolitan area. The dataset contains many features, including location, square footage, number of bedrooms, and amenities. After initial testing, you notice that some features have very high variance, leading to overfitting. To address this, you are considering applying regularization to your model. You need to choose between L1 (Lasso) and L2 (Ridge) regularization.\n\nGiven the goal of reducing overfitting while also simplifying the model by eliminating less important features, which regularization method should you choose and why?",
+      "options": [
+        "L2 regularization, because it eliminates less important features by setting their coefficients to zero, simplifying the model",
+        "L1 regularization, because it penalizes large coefficients more heavily, making the model less sensitive to high-variance features",
+        "L2 regularization, because it evenly reduces all feature coefficients, leading to a more stable model"
+      ],
+      "correct_answers": [
+        "L1 regularization, because it can shrink some feature coefficients to zero, effectively performing feature selection"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/training-parameters.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/ll_hyperparameters.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

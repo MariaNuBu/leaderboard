@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "You are working with large datasets stored in an Amazon S3 bucket and need to optimize the performance of querying and processing the data in AWS Glue. The data is frequently queried for specific years. Which of the following strategies will MOST effectively reduce query execution time and cost in this scenario?\n\nStore the data in an Amazon RDS database and run queries directly from there.\n\nExplicación\nStoring the data in an RDS database introduces higher storage and query costs compared to using S3 and partitioning with Glue. It’s also not necessary for large-scale distributed data.\n\nStore all data in a single folder and apply a custom filter during each query.\n\nExplicación\nStoring all data in a single folder would force all data to be scanned during each query, increasing execution time and cost.",
+      "options": [
+        "Store the data in an Amazon RDS database and run queries directly from there.",
+        "Store all data in a single folder and apply a custom filter during each query.",
+        "Partition the data by year and define Glue crawlers to automatically recognize these partitions.",
+        "Use AWS Glue to compress the data, but do not partition it."
+      ],
+      "correct_answers": [
+        "Partition the data by year and define Glue crawlers to automatically recognize these partitions."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

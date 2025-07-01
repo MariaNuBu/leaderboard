@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A machine learning specialist is tasked with preparing data for model training using SageMaker Data Wrangler. The dataset contains categorical features such as \"Product Type\" with multiple categories. The chosen machine learning algorithm can only handle numerical inputs. Which technique offered by Data Wrangler would be the best fit to handle this requirement?\n\nData normalization\n\nExplicación\nData normalization is used to scale features but does not apply to categorical data conversion.\n\nRecursive feature elimination\n\nExplicación\nRecursive feature elimination is a technique for feature selection, not for converting categorical data.",
+      "options": [
+        "Data normalization",
+        "Recursive feature elimination",
+        "One-hot encoding",
+        "Imputation"
+      ],
+      "correct_answers": [
+        "One-hot encoding"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

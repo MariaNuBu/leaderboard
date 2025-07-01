@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "An ML engineer is using SageMaker Debugger's profiling feature to optimize resource usage during training. They notice that the GPU utilization is very low, causing longer training times. Which of the following actions could help improve GPU utilization and optimize the training process?\n\nUse SageMaker Neo to optimize the model for better GPU performance during training.\n\nExplicación\nSageMaker Neo optimizes models for deployment and inference, not for improving GPU utilization during training.\n\nMigrate the model to CPU-only instances to avoid GPU underutilization.\n\nExplicación\nMoving to CPU-only instances would likely reduce performance further, as GPUs are generally more suited for deep learning tasks.",
+      "options": [
+        "Use SageMaker Neo to optimize the model for better GPU performance during training.",
+        "Migrate the model to CPU-only instances to avoid GPU underutilization.",
+        "Adjust the batch size and data loading pipeline to ensure that the GPU is being used efficiently throughout the training.",
+        "Use SageMaker Debugger to monitor for vanishing gradients, which will improve GPU utilization automatically."
+      ],
+      "correct_answers": [
+        "Adjust the batch size and data loading pipeline to ensure that the GPU is being used efficiently throughout the training."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

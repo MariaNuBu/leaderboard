@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "TOPIC: 2.2 Train and refine models.\n\nA data scientist wants to train a model to predict housing prices by using XGBoost on Amazon SageMaker. The training dataset is a tabular dataset. The dataset includes a column named \"price\" that indicates the sales price of each house. The data scientist is setting up the hyperparameter tuning, and needs to provide an evaluation metric.\n\nWhich evaluation metric is appropriate for this scenario?",
+      "options": [
+        "A\nvalidation: auc",
+        "B\nvalidation: f1",
+        "C\nvalidation: accuracy",
+        "D\nvalidation: rmse"
+      ],
+      "correct_answers": [
+        "D\nvalidation: rmse"
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

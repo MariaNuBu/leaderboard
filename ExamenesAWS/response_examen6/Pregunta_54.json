@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "Which of the following strategies is best suited to address both bias and variance in the context of responsible AI? (Choose two)\n\nPrincipal Component Analysis (PCA)\n\nExplicación\nPrincipal Component Analysis (PCA) is a dimensionality reduction technique that is not specifically designed to address bias and variance in machine learning models. While PCA can help in reducing the dimensionality of the data and improving computational efficiency, it does not directly tackle the issues of bias and variance.\n\nData Augmentation\n\nExplicación\nData Augmentation is a technique used to artificially increase the size of the training dataset by applying transformations to the existing data samples. While data augmentation can help in improving the generalization ability of the model and reducing overfitting, it is not specifically targeted at addressing bias and variance in the context of responsible AI.\n\nUsing a more complex model with more features\n\nExplicación\nUsing a more complex model with more features may actually exacerbate the issues of bias and variance in machine learning models. While complex models may have the capacity to capture intricate patterns in the data, they are also more prone to overfitting and may introduce bias due to the increased complexity. This choice is not the best strategy for addressing both bias and variance in responsible AI.",
+      "options": [
+        "Principal Component Analysis (PCA)",
+        "Data Augmentation",
+        "Using a more complex model with more features",
+        "Early stopping",
+        "Cross-validation"
+      ],
+      "correct_answers": [
+        "Early stopping",
+        "Cross-validation"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2"
+    }
+  ]
+}

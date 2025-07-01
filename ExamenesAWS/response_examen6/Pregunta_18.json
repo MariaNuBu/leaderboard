@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A retail company is using Amazon Personalize to provide personalized product recommendations based on real-time customer behavior on their e-commerce platform.\nThey want to integrate Amazon DynamoDB to store customer session data, use Amazon Kinesis for real-time event streaming, and leverage Amazon S3 for historical data storage.\nAdditionally, they need the solution to scale during peak shopping periods, such as holidays.\nWhich of the following strategies should they implement? (Choose TWO.)",
+      "options": [
+        "Store historical customer interaction data in Amazon S3 and periodically feed it into Amazon Personalize for batch training.",
+        "Use Amazon Personalize to directly process real-time streaming data from Amazon Kinesis and Amazon DynamoDB.",
+        "Store session data in Amazon RDS for high availability and scalability during peak traffic.",
+        "Use Amazon EC2 Auto Scaling to manage the increasing number of personalized recommendation requests during peak traffic.",
+        "Use AWS Lambda to trigger real-time updates to Amazon Personalize when new customer events are detected in Amazon DynamoDB."
+      ],
+      "correct_answers": [
+        "Store historical customer interaction data in Amazon S3 and periodically feed it into Amazon Personalize for batch training.",
+        "Use AWS Lambda to trigger real-time updates to Amazon Personalize when new customer events are detected in Amazon DynamoDB."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

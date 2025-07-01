@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A data scientist is tasked with ensuring that their machine learning model is trustworthy, transparent, and avoids potential risks, including bias and poor generalization. They want to use a technique that assesses the model's fairness and explainability, both before and after training, while also meeting regulatory requirements.\nWhich AWS service can help them achieve this?",
+      "options": [
+        "Amazon Personalize",
+        "Amazon SageMaker Ground Truth",
+        "AWS Glue",
+        "Amazon SageMaker Clarify"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Clarify"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

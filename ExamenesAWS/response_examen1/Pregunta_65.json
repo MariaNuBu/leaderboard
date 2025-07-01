@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "A media streaming company processes video metadata using AWS Glue jobs orchestrated by an AWS Glue workflow. These jobs can run on a schedule or be triggered manually. The company is building Amazon SageMaker Pipelines to develop ML models for predicting user engagement with video content. The pipelines require the processed metadata from the AWS Glue jobs during the feature engineering phase of the ML workflow. The company needs a solution to integrate the AWS Glue jobs with SageMaker Pipelines to ensure seamless data flow.\n\nWhich solution will meet these requirements with the LEAST operational overhead?\n\nConfigure an Amazon EventBridge rule to trigger the SageMaker pipeline after the completion of AWS Glue jobs and pass job metadata via Lambda\n\nSet up a custom Python script to orchestrate both the AWS Glue workflow and SageMaker Pipelines, ensuring data dependencies are met\n\nIntegrate the AWS Glue jobs as processing steps in the SageMaker Pipelines workflow to handle data preprocessing",
+      "options": [
+        "Configure an Amazon EventBridge rule to trigger the SageMaker pipeline after the completion of AWS Glue jobs and pass job metadata via Lambda",
+        "Set up a custom Python script to orchestrate both the AWS Glue workflow and SageMaker Pipelines, ensuring data dependencies are met",
+        "Integrate the AWS Glue jobs as processing steps in the SageMaker Pipelines workflow to handle data preprocessing",
+        "Use SageMaker Pipelines callback steps to wait for the AWS Glue jobs to complete and retrieve the outputs directly from Amazon S3"
+      ],
+      "correct_answers": [
+        "Use SageMaker Pipelines callback steps to wait for the AWS Glue jobs to complete and retrieve the outputs directly from Amazon S3"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/build-and-manage-steps-types.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

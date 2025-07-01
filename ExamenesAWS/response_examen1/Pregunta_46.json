@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "You are an ML Engineer working for a logistics company that uses multiple machine learning models to optimize delivery routes in real-time. Each model needs to process data quickly to provide up-to-the-minute route adjustments, but the company also has strict cost constraints. You need to deploy the models in an environment where performance, cost, and latency are carefully balanced. There may be slight variations in the access frequency of the models. Any excessive costs could impact the project’s profitability.\n\nWhich of the following strategies should you consider to balance the tradeoffs between performance, cost, and latency when deploying your model in Amazon SageMaker? (Select two)",
+      "options": [
+        "Deploy the model on a high-performance GPU instance to minimize latency, regardless of the higher cost, ensuring real-time route adjustments",
+        "Use Amazon SageMaker’s multi-model endpoint to deploy multiple models on a single instance, reducing costs by sharing resources",
+        "Implement auto-scaling on a fleet of medium-sized instances, allowing the system to adjust resources based on real-time demand, balancing cost and performance dynamically",
+        "Choose a lower-cost CPU instance, accepting longer inference times, as the savings on compute costs are more important than minimizing latency",
+        "Leverage Amazon SageMaker Neo to compile the model for optimized deployment on edge devices, reducing latency and cost but with limited scalability for large datasets"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker’s multi-model endpoint to deploy multiple models on a single instance, reducing costs by sharing resources",
+        "Implement auto-scaling on a fleet of medium-sized instances, allowing the system to adjust resources based on real-time demand, balancing cost and performance dynamically"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

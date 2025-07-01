@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "An organization uses AWS Secrets Manager to store sensitive data such as API keys and database credentials. They want to share a secret with another AWS account without replicating it. How can they achieve this securely while ensuring the secret remains encrypted?\n\nShare the secret through an encrypted S3 bucket that the other account has access to, and send the KMS decryption key separately.\n\nExplicación\nSharing through S3 introduces unnecessary complexity and does not leverage AWS Secrets Manager's built-in features for cross-account access.\n\nUse the Secrets Manager API to export the secret and share it with the other account via email.\n\nExplicación\nSharing secrets through email is insecure and not an appropriate method for sensitive data management.\n\nUse AWS Systems Manager to create a shared parameter that references the secret across accounts.\n\nExplicación\nAWS Systems Manager does not directly reference secrets from AWS Secrets Manager across accounts; Secrets Manager is the appropriate service for this use case.",
+      "options": [
+        "Share the secret through an encrypted S3 bucket that the other account has access to, and send the KMS decryption key separately.",
+        "Use the Secrets Manager API to export the secret and share it with the other account via email.",
+        "Use AWS Systems Manager to create a shared parameter that references the secret across accounts.",
+        "Attach a resource policy to the secret that grants read access to an IAM role in the other account, and ensure that the KMS key policy allows decryption by the same role."
+      ],
+      "correct_answers": [
+        "Attach a resource policy to the secret that grants read access to an IAM role in the other account, and ensure that the KMS key policy allows decryption by the same role."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

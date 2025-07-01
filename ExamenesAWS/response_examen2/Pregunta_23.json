@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "You are an ML Engineer developing a model to predict credit card fraud for a financial institution. The dataset you have is extensive, containing millions of transactions, but it is highly imbalanced, with only a small fraction representing fraudulent transactions. To ensure your model generalizes well to unseen data, you need to split your dataset effectively into training, validation, and test sets. You must also avoid overfitting and ensure that the model's performance is accurately measured during development.\n\nWhich of the following strategies should you employ to effectively utilize the training, validation, and test sets to develop a robust and reliable machine learning model, given the imbalanced nature of the dataset? (Select two)",
+      "options": [
+        "Split the dataset into three sets: a training set for model learning, a validation set for hyperparameter tuning, and a test set for final performance evaluation on unseen data",
+        "Use a stratified split to ensure that the training, validation, and test sets each contain a representative distribution of fraudulent and non-fraudulent transactions",
+        "Randomly shuffle the data and split it into training, validation, and test sets without considering the class distribution to avoid any bias",
+        "Combine the validation and test sets into a single evaluation set to simplify the process and reduce the number of data splits",
+        "Use the entire dataset for training to maximize the amount of data the model learns from, and evaluate the model’s performance using cross-validation"
+      ],
+      "correct_answers": [
+        "Split the dataset into three sets: a training set for model learning, a validation set for hyperparameter tuning, and a test set for final performance evaluation on unseen data",
+        "Use a stratified split to ensure that the training, validation, and test sets each contain a representative distribution of fraudulent and non-fraudulent transactions"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/create-train-test-and-validation-splits-on-your-data-for-machine-learning-with-amazon-sagemaker-data-wrangler/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

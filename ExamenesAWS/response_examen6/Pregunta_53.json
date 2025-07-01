@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "A customer service company is looking to enhance its chatbot by providing real-time voice interaction with users. The bot needs to handle user queries in both text and speech formats. It must convert incoming speech to text, process the text using a chatbot engine, and then convert the bot’s text responses back to speech for the user.\n\nWhich combination of services should the company implement?\n\nUse Amazon Polly to convert user speech to text, Amazon Lex to process the text queries, and Amazon Transcribe to convert text responses to speech.\n\nExplicación\nAmazon Polly is a text-to-speech service and cannot convert speech to text, which makes it unsuitable for handling incoming speech.\n\nUse Amazon Rekognition for speech-to-text conversion, Amazon Lex for chatbot processing, and Amazon Polly for text-to-speech conversion.\n\nExplicación\nAmazon Rekognition focuses on image and video analysis, not speech-to-text conversion. Therefore, it is not suitable for this use case.\n\nUse Amazon Transcribe to convert user speech to text, AWS Lambda to process the queries, and Amazon Polly to convert text responses to speech.\n\nExplicación\nWhile AWS Lambda can handle custom logic, it is not needed here, as Amazon Lex already provides comprehensive chatbot processing capabilities. AWS Lambda would not be involved in speech-to-text or text-to-speech conversion.",
+      "options": [
+        "Use Amazon Polly to convert user speech to text, Amazon Lex to process the text queries, and Amazon Transcribe to convert text responses to speech.",
+        "Use Amazon Rekognition for speech-to-text conversion, Amazon Lex for chatbot processing, and Amazon Polly for text-to-speech conversion.",
+        "Use Amazon Transcribe to convert user speech to text, AWS Lambda to process the queries, and Amazon Polly to convert text responses to speech."
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert user speech to text, Amazon Lex to handle the chatbot processing, and Amazon Polly to convert text responses to speech."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

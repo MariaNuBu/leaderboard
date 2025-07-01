@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A financial services company is building a fraud detection system to monitor transactions in real-time. They plan to use Amazon Kinesis Data Streams to ingest transaction data and want the system to scale automatically based on demand. They require low-latency for fast fraud detection responses.\n\nWhich feature of Amazon Kinesis Data Streams should the company implement to meet these requirements?",
+      "options": [
+        "Use Kinesis Firehose to automatically scale the stream based on traffic.",
+        "Manually scale shards based on throughput requirements.",
+        "Use enhanced fan-out to reduce consumer latency and ensure dedicated throughput per consumer.",
+        "Enable provisioned mode and dynamically add shards."
+      ],
+      "correct_answers": [
+        "Use enhanced fan-out to reduce consumer latency and ensure dedicated throughput per consumer."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

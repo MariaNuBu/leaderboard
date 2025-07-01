@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "A data scientist is building a machine learning pipeline using Amazon SageMaker Pipelines. The pipeline includes data preprocessing, model training, and model registration. The data scientist wants to ensure that parameters used for model training can be easily adjusted without modifying the pipeline itself. Which feature of SageMaker Pipelines should the data scientist use to achieve this?",
+      "options": [
+        "Pipeline Parameters",
+        "Directed Acyclic Graph (DAG)",
+        "Pipeline Steps",
+        "SageMaker Model Registry"
+      ],
+      "correct_answers": [
+        "Pipeline Parameters"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

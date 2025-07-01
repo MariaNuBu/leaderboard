@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "Pregunta 38\n\nA Machine Learning engineer is building an e-commerce chatbot using Amazon Bedrock. The chatbot must handle real-time customer queries, generate personalized recommendations, and operate at scale without infrastructure management. The engineer also needs to fine-tune the foundational model with historical customer data and ensure the security of this data.\nWhich combination of services should the engineer use to achieve these requirements? (Choose TWO)",
+      "options": [
+        "Use Amazon SageMaker to deploy and fine-tune foundation models, ensuring customization of machine learning models",
+        "Use AWS CloudTrail to monitor model inference processes and ensure fine-grained data access control",
+        "Use AWS Lambda for model deployment, which enables the scaling of real-time inference for customer queries",
+        "Use Amazon S3 for storing historical customer data and generated model outputs",
+        "Use Amazon Bedrock for deploying foundation models with serverless infrastructure and fine-tuning capabilities"
+      ],
+      "correct_answers": [
+        "Use Amazon S3 for storing historical customer data and generated model outputs",
+        "Use Amazon Bedrock for deploying foundation models with serverless infrastructure and fine-tuning capabilities"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

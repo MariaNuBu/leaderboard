@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A data science team deployed a model using Amazon SageMaker real-time endpoints. They are concerned that the distribution of data in production may change over time, potentially leading to data drift. To mitigate this risk, they want to set up continuous monitoring of the model in production. Which of the following does Amazon SageMaker Model Monitor allow the team to track to address their concerns? (Select TWO)",
+      "options": [
+        "Model Latency Drift",
+        "Data Drift",
+        "Feature Attribution Drift",
+        "AWS CloudFormation Drift"
+      ],
+      "correct_answers": [
+        "Data Drift",
+        "Feature Attribution Drift"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4"
+    }
+  ]
+}

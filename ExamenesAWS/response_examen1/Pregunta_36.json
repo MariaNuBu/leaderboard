@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "You are an ML engineer at a startup that is developing a recommendation engine for an e-commerce platform. The workload involves training models on large datasets and deploying them to serve real-time recommendations to customers. The training jobs are sporadic but require significant computational power, while the inference workloads must handle varying traffic throughout the day. The company is cost-conscious and aims to balance cost efficiency with the need for scalability and performance.\n\nGiven these requirements, which approach to resource allocation is the MOST SUITABLE for training and inference, and why?",
+      "options": [
+        "Use provisioned resources with reserved instances for both training and inference to lock in lower costs and guarantee resource availability, ensuring predictability in budgeting",
+        "Use on-demand instances for training, allowing the flexibility to scale resources as needed, and use provisioned resources with auto-scaling for inference to handle varying traffic while controlling costs",
+        "Use on-demand instances for both training and inference to ensure that the company only pays for the compute resources it uses when it needs them, avoiding any upfront commitments",
+        "Use provisioned resources with spot instances for both training and inference to take advantage of the lowest possible costs, accepting the potential for interruptions during workload execution"
+      ],
+      "correct_answers": [
+        "Use on-demand instances for training, allowing the flexibility to scale resources as needed, and use provisioned resources with auto-scaling for inference to handle varying traffic while controlling costs"
+      ],
+      "references": [
+        "https://aws.amazon.com/ec2/pricing/",
+        "https://aws.amazon.com/ec2/pricing/reserved-instances/",
+        "https://aws.amazon.com/ec2/spot/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

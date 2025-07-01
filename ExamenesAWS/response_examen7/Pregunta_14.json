@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "You are tasked with training a deep neural network model with billions of parameters using Amazon SageMaker. The model is too large to fit into a single GPU, and the dataset is also substantial. Which SageMaker technique should you use to ensure efficient training?",
+      "options": [
+        "Model parallelism, where the model itself is split across multiple GPUs, and each GPU handles a portion of the model.",
+        "Use pre-built SageMaker containers without any adjustments for distributed training.",
+        "Data parallelism, where the dataset is split across multiple machines but the model remains on one GPU.",
+        "Use only a single machine with larger memory to handle both the data and the model."
+      ],
+      "correct_answers": [
+        "Model parallelism, where the model itself is split across multiple GPUs, and each GPU handles a portion of the model."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

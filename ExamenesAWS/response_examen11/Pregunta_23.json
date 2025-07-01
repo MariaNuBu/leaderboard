@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "TOPIC: 2.1 Choose a modeling approach.\n\nA social media company wants to build a content moderation system to detect inappropriate or offensive material in user-uploaded images.\n\nWhich solution will meet this requirement?",
+      "options": [
+        "A Use an Amazon SageMaker Debugger built-in rule.",
+        "B Use Amazon Rekognition moderation APIs.",
+        "C Use Amazon SageMaker Ground Truth Plus to label inappropriate or offensive material.",
+        "D Use Amazon Textract to process images automatically."
+      ],
+      "correct_answers": [
+        "B Use Amazon Rekognition moderation APIs."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a modeling approach.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

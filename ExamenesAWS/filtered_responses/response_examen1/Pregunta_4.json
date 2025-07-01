@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A financial services company is building a customer churn prediction model on AWS. The dataset includes call logs, customer interaction history, and transactional data from an on-premises PostgreSQL database. The call logs and interaction history are stored in Amazon S3, while the PostgreSQL tables remain on-premises. The data science team needs to aggregate and preprocess data from these various sources to ensure it is ready for machine learning model training. They must also resolve challenges such as feature inconsistencies and ensure schema alignment across the data sources.\n\nWhich AWS service or feature can efficiently connect and aggregate the data from these sources?",
+      "options": [
+        "Use Amazon EMR Spark jobs to preprocess and aggregate the data directly from S3 and on-premises sources for ML model training",
+        "Use AWS Lake Formation to aggregate and centrally manage the data from S3 and on-premises PostgreSQL for seamless access and integration",
+        "Use Amazon SageMaker Data Wrangler to connect, aggregate, and preprocess the data",
+        "Use AWS Database Migration Service (DMS) to transfer and preprocess data for ML training"
+      ],
+      "correct_answers": [
+        "Use AWS Lake Formation to aggregate and centrally manage the data from S3 and on-premises PostgreSQL for seamless access and integration"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html",
+        "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

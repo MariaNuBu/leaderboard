@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "TOPIC: 1.2 Transform data and perform feature engineering.\n\nAn ML engineer is developing a semantic segmentation computer vision product. The ML engineer has an unlabeled image dataset that is stored in Amazon S3. The images must be labeled to prepare the dataset to train a built-in classification ML model on Amazon SageMaker.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A\nUse Amazon Rekognition custom labels.",
+        "B\nUse a built-in SageMaker TensorFlow model.",
+        "C\nCreate a SageMaker Ground Truth labeling job.",
+        "D\nLabel the images by using an online labeling tool. Upload the labels to Amazon S3."
+      ],
+      "correct_answers": [
+        "C\nCreate a SageMaker Ground Truth labeling job."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

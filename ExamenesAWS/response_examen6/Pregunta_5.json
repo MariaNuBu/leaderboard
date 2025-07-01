@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A financial services company is managing sensitive data such as database credentials, API keys, and access tokens in AWS Secrets Manager. They need to ensure that their secrets are accessible across multiple regions for high availability and also want to enable automatic secret rotation for enhanced security.\n\nWhich of the following steps should they take to meet these requirements?\n\nCreate separate secrets for each region manually and use AWS KMS default keys for encryption.\n\nExplicación\nManually creating separate secrets introduces complexity and does not take advantage of AWS Secrets Manager's replication capabilities.\n\nManually rotate secrets by scheduling Lambda functions that update the secret values across regions.\n\nExplicación\nAWS Secrets Manager supports automatic rotation of secrets, so manually scheduling Lambda functions for rotation adds unnecessary complexity.",
+      "options": [
+        "Create separate secrets for each region manually and use AWS KMS default keys for encryption.",
+        "Manually rotate secrets by scheduling Lambda functions that update the secret values across regions.",
+        "Enable cross-region replication for secrets and set up customer-managed KMS keys to manage encryption policies across regions.",
+        "Store secrets only in one region and rely on AWS Global Accelerator for multi-region access."
+      ],
+      "correct_answers": [
+        "Enable cross-region replication for secrets and set up customer-managed KMS keys to manage encryption policies across regions."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

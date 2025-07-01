@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "TOPIC 4.2 Monitor and optimize infrastructure and costs.\n\nA company urgently wants to deploy a newly trained ML model to improve customer experience for an existing application that has a custom traffic pattern. An MLOps engineer must build a deployment pipeline to host the model on a persistent, scalable endpoint that provides consistently low latency. The MLOps engineer must identify the instance type to use to host the model.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A\nChoose a configuration that is based on the model's compute resource utilization in Amazon SageMaker Profiler.",
+        "B\nDeploy a load testing pipeline to provision endpoints and compare performance data in Amazon CloudWatch.",
+        "C\nUse Amazon SageMaker Inference Recommender to run an endpoint recommendation job.",
+        "D\nUse Amazon SageMaker Inference Recommender to run an inference recommendation job."
+      ],
+      "correct_answers": [
+        "C\nUse Amazon SageMaker Inference Recommender to run an endpoint recommendation job."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.2 Monitor and optimize infrastructure and costs.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

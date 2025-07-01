@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "You are a Senior ML Engineer at a global logistics company that heavily relies on machine learning models for optimizing delivery routes, predicting demand, and detecting anomalies in real-time. The company is rapidly expanding, and you are tasked with building a maintainable, scalable, and cost-effective ML infrastructure that can handle increasing data volumes and evolving model requirements. You must implement best practices to ensure that the infrastructure can support ongoing development, deployment, monitoring, and scaling of multiple models across different regions.\n\nWhich of the following strategies should you implement to create a maintainable, scalable, and cost-effective ML infrastructure for your company using AWS services? (Select three)",
+      "options": [
+        "Use a monolithic architecture to manage all machine learning models in a single environment, simplifying management and reducing overhead",
+        "Utilize infrastructure as code (IaC) with AWS CloudFormation to automate the deployment and management of ML resources, making it easy to replicate and scale infrastructure across regions",
+        "Store all model artifacts and data in Amazon CodeCommit for version control and managing changes over time",
+        "Implement a microservices-based architecture with Amazon SageMaker endpoints, where each model is deployed independently, allowing for isolated scaling and updates",
+        "Provision fixed resources for each model to avoid unexpected costs, ensuring that the infrastructure is always available for each model",
+        "Store all model artifacts and data in Amazon S3, and use versioning to manage changes over time, ensuring that models can be easily rolled back if needed"
+      ],
+      "correct_answers": [
+        "Utilize infrastructure as code (IaC) with AWS CloudFormation to automate the deployment and management of ML resources, making it easy to replicate and scale infrastructure across regions",
+        "Implement a microservices-based architecture with Amazon SageMaker endpoints, where each model is deployed independently, allowing for isolated scaling and updates",
+        "Store all model artifacts and data in Amazon S3, and use versioning to manage changes over time, ensuring that models can be easily rolled back if needed"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-deployment.html",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-overview.html",
+        "https://aws.amazon.com/codecommit/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

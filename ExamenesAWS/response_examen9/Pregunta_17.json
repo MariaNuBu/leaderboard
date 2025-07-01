@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A company has a requirement to process real-time streaming data from IoT devices. The data needs to be ingested continuously and some preliminary analysis should be performed before storing the data in an Amazon S3 bucket. Which combination of services and configurations should be used to achieve this? (Choose two)\n\nUse AWS Glue to run the analysis on data as it arrives in the S3 bucket.\nSet up the Lambda function to trigger based on events from Amazon Kinesis Data Streams.\nUse Amazon Kinesis Data Streams to collect and stream the data from IoT devices.\nConfigure an AWS Lambda function to trigger on S3 'PUT' events to process the streaming data.\nCreate an Amazon S3 bucket to directly store raw IoT data without any processing.",
+      "options": [
+        "Use AWS Glue to run the analysis on data as it arrives in the S3 bucket.",
+        "Set up the Lambda function to trigger based on events from Amazon Kinesis Data Streams.",
+        "Use Amazon Kinesis Data Streams to collect and stream the data from IoT devices.",
+        "Configure an AWS Lambda function to trigger on S3 'PUT' events to process the streaming data.",
+        "Create an Amazon S3 bucket to directly store raw IoT data without any processing."
+      ],
+      "correct_answers": [
+        "Set up the Lambda function to trigger based on events from Amazon Kinesis Data Streams.",
+        "Use Amazon Kinesis Data Streams to collect and stream the data from IoT devices."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

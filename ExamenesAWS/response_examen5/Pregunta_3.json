@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A company wants to use Amazon SageMaker to deploy a real-time machine learning model for high-traffic online predictions. The model has moderate memory and CPU requirements, but scalability and low latency are critical due to unpredictable traffic spikes.\n\nWhich of the following deployment options is best suited for this scenario?\n\nDeploy the model on an Amazon EC2 instance to manually manage scaling.\n\nExplicación\nUsing Amazon EC2 for model deployment would require manual scaling and management, which can be less responsive to unpredictable traffic.\n\nUse AWS Lambda to serve predictions from the model, scaling as per incoming requests.\n\nExplicación\nWhile AWS Lambda offers auto-scaling, it may not be suitable for models that require extensive CPU or memory resources, especially with the high-traffic demands described. SageMaker endpoints are optimized for such workloads.",
+      "options": [
+        "Deploy the model on an Amazon EC2 instance to manually manage scaling.",
+        "Use AWS Lambda to serve predictions from the model, scaling as per incoming requests.",
+        "Deploy the model on an Amazon SageMaker endpoint with auto-scaling enabled.",
+        "Use Amazon SageMaker batch transform to process requests in large batches."
+      ],
+      "correct_answers": [
+        "Deploy the model on an Amazon SageMaker endpoint with auto-scaling enabled."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

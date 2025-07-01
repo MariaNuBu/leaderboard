@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA financial institution is working on a machine learning model for predicting loan approval decisions. The institution prioritizes explaining lending decisions to stakeholders in human terms for transparency and fairness.\n\nWhich of the following machine learning model statements is true, and which does the institution need to choose to meet the requirement?\n\nA complex model should be chosen because accuracy is more important than explainability in loan approval decisions.\nA simple model should be chosen because accuracy is more important than explainability in loan approval decisions.\nA complex model should be chosen because explainability is crucial in loan approval decisions.\nA simple model should be chosen because explainability is crucial in loan approval decisions.",
+      "options": [
+        "A complex model should be chosen because accuracy is more important than explainability in loan approval decisions.",
+        "A simple model should be chosen because accuracy is more important than explainability in loan approval decisions.",
+        "A complex model should be chosen because explainability is crucial in loan approval decisions.",
+        "A simple model should be chosen because explainability is crucial in loan approval decisions."
+      ],
+      "correct_answers": [
+        "A simple model should be chosen because explainability is crucial in loan approval decisions."
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/machine-learning/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-explainability.html"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

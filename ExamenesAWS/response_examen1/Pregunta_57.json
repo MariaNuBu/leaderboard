@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "You are a data scientist at a credit risk management company building a machine learning model to predict loan defaults. To ensure transparency and regulatory compliance, you need to explain how the model makes its predictions, particularly for high-stakes decisions such as loan approvals or rejections. The company wants a detailed understanding of the influence of individual features on the model’s predictions for specific customers, as well as an overall view of how features impact the model's predictions across the entire dataset.\n\nWhich of the following explanations BEST describes the differences between Shapley values and Partial Dependence Plots (PDP) in the context of model explainability, and how you might use them for this purpose?",
+      "options": [
+        "Shapley values and PDP are both global explainability methods that show the average effect of features on model predictions. Use either method to understand overall feature importance, but Shapley values are computationally less expensive than PDP",
+        "Shapley values provide a visual interpretation of feature importance using plots, while PDP provides numeric values indicating the marginal contribution of features to the model's predictions. Use Shapley values for visual analysis and PDP for quantitative analysis",
+        "Shapley values provide a local explanation by quantifying the contribution of each feature to the prediction for a specific instance, while PDP provides a global explanation by showing the marginal effect of a feature on the model’s predictions across the dataset. Use Shapley values to explain individual predictions and PDP to understand the model's behavior at a dataset level",
+        "Shapley values provide a global view of the model’s behavior by measuring the average effect of each feature across all instances, while PDP offers a local view by showing the effect of a single feature on the model’s prediction for a specific instance. Use Shapley values to understand overall feature importance and PDP to interpret individual predictions"
+      ],
+      "correct_answers": [
+        "Shapley values provide a local explanation by quantifying the contribution of each feature to the prediction for a specific instance, while PDP provides a global explanation by showing the marginal effect of a feature on the model’s predictions across the dataset. Use Shapley values to explain individual predictions and PDP to understand the model's behavior at a dataset level"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-explainability.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

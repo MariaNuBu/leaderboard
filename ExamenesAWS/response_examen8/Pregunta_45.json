@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "A retail company uses AWS Lambda to process images uploaded to an Amazon S3 bucket. The company wants to enhance the Lambda function to extract metadata from the images (such as resolution and file format), store the metadata in an Amazon DynamoDB table, and trigger a machine learning model hosted on SageMaker to classify the images. Which of the following options is the most proper and scalable for described workflow?\n\nUse an S3 event trigger to invoke the Lambda function, extract metadata, store it in DynamoDB, and directly invoke the SageMaker endpoint for classification within the same Lambda function.\n\nExplicación\nAlthough feasible, combining the metadata extraction and model invocation in a single Lambda function is less modular and may lead to scalability or timeout issues.",
+      "options": [
+        "Use an S3 event trigger to invoke the Lambda function, extract metadata, store it in DynamoDB, and directly invoke the SageMaker endpoint for classification within the same Lambda function.",
+        "Use an S3 event trigger to invoke the Lambda function, extract metadata, and store it in DynamoDB. Then, trigger a separate Lambda function to invoke the SageMaker endpoint for classification.",
+        "Set up an Amazon S3 batch operation to invoke the Lambda function, extract metadata, and invoke the SageMaker endpoint. Use a separate process to store the metadata in DynamoDB after classification.",
+        "Use Amazon EventBridge to monitor S3 uploads, triggering the Lambda function to extract metadata, store it in DynamoDB, and schedule a periodic invocation of SageMaker for classification."
+      ],
+      "correct_answers": [
+        "Use an S3 event trigger to invoke the Lambda function, extract metadata, and store it in DynamoDB. Then, trigger a separate Lambda function to invoke the SageMaker endpoint for classification."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "A company is preparing to automate the transformation and loading of log data from an Amazon S3 bucket using AWS Glue. The data should be transformed into a columnar format to enhance query performance and stored back into S3 for subsequent analysis using business intelligence tools. Considering cost optimization and effective data transformation, which TWO of the following strategies should the company implement? (Choose Two)",
+      "options": [
+        "Configure an AWS Glue crawler to detect and update the data schema, enabling automatic partitioning by adding new partitions as data grows.",
+        "Directly use Amazon S3 to perform ETL operations on the data, bypassing AWS Glue to minimize costs and avoid complex configurations.",
+        "Utilize AWS Glue's built-in capability to transform the data format to Apache Parquet for optimized analytical querying before storing it back to S3.",
+        "Implement manual ETL processes that rely on EC2 instances to periodically transform and overwrite data in S3 to ensure data is up-to-date.",
+        "Set up AWS Glue ETL jobs to run on a minimal number of Data Processing Units (DPUs) to effectively balance cost and performance."
+      ],
+      "correct_answers": [
+        "Utilize AWS Glue's built-in capability to transform the data format to Apache Parquet for optimized analytical querying before storing it back to S3.",
+        "Set up AWS Glue ETL jobs to run on a minimal number of Data Processing Units (DPUs) to effectively balance cost and performance."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

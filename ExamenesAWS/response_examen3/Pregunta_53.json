@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "You are an AI/ML engineer at a company that is rapidly expanding its use of generative AI and machine learning to create personalized customer experiences. The company is exploring AWS services to quickly prototype and deploy both generative AI models and traditional machine learning models with minimal effort. The team is particularly interested in services that provide pre-built models, templates, and the ability to scale solutions into production seamlessly.\\n\\nGiven these requirements, which of the following statements BEST highlights the differences between Amazon Bedrock and Amazon SageMaker JumpStart to help your team make an informed decision?",
+      "options": [
+        "Amazon Bedrock focuses on providing a managed service for deploying pre-trained foundation models from various providers, whereas Amazon SageMaker JumpStart offers a range of pre-built solutions, including models, notebooks, and algorithms for both machine learning and generative AI use cases",
+        "Amazon Bedrock is ideal for quick deployment of computer vision models, while Amazon SageMaker JumpStart specializes in deploying natural language processing models",
+        "Amazon Bedrock provides a simplified interface for training and tuning models from scratch, while Amazon SageMaker JumpStart is primarily for deploying third-party models with limited customization",
+        "Amazon Bedrock is designed specifically for building and deploying custom machine learning models, while Amazon SageMaker JumpStart is tailored for deploying pre-trained large language models (LLMs) with minimal customization"
+      ],
+      "correct_answers": [
+        "Amazon Bedrock focuses on providing a managed service for deploying pre-trained foundation models from various providers, whereas Amazon SageMaker JumpStart offers a range of pre-built solutions, including models, notebooks, and algorithms for both machine learning and generative AI use cases"
+      ],
+      "references": [
+        "https://aws.amazon.com/bedrock/",
+        "https://aws.amazon.com/sagemaker/jumpstart/",
+        "https://aws.amazon.com/what-is/generative-ai/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A healthcare organization is developing a deep learning model on Amazon SageMaker to predict patient outcomes. The training dataset is substantial, and the organization aims to optimize the model's hyperparameters to minimize the validation dataset's loss function.\n\nWhich hyperparameter tuning strategy should the organization use to achieve this goal with the least computational effort?\n\nGrid search\n\nGradient descent\n\nRandom Forest",
+      "options": [
+        "Grid search",
+        "Gradient descent",
+        "Random Forest"
+      ],
+      "correct_answers": [
+        "Hyperband"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/hyperparameter-tuning/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

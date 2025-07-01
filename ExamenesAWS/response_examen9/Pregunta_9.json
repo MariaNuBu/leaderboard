@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A company wants to understand which features most contribute to the predictions of its machine learning model in order to build trust and meet regulatory compliance. Which feature of SageMaker Clarify should the company use, and how does it work?",
+      "options": [
+        "SHAP values for explainability through feature attribution",
+        "LIME values for feature contribution analysis",
+        "K-Nearest Neighbors for calculating feature importance",
+        "Random Cut Forest algorithm to detect ou"
+      ],
+      "correct_answers": [
+        "SHAP values for explainability through feature attribution"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

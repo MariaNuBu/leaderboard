@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Case Study -\nA company is building a web-based AI application by using Amazon SageMaker. The application will provide the following capabilities and features: ML experimentation, training, a central model registry, model deployment, and model monitoring.\nThe application must ensure secure and isolated use of training data during the ML lifecycle. The training data is stored in Amazon S3.\nThe company is experimenting with consecutive training jobs.\nHow can the company MINIMIZE infrastructure startup times for these jobs?",
+      "options": [
+        "A. Use Managed Spot Training.",
+        "B. Use SageMaker managed warm pools. Most Voted",
+        "C. Use SageMaker Training Compiler.",
+        "D. Use the SageMaker distributed data parallelism (SMDDP) library."
+      ],
+      "correct_answers": [
+        "B. Use SageMaker managed warm pools. Most Voted"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01",
+      "Practice test": "ExamTopics"
+    }
+  ]
+}

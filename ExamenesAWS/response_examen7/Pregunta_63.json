@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "A data scientist is running multiple machine learning experiments using Amazon SageMaker to determine the best hyperparameter configurations for their model. They want to track each experiment's metadata, compare the results, and ensure that the process is fully reproducible. Which SageMaker feature would BEST meet these requirements?",
+      "options": [
+        "SageMaker Experiments",
+        "SageMaker Autopilot",
+        "SageMaker Debugger",
+        "SageMaker Pipelines"
+      ],
+      "correct_answers": [
+        "SageMaker Experiments"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

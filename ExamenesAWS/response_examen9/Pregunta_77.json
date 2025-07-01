@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 77,
+      "question": "A machine learning engineer is setting up a fully managed Jupyter notebook instance in Amazon SageMaker to develop and train models. The engineer wants to use an instance optimized for deep learning and ensure the environment is preconfigured with popular ML libraries. What steps should the engineer follow to achieve this?",
+      "options": [
+        "Spin up an on-demand SageMaker notebook instance, configure GPU settings, and utilize the pre-installed libraries like TensorFlow and PyTorch.",
+        "Use Amazon EMR to set up a Jupyter notebook environment and install the necessary libraries.",
+        "Launch an EC2 instance, install Jupyter, and manually install TensorFlow and PyTorch.",
+        "Manually configure a server with the required libraries and manage the environment."
+      ],
+      "correct_answers": [
+        "Spin up an on-demand SageMaker notebook instance, configure GPU settings, and utilize the pre-installed libraries like TensorFlow and PyTorch."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

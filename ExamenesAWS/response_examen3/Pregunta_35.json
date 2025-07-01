@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "A healthcare analytics company is using Amazon SageMaker to train a deep learning model for medical image analysis. The training process requires distributed training across multiple GPU instances due to the large size of the dataset. During training, the ML engineer observes that the model training is slower than expected because of network communication delays between the instances. The engineer must optimize the network configuration to minimize communication overhead and improve training performance.\\n\\nWhich of the following options should be combined for a solution that meets these requirements? (Select two)",
+      "options": [
+        "Store the training data in a different AWS Region from where the instances are deployed",
+        "Store the training data in the same AWS Region and Availability Zone where the instances are deployed",
+        "Launch the training instances in the same VPC subnet",
+        "Store the training data in the same AWS Region but different Availability Zones from where the instances are deployed",
+        "Launch the training instances in different subnets within the same VPC to balance network traffic and reduce communication bottlenecks"
+      ],
+      "correct_answers": [
+        "Store the training data in the same AWS Region and Availability Zone where the instances are deployed",
+        "Launch the training instances in the same VPC subnet"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html",
+        "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "What is the primary distinction between discriminative models and generative models in the context of generative AI?\n\nGenerative models are trained on labeled data, while discriminative models can be trained on both labeled and unlabeled data",
+      "options": [
+        "Generative models are trained on labeled data, while discriminative models can be trained on both labeled and unlabeled data",
+        "Generative models focus on generating new data from learned patterns, whereas discriminative models classify data by distinguishing between different classes",
+        "Discriminative models are used to generate new data, while generative models are used only for classification",
+        "Discriminative models are only used for text classification, while generative models are only used for image classification"
+      ],
+      "correct_answers": [
+        "Generative models focus on generating new data from learned patterns, whereas discriminative models classify data by distinguishing between different classes"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/generative-ai/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

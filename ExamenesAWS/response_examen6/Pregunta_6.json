@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A data scientist needs to implement a custom machine learning algorithm that is not natively supported by Amazon SageMaker. They want to modularize their code to separate the model definition, training, and inference logic into distinct components, and they need to include additional Python libraries for the project.\n\nWhich of the following strategies should they follow?",
+      "options": [
+        "Use SageMaker Script Mode to modularize the code across multiple Python scripts, specifying the entry point script and including additional dependencies via a requirements.txt file.",
+        "Use SageMaker only for built-in algorithms, as it does not support custom libraries or complex modularization in Script Mode.",
+        "Write the entire code in one Python script, and SageMaker will automatically handle dependencies without any need to modularize the code.",
+        "Build a custom Docker container from scratch, package the code, libraries, and dependencies manually, and deploy it in SageMaker."
+      ],
+      "correct_answers": [
+        "Use SageMaker Script Mode to modularize the code across multiple Python scripts, specifying the entry point script and including additional dependencies via a requirements.txt file."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

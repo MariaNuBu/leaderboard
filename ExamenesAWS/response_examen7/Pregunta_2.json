@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A retail company is using Amazon Kinesis Data Firehose to stream clickstream data to Amazon S3. Occasionally, the data fails transformation due to malformed records. The company wants to ensure that these failed records are captured for further analysis. What is the best approach to handle this scenario?\\n\\nEnable error logging in Amazon CloudWatch to identify and fix the records manually.\\n\\nExplicación\\nAlthough logging errors in CloudWatch is useful for monitoring, it does not capture the actual malformed records for later analysis.",
+      "options": [
+        "Enable error logging in Amazon CloudWatch to identify and fix the records manually.",
+        "Configure Amazon Kinesis Data Firehose to send failed records to a separate Amazon S3 bucket for analysis using the backup configuration.",
+        "Configure Amazon Kinesis Data Firehose to use a retry policy to reprocess failed records indefinitely until successful.",
+        "Enable data transformation with AWS Lambda and configure a Dead Letter Queue (DLQ) to capture malformed records that cannot be processed."
+      ],
+      "correct_answers": [
+        "Configure Amazon Kinesis Data Firehose to send failed records to a separate Amazon S3 bucket for analysis using the backup configuration."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

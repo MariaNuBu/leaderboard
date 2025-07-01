@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A company's data scientist has deployed a sentiment analysis machine learning model to an Amazon SageMaker endpoint. Given the involvement of multiple stakeholders, the data scientist needs to explain how the model generates its predictions and clarify the factors influencing the model's decisions.\n\nWhich solution will provide an explanation for the model's predictions?",
+      "options": [
+        "Configure a SageMaker Clarify processing job to analyze your model for bias and explainability",
+        "Use Amazon SageMaker Model Monitor that offers tools to provide explainations on model quality",
+        "Leverage CloudWatch Insights derived from SageMaker AI endpoint invocation metrics to analyze your model for bias and explainability",
+        "Use Amazon Textract to automatically extract text and data from the ML model and provide insights on its predictions"
+      ],
+      "correct_answers": [
+        "Configure a SageMaker Clarify processing job to analyze your model for bias and explainability"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/monitoring-cloudwatch.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

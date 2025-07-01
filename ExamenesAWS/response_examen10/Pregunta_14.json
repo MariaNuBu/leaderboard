@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A company is developing a computer vision ML model. The company receives weekly image data, and the model is re-trained on a weekly basis. The images are stored in Amazon S3. The images require preprocessing steps including resizing, color correction, and data augmentation by using frameworks such as TensorFlow and PyTorch. The images are then stored as TensorFlow record files.\nWhich combination of steps will meet these requirements with the LEAST operational overhead? (Select THREE.)",
+      "options": [
+        "A\nUse AWS Glue extract, transform, and load (ETL) jobs to process the images.",
+        "B\nEnable Amazon S3 Event Notifications to be invoked when new files are uploaded to the S3 bucket.",
+        "C\nCreate a processing job to process the data on Amazon SageMaker.",
+        "D\nUse AWS Step Functions to orchestrate the steps.",
+        "E\nUse Amazon ECS on AWS Fargate to process the data.",
+        "F\nUse an AWS Lambda function to detect new uploaded files in Amazon S3."
+      ],
+      "correct_answers": [
+        "B\nEnable Amazon S3 Event Notifications to be invoked when new files are uploaded to the S3 bucket.",
+        "C\nCreate a processing job to process the data on Amazon SageMaker.",
+        "D\nUse AWS Step Functions to orchestrate the steps."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 85,
+      "question": "A machine learning team is designing a SageMaker Pipeline to train, register, and deploy models. The pipeline uses several parameters for customization. Which of the following statements about parameters in SageMaker Pipelines is correct?\n\nParameters must always be defined by the user before pipeline execution.\n\nExplicación\nParameters can have default values, so user input is not always required.\n\nParameters only support string and integer types.\n\nExplicación\nParameters in SageMaker Pipelines support various types, including string, integer, float, and boolean.",
+      "options": [
+        "Parameters must always be defined by the user before pipeline execution.",
+        "Parameters only support string and integer types.",
+        "Parameters can have default values but can also be overridden during execution.",
+        "Parameters are used exclusively for defining step relationships in the pipeline."
+      ],
+      "correct_answers": [
+        "Parameters can have default values but can also be overridden during execution."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

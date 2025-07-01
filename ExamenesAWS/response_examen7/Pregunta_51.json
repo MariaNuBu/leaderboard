@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A company is building a generative AI application using Amazon Bedrock. The company needs to quickly integrate a foundation model for generating product recommendations based on customer interactions. They also want to ensure the infrastructure is scalable and secure without managing it directly.\nWhich features of Amazon Bedrock make it the best choice for this use case? (Choose Two)",
+      "options": [
+        "Data encryption in transit and at rest",
+        "Serverless environment with automatic scaling",
+        "Custom instances for high-complexity models",
+        "Direct access to GPUs for model training",
+        "On-premises infrastructure for enhanced security"
+      ],
+      "correct_answers": [
+        "Data encryption in transit and at rest",
+        "Serverless environment with automatic scaling"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

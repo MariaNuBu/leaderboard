@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "A technology company manages an application that performs data enrichment by integrating with various external APIs. To enhance security, the company must implement a solution to automatically rotate the API tokens used by the application every 90 days.\n\nWhich approach should the company use to meet this requirement?\n\nStore the tokens in Parameter Store of AWS Systems Manager. Create an AWS Lambda function to perform the token rotation\n\nStore the API tokens in AWS Secrets Manager. Use AWS Key Management Service (KMS) to encrypt the keys and configure automatic rotation of the keys",
+      "options": [
+        "Store the tokens in Parameter Store of AWS Systems Manager. Create an AWS Lambda function to perform the token rotation",
+        "Store the API tokens in AWS Secrets Manager. Use AWS Key Management Service (KMS) to encrypt the keys and configure automatic rotation of the keys",
+        "Store the API tokens in AWS Secrets Manager. Configure an AWS Lambda function to perform the token rotation",
+        "Store the API tokens in AWS Secrets Manager. Configure Managed Rotation to perform the token rotation automatically"
+      ],
+      "correct_answers": [
+        "Store the API tokens in AWS Secrets Manager. Configure an AWS Lambda function to perform the token rotation"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_lambda.html",
+        "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_turn-on-for-other.html",
+        "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_managed.html",
+        "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

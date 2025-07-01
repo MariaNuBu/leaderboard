@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "A company deployed a binary classification model on a real-time Amazon SageMaker endpoint. To ensure long-term performance, they set up a schedule for SageMaker Model Monitor to evaluate model quality based on actual predictions and outcomes over time.\nWhich of the following steps is required to effectively monitor model quality using SageMaker Model Monitor?",
+      "options": [
+        "Set up custom metrics for feature attribution and monitor the bias drift for predictions from the real-time endpoint.",
+        "Create baseline statistics from the model’s training data and enable data capture to record requests and predictions.",
+        "Enable scheduled retraining on SageMaker to automatically improve model accuracy without monitoring metrics.",
+        "Enable automatic hyperparameter tuning for the endpoint and log model predictions to Amazon CloudWatch."
+      ],
+      "correct_answers": [
+        "Create baseline statistics from the model’s training data and enable data capture to record requests and predictions."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

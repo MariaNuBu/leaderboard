@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A data scientist is tasked with preparing datasets for an ML project. The datasets contain missing values, duplicate records, and outliers. The data scientist must clean and consolidate these datasets into a single data frame, ensuring the data is properly prepared for training a machine learning model.\n\nWhat is the most efficient approach to address these requirements?",
+      "options": [
+        "Manually import and merge the datasets, then save the consolidated data to an Amazon S3 bucket. Use Amazon Athena to perform data transformations, and leverage its integration with Amazon QuickSight for visualizing the transformed data",
+        "Use Amazon SageMaker Python SDK to consolidate these datasets into a single pandas data frame and run data transformations on it",
+        "Utilize Amazon SageMaker Ground Truth to import and consolidate the datasets into a single data frame. Employ the human-in-the-loop functionality to clean and prepare the data for further processing",
+        "Leverage Amazon SageMaker Data Wrangler to import the datasets and merge them into a unified data frame. Utilize Data Wrangler's transformation functionalities to clean and preprocess the data"
+      ],
+      "correct_answers": [
+        "Leverage Amazon SageMaker Data Wrangler to import the datasets and merge them into a unified data frame. Utilize Data Wrangler's transformation functionalities to clean and preprocess the data"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-data-insights.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

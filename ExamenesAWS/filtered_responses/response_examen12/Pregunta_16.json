@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA machine learning engineer is working on an AWS project involving real-time fraud detection for an online payment platform. The platform generates a continuous stream of transaction data that needs processing and analysis using a pre-trained model on Amazon SageMaker AI.\n\nWhich combination of AWS services should the machine learning engineer choose to ingest and process the real-time transaction data before delivering it to SageMaker AI for inference? (Select TWO.)",
+      "options": [
+        "Amazon Data Firehose",
+        "Amazon Kinesis Data Streams",
+        "AWS Glue",
+        "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+        "Amazon Managed Service for Apache Flink"
+      ],
+      "correct_answers": [
+        "Amazon Kinesis Data Streams",
+        "Amazon Managed Service for Apache Flink"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+        "https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/amazon-kinesis.html",
+        "https://aws.amazon.com/managed-service-apache-flink/?nc=sn&loc=1",
+        "https://tutorialsdojo.com/amazon-kinesis/",
+        "https://tutorialsdojo.com/amazon-kinesis-data-streams-vs-data-firehose-vs-data-analytics-vs-video-streams/"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "A company wants to ensure that all its EC2 instances are monitored for both CPU utilization and disk read/write operations. They also need to track configuration changes to these EC2 instances over time, such as changes to security groups, instance type, and AMI IDs. Which combination of AWS services will best meet these requirements?\n\nUse CloudWatch Logs to capture both CPU utilization and configuration changes and create custom log filters for disk operations.\n\nExplicación\nCloudWatch Logs captures log data, not resource metrics or configuration changes. It would require additional agents and custom filters, making it unnecessarily complex.\n\nSet up CloudWatch Alarms for CPU and disk operations and AWS CloudTrail for tracking configuration changes on EC2 instances.\n\nExplicación\nCloudWatch Alarms monitor performance metrics but do not track configuration changes. CloudTrail logs API calls but is not ideal for tracking detailed configuration state changes.",
+      "options": [
+        "Use CloudWatch Logs to capture both CPU utilization and configuration changes and create custom log filters for disk operations.",
+        "Set up CloudWatch Alarms for CPU and disk operations and AWS CloudTrail for tracking configuration changes on EC2 instances.",
+        "Use AWS CloudWatch to monitor CPU utilization and disk read/write operations, and AWS Config to track configuration changes to the EC2 instances.",
+        "Enable AWS CloudTrail to monitor CPU and disk usage and use AWS Config to capture configuration changes."
+      ],
+      "correct_answers": [
+        "Use AWS CloudWatch to monitor CPU utilization and disk read/write operations, and AWS Config to track configuration changes to the EC2 instances."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

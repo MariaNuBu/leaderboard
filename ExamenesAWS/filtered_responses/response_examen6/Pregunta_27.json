@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "Which of the following best describes the \"human-in-the-loop\" (HITL) approach in Amazon SageMaker Ground Truth?",
+      "options": [
+        "A method of labeling data that eliminates the need for human feedback entirely through automation.",
+        "A system where human labelers work in parallel with machines to label data simultaneously.",
+        "A process where human laborers label all the data to ensure the highest accuracy.",
+        "A combination of machine learning and human feedback where human workers only intervene in complex tasks, improving labeling efficiency."
+      ],
+      "correct_answers": [
+        "A combination of machine learning and human feedback where human workers only intervene in complex tasks, improving labeling efficiency."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

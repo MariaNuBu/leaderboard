@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "A retail company is building a web-based AI application using Amazon SageMaker to predict customer purchase behavior. The system must support full ML lifecycle features such as experimentation, training, centralized model registry, deployment, and monitoring. The training data is securely stored in Amazon S3, and the models need to be deployed to real-time endpoints to serve predictions. The company is now planning to run an on-demand workflow to monitor for bias drift in the deployed models to ensure fairness and accuracy in predictions.\n\nWhat do you recommend?\n\nUse AWS Glue Data Quality to validate and monitor data quality for detecting bias drift in real-time endpoints\n\nUse the sagemaker-model-monitor-analyzer built-in SageMaker image to automatically analyze and resolve bias drift in deployed models\n\nUse Amazon SageMaker Lineage Tracking to trace and analyze bias drift in model predictions",
+      "options": [
+        "Use AWS Glue Data Quality to validate and monitor data quality for detecting bias drift in real-time endpoints",
+        "Use the sagemaker-model-monitor-analyzer built-in SageMaker image to automatically analyze and resolve bias drift in deployed models",
+        "Use Amazon SageMaker Lineage Tracking to trace and analyze bias drift in model predictions",
+        "Use Amazon SageMaker Clarify to analyze captured inference data from real-time endpoints for bias detection on demand"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Clarify to analyze captured inference data from real-time endpoints for bias detection on demand"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-bias-drift.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

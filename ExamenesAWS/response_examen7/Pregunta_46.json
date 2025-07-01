@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "A machine learning team needs to regularly transform and load large datasets from Amazon S3 into a data warehouse for model training. They are considering using AWS Glue for this ETL process but want to ensure the process is scalable, cost-efficient, and able to handle incremental updates. Which features of AWS Glue should they leverage to meet these requirements? (Choose Two)\n\nPre-configure fixed Spark cluster resources to avoid unexpected scaling charges.\n\nUse AWS Glue crawlers to infer the schema and classify the data in real-time, ensuring all new files are processed immediately.\n\nUtilize AWS Glue’s serverless architecture and auto-scaling capabilities to manage Spark clusters automatically, ensuring scalability.\n\nUse AWS Glue to configure incremental ETL jobs that only process new or modified data.\n\nUse AWS Glue’s built-in scheduling to trigger ETL jobs at regular intervals and process the entire dataset each time for consistency.",
+      "options": [
+        "Pre-configure fixed Spark cluster resources to avoid unexpected scaling charges.",
+        "Use AWS Glue crawlers to infer the schema and classify the data in real-time, ensuring all new files are processed immediately.",
+        "Utilize AWS Glue’s serverless architecture and auto-scaling capabilities to manage Spark clusters automatically, ensuring scalability.",
+        "Use AWS Glue to configure incremental ETL jobs that only process new or modified data.",
+        "Use AWS Glue’s built-in scheduling to trigger ETL jobs at regular intervals and process the entire dataset each time for consistency."
+      ],
+      "correct_answers": [
+        "Utilize AWS Glue’s serverless architecture and auto-scaling capabilities to manage Spark clusters automatically, ensuring scalability.",
+        "Use AWS Glue to configure incremental ETL jobs that only process new or modified data."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "Which of the following highlights the differences between model parameters and hyperparameters in the context of generative AI?\n\nBoth Hyperparameters and model parameters are values that define a model and its behavior in interpreting input and generating responses\n\nHyperparameters are values that define a model and its behavior in interpreting input and generating responses. Model parameters are values that can be adjusted for model customization to control the training process\n\nBoth Hyperparameters and model parameters are values that can be adjusted for model customization to control the training process",
+      "options": [
+        "Both Hyperparameters and model parameters are values that define a model and its behavior in interpreting input and generating responses",
+        "Hyperparameters are values that define a model and its behavior in interpreting input and generating responses. Model parameters are values that can be adjusted for model customization to control the training process",
+        "Both Hyperparameters and model parameters are values that can be adjusted for model customization to control the training process"
+      ],
+      "correct_answers": [
+        "Model parameters are values that define a model and its behavior in interpreting input and generating responses. Hyperparameters are values that can be adjusted for model customization to control the training process"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/key-definitions.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

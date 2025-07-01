@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 80,
+      "question": "A machine learning engineer needs to create an ETL process that automatically extracts data from an Amazon S3 bucket, transforms it, and loads it into Amazon Redshift. Which AWS service should the engineer use to simplify this task?\n\nAmazon EMR\n\nExplicación\nAmazon EMR is used for big data processing with frameworks like Hadoop and Spark but requires more manual setup and management compared to AWS Glue.\n\nAWS Lambda\n\nExplicación\nAWS Lambda can run code in response to events but is not designed specifically for ETL tasks.",
+      "options": [
+        "Amazon EMR",
+        "AWS Lambda",
+        "AWS Glue",
+        "Amazon Kinesis"
+      ],
+      "correct_answers": [
+        "AWS Glue"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

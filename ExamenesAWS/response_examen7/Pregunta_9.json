@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A financial institution is using Amazon Athena to run SQL queries on its transaction logs stored in Amazon S3. They need a scalable way to keep track of schema changes in these logs, as the structure of the logs may change over time. Additionally, they want to ensure the queries are fast and cost-effective.\n\nWhich of the following is the most effective approach to ensure efficient schema management and optimized query performance?\n\nCreate an Amazon Athena table with a hardcoded schema and manually update it whenever the log structure changes.\n\nExplicación\nHardcoding a schema in Athena and manually updating it is time-consuming and error-prone. AWS Glue provides an automated solution for this.\n\nStore the transaction logs in Amazon RDS and create a pipeline to replicate them to Amazon Athena for better querying capabilities.\n\nExplicación\nStoring logs in Amazon RDS is not necessary for Athena queries. Amazon Athena is built to query data directly from S3 without needing a separate database.",
+      "options": [
+        "Create an Amazon Athena table with a hardcoded schema and manually update it whenever the log structure changes.",
+        "Store the transaction logs in Amazon RDS and create a pipeline to replicate them to Amazon Athena for better querying capabilities.",
+        "Use AWS Glue Crawlers to automatically detect schema changes and store the metadata in the Glue Data Catalog for Amazon Athena to query.",
+        "Enable S3 Select to query only the necessary parts of the logs, ensuring that schema changes are handled automatically."
+      ],
+      "correct_answers": [
+        "Use AWS Glue Crawlers to automatically detect schema changes and store the metadata in the Glue Data Catalog for Amazon Athena to query."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

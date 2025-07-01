@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "A healthcare company is using a large language model (LLM) to automatically write summaries from notes that are taken during consultations. The company wants to use Amazon Bedrock to build and deploy a customized healthcare version of the language model. The company will use a labeled dataset to improve performance in summarization tasks.\n\nSelect and order the correct steps from the following list to improve summarization performance. Each step should be selected one time or not at all. (Select and order THREE.)\n\nDeploy the fine-tuned model that includes provisioned throughput.\nRun a continued pre-training job by using a source model and the training data.\nPrepare a dataset of labeled entries in JSON Lines format.\nDeploy the model by using a serverless endpoint.\nRun a fine-tuning job by using a source model and the training data.",
+      "options": [
+        "Deploy the fine-tuned model that includes provisioned throughput.",
+        "Run a continued pre-training job by using a source model and the training data.",
+        "Prepare a dataset of labeled entries in JSON Lines format.",
+        "Deploy the model by using a serverless endpoint.",
+        "Run a fine-tuning job by using a source model and the training data."
+      ],
+      "correct_answers": [
+        "Prepare a dataset of labeled entries in JSON Lines format.",
+        "Run a fine-tuning job by using a source model and the training data.",
+        "Deploy the fine-tuned model that includes provisioned throughput."
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A startup working on autonomous driving technology needs to label a large dataset of road images for training their object detection model.\nThe team wants to minimize the cost of labeling while maintaining high-quality results.\nThey aim to use a combination of human labelers and automation to label straightforward objects while having human reviewers handle more complex cases.\n\nWhich of the following strategies BEST fits their needs?",
+      "options": [
+        "Use SageMaker Ground Truth with active learning to automate labeling of simple cases while sending complex cases to human labelers for review.",
+        "Use SageMaker Feature Store to preprocess and label the images before passing them to the machine learning model for training.",
+        "Use a fully automated labeling approach without human intervention to reduce labeling costs.",
+        "Use SageMaker Experiments to run multiple trials of different labeling approaches to determine which strategy reduces costs the most."
+      ],
+      "correct_answers": [
+        "Use SageMaker Ground Truth with active learning to automate labeling of simple cases while sending complex cases to human labelers for review."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

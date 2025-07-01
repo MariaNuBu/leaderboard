@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.\n\nCase Study - 4 Questions\n\nA company wants to implement predictive maintenance for critical equipment by using ML algorithms. The company requires development, deployment, and management of the predictive maintenance solutions.\n\nQuestion\nThe company wants to create a workflow that trains the model, registers the model, and applies transformations in JSON format.\n\nWhich solution will meet these requirements with the LEAST operational effort?",
+      "options": [
+        "A\nUse Amazon SageMaker Pipelines and define a pipeline.",
+        "B\nUse Amazon Managed Workflows for Apache Airflow (Amazon MWAA) and define a directed acyclic graph (DAG).",
+        "C\nUse AWS Glue and define a data pipeline.",
+        "D\nUse AWS Lambda and define a Lambda function."
+      ],
+      "correct_answers": [
+        "A\nUse Amazon SageMaker Pipelines and define a pipeline."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

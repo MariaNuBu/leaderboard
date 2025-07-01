@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A healthcare company needs to ensure compliance with data privacy regulations like HIPAA and GDPR for their sensitive information stored in S3 buckets. They plan to use AWS Macie to monitor and secure this data. Which of the following are the key benefits of using AWS Macie in this scenario? (Choose TWO)",
+      "options": [
+        "Detects anomalous access patterns to identify potential unauthorized access to sensitive data.",
+        "Automatically classifies sensitive data such as PII, financial data, and health records stored in S3.",
+        "Monitors the performance of S3 buckets to ensure optimal read/write operations.",
+        "Automatically rotates sensitive data keys in S3 buckets for enhanced security.",
+        "Provides encryption for sensitive data using AWS KMS without additional configuration."
+      ],
+      "correct_answers": [
+        "Detects anomalous access patterns to identify potential unauthorized access to sensitive data.",
+        "Automatically classifies sensitive data such as PII, financial data, and health records stored in S3."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "A data engineer is tasked with creating an Extract, Transform, Load (ETL) pipeline using AWS Glue to process sales data from various sources. The data, in CSV format, is stored in Amazon S3. The processed data needs to be stored in a columnar format for faster querying using Amazon Athena. The engineer also needs to ensure the schema is automatically detected and stored for future use.\n\nWhich of the following steps should the data engineer take to meet these requirements? (Choose TWO)",
+      "options": [
+        "Set up manual scripts to define the schema for each data source and store it in Amazon RDS.",
+        "Configure AWS Lambda to process and load the data into Athena for schema inference and storage.",
+        "Use an AWS Glue crawler to automatically detect the schema of the CSV files and store the metadata in the AWS Glue Data Catalog.",
+        "Use AWS Glue's built-in transformation to convert the CSV data into Apache Parquet before saving it back to S3.",
+        "Manually create a schema in Amazon Athena and upload it to the Glue Data Catalog to enable querying."
+      ],
+      "correct_answers": [
+        "Use an AWS Glue crawler to automatically detect the schema of the CSV files and store the metadata in the AWS Glue Data Catalog.",
+        "Use AWS Glue's built-in transformation to convert the CSV data into Apache Parquet before saving it back to S3."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An e-commerce platform ingests high volumes of real-time customer behavior data and has multiple applications consuming this data. Due to high throughput needs, the company wants to avoid bottlenecks when scaling the number of consumers. Which Kinesis Data Streams feature should they configure?",
+      "options": [
+        "Provisioned Throughput",
+        "Enhanced Fan-Out",
+        "On-Demand Sharding",
+        "Partition Key"
+      ],
+      "correct_answers": [
+        "Enhanced Fan-Out"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

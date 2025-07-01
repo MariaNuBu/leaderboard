@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "You are evaluating the performance of a machine learning model and want to ensure that it generalizes well on unseen data. You decide to partition your dataset into three distinct sets: training, validation, and testing. However, your model performs exceptionally well on the training set but poorly on the validation and test sets. What is the likely cause of this performance discrepancy?",
+      "options": [
+        "The model is underfitting the data.",
+        "The model has a high bias and low variance.",
+        "The model is overfitting the training data.",
+        "The training set is too small for meaningful evaluation."
+      ],
+      "correct_answers": [
+        "The model is overfitting the training data."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

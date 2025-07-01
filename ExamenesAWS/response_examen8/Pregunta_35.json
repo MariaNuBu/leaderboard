@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "A company has developed a machine learning model using XGBoost and plans to deploy it on edge devices with limited compute resources. The model needs to be optimized for performance without significantly affecting accuracy. The company decides to use SageMaker Neo for this task.\n\nWhich of the following steps should the company take to optimize and deploy the model using SageMaker Neo?",
+      "options": [
+        "Use SageMaker Neo to automatically compile the model for the target hardware and deploy it using AWS IoT Greengrass.",
+        "Deploy the unoptimized model directly on the edge devices and monitor the performance through SageMaker Debugger.",
+        "Retrain the model with a simplified architecture to reduce compute demand before deploying on edge devices.",
+        "Use SageMaker Profiler to analyze edge device resource utilization before optimizing the model with SageMaker Neo."
+      ],
+      "correct_answers": [
+        "Use SageMaker Neo to automatically compile the model for the target hardware and deploy it using AWS IoT Greengrass."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

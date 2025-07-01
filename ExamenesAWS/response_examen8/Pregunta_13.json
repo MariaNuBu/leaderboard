@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "An organization uses SageMaker Pipelines to automate its ML workflow. After training a model, they need to register it with the SageMaker Model Registry, which tracks different versions of the model. They want to ensure that only approved models are deployed to production.\n\nWhich feature of SageMaker Model Registry should be used to control the deployment of models?\n\nModel Group\n\nExplicación\nModel Group organizes model versions, but it does not control deployment approval.",
+      "options": [
+        "Model Group",
+        "Approval Status",
+        "Model Package",
+        "Model Lineage"
+      ],
+      "correct_answers": [
+        "Approval Status"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

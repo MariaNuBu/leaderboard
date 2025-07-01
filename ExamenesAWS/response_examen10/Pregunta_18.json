@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A financial services company used an Amazon SageMaker endpoint to deploy an ML model. The model automates loan risk assessment and personal loan approval. The model currently puts twice as much weight on personal income than on the length of credit history of an applicant when generating risk rating and making loan approval decision. A data scientist wants to deploy a mechanism that alerts if the model in production begins to place more emphasis on length of credit history than on personal income.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A\nCreate a bias drift baseline by using the ModelBiasMonitor class. Deploy the baseline to SageMaker Model Monitor. Periodically check for bias drift and capture violations. Configure alerts in Amazon CloudWatch to send notifications.",
+        "B\nCreate a data quality baseline by using the DefaultModelMonitor class. Deploy the baseline to SageMaker Model Monitor. Periodically check for data drift and capture violations. Configure alerts in Amazon CloudWatch to send notifications.",
+        "C\nCreate a SHAP baseline by using the ModelExplainabilityMonitor class. Deploy the baseline to SageMaker Model Monitor. Periodically check for feature attribution drift and capture violations. Configure alerts in Amazon CloudWatch to send notifications.",
+        "D\nCreate a model quality baseline by using the ModelQualityMonitor class. Deploy the baseline to SageMaker Model Monitor. Periodically re-evaluate the model for model quality and capture violations. Configure alerts in Amazon CloudWatch to send notifications."
+      ],
+      "correct_answers": [
+        "C\nCreate a SHAP baseline by using the ModelExplainabilityMonitor class. Deploy the baseline to SageMaker Model Monitor. Periodically check for feature attribution drift and capture violations. Configure alerts in Amazon CloudWatch to send notifications."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

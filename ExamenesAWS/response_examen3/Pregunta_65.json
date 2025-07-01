@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "A research organization is using Amazon SageMaker to train a machine learning model using the AWS infrastructure. The training dataset comprises millions of files, each several megabytes in size. These files are stored in an Amazon S3 bucket.\n\nWhat immediate change can be made to quickly enhance the training performance with minimal time?",
+      "options": [
+        "Enable S3 transfer acceleration for the existing Amazon S3 bucket. Update the training job configuration to enhance the training performance by leveraging the accelerated data transfer",
+        "Set up an Amazon FSx for Lustre file system and link it to the existing S3 bucket. Update the training job configuration to read data directly from the file system",
+        "Set up an Amazon Elastic File System (Amazon EFS) and link it to the existing S3 bucket. Update the training job configuration to read data directly from the file system",
+        "Set up an Amazon S3 access point for the existing Amazon S3 bucket. Update the training job configuration to read data directly via the access point"
+      ],
+      "correct_answers": [
+        "Set up an Amazon FSx for Lustre file system and link it to the existing S3 bucket. Update the training job configuration to read data directly from the file system"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html",
+        "https://docs.aws.amazon.com/athena/latest/ug/querying-mlmodel.html",
+        "https://docs.aws.amazon.com/fsx/latest/LustreGuide/create-dra-linked-data-repo.html",
+        "https://aws.amazon.com/s3/features/access-points/",
+        "https://aws.amazon.com/s3/transfer-acceleration/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

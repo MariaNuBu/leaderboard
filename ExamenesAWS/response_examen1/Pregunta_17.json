@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "You are a data scientist working on a deep learning model to classify medical images for disease detection. The model initially shows high accuracy on the training data but performs poorly on the validation set, indicating signs of overfitting. The dataset is limited in size, and the model is complex, with many parameters. To improve generalization and reduce overfitting, you need to implement appropriate techniques while balancing model complexity and performance.\n\nGiven these challenges, which combination of techniques is the MOST LIKELY to help prevent overfitting and improve the model’s performance on unseen data?",
+      "options": [
+        "Apply early stopping to halt training when the validation loss stops improving, and use dropout as a regularization technique to prevent the model from becoming too reliant on specific neurons",
+        "Prune the model by removing less important layers and nodes, and use L2 regularization to reduce the magnitude of the model’s weights, preventing overfitting",
+        "Use ensembling by combining multiple versions of the same model trained with different random seeds, and apply data augmentation to artificially increase the size of the dataset",
+        "Combine data augmentation to increase the diversity of the training data with early stopping to prevent overfitting, and use ensembling to average predictions from multiple models"
+      ],
+      "correct_answers": [
+        "Combine data augmentation to increase the diversity of the training data with early stopping to prevent overfitting, and use ensembling to average predictions from multiple models"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/overfitting/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/object2vec-hyperparameters.html",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/training-parameters.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

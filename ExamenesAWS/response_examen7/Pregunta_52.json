@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "A company is using AWS Glue to run ETL jobs on large datasets stored in Amazon S3.\nThe data is organized into partitions based on the year the data was collected, with each year having its own folder structure.\nThe team frequently runs queries that filter data by year, such as retrieving records only from 2023.\nHow does this partitioning strategy benefit their data processing and querying?",
+      "options": [
+        "It causes AWS Glue to process all partitions equally, regardless of the query conditions.",
+        "It increases the storage costs due to more files being created in S3.",
+        "It allows AWS Glue to skip irrelevant partitions, reducing data scanned and improving query performance.",
+        "It increases the IOPS operations required, slowing down query response times."
+      ],
+      "correct_answers": [
+        "It allows AWS Glue to skip irrelevant partitions, reducing data scanned and improving query performance."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

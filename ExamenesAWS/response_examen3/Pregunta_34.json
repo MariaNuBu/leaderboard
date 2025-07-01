@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A data scientist at an e-commerce company needs to analyze customer purchasing behavior by running ML models on large historical datasets. The analysis must be conducted in an asynchronous manner to handle the large data volume efficiently. Additionally, the company wants to monitor the data quality of models over time. The company must receive a notification if any significant change in data quality is detected.\n\nWhich of the following solutions should the data scientist implement to meet these requirements?",
+      "options": [
+        "Use Docker to containerize your ML model and deploy it on AWS Lambda. Configure AWS CloudTrail to monitor the data quality and send alerts",
+        "Use Amazon SageMaker Batch Transform to deploy the model. Set up SageMaker Data Wrangler to track data quality and configure it to send alerts for any significant changes",
+        "Use Amazon SageMaker Batch Transform to deploy the model. Set up SageMaker Model Monitor to track data quality and configure it to send alerts for any significant changes",
+        "Use Amazon SageMaker Real-time inference to deploy the model. Set up SageMaker Model Monitor to track data quality and configure it to send alerts for any significant changes"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Batch Transform to deploy the model. Set up SageMaker Model Monitor to track data quality and configure it to send alerts for any significant changes"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-data-quality.html",
+        "https://aws.amazon.com/sagemaker-ai/data-wrangler/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

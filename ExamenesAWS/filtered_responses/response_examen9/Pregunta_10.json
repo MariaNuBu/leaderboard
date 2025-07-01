@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A healthcare company is deploying a machine learning model using Amazon SageMaker to analyze patient data. Due to the sensitive nature of the data, the company must ensure end-to-end encryption for data at rest and in transit. Additionally, the company wants to audit access to encryption keys used to secure the data.\n\nWhich combination of AWS services and features should the company use to meet these requirements? (Choose TWO.)",
+      "options": [
+        "Enable server-side encryption with Amazon S3 managed keys (SSE-S3) to encrypt data at rest and configure HTTPS for data in transit.",
+        "Use client-side encryption with Amazon S3 SDK to encrypt data before sending it to Amazon S3.",
+        "Use AWS Key Management Service (KMS) to manage and audit encryption keys and enable server-side encryption with KMS keys (SSE-KMS).",
+        "Configure SageMaker to use VPC endpoints to securely transfer data over an encrypted channel.",
+        "Enable Amazon Macie to ensure encryption compliance and automatically detect sensitive data within the storage."
+      ],
+      "correct_answers": [
+        "Use AWS Key Management Service (KMS) to manage and audit encryption keys and enable server-side encryption with KMS keys (SSE-KMS).",
+        "Configure SageMaker to use VPC endpoints to securely transfer data over an encrypted channel."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

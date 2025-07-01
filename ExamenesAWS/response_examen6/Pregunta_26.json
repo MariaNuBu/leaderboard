@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "An organization using Amazon SageMaker has deployed a machine learning model into production. To adhere to responsible AI practices, they want to continuously monitor the model for fairness and transparency over time.\nWhich SageMaker feature should they use to ensure that biases do not emerge in the model as it processes new data?\n\nSageMaker Autopilot for automatic tuning and optimization of the model’s hyperparameters.\n\nExplicación\nSageMaker Autopilot is used for automating hyperparameter tuning, not for fairness and bias monitoring.\n\nSageMaker Pipelines to automate model retraining when bias is detected.\n\nExplicación\nSageMaker Pipelines is useful for automating retraining but does not perform real-time monitoring of fairness and bias.\n\nSageMaker Data Wrangler for pre-training data processing.\n\nExplicación\nSageMaker Data Wrangler is used for preparing and transforming data, not for ongoing model monitoring.",
+      "options": [
+        "SageMaker Autopilot for automatic tuning and optimization of the model’s hyperparameters.",
+        "SageMaker Pipelines to automate model retraining when bias is detected.",
+        "SageMaker Data Wrangler for pre-training data processing.",
+        "SageMaker Model Monitor to track data distribution and performance."
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor to track data distribution and performance."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "You are tasked with building a reinforcement learning model in Amazon SageMaker to optimize warehouse robot navigation. You need to define the reinforcement learning (RL) environment, the agent's actions, and the reward function. How should you formulate the environment and rewards to ensure the robot reaches its destination efficiently?\n\nThe environment should simulate fixed navigation tasks, and the reward should be given for maintaining a steady speed throughout the navigation.",
+      "options": [
+        "The environment should simulate fixed navigation tasks, and the reward should be given for maintaining a steady speed throughout the navigation.",
+        "The environment should simulate real-world warehouse conditions with dynamic obstacles, and rewards should be given when the robot makes progress toward the destination, with penalties for collisions or delays.",
+        "The environment should simulate dynamic obstacles, and rewards should be given only if the robot avoids all obstacles.",
+        "The environment should simulate a fixed path for the robot, with a reward given only at the destination."
+      ],
+      "correct_answers": [
+        "The environment should simulate real-world warehouse conditions with dynamic obstacles, and rewards should be given when the robot makes progress toward the destination, with penalties for collisions or delays."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "An e-commerce company is training a recommendation model using SageMaker, but they observe that the training process is slow, and resource utilization is uneven. The ML engineer decides to use SageMaker Profiler to investigate the issue.\n\nWhat are two potential actions the engineer can take after analyzing the profiler’s metrics to improve resource utilization? (Choose two.)",
+      "options": [
+        "Use SageMaker Profiler to detect overfitting and stop the training early to save resources.",
+        "Set up custom metrics to monitor CPU utilization and dynamically increase the batch size if CPU usage is low.",
+        "Monitor GPU utilization and adjust the data pipeline if GPU underutilization is detected.",
+        "Optimize the I/O operations based on disk usage metrics to prevent bottlenecks in data loading."
+      ],
+      "correct_answers": [
+        "Monitor GPU utilization and adjust the data pipeline if GPU underutilization is detected.",
+        "Optimize the I/O operations based on disk usage metrics to prevent bottlenecks in data loading."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

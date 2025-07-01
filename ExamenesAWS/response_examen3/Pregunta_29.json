@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "A company uses Amazon SageMaker Studio to develop its ML models. A team of ten developers are working on a proof-of-concept model with all the users linked to a single SageMaker Studio domain. The company needs an automated alert system that notifies them when the SageMaker compute costs exceed a specific threshold.\n\nWhich of the following options would meet these requirements?\n\nAdd resource tagging to IM profile of each user. Configure AWS Trusted Advisor to track the resource costs and generate recommendations\n\nAdd custom tags to resources by editing the SageMaker user profile in the SageMaker domain. Modify the custom tag propagation settings at the user profile level to suit each user's requirements. Configure AWS Budgets to send an alert when the threshold is breached\n\nAdd tags to the user profile in the SageMaker domain. Configure AWS Cost Explorer to send an alert when the threshold is breached",
+      "options": [
+        "Add resource tagging to IM profile of each user. Configure AWS Trusted Advisor to track the resource costs and generate recommendations",
+        "Add custom tags to resources by editing the SageMaker user profile in the SageMaker domain. Modify the custom tag propagation settings at the user profile level to suit each user's requirements. Configure AWS Budgets to send an alert when the threshold is breached",
+        "Add tags to the user profile in the SageMaker domain. Configure AWS Cost Explorer to send an alert when the threshold is breached"
+      ],
+      "correct_answers": [
+        "Add tags to the user profile in the SageMaker domain. Configure AWS Budgets to send an alert when the threshold is breached"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/domain-user-profile-add.html",
+        "https://aws.amazon.com/blogs/machine-learning/set-up-enterprise-level-cost-allocation-for-ml-environments-and-workloads-using-resource-tagging-in-amazon-sagemaker/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-onboard.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

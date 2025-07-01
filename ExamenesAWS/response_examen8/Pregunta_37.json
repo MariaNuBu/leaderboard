@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "You are deploying a model in production and want to ensure that only the most trusted model versions are used. Which feature of the SageMaker Model Registry will help you achieve this?\n\nModel lineage\n\nExplicación\nModel lineage tracks the development history of the model but does not control its deployment.",
+      "options": [
+        "Model lineage",
+        "Model approval status",
+        "Model group",
+        "Model metrics"
+      ],
+      "correct_answers": [
+        "Model approval status"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A machine learning engineer is working on a binary classification problem for detecting fraudulent transactions.\nThe model's performance is being evaluated using multiple metrics.\nThe model has a precision of 90% and a recall of 60%.\nThe engineer is concerned about missing too many fraudulent transactions.\n\nWhich evaluation metric should the engineer focus on to improve the model’s ability to identify more fraud cases?",
+      "options": [
+        "Recall",
+        "Accuracy",
+        "Precision",
+        "F1 Score"
+      ],
+      "correct_answers": [
+        "Recall"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

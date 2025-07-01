@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "Machine learning team is tasked with preparing a dataset for a model that will predict customer churn. They decide to use SageMaker Data Wrangler to streamline the data preparation. The dataset contains time-based information, and they want to engineer new features such as \"day of the week\" from timestamps and assess the importance of these features.\nWhat TWO features of SageMaker Data Wrangler will assist the team in this process? (Choose TWO)",
+      "options": [
+        "Time series analysis and forecasting.",
+        "Feature engineering options to create new features like \"day of the week\" from timestamps.",
+        "The Quick Model feature to automatically compute feature importance.",
+        "Integrating data directly from Amazon RDS for real-time predictions.",
+        "Data export to Amazon Athena for advanced SQL-based transformations."
+      ],
+      "correct_answers": [
+        "Feature engineering options to create new features like \"day of the week\" from timestamps.",
+        "The Quick Model feature to automatically compute feature importance."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

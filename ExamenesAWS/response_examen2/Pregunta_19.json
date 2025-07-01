@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "You are a machine learning engineer at a company building a recommendation system using deep learning. The system is based on a neural network architecture implemented in TensorFlow. Your team wants to train the model on a large dataset stored in Amazon S3 and leverage the scalability of Amazon SageMaker. You plan to use SageMaker script mode to customize the training process while taking advantage of SageMaker’s managed services.\n\nWhich of the following actions is the MOST LIKELY to help you successfully train the model using SageMaker script mode with TensorFlow?",
+      "options": [
+        "Use SageMaker script mode to automatically convert your Python script into a SageMaker Estimator object without specifying the TensorFlow framework version",
+        "Create a custom Docker container with TensorFlow installed and push it to Amazon ECR, then use SageMaker script mode to launch the training job",
+        "Package your TensorFlow model as a .tar.gz file, upload it to Amazon S3, and use SageMaker script mode to directly deploy the model for training",
+        "Write a training script in Python that adheres to TensorFlow's Estimator API, upload it to an S3 bucket, and use SageMaker script mode with the built-in TensorFlow container to execute the script"
+      ],
+      "correct_answers": [
+        "Write a training script in Python that adheres to TensorFlow's Estimator API, upload it to an S3 bucket, and use SageMaker script mode with the built-in TensorFlow container to execute the script"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-script-mode/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/tf.html",
+        "https://sagemaker.readthedocs.io/en/v2.27.1/frameworks/tensorflow/deploying_tensorflow_serving.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

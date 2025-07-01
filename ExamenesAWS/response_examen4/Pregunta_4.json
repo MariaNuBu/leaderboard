@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A customer service center records all phone calls for quality assurance purposes. The company wants to analyze these recordings to understand customer sentiment, identify frequently discussed topics, and extract key phrases related to customer complaints. The recordings are in various audio formats, and the company also wants to create text transcripts of these calls to store them in a searchable database for further analysis.\n\nWhich combination of AWS services and configurations will best meet these requirements?\n\nUse Amazon Kinesis to stream audio data in real time, use Amazon Transcribe to convert the stream to text, then use Amazon SageMaker to train a custom model to analyze the sentiment. Store the results in Amazon DynamoDB for quick lookups.\n\nExplicación\nWhile Amazon Kinesis can stream data in real time, it is not the best choice for converting audio data to text. Amazon Transcribe is specifically designed for speech-to-text conversion and would be more suitable for this task. Using Amazon SageMaker to train a custom model for sentiment analysis may be unnecessary complexity for this scenario, and storing the results in Amazon DynamoDB may not provide the search capabilities required for further analysis.",
+      "options": [
+        "Use Amazon Kinesis to stream audio data in real time, use Amazon Transcribe to convert the stream to text, then use Amazon SageMaker to train a custom model to analyze the sentiment. Store the results in Amazon DynamoDB for quick lookups.",
+        "Use Amazon Transcribe to convert audio recordings to text, then use Amazon Comprehend to analyze sentiment, detect entities, and extract key phrases from the transcripts. Store the output in Amazon Elasticsearch for search capabilities.",
+        "Use Amazon Polly to convert audio recordings to text, then use Amazon Rekognition to analyze sentiment and extract key phrases from the transcripts. Store the output in Amazon S3 for archival.",
+        "Use AWS Glue to convert audio recordings into text format, then use Amazon Translate to detect sentiment and extract key phrases from the transcripts. Store the output in Amazon RDS for relational queries."
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert audio recordings to text, then use Amazon Comprehend to analyze sentiment, detect entities, and extract key phrases from the transcripts. Store the output in Amazon Elasticsearch for search capabilities."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

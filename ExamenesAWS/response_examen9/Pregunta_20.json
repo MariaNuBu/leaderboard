@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "Pregunta 20\n\nA company wants to ensure consistency between features used in model training and inference. They are using SageMaker Feature Store and need to track the evolution of features over time to reproduce the model's results.\nWhich feature of SageMaker Feature Store can help them achieve this?\n\nLineage Tracking\n\nExplicación\nLineage tracking provides transparency into feature creation but is not focused on versioning\n\nFeature Scaling\n\nExplicación\nFeature scaling adjusts the range of values in features but does not help track the evolution of features.",
+      "options": [
+        "Lineage Tracking",
+        "Feature Scaling",
+        "Feature Versioning",
+        "Offline Store"
+      ],
+      "correct_answers": [
+        "Feature Versioning"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

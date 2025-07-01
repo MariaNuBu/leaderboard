@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A retail company wants to group customers based on purchasing behavior without having any prior labels or categories for the customers. The company needs to understand hidden patterns and similarities among customers. Which of the following algorithms is the most suitable for this task?\n\nK-nearest neighbors (KNN)\n\nExplicación\nKNN is also supervised, relying on labeled data.\n\nXGBoost\n\nExplicación\nXGBoost is a supervised learning algorithm.\n\nLinear learner\n\nExplicación\nLinear learner is a supervised learning model that predicts outcomes based on a linear relationship.",
+      "options": [
+        "K-nearest neighbors (KNN)",
+        "XGBoost",
+        "Linear learner",
+        "K-means clustering"
+      ],
+      "correct_answers": [
+        "K-means clustering"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

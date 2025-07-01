@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A financial trading firm is developing a machine learning system to detect anomalies in stock market transactions in real-time.\\nThe system must continuously ingest streaming data from trading activities, process the data with minimal delay, and generate metrics for immediate analysis and decision-making.\\nThe firm wants to use AWS services to ensure the pipeline can handle high throughput and provide real-time insights without buffering delays.\\nWhich combination of AWS services should the firm implement to achieve this requirement?",
+      "options": [
+        "Amazon S3 with AWS Lambda and Amazon Redshift",
+        "Amazon Kinesis Data Streams with Enhanced Fan-Out and AWS Lambda",
+        "Amazon Kinesis Data Streams with Managed Service for Apache Flink",
+        "Amazon Kinesis Data Firehose with Amazon S3 and AWS Glue"
+      ],
+      "correct_answers": [
+        "Amazon Kinesis Data Streams with Managed Service for Apache Flink"
+      ],
+      "references": [],
+      "topic": "Transform data and perform feature engineering.",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 - "
+    }
+  ]
+}

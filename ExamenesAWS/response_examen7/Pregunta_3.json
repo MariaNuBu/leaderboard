@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A company is training a large image classification model on SageMaker using PyTorch, but the training process is taking much longer than expected. The machine learning engineer suspects there is a resource bottleneck. They decide to use SageMaker Profiler to diagnose and fix the issue.\n\nWhich of the following actions should the engineer take to identify and resolve the bottleneck? (Choose two.)\n\nSet up custom metrics to monitor memory allocation, and adjust the number of epochs if memory usage is too high.\n\nUse SageMaker Profiler to monitor disk I/O and reduce the dataset size if slow disk reads are detected.\n\nAdjust the learning rate dynamically during training based on real-time profiler metrics.\n\nUse SageMaker Profiler to monitor GPU utilization in real-time and check for underutilization.",
+      "options": [
+        "Set up custom metrics to monitor memory allocation, and adjust the number of epochs if memory usage is too high.",
+        "Use SageMaker Profiler to monitor disk I/O and reduce the dataset size if slow disk reads are detected.",
+        "Adjust the learning rate dynamically during training based on real-time profiler metrics.",
+        "Use SageMaker Profiler to monitor GPU utilization in real-time and check for underutilization."
+      ],
+      "correct_answers": [
+        "Use SageMaker Profiler to monitor disk I/O and reduce the dataset size if slow disk reads are detected.",
+        "Use SageMaker Profiler to monitor GPU utilization in real-time and check for underutilization."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

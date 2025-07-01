@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "An e-commerce company collects real-time clickstream data from its website to analyze user behavior and recommend products. The clickstream data is continuously streamed into an Amazon Kinesis Data Streams application. The company needs to aggregate the data at one-minute intervals to calculate features such as page views and time spent per user session. The solution must provide low-latency processing and require minimal operational overhead.\n\nWhich of the following options will meet these requirements? (Select two)",
+      "options": [
+        "Use Amazon OpenSearch Service to ingest data directly from the Kinesis Data Streams application and configure an OpenSearch dashboard to perform real-time minute-by-minute aggregations",
+        "Use Amazon Managed Service for Apache Flink to process and aggregate the data in real time from the Kinesis Data Streams application. Write the aggregated results to an Amazon S3 bucket for downstream analytics and feature generation",
+        "Launch an Amazon EMR cluster with Apache Spark Streaming to process the Kinesis data stream. Aggregate the data in real time and save the results to an Amazon Redshift table",
+        "Set up an Amazon Kinesis Data Firehose delivery stream to read data from the Kinesis Data Streams application, perform aggregations via an intermediary Lambda function, and write the results to an Amazon S3 bucket with a buffer window of 1 minute",
+        "Use Amazon SageMaker Processing jobs to periodically pull data from the Kinesis Data Streams application, aggregate it, and write the results to Amazon S3"
+      ],
+      "correct_answers": [
+        "Use Amazon Managed Service for Apache Flink to process and aggregate the data in real time from the Kinesis Data Streams application. Write the aggregated results to an Amazon S3 bucket for downstream analytics and feature generation",
+        "Set up an Amazon Kinesis Data Firehose delivery stream to read data from the Kinesis Data Streams application, perform aggregations via an intermediary Lambda function, and write the results to an Amazon S3 bucket with a buffer window of 1 minute"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/big-data/streaming-etl-with-apache-flink-and-amazon-kinesis-data-analytics/",
+        "https://docs.aws.amazon.com/firehose/latest/dev/writing-with-kinesis-streams.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

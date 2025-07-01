@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.\\n\\nCase Study - 4 Questions\\n\\nA company wants to implement predictive maintenance for critical equipment by using ML algorithms. The company requires development, deployment, and management of the predictive maintenance solutions.\\n\\nQuestion\\nWhich solution will automatically orchestrate the build and deployment of ML models into production?",
+      "options": [
+        "A\\nUse AWS CodeDeploy and create a deployment group.",
+        "B\\nUse AWS CodePipeline and create a pipeline.",
+        "C\\nUse AWS CodePipeline and create an action.",
+        "D\\nUse a private Git repository to store the code."
+      ],
+      "correct_answers": [
+        "B\\nUse AWS CodePipeline and create a pipeline."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

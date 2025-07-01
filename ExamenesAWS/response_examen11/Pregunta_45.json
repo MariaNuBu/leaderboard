@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.\n\nCase Study - 4 Questions\n\nA company wants to implement predictive maintenance for critical equipment by using ML algorithms. The company requires development, deployment, and management of the predictive maintenance solutions.\n\nQuestion\nWhich action will help the company’s own code and dependencies run feature engineering in Amazon SageMaker?",
+      "options": [
+        "Create a container image for use on Amazon Elastic Container Service (Amazon ECS).",
+        "Use a prebuilt Docker container that is available in SageMaker.",
+        "Build a Dockerfile and push the image to Amazon Elastic Container Registry (Amazon ECR).",
+        "Use a Dockerfile that is stored in a Git repository."
+      ],
+      "correct_answers": [
+        "Build a Dockerfile and push the image to Amazon Elastic Container Registry (Amazon ECR)."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

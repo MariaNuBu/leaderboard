@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "A company needs to ensure that their data storage solutions on AWS comply with industry regulations that require encryption of data at rest. Which AWS service and feature should be implemented to meet this compliance requirement across multiple storage services?",
+      "options": [
+        "Implement AWS Shield Advanced for automatic data encryption across all AWS services.",
+        "Use AWS Lambda to apply encryption to data as it is stored in each service.",
+        "Enable Amazon S3 server-side encryption (SSE) with AWS KMS-managed keys (SSE-KMS).",
+        "Configure AWS IAM policies to enforce encryption on data storage services."
+      ],
+      "correct_answers": [
+        "Enable Amazon S3 server-side encryption (SSE) with AWS KMS-managed keys (SSE-KMS)."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

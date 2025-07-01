@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "HOTSPOT -\nAn ML engineer needs to use Amazon SageMaker Feature Store to create and manage features to train a model.\nSelect and order the steps from the following list to create and use the features in Feature Store. Each step should be selected one time. (Select and order three.)\n• Access the store to build datasets for training.\n• Create a feature group.\n• Ingest the records.",
+      "options": [
+        "• Access the store to build datasets for training.",
+        "• Create a feature group.",
+        "• Ingest the records."
+      ],
+      "correct_answers": [
+        "• Create a feature group.",
+        "• Ingest the records.",
+        "• Access the store to build datasets for training."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01",
+      "Practice test": "ExamTopics"
+    }
+  ]
+}

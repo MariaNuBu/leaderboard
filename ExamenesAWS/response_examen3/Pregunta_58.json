@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "A financial services company is building an automated pipeline to update its fraud detection ML model every week using Amazon SageMaker Pipelines. The pipeline will consist of the following steps:\n\nA data preprocessing step to clean and transform transactional data.\n\nA model training step to build the fraud detection model.\n\nAn evaluation step to calculate accuracy and other metrics.\n\nA model registration step to store the new model in the SageMaker Model Registry.\n\nThe preprocessing step involves large-scale data transformations and joins across multiple datasets stored in Amazon S3. The data transformations currently run on a distributed Amazon EMR cluster. The data science team wants to integrate these transformations into the SageMaker Pipelines workflow seamlessly.\n\nWhich options should be combined for a solution that addresses these requirements? (Select two)",
+      "options": [
+        "Set up an Amazon EMR job as a callback step of the SageMaker Pipelines workflow",
+        "Set up an Amazon EMR job as the first step of the ML workflow orchestrated by AWS Step Functions",
+        "Add a policy to the SageMaker Pipelines execution role to allow the role to invoke an Amazon EMR job flow",
+        "Set up an Amazon EMR job as the processing step of the SageMaker Pipelines workflow",
+        "Swap out the SageMaker Pipeline with AWS Step Functions as the ML workflow orchestration service"
+      ],
+      "correct_answers": [
+        "Set up an Amazon EMR job as a callback step of the SageMaker Pipelines workflow",
+        "Add a policy to the SageMaker Pipelines execution role to allow the role to invoke an Amazon EMR job flow"
+      ],
+      "references": [
+        "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-sagemaker-pipelines-emr-integration/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/security-iam-awsmanpol-pipelines.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/build-and-manage-steps.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

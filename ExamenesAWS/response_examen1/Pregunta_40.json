@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "You are an ML Engineer working for a healthcare company that uses a machine learning model to recommend personalized treatment plans to patients. The model is deployed on Amazon SageMaker and is critical to the company's operations, as any incorrect predictions could have significant consequences. A new version of the model has been developed, and you need to deploy it in production. However, you want to ensure that the deployment process is robust, allowing you to quickly roll back to the previous version if any issues arise. Additionally, you need to maintain version control for future updates and manage traffic between different model versions.\n\nWhich of the following strategies should you implement to ensure a smooth and reliable deployment of the new model version using Amazon SageMaker, considering best practices for versioning and rollback strategies? (Select two)\n\nCreate a backup of the current model, deploy the new version, and if any issues arise, manually roll back by redeploying the previous model version\n\nDeploy the new model version immediately and redirect 100% of traffic to it, assuming it has been thoroughly tested and will not require a rollback",
+      "options": [
+        "Create a backup of the current model, deploy the new version, and if any issues arise, manually roll back by redeploying the previous model version",
+        "Deploy the new model version immediately and redirect 100% of traffic to it, assuming it has been thoroughly tested and will not require a rollback",
+        "Use Amazon SageMaker’s built-in versioning to manage different versions of the model, and deploy the new version in a canary release by redirecting a small percentage of traffic to it initially",
+        "Deploy the new model version alongside the current one, and use Amazon SageMaker’s multi-model endpoint to serve both models simultaneously, splitting traffic between them",
+        "Utilize Amazon SageMaker’s blue/green deployment strategy to shift traffic gradually from the old model to the new one, ensuring that you can monitor performance and quickly revert if needed"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker’s built-in versioning to manage different versions of the model, and deploy the new version in a canary release by redirecting a small percentage of traffic to it initially",
+        "Utilize Amazon SageMaker’s blue/green deployment strategy to shift traffic gradually from the old model to the new one, ensuring that you can monitor performance and quickly revert if needed"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deployment-guardrails-blue-green.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deployment-guardrails-rolling.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endpoints.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

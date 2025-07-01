@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A company stores a large dataset in S3 that consists of multiple CSV files. They want to run queries on the data and visualize it using QuickSight. However, the dataset lacks a predefined schema.\n\nHow should the company set up the data infrastructure to meet these requirements?",
+      "options": [
+        "Use Glue crawlers to infer the schema, store the schema in Glue Data Catalog, and use Athena to run queries directly on the CSV files in S3.",
+        "Use Glue ETL to transform the CSV data into a Parquet format, store the schema in the Glue Data Catalog, and use Athena to query the data.",
+        "Use Redshift Spectrum to read the CSV files from S3 and manually create a schema for Redshift to query the data.",
+        "Use Glue ETL to convert CSV files into JSON format, create a schema in Glue Data Catalog, and then import data into Redshift for querying."
+      ],
+      "correct_answers": [
+        "Use Glue crawlers to infer the schema, store the schema in Glue Data Catalog, and use Athena to run queries directly on the CSV files in S3."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A financial services company is training a machine learning model in Amazon SageMaker to detect fraudulent transactions. The company has observed that training jobs are consuming a significant amount of computational resources, leading to increased energy costs. The company wants to adopt sustainable practices that reduce energy usage and optimize training efficiency while maintaining model accuracy.\\n\\nWhich actions will reduce the energy usage and computational resources associated with the company's training jobs? (Select two)",
+      "options": [
+        "Leverage Amazon SageMaker Debugger to monitor training jobs for non-converging conditions and terminate jobs early to save computational resources",
+        "Use AWS Trainium-based instances for training the ML model to improve energy efficiency and reduce costs with optimized deep learning hardware",
+        "Disable distributed training to reduce energy consumption by training models on a single instance",
+        "Increase the size of the training dataset to ensure the model has more data to process, reducing the likelihood of non-convergence",
+        "Increase the instance size for training jobs to ensure that each job uses more resources for faster execution and reduced energy consumption"
+      ],
+      "correct_answers": [
+        "Leverage Amazon SageMaker Debugger to monitor training jobs for non-converging conditions and terminate jobs early to save computational resources",
+        "Use AWS Trainium-based instances for training the ML model to improve energy efficiency and reduce costs with optimized deep learning hardware"
+      ],
+      "references": [
+        "https://aws.amazon.com/ec2/instance-types/trn1/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/train-debugger.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

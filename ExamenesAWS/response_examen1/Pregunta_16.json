@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "You are a machine learning engineer at a fintech company tasked with developing and deploying an end-to-end machine learning workflow for fraud detection. The workflow involves multiple steps, including data extraction, preprocessing, feature engineering, model training, hyperparameter tuning, and deployment. The company requires the solution to be scalable, support complex dependencies between tasks, and provide robust monitoring and versioning capabilities. Additionally, the workflow needs to integrate seamlessly with existing AWS services.\n\nWhich deployment orchestrator is the MOST SUITABLE for managing and automating your ML workflow?\n\nUse Apache Airflow to define and manage the workflow with custom DAGs (Directed Acyclic Graphs), integrating with AWS services through operators and hooks\n\nUse AWS Lambda functions to manually trigger each step of the ML workflow, enabling flexible execution without needing a predefined orchestration tool\n\nUse AWS Step Functions to build a serverless workflow that integrates with SageMaker for model training and deployment, ensuring scalability and fault tolerance",
+      "options": [
+        "Use Apache Airflow to define and manage the workflow with custom DAGs (Directed Acyclic Graphs), integrating with AWS services through operators and hooks",
+        "Use AWS Lambda functions to manually trigger each step of the ML workflow, enabling flexible execution without needing a predefined orchestration tool",
+        "Use AWS Step Functions to build a serverless workflow that integrates with SageMaker for model training and deployment, ensuring scalability and fault tolerance"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Pipelines to orchestrate the entire ML workflow, leveraging its built-in integration with SageMaker features like training, tuning, and deployment"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html",
+        "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

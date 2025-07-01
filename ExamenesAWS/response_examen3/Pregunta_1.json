@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A healthcare company needs to fine-tune a large language model (LLM) for a medical document summarization application. The dataset includes anonymized patient records, stored in Amazon S3. The company requires a low-code/no-code (LCNC) solution to simplify the fine-tuning process while ensuring scalability and fast deployment. The solution should leverage Amazon SageMaker capabilities to minimize manual coding and operational overhead.\n\nWhich of the following Amazon SageMaker services can be used to implement the solution? (Select three)\n\nAmazon SageMaker Clarify\n\nAmazon SageMaker Model Monitor\n\nAmazon SageMaker JumpStart\n\nAmazon SageMaker AutoPilot\n\nAmazon SageMaker Data Wrangler\n\nAmazon SageMaker Canvas",
+      "options": [
+        "Amazon SageMaker Clarify",
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker JumpStart",
+        "Amazon SageMaker AutoPilot",
+        "Amazon SageMaker Data Wrangler",
+        "Amazon SageMaker Canvas"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker JumpStart",
+        "Amazon SageMaker AutoPilot",
+        "Amazon SageMaker Canvas"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/use-auto-ml.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

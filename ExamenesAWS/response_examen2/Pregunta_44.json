@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "A fashion retailer wants to develop a machine learning model to predict the popularity of clothing designs. The dataset includes categorical data about the primary fabric type of each design, such as \"Cotton,\" \"Polyester,\" and \"Silk.\" An ML engineer is preparing the data for a neural network model and needs to preprocess the fabric type information appropriately.\n\nWhich technique should the ML engineer use for feature engineering?\n\nUse PCA (Principal Component Analysis) to reduce the dimensionality of the categorical fabric type data before feeding it into the neural network\n\nPerform min-max normalization on the categorical fabric type data to scale the values between 0 and 1 for compatibility with the model\n\nUse label encoding to assign unique integer values to each fabric type and input these integers directly into the neural network",
+      "options": [
+        "Use PCA (Principal Component Analysis) to reduce the dimensionality of the categorical fabric type data before feeding it into the neural network",
+        "Perform min-max normalization on the categorical fabric type data to scale the values between 0 and 1 for compatibility with the model",
+        "Use label encoding to assign unique integer values to each fabric type and input these integers directly into the neural network",
+        "Apply one-hot encoding to convert the categorical fabric type data into binary vectors that the neural network can process"
+      ],
+      "correct_answers": [
+        "Apply one-hot encoding to convert the categorical fabric type data into binary vectors that the neural network can process"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/databrew/latest/dg/recipe-actions.ONE_HOT_ENCODING.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

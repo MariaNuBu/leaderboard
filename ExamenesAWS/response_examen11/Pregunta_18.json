@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "TOPIC: 1.3 Ensure data integrity and prepare data for modeling.\n\nA data scientist is exploring a dataset by using an Amazon SageMaker Studio notebook. The data scientist wants to visualize the correlation between different input features.\n\nWhich correlation metric should the data scientist use to investigate non-linear relationships between numeric features?",
+      "options": [
+        "A\nChi-square",
+        "B\nSpearman",
+        "C\nPhi coefficient",
+        "D\nPearson"
+      ],
+      "correct_answers": [
+        "B\nSpearman"
+      ],
+      "references": [],
+      "topic": "1.3 Ensure data integrity and prepare data for modeling.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

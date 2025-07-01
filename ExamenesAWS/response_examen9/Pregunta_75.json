@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 75,
+      "question": "A company is using Amazon Bedrock to build a chatbot for customer support. They want to customize the foundation model using their own data to improve response accuracy and tailor the model to their specific domain. Which two features of Amazon Bedrock will help them achieve this? (Choose Two)",
+      "options": [
+        "Fine-tuning models with custom data",
+        "Retrieval-augmented generation (RAG) for enhanced knowledge base integration",
+        "Provisioned throughput for faster response times",
+        "Using pre-trained models without modification",
+        "Auto-scaling of server instances"
+      ],
+      "correct_answers": [
+        "Fine-tuning models with custom data",
+        "Retrieval-augmented generation (RAG) for enhanced knowledge base integration"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

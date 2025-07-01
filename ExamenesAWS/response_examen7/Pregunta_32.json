@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A retail company is developing a machine learning model to forecast product demand using Amazon SageMaker. The dataset includes sales history, customer demographics, and seasonal trends. The data is stored in S3 and updated frequently. The company wants to automate the workflow for data preprocessing, feature engineering, and model training. They also need to ensure that the model is continuously retrained as new data arrives, and performance degradation is monitored. Additionally, the company wants to track different versions of the model and hyperparameter configurations during experimentation.\nWhich solution should the company implement?",
+      "options": [
+        "Use SageMaker Feature Store for real-time feature updates, SageMaker Clarify to monitor data bias, and SageMaker Pipelines to retrain the model based on new data.",
+        "Use SageMaker Pipelines to automate data preprocessing, model training, and retraining, SageMaker Model Monitor to detect performance degradation, and SageMaker Experiments to track different model versions and hyperparameter settings.",
+        "Use SageMaker Data Wrangler for data preprocessing, SageMaker Feature Store for feature engineering, and SageMaker Autopilot to automate the model training and hyperparameter tuning process.",
+        "Use SageMaker Ground Truth to label data, SageMaker Model Monitor to automate model retraining, and SageMaker Autopilot for hyperparameter optimization."
+      ],
+      "correct_answers": [
+        "Use SageMaker Pipelines to automate data preprocessing, model training, and retraining, SageMaker Model Monitor to detect performance degradation, and SageMaker Experiments to track different model versions and hyperparameter settings."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

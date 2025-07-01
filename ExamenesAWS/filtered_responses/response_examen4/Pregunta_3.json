@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A media company is developing a deep learning model to automatically tag and classify videos based on their content. The training dataset consists of hundreds of terabytes of high-definition videos stored in a shared file system. The training jobs require high throughput and low-latency access to this large volume of data across multiple Amazon SageMaker instances. The data scientists want to ensure that the file system can handle this load efficiently. Which solutions could meet these requirements? (Select TWO)\n\nMove the data to SageMaker local storage volumes and configure distributed training for efficiency.\n\nDeploy a custom-built on-premises file system connected to SageMaker through AWS Direct Connect.\n\nStore the video data in Amazon S3 and use S3 Select to load data selectively during training.\n\nUse Amazon FSx for Lustre\n\nUse Amazon EFS (Elastic File System) with Provisioned Throughput modes",
+      "options": [
+        "Move the data to SageMaker local storage volumes and configure distributed training for efficiency.",
+        "Deploy a custom-built on-premises file system connected to SageMaker through AWS Direct Connect.",
+        "Store the video data in Amazon S3 and use S3 Select to load data selectively during training.",
+        "Use Amazon FSx for Lustre",
+        "Use Amazon EFS (Elastic File System) with Provisioned Throughput modes"
+      ],
+      "correct_answers": [
+        "Use Amazon FSx for Lustre",
+        "Use Amazon EFS (Elastic File System) with Provisioned Throughput modes"
+      ],
+      "references": [],
+      "topic": "Transform data and perform feature engineering.",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

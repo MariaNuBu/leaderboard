@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "A financial services company uses an AWS Lambda function to monitor transaction fraud detection metrics from an ML model deployed in Amazon SageMaker. The company wants to be notified via email whenever the fraud detection model’s confidence score drops below a specific threshold, such as 80%. The ML engineer needs to implement an automated solution that triggers email notifications whenever the confidence score breaches the threshold.\n\nWhich of the following options should be combined to develop a solution that addresses these requirements? (Select two)",
+      "options": [
+        "Log the metrics from the Lambda function to AWS CloudFormation",
+        "Log the metrics from the Lambda function to AWS CloudTrail",
+        "Set up a CloudFormation change set to send the email message",
+        "Log the metrics from the Lambda function to AWS CloudWatch",
+        "Set up a CloudWatch alarm to send the email message"
+      ],
+      "correct_answers": [
+        "Log the metrics from the Lambda function to AWS CloudWatch",
+        "Set up a CloudWatch alarm to send the email message"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/lambda/latest/dg/monitoring-cloudwatchlogs.html",
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "A retail company uses a machine learning model to predict customer demand. The vendor of the model supplies cleaned and prepared training data every 3-4 days, which is uploaded to an Amazon S3 bucket. The company has set up an Amazon SageMaker pipeline to retrain the model whenever new data becomes available. Until now, triggering the SageMaker pipeline has been a manual task. An ML engineer is tasked with implementing an automated solution to trigger the pipeline automatically whenever new data is uploaded to the S3 bucket.\n\nWhat solution should the ML engineer implement to achieve this with the LEAST operational effort?",
+      "options": [
+        "Set up a cron job to check for S3 data uploads once a day. If an S3 data file is detected, the cron job will invoke an AWS Lambda function, which will then trigger the SageMaker pipeline",
+        "Create an S3 Lifecycle configuration for the s3 bucket with an event pattern that matches the S3 upload event. Create a rule to trigger SageMaker pipeline",
+        "Using Amazon S3 Event Notifications, add a notification configuration that identifies the event you want Amazon S3 to publish. Add SageMaker pipeline as the destination to this notification configuration",
+        "Enable Amazon EventBridge for the S3 bucket and create an EventBridge rule with an event pattern that matches the S3 upload event. Set the SageMaker pipeline as the target for the rule"
+      ],
+      "correct_answers": [
+        "Enable Amazon EventBridge for the S3 bucket and create an EventBridge rule with an event pattern that matches the S3 upload event. Set the SageMaker pipeline as the target for the rule"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/EventBridge.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pipeline-eventbridge.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/enable-event-notifications-eventbridge.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

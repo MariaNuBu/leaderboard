@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "A retail company is planning to use Amazon Q Business to automate customer support by integrating with third-party applications like ServiceNow and Zendesk. They want to ensure smooth communication between Amazon Business and these tools.\nWhat feature of Amazon Business enables this integration?\n\nUse IAM Identity Center to control access to ServiceNow and Zendesk.\n\nExplicación\nIAM Identity Center is used for managing user access, not for integrating with third-party tools.",
+      "options": [
+        "Use IAM Identity Center to control access to ServiceNow and Zendesk.",
+        "Set up plugins to enable interaction with third-party applications.",
+        "Configure pre-built connectors to synchronize all data between Amazon S3 and the third-party tools.",
+        "Manually code the integration between Amazon Business and ServiceNow or Zendesk."
+      ],
+      "correct_answers": [
+        "Set up plugins to enable interaction with third-party applications."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

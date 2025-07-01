@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A retail company wants to process large volumes of real-time customer interaction data to personalize user experience on their website. They plan to use Amazon Kinesis to ingest, analyze, and store the streaming data. They need to perform complex analytics on the data in real-time and store it for future analysis. Which combination of services should they use to achieve these objectives?\n\nUse Kinesis Firehose for data ingestion, Kinesis Data Analytics for real-time analysis, and AWS Glue for data storage in Amazon S3.\n\nExplicación\nKinesis Firehose is for delivering data, not ingestion, and AWS Glue is used for ETL jobs, not for real-time data streaming or storage.\n\nUse Kinesis Data Streams for data ingestion, Kinesis Firehose for real-time analysis, and Kinesis Data Analytics to store the processed data in Amazon RDS.\n\nExplicación\nKinesis Firehose is not used for real-time analytics, and Kinesis Data Analytics cannot directly store data in Amazon RDS.",
+      "options": [
+        "Use Kinesis Firehose for data ingestion, Kinesis Data Analytics for real-time analysis, and AWS Glue for data storage in Amazon S3.",
+        "Use Kinesis Data Streams for data ingestion, Kinesis Firehose for real-time analysis, and Kinesis Data Analytics to store the processed data in Amazon RDS.",
+        "Use Kinesis Data Streams for data ingestion, Kinesis Data Analytics for real-time analysis, and Kinesis Firehose to deliver the processed data to Amazon S3.",
+        "Use Kinesis Data Streams for data ingestion, AWS Lambda for real-time analysis, and Kinesis Firehose to deliver the processed data to Amazon Redshift."
+      ],
+      "correct_answers": [
+        "Use Kinesis Data Streams for data ingestion, Kinesis Data Analytics for real-time analysis, and Kinesis Firehose to deliver the processed data to Amazon S3."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

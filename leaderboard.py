@@ -3,6 +3,7 @@ import pandas as pd
 import card_game
 import crucigrama
 import sopa_letras
+from ExamenesAWS import questions_app
 
 # --- Configuración de la página ---
 # Esto le da un título a la pestaña de tu navegador y un ícono.
@@ -78,23 +79,32 @@ def mostrar_juego2():
 def mostrar_juego3():
     sopa_letras.mostrar_sopa_letras()
 
+def mostrar_quiz():
+    questions_app.run_quiz_app()
+
 if "vista" not in st.session_state:
     st.session_state.vista = "leaderboard"
 # Botón para cargar otro archivo o visualización
 # Botones para cambiar la vista (en una fila)
-col1, col2, col3,col4 = st.columns(4)
+col1, col2 = st.columns(2)
 with col1:
     if st.button("🏆 Ver Leaderboard"):
         st.session_state.vista = "leaderboard"
 with col2:
+    if st.button("📝 Ver Quiz"):
+        st.session_state.vista = "quiz"
+st.divider()  
+row2_col1, row2_col2, row2_col3 = st.columns(3)
+with row2_col1:
     if st.button("🃏 Modulo 1.1"):
         st.session_state.vista = "juego"
-with col3:
+with row2_col2:
     if st.button("🧩 Modulo 1.2"):
         st.session_state.vista = "juego2"
-with col4:
+with row2_col3:
     if st.button("🍲 Modulo 1.3"):
         st.session_state.vista = "juego3"
+
 if st.session_state.vista == "leaderboard":
     leaderboard_view()
 elif st.session_state.vista == "juego":
@@ -103,3 +113,5 @@ elif st.session_state.vista == "juego2":
     mostrar_juego2()
 elif st.session_state.vista == "juego3":
     mostrar_juego3()
+elif st.session_state.vista == "quiz":
+    mostrar_quiz()

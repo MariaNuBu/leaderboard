@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A data scientist is working with Amazon SageMaker Studio and needs to set up a JupyterLab environment for collaboration with their team. Which of the following best describes how SageMaker Studio notebooks are different from standalone SageMaker notebook instances?",
+      "options": [
+        "Standalone SageMaker notebook instances have built-in collaboration tools, whereas SageMaker Studio notebooks do not support collaboration.",
+        "SageMaker Studio notebooks are pre-configured only for data preparation tasks and cannot be used for model training or deployment.",
+        "SageMaker Studio notebooks are integrated within SageMaker Studio, allowing persistent storage and multiple notebooks per project, while standalone notebook instances operate independently.",
+        "SageMaker Studio notebooks are for lightweight tasks, whereas standalone SageMaker notebook instances are used for heavy machine learning workloads."
+      ],
+      "correct_answers": [
+        "SageMaker Studio notebooks are integrated within SageMaker Studio, allowing persistent storage and multiple notebooks per project, while standalone notebook instances operate independently."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

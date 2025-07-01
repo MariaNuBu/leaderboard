@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A company is using SageMaker built-in algorithms for text analysis. They need to optimize the model’s performance on their dataset by adjusting parameters such as learning rate and batch size. Which of the following approaches would be MOST effective for tuning these parameters?\n\nPerform feature engineering on the dataset before training to eliminate the need for hyperparameter tuning.\n\nExplicación\nFeature engineering is important, but it does not eliminate the need for hyperparameter tuning.\n\nWrite custom Python code to perform a manual grid search for the best hyperparameters.\n\nExplicación\nWhile manual hyperparameter tuning can be effective, it is less efficient and requires more effort than SageMaker’s automatic tuning.\n\nUtilize pre-trained models in SageMaker Jumpstart without any further tuning, as they are optimized out-of-the-box for all datasets.\n\nExplicación\nPre-trained models may require further tuning or customization to perform optimally on specific datasets.",
+      "options": [
+        "Perform feature engineering on the dataset before training to eliminate the need for hyperparameter tuning.",
+        "Write custom Python code to perform a manual grid search for the best hyperparameters.",
+        "Utilize pre-trained models in SageMaker Jumpstart without any further tuning, as they are optimized out-of-the-box for all datasets.",
+        "Use SageMaker’s built-in support for automatic hyperparameter tuning to efficiently explore different configurations."
+      ],
+      "correct_answers": [
+        "Use SageMaker’s built-in support for automatic hyperparameter tuning to efficiently explore different configurations."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

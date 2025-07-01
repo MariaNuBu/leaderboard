@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "You are an ML Engineer at a financial services company tasked with deploying a machine learning model for real-time fraud detection in production.\nThe model requires low-latency inference to ensure that fraudulent transactions are flagged immediately.\nHowever, you also need to conduct extensive testing and experimentation in a separate environment to fine-tune the model and validate its performance before deploying it.\nYou must provision compute resources that are appropriate for both environments, balancing performance, cost, and the specific needs of testing and production.\n\nWhich of the following strategies should you implement to effectively provision compute resources for both the production environment and the test environment using Amazon SageMaker, considering the different requirements for each environment? (Select two)",
+      "options": [
+        "Provision CPU-based instances in both production and test environments to reduce costs, as CPU instances are generally cheaper than GPU instances",
+        "Use CPU-based instances in the test environment to save on costs during experimentation",
+        "Provision identical instances in both production and test environments to ensure consistent performance between the two, eliminating the risk of discrepancies during deployment",
+        "Leverage AWS Inferentia accelerators in the production environment to meet high throughput and low latency requirements"
+      ],
+      "correct_answers": [
+        "Use CPU-based instances in the test environment to save on costs during experimentation",
+        "Leverage AWS Inferentia accelerators in the production environment to meet high throughput and low latency requirements"
+      ],
+      "references": [
+        "https://aws.amazon.com/machine-learning/inferentia/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

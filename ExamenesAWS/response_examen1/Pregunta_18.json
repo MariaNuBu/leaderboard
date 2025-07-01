@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A pharmaceutical company is using Amazon SageMaker to develop machine learning models for drug discovery. The data scientists need a solution that provides granular control over their ML pipelines to manage the steps involved in preclinical testing simulations. They also require the ability to visualize workflows for experiments as a directed acyclic graph (DAG) to better understand dependencies. In addition, the solution must allow them to maintain a history of experiment trials for reproducibility and optimization, as well as tools to implement model governance for regulatory audits and compliance verifications.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use AWS CodePipeline for orchestration, visualize workflows as a series of stages, and implement SageMaker Experiments to maintain a running history of model discovery experiments",
+        "Use SageMaker Pipelines for orchestrating ML workflows, visualize them as a DAG, and leverage SageMaker ML Lineage Tracking for auditing and compliance",
+        "Use SageMaker Experiments for tracking and visualizing all workflows and rely on AWS CodePipeline for orchestration and governance",
+        "Use SageMaker Pipelines for orchestration, visualize workflows as a DAG, and leverage SageMaker Experiments for model governance and compliance"
+      ],
+      "correct_answers": [
+        "Use SageMaker Pipelines for orchestrating ML workflows, visualize them as a DAG, and leverage SageMaker ML Lineage Tracking for auditing and compliance"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/lineage-tracking.html",
+        "https://aws.amazon.com/sagemaker-ai/experiments/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

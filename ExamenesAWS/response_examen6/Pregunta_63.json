@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "A company is using Amazon SageMaker for hyperparameter tuning. They want a technique that stops poorly performing models early to allocate resources more efficiently to better performing models. Which tuning strategy should they use?\n\nRandom Search\n\nExplicación\nRandom Search also doesn't stop configurations early, as it selects hyperparameters randomly for testing.\n\nBayesian Optimization\n\nExplicación\nBayesian Optimization focuses on promising areas but does not stop training early based on performance.\n\nGrid Search\n\nExplicación\nGrid Search does not stop configurations early and tests all possible combinations.",
+      "options": [
+        "Random Search",
+        "Bayesian Optimization",
+        "Grid Search",
+        "Hyperband"
+      ],
+      "correct_answers": [
+        "Hyperband"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

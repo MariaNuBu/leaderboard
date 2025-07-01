@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A healthcare company is training a neural network to classify medical images as healthy or abnormal. The ML engineer observes that the model's performance on the validation dataset improves significantly during the early epochs but begins to degrade after a certain number of epochs.\n\nWhich solutions will mitigate this problem? (Select two)",
+      "options": [
+        "Reduce the size of the training dataset to simplify the learning process and avoid overfitting",
+        "Add dropout layers to the neural network architecture to prevent overfitting",
+        "Increase the number of epochs to ensure the model learns the training data thoroughly before stopping",
+        "Use early stopping to halt training once the validation loss stops improving",
+        "Increase the number of layers as well as the number of neurons to prevent overfitting"
+      ],
+      "correct_answers": [
+        "Add dropout layers to the neural network architecture to prevent overfitting",
+        "Use early stopping to halt training once the validation loss stops improving"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-early-stopping.html",
+        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-automatic-model-tuning-now-supports-early-stopping-of-training-jobs/",
+        "https://aws.amazon.com/what-is/overfitting/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

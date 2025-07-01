@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Which of the following scenarios would be most appropriate for using Amazon SageMaker Script Mode over creating a custom Docker container?",
+      "options": [
+        "The machine learning team needs to use a custom version of TensorFlow that has specialized libraries not supported by SageMaker’s built-in containers.",
+        "A data scientist wants to focus on model development using a pre-configured PyTorch environment while avoiding the complexity of managing container infrastructure.",
+        "A developer requires full control over the operating system, libraries, and dependencies for an advanced C++ model.",
+        "The model needs to be trained and deployed in a completely different programming language, such as Rust, which SageMaker does not support natively."
+      ],
+      "correct_answers": [
+        "A data scientist wants to focus on model development using a pre-configured PyTorch environment while avoiding the complexity of managing container infrastructure."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

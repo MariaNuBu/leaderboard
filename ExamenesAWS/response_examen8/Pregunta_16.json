@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "Which of the following are key features of Amazon Bedrock that simplify the management and scaling of generative AI applications? (Choose TWO)",
+      "options": [
+        "Provisioned throughput mode for handling large, steady workloads.",
+        "Ability to directly modify the foundation models' source code for deeper customization.",
+        "Serverless infrastructure with automatic scaling and built-in data encryption.",
+        "Requirement to configure and manage underlying EC2 instances for model hosting.",
+        "Fine-tuning models with custom data to improve performance for specific tasks."
+      ],
+      "correct_answers": [
+        "Provisioned throughput mode for handling large, steady workloads.",
+        "Serverless infrastructure with automatic scaling and built-in data encryption."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

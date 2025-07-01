@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You are a machine learning engineer at a fintech company that has developed several models for various use cases, including fraud detection, credit scoring, and personalized marketing. Each model has different performance and deployment requirements. The fraud detection model requires real-time predictions with low latency and needs to scale quickly based on incoming transaction volumes. The credit scoring model is computationally intensive but can tolerate batch processing with slightly higher latency. The personalized marketing model needs to be triggered by events and doesn’t require constant availability.\n\nGiven these varying requirements, which deployment target is the MOST SUITABLE for each model?",
+      "options": [
+        "Deploy all three models on a single Amazon EKS cluster to take advantage of Kubernetes orchestration, ensuring consistent management and scaling across different use cases",
+        "Deploy the fraud detection model using SageMaker endpoints for low-latency, real-time predictions, deploy the credit scoring model on Amazon ECS for batch processing, and deploy the personalized marketing model using AWS Lambda for event-driven execution",
+        "Deploy the fraud detection model using AWS Lambda for serverless, on-demand execution, deploy the credit scoring model on Amazon EKS for scalable batch processing, and deploy the personalized marketing model on SageMaker endpoints to handle event-driven inference",
+        "Deploy the fraud detection model on Amazon ECS for auto-scaling based on demand, deploy the credit scoring model using SageMaker endpoints for real-time scoring, and deploy the personalized marketing model on Amazon EKS for event-driven processing"
+      ],
+      "correct_answers": [
+        "Deploy the fraud detection model using SageMaker endpoints for low-latency, real-time predictions, deploy the credit scoring model on Amazon ECS for batch processing, and deploy the personalized marketing model using AWS Lambda for event-driven execution"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html",
+        "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduling_tasks.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

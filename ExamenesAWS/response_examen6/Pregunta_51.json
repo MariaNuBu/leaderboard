@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "Pregunta 51\n\nA machine learning team is training a deep learning model using Amazon SageMaker and wants to monitor the training process in real time to identify issues like vanishing gradients and overfitting. They also need to automatically track and compare different training experiments, including hyperparameter configurations and model performance, to optimize the model.\n\nWhich combination of SageMaker features should the team use to achieve these goals?\n\nUse SageMaker Studio to manually track training metrics and SageMaker Data Wrangler to handle training data\n\nExplicación\nSageMaker Studio offers a UI for development but does not automatically track experiments like SageMaker Experiments, nor does it provide real-time debugging.\n\nUse SageMaker Neo to optimize model performance and SageMaker Feature Store to manage training data features\n\nExplicación\nSageMaker Neo is for optimizing model deployment, and SageMaker Feature Store manages features, but neither is related to real-time debugging or experiment tracking.\n\nUse SageMaker Ground Truth for data labeling and SageMaker Autopilot for model optimization\n\nExplicación\nSageMaker Ground Truth is used for data labeling, and SageMaker Autopilot is for automatic model building, not experiment tracking or real-time monitoring.",
+      "options": [
+        "Use SageMaker Studio to manually track training metrics and SageMaker Data Wrangler to handle training data",
+        "Use SageMaker Neo to optimize model performance and SageMaker Feature Store to manage training data features",
+        "Use SageMaker Ground Truth for data labeling and SageMaker Autopilot for model optimization",
+        "Use SageMaker Debugger for real-time training monitoring and SageMaker Experiments to track and compare training runs"
+      ],
+      "correct_answers": [
+        "Use SageMaker Debugger for real-time training monitoring and SageMaker Experiments to track and compare training runs"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

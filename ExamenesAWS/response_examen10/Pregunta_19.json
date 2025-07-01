@@ -1,0 +1,18 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "Select the correct explainability analysis from the following list for each use case. Each explainability analysis should be selected one time. (Select THREE.)\n\nDifference in proportions of labels (DPL)\nPartial dependence plots (PDPs)\nShapley values\n\nIdentify the difference in the predicted outcome as an input feature changes.\n\nDifference in proportions of labels (DPL) Partial dependence plots (PDPs)\n\nQuantify the contribution of each feature in a prediction.\n\nPartial dependence plots (PDPs) Shapley values\n\nMeasure the imbalance of positive outcomes between different facet values.\n\nDifference in proportions of labels (DPL)",
+      "options": [
+        "Difference in proportions of labels (DPL)",
+        "Partial dependence plots (PDPs)",
+        "Shapley values"
+      ],
+      "correct_answers": [],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

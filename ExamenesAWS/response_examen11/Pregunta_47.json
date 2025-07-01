@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.\n\nA company wants to ensure that code for an ML project is built and ready in a package for a production environment.\n\nSelect the correct AWS service from the following list for each task. Each AWS service should be selected one or more times. (Select FOUR.)\n\nAWS CodeBuild\nAWS CodePipeline\nCompile the source code.\n\n AWS CodeBuild\nDefine different actions to build, deploy, and test the code.\n\n AWS CodePipeline\nRun unit tests and produce an artifact that is ready for deployment.\n\n AWS CodeBuild\nInvoke an AWS Lambda function to inform email recipients when the code is ready for deployment.\n\n AWS CodePipeline",
+      "options": [
+        "Compile the source code. AWS CodeBuild",
+        "Define different actions to build, deploy, and test the code. AWS CodePipeline",
+        "Run unit tests and produce an artifact that is ready for deployment. AWS CodeBuild",
+        "Invoke an AWS Lambda function to inform email recipients when the code is ready for deployment. AWS CodePipeline"
+      ],
+      "correct_answers": [
+        "Compile the source code. AWS CodeBuild",
+        "Define different actions to build, deploy, and test the code. AWS CodePipeline",
+        "Run unit tests and produce an artifact that is ready for deployment. AWS CodeBuild",
+        "Invoke an AWS Lambda function to inform email recipients when the code is ready for deployment. AWS CodePipeline"
+      ],
+      "references": [],
+      "topic": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

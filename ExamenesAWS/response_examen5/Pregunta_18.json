@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A retail company wants to use machine learning to predict customer churn. The company does not have enough expertise to build and train a model from scratch, but they need a reliable model that can quickly be deployed and customized with their customer data. The company is considering Amazon SageMaker JumpStart as a solution.\nWhich of the following actions should the company take to achieve its goal using SageMaker JumpStart? (Choose TWO.)",
+      "options": [
+        "Train a custom model on SageMaker from scratch using their own algorithms to meet the customer churn prediction requirements.",
+        "Manually configure the infrastructure, storage, and compute resources required to deploy the pre-trained model from SageMaker JumpStart.",
+        "Fine-tune a pre-built customer churn model available on SageMaker JumpStart using the company's proprietary data.",
+        "Deploy a SageMaker endpoint without any modifications or fine-tuning to ensure model accuracy on their data.",
+        "Browse the SageMaker JumpStart model hub to find a pre-built customer churn prediction model and deploy it directly."
+      ],
+      "correct_answers": [
+        "Fine-tune a pre-built customer churn model available on SageMaker JumpStart using the company's proprietary data.",
+        "Browse the SageMaker JumpStart model hub to find a pre-built customer churn prediction model and deploy it directly."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A financial services company deployed a machine learning model using Amazon SageMaker Asynchronous Inference in the past with successful performance. Now, the company needs to deploy a new ML model that detects fraudulent credit card transactions in real-time within their banking application. However, when using SageMaker Asynchronous Inference for this new model, the performance is poor and does not meet the real-time requirements. Additionally, the company wants to receive notifications whenever there is a deviation in the model's quality.\n\nAs an AWS Certified Machine Learning Engineer Associate, what do you recommend?",
+      "options": [
+        "Switch to SageMaker Real-Time Inference for the deployment and use SageMaker Model Monitor for model quality deviations",
+        "Retain SageMaker Asynchronous Inference and enable autoscaling for the endpoint to improve performance, while using Amazon SQS for notifications",
+        "Increase the instance size and response timeout settings for SageMaker Asynchronous Inference and use Amazon SNS for quality deviation notifications",
+        "Use SageMaker Batch Transform for inference and set up a monitoring system with SageMaker Model Monitor to send notifications for quality deviations"
+      ],
+      "correct_answers": [
+        "Switch to SageMaker Real-Time Inference for the deployment and use SageMaker Model Monitor for model quality deviations"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality-metrics.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

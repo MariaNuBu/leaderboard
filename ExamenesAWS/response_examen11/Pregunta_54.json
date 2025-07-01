@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "TOPIC 4.1 Monitor model inference.\n\nA company is using an ML model that runs inferences in real time in Amazon SageMaker as part of an online application. Lately, the accuracy of the model has been decreasing. The company has developed three new versions of the model. The company wants to perform A/B testing on the new versions of the model and deploy the model that has the highest accuracy.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A\nDeploy the three new versions of the model behind a single SageMaker endpoint. Define a traffic percentage for each version.",
+        "B\nDeploy Amazon API Gateway to an API endpoint for each model version. Define a traffic percentage for each version.",
+        "C\nDeploy three Amazon EC2 instances with AWS Deep Learning AMIs (DLAMI) to host the different model versions. Use an Application Load Balancer (ALB) to distribute a percentage of traffic to each model.",
+        "D\nDeploy three SageMaker endpoints for the new model versions. Use an Application Load Balancer (ALB) to distribute a percentage of traffic to each model."
+      ],
+      "correct_answers": [
+        "A\nDeploy the three new versions of the model behind a single SageMaker endpoint. Define a traffic percentage for each version."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.1 Monitor model inference.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

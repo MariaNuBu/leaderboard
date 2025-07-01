@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "TOPIC 4.2 Monitor and optimize infrastructure and costs.\n\nA healthcare company is developing an ML model to improve the efficiency of physician note taking. The deep learning model summarizes notes from patients’ visits and automatically generates a list of action items that the patients can take to improve their health. The company needs to determine which Amazon EC2 instance type the company should use to host the model for inference.\n\nWhich EC2 instance type should the company use?",
+      "options": [
+        "A\nCompute optimized group of ML instances",
+        "B\nAccelerated computing group of ML instances",
+        "C\nGeneral purpose group of ML instances",
+        "D\nStorage optimized group of ML instances"
+      ],
+      "correct_answers": [
+        "B\nAccelerated computing group of ML instances"
+      ],
+      "references": [],
+      "topic": "TOPIC 4.2 Monitor and optimize infrastructure and costs.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

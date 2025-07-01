@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "What is the key challenge that results from a high variance model in the context of responsible AI, and what technique is most effective to combat it?\n\nUnderfitting, and the solution is reducing the complexity of the model\n\nExplicación\nReducing model complexity may help with overfitting, but the correct technique for high variance is early stopping, which directly tackles the issue during training.",
+      "options": [
+        "Underfitting, and the solution is reducing the complexity of the model",
+        "Overfitting, and the solution is early stopping",
+        "Underfitting, and the solution is cross-validation",
+        "Overfitting, and the solution is adding more training data"
+      ],
+      "correct_answers": [
+        "Overfitting, and the solution is early stopping"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

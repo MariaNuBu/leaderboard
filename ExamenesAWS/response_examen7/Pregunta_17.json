@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "Which of the following is an example of unsupervised learning in machine learning?",
+      "options": [
+        "Grouping customers based on purchasing behavior without labeled categories",
+        "Forecasting sales for the next quarter",
+        "Predicting whether an email is spam or not",
+        "Predicting the price of a stock based on historical data"
+      ],
+      "correct_answers": [
+        "Grouping customers based on purchasing behavior without labeled categories"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

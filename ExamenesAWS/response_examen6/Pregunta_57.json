@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "A data scientist at a healthcare company is tasked with building a machine learning model to predict patient outcomes based on clinical data. The team decides to test different algorithms, hyperparameters, and feature sets to find the most accurate model. To manage and compare these variations, the data scientist decides to use SageMaker Experiments.\n\nWhich of the following strategies will BEST allow the team to track and compare their experiments, ensuring reproducibility and organized management of model configurations?\n\nCreate a single trial with one configuration and manually adjust hyperparameters each time for new tests.\n\nExplicación\nRunning a single trial without using experiment tracking would lead to inefficient and unorganized management, making it difficult to compare variations or ensure reproducibility.\n\nUse SageMaker Ground Truth to label datasets and organize each training run as a separate trial component under different experiments.\n\nExplicación\nSageMaker Ground Truth is designed for labeling datasets, not for managing experiments and comparing model configurations.",
+      "options": [
+        "Create a single trial with one configuration and manually adjust hyperparameters each time for new tests.",
+        "Use SageMaker Ground Truth to label datasets and organize each training run as a separate trial component under different experiments.",
+        "Use SageMaker Experiments to organize model runs into trials under a single experiment, where each trial logs configurations and metrics, enabling easy comparison of different models and hyperparameters.",
+        "Log every hyperparameter and configuration change manually to a spreadsheet and compare the metrics offline after each run."
+      ],
+      "correct_answers": [
+        "Use SageMaker Experiments to organize model runs into trials under a single experiment, where each trial logs configurations and metrics, enabling easy comparison of different models and hyperparameters."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A Machine Learning Engineer is preparing to train a deep learning model on Amazon SageMaker using a custom algorithm. The dataset is very large and stored across multiple S3 buckets. Due to the data size, it needs to be streamed directly into SageMaker for training rather than loaded all at once.\n\nWhat is the recommended approach to efficiently manage and stream this data during training in Amazon SageMaker?",
+      "options": [
+        "Use SageMaker Pipe mode to stream the data directly from S3 to the training instances.",
+        "Use AWS Glue to join the data into a single file before loading it into SageMaker.",
+        "Manually download and preprocess the data on an Amazon EC2 instance before uploading it to SageMaker.",
+        "Use the SageMaker batch transform feature to prepare the data before training."
+      ],
+      "correct_answers": [
+        "Use SageMaker Pipe mode to stream the data directly from S3 to the training instances."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

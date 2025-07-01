@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A machine learning team is using AWS Glue to preprocess large datasets for training models. They need to ensure that the Glue ETL jobs are optimized for cost without sacrificing performance. The team wants to apply custom transformations and only pay for the compute resources they use.\n\nWhat are the best practices the team should follow to manage AWS Glue costs? (Choose TWO)",
+      "options": [
+        "Use the AWS Glue visual interface to build ETL jobs instead of custom scripts to save on costs.",
+        "Configure the Glue job to run with a minimal number of Data Processing Units (DPUs) that meet performance requirements.",
+        "Use AWS Glue Crawlers to run on a schedule and detect changes in the data schema, reducing the need for constant job execution.",
+        "Implement manual ETL processes using EC2 Spot Instances to lower the compute costs.",
+        "Use AWS Glue's built-in auto-scaling feature to automatically scale up DPUs based on workload."
+      ],
+      "correct_answers": [
+        "Configure the Glue job to run with a minimal number of Data Processing Units (DPUs) that meet performance requirements.",
+        "Use AWS Glue Crawlers to run on a schedule and detect changes in the data schema, reducing the need for constant job execution."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A research institute is planning to use Amazon SageMaker to train a machine learning model for object detection in satellite imagery. The training dataset, consisting of 8 TB of high-resolution images, is stored on an Amazon FSx for NetApp ONTAP system virtual machine (SVM) that is configured in the same VPC as the SageMaker environment. The ML engineer needs to ensure that the SageMaker training job can efficiently access the dataset during training.\n\nWhich of the following represents the best solution for the given use case?\n\nExport the training data from the FSx for NetApp ONTAP system to a local system and re-upload the data to SageMaker through the SageMaker Python SDK\n\nCopy the training data from the FSx for NetApp ONTAP system to an Amazon S3 bucket and configure SageMaker to use the S3 bucket for training",
+      "options": [
+        "Export the training data from the FSx for NetApp ONTAP system to a local system and re-upload the data to SageMaker through the SageMaker Python SDK",
+        "Copy the training data from the FSx for NetApp ONTAP system to an Amazon S3 bucket and configure SageMaker to use the S3 bucket for training",
+        "Mount the FSx for NetApp ONTAP file system directly as a volume to the SageMaker training instance",
+        "Use AWS DataSync to continuously synchronize the FSx for NetApp ONTAP system with Amazon S3 and set up SageMaker to read the data from S3 during training"
+      ],
+      "correct_answers": [
+        "Mount the FSx for NetApp ONTAP file system directly as a volume to the SageMaker training instance"
+      ],
+      "references": [
+        "https://docs.netapp.com/us-en/netapp-solutions/ai/mlops_fsxn_sagemaker_integration_training.html#network-environment"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

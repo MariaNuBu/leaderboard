@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A data scientist is using SageMaker Data Wrangler for feature engineering and needs to determine which features contribute most to the model's predictions. Which feature of Data Wrangler helps visualize and estimate the importance of different features?\n\nOne-hot Encoding\n\nExplicación\nOne-hot encoding is a technique for transforming categorical data into binary vectors, not for evaluating feature importance.",
+      "options": [
+        "One-hot Encoding",
+        "Quick Model",
+        "Recursive Feature Elimination",
+        "Min-Max Scaling"
+      ],
+      "correct_answers": [
+        "Quick Model"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

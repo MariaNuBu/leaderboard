@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "A retail company has deployed a demand forecasting model using Amazon SageMaker. They want to ensure the model remains accurate over time by monitoring both data quality and model performance. They also need to automate the retraining of the model if significant data drift or performance degradation is detected. Which combination of AWS services and features would best help the company achieve this?",
+      "options": [
+        "Use SageMaker Model Monitor for detecting data drift, Amazon CloudWatch for setting alerts, and SageMaker Pipelines for automating model retraining",
+        "Use SageMaker Data Wrangler for detecting data drift, AWS Glue for data processing, and SageMaker Debugger for retraining the model",
+        "Use SageMaker Neo for monitoring model performance, AWS Lambda for data drift detection, and Amazon Kinesis for real-time predictions",
+        "Use SageMaker Ground Truth for monitoring data drift, Amazon CloudWatch for logging, and AWS Step Functions for model deployment"
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Monitor for detecting data drift, Amazon CloudWatch for setting alerts, and SageMaker Pipelines for automating model retraining"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

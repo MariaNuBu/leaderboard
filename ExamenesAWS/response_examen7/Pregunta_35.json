@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "A machine learning engineer is using SageMaker Data Wrangler to preprocess data from multiple sources.\nThey want to analyze the relationships between different features in the dataset before selecting which features to include in model training.\nThe engineer also needs to understand which features might have the greatest impact on the target variable.\nWhich two functionalities of Data Wrangler will help the engineer achieve this? (Choose TWO)",
+      "options": [
+        "Recursive feature elimination.",
+        "Feature selection through automatic feature scaling.",
+        "Data visualization tools such as histograms and bar charts.",
+        "Exporting data directly to Amazon SageMaker for model deployment.",
+        "Feature importance visualization using the Quick Model."
+      ],
+      "correct_answers": [
+        "Data visualization tools such as histograms and bar charts.",
+        "Feature importance visualization using the Quick Model."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

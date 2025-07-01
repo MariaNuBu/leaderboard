@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A company uses ML models on Amazon SageMaker to guide marketing campaigns. Training data comes from Amazon Redshift. The data preparation steps require joins, transformations, and data imputation to obtain training features. Data lineage must be preserved. The data science team expects a new set of features to be stored and versioned in SageMaker Feature Store at the beginning of every month so that they can build new models.\n\nWhich combination of steps meets these requirements with the LEAST code? (Select TWO.)",
+      "options": [
+        "A\nUse SageMaker Pipelines to load training data and run all transformations. Store features in Feature Store.",
+        "B\nUse a pre-built template to create an AWS Glue for Spark job to load training data and run all transformations. Store features in Feature Store.",
+        "C\nDefine the data pre-processing as a SageMaker processing job. Schedule to run monthly.",
+        "D\nDefine the data pre-processing as a SageMaker Pipeline run. Schedule to run monthly.",
+        "E\nUse SageMaker Data Wrangler to load the data and run transformations. Store features in Feature Store."
+      ],
+      "correct_answers": [
+        "C\nDefine the data pre-processing as a SageMaker processing job. Schedule to run monthly.",
+        "E\nUse SageMaker Data Wrangler to load the data and run transformations. Store features in Feature Store."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

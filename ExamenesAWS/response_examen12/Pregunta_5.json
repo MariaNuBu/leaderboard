@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA manufacturing company has uploaded raw event log data into a data repository to build a machine learning (ML) model for predictive maintenance. The raw event logs include vehicle numbers, scheduled maintenance, warranty expiration, wheel rotation, and more. The goal is to transform the data into an efficient format for storing and processing.\n\nWhat data format should be used?\n\nCSV Format\nXML\nAvro RecordIO\nParquet",
+      "options": [
+        "CSV Format",
+        "XML",
+        "Avro RecordIO",
+        "Parquet"
+      ],
+      "correct_answers": [
+        "Parquet"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html",
+        "https://parquet.apache.org/docs/overview/"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

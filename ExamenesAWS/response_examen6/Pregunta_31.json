@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "Which of the following is a benefit of using SageMaker Pipelines for machine learning workflows?\n\nIt allows users to run SQL queries on large datasets stored in Amazon S3.\n\nExplicación\nSageMaker Pipelines are not used for running SQL queries on S3 datasets. Amazon Athena would be more appropriate for this task.",
+      "options": [
+        "It allows users to run SQL queries on large datasets stored in Amazon S3.",
+        "It automates and organizes machine learning workflows, making them reusable and scalable.",
+        "It enables real-time analytics without batch processing.",
+        "It provides a platform for building deep learning models with low-latency inference."
+      ],
+      "correct_answers": [
+        "It automates and organizes machine learning workflows, making them reusable and scalable."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

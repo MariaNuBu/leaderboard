@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "An ML engineer is building a generative AI application on Amazon Bedrock using large language models (LLMs). The engineer needs to understand key generative AI concepts to optimize and customize the model's performance for the application. Consider these generative AI terms followed by the descriptions:\n\nGenerative AI terms:\n\nEmbedding\nToken\nRetrieval Augmented Generation (RAG)\nTemperature\nPrompt\nDescriptions: A. A method to combine external knowledge retrieval with generative AI to produce more accurate and relevant responses. B. Numerical representation of text (or data) in a high-dimensional vector space. C. An input provided to a model to guide it to generate an appropriate response or output for the input. D. Units of text (like words, subwords, or characters) processed by an LLM. E. A parameter used to control the randomness of the model's output, influencing whether responses are more creative or deterministic.\n\nCan you match the generative AI term to its correct description?",
+      "options": [
+        "1-B, 2-D, 3-C",
+        "1-B, 2-D, 3-A",
+        "1-D, 2-B, 3-A",
+        "4-C, 5-E, 3-A"
+      ],
+      "correct_answers": [
+        "1-B, 2-D, 3-A"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/key-definitions.html",
+        "https://aws.amazon.com/what-is/generative-ai/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

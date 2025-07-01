@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "A company is developing a machine learning model using a proprietary machine learning framework that is not supported by SageMaker. They decide to use SageMaker's \"bring your own container\" approach to handle both training and inference. What advantages does this approach provide, and which tasks are still the company’s responsibility?",
+      "options": [
+        "The company gains full control over the training and inference environment but must manage the Docker image creation, container configuration, and deployment.",
+        "SageMaker will automatically handle container creation and distribution, but the company must manage data preprocessing steps.",
+        "SageMaker will fully manage the environment, and the company only needs to provide their training code.",
+        "The company can still use SageMaker’s built-in training algorithms, and only needs to customize the inference process with the custom container."
+      ],
+      "correct_answers": [
+        "The company gains full control over the training and inference environment but must manage the Docker image creation, container configuration, and deployment."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

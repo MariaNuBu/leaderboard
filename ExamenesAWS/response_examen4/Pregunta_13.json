@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "An e-commerce company uses an Amazon SageMaker endpoint to provide real-time product recommendations to users. Recently, the company's data science team noticed that the recommendation service is occasionally returning errors and taking longer to respond during peak traffic times. To ensure that the service maintains high availability and performance, the team needs to diagnose and troubleshoot these issues effectively.\n\nWhich AWS service should the team primarily use to monitor the SageMaker endpoint, detect anomalies, and set up automatic alerts for any performance degradation or errors?\n\nAWS Config\n\nExplicación\nAWS Config is a service that tracks configuration changes and evaluates compliance against best practices and internal policies. While helpful for ensuring correct configuration of AWS resources, it does not provide the necessary tools for real-time monitoring of service performance or for setting up alerts based on specific performance metrics.\n\nAWS CloudTrail\n\nExplicación\nAWS CloudTrail is used for logging API calls and tracking user activity for security and auditing purposes. While it can provide insights into who accessed the endpoint and what actions they took, it does not provide detailed performance monitoring or alerting for runtime errors and latency issues.\n\n",
+      "options": [
+        "AWS Config",
+        "AWS CloudTrail",
+        "Amazon CloudWatch",
+        "AWS X-Ray"
+      ],
+      "correct_answers": [
+        "Amazon CloudWatch"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

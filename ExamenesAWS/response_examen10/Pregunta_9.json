@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A retail company is creating a customer data platform to store and analyze text-based user interactions for English-speaking users. Compliance requirements dictate that the company must ensure that personally identifiable information (PII) is not stored and exposed on the platform. An ML engineer must implement a solution to process and anonymize the personal information automatically.\n\nWhich solution meets the requirements with the LEAST development effort?",
+      "options": [
+        "A\nUse Amazon Comprehend to detect and redact personal information from user interactions.",
+        "B\nUse Amazon SageMaker Canvas to detect and redact personal information from user interactions.",
+        "C\nUse Amazon Kendra to detect and redact personal information from user interactions.",
+        "D\nUse Amazon Textract to detect and redact personal information from user interactions."
+      ],
+      "correct_answers": [
+        "A\nUse Amazon Comprehend to detect and redact personal information from user interactions."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

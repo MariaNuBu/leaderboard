@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A media company collects real-time streaming logs of video content views and stores them in an Amazon S3 bucket. The raw logs contain millions of records daily, including timestamps, user IDs, and video metadata. The data analytics team uses Amazon Athena to generate weekly reports and analyze trends in video views over the past 7 days. The company needs to store the data for 90 days before archiving it to lower-cost storage. The solution must optimize Athena query performance while maintaining cost efficiency.\n\nWhat do you recommend\n\nUse an S3 lifecycle policy to delete logs older than 90 days and configure Athena to query the raw logs directly from the S3 bucket without using partitions or prefixes\n\nStore all logs in uncompressed JSON format and rely on Athena filters to query the data for the 7-day trend analysis\n\nCompress all daily logs into a single large file and store them in the S3 bucket. Use Athena to scan the compressed files for the required 7-day trend analysis",
+      "options": [
+        "Use an S3 lifecycle policy to delete logs older than 90 days and configure Athena to query the raw logs directly from the S3 bucket without using partitions or prefixes",
+        "Store all logs in uncompressed JSON format and rely on Athena filters to query the data for the 7-day trend analysis",
+        "Compress all daily logs into a single large file and store them in the S3 bucket. Use Athena to scan the compressed files for the required 7-day trend analysis",
+        "Partition the data in the S3 bucket by year, month, and day (e.g., year=YYYY/month=MM/day=DD). Use prefixes for organizing logs in daily folders and configure an S3 lifecycle policy to transition data to Amazon S3 Glacier after 90 days"
+      ],
+      "correct_answers": [
+        "Partition the data in the S3 bucket by year, month, and day (e.g., year=YYYY/month=MM/day=DD). Use prefixes for organizing logs in daily folders and configure an S3 lifecycle policy to transition data to Amazon S3 Glacier after 90 days"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/athena/latest/ug/partitions.html",
+        "https://docs.aws.amazon.com/athena/latest/ug/partition-projection.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-prefixes.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

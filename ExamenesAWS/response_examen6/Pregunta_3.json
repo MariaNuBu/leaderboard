@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A machine learning team is using SageMaker Model Registry to manage the lifecycle of their models. After training a new version of a model, they want to automate the registration of the model in the registry and deploy it to a real-time endpoint. What features of SageMaker Model Registry and Pipelines will help achieve this?",
+      "options": [
+        "SageMaker Model Registry automatically deploys the model to a real-time endpoint without any further configuration.",
+        "SageMaker Pipelines can automate the registration of the model in the registry and then trigger the deployment to a real-time endpoint based on predefined steps.",
+        "Model versions in the registry cannot be automatically deployed; manual steps are always required.",
+        "The team must manually register the model in the Model Registry and deploy it using the AWS Management Console."
+      ],
+      "correct_answers": [
+        "SageMaker Pipelines can automate the registration of the model in the registry and then trigger the deployment to a real-time endpoint based on predefined steps."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

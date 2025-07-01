@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A machine learning engineer is tasked with automating the machine learning workflow, from data ingestion to model deployment. Which AWS services should the engineer use to automate the end-to-end ML lifecycle efficiently?",
+      "options": [
+        "Use SageMaker Feature Store for all tasks, including data collection, model training, and deployment.",
+        "Use SageMaker Data Wrangler for data preparation, SageMaker Model Registry for model versioning, and SageMaker Pipelines to orchestrate the workflow.",
+        "Use AWS Glue for model development and SageMaker Pipelines for monitoring.",
+        "Manually write Python scripts to manage data ingestion, model development, and deployment on EC2 instances."
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler for data preparation, SageMaker Model Registry for model versioning, and SageMaker Pipelines to orchestrate the workflow."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

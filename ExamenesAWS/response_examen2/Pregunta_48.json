@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "You are a data scientist at a healthcare company that has deployed a machine learning model to predict patient readmission rates.\nThe model plays a crucial role in optimizing patient care and managing hospital resources.\nAfter several months in production, the medical team has noticed that the model’s predictions seem less accurate than before, leading to concerns about data quality and model performance.\nTo ensure that the model continues to deliver reliable predictions, you need to implement techniques to monitor both data quality and model performance continuously.\n\nWhich of the following approaches is the MOST EFFECTIVE for monitoring data quality and model performance in this scenario?",
+      "options": [
+        "Implement data validation rules to check for missing values, outliers, and distribution changes in the input data before feeding it to the model, and use model performance metrics such as accuracy and F1 score to monitor the model's output",
+        "Schedule periodic retraining of the model on the latest data to ensure it remains accurate, without additional monitoring of data quality or performance metrics",
+        "Perform manual checks on a sample of the input data each week to ensure data quality and manually track model performance metrics in a spreadsheet for analysis",
+        "Set up a dashboard that tracks model performance metrics, such as precision, recall, and AUC, and use version control to monitor changes in the model's code and training data over time"
+      ],
+      "correct_answers": [
+        "Implement data validation rules to check for missing values, outliers, and distribution changes in the input data before feeding it to the model, and use model performance metrics such as accuracy and F1 score to monitor the model's output"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html",
+        "https://aws.amazon.com/blogs/machine-learning/identifying-and-avoiding-common-data-issues-while-building-no-code-ml-models-with-amazon-sagemaker-canvas/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

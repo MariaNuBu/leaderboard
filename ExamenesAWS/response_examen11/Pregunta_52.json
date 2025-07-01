@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "TOPIC 4.1 Monitor model inference.\\n\\nAn ML engineer must monitor a production ML model that has an endpoint that is configured for real-time inference. Model training data and inference I/O data are stored in Amazon S3. The ML engineer needs to track data drift in production to see if the quality of predictions changes from when the model was trained.\\n\\nWhich solution should the ML engineer use to create a baseline of the training data?",
+      "options": [
+        "A\\nUse an Amazon SageMaker Model Monitor prebuilt container with SageMaker Python SDK to generate statistics from the training data.",
+        "B\\nUse Amazon SageMaker Ground Truth to build a monitoring job from the training data.",
+        "C\\nUse Amazon SageMaker Model Dashboard to generate statistics from the inference output data.",
+        "D\\nExplore the Amazon CloudWatch namespace aws/sagemaker/Endpoints/explainability-metrics to view metrics for the endpoint that services the model. Use these metrics to establish a baseline by using TensorBoard."
+      ],
+      "correct_answers": [
+        "A\\nUse an Amazon SageMaker Model Monitor prebuilt container with SageMaker Python SDK to generate statistics from the training data."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.1 Monitor model inference.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": ""
+    }
+  ]
+}

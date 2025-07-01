@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "A healthcare company is automating the deployment of a machine learning solution to predict patient health risks. The ML engineer needs to use AWS CloudFormation to define a model that will be hosted on an Amazon SageMaker endpoint and serve real-time inference requests.\n\nWhich resource should the ML engineer create in the CloudFormation template to address this requirement?\n\nUse AWS::EC2::Instance to host the ML model manually and handle inference requests",
+      "options": [
+        "Use AWS::EC2::Instance to host the ML model manually and handle inference requests",
+        "Use AWS::SageMaker::Model to specify the ML model, including the model artifacts and the inference container configuration for hosting",
+        "Use AWS::SageMaker::Endpoint to define the SageMaker endpoint that will host the model and serve inference requests",
+        "Use AWS::SageMaker::EndpointConfig to define the configuration for the SageMaker endpoint without specifying the model"
+      ],
+      "correct_answers": [
+        "Use AWS::SageMaker::Model to specify the ML model, including the model artifacts and the inference container configuration for hosting"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

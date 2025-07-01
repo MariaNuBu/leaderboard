@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A healthcare analytics company has implemented a data ingestion pipeline to process patient monitoring data from wearable devices. The pipeline uses Amazon Kinesis Data Firehose to ingest data into Amazon OpenSearch Service. Currently, the Firehose stream has a buffer interval of 60 seconds, and an OpenSearch dashboard displays real-time alerts about patients' health metrics based on the ingested data. The company needs to optimize the pipeline to achieve sub-second latency for the alerts on the dashboard to respond quickly to critical patient health events.\n\nWhat do you recommend as the most optimal solution?\n\nEnable caching on the OpenSearch dashboard to reduce latency by serving previously ingested data for alert generation",
+      "options": [
+        "Enable caching on the OpenSearch dashboard to reduce latency by serving previously ingested data for alert generation",
+        "Reduce the Kinesis Data Firehose buffer interval to zero seconds by leveraging 'buffering hints', thereby enabling immediate data delivery to OpenSearch Service",
+        "Replace the Firehose stream with Amazon Kinesis Data Streams and use AWS Lambda to write the data to OpenSearch Service with lower latency",
+        "Switch from Kinesis Data Firehose to Apache Spark Streaming to preprocess patient monitoring data and load it into OpenSearch Service in real time"
+      ],
+      "correct_answers": [
+        "Reduce the Kinesis Data Firehose buffer interval to zero seconds by leveraging 'buffering hints', thereby enabling immediate data delivery to OpenSearch Service"
+      ],
+      "references": [
+        "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-kinesis-data-firehose-zero-buffering/",
+        "https://docs.aws.amazon.com/firehose/latest/APIReference/API_BufferingHints.html",
+        "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

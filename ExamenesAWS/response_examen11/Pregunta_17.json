@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "TOPIC: 1.3 Ensure data integrity and prepare data for modeling.\n\nA financial services company is developing a new ML model to automatically assign credit limits to customers when they apply for a credit card. To train the model, the company has gathered a large dataset of customers and their history. The data includes credit transactions, credit scores and other relevant financial and demographic information from the last year. The first results of the new model in training show that the model is returning inaccurate predictions for specific types of customers, such as those with certain demographic features.\n\nWhich step must the company take first to investigate the model's performance?",
+      "options": [
+        "A\nConfigure SageMaker Model Monitor to evaluate data quality in the training data.",
+        "B\nConfigure a SageMaker Clarify processing job to identify bias in the training data.",
+        "C\nConfigure SageMaker Clarify to monitor feature attribution drift of the model.",
+        "D\nConfigure AWS Glue Data Quality to run an anomaly detection analysis in the training data."
+      ],
+      "correct_answers": [
+        "B\nConfigure a SageMaker Clarify processing job to identify bias in the training data."
+      ],
+      "references": [],
+      "topic": "1.3 Ensure data integrity and prepare data for modeling.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

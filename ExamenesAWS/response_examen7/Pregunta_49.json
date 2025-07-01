@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "What does data drift refer to in the context of machine learning model monitoring, and why is it important to detect?",
+      "options": [
+        "A change in the input data distribution over time, making it different from the data used for model training.",
+        "The sudden failure of a model due to an error in the underlying algorithm.",
+        "A situation where the model's predictions deviate from expected outcomes in a systematic way.",
+        "An issue that arises when the system running the model experiences infrastructure downtime."
+      ],
+      "correct_answers": [
+        "A change in the input data distribution over time, making it different from the data used for model training."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

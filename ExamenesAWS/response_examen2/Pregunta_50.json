@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "Which of the following is correct regarding the training set, validation set, and test set used in the context of machine learning? (Select two)",
+      "options": [
+        "Validation sets are optional",
+        "Test set is used for hyperparameter tuning",
+        "Test set is used to determine how well the model generalizes",
+        "Validation set is used to determine how well the model generalizes",
+        "Test sets are optional"
+      ],
+      "correct_answers": [
+        "Validation sets are optional",
+        "Test set is used to determine how well the model generalizes"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/create-train-test-and-validation-splits-on-your-data-for-machine-learning-with-amazon-sagemaker-data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

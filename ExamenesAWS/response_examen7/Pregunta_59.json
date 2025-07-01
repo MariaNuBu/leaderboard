@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "A company needs to create a machine learning model to detect fraudulent transactions in real-time. They plan to use Amazon SageMaker for model training and deployment. The data for training is stored in Amazon S3, and they require the ability to preprocess the data, perform hyperparameter tuning, and deploy the model to an endpoint for real-time inference. The company also wants to automate the entire workflow from data preprocessing to model deployment.\n\nWhich solution will meet these requirements MOST effectively?",
+      "options": [
+        "Use Amazon EMR for data preprocessing, SageMaker Script Mode for custom training scripts, perform hyperparameter tuning manually, and deploy the model using Amazon SageMaker Hosting Services.",
+        "Use Amazon SageMaker Processing for data preprocessing, SageMaker built-in algorithms for training, SageMaker Automatic Model Tuning for hyperparameter tuning, and SageMaker Endpoint for deployment.",
+        "Use AWS Glue for data preprocessing, train the model on a custom EC2 instance, use Amazon SageMaker for hyperparameter tuning, and deploy it using Amazon API Gateway.",
+        "Use Amazon SageMaker Data Wrangler for data preprocessing, SageMaker built-in algorithms for training, SageMaker Experiments for tracking, and deploy the model using AWS Lambda."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Processing for data preprocessing, SageMaker built-in algorithms for training, SageMaker Automatic Model Tuning for hyperparameter tuning, and SageMaker Endpoint for deployment."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "A pharmaceutical company is using machine learning to analyze clinical trial data. They need to ingest raw data from multiple sources, such as CSV files and relational databases, and clean and join this data. Afterward, the data should be used to create a set of features, including patient age, treatment history, and genetic markers. The company also wants to maintain a version-controlled feature repository that can be reused across different machine learning models.\n\nWhich AWS services should the company use to preprocess the data, create features, and maintain a version-controlled feature repository?",
+      "options": [
+        "Use AWS Glue for data cleaning, store features in Amazon DynamoDB, and use SageMaker to train models.",
+        "Use Amazon QuickSight for data preprocessing, SageMaker Feature Store to store features, and SageMaker JumpStart to deploy a pre-built model.",
+        "Use SageMaker Data Wrangler for data preprocessing, SageMaker Feature Store to store and manage the features, and SageMaker Notebooks to train the models.",
+        "Use Amazon Athena to preprocess the data, store the features in Amazon S3, and use SageMaker Autopilot to automatically train models."
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler for data preprocessing, SageMaker Feature Store to store and manage the features, and SageMaker Notebooks to train the models."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

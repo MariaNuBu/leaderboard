@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A security officer at a financial institution wants to ensure that all S3 buckets in the account are configured according to the company’s security standards, such as enabling server-side encryption and blocking public access. The institution also requires continuous monitoring and real-time alerts if any bucket becomes non-compliant.\n\nWhich AWS services should be used to meet these requirements?",
+      "options": [
+        "Use AWS CloudTrail to track S3 API calls and alert if encryption or public access settings are changed.",
+        "Set up CloudWatch Alarms for changes in S3 bucket configurations, including encryption and access control policies.",
+        "Configure AWS Config to evaluate S3 bucket settings against security rules and set up CloudWatch Events for real-time alerts.",
+        "Use CloudWatch Logs to monitor S3 bucket changes and deploy Lambda functions to automatically correct misconfigurations."
+      ],
+      "correct_answers": [
+        "Configure AWS Config to evaluate S3 bucket settings against security rules and set up CloudWatch Events for real-time alerts."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

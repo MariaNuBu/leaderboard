@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A travel company is building a customer support application that provides automated responses to user queries. The application uses Amazon Q Business to retrieve answers to customer questions about travel packages. However, the company must ensure that the API responses do not include any references to outdated or unavailable travel destinations.\nWhich solution will meet this requirement?",
+      "options": [
+        "Use the blocked phrase functionality in Amazon Q Business to filter out responses containing references to outdated travel destinations before returning results",
+        "Use Amazon Comprehend to analyze the text of API responses and block any responses containing outdated travel destinations",
+        "Set up an Amazon Lambda function to process API responses from Amazon Q Business and remove any references to outdated destinations before displaying the results",
+        "Configure an Amazon Kendra retriever to exclude any content related to outdated travel destinations from the response dataset"
+      ],
+      "correct_answers": [
+        "Use the blocked phrase functionality in Amazon Q Business to filter out responses containing references to outdated travel destinations before returning results"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/guardrails-global-controls.html",
+        "https://docs.aws.amazon.com/amazonq/latest/api-reference/API_BlockedPhrasesConfiguration.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

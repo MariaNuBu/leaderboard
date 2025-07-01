@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "\nA machine learning team is developing a model to predict customer churn.\nThey need to address bias and ensure fairness in their model outputs.\nWhich Amazon SageMaker feature can they use to analyze and mitigate bias during and after the training phase?",
+      "options": [
+        "SageMaker Clarify",
+        "SageMaker Data Wrangler",
+        "SageMaker Debugger",
+        "SageMaker Ground Truth"
+      ],
+      "correct_answers": [
+        "SageMaker Clarify"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

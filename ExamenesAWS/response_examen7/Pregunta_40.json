@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "A healthcare company wants to transcribe doctor-patient conversations into text for further analysis and store the results in Amazon S3. They need the solution to automatically remove any personally identifiable information (PII) to ensure compliance with HIPAA regulations. Which combination of AWS services should be used to achieve this goal?",
+      "options": [
+        "Use Amazon Transcribe to convert speech to text, store the transcriptions in Amazon DynamoDB, and use AWS Glue to detect and redact PII from the data.",
+        "Use Amazon Transcribe to convert speech to text, store the transcriptions in Amazon RDS, and manually review the data for PII.",
+        "Use Amazon Transcribe Medical to convert speech to text, utilize AWS Lambda to trigger Amazon Comprehend Medical for PII detection and redaction, and store the processed text in Amazon S3.",
+        "Use Amazon Transcribe Medical to convert speech to text, store the transcriptions in Amazon S3, and enable Amazon Macie to scan and redact PII."
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe Medical to convert speech to text, utilize AWS Lambda to trigger Amazon Comprehend Medical for PII detection and redaction, and store the processed text in Amazon S3."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

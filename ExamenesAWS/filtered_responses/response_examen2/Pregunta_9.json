@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Which AWS services are specifically designed to aid in monitoring machine learning models and incorporating human review processes? (Select two)",
+      "options": [
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Data Wrangler",
+        "Amazon SageMaker Feature Store",
+        "Amazon Augmented AI (Amazon A2I)",
+        "Amazon SageMaker Ground Truth"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Model Monitor",
+        "Amazon Augmented AI (Amazon A2I)"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

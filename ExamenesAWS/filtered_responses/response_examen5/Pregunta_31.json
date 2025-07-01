@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "An ML engineer is using Amazon SageMaker Data Wrangler to preprocess data for a machine learning project. They need to import customer transaction data from various sources, clean and transform the data, and engineer features for model training. Which TWO of the following steps should the engineer take to prepare the data using Data Wrangler? (Choose TWO.)",
+      "options": [
+        "Use Data Wrangler to apply one-hot encoding on categorical variables.",
+        "Import data from Amazon S3, Redshift, or SageMaker Feature Store into Data Wrangler.",
+        "Manually write custom Python scripts to handle missing data and normalization tasks.",
+        "Perform data transformations using SageMaker Studio's in-built Jupyter notebooks.",
+        "Export the transformed data directly to Amazon Athena for further analysis."
+      ],
+      "correct_answers": [
+        "Use Data Wrangler to apply one-hot encoding on categorical variables.",
+        "Import data from Amazon S3, Redshift, or SageMaker Feature Store into Data Wrangler."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1"
+    }
+  ]
+}

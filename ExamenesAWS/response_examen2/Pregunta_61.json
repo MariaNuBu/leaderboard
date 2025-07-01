@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "You are a Machine Learning Engineer at a healthcare company working on a binary classification model to predict whether a patient has a particular disease based on several medical features. The consequences of misclassifications are severe: false positives lead to unnecessary and expensive follow-up tests, while false negatives could result in a failure to provide critical treatment. You need to evaluate the model using appropriate metrics to balance the risks associated with these types of errors.\n\nGiven the critical nature of the application, which combination of evaluation metrics should you prioritize to minimize both false positives and false negatives while ensuring that the model is reliable for deployment? (Select two)",
+      "options": [
+        "Prioritize recall to reduce the number of false negatives, ensuring that as many patients with the disease as possible are correctly identified",
+        "Focus on precision to reduce the number of false positives, thus avoiding unnecessary follow-up tests for patients who do not have the disease",
+        "Evaluate the model using the Area Under the ROC Curve (AUC) to understand its performance across different classification thresholds",
+        "Prioritize accuracy, as it provides a general sense of how well the model is performing across all predictions",
+        "Use the F1 score to balance the trade-off between precision and recall, ensuring that both false positives and false negatives are considered"
+      ],
+      "correct_answers": [
+        "Prioritize recall to reduce the number of false negatives, ensuring that as many patients with the disease as possible are correctly identified",
+        "Use the F1 score to balance the trade-off between precision and recall, ensuring that both false positives and false negatives are considered"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/binary-classification.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

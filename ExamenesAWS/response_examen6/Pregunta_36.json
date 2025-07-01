@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "You are designing a reinforcement learning workflow in Amazon SageMaker for an AI agent to play a game. Which of the following components are critical to defining the reinforcement learning problem?",
+      "options": [
+        "The reward function, policy gradient, and training job metrics.",
+        "The state, actions, environment, and reward function.",
+        "The action space, state space, and training job parameters.",
+        "The preset files, policy gradient, and reward function."
+      ],
+      "correct_answers": [
+        "The state, actions, environment, and reward function."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

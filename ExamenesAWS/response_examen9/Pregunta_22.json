@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A financial services company uses Amazon Q Business to generate summaries of meeting transcripts and manage knowledge across the organization. They want to integrate Amazon Q Business with their internal knowledge base and ensure that responses are contextually accurate. Which feature of Amazon Q Business is most suitable for enhancing the accuracy of AI-generated answers by retrieving information from the knowledge base?",
+      "options": [
+        "Retrieval Augmented Generation (RAG)",
+        "Amazon Q Business Plugin System",
+        "Natural Language Understanding (NLU)",
+        "Prebuilt Connectors"
+      ],
+      "correct_answers": [
+        "Retrieval Augmented Generation (RAG)"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

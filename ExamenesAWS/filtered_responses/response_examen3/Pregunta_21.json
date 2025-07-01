@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A financial institution uses an Amazon Redshift database to store transactional and customer data, including sensitive information such as personally identifiable information (PII). A data analyst needs access to specific columns of the database to perform customer behavior analysis. The institution wants to ensure that sensitive data, such as PII, is not exposed to the analyst while maintaining the integrity of the source data. The solution must avoid duplicating or transforming the data into a separate dataset.\nWhat do you recommend to address these requirements with the LEAST implementation effort?",
+      "options": [
+        "Export the data to Amazon S3, apply anonymization to sensitive fields using AWS Glue, and allow the analyst to query the transformed data",
+        "Implement Amazon Redshift dynamic data masking policies to obfuscate sensitive columns dynamically while allowing the analyst to access permitted data",
+        "Create a materialized view in Amazon Redshift that excludes sensitive fields and grant the analyst access to the view",
+        "Use Amazon Redshift row-level security to restrict access to sensitive rows while allowing access to all columns"
+      ],
+      "correct_answers": [
+        "Implement Amazon Redshift dynamic data masking policies to obfuscate sensitive columns dynamically while allowing the analyst to access permitted data"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/redshift/latest/dg/t_ddm.html",
+        "https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-overview.html",
+        "https://docs.aws.amazon.com/redshift/latest/dg/t_rls.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

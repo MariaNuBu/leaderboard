@@ -55,7 +55,7 @@ def persist_score() -> None:
         return
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
-    intentos = st.session_state.fails + len(DICCIONARIO_PISTAS)
+    intentos = st.session_state.fails + len(WORDS_TO_FIND)
 
     data = {
         "Jugador": player,
@@ -207,7 +207,7 @@ def mostrar_sopa_letras():
     # --- 3. Streamlit App UI and Interaction ---
 
     st.set_page_config(layout="wide", initial_sidebar_state="expanded")
-    st.title("🧩 AWS Services Alphabet Soup")
+    st.title("🍲 AWS Sopa de letras")
     st.markdown("Find the hidden AWS service names in the grid. They can be horizontal, vertical, or diagonal.")
 
     # Initialize the game on first run

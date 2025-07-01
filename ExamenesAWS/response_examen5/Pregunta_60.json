@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "A law firm wants to create an intelligent search system for internal legal documents. These documents are stored in different formats (PDFs, Word documents, and scanned images), and the firm needs to extract and index key information like case names, legal terms, and dates. The system should also allow the legal team to perform natural language searches to quickly retrieve relevant documents. Which combination of AWS services should the firm use to achieve this goal?\n\nAmazon Rekognition to analyze the scanned images, Amazon Comprehend to detect entities and extract text from documents, and Amazon Kendra to provide natural language search capabilities.\n\nExplicación\nWhile Amazon Rekognition can analyze images, Amazon Textract is more suited for extracting text from scanned documents, which is critical in this scenario. Amazon Comprehend can be used for entity recognition, and Amazon Kendra is an excellent choice for creating a natural language search system.\n\nAmazon Comprehend to categorize and index the documents, Amazon Lex for voice interaction with the system, and Amazon S3 for storing the document metadata.\n\nExplicación\nAmazon Lex is a service for building conversational interfaces (e.g., chatbots), which is not required in this use case. Amazon Comprehend is useful, but Kendra is the appropriate tool for building a search system.",
+      "options": [
+        "Amazon Rekognition to analyze the scanned images, Amazon Comprehend to detect entities and extract text from documents, and Amazon Kendra to provide natural language search capabilities.",
+        "Amazon Comprehend to categorize and index the documents, Amazon Lex for voice interaction with the system, and Amazon S3 for storing the document metadata.",
+        "Amazon Textract for extracting text from scanned images, Amazon Comprehend for entity recognition, and Amazon Kendra for building an intelligent search interface.",
+        "Amazon Kendra to store the documents, Amazon Rekognition for facial recognition in the scanned images, and Amazon Textract for analyzing legal terms."
+      ],
+      "correct_answers": [
+        "Amazon Textract for extracting text from scanned images, Amazon Comprehend for entity recognition, and Amazon Kendra for building an intelligent search interface."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

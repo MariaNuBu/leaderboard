@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "TOPIC 4.3 Secure AWS Resources.\n\nA data scientist created an Amazon SageMaker Processing job that processes .csv files in an Amazon S3 bucket. The SageMaker Processing job can access the S3 bucket. However, when the job tries to access the .csv files, the job receives a 403 error.\n\nWhat is the cause of the error?",
+      "options": [
+        "A The VPC endpoint policy for Amazon S3 does not have the necessary permissions.",
+        "B The Amazon S3 bucket does not exist.",
+        "C The SageMaker Processing job execution role does not have the necessary permissions.",
+        "D The SageMaker Studio execution role does not have the necessary permissions."
+      ],
+      "correct_answers": [
+        "C The SageMaker Processing job execution role does not have the necessary permissions."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.3 Secure AWS Resources.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

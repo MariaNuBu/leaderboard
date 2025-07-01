@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "You are a data scientist at a financial technology company developing a fraud detection system. The system needs to identify fraudulent transactions in real-time based on patterns in transaction data, including amounts, locations, times, and account histories. The dataset is large and highly imbalanced, with only a small percentage of transactions labeled as fraudulent. Your team has access to Amazon SageMaker and is considering various built-in algorithms to build the model.\n\nGiven the need for both high accuracy and the ability to handle imbalanced data, which SageMaker built-in algorithm is the MOST SUITABLE for this use case?\n\nSelect the Random Cut Forest (RCF) algorithm for its ability to detect anomalies in transaction data\n\nUse the Linear Learner algorithm with weighted classification to address the class imbalance\n\nImplement the K-Nearest Neighbors (k-NN) algorithm to classify transactions based on similarity to known fraudulent cases",
+      "options": [
+        "Select the Random Cut Forest (RCF) algorithm for its ability to detect anomalies in transaction data",
+        "Use the Linear Learner algorithm with weighted classification to address the class imbalance",
+        "Implement the K-Nearest Neighbors (k-NN) algorithm to classify transactions based on similarity to known fraudulent cases",
+        "Apply the XGBoost algorithm with a custom objective function to optimize for precision and recall"
+      ],
+      "correct_answers": [
+        "Apply the XGBoost algorithm with a custom objective function to optimize for precision and recall"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost_hyperparameters.html",
+        "https://aws.amazon.com/blogs/gametech/fraud-detection-for-games-using-machine-learning/",
+        "https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Build_a_fraud_detection_system_with_Amazon_SageMaker_AIM359-R1.pdf"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A company is planning to utilize AWS Kinesis Data Firehose for the ingestion of large log files from various devices. Their goal is to ensure data consistency and optimize API call usage. What configuration would best meet their requirements?",
+      "options": [
+        "Configure Kinesis Data Firehose to buffer data based on maximum time intervals.",
+        "Enable immediate data processing in AWS Lambda without buffering.",
+        "Directly send unbuffered data to Amazon S3 for cost efficiency.",
+        "Use AWS Glue to handle data ingestion without buffering."
+      ],
+      "correct_answers": [
+        "Configure Kinesis Data Firehose to buffer data based on maximum time intervals."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

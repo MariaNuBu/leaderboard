@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "A data scientist is using Amazon SageMaker for a machine learning project. They are deciding between two options: using SageMaker notebook instances or SageMaker Studio notebooks. The project involves running multiple notebooks and requires easy collaboration with other team members.\n\nWhich of the following should the data scientist choose?",
+      "options": [
+        "SageMaker notebook instances, as they operate as standalone environments with flexible configurations.",
+        "Use local Jupyter notebooks and store results in an Amazon S3 bucket for collaboration.",
+        "Launch Jupyter notebooks on EC2 instances for better customization and control.",
+        "SageMaker Studio notebooks, as they provide a collaborative environment with persistent storage and integrated tools."
+      ],
+      "correct_answers": [
+        "SageMaker Studio notebooks, as they provide a collaborative environment with persistent storage and integrated tools."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

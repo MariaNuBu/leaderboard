@@ -1,0 +1,30 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A hospital wants to use computer vision to monitor the entry and exit of doctors and staff into secure areas such as operating rooms. Cameras installed at entry points upload images to an Amazon S3 bucket. The hospital has limited images of authorized personnel, making it impractical to train a custom facial recognition model from scratch. The solution must minimize operational overhead while accurately identifying authorized staff members. The hospital also wants to store and manage the data for audit purposes.\n\nWhich of the following options must be combined to develop a solution that meets these requirements? (Select two)",
+      "options": [
+        "Set up an AWS Lambda function to trigger a face detection operation when new images are uploaded to the S3 bucket. Write the results to an Amazon DynamoDB table for auditing",
+        "Use Amazon Rekognition to create a face collection for authorized personnel",
+        "Use Amazon Rekognition to create custom labels for authorized personnel",
+        "Use Amazon Lookout for Vision to create custom labels for authorized personnel",
+        "Set up an AWS Lambda function to trigger a face match operation when new images are uploaded to the S3 bucket. Write the results to an Amazon DynamoDB table for auditing"
+      ],
+      "correct_answers": [
+        "Use Amazon Rekognition to create a face collection for authorized personnel",
+        "Set up an AWS Lambda function to trigger a face match operation when new images are uploaded to the S3 bucket. Write the results to an Amazon DynamoDB table for auditing"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/rekognition/latest/dg/collections.html",
+        "https://docs.aws.amazon.com/rekognition/latest/dg/face-feature-differences.html",
+        "https://docs.aws.amazon.com/rekognition/latest/dg/faces-comparefaces.html",
+        "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-rekognition-new-pre-trained-labels-color-detection/",
+        "https://aws.amazon.com/lookout-for-vision/",
+        "https://aws.amazon.com/rekognition/custom-labels-features/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

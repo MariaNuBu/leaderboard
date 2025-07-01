@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "An organization has multiple AWS Lambda functions that require specific permissions to access S3 and DynamoDB resources. The team wants to avoid managing permissions for each individual Lambda function and instead use a centralized approach.\n\nWhich AWS IAM feature should the team use to manage access permissions effectively for these Lambda functions?",
+      "options": [
+        "IAM Users",
+        "IAM Groups",
+        "IAM Roles",
+        "Root User Access"
+      ],
+      "correct_answers": [
+        "IAM Roles"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

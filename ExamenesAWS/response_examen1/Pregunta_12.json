@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A retail company is developing a customer churn prediction model on AWS to identify customers likely to cancel their subscriptions. The training dataset includes customer purchase history, support interaction logs, and subscription data. The purchase history and support logs are stored in Amazon S3, while the subscription data resides in an on-premises PostgreSQL database.\n\nThe dataset has two major challenges:\n\nA class imbalance where very few customers are labeled as \"churned\", impacting the model’s learning.\n\nThere are strong feature interdependencies among categorical features (e.g., \"membership tier\") and numerical features (e.g., \"purchase frequency\").\n\nThe ML engineer needs to select an Amazon SageMaker built-in algorithm to train the model and address the challenges with the least operational effort. Which algorithm should the ML engineer use to meet these requirements?",
+      "options": [
+        "Amazon SageMaker K-Means",
+        "Amazon SageMaker Linear Learner",
+        "Amazon SageMaker Random Cut Forest (RCF)",
+        "Amazon SageMaker Neural Topic Model (NTM)"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Linear Learner"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html",
+        "https://community.aws/content/2eux4F6yvezbPPZFWnQbdHF9HwC/linear-learner-in-sagemaker-hyperparameter-tuning?lang=en"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

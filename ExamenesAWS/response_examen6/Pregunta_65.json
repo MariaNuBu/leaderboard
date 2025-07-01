@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "Your team is tasked with building a recommendation engine using Amazon SageMaker’s built-in algorithms.\nAfter training the model, you want to deploy it for real-time inference.\nWhich of the following SageMaker services would be MOST appropriate for model deployment?",
+      "options": [
+        "Amazon EC2 instances to host and serve the trained model.",
+        "SageMaker Model Monitor to automatically deploy the model in a real-time environment.",
+        "AWS Lambda, which should be used to directly host the trained model and serve predictions.",
+        "SageMaker Endpoints, which allow for real-time model deployment and scaling."
+      ],
+      "correct_answers": [
+        "SageMaker Endpoints, which allow for real-time model deployment and scaling."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

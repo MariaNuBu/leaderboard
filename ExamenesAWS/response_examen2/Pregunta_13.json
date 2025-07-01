@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A telecommunications company collects data about customer interactions and stores it in an Amazon S3 bucket. The company uses Amazon Athena to query the data and identify patterns. The dataset includes a churn indicator as the target variable, and the company wants to assess whether an ML model can accurately predict customer churn.\n\nWhich solution will provide this information with the LEAST development effort?\n\nUse Amazon Bedrock with a pre-trained foundation model to directly analyze the dataset and predict churn without training a custom model\n\nLeverage Amazon SageMaker Studio to build a custom workflow for preprocessing, feature engineering, training, and evaluation of predictive models",
+      "options": [
+        "Use Amazon Bedrock with a pre-trained foundation model to directly analyze the dataset and predict churn without training a custom model",
+        "Leverage Amazon SageMaker Studio to build a custom workflow for preprocessing, feature engineering, training, and evaluation of predictive models",
+        "Use Amazon SageMaker Autopilot to automatically analyze the dataset, generate candidate models, and evaluate their ability to predict customer churn",
+        "Download the dataset locally, preprocess the data manually, and use a third-party AutoML library to train and evaluate models"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Autopilot to automatically analyze the dataset, generate candidate models, and evaluate their ability to predict customer churn"
+      ],
+      "references": [
+        "https://aws.amazon.com/sagemaker-ai/autopilot/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/use-auto-ml.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "A retail company trained a sales forecasting ML model by preprocessing the training data using AWS Glue DataBrew. During preprocessing, the ML engineer used z-score normalization to standardize the training data. Now, the company needs to preprocess the real-time sales data for inference by applying the same z-score normalization parameters as the training data to ensure consistency in predictions.\n\nWhich solution will meet this requirement?\n\nApply a SageMaker Processing job to perform z-score normalization on the real-time sales data and automatically derive new parameters",
+      "options": [
+        "Apply a SageMaker Processing job to perform z-score normalization on the real-time sales data and automatically derive new parameters",
+        "Export the z-score normalization recipe from AWS Glue DataBrew and apply the same recipe to preprocess the real-time sales data for inference",
+        "Manually calculate the z-score normalization parameters again for the real-time sales data and use these parameters during inference preprocessing",
+        "Use AWS Lambda to create a custom function for z-score normalization that calculates new parameters for each batch of sales data"
+      ],
+      "correct_answers": [
+        "Export the z-score normalization recipe from AWS Glue DataBrew and apply the same recipe to preprocess the real-time sales data for inference"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/databrew/latest/dg/recipe-actions.RESCALE_OUTLIERS_WITH_Z_SCORE.html",
+        "https://aws.amazon.com/blogs/big-data/7-most-common-data-preparation-transformations-in-aws-glue-databrew/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

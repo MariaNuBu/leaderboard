@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "You are using SageMaker Data Wrangler to preprocess data from Amazon S3 for a machine learning model. After performing one-hot encoding on a categorical feature, you notice that some features are dominating the learning process due to large numerical ranges. What technique should you apply to ensure all features are treated equally by the model?\n\nLabel encoding for categorical features\n\nExplicación\nLabel encoding is used to convert categorical variables into numerical values but does not address issues related to feature scaling.\n\nDrop the dominating features to balance the dataset\n\nExplicación\nDropping features is an extreme measure and should only be done if the feature is not relevant, not simply because of different numerical scales.\n\nUse recursive feature elimination to remove unimportant features\n\nExplicación\nRecursive feature elimination helps with feature selection but does not address scaling issues.",
+      "options": [
+        "Label encoding for categorical features",
+        "Drop the dominating features to balance the dataset",
+        "Use recursive feature elimination to remove unimportant features",
+        "Feature normalization using Min-Max scaling"
+      ],
+      "correct_answers": [
+        "Feature normalization using Min-Max scaling"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

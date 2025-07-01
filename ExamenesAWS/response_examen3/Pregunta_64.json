@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A transportation company has trained an ML model in Amazon SageMaker to predict delivery times based on real-time traffic data. The company needs to deploy the model in a production environment to meet the following requirements:\n\nEnsure high availability to provide predictions without interruptions.\n\nAchieve low latency for real-time predictions on delivery schedules.\n\nProcess input data sizes ranging between 1 KB and 5 MB.\n\nHandle unpredictable surges in requests during peak traffic hours.\n\nScale dynamically to match fluctuating demand throughout the day.\n\nWhich of the following represents the best solution for the given scenario?",
+      "options": [
+        "Use Amazon SageMaker serverless inference to automatically scale inferences based on demand, eliminating the need for endpoint management",
+        "Deploy the model using Amazon SageMaker real-time inference with an auto-scaling endpoint to manage bursts in traffic and provide high availability",
+        "Deploy the model using Amazon SageMaker asynchronous inference to handle unpredictable surges and process requests efficiently to meet strict low-latency requirements",
+        "Deploy the model using Amazon SageMaker batch transform to process predictions in batches during peak hours to optimize resource utilization"
+      ],
+      "correct_answers": [
+        "Deploy the model using Amazon SageMaker real-time inference with an auto-scaling endpoint to manage bursts in traffic and provide high availability"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/hosting-faqs.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

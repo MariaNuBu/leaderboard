@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A company uses a generative model to analyze animal images in the training dataset to record variables like different ear shapes, eye shapes, tail features, and skin patterns.\n\nWhich of the following tasks can the generative model perform?\n\nThe model can classify multiple species of animals such as cats, dogs, etc\n\nThe model can identify any image from the training dataset\n\nThe model can classify a single species of animals such as cats",
+      "options": [
+        "The model can classify multiple species of animals such as cats, dogs, etc",
+        "The model can identify any image from the training dataset",
+        "The model can classify a single species of animals such as cats",
+        "The model can recreate new animal images that were not in the training dataset"
+      ],
+      "correct_answers": [
+        "The model can recreate new animal images that were not in the training dataset"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/generative-ai/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

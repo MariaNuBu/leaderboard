@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 76,
+      "question": "A data science team is building a machine learning pipeline with SageMaker.\nThey need to monitor model performance over time in production to detect potential data drift.\nWhich SageMaker feature is most appropriate for this task?",
+      "options": [
+        "SageMaker Experiments",
+        "SageMaker Model Monitor",
+        "SageMaker Data Wrangler",
+        "SageMaker Feature Store"
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

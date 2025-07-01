@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A healthcare company is developing an ML model to predict patient readmission rates. The dataset contains tabular data with ordered features, such as admission dates and billing amounts, alongside sensitive patient information like social security numbers and contact details. The ML engineer must ensure that sensitive data is masked before sharing the dataset with the data science team for model development, while preserving the meaningful structure and order of the data.\n\nWhich solution will meet these requirements?\n\nStore the dataset in an Amazon S3 bucket with encryption enabled and share the data using Amazon Athena. Connect Athena to Amazon SageMaker to run the ML model\n\nUse Amazon Inspector to monitor and alert on sensitive data before sharing the dataset with the team",
+      "options": [
+        "Store the dataset in an Amazon S3 bucket with encryption enabled and share the data using Amazon Athena. Connect Athena to Amazon SageMaker to run the ML model",
+        "Use Amazon Inspector to monitor and alert on sensitive data before sharing the dataset with the team",
+        "Use Amazon Comprehend with Amazon SageMaker Data Wrangler to mask sensitive data fields. Use Data Wrangler to prepare and transform the dataset",
+        "Use AWS Glue to remove sensitive data fields entirely before sharing the dataset"
+      ],
+      "correct_answers": [
+        "Use Amazon Comprehend with Amazon SageMaker Data Wrangler to mask sensitive data fields. Use Data Wrangler to prepare and transform the dataset"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/automatically-redact-pii-for-machine-learning-using-amazon-sagemaker-data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

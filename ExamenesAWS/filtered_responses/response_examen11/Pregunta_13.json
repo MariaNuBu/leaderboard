@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "TOPIC: 1.2 Transform data and perform feature engineering.\n\nA company has deployed multiple ML models for real-time inferences. A data team needs to process new streaming datasets to train the ML models every night. The data team wants to create an Amazon SageMaker Feature Store to create shareable features across ML models and teams.\n\nSelect and order the correct steps from the following list to create and share features. Each step should be selected one time or not at all. (Select and order THREE.)\n\nAssociate the feature group to an offline store.\nIngest the data into the online store in streaming mode.\nCreate a feature group.\nIngest the data into the offline store in streaming mode.\nAssociate the feature group to an online store.\nIngest the data into the offline store in batch mode.\nStep 1:\n\n Create a feature group.\nStep 2:\n\n Associate the feature group to an offline store.\nStep 3:\n\n Ingest the data into the offline store in streaming mode.",
+      "options": [
+        "Associate the feature group to an offline store.",
+        "Ingest the data into the online store in streaming mode.",
+        "Create a feature group.",
+        "Ingest the data into the offline store in streaming mode.",
+        "Associate the feature group to an online store.",
+        "Ingest the data into the offline store in batch mode."
+      ],
+      "correct_answers": [
+        "Create a feature group.",
+        "Associate the feature group to an offline store.",
+        "Ingest the data into the offline store in streaming mode."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

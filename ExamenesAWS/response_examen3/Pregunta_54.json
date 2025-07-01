@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "You are a machine learning engineer at a fintech company responsible for maintaining the ML infrastructure that powers real-time credit scoring for loan applications. The system must handle high volumes of requests with low latency and be resilient to any failures. To ensure the infrastructure meets the company’s performance and reliability requirements, you need to monitor key performance metrics related to scalability, availability, utilization, throughput and fault tolerance.\n\nWhich combination of metrics and monitoring strategies is the MOST EFFECTIVE for ensuring the ML infrastructure meets these requirements?",
+      "options": [
+        "Monitor training loss and validation accuracy to track model performance, measure network bandwidth to ensure efficient data transfer, and use Amazon CloudWatch alarms to automatically restart failed instances",
+        "Measure latency to ensure predictions are delivered quickly, monitor the number of failed requests to assess fault tolerance, and use scheduled scaling to adjust resources based on anticipated demand",
+        "Track model accuracy and precision to ensure that predictions are correct, monitor disk space utilization to prevent storage overflows, and manually scale the infrastructure during peak usage periods",
+        "Monitor CPU and memory utilization to ensure that compute resources are not overburdened, track request throughput to measure the number of predictions per second, and use auto-scaling policies to maintain high availability and scalability during traffic spikes"
+      ],
+      "correct_answers": [
+        "Monitor CPU and memory utilization to ensure that compute resources are not overburdened, track request throughput to measure the number of predictions per second, and use auto-scaling policies to maintain high availability and scalability during traffic spikes"
+      ],
+      "references": [
+        "https://aws.amazon.com/cloudwatch/",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/cw-doc.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

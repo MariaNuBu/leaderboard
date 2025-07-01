@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A DevOps team needs to monitor the CPU and memory utilization of their containerized applications running in Amazon ECS. They also need to monitor custom metrics such as the number of active users. Which combination of AWS services and features is the MOST appropriate for this scenario?",
+      "options": [
+        "Use AWS Lambda to regularly query ECS task performance and push CPU and memory metrics into CloudWatch for analysis.",
+        "Use AWS CloudWatch to monitor ECS task-level metrics such as CPU and memory utilization. Install the CloudWatch Agent to push custom metrics for active users.",
+        "Configure CloudTrail to capture ECS API calls and use EventBridge to push the CPU and memory metrics into CloudWatch.",
+        "Enable AWS Config to track ECS task performance and set up CloudWatch Alarms for CPU and memory metrics."
+      ],
+      "correct_answers": [
+        "Use AWS CloudWatch to monitor ECS task-level metrics such as CPU and memory utilization. Install the CloudWatch Agent to push custom metrics for active users."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+Pregunta 1
+
+A retail company wants to store customer transaction data on AWS for analytical processing. The data is semi-structured and the analytics team requires efficient storage that supports schema evolution and provides high performance for batch and interactive analytics. Which data format should the company use?
+
+CSV
+
+Explicación
+CSV is a simple and widely used data format, but it may not be the best choice for storing semi-structured data with schema evolution requirements. It may not provide the high performance needed for batch and interactive analytics compared to more optimized formats.
+Respuesta correcta
+Apache Parquet
+
+Explicación
+Apache Parquet is a columnar storage format that is well-suited for storing semi-structured data with schema evolution requirements. It provides efficient storage, high performance for batch and interactive analytics, and supports complex nested data structures. This makes it a suitable choice for the retail company's analytical processing needs.
+JSON
+
+Explicación
+JSON is a popular data format for semi-structured data, but it may not provide the most efficient storage and performance for analytical processing. It does not inherently support schema evolution and may not be optimized for batch and interactive analytics compared to other formats.
+Apache ORC
+
+Explicación
+Apache ORC (Optimized Row Columnar) is another columnar storage format that is designed for high performance and efficient storage of data. While it can be a good choice for analytical processing, Apache Parquet is generally preferred for its wider adoption, better performance, and support for schema evolution in semi-structured data.
+Explicación general
+Apache Parquet is a columnar storage format optimized for analytics. It supports efficient compression, encoding, and is suitable for both batch and interactive analytics on semi-structured data. It also supports schema evolution, which allows modifications to the data structure over time.
+
+Temática
+Transform data and perform feature engineering.
+Pregunta 2
+
+A company is developing an object recognition model to identify various products in images taken from store shelves. The data science team is using Amazon SageMaker Data Wrangler to prepare the image data for training. The images contain a variety of lighting conditions, angles, and background clutter. Which data transformations should the team apply in SageMaker Data Wrangler to improve the performance of the object recognition model?
+
+Converting images to grayscale, imputing missing pixel values, and aggregating images into a single dataset
+
+Explicación
+Converting images to grayscale, imputing missing pixel values, and aggregating images into a single dataset are valid preprocessing steps, but they may not specifically address the challenges posed by varying lighting conditions, angles, and background clutter in the image data for object recognition.
+One-hot encoding of labels, scaling numerical features, and removing duplicate images
+
+Explicación
+One-hot encoding of labels, scaling numerical features, and removing duplicate images are important preprocessing steps, but they are not directly related to improving the performance of an object recognition model trained on image data with varying lighting conditions, angles, and background clutter.
+Encoding categorical labels, standardizing image sizes, and applying text vectorization on image descriptions
+
+Explicación
+Encoding categorical labels, standardizing image sizes, and applying text vectorization on image descriptions are relevant preprocessing steps, but they do not directly address the specific challenges of improving the performance of an object recognition model on images with diverse lighting conditions, angles, and background clutter.
+Respuesta correcta
+Resizing and cropping images to a fixed size, normalizing pixel values, and applying data augmentation techniques like flipping and rotation
+
+Explicación
+Resizing and cropping images to a fixed size helps standardize the input data for the model, while normalizing pixel values ensures consistency in the image data. Applying data augmentation techniques like flipping and rotation helps increase the diversity of the training data, which can improve the model's ability to generalize and perform well on unseen images.
+Explicación general
+For an object recognition problem, preparing image data typically involves resizing and cropping images to a consistent size suitable for the model input, normalizing pixel values to ensure consistent scale, and applying data augmentation techniques such as flipping, rotation, and brightness adjustments to improve model robustness to variations in lighting, angles, and backgrounds. This helps the model generalize better across different scenarios it might encounter in real-world applications.
+
+Temática
+Transform data and perform feature engineering.
+Pregunta 3
+
+A media company is developing a deep learning model to automatically tag and classify videos based on their content. The training dataset consists of hundreds of terabytes of high-definition videos stored in a shared file system. The training jobs require high throughput and low-latency access to this large volume of data across multiple Amazon SageMaker instances. The data scientists want to ensure that the file system can handle this load efficiently. Which solutions could meet these requirements? (Select TWO)
+
+Move the data to SageMaker local storage volumes and configure distributed training for efficiency.
+
+Explicación
+SageMaker local storage volumes have limited capacity and are not designed to handle hundreds of terabytes of data. This approach would lead to inefficiencies and bottlenecks.
+
+Deploy a custom-built on-premises file system connected to SageMaker through AWS Direct Connect.
+
+Explicación
+Using an on-premises file system increases complexity and latency, especially for high-throughput workloads. AWS offers native solutions like FSx for Lustre and EFS, which are better suited for this use case.
+
+Store the video data in Amazon S3 and use S3 Select to load data selectively during training.
+
+Explicación
+While Amazon S3 is a cost-effective storage solution, it does not provide the low-latency, high-throughput performance required for this use case. S3 Select allows selective data retrieval but is not optimized for high-performance video data access across SageMaker instances.
+
+Selección correcta
+Use Amazon FSx for Lustre
+
+Explicación
+Amazon FSx for Lustre is designed for high-performance workloads like machine learning and media processing. It can integrate with Amazon S3 for seamless data access and provides the low-latency, high-throughput capabilities needed for large-scale, high-definition video processing.
+
+Selección correcta
+Use Amazon EFS (Elastic File System) with Provisioned Throughput modes
+
+Explicación
+Amazon EFS with Provisioned Throughput mode is suitable for shared file systems in distributed training jobs. It offers scalability, consistency, and sufficient performance for accessing large datasets.
+
+Explicación general
+The primary requirements for this use case are high-throughput, low-latency access to hundreds of terabytes of video data across multiple SageMaker instances. Amazon FSx for Lustre and Amazon EFS with Provisioned Throughput mode are the optimal solutions because they provide scalable, high-performance shared file systems specifically designed for such workloads.
+
+Amazon FSx for Lustre is highly efficient for machine learning applications requiring fast, parallel access to large datasets.
+
+Amazon EFS offers a managed, scalable, and consistent performance file system ideal for distributed training scenarios.
+
+Other options either lack the required performance (S3, local storage) or introduce unnecessary complexity (on-premises solutions).
+
+Temática
+Transform data and perform feature engineering.
+Pregunta 4
+
+A customer service center records all phone calls for quality assurance purposes. The company wants to analyze these recordings to understand customer sentiment, identify frequently discussed topics, and extract key phrases related to customer complaints. The recordings are in various audio formats, and the company also wants to create text transcripts of these calls to store them in a searchable database for further analysis.
+
+Which combination of AWS services and configurations will best meet these requirements?
+
+Use Amazon Kinesis to stream audio data in real time, use Amazon Transcribe to convert the stream to text, then use Amazon SageMaker to train a custom model to analyze the sentiment. Store the results in Amazon DynamoDB for quick lookups.
+
+Explicación
+While Amazon Kinesis can stream data in real time, it is not the best choice for converting audio data to text. Amazon Transcribe is specifically designed for speech-to-text conversion and would be more suitable for this task. Using Amazon SageMaker to train a custom model for sentiment analysis may be unnecessary complexity for this scenario, and storing the results in Amazon DynamoDB may not provide the search capabilities required for further analysis.
+Respuesta correcta
+Use Amazon Transcribe to convert audio recordings to text, then use Amazon Comprehend to analyze sentiment, detect entities, and extract key phrases from the transcripts. Store the output in Amazon Elasticsearch for search capabilities.
+
+Explicación
+Using Amazon Transcribe to convert audio recordings to text ensures that the company can create searchable transcripts of the calls. Amazon Comprehend can then be used to analyze sentiment, detect entities, and extract key phrases from these transcripts, providing valuable insights into customer interactions. Storing the output in Amazon Elasticsearch allows for efficient search capabilities and further analysis of the data.
+Use Amazon Polly to convert audio recordings to text, then use Amazon Rekognition to analyze sentiment and extract key phrases from the transcripts. Store the output in Amazon S3 for archival.
+
+Explicación
+Amazon Polly is used for text-to-speech conversion, not speech-to-text conversion, so it cannot be used to convert audio recordings to text. Amazon Rekognition is primarily used for image and video analysis, not text analysis. Storing the output in Amazon S3 for archival purposes may not provide the necessary search capabilities for further analysis.
+Use AWS Glue to convert audio recordings into text format, then use Amazon Translate to detect sentiment and extract key phrases from the transcripts. Store the output in Amazon RDS for relational queries.
+
+Explicación
+AWS Glue is used for ETL (extract, transform, load) processes, not for converting audio recordings into text format. Amazon Translate is used for language translation, not sentiment analysis or key phrase extraction. Storing the output in Amazon RDS may not be the best choice for storing and querying text data for further analysis.
+Explicación general
+Amazon Transcribe is used to convert audio recordings into text, which allows you to process a variety of audio formats and create accurate transcripts. Amazon Comprehend can then analyze these transcripts to detect sentiment, identify entities, and extract key phrases. By storing the processed data in Amazon Elasticsearch, you enable powerful search capabilities and analysis, which is ideal for understanding customer feedback and trends in a scalable way.
+
+Temática
+ML Model Development
+Pregunta 5
+
+A technology startup is developing a machine learning-based application using Amazon SageMaker. The application requires frequent model training on large datasets, but the workloads are not time-sensitive and can be interrupted if necessary. The startup is looking to optimize its infrastructure costs, as it has a limited budget and wants to maximize cost savings without compromising on the ability to scale when needed.
+
+Given these requirements, which purchasing option should the startup choose to optimize its costs for training machine learning models on Amazon SageMaker?
+
+On-Demand Instances
+
+Explicación
+On-Demand Instances allow you to pay for compute capacity by the hour or second with no long-term commitment. While this option provides flexibility and scalability, it is not the most cost-effective solution for non-time-sensitive workloads where interruptions are acceptable. It is better suited for short-term, unpredictable workloads that require immediate availability.
+
+SageMaker Savings Plans
+
+Explicación
+SageMaker Savings Plans offer a flexible way to save costs by committing to a specific dollar amount of usage over a one- or three-year term, applying to various instance types. While they provide savings and flexibility, they are more suited for workloads with consistent and predictable usage patterns. For workloads that can tolerate interruptions and need to minimize costs, Spot Instances are more appropriate.
+
+Respuesta correcta
+Spot Instances
+
+Explicación
+Spot Instances offer a cost-effective solution for running workloads that can tolerate interruptions. Since the startup’s model training jobs are not time-sensitive and can be interrupted, Spot Instances are ideal. They provide significant cost savings (up to 90% off On-Demand prices) by utilizing unused EC2 capacity, making them the best choice for optimizing costs under the given conditions.
+
+Reserved Instances
+
+Explicación
+Reserved Instances require a commitment to use specific instance types for a one- or three-year period. While they offer savings for predictable, long-term usage, they are not ideal for workloads that are flexible in timing and can be interrupted, as is the case with the startup’s needs.
+
+Explicación general
+For a startup looking to optimize costs for non-time-sensitive model training workloads that can handle interruptions, Spot Instances are the most cost-effective choice. They allow the startup to take advantage of spare AWS capacity at a significant discount, aligning with the company's need to save on infrastructure costs without requiring guaranteed availability at all times.
+
+Temática
+ML Solution Monitoring, Maintenance, and Security
+Pregunta 6
+
+A machine learning team is building a predictive model using historical sales data stored in Amazon S3. The data must be prepared by handling missing values and outliers before training. Which AWS tools can be used to perform these data preparation tasks efficiently? (Select TWO)
+
+Amazon RDS
+
+Explicación
+Amazon RDS is a relational database service and is not specifically designed for data preparation tasks such as handling missing values and outliers in historical sales data stored in Amazon S3. It is not the most efficient tool for the specific requirements mentioned in the question.
+Selección correcta
+Amazon SageMaker Data Wrangler
+
+Explicación
+Amazon SageMaker Data Wrangler is a data preparation tool specifically designed for machine learning tasks. It allows users to clean, normalize, and preprocess data efficiently before training machine learning models. It is a suitable choice for handling missing values and outliers in historical sales data.
+AWS Lambda
+
+Explicación
+AWS Lambda is a serverless computing service that can be used to run code in response to events, but it is not specifically designed for data preparation tasks such as handling missing values and outliers. It is not the most efficient tool for the requirements mentioned in the question.
+Selección correcta
+AWS Glue DataBrew
+
+Explicación
+AWS Glue DataBrew is a visual data preparation tool that can be used to clean and normalize data, handle missing values, and remove outliers efficiently. It provides a user-friendly interface for data preparation tasks without the need for complex coding.
+Amazon Kinesis Data Analytics
+
+Explicación
+Amazon Kinesis Data Analytics is primarily used for real-time data processing and analytics, not for data preparation tasks such as handling missing values and outliers. It is not the most efficient tool for the specific requirements mentioned in the question.
+Explicación general
+AWS Glue DataBrew and Amazon SageMaker Data Wrangler are designed for data preparation, allowing users to clean, normalize, and transform data. They provide tools specifically for handling missing values, outliers, and other data preparation tasks needed for machine learning.
+
+Temática
+Transform data and perform feature engineering.
+Pregunta 7
+
+A mobile gaming company has developed a machine learning model using Amazon SageMaker to predict the likelihood of users making in-app purchases. The model is integrated into the game to offer personalized promotions to users based on their predicted purchasing behavior. The company expects a high volume of prediction requests that need to be processed immediately as users interact with the game. However, user traffic fluctuates significantly throughout the day, with peak usage times in the evenings and low usage times in the early morning.
+
+Which SageMaker inference deployment endpoint should the company use to deploy this model?
+
+Respuesta correcta
+Serverless Inference
+
+Explicación
+Serverless Inference is the most appropriate choice for this scenario because it automatically scales to handle the fluctuating traffic without the need for the company to manage underlying infrastructure. It provides a cost-effective solution, especially during low-traffic periods when fewer resources are needed. Additionally, it can handle real-time prediction requests during peak hours, ensuring low latency and immediate responses to user actions.
+
+Batch Transform
+
+Explicación
+Batch Transform is not suitable for this scenario because it processes data in large batches rather than providing real-time predictions. It is used for tasks that do not require immediate results, such as scheduled data processing jobs.
+
+Asynchronous Inference
+
+Explicación
+Asynchronous Inference is not ideal for this scenario because it is designed for use cases where requests can be processed in batches and are not time-sensitive. The gaming company requires immediate predictions to enhance user experience, making real-time capabilities essential.
+
+Real-Time Inference
+
+Explicación
+Real-Time Inference would provide the necessary low-latency predictions, but it requires provisioning and managing infrastructure to handle traffic spikes, which can lead to higher costs during fluctuating demand.
+
+Explicación general
+This question assesses your ability to choose the most appropriate SageMaker inference deployment endpoint based on specific requirements such as real-time prediction needs, fluctuating traffic, and cost management. The correct answer highlights Serverless Inference as the best choice for applications with varying traffic patterns that require immediate responses, offering scalability and cost efficiency.
+
+Temática
+Deployment and Orchestration of ML Workflows
+Pregunta 8
+
+A healthcare company has developed a new version of its machine learning model that predicts patient readmission risk. The model is deployed on Amazon SageMaker, and the company wants to roll out this new version carefully to ensure it does not negatively impact the existing predictions made by the current model in production. The new model needs to be evaluated for its performance in a real-world setting with actual user traffic, but any potential errors should be minimized to avoid affecting patient care.
+
+The company wants to gradually introduce the new model to a small percentage of the traffic initially and then increase this percentage if the model performs well. It also needs a rollback strategy in case the new model performs worse than expected.
+
+Which deployment strategy should the company choose to deploy the new model version?
+
+Linear Deployment
+
+Explicación
+Linear Deployment involves incrementally increasing the traffic to the new model version over a set period based on a fixed schedule, regardless of real-time performance monitoring. While it offers a controlled rollout, it lacks the dynamic adjustment based on the new model’s performance, which can be crucial for high-risk applications like healthcare.
+
+Blue/Green Deployment
+
+Explicación
+Blue/Green Deployment involves deploying the new model version in a separate environment and switching all traffic to the new model once it has been tested. While this method allows for easy rollback, it does not offer a gradual, real-world traffic testing process and instead requires a full cutover, which could introduce risks if the new model is not fully vetted with live traffic.
+
+All-at-Once Deployment
+
+Explicación
+All-at-Once Deployment involves deploying the new model version to all users at once. This approach carries a high risk if the new model version has any issues, as it would immediately affect all users. It does not allow for a gradual rollout or provide a quick rollback strategy, making it inappropriate for scenarios where minimizing risk and carefully evaluating the new model are critical.
+
+Respuesta correcta
+Canary Deployment
+
+Explicación
+Canary Deployment is the most suitable strategy for this scenario. It allows the company to initially direct a small percentage of traffic to the new model version while monitoring its performance. If the new model performs well, the percentage of traffic can be gradually increased. This approach minimizes risk and allows for a controlled rollout, with the ability to quickly revert to the previous model version if issues arise.
+
+Explicación general
+For deploying a new version of a machine learning model in a high-risk environment, such as healthcare, where patient safety is a priority, Canary Deployment is the best choice. It allows for a gradual introduction of the new model to actual traffic, closely monitoring its performance and quickly reverting to the previous version if necessary, thereby minimizing potential negative impacts on users.
+
+Temática
+Deployment and Orchestration of ML Workflows
+Pregunta 9
+
+A financial services company wants to automate its machine learning (ML) workflows to quickly respond to new training data arriving in its Amazon S3 bucket. The company needs to retrain its ML models whenever new data is added to the bucket. To automate this, they want to set up a continuous integration and continuous deployment (CI/CD) pipeline using AWS services. The solution should automatically trigger the ML model training pipeline and perform necessary preprocessing whenever new data is uploaded.
+
+Which combination of services and configurations should the company use to achieve this? (Select TWO.)
+
+Selección correcta
+Set up Amazon EventBridge to monitor the S3 bucket for object creation events and use it to trigger a SageMaker Pipeline execution.
+
+Explicación
+Amazon EventBridge can be configured to listen for specific events, such as the creation of new objects in an S3 bucket. When new data is uploaded, EventBridge can trigger a rule that starts a SageMaker Pipeline execution. This setup allows for flexible and scalable automation, making it suitable for triggering ML workflows based on data changes.
+
+Selección correcta
+Use Amazon SageMaker Pipelines to define and manage the ML workflow, including data preprocessing, model training, and evaluation steps.
+
+Explicación
+Amazon SageMaker Pipelines is a service specifically designed for managing and orchestrating machine learning workflows. It allows users to define end-to-end ML workflows, including steps for data preprocessing, model training, and model evaluation, making it an ideal choice for automating the ML process in response to new data.
+
+Use AWS Step Functions to coordinate the SageMaker Pipeline and handle the flow of the different steps in the ML process.
+
+Explicación
+AWS Step Functions is a serverless function orchestrator that can coordinate multiple AWS services into serverless workflows. While it can orchestrate SageMaker workflows, it is more suited for handling complex, multi-service workflows. In this scenario, SageMaker Pipelines alone is sufficient to manage the ML workflow, as it is tailored specifically for ML tasks.
+
+Implement AWS CodePipeline to manage the CI/CD pipeline and integrate it with Amazon SageMaker to handle ML model deployments.
+
+Explicación
+AWS CodePipeline is a CI/CD service that automates the build, test, and deploy phases of applications. While it can integrate with SageMaker for deploying models, the scenario described focuses on automating the ML workflow triggered by new data, which is better handled by SageMaker Pipelines and EventBridge.
+
+Configure Amazon S3 Event Notifications to directly trigger the SageMaker Pipeline when new data is uploaded to the S3 bucket.
+
+Explicación
+Amazon S3 Event Notifications can be used to trigger AWS Lambda functions, SQS queues, or SNS topics when objects are created or deleted in an S3 bucket. However, it does not directly support triggering a SageMaker Pipeline. Using EventBridge to monitor S3 events and then trigger the pipeline is a more appropriate solution.
+
+Explicación general
+To set up a CI/CD pipeline for machine learning that triggers model training upon new data arrival, using Amazon SageMaker Pipelines in combination with Amazon EventBridge is the most effective solution. SageMaker Pipelines provides a robust platform for managing ML workflows, while EventBridge allows for flexible event-driven triggers, ensuring that the ML workflow can be initiated automatically whenever new data is added to the S3 bucket.
+
+Temática
+Deployment and Orchestration of ML Workflows
+Pregunta 10
+
+A healthcare company is developing a machine learning model using Amazon SageMaker to predict whether patients are at risk of developing a rare but serious disease. The dataset is highly imbalanced, with only 1% of the records indicating that a patient has the disease. The model needs to ensure that high-risk patients are correctly identified as positive cases, as missing these cases could result in severe consequences for patient health. On the other hand, it is also important to minimize false positives to avoid unnecessary stress and medical expenses for patients.
+
+Which evaluation metric should the company use to best evaluate the performance of the model?
+
+Accuracy
+
+Explicación
+Accuracy is not a suitable metric for this scenario because the dataset is highly imbalanced. In such cases, accuracy can be misleading as a high accuracy could simply reflect the model's ability to predict the majority class (patients without the disease) correctly, while failing to identify the minority class (patients with the disease).
+
+AUC-ROC
+
+Explicación
+While AUC-ROC is a useful metric for evaluating model performance across different thresholds, it may not directly address the specific needs of balancing precision and recall in a healthcare context where both false negatives and false positives have significant implications.
+
+Mean Absolute Error (MAE)
+
+Explicación
+Mean Absolute Error (MAE) is typically used for regression tasks, not classification tasks. This metric is not appropriate for evaluating a binary classification model designed to predict whether a patient is at risk of a disease.
+
+Respuesta correcta
+F1 Score
+
+Explicación
+The F1 Score is the harmonic mean of precision and recall, making it a suitable metric when dealing with imbalanced datasets where both false positives and false negatives are important. In this scenario, identifying high-risk patients (true positives) while minimizing the number of false positives is crucial, making the F1 Score an appropriate choice as it balances these two aspects.
+
+Explicación general
+This question assesses your understanding of model evaluation metrics and their application in scenarios with imbalanced datasets and high-stakes decision-making, such as healthcare. The correct answer emphasizes the importance of the F1 Score in balancing precision and recall, which is critical in scenarios where both false negatives (missing high-risk patients) and false positives (incorrectly identifying low-risk patients as high-risk) must be carefully managed.
+
+Temática
+ML Model Development
+Pregunta 11
+
+A marketing company uses a machine learning model deployed on Amazon SageMaker to predict customer churn based on behavioral data. Recently, the company has noticed a significant drop in the model's performance metrics, such as accuracy and F1 score. After investigating, the data science team suspects that a change in the distribution of incoming data, possibly due to a new marketing campaign targeting different demographics, is affecting the model's performance.
+
+The team wants to analyze the impact of this change in data distribution on the model's predictions and ensure that the model remains unbiased across various demographic groups.
+
+Which tool or feature of Amazon SageMaker should the team use to address this issue?
+
+SageMaker Debugger
+
+Explicación
+SageMaker Debugger helps in identifying training issues such as vanishing gradients, exploding gradients, and tensor saturation. This tool is more relevant for debugging model training processes rather than analyzing changes in data distribution and their impact on model fairness.
+
+SageMaker Model Monitor
+
+Explicación
+SageMaker Model Monitor is useful for detecting data quality issues and model bias over time, such as missing data or unexpected changes in data types. However, it does not specifically address the need to analyze the impact of a change in data distribution on model fairness and performance across demographic groups.
+
+Respuesta correcta
+SageMaker Clarify
+
+Explicación
+SageMaker Clarify is specifically designed to detect bias in datasets and model predictions. It can be used to analyze how changes in data distribution affect the model's predictions and to ensure that the model remains fair across different demographic groups. This makes it the most suitable tool for the scenario described, where the impact of a data shift on model performance and fairness needs to be assessed.
+
+SageMaker Autopilot
+
+Explicación
+SageMaker Autopilot automates the process of creating and deploying machine learning models but does not provide the necessary tools to analyze changes in data distribution and their impact on model bias or fairness.
+
+Explicación general
+When there is a change in the distribution of data that might affect model performance, SageMaker Clarify is the best choice because it provides comprehensive tools for analyzing the impact of data distribution changes on model bias and fairness. It helps ensure that the model predictions remain unbiased across different demographic groups, which is crucial for maintaining ethical and effective machine learning practices in diverse applications.
+
+Temática
+ML Solution Monitoring, Maintenance, and Security
+Pregunta 12
+
+A retail company has deployed several machine learning models using Amazon SageMaker to provide personalized product recommendations to customers on their website. The company has noticed that the accuracy of the recommendations seems to be degrading over time, potentially due to changes in customer behavior and preferences. The data science team wants to implement a solution to continuously monitor the models in production, detect any deviations in data quality or model performance, and automatically alert the team when significant issues are detected.
+
+Which AWS service should the team use to achieve this goal?
+
+Amazon CloudWatch
+
+Explicación
+Amazon CloudWatch is useful for monitoring AWS service logs and metrics and setting up alarms for infrastructure performance. However, it does not provide specific tools for monitoring the data quality or detecting drift in machine learning models, which is essential for this scenario.
+
+AWS Glue
+
+Explicación
+AWS Glue is primarily a data integration service used for ETL processes. While it can help in data preprocessing, it is not designed to monitor model performance or data quality in real-time in production environments.
+
+Respuesta correcta
+Amazon SageMaker Model Monitor
+
+Explicación
+Amazon SageMaker Model Monitor is the ideal choice for this scenario. It is specifically designed to continuously monitor machine learning models in production, detect data quality issues such as data drift or bias, and alert users when predefined thresholds are breached. This allows the team to proactively address issues affecting model performance and accuracy.
+
+AWS Lambda
+
+Explicación
+AWS Lambda can execute code in response to events or on a schedule and could theoretically be used to check model performance. However, this approach would require custom scripts and lacks the built-in capabilities and specific focus on machine learning model monitoring that SageMaker Model Monitor provides.
+
+Explicación general
+To continuously monitor models in production and detect changes in data quality or performance, Amazon SageMaker Model Monitor is the most suitable service. It provides comprehensive tools for monitoring input data and model predictions, detecting drift or bias, and alerting the team to significant changes, which is essential for maintaining model accuracy and performance over time.
+
+Temática
+ML Solution Monitoring, Maintenance, and Security
+Pregunta 13
+
+An e-commerce company uses an Amazon SageMaker endpoint to provide real-time product recommendations to users. Recently, the company's data science team noticed that the recommendation service is occasionally returning errors and taking longer to respond during peak traffic times. To ensure that the service maintains high availability and performance, the team needs to diagnose and troubleshoot these issues effectively.
+
+Which AWS service should the team primarily use to monitor the SageMaker endpoint, detect anomalies, and set up automatic alerts for any performance degradation or errors?
+
+AWS Config
+
+Explicación
+AWS Config is a service that tracks configuration changes and evaluates compliance against best practices and internal policies. While helpful for ensuring correct configuration of AWS resources, it does not provide the necessary tools for real-time monitoring of service performance or for setting up alerts based on specific performance metrics.
+
+AWS CloudTrail
+
+Explicación
+AWS CloudTrail is used for logging API calls and tracking user activity for security and auditing purposes. While it can provide insights into who accessed the endpoint and what actions they took, it does not provide detailed performance monitoring or alerting for runtime errors and latency issues.
+
+Respuesta correcta
+Amazon CloudWatch
+
+Explicación
+Amazon CloudWatch is the best tool for this scenario. It provides real-time monitoring of AWS resources, including SageMaker endpoints. The team can use CloudWatch to set up detailed logging, track performance metrics such as latency and error rates, and create alarms to automatically notify them when the service is not performing as expected. This allows for proactive management and quick response to any issues affecting the recommendation service.
+
+AWS X-Ray
+
+Explicación
+AWS X-Ray is useful for tracing requests through an application and identifying performance bottlenecks in microservices architectures. However, it is not specifically designed for monitoring SageMaker endpoints or setting up alarms for model performance and errors in real-time.
+
+Explicación general
+To effectively troubleshoot and maintain high availability and performance for a SageMaker endpoint, Amazon CloudWatch is the most appropriate service. It allows the team to monitor real-time performance, set up logs to capture error details, and create alarms to automatically detect and respond to issues as they occur. This proactive approach is crucial for ensuring that the recommendation service remains reliable and performs well under varying traffic conditions.
+
+Temática
+ML Solution Monitoring, Maintenance, and Security
+Pregunta 14
+
+A financial trading firm is developing a machine learning system to detect anomalies in stock market transactions in real-time. The system must continuously ingest streaming data from trading activities, process the data with minimal delay, and generate metrics for immediate analysis and decision-making. The firm wants to use AWS services to ensure the pipeline can handle high throughput and provide real-time insights without buffering delays. Which combination of AWS services should the firm implement to achieve this requirement?
+
+Amazon S3 with AWS Lambda and Amazon Redshift
+
+Explicación
+Amazon S3 is a storage service and may not provide the real-time processing capabilities needed for immediate analysis. AWS Lambda is event-driven and may introduce delays in processing real-time data. Amazon Redshift is a data warehousing solution and may not be optimized for real-time processing of streaming data, making this combination less suitable for the firm's requirements.
+Amazon Kinesis Data Streams with Enhanced Fan-Out and AWS Lambda
+
+Explicación
+Amazon Kinesis Data Streams with Enhanced Fan-Out allows multiple consumers to read data from the stream simultaneously, which can help with high throughput requirements. However, using AWS Lambda for processing may introduce latency as it is event-driven and may not provide the real-time processing needed for immediate analysis and decision-making.
+Respuesta correcta
+Amazon Kinesis Data Streams with Managed Service for Apache Flink
+
+Explicación
+Amazon Kinesis Data Streams with Managed Service for Apache Flink provides a scalable, real-time data processing solution that can handle high throughput and provide immediate insights without buffering delays. Managed Service for Apache Flink offers advanced stream processing capabilities, making it a suitable choice for real-time anomaly detection in stock market transactions.
+Amazon Kinesis Data Firehose with Amazon S3 and AWS Glue
+
+Explicación
+Amazon Kinesis Data Firehose is designed for loading streaming data into data stores like Amazon S3 and Redshift, but it does not provide real-time processing capabilities. AWS Glue is used for ETL tasks and data preparation, which may introduce delays in processing real-time data, making it less suitable for immediate analysis and decision-making in this scenario.
+Explicación general
+Amazon Kinesis Data Streams with Managed Service for Apache Flink is the correct combination for this scenario. Amazon Kinesis Data Streams is designed for real-time data ingestion with high throughput and minimal delay, particularly when using Enhanced Fan-Out, which allows each consumer to receive data with low latency. The Managed Service for Apache Flink (previously known as Kinesis Data Analytics) enables real-time processing of streaming data with no buffering, allowing for continuous metric generation and real-time anomaly detection. This setup is ideal for scenarios where immediate analysis and decision-making are critical, such as financial trading.
+
+Temática
+Transform data and perform feature engineering.
+Pregunta 15
+
+A retail company wants to predict the likelihood of customers making a purchase based on their online browsing behavior. The data available includes customer demographics, browsing history, product preferences, and time spent on different product pages. The dataset contains millions of records with both numerical and categorical features. The company needs a scalable solution that can handle large datasets efficiently and provide explainable results to understand feature importance.
+
+Which SageMaker built-in algorithm should the company use, and what key configuration settings should be applied to optimize the model performance for this scenario?
+
+Use SageMaker Linear Learner with the objective set to 'regression', learning rate set to 0.01, and batch size of 512. Use 'ml.c5.9xlarge' instances for training and 'ml.t2.medium' instances for inference.
+
+Explicación
+While SageMaker Linear Learner can handle large datasets, it is primarily designed for linear models, which may not capture the complex relationships in the browsing behavior data as effectively as XGBoost. Additionally, the 'regression' objective is incorrect for a classification problem.
+
+Respuesta correcta
+Use SageMaker XGBoost with the objective set to 'binary', max_depth set to 6, and scale_pos_weight adjusted based on the class imbalance. Use 'ml.m5.4xlarge' instances for both training and inference.
+
+Explicación
+SageMaker XGBoost is a popular choice for binary classification tasks like predicting customer purchase likelihood. Setting the objective to 'binary' ensures the model is trained for binary classification. Adjusting max_depth to 6 helps prevent overfitting and improves model generalization. Scaling the pos_weight based on class imbalance helps address any bias in the dataset. Using 'ml.m5.4xlarge' instances for training and inference ensures efficient processing of large datasets.
+Use SageMaker DeepAR with the context length set to 100, prediction length set to 10, and frequency set to 'D'. Use 'ml.m4.xlarge' instances for both training and inference.
+
+Explicación
+SageMaker DeepAR is a time-series forecasting algorithm, not suitable for a binary classification problem involving customer behavior prediction. The configuration settings (context length, prediction length, frequency) are specific to time-series data, not relevant to the scenario.
+
+Use SageMaker k-means with k set to 3, distance metric set to 'cosine', and mini_batch_size of 1000. Use 'ml.p2.xlarge' instances for training.
+
+Explicación
+SageMaker k-means is an unsupervised learning algorithm used for clustering, not suitable for predicting purchase likelihood based on browsing data. Also, it does not provide feature importance or handle class imbalance in a supervised learning context.
+
+Explicación general
+SageMaker XGBoost is well-suited for this classification problem because it can handle both numerical and categorical features, efficiently process large datasets, and provide feature importance for explainability. Setting the objective to 'binary' is appropriate for binary classification tasks. The max_depth of 6 provides a good balance between model complexity and performance, and adjusting scale_pos_weight helps to handle class imbalance if present. Using 'ml.m5.4xlarge' instances provides sufficient memory and CPU capacity for training and inference without over-provisioning.
+
+Temática
+ML Model Development
+Pregunta 16
+
+A healthcare startup is developing a machine learning model to predict the risk of various diseases based on patient data. The dataset includes demographic information, such as age, gender, and ethnicity, as well as medical history. The data science team suspects that there might be a bias in the dataset related to the distribution of disease labels across different demographic groups. They decide to use the Difference in Proportion of Labels (DPL) metric to analyze this bias before training the model.
+
+Which type of analysis is best performed using the Difference in Proportion of Labels (DPL) metric, and why is it suitable for this scenario?
+
+Respuesta correcta
+To identify potential biases in the dataset by comparing the proportion of each disease label across different demographic groups
+
+Explicación
+The best use of the Difference in Proportion of Labels (DPL) metric is to identify potential biases in the dataset by comparing the proportion of each disease label across different demographic groups. This analysis helps the data science team understand if there are disparities in the distribution of disease labels among different demographic groups, which is crucial for addressing bias in the machine learning model.
+To measure the imbalance in the dataset by comparing the total count of disease labels
+
+Explicación
+The Difference in Proportion of Labels (DPL) metric is not used to measure the imbalance in the dataset by comparing the total count of disease labels. It focuses on comparing the proportion of each disease label across different demographic groups to identify potential biases, rather than simply looking at the total count.
+To determine the optimal data augmentation techniques for balancing the dataset
+
+Explicación
+The Difference in Proportion of Labels (DPL) metric is not used to determine the optimal data augmentation techniques for balancing the dataset. Its primary purpose is to analyze biases in the dataset related to the distribution of disease labels across different demographic groups, rather than focusing on data augmentation strategies.
+To evaluate the overall accuracy of the model predictions by comparing them to a baseline
+
+Explicación
+The Difference in Proportion of Labels (DPL) metric is not used to evaluate the overall accuracy of model predictions compared to a baseline. It is specifically designed to analyze biases in the dataset related to the distribution of disease labels across different demographic groups, rather than assessing model performance.
+Explicación general
+The Difference in Proportion of Labels (DPL) is used to measure potential biases in a dataset by comparing the proportion of each label across different groups (such as demographic categories). In this healthcare scenario, DPL can help identify if certain demographic groups are underrepresented or overrepresented for specific disease labels, which could lead to biased model predictions. This metric is essential for ensuring fairness and accuracy in the model's outcomes across diverse populations.
+
+Temática
+Transform data and perform feature engineering.
+Pregunta 17
+
+A healthcare organization is deploying a machine learning model on Amazon SageMaker to analyze patient data and predict potential health risks. Due to strict regulatory requirements, the organization must ensure that all data processing and model hosting occurs within a secure, isolated environment that prevents unauthorized access and protects sensitive patient information. The organization also wants to limit access to the model only to specific trusted IP addresses and other AWS services that are part of its internal network.
+
+Which AWS configuration should the organization implement to meet these security and isolation requirements?
+
+Use AWS Lambda with an API Gateway to provide access to the SageMaker model, controlling access through API keys and Lambda execution roles.
+
+Explicación
+Using AWS Lambda with an API Gateway could provide controlled access to the SageMaker model, but it does not offer the same level of isolation as deploying the model in a private subnet within a VPC. The API Gateway, while useful for managing access, still exposes the model to the internet, which does not align with the organization's strict isolation needs.
+
+Deploy the SageMaker model in a public subnet with an open security group, allowing easy access from the internet for real-time predictions.
+
+Explicación
+Deploying the SageMaker model in a public subnet with an open security group would expose the model to the internet, which does not meet the strict isolation and security requirements of the healthcare organization. This approach does not adequately protect sensitive patient information or comply with regulatory standards that require isolation from public access.
+
+Respuesta correcta
+Deploy the SageMaker model in a private subnet within a Virtual Private Cloud (VPC) and use security groups to restrict inbound traffic to specific IP addresses and allow access only from other services within the VPC.
+
+Explicación
+Deploying the SageMaker model in a private subnet within a VPC ensures that the model is isolated from the public internet and can only be accessed by resources within the VPC. Using security groups to restrict inbound traffic to specific IP addresses further enhances security by allowing access only from trusted sources. This configuration meets the organization’s needs for security, isolation, and compliance with regulatory requirements.
+
+Deploy the SageMaker model with a direct connection to Amazon S3, and use AWS Identity and Access Management (IAM) policies to control access to the data stored in S3.
+
+Explicación
+Deploying the SageMaker model with a direct connection to Amazon S3 and using IAM policies primarily controls access to the data stored in S3, not the model itself. This approach does not address the requirement for isolating the model within a secure network environment or controlling access to the model based on IP addresses.
+
+Explicación general
+To isolate a machine learning system and ensure it meets strict security and compliance requirements, deploying the SageMaker model in a private subnet within a VPC and using security groups to control access is the best approach. This configuration ensures that sensitive patient data is protected and that access is restricted to only trusted IP addresses and internal AWS services, aligning with the organization’s regulatory obligations and security policies.
+
+Temática
+ML Solution Monitoring, Maintenance, and Security
+Pregunta 18
+
+A company focused on sustainable technology is training a deep learning model using Amazon SageMaker to develop a computer vision application. The training process involves a large dataset of high-resolution images and requires significant computational resources. The company’s primary goal is to minimize energy consumption and carbon footprint while still achieving efficient training performance.
+
+Which instance type should the company select for their training job in Amazon SageMaker to maximize energy efficiency and meet their sustainability goals?
+
+Respuesta correcta
+ml.trn1.2xlarge
+
+Explicación
+The ml.trn1.2xlarge instance type is designed for training deep learning models and offers a balance between computational power and energy efficiency. It provides sufficient resources for training a deep learning model with high-resolution images while minimizing energy consumption, making it the ideal choice for the company's sustainability goals.
+ml.inf1.24xlarge
+
+Explicación
+The ml.inf1.24xlarge instance type is optimized for inference tasks rather than training. It may not provide the necessary computational resources for efficient training of a deep learning model with high-resolution images. Selecting this instance type could lead to longer training times and higher energy consumption, which goes against the company's sustainability goals.
+ml.c6g.large
+
+Explicación
+The ml.c6g.large instance type is a general-purpose CPU instance type that may not offer the computational power required for training a deep learning model with high-resolution images efficiently. It may result in longer training times and higher energy consumption compared to more specialized instance types designed for deep learning tasks.
+
+ml.p4d.24xlarge
+
+Explicación
+The ml.p4d.24xlarge instance type is optimized for high-performance computing and is equipped with powerful GPUs. While it may offer fast training performance, it consumes a significant amount of energy due to the high computational power, making it less suitable for minimizing energy consumption and meeting sustainability goals.
+Explicación general
+For a company aiming to train deep learning models with a focus on sustainability and energy efficiency, ml.trn1.2xlarge instances powered by AWS Trainium processors are the best choice. These instances are specifically designed for deep learning training and offer significant improvements in energy efficiency, helping the company achieve its sustainability goals while maintaining high performance.
+
+Temática
+Deployment and Orchestration of ML Workflows
+Pregunta 19
+
+A healthcare startup is developing a deep learning model using Amazon SageMaker to predict patient outcomes based on medical imaging data. They are using a deep neural network (DNN) with multiple hidden layers. After a few epochs of training, they notice that the accuracy on the training data starts to oscillate significantly, and the model is not improving. The team suspects that the model might be overfitting or learning too quickly due to high variance in the gradients during training.
+
+Which regularization technique should the team apply to stabilize the training process and improve model performance?
+
+Use Batch Normalization after each hidden layer to stabilize learning by normalizing the inputs to each layer and maintain a high learning rate.
+
+Explicación
+Batch Normalization can stabilize the learning process by normalizing inputs to each layer, which is beneficial. However, it does not directly address the issue of overfitting or regularization. Also, maintaining a high learning rate might still cause high variance in gradients, leading to oscillations.
+
+Apply L1 regularization to the weights with a penalty parameter of 0.01 to encourage sparsity and reduce overfitting.
+
+Explicación
+While L1 regularization encourages sparsity by adding a penalty proportional to the absolute value of the weights, it may not be sufficient to address the oscillating accuracy if the problem is due to high variance in the gradients rather than overfitting through large weights.
+
+Apply L2 regularization with a penalty parameter of 0.1 to reduce the magnitude of the weights and reduce overfitting, while keeping the learning rate high.
+
+Explicación
+L2 regularization reduces overfitting by penalizing large weights, which can help in some cases, but it may not directly address the oscillation of training accuracy due to gradient variance. Also, keeping a high learning rate could continue to cause instability in training.
+
+Respuesta correcta
+Apply Dropout regularization with a dropout rate of 0.5 to the hidden layers and use a lower learning rate to reduce the variance in gradients.
+
+Explicación
+Dropout regularization helps prevent overfitting by randomly setting a fraction of input units to zero at each update during training time, which forces the network to learn redundant representations. This reduces the likelihood of neurons co-adapting too much to specific features, thus stabilizing the training process. Lowering the learning rate can also help reduce the variance in the gradients, which prevents oscillations in the training accuracy.
+
+Explicación general
+This question evaluates your understanding of regularization techniques and their application in stabilizing the training process of deep neural networks. The correct answer emphasizes the use of dropout regularization, which helps prevent overfitting by randomly dropping neurons during training, thereby forcing the network to learn more robust features. Lowering the learning rate helps reduce the variance in gradients, which is crucial when accuracy oscillates during training. This combination effectively addresses the oscillation in accuracy and improves overall model performance.
+
+Temática
+ML Model Development
+Pregunta 20
+
+A financial services company wants to develop a sophisticated chatbot to assist customers with their investment inquiries. The chatbot should be able to provide detailed responses tailored to the company’s specific product offerings, such as investment plans, retirement accounts, and market trends. The company has unique terminology and a specific style of communication that they want the chatbot to adopt to align with their brand voice. Additionally, the chatbot needs to be able to handle sensitive financial information securely and operate within the company’s compliance guidelines.
+
+The company decides to use Amazon Bedrock to build this chatbot. Given these requirements, they want to use a language model that can be customized to their specific needs.
+
+Which approach should the company use to build the chatbot using Amazon Bedrock, and what key configurations should be applied to achieve the desired outcome?
+
+Use Amazon Bedrock to deploy a pre-trained transformer model without fine-tuning and rely on Amazon Kendra to provide context-specific answers based on a search of company documents and FAQs.
+
+Explicación
+Deploying a pre-trained transformer model without fine-tuning would not meet the company’s requirement for a customized brand voice and specific terminology. Amazon Kendra could provide context-specific answers, but it would not allow the chatbot to engage in natural conversations aligned with the company’s communication style.
+
+Respuesta correcta
+Use a foundation model from Amazon Bedrock and fine-tune it with a dataset containing the company’s product information, FAQs, and example customer interactions. Set the model parameters to include custom vocabularies and domain-specific terminology to ensure accurate and relevant responses.
+
+Explicación
+Using a foundation model from Amazon Bedrock and fine-tuning it with a dataset containing the company’s specific product information, FAQs, and customer interaction examples allows the chatbot to learn the company's unique terminology and communication style. Fine-tuning the model ensures that it provides detailed, accurate, and brand-aligned responses to customer queries. This approach allows for the customization of the chatbot without the need for external retrieval from knowledge bases.
+
+Build a custom language model from scratch using Amazon SageMaker, training it on the company’s historical chat data and product manuals, and deploy it using Bedrock for real-time customer interaction.
+
+Explicación
+Building a custom language model from scratch is unnecessary and resource-intensive for this use case. Amazon Bedrock provides pre-trained foundation models that can be fine-tuned, which is a more efficient approach than training a model from scratch.
+
+Use a foundation model from Amazon Bedrock and implement Retrieval-Augmented Generation (RAG) to pull information from a knowledge base of company documents. Configure the chatbot to fetch real-time data on market trends and use it to enhance responses.
+
+Explicación
+While using Retrieval-Augmented Generation (RAG) could enhance responses with real-time information from a knowledge base, the scenario specifies that the chatbot should be customized to the company’s brand voice and terminology. Fine-tuning a model directly on company-specific data is a more targeted approach for this requirement. Additionally, RAG is not necessary if the company wants to avoid the complexity of integrating a knowledge base.
+
+Explicación general
+This question tests your understanding of how to use Amazon Bedrock for building a customized chatbot and the importance of fine-tuning models to meet specific business needs. The correct answer focuses on leveraging Bedrock’s foundation models and fine-tuning them with company-specific data to create a chatbot that accurately reflects the company’s unique style and requirements, ensuring security and compliance in handling sensitive financial information.
+
+Temática
+ML Model Development

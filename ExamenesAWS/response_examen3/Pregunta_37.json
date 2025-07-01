@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "A company wants to build an ML solution to predict customer churn. The company's dataset includes thousands of rows with features related to customer demographics, transaction history, and support interactions. The dataset is stored in CSV format in Amazon S3. The ML engineer must select an appropriate built-in Amazon SageMaker algorithm for training the model. The algorithm should handle tabular data and be capable of performing supervised learning for a binary classification problem.\n\nWhich Amazon SageMaker built-in algorithm should the ML engineer use?",
+      "options": [
+        "K-Means",
+        "XGBoost (eXtreme Gradient Boosting)",
+        "Linear Learner",
+        "BlazingText"
+      ],
+      "correct_answers": [
+        "XGBoost (eXtreme Gradient Boosting)"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html",
+        "https://aws.amazon.com/blogs/machine-learning/build-tune-and-deploy-an-end-to-end-churn-prediction-model-using-amazon-sagemaker-pipelines/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

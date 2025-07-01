@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "You are a data scientist at an e-commerce company working to develop a recommendation system for customers. After building several models, including collaborative filtering, content-based filtering, and a deep learning model, you find that each model excels in different scenarios. For example, the collaborative filtering model works well for returning customers with rich interaction data, while the content-based filtering model performs better for new customers with little interaction history. Your goal is to combine these models to create a recommendation system that provides more accurate and personalized recommendations across all customer segments.\n\nWhich of the following strategies is the MOST LIKELY to achieve this goal?",
+      "options": [
+        "Use a bagging approach to train multiple instances of the deep learning model on different subsets of the data and average their predictions to improve overall performance",
+        "Use stacking, where the predictions from the collaborative filtering and content-based filtering models are fed into a deep learning model as inputs, allowing the deep learning model to make the final recommendation",
+        "Implement a hybrid model that combines the predictions of collaborative filtering, content-based filtering, and deep learning using a weighted average, where weights are based on model performance for different customer segments",
+        "Apply boosting by sequentially training the collaborative filtering, content-based filtering, and deep learning models, where each model corrects the errors of the previous one"
+      ],
+      "correct_answers": [
+        "Implement a hybrid model that combines the predictions of collaborative filtering, content-based filtering, and deep learning using a weighted average, where weights are based on model performance for different customer segments"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/efficiently-train-tune-and-deploy-custom-ensembles-using-amazon-sagemaker/",
+        "https://aws.amazon.com/what-is/boosting/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

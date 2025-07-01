@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A media streaming company is using Amazon Redshift ML in its primary AWS account to build recommendation models for personalized content suggestions. The training data for these models, which includes user watch history and preferences, is stored in an Amazon S3 bucket in a secondary AWS account. The company requires a secure pipeline that allows Redshift ML in the primary account to access this training data while ensuring that no public IPv4 addresses are used in the data transfer process.\n\nWhat do you recommend?\n\nUse S3 Transfer Acceleration to optimize data transfers between the accounts. Configure Redshift ML in the primary account to access the S3 bucket through the accelerated endpoint",
+      "options": [
+        "Use S3 Transfer Acceleration to optimize data transfers between the accounts. Configure Redshift ML in the primary account to access the S3 bucket through the accelerated endpoint",
+        "Set up a VPC endpoint for Amazon S3 in the primary account to enable private communication. Configure a cross-account bucket policy in the secondary account to grant Redshift ML access to the S3 bucket securely",
+        "Deploy a VPN connection between the VPCs in the primary and secondary accounts to securely transfer training data to Redshift ML in the primary account",
+        "Export the data from the S3 bucket in the secondary account to a new bucket in the primary account using AWS Glue, then configure Redshift ML to access the data from the primary bucket"
+      ],
+      "correct_answers": [
+        "Set up a VPC endpoint for Amazon S3 in the primary account to enable private communication. Configure a cross-account bucket policy in the secondary account to grant Redshift ML access to the S3 bucket securely"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-s3.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access-example2.html",
+        "https://docs.aws.amazon.com/redshift/latest/dg/machine_learning.html",
+        "https://docs.aws.amazon.com/redshift/latest/dg/getting-started-machine-learning.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

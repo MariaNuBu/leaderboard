@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A data science team is using SageMaker Ground Truth to perform text classification labeling. They are interested in reducing their labeling costs by automating some tasks while ensuring sensitive data is handled by trusted individuals.\n\nWhich combination of strategies should the team use to achieve this?",
+      "options": [
+        "Set up Mechanical Turk workers for sensitive data and automate labeling for complex tasks.",
+        "Rely entirely on private workforce labelers to handle both simple and complex tasks.",
+        "Use a private workforce for sensitive data, and leverage active learning to automate simple tasks.",
+        "Use a third-party vendor for sensitive data while relying on fully automated models for all labeling tasks."
+      ],
+      "correct_answers": [
+        "Use a private workforce for sensitive data, and leverage active learning to automate simple tasks."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

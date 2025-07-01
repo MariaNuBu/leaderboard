@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "A publishing company wants to automatically identify and extract meaningful, unique keywords from a large collection of documents using AWS services.\n\nWhat solution should the ML engineer implement to achieve this goal with minimal operational overhead?\n\nLeverage Amazon Rekognition to search and extract insights about the entities and Key phrases present in the documents\n\nLeverage Amazon Textract to gather insights about the entities and Key phrases present in the documents",
+      "options": [
+        "Leverage Amazon Rekognition to search and extract insights about the entities and Key phrases present in the documents",
+        "Leverage Amazon Textract to gather insights about the entities and Key phrases present in the documents",
+        "Leverage Amazon Comprehend custom entity recognition and key phrase extraction to identify and extract relevant keywords",
+        "Leverage Amazon Kendra to search and extract meaningful, unique keywords present in the documents"
+      ],
+      "correct_answers": [
+        "Leverage Amazon Comprehend custom entity recognition and key phrase extraction to identify and extract relevant keywords"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/comprehend/latest/dg/concepts-insights.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A machine learning engineer is tasked with building a predictive model for an e-commerce platform using Amazon SageMaker. The team is considering whether to use a SageMaker Notebook Instance or SageMaker Studio. The engineer needs the following features:\n- The ability to run multiple notebooks in parallel within the same environment.\n- A centralized space for persistent storage of datasets, notebooks, and logs.\n- Seamless integration with existing AWS services like S3 and IAM.\n\nWhich SageMaker environment should the engineer choose, and why?",
+      "options": [
+        "SageMaker Notebook Instance because it allows running multiple notebooks in isolated environments, ensuring that tasks remain independent.",
+        "SageMaker Studio because it is specifically designed for large-scale deep learning workloads, offering GPU-based instances for parallel notebook execution.",
+        "SageMaker Notebook Instance because it provides access to the full AWS CLI, enabling tighter control over resources and configurations.",
+        "SageMaker Studio because it offers a persistent Jupyter Lab space where multiple notebooks can be managed, allowing centralized data access and integration with AWS services."
+      ],
+      "correct_answers": [
+        "SageMaker Studio because it offers a persistent Jupyter Lab space where multiple notebooks can be managed, allowing centralized data access and integration with AWS services."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

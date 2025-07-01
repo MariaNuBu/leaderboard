@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "You are tasked with building an AI application using Amazon Bedrock.\nThe application will experience variable traffic, with periods of very high usage followed by long idle times.\nWhich pricing option is the MOST cost-effective for this use case?",
+      "options": [
+        "Reserved instance pricing",
+        "Provisioned throughput mode",
+        "Spot instance pricing",
+        "On-demand pricing"
+      ],
+      "correct_answers": [
+        "On-demand pricing"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

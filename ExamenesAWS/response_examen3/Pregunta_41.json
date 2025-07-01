@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "How would you differentiate between K-Means and K-Nearest Neighbors (KNN) algorithms in machine learning?\n\nK-Means is a supervised learning algorithm used for classification, while KNN is an unsupervised learning algorithm used for clustering\n\nK-Means requires labeled data to form clusters, whereas KNN does not use labeled data for making predictions\n\nK-Means is primarily used for regression tasks, while KNN is used for reducing the dimensionality of data",
+      "options": [
+        "K-Means is a supervised learning algorithm used for classification, while KNN is an unsupervised learning algorithm used for clustering",
+        "K-Means requires labeled data to form clusters, whereas KNN does not use labeled data for making predictions",
+        "K-Means is primarily used for regression tasks, while KNN is used for reducing the dimensionality of data",
+        "K-Means is an unsupervised learning algorithm used for clustering data points into groups, while KNN is a supervised learning algorithm used for classifying data points based on their proximity to labeled examples"
+      ],
+      "correct_answers": [
+        "K-Means is an unsupervised learning algorithm used for clustering data points into groups, while KNN is a supervised learning algorithm used for classifying data points based on their proximity to labeled examples"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/k-means-clustering-with-amazon-sagemaker/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/k-nearest-neighbors.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

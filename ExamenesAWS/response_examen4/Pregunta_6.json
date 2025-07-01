@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A machine learning team is building a predictive model using historical sales data stored in Amazon S3. The data must be prepared by handling missing values and outliers before training. Which AWS tools can be used to perform these data preparation tasks efficiently? (Select TWO)\nAmazon RDS\nAmazon SageMaker Data Wrangler\nAWS Lambda\nAWS Glue DataBrew\nAmazon Kinesis Data Analytics",
+      "options": [
+        "Amazon RDS",
+        "Amazon SageMaker Data Wrangler",
+        "AWS Lambda",
+        "AWS Glue DataBrew"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Data Wrangler",
+        "AWS Glue DataBrew"
+      ],
+      "references": [],
+      "topic": "Transform data and perform feature engineering.",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "TOPIC: 2.3 Analyze model performance\n\nA data science team has built over 50 models on Amazon SageMaker during the last several years. The models support different business groups within a company. The data science team wants to document the critical details of the models. The critical details include the background and purpose of the models. The critical details will give model consumers the ability to browse and understand available models within the company.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A Configure an Amazon DynamoDB table to log the information of the models.",
+        "B Add tags to the model training pipelines.",
+        "C Use SageMaker Model Registry Model (Package) Groups.",
+        "D Configure SageMaker Model Cards."
+      ],
+      "correct_answers": [
+        "D Configure SageMaker Model Cards."
+      ],
+      "references": [],
+      "topic": "2.3 Analyze model performance",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "A customer service department wants to use Amazon Transcribe to analyze audio recordings from phone calls.\nThey need to differentiate between multiple speakers, automatically punctuate the transcript, and add custom terms for technical jargon used in their industry.\nWhich features should the company prioritize?",
+      "options": [
+        "Batch transcription, speaker identification, and auto punctuation",
+        "Custom vocabulary, auto punctuation, and speaker identification",
+        "Speaker identification, multi-language support, and custom vocabulary",
+        "Real-time transcription, speaker identification, and custom vocabulary"
+      ],
+      "correct_answers": [
+        "Custom vocabulary, auto punctuation, and speaker identification"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

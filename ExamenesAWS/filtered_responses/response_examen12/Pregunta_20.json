@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A Machine Learning Specialist uses Amazon SageMaker Data Wrangler to prepare the training data for a model. The specialist aims to analyze the dataset to understand feature relationships and detect issues. The goal is to visualize correlations and assess their strength to identify patterns and outliers.\n\nWhich visualization technique should be used?",
+      "options": [
+        "Histogram",
+        "Bias Report",
+        "Scatter Plot",
+        "Multicollinearity"
+      ],
+      "correct_answers": [
+        "Scatter Plot"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-analyses.html#data-wrangler-visualize-scatter-plot",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.htmlhttps://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

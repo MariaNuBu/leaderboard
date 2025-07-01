@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "An ML engineer needs to train a k-means clustering model by using Amazon SageMaker.\nThe ML engineer uses a 100 GB dataset in the training.\nThe dataset consists of 10 input files that are stored in Amazon S3.\nEach input file is 10 GB.\nThe ML engineer notices that the model training time is taking significantly longer than expected.\nThe ML engineer must reduce the model training time.",
+      "options": [
+        "A\nCompress the dataset in the S3 bucket. Ensure that the training instance has enough storage capacity for both the compressed and decompressed dataset.",
+        "B\nSet the input mode to fast file mode in the training configuration in SageMaker. Ensure that the training instance has enough storage capacity for the entire dataset.",
+        "C\nCreate an Amazon FSx for Lustre file system. Copy the dataset from Amazon S3 to the FSx for Lustre file system. Set the file system as the model's data source.",
+        "D\nCopy the dataset from Amazon S3 to the SageMaker domain's default Amazon Elastic File System (Amazon EFS) file system. Set the file system as the model's data source."
+      ],
+      "correct_answers": [
+        "B\nSet the input mode to fast file mode in the training configuration in SageMaker. Ensure that the training instance has enough storage capacity for the entire dataset."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

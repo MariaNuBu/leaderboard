@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A financial institution has developed and deployed a machine learning model to predict credit scores. The institution is required to comply with regulatory guidelines for transparency, fairness, and security in its ML workflows. The team needs a solution that will enable them to track and audit the model’s decisions, ensure model explainability, and monitor compliance.\n\nWhich of the following AWS services would best support this need for governance in the machine learning lifecycle?\n\nAWS CloudTrail\n\nAmazon SageMaker Model Monitor",
+      "options": [
+        "AWS CloudTrail",
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Clarify",
+        "Amazon SageMaker Autopilot"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Clarify"
+      ],
+      "references": [
+        "https://aws.amazon.com/sagemaker-ai/clarify/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

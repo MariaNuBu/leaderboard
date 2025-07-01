@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You are a machine learning engineer at a healthcare company responsible for developing and deploying an end-to-end ML workflow for predicting patient readmission rates. The workflow involves data preprocessing, model training, hyperparameter tuning, and deployment. Additionally, the solution must support regular retraining of the model as new data becomes available, with minimal manual intervention. You need to select the right solution to orchestrate this workflow efficiently while ensuring scalability, reliability, and ease of management.\n\nGiven these requirements, which of the following options is the MOST SUITABLE for orchestrating your ML workflow?\n\nLeverage Amazon EC2 instances to manually execute each step of the ML workflow, use Amazon RDS for storing intermediate results, and deploy the model using Amazon SageMaker endpoints\n\nUse AWS Glue for data preprocessing, Amazon SageMaker for model training and tuning, and manually deploy the model to an Amazon EC2 instance for inference\n\nImplement the entire ML workflow using Amazon SageMaker Pipelines, which provides integrated orchestration for data processing, model training, tuning, and deployment\n\nUse AWS Step Functions to define and orchestrate each step of the ML workflow, integrate with SageMaker for model training and deployment, and leverage AWS Lambda for data preprocessing tasks",
+      "options": [
+        "Leverage Amazon EC2 instances to manually execute each step of the ML workflow, use Amazon RDS for storing intermediate results, and deploy the model using Amazon SageMaker endpoints",
+        "Use AWS Glue for data preprocessing, Amazon SageMaker for model training and tuning, and manually deploy the model to an Amazon EC2 instance for inference",
+        "Implement the entire ML workflow using Amazon SageMaker Pipelines, which provides integrated orchestration for data processing, model training, tuning, and deployment",
+        "Use AWS Step Functions to define and orchestrate each step of the ML workflow, integrate with SageMaker for model training and deployment, and leverage AWS Lambda for data preprocessing tasks"
+      ],
+      "correct_answers": [
+        "Implement the entire ML workflow using Amazon SageMaker Pipelines, which provides integrated orchestration for data processing, model training, tuning, and deployment"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

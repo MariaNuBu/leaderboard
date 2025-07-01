@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "A team of data scientists needs to collaborate on a machine learning project in SageMaker using Jupyter notebooks. They want to easily share their work and continue working from where they left off, with all data stored persistently. Which option should they choose?",
+      "options": [
+        "SageMaker Studio notebooks, as they allow multiple users to collaborate with persistent storage.",
+        "AWS Glue with a shared notebook instance for seamless collaboration.",
+        "SageMaker notebook instances with IAM roles configured for sharing.",
+        "SageMaker training jobs with custom S3 bucket configurations for sharing the notebook files."
+      ],
+      "correct_answers": [
+        "SageMaker Studio notebooks, as they allow multiple users to collaborate with persistent storage."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "HOTSPOT -\nAn ML engineer is building a generative AI application on Amazon Bedrock by using large language models (LLMs).\nSelect the correct generative AI term from the following list for each description. Each term should be selected one time or not at all. (Select three.)\n• Embedding\n• Retrieval Augmented Generation (RAG)\n• Temperature\n• Token",
+      "options": [
+        "Embedding",
+        "Retrieval Augmented Generation (RAG)",
+        "Temperature",
+        "Token"
+      ],
+      "correct_answers": [
+        "Token",
+        "Embedding",
+        "Retrieval Augmented Generation (RAG)"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01",
+      "Practice test": "ExamTopics"
+    }
+  ]
+}

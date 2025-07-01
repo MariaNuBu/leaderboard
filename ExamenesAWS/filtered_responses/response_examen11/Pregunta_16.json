@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "TOPIC: 1.3 Ensure data integrity and prepare data for modeling.\n\nAn ML engineer must prepare data from car rental contracts for model training. The car rental contracts that are used to train the model are in plain text format and are stored in Amazon S3. The contracts include the renter's name, age, email address, driver's license ID, car model, and vehicle identification number. In preparation for model training, the contracts must be processed to detect personally identifiable information (PII).\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A\nUse an Amazon SageMaker Canvas ready-to-use model to detect PII.",
+        "B\nUse Amazon Transcribe to detect PII.",
+        "C\nUse Amazon SageMaker JumpStart to deploy a pre-trained model to detect PII.",
+        "D\nUse an Amazon S3 Object Lambda access point in Amazon Comprehend to detect PII."
+      ],
+      "correct_answers": [
+        "A\nUse an Amazon SageMaker Canvas ready-to-use model to detect PII."
+      ],
+      "references": [],
+      "topic": "1.3 Ensure data integrity and prepare data for modeling.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": ""
+    }
+  ]
+}

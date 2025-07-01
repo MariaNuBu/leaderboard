@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A company is developing an object recognition model to identify various products in images taken from store shelves. The data science team is using Amazon SageMaker Data Wrangler to prepare the image data for training. The images contain a variety of lighting conditions, angles, and background clutter. Which data transformations should the team apply in SageMaker Data Wrangler to improve the performance of the object recognition model?\n\nConverting images to grayscale, imputing missing pixel values, and aggregating images into a single dataset\n\nExplicación\nConverting images to grayscale, imputing missing pixel values, and aggregating images into a single dataset are valid preprocessing steps, but they may not specifically address the challenges posed by varying lighting conditions, angles, and background clutter in the image data for object recognition.\n\nOne-hot encoding of labels, scaling numerical features, and removing duplicate images\n\nExplicación\nOne-hot encoding of labels, scaling numerical features, and removing duplicate images are important preprocessing steps, but they are not directly related to improving the performance of an object recognition model trained on image data with varying lighting conditions, angles, and background clutter.\n\nEncoding categorical labels, standardizing image sizes, and applying text vectorization on image descriptions\n\nExplicación\nEncoding categorical labels, standardizing image sizes, and applying text vectorization on image descriptions are relevant preprocessing steps, but they do not directly address the specific challenges of improving the performance of an object recognition model on images with diverse lighting conditions, angles, and background clutter.",
+      "options": [
+        "Converting images to grayscale, imputing missing pixel values, and aggregating images into a single dataset",
+        "One-hot encoding of labels, scaling numerical features, and removing duplicate images",
+        "Encoding categorical labels, standardizing image sizes, and applying text vectorization on image descriptions",
+        "Resizing and cropping images to a fixed size, normalizing pixel values, and applying data augmentation techniques like flipping and rotation"
+      ],
+      "correct_answers": [
+        "Resizing and cropping images to a fixed size, normalizing pixel values, and applying data augmentation techniques like flipping and rotation"
+      ],
+      "references": [],
+      "topic": "Transform data and perform feature engineering.",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

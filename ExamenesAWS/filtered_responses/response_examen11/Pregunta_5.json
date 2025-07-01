@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "Topic: 1.1 Ingest and store data.\n\nA financial services company created a feature group in Amazon SageMaker Feature Store. The feature group manages user-related ML features across different areas. Data has already been loaded into SageMaker Feature Store. An ML engineer needs to add a new feature to the feature group. The feature group will be used in several ML marketing models. The ML engineer must update the historical records to include the values of the new feature.\n\nWhich combination of steps should the ML engineer take to add the new feature? (Select TWO.)",
+      "options": [
+        "A Use the DeleteFeatureGroup operation to delete the feature group.",
+        "B Delete all previous records from the feature group.",
+        "C Use the UpdateFeatureGroup operation to add the new feature to the feature group. Specify the name and type.",
+        "D Use the CreateFeatureGroup operation to create a new feature group with the updated features. Specify the name and type.",
+        "E Use the PutRecord operation to overwrite the records that do not have data for the new feature."
+      ],
+      "correct_answers": [
+        "C Use the UpdateFeatureGroup operation to add the new feature to the feature group. Specify the name and type.",
+        "E Use the PutRecord operation to overwrite the records that do not have data for the new feature."
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

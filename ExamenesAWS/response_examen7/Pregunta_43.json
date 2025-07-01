@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "A company has deployed a machine learning model into production using Amazon SageMaker. Over time, the model’s performance starts degrading due to changes in customer behavior. The team decides to monitor the model and retrain it periodically.\n\nWhich combination of AWS services should the team use to monitor and maintain the model’s performance?\n\nAmazon CloudWatch for monitoring model performance and SageMaker Data Wrangler to retrain the model.\n\nExplicación\nWhile Amazon CloudWatch can monitor basic metrics, it’s not specifically designed for model performance monitoring. SageMaker Model Monitor is the correct service for this purpose.\n\nSageMaker Feature Store to track changes in data distribution, and SageMaker Clarify to handle data bias in producti\n\nExplicación\nSageMaker Feature Store is used to store and manage features, not monitor data drift. SageMaker Clarify is primarily used to detect bias, not for monitoring overall model performance.\n\nSageMaker Data Wrangler for data monitoring, and AWS Glue to retrain the model automatically.\n\nExplicación\nSageMaker Data Wrangler is for data preparation, not for continuous data monitoring or retraining.",
+      "options": [
+        "Amazon CloudWatch for monitoring model performance and SageMaker Data Wrangler to retrain the model.",
+        "SageMaker Feature Store to track changes in data distribution, and SageMaker Clarify to handle data bias in producti",
+        "SageMaker Data Wrangler for data monitoring, and AWS Glue to retrain the model automatically.",
+        "SageMaker Model Monitor for monitoring data drift, and SageMaker Pipelines to automate model retraining."
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor for monitoring data drift, and SageMaker Pipelines to automate model retraining."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

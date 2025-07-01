@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A data scientist is using SageMaker Data Wrangler to prepare a dataset for training a machine learning model. The processed data will be stored in Amazon S3 for long-term storage and later used in a training job managed by SageMaker. The team also needs to automate the entire process, ensuring that the data preparation, training, and deployment steps are triggered automatically whenever new data is available in S3.\nWhich combination of services would best meet this requirement?",
+      "options": [
+        "Amazon S3, AWS Lambda, and AWS Step Functions",
+        "Amazon Redshift, AWS Lambda, and Amazon SageMaker Model Monitor",
+        "AWS Glue, Amazon S3, and AWS Batch",
+        "Amazon S3, AWS Step Functions, and Amazon Athena"
+      ],
+      "correct_answers": [
+        "Amazon S3, AWS Lambda, and AWS Step Functions"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

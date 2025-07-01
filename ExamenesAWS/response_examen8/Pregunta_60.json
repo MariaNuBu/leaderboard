@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "An e-commerce company is planning to integrate Amazon Bedrock for customer support and product recommendation. They want a solution that provides personalized product suggestions based on user interactions in real-time. Additionally, they need a secure environment where sensitive user data remains within a specific AWS region.\n\nWhich feature of Amazon Bedrock would best address their need for data security?\n\nKnowledge bases\n\nExplicación\nKnowledge bases improve the quality of responses but do not specifically address security.\n\nServerless environment with automated scaling\n\nExplicación\nThe serverless environment offers automated scaling but does not directly relate to data security.\n\nAWS Identity and Access Management (IAM) integration\n\nExplicación\nWhile IAM can control access, it does not guarantee encryption of data in transit and at rest.",
+      "options": [
+        "Knowledge bases",
+        "Serverless environment with automated scaling",
+        "AWS Identity and Access Management (IAM) integration",
+        "Data encryption in transit and at rest"
+      ],
+      "correct_answers": [
+        "Data encryption in transit and at rest"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4"
+    }
+  ]
+}
