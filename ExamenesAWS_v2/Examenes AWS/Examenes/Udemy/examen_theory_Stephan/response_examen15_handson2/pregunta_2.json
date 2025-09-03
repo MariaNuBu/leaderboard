@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Your team is building a recommendation system for an e-commerce platform. Which SageMaker feature would help you efficiently handle and scale the training of your machine learning model?",
+      "options": [
+        "SageMaker Processing",
+        "SageMaker Neo",
+        "SageMaker Training Jobs",
+        "SageMaker Ground Truth"
+      ],
+      "correct_answers": [
+        "SageMaker Training Jobs"
+      ],
+      "references": [],
+      "topic": "Data Transformation, Integrity, and Feature Engineering",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496099",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

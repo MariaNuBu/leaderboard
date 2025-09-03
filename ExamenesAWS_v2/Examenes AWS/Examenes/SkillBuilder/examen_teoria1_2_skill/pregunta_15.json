@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A large bookstore collects large amounts of customer data across websites, mobile apps, and brick-and-mortar stores. It wants to build a machine learning (ML) model to predict customer lifetime value. The company will need to preprocess and engineer features from the raw data before model training.\n\nWhat is the BEST approach to this scenario?",
+      "options": [
+        "Process the data in Spark or extract, transform, and load (ETL) tools and save features to CSV files in Amazon S3.",
+        "Use AWS Glue to catalog the raw data and build jobs to transform features during training.",
+        "Use Amazon SageMaker Feature Store to ingest the data and build curated features. Serve these features to models during training.",
+        "Upload the raw data directly to Amazon S3 and process features quickly during training."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Feature Store to ingest the data and build curated features. Serve these features to models during training."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

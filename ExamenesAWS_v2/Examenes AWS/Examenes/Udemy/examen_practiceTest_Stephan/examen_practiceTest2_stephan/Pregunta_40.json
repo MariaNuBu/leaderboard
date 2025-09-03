@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "You are a data scientist at a healthcare company working on deploying a machine learning model that predicts patient outcomes based on real-time data from wearable devices. The model needs to be containerized for easy deployment and scaling across different environments, including development, testing, and production. The company wants to ensure that container images are managed efficiently, securely, and consistently across all environments.\n\nGiven these requirements, which combination of AWS services is the MOST SUITABLE for building, storing, deploying, and maintaining the containerized ML solution?\n\nUse Amazon ECS to manage and deploy the containerized model, Amazon S3 to store container images, and manually push updates to the containers using the AWS CLI\n\nUse Docker Hub to store the container images, Amazon EKS for orchestrating the containers, and AWS Lambda to trigger updates to the containers when new images are pushed",
+      "options": [
+        "Use Amazon ECS to manage and deploy the containerized model, Amazon S3 to store container images, and manually push updates to the containers using the AWS CLI",
+        "Use Docker Hub to store the container images, Amazon EKS for orchestrating the containers, and AWS Lambda to trigger updates to the containers when new images are pushed",
+        "Use Amazon ECR to store the container images, Amazon EKS for orchestrating the containers, and AWS CodePipeline for automating the CI/CD pipeline, ensuring that updates to the model are seamlessly deployed",
+        "Use Amazon ECR to store container images, manually deploy containers on Amazon EC2 instances, and use AWS CloudFormation to manage the infrastructure configuration"
+      ],
+      "correct_answers": [
+        "Use Amazon ECR to store the container images, Amazon EKS for orchestrating the containers, and AWS CodePipeline for automating the CI/CD pipeline, ensuring that updates to the model are seamlessly deployed"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/whitepapers/latest/build-secure-enterprise-ml-platform/automation-pipelines.html",
+        "https://aws.amazon.com/blogs/machine-learning/build-a-ci-cd-pipeline-for-deploying-custom-machine-learning-models-using-aws-services/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

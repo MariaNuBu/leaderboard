@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A marketing analytics company is building a customer segmentation model to identify groups of users based on their purchasing behavior and engagement. The dataset includes user demographic data, transaction history, and website interaction logs. The demographic data and transaction history are stored in Amazon S3, while website interaction logs are stored in an on-premises PostgreSQL database. The dataset includes a mix of categorical features (e.g., \"region,\" \"customer tier\") and numerical features (e.g., \"purchase amount,\" \"session duration\"). To improve the model's performance, the ML engineer must transform and preprocess the data. The solution must minimize operational overhead while ensuring the dataset is ready for model training.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Use Amazon SageMaker Data Wrangler to preprocess the data, including transforming numerical data into categorical data using one-hot encoding and standardizing numerical features",
+        "Use Amazon SageMaker Data Wrangler to preprocess the data, including transforming categorical data into numerical data using one-hot encoding and standardizing numerical features",
+        "Use AWS Glue ETL jobs to convert categorical data into numerical format and apply custom transformations to the dataset",
+        "Use Amazon Athena queries to manually transform categorical data into numerical representations and store the output back into S3"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Data Wrangler to preprocess the data, including transforming categorical data into numerical data using one-hot encoding and standardizing numerical features"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html",
+        "https://aws.amazon.com/sagemaker-ai/data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "TOPIC 4.1 Monitor model inference.\n\nA retail company is using an Amazon SageMaker recommendation model to generate personalized in-application notifications. The product catalog changes on a weekly basis, and the merchandise categories are highly imbalanced. The company is concerned that data drift is too high and introduces significant bias, despite regular model re-training.\n\nWhich action can the company take to detect bias in production?",
+      "options": [
+        "A Configure and schedule a SageMaker Clarify processing job.",
+        "B Configure hyperparameter optimization (HPO) by using SageMaker Autopilot.",
+        "C Configure a weekly labeling job by using SageMaker Ground Truth.",
+        "D Configure a SageMaker Debugger rule to run on a weekly schedule."
+      ],
+      "correct_answers": [
+        "A Configure and schedule a SageMaker Clarify processing job."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.1 Monitor model inference.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

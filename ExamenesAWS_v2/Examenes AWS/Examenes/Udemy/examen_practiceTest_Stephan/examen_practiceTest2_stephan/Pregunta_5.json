@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "You are a machine learning engineer tasked with building a deep learning model to classify images for an autonomous vehicle project. The dataset is massive, consisting of millions of labeled images. Initial training runs on a single GPU instance in Amazon SageMaker are taking too long, and the training costs are rising. You need to reduce the model training time without compromising performance significantly.\n\nWhich of the following approaches is the MOST LIKELY to effectively reduce the training time while maintaining model performance?",
+      "options": [
+        "Implement distributed training using multiple GPU instances to parallelize the training process, reducing the overall time",
+        "Switch to a smaller instance type to reduce computational costs, accepting a longer training time as a trade-off",
+        "Enable early stopping to halt training when the model’s performance on the validation set stops improving, thereby avoiding overfitting",
+        "Reduce the size of the training dataset to speed up training, even if it means using fewer examples per class"
+      ],
+      "correct_answers": [
+        "Implement distributed training using multiple GPU instances to parallelize the training process, reducing the overall time"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-early-stopping.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

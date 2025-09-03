@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "A biotechnology company is building a machine learning solution to predict the effectiveness of new drug compounds. The company stores its dataset of molecular simulations, totaling over 6 TB, in Amazon S3. The dataset contains CSV, Parquet, and JSON files. The preprocessing involves complex calculations and data transformations, including specialized scientific computations that can take hours to execute. The company needs to automate the entire workflow, from preprocessing to model training, while ensuring efficiency and scalability.\n\nWhich solution will meet these requirements?\n\nUse AWS Glue workflows to perform the data transformations and preprocessing before exporting the data to SageMaker for model training\n\nUse Amazon EMR to preprocess the large dataset, run the scientific computations, and store the transformed data in Amazon S3 before initiating SageMaker training",
+      "options": [
+        "Use AWS Glue workflows to perform the data transformations and preprocessing before exporting the data to SageMaker for model training",
+        "Use Amazon EMR to preprocess the large dataset, run the scientific computations, and store the transformed data in Amazon S3 before initiating SageMaker training",
+        "Use Amazon SageMaker Pipelines to define and automate the entire ML workflow, including data preprocessing, data transformations, and model training",
+        "Use AWS Step Functions to orchestrate the data preprocessing steps with Amazon Glue and integrate with SageMaker for model training"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Pipelines to define and automate the entire ML workflow, including data preprocessing, data transformations, and model training"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines-overview.html",
+        "https://aws.amazon.com/sagemaker-ai/pipelines/",
+        "https://docs.aws.amazon.com/glue/latest/dg/workflows_overview.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

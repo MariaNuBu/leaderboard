@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "A financial services company uses Amazon SageMaker to develop and register machine learning (ML) models for various business needs, such as fraud detection, risk assessment, and customer segmentation. These models are stored in model groups within the SageMaker Model Registry. The data science team is categorized into three specialized groups based on their areas of focus: fraud detection models, risk assessment models, and customer segmentation models. An ML engineer needs to implement a solution to organize the existing models into these three business categories to improve discoverability at scale, while ensuring the integrity of the model artifacts and their existing groupings remains unaffected.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use SageMaker Model Registry collections to group existing model groups into high-level categories, such as fraud detection, risk assessment, and customer segmentation",
+        "Attach custom tags to each model artifact in the SageMaker Model Registry to specify their category and filter models based on tags",
+        "Use SageMaker Feature Store to tag models with metadata for fraud detection, risk assessment, and customer segmentation. Filter models using queries on the Feature Store.",
+        "Move models into newly created SageMaker model groups for fraud detection, risk assessment, and customer segmentation, reassigning them from their current groups"
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Registry collections to group existing model groups into high-level categories, such as fraud detection, risk assessment, and customer segmentation"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/modelcollections.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

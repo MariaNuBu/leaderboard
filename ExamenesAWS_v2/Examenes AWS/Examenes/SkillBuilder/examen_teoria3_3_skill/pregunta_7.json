@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A DevOps engineer is troubleshooting an issue with an AWS CodeDeploy pipeline that keeps failing during the Deploy stage. Which troubleshooting step should they take first?",
+      "options": [
+        "Check the pipeline configuration in CodeDeploy and AWS CodeBuild.",
+        "Disable all pipeline stages except the Deploy stage to isolate the issue.",
+        "Review all logs from the Deploy stage for error messages.",
+        "Redeploy the application manually using the AWS Command Line Interface (AWS CLI)."
+      ],
+      "correct_answers": [
+        "Review all logs from the Deploy stage for error messages."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

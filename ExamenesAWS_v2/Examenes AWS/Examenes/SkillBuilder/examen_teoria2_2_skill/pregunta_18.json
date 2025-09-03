@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A data scientist is training a deep learning model on Amazon SageMaker and observes that the validation accuracy has stopped improving after 10 epochs. Which technique can they use to automatically halt the training process and potentially save computational resources?",
+      "options": [
+        "Distributed training",
+        "Early stopping",
+        "Hyperparameter tuning",
+        "Model checkpointing"
+      ],
+      "correct_answers": [
+        "Early stopping"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/early-stopping.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

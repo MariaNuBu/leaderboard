@@ -1,0 +1,88 @@
+Pregunta 1:
+Your data engineering team is setting up a data pipeline to process large datasets using Hadoop and Spark on AWS. Which service would you choose to efficiently manage the cluster?
+
+AWS Glue
+Amazon EMR (Correct)
+SageMaker Processing
+AWS Batch
+
+----
+
+Pregunta 2:
+Your team is building a recommendation system for an e-commerce platform. Which SageMaker feature would help you efficiently handle and scale the training of your machine learning model?
+SageMaker Processing
+SageMaker Neo
+SageMaker Training Jobs (Correct)
+SageMaker Ground Truth
+
+----
+
+Pregunta 3:
+A financial institution wants to detect anomalies in transaction data to identify potential fraud. Which AWS service could you use to deploy an outlier detection model, and monitor its performance over time?
+SageMaker Clarify
+SageMaker Model Monitor (Correct)
+Amazon QuickSight
+AWS Glue DataBrew
+
+----
+
+Pregunta 4:
+Your company is developing a machine learning model to predict customer churn, but you're concerned about potential bias in the model's predictions. Which SageMaker feature helps detect and mitigate bias during model training?
+SageMaker Neo
+SageMaker Feature Store
+SageMaker Clarify (Correct)
+SageMaker Processing
+
+----
+
+Pregunta 5:
+You are tasked with deploying a machine learning model to edge devices in a factory. Which SageMaker feature would you use to optimize and deploy the model efficiently?
+SageMaker Neo (Correct)
+SageMaker Batch Transform
+SageMaker Data Wrangler
+SageMaker Studio
+
+----
+
+Pregunta 6:
+You are managing a big data project that requires periodic processing of large datasets stored in Amazon S3. Which service would you use to schedule and manage the execution of these data processing jobs?
+AWS Glue (Correct)
+Amazon EMR.
+SageMaker Processing
+AWS Batch
+
+----
+
+Pregunta 7:
+lealthcare company needs to label large amounts of medical images for training a diagnostic Al model. Which SageMaker service would streamline this process by managing the labeling tasks?
+SageMaker Data Wrangler
+SageMaker Ground Truth (Correct)
+SageMaker Feature Store
+SageMaker Studio
+
+----
+
+Pregunta 8:
+A data scientist wants to experiment with different machine learning algorithms and compare their performance on a dataset. Which SageMaker feature provides an environment for such experimentation?
+SageMaker Processing
+SageMaker Studio (Correct)
+SageMaker Neo
+SageMaker Ground Truth
+
+----
+
+Pregunta 9:
+You are working with a dataset that contains several missing values in a column representing customer ages. The data is relatively small, and the distribution of ages is skewed by a few extreme outliers. Which imputation technique should you choose to fill in the missing values?
+Mean Replacement
+Mode Replacement
+Median Replacement (Correct)
+Dropping Rows with Missing Data
+
+----
+
+Pregunta 10:
+Your machine learning model is struggling to accurately predict a rare event, such as equipment failure, which occurs in less than 1% of your dataset. You want to generate synthetic samples to balance the dataset without simply duplicating existing data. Which technique should you use?
+SMOTE (Synthetic Minority Over-sampling Technique) (Correct)
+Undersampling
+Adjusting Classification Thresholds
+Mean Replacement

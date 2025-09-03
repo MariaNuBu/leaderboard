@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "Your team is developing a machine learning (ML) model that requires multiple containers to handle different tasks, such as data preprocessing, model training, and model serving.\n\nWhat is the best approach to deploy this model using Amazon SageMaker?",
+      "options": [
+        "Use a single-container endpoint and deploy multiple models in that container.",
+        "Use a multi-container endpoint and deploy a single model across multiple containers.",
+        "Use a single-container endpoint and handle all tasks within that container.",
+        "Use a multi-container endpoint and deploy each task in a separate container."
+      ],
+      "correct_answers": [
+        "Use a multi-container endpoint and deploy each task in a separate container."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

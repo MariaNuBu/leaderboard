@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "You are designing a machine learning (ML) model for a recommendation system that suggests products to customers based on their browsing and purchase history. The application needs to handle user requests with low latency and high throughput in real time. Which SageMaker Inference strategy would be BEST suited for this use case?",
+      "options": [
+        "Real-time",
+        "Asynchronous",
+        "Serverless",
+        "Batch transform"
+      ],
+      "correct_answers": [
+        "Real-time"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

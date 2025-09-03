@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A machine learning team has deployed several models using Amazon SageMaker. To ensure the models perform optimally in production, they need to monitor the models for data drift and performance degradation. Additionally, they want to track which version of the dataset and hyperparameters were used in the experiments that produced these models. Which combination of SageMaker services will help them achieve this?\n\nSageMaker Clarify and SageMaker Studio\n\nExplicación\nSageMaker Clarify is used for bias detection, and SageMaker Studio is a development environment, neither of which focus on monitoring models in production or tracking experiment details.\n\nSageMaker Experiments and SageMaker Neo\n\nExplicación\nSageMaker Neo is for optimizing models, and while SageMaker Experiments tracks experiments, it does not handle production model monitoring.",
+      "options": [
+        "SageMaker Clarify and SageMaker Studio",
+        "SageMaker Experiments and SageMaker Neo",
+        "SageMaker Model Monitor and SageMaker Experiments",
+        "SageMaker Feature Store and SageMaker Model Monitor"
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor and SageMaker Experiments"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

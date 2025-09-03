@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "You are working on a machine learning (ML) project that requires ingesting and processing large volumes of data from various sources. As the data is ingested with Amazon Kinesis Data Streams and stored in Amazon S3, you have been experiencing performance issues. High latency, slow data transfer, and capacity limitations have all been occurring. How could you mitigate these issues?",
+      "options": [
+        "You have insufficient monitoring and visibility into data transfer and storage systems. Set up Amazon CloudWatch metrics and Logs to monitor Amazon S3 and Amazon Data Firehose.",
+        "Uneven data distribution is causing hotspots and performance bottlenecks. Use batch data ingestion with Amazon Kinesis to improve data transfer efficiency and reduce the load on Amazon S3.",
+        "Scalability of the data ingestion portion of the pipeline is causing these issues (Amazon Data Firehose). Increase the amount of Amazon Kinesis shards and batch sizes to improve efficiency of Firehose.",
+        "Amazon S3 is running into capacity issues causing the low latency and data transfer slow down. Compress the data prior to transferring with dynamic partitioning to spread data across multiple Amazon S3 prefixes within an Amazon S3 bucket to avoid data hotspots."
+      ],
+      "correct_answers": [
+        "Amazon S3 is running into capacity issues causing the low latency and data transfer slow down. Compress the data prior to transferring with dynamic partitioning to spread data across multiple Amazon S3 prefixes within an Amazon S3 bucket to avoid data hotspots."
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "An MLOps engineer is troubleshooting an application that includes a SageMaker endpoint. Users have been reporting occasional performance issues. The engineer notices that these reports correspond to increased latency in model predictions. Further research shows that model prediction latency increases when CPUUtilizaton of the Amazon EC2 instances hosting the inference containers reaches 95 percent. The MLOps engineer also notices that this saturation sometimes occurs during invocations metric spikes. How should the engineer address this issue in an operationally efficient and cost-effective manner?",
+      "options": [
+        "Implement a target tracking policy on the SageMaker endpoint and set the target metric to Invocations.",
+        "Implement a step scaling policy to scale out the number of instances when CPUUtilization reaches a certain threshold.",
+        "Change the Amazon EC2 instance type used for hosting the inference containers to a type with a larger CPU.",
+        "Implement a target tracking policy on the SageMaker endpoint and set the target metric to CPUUtilization."
+      ],
+      "correct_answers": [
+        "Implement a target tracking policy on the SageMaker endpoint and set the target metric to CPUUtilization."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A machine learning engineer is using the Amazon SageMaker Python SDK to create a model training job. Which class and class method would the engineer use to define, and then start, a training job?",
+      "options": [
+        "Instantiate a Processor class and use the run() method.",
+        "Instantiate an Estimator class and use the run() method.",
+        "Instantiate an Estimator class and use the fit() method.",
+        "Instantiate an Estimator class and use the deploy() method."
+      ],
+      "correct_answers": [
+        "Instantiate an Estimator class and use the fit() method."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

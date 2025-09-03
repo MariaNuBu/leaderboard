@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Your organization is launching a machine learning-powered application that processes large volumes of data in batch mode. You are being asked to choose a managed container orchestration service that minimizes overhead. This service will also need to manage the other features of your application. Which option is the best choice, based on these requirements?",
+      "options": [
+        "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "AWS Lambda",
+        "Amazon Elastic Container Service (Amazon ECS)",
+        "Amazon SageMaker Endpoints"
+      ],
+      "correct_answers": [
+        "Amazon Elastic Container Service (Amazon ECS)"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

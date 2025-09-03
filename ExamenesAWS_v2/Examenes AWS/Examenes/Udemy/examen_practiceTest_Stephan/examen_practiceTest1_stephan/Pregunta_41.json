@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "A healthcare company is building an AI application to predict patient readmission rates using Amazon SageMaker. The application must support end-to-end machine learning workflows, including data preprocessing, model training, version management, and deployment. The training data, stored securely in Amazon S3, must be used in isolated and secure environments to comply with regulatory requirements. As part of model experimentation, the data science team is running multiple training jobs back-to-back to test different hyperparameter configurations.\n\nTo improve the team’s productivity, the company needs to reduce the startup time for each consecutive training job. What is the most efficient solution to achieve this goal?",
+      "options": [
+        "Enable SageMaker Warm Pools to reuse training instances between jobs",
+        "Use Amazon EC2 On-Demand Instances with pre-configured AMIs for SageMaker",
+        "Use Amazon SageMaker Managed Spot Training for faster resource allocation",
+        "Use SageMaker Training Compiler to minimize data transfer latency"
+      ],
+      "correct_answers": [
+        "Enable SageMaker Warm Pools to reuse training instances between jobs"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-training-managed-warm-pools/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/train-warm-pools.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

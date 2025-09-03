@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A machine learning engineer is designing a machine learning application running on Amazon ECS. They have decided to use serverless hosting on AWS Fargate for their containers. How do they define the amount of compute capacity their application will need?",
+      "options": [
+        "Specify an EC2 instance type and AWS Fargate will replicate the resources provided by that instance.",
+        "Specify the CPU resources that their workload requires.",
+        "Specify both the CPU and memory resources that their workload requires.",
+        "Specify the memory resources that their workload requires."
+      ],
+      "correct_answers": [
+        "Specify both the CPU and memory resources that their workload requires."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

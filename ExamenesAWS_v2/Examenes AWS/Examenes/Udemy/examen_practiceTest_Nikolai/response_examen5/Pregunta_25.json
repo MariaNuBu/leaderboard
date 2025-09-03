@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A team at a media company wants to use Amazon SageMaker Jumpstart to quickly deploy a pre-trained model for text generation. They are considering whether to customize the model to better suit their specific use case. Which of the following customization methods available in Jumpstart should the team use to adapt the pre-trained model to their needs? (Choose TWO)",
+      "options": [
+        "Perform manual hyperparameter tuning using SageMaker Studio, as Jumpstart models do not support automatic hyperparameter tuning.",
+        "Fine-tune the pre-trained model using their own dataset to improve performance for their specific task.",
+        "Use SageMaker Autopilot to automatically generate new models from scratch based on their dataset, bypassing the need for pre-trained models.",
+        "Use prompt engineering to design and refine the input prompts so that the model output aligns better with their business requirements.",
+        "Customize the pre-trained model by changing the underlying model architecture to better suit text analysis tasks."
+      ],
+      "correct_answers": [
+        "Fine-tune the pre-trained model using their own dataset to improve performance for their specific task.",
+        "Use prompt engineering to design and refine the input prompts so that the model output aligns better with their business requirements."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

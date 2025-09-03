@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A machine learning (ML) engineer is using the Amazon SageMaker Python SDK to create an automated model training pipeline. How would they define a data processing step in their pipeline?",
+      "options": [
+        "Instantiate an Estimator class and use the run() method. Use this as input to a ProcessingStep().",
+        "Instantiate a Processor class and use the run() method. Use this as input to a TrainingStep().",
+        "Instantiate a Processor class and use the run() method. Use this as input to a ProcessingStep().",
+        "Instantiate a Processor class and use the fit() method. Use this as input to a ProcessingStep()."
+      ],
+      "correct_answers": [
+        "Instantiate a Processor class and use the run() method. Use this as input to a ProcessingStep()."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

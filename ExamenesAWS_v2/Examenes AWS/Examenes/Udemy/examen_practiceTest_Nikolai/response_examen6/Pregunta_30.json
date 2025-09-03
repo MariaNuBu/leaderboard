@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A financial services firm is building a fraud detection system and is considering whether to use custom models or built-in algorithms in Amazon SageMaker. In which scenario would a custom algorithm be MORE appropriate than a built-in algorithm?\n\nWhen the task requires basic machine learning models like Linear Learner or XGBoost.\nWhen you need to use proprietary machine learning models that are not available as built-in algorithms in SageMaker.\nWhen your goal is to minimize infrastructure management and focus only on tuning hyperparameters.\nWhen built-in algorithms in SageMaker are optimized for the task at hand, such as fraud detection.",
+      "options": [
+        "When the task requires basic machine learning models like Linear Learner or XGBoost.",
+        "When you need to use proprietary machine learning models that are not available as built-in algorithms in SageMaker.",
+        "When your goal is to minimize infrastructure management and focus only on tuning hyperparameters.",
+        "When built-in algorithms in SageMaker are optimized for the task at hand, such as fraud detection."
+      ],
+      "correct_answers": [
+        "When you need to use proprietary machine learning models that are not available as built-in algorithms in SageMaker."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

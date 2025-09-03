@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "A security-sensitive application requires encryption for all data stored in Amazon S3. The organization also wants complete control over encryption keys, including the ability to audit their usage and set specific rotation policies.\n\nWhich type of AWS Key Management Service (KMS) key should they choose?\n\nAWS Managed Key\n\nExplicación\nAWS Managed Keys offer auditing but do not allow full control over key policies or rotation settings.\n\nAWS Owned Key\n\nExplicación\nAWS Owned Keys are fully managed by AWS, with no user access or control, making them unsuitable for security-sensitive needs.",
+      "options": [
+        "AWS Managed Key",
+        "AWS Owned Key",
+        "Customer Managed Key",
+        "Symmetric Key"
+      ],
+      "correct_answers": [
+        "Customer Managed Key"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "You are training a neural network and observe that the model performs well on training data but fails to generalize to new, unseen data. Which technique can help improve model performance?",
+      "options": [
+        "Add new domain-specific features and more feature Cartesian products.",
+        "Decrease L1 regularization.",
+        "Increase the size of the training set.",
+        "Use dropout."
+      ],
+      "correct_answers": [
+        "Use dropout."
+      ],
+      "references": [
+        "https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

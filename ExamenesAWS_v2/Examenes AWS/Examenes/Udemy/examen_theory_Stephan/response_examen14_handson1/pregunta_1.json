@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Your company needs to store a massive volume of semi-structured data for future analysis. Which AWS storage solution would be the most cost-effective and flexible?",
+      "options": [
+        "Amazon RDS",
+        "Amazon S3",
+        "Amazon Redshift",
+        "Amazon DynamoDB"
+      ],
+      "correct_answers": [
+        "Amazon S3"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

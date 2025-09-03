@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A company is training a deep learning model for image classification on a large dataset of millions of images. The training process is taking an excessively long time, and the company wants to reduce the training time without compromising model performance. They have access to multiple GPU instances on Amazon SageMaker. Which method would be most suitable for reducing the training time in this scenario?",
+      "options": [
+        "Early stopping",
+        "Data parallelism",
+        "Model parallelism",
+        "Hyperparameter tuning"
+      ],
+      "correct_answers": [
+        "Data parallelism"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

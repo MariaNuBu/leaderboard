@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A team is working on a shared development environment and needs a scalable, highly available file system that can be mounted on multiple EC2 instances across multiple Availability Zones. Which AWS service should they use?",
+      "options": [
+        "Amazon S3",
+        "Amazon EBS",
+        "AWS Backup",
+        "Amazon EFS"
+      ],
+      "correct_answers": [
+        "Amazon EFS"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A machine learning engineer is responsible for monitoring and logging the security and compliance of their SageMaker workloads. Which AWS service would the engineer use to set up alarms and receive notifications when certain thresholds are met, potentially indicating a security incident or compliance violation?",
+      "options": [
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Security Hub",
+        "AWS CloudWatch"
+      ],
+      "correct_answers": [
+        "AWS CloudWatch"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

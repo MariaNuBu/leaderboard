@@ -1,0 +1,87 @@
+Pregunta 1:
+You are setting up CloudWatch Logs for an EC2 instance. Which agent should you use to collect both system-level metrics and log data?
+CloudWatch Logs Agent
+Cloud Watch Unified Agent (Correct)
+AWS SDK
+CloudWatch Metrics
+
+----
+
+Pregunta 2:
+Your application is experiencing intermittent high latency. You need to analyze the logs to find patterns over time. Which CloudWatch feature would you use?
+CloudWatch Logs Insights (Correct)
+CloudWatch Logs
+CloudWatch Alarms
+CloudWatch Dashboards
+
+----
+
+Pregunta 3:
+You want to stream real-time log data from CloudWatch Logs to Amazon S3 for archival. What approach should you take?
+Use CloudWatch Logs Subscriptions. (Correct)
+Set up a CloudWatch Dashboard.
+Use CloudWatch Metric Streams.
+Use the CloudWatch Logs Export feature.
+
+----
+
+Pregunta 4:
+You need to ensure that a specific S3 bucket is not publicly accessible. Which AWS service can help you audit this?
+CloudWatch
+AWS Config (Correct)
+AWS CloudTrail
+AWS Trusted Advisor
+
+----
+
+Pregunta 5:
+To optimize costs, you want to automatically shut down underutilized EC2 instances. Which CloudWatch feature should you use?
+CloudWatch Logs
+CloudWatch Metrics
+CloudWatch Dashboards
+CloudWatch Alarms (Correct)
+
+----
+
+Pregunta 6:
+Your organization wants to ensure that a specific instance type is used for all EC2 instances in a particular environment. Which AWS Config feature would you use?
+AWS Config Rules (Correct)
+AWS Config Resource Compliance
+AWS Config Aggregator
+AWS Config Snapshot
+
+----
+
+Pregunta 7:
+Which AWS service should you use to detect unusual activity, like unauthorized access attempts, in your account?
+AWS Config
+CloudWatch Alarms
+AWS CloudTrail Insights (Correct)
+AWS CloudTrail
+
+----
+
+Pregunta 8:
+Your company needs to monitor and manage costs associated with AWS usage. Which service should you use?
+AWS Trusted Advisor
+AWS Cost Explorer (Correct)
+CloudWatch Metrics
+AWS Config
+
+----
+
+Pregunta 9:
+To ensure your CloudWatch Logs are encrypted with a specific KMS key, what should you configure?
+CloudWatch Logs Agent
+AWS CloudTrail
+CloudWatch Logs Encryption (Correct)
+CloudWatch Unified Agent
+
+----
+
+Pregunta 10:
+Your team uses Amazon QuickSight for business analytics. You want to enable anomaly detection on sales data to automatically identify unusual spikes in sales. Which feature of QuickSight should you use?
+SPICE
+AutoGraph
+Machine Learning Insights (Correct)
+QuickSight Q

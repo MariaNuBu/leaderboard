@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "In a sequence-to-sequence transformer model used for translation, what is the role of the decoder?",
+      "options": [
+        "To generate the target sequence from the source sequence",
+        "To encode the input sequence into a fixed-size vector",
+        "To compute the attention weights for the input tokens",
+        "To normalize the output probabilities using softmax"
+      ],
+      "correct_answers": [
+        "To generate the target sequence from the source sequence"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

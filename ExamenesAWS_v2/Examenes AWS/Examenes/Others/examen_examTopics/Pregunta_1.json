@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Case Study -\nA company is building a web-based AI application by using Amazon SageMaker. The application will provide the following capabilities and features: ML experimentation, training, a central model registry, model deployment, and model monitoring.\nThe application must ensure secure and isolated use of training data during the ML lifecycle. The training data is stored in Amazon S3.\nThe company needs to use the central model registry to manage different versions of models in the application.\nWhich action will meet this requirement with the LEAST operational overhead?",
+      "options": [
+        "A. Create a separate Amazon Elastic Container Registry (Amazon ECR) repository for each model.",
+        "B. Use Amazon Elastic Container Registry (Amazon ECR) and unique tags for each model version.",
+        "C. Use the SageMaker Model Registry and model groups to catalog the models. Most Voted",
+        "D. Use the SageMaker Model Registry and unique tags for each model version."
+      ],
+      "correct_answers": [
+        "C. Use the SageMaker Model Registry and model groups to catalog the models. Most Voted"
+      ],
+      "references": [
+        "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01"
+      ],
+      "topic": "",
+      "Source": "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01",
+      "Practice test": ""
+    }
+  ]
+}

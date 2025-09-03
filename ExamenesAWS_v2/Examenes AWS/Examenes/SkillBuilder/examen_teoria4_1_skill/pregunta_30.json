@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A media company wants to improve its content recommendation system by testing a new machine learning model.  Which scenario would benefit the most from using A/B testing for evaluating the new recommendation model?",
+      "options": [
+        "The company wants to assess the impact of the new model on user engagement metrics, such as click-through rates and content consumption.",
+        "The company wants to ensure that the new model complies with data privacy regulations and does not expose any sensitive user information.",
+        "The company wants to evaluate the new model's performance on a static dataset of historical user interactions and content metadata.",
+        "The company wants to compare the computational performance of the new model against the existing model in terms of inference latency and resource utilization."
+      ],
+      "correct_answers": [
+        "The company wants to assess the impact of the new model on user engagement metrics, such as click-through rates and content consumption."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

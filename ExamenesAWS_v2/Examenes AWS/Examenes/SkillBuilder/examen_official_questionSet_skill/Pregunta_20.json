@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A financial services company has an ML model for near real-time, low-latency fraud detection. The model is less than 1 GB in size, receives no more than 10 concurrent requests, and is currently hosted on premises. The company wants to host the model on AWS but does not want to manage or optimize the infrastructure that is servicing the models. The company wants a hosting solution with minimal overhead.\n\nWhich solution will deploy the ML model with the LEAST effort?",
+      "options": [
+        "A\nImport the model into Amazon Fraud Detector. Serve the model from the Amazon Fraud Detector serverless endpoint.",
+        "B\nConfigure the model as an Amazon SageMaker Model. Serve the model on a serverless SageMaker endpoint.",
+        "C\nConfigure the model as an Amazon SageMaker Model. Serve the model on an asynchronous SageMaker endpoint.",
+        "D\nBuild a container for the model. Use Amazon Elastic Container Service (Amazon ECS) to deploy the model to AWS Fargate."
+      ],
+      "correct_answers": [
+        "B\nConfigure the model as an Amazon SageMaker Model. Serve the model on a serverless SageMaker endpoint."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

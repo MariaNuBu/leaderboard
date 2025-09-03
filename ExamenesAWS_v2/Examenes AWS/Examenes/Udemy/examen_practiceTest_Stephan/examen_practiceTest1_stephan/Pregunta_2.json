@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Which benefits might persuade a developer to choose a transparent and explainable machine learning model? (Select two)\nThey enhance security by concealing model logic\nThey facilitate easier debugging and optimization\nThey require less computational power and storage\nThey foster trust and confidence in model predictions\nThey simplify the integration process with other systems",
+      "options": [
+        "They enhance security by concealing model logic",
+        "They facilitate easier debugging and optimization",
+        "They require less computational power and storage",
+        "They foster trust and confidence in model predictions",
+        "They simplify the integration process with other systems"
+      ],
+      "correct_answers": [
+        "They facilitate easier debugging and optimization",
+        "They foster trust and confidence in model predictions"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-explainability.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

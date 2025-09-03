@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A team is deploying a machine learning model to production and is concerned about potential bias in the predictions. Which AWS service should they use to monitor for bias in real-time?",
+      "options": [
+        "Amazon Augmented AI",
+        "AWS Glue",
+        "SageMaker Clarify",
+        "SageMaker Model Monitor"
+      ],
+      "correct_answers": [
+        "SageMaker Clarify"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-bias-drift-monitoring.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-clarify.html"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

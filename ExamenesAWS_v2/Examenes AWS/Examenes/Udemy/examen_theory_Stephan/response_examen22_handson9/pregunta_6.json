@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "You are configuring network isolation for a SageMaker training job to prevent data leaks. What is a potential drawback of enabling network isolation?",
+      "options": [
+        "Increased training cost and time.",
+        "The job will lose access to S3.",
+        "IAM roles cannot be assigned to the job.",
+        "The job cannot use VPC endpoints."
+      ],
+      "correct_answers": [
+        "The job will lose access to S3."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

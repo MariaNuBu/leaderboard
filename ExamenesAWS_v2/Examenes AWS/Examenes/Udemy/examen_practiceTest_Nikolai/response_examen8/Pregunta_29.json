@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "A machine learning engineer is training a decision tree model and is tasked with tuning the model’s hyperparameters. Which of the following is an example of a hyperparameter that the engineer can configure before training begins?",
+      "options": [
+        "The weights assigned to each node in the decision tree",
+        "The depth of the tree",
+        "The data points used for training",
+        "The split criteria for each node learned from the data"
+      ],
+      "correct_answers": [
+        "The depth of the tree"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

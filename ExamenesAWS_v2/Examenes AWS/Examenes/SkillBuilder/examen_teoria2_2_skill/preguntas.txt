@@ -1,0 +1,334 @@
+A machine learning engineer is training a model for predicting used car prices. What two components are needed to train a model effectively? (Choose TWO.)
+
+Loss function
+
+Optimization technique
+
+Hyperparameter
+
+Feature
+
+Parameter
+
+---
+
+A machine learning engineer is training a model for classifying images of clothing. They want the model to determine if an article of clothing is a top or a bottom. Which loss function should they use to train their model?
+
+Gradient descent
+
+Log-likelyhood loss (Correct)
+
+Root mean squared error
+
+Stochastic gradient descent
+
+---
+
+A developer wants to build a new large language model (LLM) to compete with the best LLMs available in the market. The developer needs to train a deep learning model using high-performance and cost-effective machine learning (ML) training. Which instance type is the best for their use case?
+
+CPU training instances
+
+GPU training instances
+
+AWS Trainium instances (Correct)
+
+Neural network
+
+---
+
+Which AWS service provides pre-built Docker containers for popular deep learning frameworks and machine learning (ML) libraries?
+
+Amazon Elastic Container Service (Amazon ECS)
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+
+Amazon Fargate
+
+Amazon SageMaker (Correct)
+
+---
+
+Which approach is referred as script mode when using Amazon SageMaker?
+
+Using the built-in training algorithms included in SageMaker provided container images.
+
+Using the machine learning (ML) framework, settings, libraries, and dependencies included in SageMaker provided container images, but providing your own custom training algorithms. (Correct)
+
+Building custom container images with your own algorithm, framework, dependencies, and settings.
+
+Bringing your own locally trained or externally trained model to adapt for use with SageMaker.
+
+---
+
+A retail company wants to build a machine learning (ML) model to predict customer churn based on historical customer data. The data includes features such as customer demographics, purchase history, and interactions with the company's website and mobile app. The company's data science team has decided to use Amazon SageMaker to train the model. Which of the following approaches would require the least amount of effort to train the model using SageMaker?
+
+Use a SageMaker built-in algorithm for supervised learning, such as the XGBoost algorithm, and provide the customer data as input. (Correct)
+
+Bring your own custom Python script that implements a machine learning algorithm of your choice, and use SageMaker script mode to train the model.
+
+Create a custom Docker container with the desired machine learning framework and libraries, and bring your own container in SageMaker to train the model.
+
+Use AWS Marketplace to purchase a pre-trained customer churn prediction model from a third-party vendor.
+
+---
+
+A manufacturing company wants to develop a machine learning (ML) model to predict equipment failures based on sensor data collected from their production lines. The company has a large dataset of historical sensor readings and corresponding equipment failure events stored in Amazon S3. They want to use Amazon SageMaker for training their model. Which data ingestion mode would be most suitable for this scenario?
+
+File mode
+Pipe mode (Correct)
+Fast File mode
+Fast Pipe mode
+
+---
+
+A company specializing in computer vision applications wants to develop a custom object detection model using a novel deep learning architecture. They plan to use Amazon SageMaker for training and deploying their model. Which approach would be most suitable for this scenario?
+
+Use one of the built-in algorithms in SageMaker for object detection.
+
+Develop the custom model using SageMaker script mode with a supported deep learning framework like TensorFlow or PyTorch. (Correct)
+
+Use the automatic model tuning capabilities of SageMaker to find the best architecture for object detection.
+
+Develop the custom model locally and then deploy it on SageMaker for inference.
+
+---
+
+A research team at a university is working on developing a new machine learning (ML) algorithm for natural language processing (NLP) tasks. They want to use Amazon SageMaker to train and deploy their algorithm on large-scale datasets. Which steps should they follow to bring their custom algorithm to SageMaker using script mode?
+
+Write the training script in Python, create a SageMaker estimator, and call the fit method to launch the training job. (Correct)
+
+Create a custom SageMaker container image with their algorithm and dependencies and use it to train and deploy their model.
+
+Implement their algorithm as a SageMaker built-in algorithm and use it like any other pre-built algorithm.
+
+Develop and train their algorithm locally, and then use SageMaker for deployment and inference only.
+
+---
+
+A machine learning (ML) company is developing a large language model (LLM) for natural language processing (NLP) tasks. The model has billions of parameters, and training it on a single GPU would be infeasible due to memory constraints. The company wants to use Amazon SageMaker to train the model efficiently.  Which method would be most suitable for reducing the training time in this scenario?
+
+Early stopping
+
+Data parallelism
+
+Model parallelism (Correct)
+
+Hyperparameter tuning
+
+---
+
+A company is training a deep learning model for image classification on a large dataset of millions of images. The training process is taking an excessively long time, and the company wants to reduce the training time without compromising model performance. They have access to multiple GPU instances on Amazon SageMaker. Which method would be most suitable for reducing the training time in this scenario?
+
+Early stopping
+
+Data parallelism (Correct)
+
+Model parallelism
+
+Hyperparameter tuning
+
+---
+
+A data scientist is working on a computer vision project that involves training a Convolutional Neural Network (CNN) on a dataset of high-resolution images. The dataset is relatively small, but they need to experiment with different model architectures and hyperparameters to achieve the desired performance. Which approach should they take?
+
+Use AWS Trainium instances for training the model.
+
+Use GPU instances for training the model. (Correct)
+
+Use a combination of CPU and GPU instances for training the model.
+
+Use CPU instances for training the model.
+
+---
+
+A machine learning engineer at a media organization aims to deploy a machine learning model for predicting customer behavior on AWS. The model uses a custom algorithm developed in-house. To facilitate this, they plan to use the Amazon SageMaker container capabilities. Which container image should they use for a seamless deployment process?
+
+SageMaker pre-built deep learning framework containers because they can be deployed in just a few clicks.
+
+SageMaker Bring Your Own Model (BYOM) containers because they support bringing your own model and are ideal for regulatory compliance. (Correct)
+
+SageMaker pre-built ML library containers because these include a wide range of essential ML libraries.
+
+Custom containers developed by the organization with the necessary dependencies and configurations.
+
+---
+
+A data scientist is working on a machine learning project that requires integrating a pre-trained model from AWS Marketplace. Their team wants to ensure that the model is deployed efficiently and cost-effectively on Amazon SageMaker. They decide to deploy the pre-trained model from AWS Marketplace on SageMaker. Which step should they take?
+
+Create a custom Docker container with the pre-trained model and deploy it on SageMaker.
+
+Download the pre-trained model from AWS Marketplace and manually deploy it on an Amazon EC2 instance.
+
+Train a new model on SageMaker using the pre-trained model as a starting point.
+
+Subscribe to the pre-trained model on AWS Marketplace, and deploy it on SageMaker through a Jupyter notebook, a SageMaker SDK, or the AWS Command Line Interface (AWS CLI). (Correct)
+
+---
+
+A data scientist is working on a machine learning project that requires the use of the XGBoost library. They want to use Amazon SageMaker for training and deployment. Which option would best suit their needs?
+
+Create a custom container with XGBoost and its dependencies.
+
+Use an Amazon Elastic Container Registry (Amazon ECR) container with XGBoost. (Correct)
+
+Use a SageMaker pre-built XGBoost container.
+
+Use an Amazon Elastic Kubernetes Service (Amazon EKS) container with XGBoost.
+
+---
+
+A machine learning engineer at an artificial intelligence company is working on a project to train a large language model on an extensive text corpus using AWS infrastructure. The project requires distributed training across multiple instances to achieve faster model convergence and reduced training time. Cost-efficiency is also an important consideration. Which approach should they take?
+
+Choose AWS Trainium instances. (Correct)
+
+Choose CPU-based instances.
+
+Choose storage-optimized instances.
+
+Choose GPU-accelerated instances.
+
+---
+
+A machine learning engineer is tasked with setting up a training environment for a new deep learning project on AWS. They want to use a pre-built container that includes TensorFlow and its dependencies. Which option would best suit their needs?
+
+Create a custom container from scratch.
+
+Use an Amazon SageMaker pre-built TensorFlow container. (Correct)
+
+Use an Amazon Elastic Container Service (Amazon ECS) container.
+
+Use an Amazon Elastic Kubernetes Service (Amazon EKS) container.
+
+---
+
+A data scientist is training a deep learning model on Amazon SageMaker and observes that the validation accuracy has stopped improving after 10 epochs. Which technique can they use to automatically halt the training process and potentially save computational resources?
+
+Distributed training
+
+Early stopping (Correct)
+
+Hyperparameter tuning
+
+Model checkpointing
+
+---
+
+A machine learning engineer is preparing to launch a training job on Amazon SageMaker using script mode. The training script is written in PyTorch and requires access to a large dataset stored in an Amazon S3 bucket. The training script will run on multiple GPU instances. What best describes the expected architecture during the training process for this training scenario?
+
+The training script will run on a single CPU instance and access the dataset directly from the S3 bucket.
+
+The training script will run on multiple CPU instances with each instance processing a portion of the dataset.
+
+The training script will run on a single GPU instance, and the dataset will be streamed from the S3 bucket.
+
+The training script will run across multiple GPU instances, each instance pulling its data from the S3 bucket. (Correct)
+
+---
+
+A machine learning engineer is working on a project that involves training an image classification model using Amazon SageMaker. Their team has decided to use one of the SageMaker built-in algorithms for this task. What is a key advantage of using the SageMaker built-in algorithms?
+
+The engineer has complete control over the algorithm's source code and can modify it as needed.
+
+The engineer can choose the specific Docker container to be used for training.
+
+The algorithms support all data ingestion modes, including Pipe mode, File mode, and Fast File mode.
+
+The algorithms are optimized for performance and provide a managed infrastructure, which reduces overhead. (Correct)
+
+---
+
+A data scientist is working on a project that involves training a natural language processing (NLP) model using Amazon SageMaker. Their training data is stored in an Amazon S3 bucket. They need to choose the appropriate data ingestion mode for optimal performance given the following information: - The training data consists of millions of text files. - The training algorithm needs to read the data sequentially. - The data scientist wants to minimize the startup time and data transfer overhead.
+
+Which data ingestion mode should they choose?
+
+Pipe mode
+
+File mode
+
+Fast File mode (Correct)
+
+Download Free mode
+
+---
+
+A data scientist is training a machine learning model on a tabular dataset using Amazon SageMaker. The model is not particularly large, but the dataset is extensive. They want to reduce the training time while avoiding overfitting. How should they approach their model training task?
+
+Use model parallelism to split the model across multiple GPUs and instances.
+
+Increase the batch size to use more of the available GPU memory.
+
+Enable early stopping in SageMaker to terminate training when performance stops improving. (Correct)
+
+Use a hybrid approach that combines data parallelism and model parallelism.
+
+---
+
+A machine learning engineer is working on a binary classification task to predict whether an email is spam or not. They have trained their model using the binary cross-entropy loss function and gradient descent optimization. However, they notice that the model's performance on the validation set is not improving, despite a decrease in the training loss. What could be a potential reason for this behavior?
+
+The batch size is too small, causing the optimizer to converge slowly.
+
+The model is overfitting to the training data and failing to generalize to the validation set. (Correct)
+
+The learning rate is too high, causing the optimizer to overshoot the global minimum.
+
+The binary cross-entropy loss function is not suitable for this classification task.
+
+---
+
+A machine learning engineer is working on a project that requires a custom algorithm not available as a built-in option in Amazon SageMaker. Their team has decided to use the SageMaker script mode to implement this algorithm. What is the most appropriate approach to take?
+
+Request AWS to add their custom algorithm as a built-in option in SageMaker.
+
+Build their own container from scratch and include their custom algorithm and dependencies.
+
+Write a Python script containing their custom algorithm and use SageMaker script mode to run it. (Correct)
+
+Use a pre-built SageMaker container and modify it to include their custom algorithm.
+
+---
+
+A machine learning engineer is training a machine learning model to predict housing prices based on various features such as square footage, number of bedrooms, and location. During the training process, they notice that the model's loss is not decreasing with each iteration, and it seems to be stuck at a particular value. What could be the potential reason for this behavior?
+
+The batch size is too large, causing the optimizer to converge slowly.
+
+The number of training epochs is too low, preventing the model from fully learning the patterns in the data.
+
+The learning rate is too low, causing the optimizer to get stuck in a local minimum. (Correct)
+
+The learning rate is too high, causing the optimizer to overshoot the global minimum.
+
+---
+
+A machine learning engineer is training a large language model on a massive dataset using Amazon SageMaker. The model is too large to fit on a single GPU's memory. Which approach would be most suitable for training this model efficiently?
+
+Use early stopping to terminate training when the model starts overfitting.
+
+Train the model on a single GPU without any distributed training techniques.
+
+Use model parallelism to split the model across multiple GPUs. (Correct)
+
+Use data parallelism to split the dataset across multiple GPUs.
+
+---
+
+A company wants to use a machine learning model developed externally for their business operations. The model is a fraud detection algorithm trained on a large dataset and formatted as a PyTorch model. Which integration method would be most suitable to deploy this model on Amazon SageMaker?
+
+Bring Your Own Model (BYOM) (Correct)
+
+AWS Marketplace subscription
+
+SageMaker script mode
+
+SageMaker built-in algorithms
+
+---
+
+A data scientist is working on a project that requires training multiple machine learning models using different frameworks. They want to ensure consistent and reproducible environments for training and deployment. Their team is considering using Docker containers to encapsulate the dependencies and configurations for each machine learning framework. Which statement best describes the benefits of using Docker containers in this scenario?
+
+Docker containers are easier to manage and scale than virtual machines, which makes them suitable for large-scale machine learning projects.
+
+Docker containers provide a lightweight and isolated environment for running applications. This ensures consistent and reproducible environments across different machines and environments. (Correct)
+
+Docker containers offer better performance than virtual machines, which results in faster training and deployment of machine learning models.
+
+Docker containers are more secure than traditional virtualization methods, which makes them ideal for sensitive machine learning projects.

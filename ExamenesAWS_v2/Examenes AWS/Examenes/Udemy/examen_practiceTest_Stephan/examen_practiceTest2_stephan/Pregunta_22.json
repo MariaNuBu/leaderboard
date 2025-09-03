@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "You are responsible for deploying a machine learning model on AWS SageMaker for a real-time prediction application. The application requires low latency and high throughput. During deployment, you notice that the model’s response time is slower than expected, and the throughput is not meeting the required levels. You have already optimized the model itself, so the next step is to optimize the deployment environment. You are currently using a single instance of the ml.m5.large instance type with the default endpoint configuration.\n\nWhich of the following changes is MOST LIKELY to improve the model’s response time and throughput?",
+      "options": [
+        "Change the instance type to ml.p2.xlarge and add multi-model support",
+        "Enable Auto Scaling with a target metric for the instance utilization",
+        "Switch to an ml.m5.2xlarge instance type and use multi-AZ deployment",
+        "Increase the instance count to two and enable asynchronous inference"
+      ],
+      "correct_answers": [
+        "Enable Auto Scaling with a target metric for the instance utilization"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endpoints.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

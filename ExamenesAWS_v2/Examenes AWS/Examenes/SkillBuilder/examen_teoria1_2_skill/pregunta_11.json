@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "An aerospace engineering company is analyzing data from a recent rocket test flight. While reviewing the data, the analysts notice some duplicate timestamps for certain sensor readings and a few values that seem impossibly high or low.\n\nWhich option is the best approach for handling these data issues?",
+      "options": [
+        "Adjust the sensor calibration to avoid the duplicate and outlier values being recorded in the first place.",
+        "Manually or systematically check the anomalous data points to determine if they are truly errors.",
+        "Use one-hot encoding to locate and replace duplicated data points.",
+        "Delete all data points that seem incorrect or duplicated without checking, because they are likely just errors."
+      ],
+      "correct_answers": [
+        "Manually or systematically check the anomalous data points to determine if they are truly errors."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

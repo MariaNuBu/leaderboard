@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "An ecommerce company wants to monitor their product recommendation model for potential bias against certain customer segments.  Which statement best describes how Amazon SageMaker Clarify can help with this task?",
+      "options": [
+        "SageMaker Clarify can only detect bias in the training data used to build the recommendation model, but not in the model's predictions.",
+        "SageMaker Clarify can monitor the model's predictions for bias or feature attribution drift, helping identify if certain customer segments are being treated unfairly.",
+        "SageMaker Clarify can only detect bias in numerical features like purchase history or browsing behavior, but not in categorical features like customer demographics.",
+        "SageMaker Clarify can automatically adjust the model's parameters to mitigate any detected bias."
+      ],
+      "correct_answers": [
+        "SageMaker Clarify can monitor the model's predictions for bias or feature attribution drift, helping identify if certain customer segments are being treated unfairly."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

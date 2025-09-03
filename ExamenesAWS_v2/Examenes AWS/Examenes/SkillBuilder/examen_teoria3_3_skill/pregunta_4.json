@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A team is starting development on a new machine learning project that will involve multiple developers concurrently working on the codebase. They want to set up version control to coordinate collaboration on the code. What are some key benefits of using a version control system like Git for your project?",
+      "options": [
+        "Auditing changes, tracking revisions, and coordinating team collaboration",
+        "Automatic deployment of code changes",
+        "Restricting access to code",
+        "Generating documentation"
+      ],
+      "correct_answers": [
+        "Auditing changes, tracking revisions, and coordinating team collaboration"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

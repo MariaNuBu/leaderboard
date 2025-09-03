@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A baseball analyst wants to predict a player's batting average using a machine learning model. They have a dataset with over thirty different hitting statistics for each player. \n\nThe analyst wants to retain necessary information but reduce the number of features before training the model. Which feature selection technique should they use?",
+      "options": [
+        "Feature splitting",
+        "Feature scaling",
+        "Principal component analysis (PCA)",
+        "No need for feature selection"
+      ],
+      "correct_answers": [
+        "Principal component analysis (PCA)"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

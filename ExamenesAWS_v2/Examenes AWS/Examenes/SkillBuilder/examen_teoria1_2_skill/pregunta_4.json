@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "An apparel company is building a machine learning solution to determine which types of products are not selling well. They've collected data on how long products sit in inventory, but their dataset contains many missing values.\n\nWhich method is the most effective option for addressing missing values in the apparel company's dataset?",
+      "options": [
+        "Inspecting the reason for the missed values, and dropping, leaving, or imputing data accordingly",
+        "Dropping all the data that contains missing values",
+        "Manually imputing every missing value",
+        "Letting their ML algorithm replace the missing values"
+      ],
+      "correct_answers": [
+        "Inspecting the reason for the missed values, and dropping, leaving, or imputing data accordingly"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

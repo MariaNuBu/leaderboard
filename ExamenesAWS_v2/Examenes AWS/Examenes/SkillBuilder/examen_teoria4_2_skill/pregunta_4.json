@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "What is the primary purpose of AWS CloudTrail?",
+      "options": [
+        "To monitor and log API calls made in your AWS account",
+        "To manage and optimize AWS infrastructure costs",
+        "To deploy and manage machine learning (ML) models",
+        "To provide a user interface for AWS services"
+      ],
+      "correct_answers": [
+        "To monitor and log API calls made in your AWS account"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

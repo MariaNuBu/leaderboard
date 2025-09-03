@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An MLOps engineer is using the AWS Cloud Development Kit (AWS CDK) to deploy infrastructure for a machine learning (ML) application. They have an inference container and model artifacts, but need to provision an entire architecture to support the application. They do not need to manage every resource at a granular level and they have limited available time to specify the infrastructure in its entirety. Which level of AWS CDK construct should they consider?",
+      "options": [
+        "You cannot use constructs to deploy entire architectures",
+        "L1 constructs",
+        "L2 constructs",
+        "L3 constructs"
+      ],
+      "correct_answers": [
+        "L3 constructs"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

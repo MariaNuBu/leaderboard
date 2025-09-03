@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A machine learning (ML) engineer is tasked with deploying an ML model for text generation. They don't have the time to train a new model or build something from scratch, but they want the ability to fine-tune the model to better fit their business needs. Which layer of the AWS machine learning stack would they be looking at to solve this need?",
+      "options": [
+        "AWS artificial intelligence (AI) services",
+        "AWS artificial intelligence (AI) frameworks",
+        "ML frameworks and infrastructure",
+        "AWS ML services"
+      ],
+      "correct_answers": [
+        "AWS ML services"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

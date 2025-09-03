@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A retail company uses Amazon SageMaker to train ML models for predicting product demand.\nThe company stores training data for different product categories in Amazon S3 within a single AWS account.\nEach data scientist is assigned to a specific product category and must have access to only their respective category's training data.\nData scientists must not be able to access training data from other product categories.\nThe company needs to ensure secure, fine-grained access control for the training data while maintaining centralized management of resources.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Create separate S3 buckets for each product category. Use bucket policies to grant access to individual buckets based on each data scientist's IAM role",
+        "Set up separate AWS accounts for each product category under an AWS Organizations structure. Restrict each data scientist's access to their assigned account",
+        "Create a preprocessing pipeline using AWS Glue to separate training data for each product category into individual S3 buckets. Use bucket policies to grant access to these buckets",
+        "Use IAM policies with resource-based conditions to grant each data scientist access to specific S3 bucket prefixes that correspond to their assigned product category. Attach these policies to the IAM roles used by SageMaker notebook instances"
+      ],
+      "correct_answers": [
+        "Use IAM policies with resource-based conditions to grant each data scientist access to specific S3 bucket prefixes that correspond to their assigned product category. Attach these policies to the IAM roles used by SageMaker notebook instances"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-prefixes.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

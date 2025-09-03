@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A data scientist is working on a machine learning project that requires the use of the XGBoost library. They want to use Amazon SageMaker for training and deployment. Which option would best suit their needs?",
+      "options": [
+        "Create a custom container with XGBoost and its dependencies.",
+        "Use an Amazon Elastic Container Registry (Amazon ECR) container with XGBoost.",
+        "Use a SageMaker pre-built XGBoost container.",
+        "Use an Amazon Elastic Kubernetes Service (Amazon EKS) container with XGBoost."
+      ],
+      "correct_answers": [
+        "Use an Amazon Elastic Container Registry (Amazon ECR) container with XGBoost."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

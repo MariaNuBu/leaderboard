@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A company is developing an AI solution that needs to reduce both underfitting and overfitting to ensure a balanced model. Which combination of strategies can the data scientist apply to mitigate bias and variance in the model? (Choose Two)\n\nIncrease the model complexity by adding more parameters.\n\nExplicación\nIncreasing model complexity by adding more parameters could lead to overfitting, not reducing it.\n\nLimit the dataset size to reduce noise in the model.\n\nExplicación\nReducing the dataset size does not solve the problem of noise but may limit the model's ability to capture all relevant patterns in the data.\n\nIgnore high variance to focus on reducing bias.\n\nExplicación\nHigh variance should not be ignored, as it leads to overfitting. Both bias and variance need to be managed in a balanced way (bias-variance trade-off).",
+      "options": [
+        "Increase the model complexity by adding more parameters.",
+        "Limit the dataset size to reduce noise in the model.",
+        "Ignore high variance to focus on reducing bias.",
+        "Use early stopping to prevent the model from overfitting during training.",
+        "Use cross-validation to assess model performance on multiple data subsets."
+      ],
+      "correct_answers": [
+        "Use early stopping to prevent the model from overfitting during training.",
+        "Use cross-validation to assess model performance on multiple data subsets."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

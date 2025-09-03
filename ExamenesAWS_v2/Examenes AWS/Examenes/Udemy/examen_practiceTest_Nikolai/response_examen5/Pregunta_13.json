@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A data scientist is designing a SageMaker pipeline to automate an ML workflow. The pipeline needs to train a model, process data, and register the model for future deployments. Which features of SageMaker Pipelines help automate and manage the workflow effectively?\n\nSageMaker Pipelines use a manual step-by-step execution, allowing better control over each task.\n\nExplicación\nSageMaker Pipelines automate the workflow, reducing the need for manual intervention.\n\nEach step in the pipeline is manually executed, but results are stored for reuse in future workflows.\n\nExplicación\nPipeline execution is automated, not manual. Reusability is achieved through the pipeline definition and parameters, not manually stored results.\n\nPipelines can only handle small-scale projects due to limitations in scaling concurrent workflows.\n\nExplicación\nSageMaker Pipelines are highly scalable, capable of handling tens of thousands of concurrent ML workflows, making them suitable for both small and large projects.",
+      "options": [
+        "SageMaker Pipelines use a manual step-by-step execution, allowing better control over each task.",
+        "Each step in the pipeline is manually executed, but results are stored for reuse in future workflows.",
+        "Pipelines can only handle small-scale projects due to limitations in scaling concurrent workflows.",
+        "Pipelines are defined using a directed acyclic graph (DAG), specifying the sequence of steps, and include reusable parameters for customization."
+      ],
+      "correct_answers": [
+        "Pipelines are defined using a directed acyclic graph (DAG), specifying the sequence of steps, and include reusable parameters for customization."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

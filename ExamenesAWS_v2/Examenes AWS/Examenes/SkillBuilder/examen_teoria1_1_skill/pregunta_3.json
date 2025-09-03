@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "An organization is in the exploratory data analysis process of a dataset that contains customer purchase records. The organization wants to identify any hidden patterns, such as an increase in specific item purchases or periods of frequent transactions. Which exploratory data analysis visualization method would BEST represent the dataset to find these patterns and relationships?",
+      "options": [
+        "Bar chart",
+        "Histogram",
+        "Density plot",
+        "Heatmap"
+      ],
+      "correct_answers": [
+        "Heatmap"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "An ML engineer is building and deploying models for predicting customer turnover. Which AWS service could they use to automate and orchestrate the ML workflow involving data preprocessing, model training, evaluation, and deployment?",
+      "options": [
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Pipelines",
+        "AWS Step Functions",
+        "Amazon SageMaker notebook instances"
+      ],
+      "correct_answers": [
+        "AWS Step Functions"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

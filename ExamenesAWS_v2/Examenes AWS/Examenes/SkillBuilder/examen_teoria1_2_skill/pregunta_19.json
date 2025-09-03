@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "You work for a healthcare company that processes large amounts of patient data. Recently, your team has run into issues with inconsistent formatting and large file sizes that are slowing down analysis. You want to find a way to clean and optimize the data before feeding it into your machine learning models.",
+      "options": [
+        "Amazon Athena",
+        "Amazon Mechanical Turk",
+        "AWS Lake Formation",
+        "Amazon SageMaker Data Wrangler"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Data Wrangler"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

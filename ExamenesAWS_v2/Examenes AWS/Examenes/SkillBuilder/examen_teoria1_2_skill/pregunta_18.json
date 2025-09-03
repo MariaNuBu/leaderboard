@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "You work for an ecommerce company that processes large amounts of sales data each day. You decide to use Apache Spark on Amazon EMR to transform your sales data.\n\nWhich answers describe data transformation capabilities of Amazon EMR? (Select TWO.)",
+      "options": [
+        "Human-touch data labeling",
+        "Real-time analytics",
+        "Decreased performance",
+        "Data storage",
+        "Anomaly detection"
+      ],
+      "correct_answers": [
+        "Real-time analytics",
+        "Anomaly detection"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

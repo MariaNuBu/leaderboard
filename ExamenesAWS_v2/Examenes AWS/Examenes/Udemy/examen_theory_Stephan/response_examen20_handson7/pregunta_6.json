@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "You're working on a Bedrock model that needs to incorporate sensitive customer data during fine‑tuning. What steps should you take to ensure the security of this data?",
+      "options": [
+        "Use a VPC and PrivateLink for data transfer during fine‑tuning.",
+        "Encrypt the data using Amazon KMS and then fine‑tune the model.",
+        "Ensure data is anonymized before fine‑tuning.",
+        "Use SageMaker Canvas to fine‑tune the model in a secure environment."
+      ],
+      "correct_answers": [
+        "Use a VPC and PrivateLink for data transfer during fine‑tuning."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/vpc-interface-endpoints.html",
+        "https://aws.amazon.com/blogs/machine-learning/security-best-practices-to-consider-while-fine-tuning-models-in-amazon-bedrock/"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

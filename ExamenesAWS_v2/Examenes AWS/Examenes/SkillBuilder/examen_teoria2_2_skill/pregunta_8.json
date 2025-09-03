@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A company specializing in computer vision applications wants to develop a custom object detection model using a novel deep learning architecture. They plan to use Amazon SageMaker for training and deploying their model. Which approach would be most suitable for this scenario?",
+      "options": [
+        "Use one of the built-in algorithms in SageMaker for object detection.",
+        "Develop the custom model using SageMaker script mode with a supported deep learning framework like TensorFlow or PyTorch.",
+        "Use the automatic model tuning capabilities of SageMaker to find the best architecture for object detection.",
+        "Develop the custom model locally and then deploy it on SageMaker for inference."
+      ],
+      "correct_answers": [
+        "Develop the custom model using SageMaker script mode with a supported deep learning framework like TensorFlow or PyTorch."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

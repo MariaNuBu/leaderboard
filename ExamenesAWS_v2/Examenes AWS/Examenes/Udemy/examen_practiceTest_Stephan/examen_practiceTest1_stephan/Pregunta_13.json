@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A data scientist is working for a real estate analytics company to build an ML model that predicts the rental prices of commercial office spaces. The dataset has several features but the data scientist is particularly interested in the following features - Building Type and Year Constructed (building_type_year), City Name (city) and Building Size in square meters (building_size). The data has inconsistencies and requires preprocessing before model training. The data scientist plans to use the following feature engineering techniques to transform the data:\n\nFeature splitting\n\nBinning\n\nOne-hot encoding\n\nStandardization\n\nHow would you match the given features with the most relevant feature engineering technique?\n\nbuilding_type_year - feature splitting, city - One-hot encoding, building_size - binning\n\nbuilding_type_year - feature splitting, city - binning, building_size - standardization",
+      "options": [
+        "building_type_year - feature splitting, city - One-hot encoding, building_size - binning",
+        "building_type_year - feature splitting, city - binning, building_size - standardization",
+        "building_type_year - feature splitting, city - One-hot encoding, building_size - standardization",
+        "building_type_year - standardization, city - binning, building_size - One-hot encoding"
+      ],
+      "correct_answers": [
+        "building_type_year - feature splitting, city - One-hot encoding, building_size - standardization"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/data-preprocessing.html",
+        "https://docs.aws.amazon.com/databrew/latest/dg/recipe-actions.ONE_HOT_ENCODING.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

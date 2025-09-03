@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A robotics company is using SageMaker to train a reinforcement learning agent to navigate through a dynamic warehouse environment.\nDuring training, the agent sometimes moves farther away from the goal instead of closer.\nWhat is the most likely cause of this behavior?",
+      "options": [
+        "Negative rewards or penalties",
+        "Adjustments to the action space",
+        "Adjustments to the policy function",
+        "Positive rewards"
+      ],
+      "correct_answers": [
+        "Positive rewards"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

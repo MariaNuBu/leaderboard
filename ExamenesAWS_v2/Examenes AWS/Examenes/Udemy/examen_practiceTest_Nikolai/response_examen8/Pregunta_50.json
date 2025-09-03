@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "A machine learning specialist is using SageMaker Clarify to evaluate potential bias in a customer satisfaction prediction model. The data includes sensitive attributes like gender and age. Which of the following actions can SageMaker Clarify perform to detect and address bias in this context?",
+      "options": [
+        "It will generate new features from the existing data to balance all classes.",
+        "It will run an analysis on specified sensitive attributes and generate a report with bias metrics.",
+        "It will optimize the model by re-training it on only the sensitive features to reduce bias.",
+        "It will apply synthetic data generation to equalize sample sizes across all categories."
+      ],
+      "correct_answers": [
+        "It will run an analysis on specified sensitive attributes and generate a report with bias metrics."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A machine learning (ML) workload is running inference on real-time data collected from an e-commerce platform using Amazon SageMaker. The model analyzes transactions to detect fraudulent purchases. Which data ingestion services would most appropriately assist in delivering real-time data to Amazon SageMaker?",
+      "options": [
+        "Use Amazon Data Firehose to deliver the data directly to Amazon S3. The ingestion of the data will initiate an extract, transform, and load (ETL) process that will automatically apply transformation and load the data to Amazon SageMaker for inference.",
+        "Use AWS DataSync to transfer data between the application and Amazon SageMaker.",
+        "Use Amazon Managed Service for Apache Flink to apply transformations to the data prior to delivering the data to Amazon SageMaker as a destination.",
+        "Use a combination of Amazon Kinesis Data Streams and Amazon Managed Service for Apache Flink for real-time streaming and processing before delivering the data to Amazon SageMaker."
+      ],
+      "correct_answers": [
+        "Use a combination of Amazon Kinesis Data Streams and Amazon Managed Service for Apache Flink for real-time streaming and processing before delivering the data to Amazon SageMaker."
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

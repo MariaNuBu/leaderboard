@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "What is one of the key benefits of implementing a cost allocation model?",
+      "options": [
+        "Providing more granular analysis and decision-making",
+        "Reducing the complexity of the machine learning (ML) pipeline",
+        "Automating the collection of usage metrics",
+        "Optimizing resource usage"
+      ],
+      "correct_answers": [
+        "Providing more granular analysis and decision-making"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "Which AWS tool provides granular raw data files detailing your hourly AWS usage across accounts for Do-It-Yourself (DIY) analysis?",
+      "options": [
+        "Amazon CloudWatch",
+        "AWS Budgets",
+        "AWS Cost Explorer",
+        "AWS Cost and Usage Report"
+      ],
+      "correct_answers": [
+        "AWS Cost and Usage Report"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "A data scientist is using Amazon SageMaker Data Wrangler to preprocess data for a machine learning project. The data is stored in Amazon Redshift and contains missing values. The scientist needs to handle these missing values before training a model.\nWhich of the following options are valid methods for handling missing values in Data Wrangler? (Choose TWO)",
+      "options": [
+        "Impute missing values using the mean or median of the column",
+        "Drop all rows that contain missing values",
+        "Automatically replace missing values with zeros",
+        "Use interpolation to estimate missing values based on related features",
+        "Use SageMaker Data Wrangler’s feature store to store missing values for later use"
+      ],
+      "correct_answers": [
+        "Impute missing values using the mean or median of the column",
+        "Use interpolation to estimate missing values based on related features"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

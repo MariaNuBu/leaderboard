@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A company wants to use a new recommendation system that was developed by a third-party partner. The system's model will be deployed on Amazon SageMaker. To meet security requirements, the recommendation system must be only internal. The training and inference containers should not have access to any resource within a customer's VPC or on the internet.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A Configure SageMaker in VPC only mode. Configure security groups to block internet access.",
+        "B Use SageMaker Canvas. Configure an Amazon VPC interface endpoint to block internet access.",
+        "C Use SageMaker network isolation mode to block external network access.",
+        "D Configure SageMaker in VPC only mode. Configure a network access control list (network ACL) to block internet access."
+      ],
+      "correct_answers": [
+        "C Use SageMaker network isolation mode to block external network access."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

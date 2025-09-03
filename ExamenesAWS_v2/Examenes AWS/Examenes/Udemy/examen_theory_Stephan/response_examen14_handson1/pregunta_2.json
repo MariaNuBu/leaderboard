@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Your application needs to provide low-latency access to frequently accessed data while minimizing costs. Which S3 storage class should you choose?",
+      "options": [
+        "S3 Standard",
+        "S3 Glacier",
+        "S3 One Zone-Infrequent Access",
+        "S3 Intelligent-Tiering"
+      ],
+      "correct_answers": [
+        "S3 Standard"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

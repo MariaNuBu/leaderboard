@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "You are a Machine Learning Operations (MLOps) Engineer at a large technology company that runs multiple machine learning workloads across different environments. Your company has a variety of ML use cases, including continuous real-time predictions, scheduled batch processing for weekly model retraining, and small-scale experimentation with multiple hyperparameter tuning jobs that can tolerate failure.\n\nWhich of the following strategies represents the best use of spot instances, on-demand instances, and reserved instances for different machine learning workloads, considering the requirements for cost optimization, reliability, and performance? (Select two)",
+      "options": [
+        "Use spot instances for hyperparameter tuning jobs where interruptions can be tolerated",
+        "Use reserved instances for real-time predictions that require high availability",
+        "Use on-demand instances for hyperparameter tuning jobs where interruptions can be tolerated",
+        "Use reserved instances for scheduled batch processing for model retraining",
+        "Use on-demand instances for real-time predictions that require high availability"
+      ],
+      "correct_answers": [
+        "Use spot instances for hyperparameter tuning jobs where interruptions can be tolerated",
+        "Use reserved instances for real-time predictions that require high availability"
+      ],
+      "references": [
+        "https://aws.amazon.com/ec2/pricing/",
+        "https://aws.amazon.com/ec2/pricing/reserved-instances/",
+        "https://aws.amazon.com/ec2/spot/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You are training a machine learning model using PyTorch on Amazon SageMaker and want to ensure that the system resources, such as CPU and GPU, are being effectively utilized. You plan to use SageMaker Profiler to track these metrics and improve the efficiency of your training job. Which of the following steps should you follow to set up and use SageMaker Profiler correctly? (Select Two)",
+      "options": [
+        "Configure the SageMaker Profiler to automatically tune your hyperparameters, such as learning rate, based on the resource utilization data.",
+        "Define the profiler configuration in your SageMaker Estimator, specifying the duration of the profiling in seconds for the CPU and GPU.",
+        "Manually enable automatic SageMaker Profiler optimization in the SageMaker console to reduce memory overhead during training.",
+        "Import the necessary SageMaker Profiler modules and add start and stop profiling commands in your PyTorch training script.",
+        "Use SageMaker Neo to compile your model for optimized CPU and GPU performance after training is completed."
+      ],
+      "correct_answers": [
+        "Define the profiler configuration in your SageMaker Estimator, specifying the duration of the profiling in seconds for the CPU and GPU.",
+        "Import the necessary SageMaker Profiler modules and add start and stop profiling commands in your PyTorch training script."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

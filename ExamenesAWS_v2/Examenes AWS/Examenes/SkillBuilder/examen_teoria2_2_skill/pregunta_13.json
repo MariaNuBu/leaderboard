@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A machine learning engineer at a media organization aims to deploy a machine learning model for predicting customer behavior on AWS. The model uses a custom algorithm developed in-house. To facilitate this, they plan to use the Amazon SageMaker container capabilities. Which container image should they use for a seamless deployment process?",
+      "options": [
+        "SageMaker pre-built deep learning framework containers because they can be deployed in just a few clicks.",
+        "SageMaker Bring Your Own Model (BYOM) containers because they support bringing your own model and are ideal for regulatory compliance.",
+        "SageMaker pre-built ML library containers because these include a wide range of essential ML libraries.",
+        "Custom containers developed by the organization with the necessary dependencies and configurations."
+      ],
+      "correct_answers": [
+        "SageMaker Bring Your Own Model (BYOM) containers because they support bringing your own model and are ideal for regulatory compliance."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

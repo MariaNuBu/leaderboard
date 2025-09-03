@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A medical research company wants to develop a machine learning model that can predict medical diagnoses. The datasets include patient data, such as medical bills, lab results, and medical history.\n\nBefore deploying this model, how should the company proceed with their dataset?",
+      "options": [
+        "The company can freely use whatever patient data they need to as long as it's for research purposes.",
+        "The company must get signed patient consent before using any medical data, including PHI such as conditions, medications, and procedures.",
+        "The company must follow HIPAA guidelines to securely collect, store, and use PHI data. PII and PHI should be protected through security measures such as encryption and access controls to minimize privacy risks.",
+        "The company needs to remove all PII, such as names, addresses, and Social Security numbers, before using the data to avoid privacy violations. However, they can keep medical condition details such as PHI to train the model effectively."
+      ],
+      "correct_answers": [
+        "The company must follow HIPAA guidelines to securely collect, store, and use PHI data. PII and PHI should be protected through security measures such as encryption and access controls to minimize privacy risks."
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

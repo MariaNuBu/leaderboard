@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A research organization collects weather data from multiple sensor devices across various locations. The data is stored as CSV files in a central Amazon S3 bucket. The CSV files contain the same schema, with an observation date column to record when each reading was taken. The organization needs to perform ad-hoc queries on the data to filter and analyze based on the observation date.\n\nThe solution must enable efficient querying. Which solution will meet this requirement with the LEAST operational overhead?",
+      "options": [
+        "Use Amazon Athena and run a CTAS (CREATE TABLE AS SELECT) query with partitioning enabled on the observation date column to query and optimize the CSV files based on the observation date column",
+        "Use Amazon EMR with Apache Hive to preprocess the CSV files and filter the data using HiveQL",
+        "Stream the new CSV files into Amazon Redshift and query the data using SQL filters on the observation date column",
+        "Use AWS Glue to create an ETL job that partitions and transforms the CSV files for querying by the observation date and processes the output into a new S3 bucket"
+      ],
+      "correct_answers": [
+        "Use Amazon Athena and run a CTAS (CREATE TABLE AS SELECT) query with partitioning enabled on the observation date column to query and optimize the CSV files based on the observation date column"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/athena/latest/ug/ctas.html",
+        "https://docs.aws.amazon.com/athena/latest/ug/ctas-examples.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

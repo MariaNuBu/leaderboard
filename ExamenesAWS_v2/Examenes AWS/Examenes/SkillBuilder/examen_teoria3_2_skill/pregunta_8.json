@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A machine learning engineer is reviewing the code to create a custom inference container image. Which of these does not meet the requirements for inference containers on SageMaker?",
+      "options": [
+        "The container includes the path: opt/ml/model.",
+        "The Dockerfile contains an ENTRYPOINT instruction: ENTRYPOINT [\"python\", \"serve.py\"]",
+        "The container includes a web server configured to listen on port 8000.",
+        "The container can accept POST requests to /ping and /invocations endpoints."
+      ],
+      "correct_answers": [
+        "The container includes a web server configured to listen on port 8000."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

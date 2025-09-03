@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A company has deployed a binary classification model to predict customer churn based on customer behavior data. They want to monitor the model's quality over time using SageMaker Model Monitor. The company has a dataset of labeled customer data, including the ground truth labels for churn, stored in Amazon Simple Storage Service (Amazon S3).\nWhich inputs are required for Amazon SageMaker Model Monitor to monitor the model's quality effectively?",
+      "options": [
+        "Baseline data, inference input data, and Amazon SageMaker Ground Truth labels",
+        "Inference input data and Amazon SageMaker Ground Truth labels",
+        "Baseline data and inference input data",
+        "Inference input data only"
+      ],
+      "correct_answers": [
+        "Baseline data, inference input data, and Amazon SageMaker Ground Truth labels"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

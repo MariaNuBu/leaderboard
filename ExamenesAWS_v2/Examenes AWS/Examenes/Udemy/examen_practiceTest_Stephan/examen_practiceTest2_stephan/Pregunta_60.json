@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "You are a data scientist working for a media company that processes large volumes of video and image data to generate personalized content recommendations. The dataset, which is stored in Amazon S3, contains tens of millions of small image files and several terabytes of high-resolution large video files. The training jobs you run on Amazon SageMaker require low-latency access to this data and need to be completed quickly to keep up with the dynamic content pipeline.\n\nGiven the characteristics of your data and the requirements for low-latency, high-throughput access, which approach is the MOST APPROPRIATE for this scenario?",
+      "options": [
+        "Use Fast File mode with Amazon S3 to stream the small image files directly to the training instances on-demand, minimizing the time required to start training",
+        "Use Amazon FSx for Lustre to mount the entire dataset as a high-performance file system, providing consistently low-latency access to both the small image files and the large video files",
+        "Use Fast File mode with Amazon S3 for the large video files, enabling on-demand streaming of data, and store the small image files locally on the training instances to reduce I/O latency",
+        "Create an FSx for Lustre file system linked with the relevant Amazon S3 bucket folder having the training data for the small image files and apply Fast File mode to the relevant Amazon S3 bucket folder to access the video files, thereby combining the strengths of both approaches"
+      ],
+      "correct_answers": [
+        "Create an FSx for Lustre file system linked with the relevant Amazon S3 bucket folder having the training data for the small image files and apply Fast File mode to the relevant Amazon S3 bucket folder to access the video files, thereby combining the strengths of both approaches"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-access-training-data.html",
+        "https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-sagemaker-fast-file-mode/",
+        "https://aws.amazon.com/fsx/lustre/faqs/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "You are a data scientist working on a binary classification model to predict whether customers will default on their loans. The dataset is highly imbalanced, with only 10% of the customers having defaulted in the past. After training the model, you need to evaluate its performance to ensure it effectively distinguishes between defaulters and non-defaulters. Given the class imbalance, accuracy alone is not sufficient to assess the model’s performance. Instead, you decide to use the Receiver Operating Characteristic (ROC) curve and the Area Under the ROC Curve (AUC) to evaluate the model.\n\nWhich of the following interpretations of the ROC and AUC metrics is MOST ACCURATE for assessing the model’s performance?",
+      "options": [
+        "An AUC close to 1.0 indicates that the model has excellent discriminatory power, effectively distinguishing between defaulters and non-defaulters",
+        "A ROC curve that is close to the diagonal line (AUC ~ 0.5) indicates that the model performs well across all thresholds",
+        "A ROC curve that is closer to the top-left corner of the plot (AUC ~ 1) shows that the model is overfitting, and its predictions are too optimistic",
+        "An AUC close to 0 indicates that the model is highly accurate, correctly classifying almost all instances of defaulters and non-defaulters"
+      ],
+      "correct_answers": [
+        "An AUC close to 1.0 indicates that the model has excellent discriminatory power, effectively distinguishing between defaulters and non-defaulters"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/binary-model-insights.html",
+        "https://aws.amazon.com/blogs/machine-learning/creating-high-quality-machine-learning-models-for-financial-services-using-amazon-sagemaker-autopilot/",
+        "https://aws.amazon.com/blogs/machine-learning/is-your-model-good-a-deep-dive-into-amazon-sagemaker-canvas-advanced-metrics/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+Pregunta 1:
+Which SageMaker algorithm would be most appropriate for predicting the next word in a sequence of text?
+DeepAR
+Seq2Seq (Correct)
+XGBoost
+Random Cut Forest
+
+-----
+
+Pregunta 2:
+Which SageMaker input mode is recommended for training when you need high-performance access to data stored in a single Availability Zone?
+S3 File Mode
+Pipe Mode
+Amazon FSx for Lustre (Correct)
+S3 Fast File Mode
+
+-----
+
+Pregunta 3:
+Which SageMaker algorithm is best suited for clustering similar items without labeled data?
+XGBoost
+K-Means (Correct)
+BlazingText
+Linear Learner
+
+-----
+
+Pregunta 4:
+You need to detect bounding boxes of multiple objects within an image and classify them. Which SageMaker algorithm should you use?
+Image Classification
+Object Detection (Correct)
+Semantic Segmentation
+PCA
+
+-----
+
+Pregunta 5:
+Which SageMaker algorithm is used to organize documents into topics in an unsupervised manner?
+LDA (Correct)
+BlazingText
+IP Insights
+Object2Vec
+
+-----
+
+Pregunta 6:
+You're working with a sparse dataset and need to predict user-item interactions. Which SageMaker algorithm is most appropriate?
+Linear Learner
+Factorization Machines (Correct)
+K-Means
+Neural Topic Model
+
+-----
+
+Pregunta 7:
+shrinkage?
+In SageMaker's XBoost, which hyperparameter helps prevent overfitting by controlling the step size
+max_depth
+subsample
+eta (Correct)
+gamma
+
+-----
+
+Pregunta 8:
+You are tasked with training a SageMaker model to predict future values of a time series. Which algorithm should you choose?
+BlazingText
+Linear Learner
+Seq2Seq
+DeepAR (Correct)
+
+----
+
+Pregunta 9:
+Which input format is optimal for training a model using SageMaker's K-Means algorithm?
+csv
+JSON Lines
+RecordiO-Protobuf (Correct)
+Image format
+
+----
+
+Pregunta 10:
+When using SageMaker's Object2Vec algorithm, what is the primary output?
+A classification label
+A sequence of tokens
+A low-dimensional embedding of high-dimensional objects (Correct)
+A set of bounding boxes

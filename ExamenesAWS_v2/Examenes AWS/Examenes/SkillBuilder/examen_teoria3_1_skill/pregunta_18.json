@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "An online publishing company wants to implement a machine learning (ML) model to predict how many customers will continue their subscription. The company has developed the model and is ready for the next step: model deployment. Which step is considered model deployment?",
+      "options": [
+        "Integrating the trained model into the company's production systems.",
+        "Training the model on the prepared dataset.",
+        "Collecting and preprocessing customer data.",
+        "Evaluating the model's performance on a test set."
+      ],
+      "correct_answers": [
+        "Integrating the trained model into the company's production systems."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

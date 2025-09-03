@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A data scientist has used Amazon SageMaker Clarify to interpret the outputs of their machine learning model, and they need to understand how different input features contribute to the model's predictions. Which of the following techniques provided by SageMaker Clarify can help them achieve this?",
+      "options": [
+        "SHAP (SHapley Additive exPlanations) values",
+        "Mean Squared Error (MSE)",
+        "Bias metric computation",
+        "Confusion matrix"
+      ],
+      "correct_answers": [
+        "SHAP (SHapley Additive exPlanations) values"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-data-model-shap.html"
+      ],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

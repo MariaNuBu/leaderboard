@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "An MLOps engineer has created a Git repository to help implement their ML solution. They want to create a local copy of the repository so they can work in an area with limited network connectivity. How should they accomplish this?",
+      "options": [
+        "From their development machine, use Git to run git add to stage the modified files locally. Then run git commit to commit the files locally.",
+        "From their development machine, use Git to run git clone, specifying the name of the repository.",
+        "From their development machine, use Git to run git pull to synchronize the files in your repository.",
+        "Use a console to create a Git repository."
+      ],
+      "correct_answers": [
+        "From their development machine, use Git to run git clone, specifying the name of the repository."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

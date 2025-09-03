@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "A company is using Amazon Kendra to build an AI-powered search engine for their internal document database. They want the search engine to return precise answers based on natural language queries and ensure that the most relevant documents are always prioritized. The company also needs to integrate this search capability into their customer service chatbot built on Amazon Lex. What combination of features should they focus on to achieve this goal?\n\nUse Amazon Kendra’s descriptive questions and integrate Lex for keyword-based search optimization.\n\nExplicación\nDescriptive questions are useful for detailed queries, but the integration with Lex requires natural language processing rather than just keyword-based search\n\nUse Kendra’s factoid questions feature and enable Lex’s fallback intent to handle ambiguous queries.\n\nExplicación\nUsing Kendra’s factoid question feature is useful for specific types of queries, but integrating Lex’s fallback intent will not handle complex queries effectively.\n\nLeverage Kendra Intelligent Ranking and integrate the bot with AWS Lambda for real-time indexing.\n\nExplicación\nWhile Kendra Intelligent Ranking is correct, AWS Lambda is not necessary for real-time indexing, and Kendra handles indexing automatically.",
+      "options": [
+        "Use Amazon Kendra’s descriptive questions and integrate Lex for keyword-based search optimization.",
+        "Use Kendra’s factoid questions feature and enable Lex’s fallback intent to handle ambiguous queries.",
+        "Leverage Kendra Intelligent Ranking and integrate the bot with AWS Lambda for real-time indexing."
+      ],
+      "correct_answers": [
+        "Integrate Kendra’s index with Lex, enabling natural language queries with Kendra Intelligent Ranking for document re-ranking, and use Lex for handling intents."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

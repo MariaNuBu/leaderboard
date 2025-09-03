@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "Which AWS service provides built-in monitoring capabilities for GPU utilization in your machine learning (ML) workloads?",
+      "options": [
+        "Amazon Trusted Advisor",
+        "AWS Compute Optimizer",
+        "AWS Cost Explorer",
+        "Amazon SageMaker"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

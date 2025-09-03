@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "You are training a random forest model and trying to identify hyperparameter values. You are working on the hyperparameters that define the characteristics of the decision trees in the model. Which changes to the hyperparameters would help reduce overfitting?",
+      "options": [
+        "Increase the number of samples required to split a node.",
+        "Increase the maximum depth of tree hyperparameter.",
+        "Decrease the number of nodes on the input layer.",
+        "Set a lower Gini impurity threshold for splitting a node."
+      ],
+      "correct_answers": [
+        "Increase the number of samples required to split a node."
+      ],
+      "references": [
+        "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

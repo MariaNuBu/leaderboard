@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You have a dataset with 10,000 labeled images for training a CNN. To prevent overfitting, which technique should you consider implementing?",
+      "options": [
+        "Use a very high learning rate",
+        "Reduce the number of convolutional layers",
+        "Apply dropout layers",
+        "Train the model on fewer epochs"
+      ],
+      "correct_answers": [
+        "Apply dropout layers"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

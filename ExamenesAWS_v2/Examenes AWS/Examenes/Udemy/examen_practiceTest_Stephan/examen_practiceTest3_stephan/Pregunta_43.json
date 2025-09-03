@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "A healthcare company is developing an ML model using the Amazon SageMaker XGBoost algorithm to classify patients as either high-risk or low-risk for a specific disease. During evaluation, the model performs exceptionally well on the training dataset but fails to accurately classify new patient data. The ML engineer suspects that the model’s performance issues may be related to noise in the dataset and needs to optimize the model to improve its performance on unseen data.\n\nAs an AWS Certified Machine Learning Engineer Associate, what do you recommend?",
+      "options": [
+        "Increase the learning_rate parameter to ensure the model converges faster and performs better on unseen transactions",
+        "Increase the size of the training dataset by duplicating examples of fraudulent transactions to improve the model's recall",
+        "Remove irrelevant features from the training dataset to reduce noise and improve the generalization of the model",
+        "Reduce the max_depth parameter in the XGBoost algorithm to prevent the model from overfitting to the training dataset"
+      ],
+      "correct_answers": [
+        "Reduce the max_depth parameter in the XGBoost algorithm to prevent the model from overfitting to the training dataset"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost_hyperparameters.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

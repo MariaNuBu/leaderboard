@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A developer is building a ML model that will use deep learning to have lifelike conversations with humans. The model will be very intensive, involve parallel processing, and have an extremely large dataset. When determining whether to use a CPU or GPU instance for this scenario, which statement is true?",
+      "options": [
+        "CPUs would be a more cost-effective solution, so CPUs should be used.",
+        "Either CPUs or GPUs would work. Use whichever one works with your developed model.",
+        "Because the model is quite intensive and complex, using GPUs would provide significant performance gains despite generally costing more compared to CPUs.",
+        "Because the model uses parallel processing, CPUs should be used to streamline the processing. The model would be faster by using CPUs compared to using GPUs."
+      ],
+      "correct_answers": [
+        "Because the model is quite intensive and complex, using GPUs would provide significant performance gains despite generally costing more compared to CPUs."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

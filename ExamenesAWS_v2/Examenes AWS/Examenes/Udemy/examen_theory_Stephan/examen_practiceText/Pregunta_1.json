@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A retail company wants to store customer transaction data on AWS for analytical processing. The data is semi-structured and the analytics team requires efficient storage that supports schema evolution and provides high performance for batch and interactive analytics. Which data format should the company use?\n\nCSV\n\nExplicación\nCSV is a simple and widely used data format, but it may not be the best choice for storing semi-structured data with schema evolution requirements. It may not provide the high performance needed for batch and interactive analytics compared to more optimized formats.",
+      "options": [
+        "CSV",
+        "Apache Parquet",
+        "JSON",
+        "Apache ORC"
+      ],
+      "correct_answers": [
+        "Apache Parquet"
+      ],
+      "references": [],
+      "topic": "Transform data and perform feature engineering.",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

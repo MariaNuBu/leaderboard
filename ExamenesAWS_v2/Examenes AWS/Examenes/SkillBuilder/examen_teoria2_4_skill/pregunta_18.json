@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A machine learning engineer is training a deep learning model using Amazon SageMaker. What causes the loss function to stop decreasing after a certain number of epochs when training a deep learning model using SageMaker?",
+      "options": [
+        "The model has reached a local minima, and further training will not improve the performance.",
+        "The learning rate is too high, causing the model to overshoot the optimal solution.",
+        "The training data is imbalanced, causing the model to overfit to the majority class.",
+        "The model architecture is too complex, causing the model to overfit to the training data."
+      ],
+      "correct_answers": [
+        "The model has reached a local minima, and further training will not improve the performance."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 82,
+      "question": "A company needs to automatically resize images uploaded to an Amazon S3 bucket and store the resized images in another S3 bucket. How can this be accomplished using AWS services? (Choose two)",
+      "options": [
+        "Use Amazon EC2 instances to constantly monitor the S3 bucket and resize images.",
+        "Configure AWS Glue to transform and resize the images as they are uploaded.",
+        "Use AWS Batch to process the images and store the results in another S3 bucket.",
+        "Set up an S3 Event Notification to trigger the Lambda function when a new object is created.",
+        "Create a Lambda function to resize images and configure it to be triggered by S3 'ObjectCreated' events."
+      ],
+      "correct_answers": [
+        "Set up an S3 Event Notification to trigger the Lambda function when a new object is created.",
+        "Create a Lambda function to resize images and configure it to be triggered by S3 'ObjectCreated' events."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

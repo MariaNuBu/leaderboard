@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "Your company is planning to deploy a mission-critical machine learning model in production. What is the main benefit of using provisioned resources for this deployment?",
+      "options": [
+        "Provisioned resources offer more flexibility in terms of resource configuration and customization.",
+        "Provisioned resources can scale up and down instantly to meet changing demand.",
+        "Provisioned resources are more cost-effective for long-term, predictable workloads.",
+        "Provisioned resources provide better performance than on-demand resources."
+      ],
+      "correct_answers": [
+        "Provisioned resources are more cost-effective for long-term, predictable workloads."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

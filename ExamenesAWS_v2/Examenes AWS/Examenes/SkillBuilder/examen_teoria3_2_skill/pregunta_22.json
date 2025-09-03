@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "Which of the following is an example of a best practice from the operational excellence pillar of the AWS Well-Architected Framework?",
+      "options": [
+        "Deploying machine learning (ML) models to multiple Availability Zones to prevent outages in the event of failure in one Availability Zone",
+        "Implementing an encryption strategy on you training data while in storage",
+        "Choosing the most energy-efficient Amazon EC2 instances for model training jobs",
+        "Using a repeatable process to deploy machine learning (ML) models"
+      ],
+      "correct_answers": [
+        "Using a repeatable process to deploy machine learning (ML) models"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+Pregunta 1:
+You are designing a model for sentiment analysis on customer reviews. Which neural network type is best suited for this task and why?
+Convolutional Neural Network (CNN)
+Feedforward Neural Network
+Generative Adversarial Network (GAN)
+Recurrent Neural Network (RNN) (Correct)
+
+---
+
+Pregunta 2:
+You have a dataset with 10,000 labeled images for training a CNN. To prevent overfitting, which technique should you consider implementing?
+Use a very high learning rate
+Reduce the number of convolutional layers
+Apply dropout layers
+Train the model on fewer epochs
+
+----
+
+Pregunta 3:
+You are deploying a deep learning model on an AWS EC2 instance. The model requires extensive GPU resources. Which instance type should you select for optimal performance?
+t2.micro
+m5.large
+p3.8xlarge (Correct)
+c5.2xlarge
+
+----
+
+Pregunta 4:
+You are training a deep neural network and notice that the training accuracy is high, but the validation accuracy is much lower. What is the most likely issue?
+Underfitting
+Vanishing gradient problem
+Overfitting (Correct)
+Insufficient data
+
+---
+
+Pregunta 5:
+You have a model that predicts whether a customer will make a purchase. You notice a high rate of false negatives. Which metric should you focus on improving?
+Precision
+Recall (Correct)
+F1 Score
+ROC-AUC
+
+----
+
+Pregunta 6:
+While tuning hyperparameters for a model in SageMaker, you want to optimize the model as efficiently as possible. Which strategy should you use of the given choices?
+Grid search
+Random search
+Bayesian optimization (Correct)
+Brute force search
+
+----
+
+Pregunta 7:
+You're using transfer learning to fine-tune a pre-trained BERT model for a custom NLP task.
+What is the most important hyperparameter to adjust during fine-tuning?
+Learning rate
+Number of layers in the model
+Batch size
+Dropout rate
+
+----
+
+Pregunta 8:
+You need to process a massive dataset for training a deep learning model and want to speed up the training process. Which AWS service or feature should you consider using?
+AWS Lambda
+SageMaker Debugger
+SageMaker Distributed Training (Correct)
+AWS Glue
+
+----
+
+Pregunta 9:
+Your model training job is taking longer than expected on SageMaker. You suspect that the compute instances are not fully utilized. Which SageMaker feature can help you diagnose this issue?
+SageMaker Experiments
+SageMaker Model Monitor
+SageMaker Ground Truth
+SageMaker Debugger (Correct)
+
+----
+
+Pregunta 10:
+When training a deep learning model, you notice that your model's loss is decreasing very slowly. What is a likely reason for this?
+Learning rate is too high
+Learning rate is too low (Correct)
+Overfitting is occurring
+The model has too few layers

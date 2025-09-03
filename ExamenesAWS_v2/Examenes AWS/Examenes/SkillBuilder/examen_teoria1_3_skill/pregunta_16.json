@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "You work for a non-profit organization that is building a machine learning model for a university. The university wants to predict whether scholarship applicants are likely to succeed in college if awarded a scholarship. However, only 20% of applicants typically get accepted to the scholarship program, while 80% are rejected. This means you have a significant class imbalance in your dataset. Which strategy would help address this imbalance in the training data?",
+      "options": [
+        "Randomly remove half of the dataset to restore balance.",
+        "Oversample by increasing the number of minority examples in the training set by sampling with replacement.",
+        "Use data augmentation of image rotation to modify existing positive examples.",
+        "Undersample by decreasing the number of minority examples in the training set by randomly removing some."
+      ],
+      "correct_answers": [
+        "Oversample by increasing the number of minority examples in the training set by sampling with replacement."
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

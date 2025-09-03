@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "Which of the following most accurately describes the infrastructure as code (IaC) approaches of AWS CloudFormation and AWS Cloud Development Kit (AWS CDK)?",
+      "options": [
+        "Both CloudFormation and AWS CDK only support an imperative approach to IaC.",
+        "Both CloudFormation and AWS CDK only support a declarative approach to IaC.",
+        "CloudFormation supports a declarative approach to IaC and AWS CDK supports an imperative approach.",
+        "CloudFormation supports an imperative approach to IaC and AWS CDK supports a declarative approach."
+      ],
+      "correct_answers": [
+        "CloudFormation supports a declarative approach to IaC and AWS CDK supports an imperative approach."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

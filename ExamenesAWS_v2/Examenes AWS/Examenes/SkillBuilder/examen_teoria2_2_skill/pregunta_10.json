@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A machine learning (ML) company is developing a large language model (LLM) for natural language processing (NLP) tasks. The model has billions of parameters, and training it on a single GPU would be infeasible due to memory constraints. The company wants to use Amazon SageMaker to train the model efficiently.  Which method would be most suitable for reducing the training time in this scenario?",
+      "options": [
+        "Early stopping",
+        "Data parallelism",
+        "Model parallelism",
+        "Hyperparameter tuning"
+      ],
+      "correct_answers": [
+        "Model parallelism"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

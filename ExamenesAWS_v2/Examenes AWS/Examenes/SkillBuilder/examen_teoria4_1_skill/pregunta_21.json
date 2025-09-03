@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A healthcare organization wants to use the SageMaker Model Dashboard to monitor its suite of models used for medical diagnosis. Which feature would be most relevant and beneficial for their use case?",
+      "options": [
+        "Real-time inference metrics: Detailed metrics on the latency and throughput of real-time predictions.",
+        "Interpretability analysis: Insights into the internal decision-making processes of the models to ensure explainability.",
+        "Data quality alerts: Automated alerts that notify the team when the input data quality deviates from expected standards.",
+        "Risk rating: The ability to assign a risk level to each model based on the potential impact of incorrect predictions."
+      ],
+      "correct_answers": [
+        "Risk rating: The ability to assign a risk level to each model based on the potential impact of incorrect predictions."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+Pregunta 1:
+When using a Transformer model for text classification, which component is responsible for capturing the relationships between different tokens in a sentence?
+Feed-Forward Neural Network
+Positional Encoding
+Self-Attention (Correct)
+Softmax Layer
+
+----
+
+Pregunta 2:
+You are fine-tuning a pre-trained GPT model for a customer service chatbot. Which training technique is most appropriate if you want to adapt the model with minimal training data?
+Freezing the initial layers and training the last few layers (Correct)
+Training from scratch
+Training the entire model with new data
+Changing the tokenizer and training the whole model
+
+----
+
+Pregunta 3:
+Which AWS service would you use to quickly deploy a pre-trained model like GPT-J for text generation tasks?
+AWS Lambda
+Amazon SageMaker JumpStart (Correct)
+Amazon Comprehend
+Amazon Translate
+
+----
+
+Pregunta 4:
+In a sequence-to-sequence transformer model used for translation, what is the role of the decoder?
+To generate the target sequence from the source sequence (Correct)
+To encode the input sequence into a fixed-size vector
+To compute the attention weights for the input tokens
+To normalize the output probabilities using softmax
+
+----
+
+Pregunta 5:
+When using masked self-attention in GPT models, what is the purpose of the mask?
+To reduce the model size
+To prevent overfitting
+To allow tokens to focus only on past tokens (Correct)
+To speed up the training process
+
+----
+
+Pregunta 6:
+You are using AWS SageMaker JumpStart to deploy a model for text generation. Which model type would you choose for multilingual text generation?
+GPT-3
+Amazon Titan
+Jurassic-2 (Correct)
+Nova Reel
+
+----
+
+Pregunta 7:
+During the training of a transformer model, which aspect allows the model to consider the position of each token within the sequence?
+Token embedding
+Self-attention
+Positional encoding (Correct)
+Multi-headed attention
+
+----
+
+Pregunta 8:
+offerings?
+You are tasked with summarizing large volumes of text data. Which model would you select from AWS's
+Claude
+Jurassic-2
+Amazon Titan (Correct)
+Stable Diffusion
+
+----
+
+Pregunta 9:
+In the context of self-attention, which matrices are used to compute the attention scores for each token?
+Query and Value
+Query and Key (Correct)
+Key and Value
+Embedding and Value
+
+----
+
+Pregunta 10:
+What is a key advantage of using self-attention in transformer models over traditional RNNs?
+Decreasing model sizes
+Parallelizable computation (Correct)
+Better sequence modeling with fewer parameters
+Elimination of the need for tokenization

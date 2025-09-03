@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A machine learning engineer is working for a healthcare company and is responsible for deploying a machine learning model on Amazon SageMaker. The model will be used to analyze patient data, which is highly sensitive information. To ensure the security of your ML resources, you must configure security groups appropriately.\nWhich statement about security groups is correct?",
+      "options": [
+        "Security groups act as virtual firewalls that control inbound and outbound traffic to your ML resources, such as SageMaker notebooks and endpoints.",
+        "AWS configures security groups and users cannot modify them.",
+        "Security groups only apply to Amazon Elastic Compute Cloud (Amazon EC2) instances and cannot be used to secure SageMaker resources.",
+        "Security groups control access to AWS services based on user roles and permissions."
+      ],
+      "correct_answers": [
+        "Security groups act as virtual firewalls that control inbound and outbound traffic to your ML resources, such as SageMaker notebooks and endpoints."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

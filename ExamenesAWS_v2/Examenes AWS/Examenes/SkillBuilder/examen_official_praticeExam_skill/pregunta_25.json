@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A company needs to develop an ML model. The model must identify an item in an image and must provide the location of the item. Which Amazon SageMaker AI algorithm will meet these requirements?",
+      "options": [
+        "Image classification",
+        "XGBoost",
+        "Object detection",
+        "K-nearest neighbors (k-NN)"
+      ],
+      "correct_answers": [
+        "Object detection"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "When training a deep learning model, you notice that your model's loss is decreasing very slowly. What is a likely reason for this?",
+      "options": [
+        "Learning rate is too high",
+        "Learning rate is too low",
+        "Overfitting is occurring",
+        "The model has too few layers"
+      ],
+      "correct_answers": [
+        "Learning rate is too low"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

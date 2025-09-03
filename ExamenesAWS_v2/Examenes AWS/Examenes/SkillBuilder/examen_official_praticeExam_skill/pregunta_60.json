@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "A data scientist is building a translation model by using Amazon SageMaker AI seq2seq. The model will translate news articles into multiple languages. The data scientist has a dataset with historical news articles written in multiple languages. The data scientist developed two different models and wants to compare the effectiveness of the models.\n\nWhich metric should the data scientist use to compare the models?",
+      "options": [
+        "F1 score",
+        "Root Mean Square Error (RMSE)",
+        "Bilingual evaluation understudy (BLEU) score",
+        "Recall"
+      ],
+      "correct_answers": [
+        "Bilingual evaluation understudy (BLEU) score"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

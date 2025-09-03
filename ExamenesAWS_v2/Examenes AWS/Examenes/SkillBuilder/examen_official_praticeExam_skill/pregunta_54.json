@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "A company is working on an ML project that will include Amazon SageMaker AI notebook instances. An ML engineer must ensure that the SageMaker AI notebook instances do not allow root access.\n\nWhich solution will prevent the deployment of notebook instances that allow root access?",
+      "options": [
+        "Use IAM condition keys to stop deployments of SageMaker AI notebook instances that allow root access.",
+        "Use AWS Key Management Service (AWS KMS) keys to stop deployments of SageMaker AI notebook instances that allow root access.",
+        "Monitor resource creation by using Amazon EventBridge events. Create an AWS Lambda function that deletes all deployed SageMaker AI notebook instances that allow root access.",
+        "Monitor resource creation by using AWS CloudFormation events. Create an AWS Lambda function that deletes all deployed SageMaker AI notebook instances that allow root access."
+      ],
+      "correct_answers": [
+        "Use IAM condition keys to stop deployments of SageMaker AI notebook instances that allow root access."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

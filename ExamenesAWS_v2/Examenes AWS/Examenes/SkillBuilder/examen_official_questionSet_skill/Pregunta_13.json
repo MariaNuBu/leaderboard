@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "Case Study - 3 Questions\n\nA company wants to implement an internal employee chatbot that can answer questions that are related to internal company topics and processes. The chatbot will use a generative AI approach and large language models (LLMs) to interact with users. The relevant information is currently held in an unstructured format in thousands of PDF documents in the company's document management system. An ML engineer must implement the chatbot solution.\n\nQuestion\nThe ML engineer has set up a retrieval system for augmented generation.\n\nWhich solution will meet the requirements to provide an answer to a user question based on the identified, relevant documents?",
+      "options": [
+        "A\nSplit the identified relevant documents into single sentences. Use the user question as the search query and run a lexical search on the sentences to identify the relevant sentence. Return the relevant sentence as an answer to the user.",
+        "B\nSplit the identified relevant documents into single sentences. Use the user question as the search query and run a semantic search on the sentences to identify the relevant sentence. Return the relevant sentence as an answer to the user.",
+        "C\nEngineer a prompt that contains the context (relevant document chunks) and the user question. Engineer the prompt to make the system answer the question based on the context. Send the prompt to an LLM on Amazon Bedrock and return the answer to the user.",
+        "D\nEngineer a prompt that contains the context (relevant document chunks) and the user question. Engineer the prompt to make the system answer the question based on the context. Send the prompt to an internet search engine and return the search result to the user."
+      ],
+      "correct_answers": [
+        "C\nEngineer a prompt that contains the context (relevant document chunks) and the user question. Engineer the prompt to make the system answer the question based on the context. Send the prompt to an LLM on Amazon Bedrock and return the answer to the user."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

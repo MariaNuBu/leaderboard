@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "What is the main difference between identity-based policies and resource-based policies in AWS IAM?\n\nResource-based policies must always be AWS managed policies, while identity-based policies must be inline policies.\n\nExplicación\nBoth identity-based and resource-based policies can be managed or inline; there is no such restriction.\n\nIdentity-based policies can only be applied to groups, while resource-based policies can only be applied to individual users.\n\nExplicación\nIdentity-based policies can be applied to both users, groups, and roles, while resource-based policies are specific to resources.\n\nIdentity-based policies are applied directly to AWS resources, while resource-based policies are attached to users, groups, or roles.\n\nExplicación\nIdentity-based policies are applied to identities (users, groups, roles) while resource-based policies are attached to AWS resources like S3 buckets.",
+      "options": [
+        "Resource-based policies must always be AWS managed policies, while identity-based policies must be inline policies.",
+        "Identity-based policies can only be applied to groups, while resource-based policies can only be applied to individual users.",
+        "Identity-based policies are applied directly to AWS resources, while resource-based policies are attached to users, groups, or roles.",
+        "Identity-based policies are applied to IAM users, groups, or roles, whereas resource-based policies are directly attached to AWS resources like S3 buckets."
+      ],
+      "correct_answers": [
+        "Identity-based policies are applied to IAM users, groups, or roles, whereas resource-based policies are directly attached to AWS resources like S3 buckets."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

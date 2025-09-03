@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "TOPIC: 2.1 Choose a modeling approach.\n\nA car company wants to build an ML model by using Amazon SageMaker to predict the prices of pre-owned cars. The company provides a dataset to a data scientist that includes thousands of observations and 10 features based on past sales data.\n\nWhich ML algorithm should the data scientist use to meet these requirements?",
+      "options": [
+        "A Random Cut Forest (RCF) algorithm",
+        "B K-means algorithm",
+        "C Latent Dirichlet Allocation (LDA) algorithm",
+        "D Linear learner algorithm"
+      ],
+      "correct_answers": [
+        "D Linear learner algorithm"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a modeling approach.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "The associate ML engineer asks you what the ideal balance is between model bias and model variance. How would you respond?",
+      "options": [
+        "Find the HIGHEST model bias and HIGHEST model variance that perform well on validation data.",
+        "The ideal balance is HIGH model bias and LOW model variance.",
+        "The ideal balance is LOW model bias and LOW model variance.",
+        "The ideal balance is LOW model bias and HIGH model variance."
+      ],
+      "correct_answers": [
+        "The ideal balance is LOW model bias and LOW model variance."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

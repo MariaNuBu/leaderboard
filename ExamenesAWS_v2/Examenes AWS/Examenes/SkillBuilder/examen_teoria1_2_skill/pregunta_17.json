@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A retail company wants to predict which products customers will purchase based on past purchase data. The data contains purchase information like customer ID, product, price, date, and more.\n\nWhich technique could the team use to transform the raw data into more informative features to help improve the accuracy of their model?",
+      "options": [
+        "Data splitting",
+        "Removing outliers",
+        "Feature engineering",
+        "Data cleaning"
+      ],
+      "correct_answers": [
+        "Feature engineering"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

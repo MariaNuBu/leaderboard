@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "A retail company has developed a recommendation ML model to enhance customer experience on its platform. Before fully deploying the model in production, the company wants to perform online validation by routing 20% of the traffic to the new model while the remaining traffic continues to use the existing model.\n\nWhich solution will implement the online validation with minimal operational overhead?\n\nLeverage shadow variants feature to add the new model into the existing SageMaker endpoint. Assign a weight of 0.2 to the new model variant and use Amazon CloudWatch to monitor the number of invocations\n\nChoose canary traffic shifting in SageMaker and configure the capacity_percent parameter to 20%. Set up Amazon CloudWatch alarms to monitor the endpoint's metrics",
+      "options": [
+        "Leverage shadow variants feature to add the new model into the existing SageMaker endpoint. Assign a weight of 0.2 to the new model variant and use Amazon CloudWatch to monitor the number of invocations",
+        "Choose canary traffic shifting in SageMaker and configure the capacity_percent parameter to 20%. Set up Amazon CloudWatch alarms to monitor the endpoint's metrics",
+        "Leverage production variants feature to add the new model into the existing SageMaker endpoint. Assign a weight of 0.2 to the new model variant and use Amazon CloudWatch to monitor the number of invocations",
+        "Leverage production variants feature to add the new model into the existing SageMaker endpoint. Assign a weight of 20 to the new model variant and use Amazon CloudWatch to monitor the number of invocations"
+      ],
+      "correct_answers": [
+        "Leverage production variants feature to add the new model into the existing SageMaker endpoint. Assign a weight of 0.2 to the new model variant and use Amazon CloudWatch to monitor the number of invocations"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-validation.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-ab-testing.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

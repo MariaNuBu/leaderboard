@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "You are a data scientist working on a machine learning project to predict customer lifetime value (CLV) for an e-commerce company. Before deploying a complex model like a deep neural network, you need to establish a performance baseline to measure the effectiveness of your advanced models. You decide to use Amazon SageMaker to create this baseline efficiently. The goal is to build a simple model that can be easily implemented and provide a reference point for evaluating the performance of more sophisticated models later.\n\nWhich of the following approaches is the MOST EFFECTIVE for creating a performance baseline using Amazon SageMaker?\n\nDeploy a SageMaker BlazingText model to create word embeddings from customer reviews, which can be used as a baseline for evaluating CLV predictions\n\nImplement SageMaker Autopilot to automatically explore various models and select the best one as the baseline, allowing you to skip manual model selection",
+      "options": [
+        "Deploy a SageMaker BlazingText model to create word embeddings from customer reviews, which can be used as a baseline for evaluating CLV predictions",
+        "Implement SageMaker Autopilot to automatically explore various models and select the best one as the baseline, allowing you to skip manual model selection",
+        "Train a basic linear learner model using Amazon SageMaker, focusing on key features like customer age, purchase frequency, and average order value, to establish a baseline for CLV prediction",
+        "Use SageMaker JumpStart to deploy a pre-trained model for customer segmentation, which can serve as a baseline for your CLV prediction model"
+      ],
+      "correct_answers": [
+        "Train a basic linear learner model using Amazon SageMaker, focusing on key features like customer age, purchase frequency, and average order value, to establish a baseline for CLV prediction"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html",
+        "https://aws.amazon.com/sagemaker/jumpstart/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

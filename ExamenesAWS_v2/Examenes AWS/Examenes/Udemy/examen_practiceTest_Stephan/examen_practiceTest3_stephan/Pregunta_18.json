@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "You are a data engineer responsible for monitoring the performance of a suite of machine learning models deployed across multiple environments at an e-commerce company. The models are used for various tasks, including recommendation engines, demand forecasting, and customer segmentation. To ensure that these models are performing optimally, you need to set up a centralized dashboard that allows stakeholders to monitor key performance metrics such as latency, accuracy, throughput, and resource utilization. The dashboard should be user-friendly, provide insights at a glance, and support both technical and non-technical users.\n\nWhich approach is MOST SUITABLE for setting up a dashboard to monitor the performance metrics of these ML models?",
+      "options": [
+        "Set up a CloudWatch Dashboard to aggregate and display performance metrics such as CPU utilization, memory usage, and latency from various services. Use Amazon SNS to send daily reports based on these metrics to stakeholders",
+        "Create a custom web application that pulls data from CloudWatch Logs, generating real-time visualizations of performance metrics. Embed the application within the company’s internal portal for easy access",
+        "Use AWS Lambda to query CloudWatch Logs and send the results to an S3 bucket daily, where stakeholders can manually review the metrics and create their own visualizations using spreadsheet software",
+        "Use Amazon QuickSight to create a visual dashboard that integrates data from Amazon CloudWatch Logs via Amazon S3, providing interactive charts and graphs that allow stakeholders to drill down into specific metrics as needed"
+      ],
+      "correct_answers": [
+        "Use Amazon QuickSight to create a visual dashboard that integrates data from Amazon CloudWatch Logs via Amazon S3, providing interactive charts and graphs that allow stakeholders to drill down into specific metrics as needed"
+      ],
+      "references": [
+        "https://aws.amazon.com/quicksight/",
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

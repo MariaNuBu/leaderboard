@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A data engineer has created a data transformation flow in SageMaker Data Wrangler that includes handling missing values, feature encoding, and normalization. The team wants to automate this process in future projects and reuse it across multiple datasets. What is the most effective way to automate and share this data preparation workflow?",
+      "options": [
+        "Export the flow as Python code and use it in an automated pipeline.",
+        "Save the flow as a Jupyter notebook.",
+        "Manually repeat the steps in SageMaker Studio for each new dataset.",
+        "Use Amazon Redshift to apply the transformations directly."
+      ],
+      "correct_answers": [
+        "Export the flow as Python code and use it in an automated pipeline."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

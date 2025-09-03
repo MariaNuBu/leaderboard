@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A machine learning engineer is working on a critical model deployment for a financial services company. The model requires thorough testing before deployment. Which AWS service should the engineer use to address these requirements?",
+      "options": [
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Experiments",
+        "Amazon SageMaker Debugger",
+        "Amazon SageMaker Clarify"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Debugger"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "You are tasked with deploying a machine learning model to edge devices in a factory. Which SageMaker feature would you use to optimize and deploy the model efficiently?",
+      "options": [
+        "SageMaker Neo",
+        "SageMaker Batch Transform",
+        "SageMaker Data Wrangler",
+        "SageMaker Studio"
+      ],
+      "correct_answers": [
+        "SageMaker Neo"
+      ],
+      "references": [],
+      "topic": "Data Transformation, Integrity, and Feature Engineering",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496099",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

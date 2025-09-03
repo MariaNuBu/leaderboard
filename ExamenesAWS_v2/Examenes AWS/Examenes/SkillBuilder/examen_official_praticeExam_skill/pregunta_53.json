@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "A company is using Amazon SageMaker AI to develop ML models. All of the company's resources are in the us-east-1 AWS Region. The company stores sensitive training data in an Amazon S3 bucket. The model training must have network isolation from the internet.\n\nWhich solution will meet this requirement?",
+      "options": [
+        "Run the SageMaker AI training jobs in private subnets. Create a NAT gateway. Route traffic for training through the NAT gateway.",
+        "Run the SageMaker AI training jobs in private subnets. Create an S3 interface endpoint. Use the VPC endpoint to access the training data.",
+        "Run the SageMaker AI training jobs in public subnets that have an attached security group. In the security group, use inbound rules to limit traffic from the internet. Encrypt SageMaker AI instance storage by using server-side encryption with AWS KMS keys (SSE-KMS).",
+        "Encrypt traffic to Amazon S3 by using a bucket policy that includes a value of True for the aws:SecureTransport condition key. Use default at-rest encryption for Amazon S3. Encrypt SageMaker AI instance storage by using server-side encryption with AWS KMS keys (SSE-KMS)."
+      ],
+      "correct_answers": [
+        "Run the SageMaker AI training jobs in private subnets. Create an S3 interface endpoint. Use the VPC endpoint to access the training data."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

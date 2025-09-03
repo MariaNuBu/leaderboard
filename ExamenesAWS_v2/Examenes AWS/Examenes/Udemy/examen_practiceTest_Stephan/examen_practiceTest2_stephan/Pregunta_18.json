@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "You are a Cloud Financial Manager at a SaaS company that uses various AWS services to run its applications and machine learning workloads. Your management team has asked you to reduce overall AWS spending while ensuring that critical applications remain highly available and performant. To achieve this, you need to use AWS cost analysis tools to monitor spending, identify cost-saving opportunities, and optimize resource utilization across the organization.\n\nWhich of the following actions can you perform using the appropriate AWS cost analysis tools to achieve your goal of reducing costs and optimizing AWS resource utilization? (Select two)",
+      "options": [
+        "Use AWS Cost Explorer to analyze historical spending patterns, identify cost trends, and forecast future costs to help with budgeting and planning",
+        "Use AWS Cost Explorer to set custom budgets for cost and usage to govern costs across your organization and receive alerts when costs exceed your defined thresholds",
+        "Leverage AWS Trusted Advisor to directly modify and reconfigure resources based on cost optimization recommendations without manual intervention",
+        "Use AWS Cost Explorer to automatically delete unused resources across your AWS environment, ensuring that no unnecessary costs are incurred",
+        "Leverage AWS Trusted Advisor to receive recommendations for cost optimization, such as identifying underutilized or idle resources, and reserved instance purchasing opportunities"
+      ],
+      "correct_answers": [
+        "Use AWS Cost Explorer to analyze historical spending patterns, identify cost trends, and forecast future costs to help with budgeting and planning",
+        "Leverage AWS Trusted Advisor to receive recommendations for cost optimization, such as identifying underutilized or idle resources, and reserved instance purchasing opportunities"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html",
+        "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+        "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

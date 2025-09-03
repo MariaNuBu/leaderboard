@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "How does model training work in Deep Learning?\n\nModel training in deep learning requires no data; the neural network automatically learns from predefined algorithms without any input\n\nModel training in deep learning involves manually setting the weights and biases of a neural network based on predefined rules",
+      "options": [
+        "Model training in deep learning requires no data; the neural network automatically learns from predefined algorithms without any input",
+        "Model training in deep learning involves manually setting the weights and biases of a neural network based on predefined rules",
+        "Model training in deep learning involves using large datasets to adjust the weights and biases of a neural network through multiple iterations, using techniques such as gradient descent to minimize the error",
+        "Model training in deep learning involves only the use of support vector machines and decision trees to create predictive models"
+      ],
+      "correct_answers": [
+        "Model training in deep learning involves using large datasets to adjust the weights and biases of a neural network through multiple iterations, using techniques such as gradient descent to minimize the error"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/artificial-intelligence/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

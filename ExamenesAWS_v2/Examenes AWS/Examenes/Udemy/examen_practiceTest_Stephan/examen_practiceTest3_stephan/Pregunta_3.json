@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You are a machine learning engineer at a biotechnology company working on a deep learning model to analyze genomic sequences. The model requires significant computational resources for training due to the complexity and size of the dataset, which consists of billions of nucleotide sequences. Additionally, once deployed, the model must provide real-time inferences for clinical applications, requiring low-latency predictions. Your task is to choose the appropriate compute environment for both training and inference.\nWhich of the following compute environment configurations is the MOST SUITABLE for meeting the training and inference requirements of this use case?\nUse Amazon EC2 with g4dn instances (NVIDIA T4 GPUs) for both training and inference, optimizing for cost-efficiency while maintaining moderate GPU performance",
+      "options": [
+        "Use Amazon EC2 with g4dn instances (NVIDIA T4 GPUs) for both training and inference, optimizing for cost-efficiency while maintaining moderate GPU performance",
+        "Use Amazon SageMaker with p4d instances (NVIDIA A100 GPUs) for training to handle large-scale deep learning workloads, and deploy the model using ml.inf1 instances (AWS Inferentia chips) for low-latency inference",
+        "Use Amazon SageMaker with ml.c5.large instances (Intel Cascade Lake CPUs) for training and inference, relying on the CPU's high memory bandwidth for both tasks",
+        "Use Amazon SageMaker with p3 instances (NVIDIA V100 GPUs) for training, and deploy the model using ml.m5.large instances (Intel Skylake CPUs) for real-time inference to balance cost and performance"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker with p4d instances (NVIDIA A100 GPUs) for training to handle large-scale deep learning workloads, and deploy the model using ml.inf1 instances (AWS Inferentia chips) for low-latency inference"
+      ],
+      "references": [
+        "https://aws.amazon.com/ec2/instance-types/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks-available-instance-types.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+Pregunta 1:
+A team is deploying a machine learning model to production and is concerned about potential bias in the predictions. Which AWS service should they use to monitor for bias in real-time?
+Amazon Augmented Al
+AWS Glue
+SageMaker Clarify (Correct)
+SageMaker Model Monitor
+
+----
+
+Pregunta 2:
+You are designing an ML system that must be able to scale during high traffic and ensure that model predictions are delivered within a set latency threshold. Which SageMaker deployment strategy should you consider?
+Blue/Green deployment
+A/B Testing
+Multi-Model endpoint
+Real-Time inference with Auto-scaling (Correct)
+
+----
+
+Pregunta 3:
+Which of the following practices would help you minimize the environmental impact of your ML workloads on AWS?
+Use on-demand instances for all training jobs
+Train large models without considering reuse
+Utilize Spot Instances and energy-efficient instance types (Correct)
+Use the largest possible models for every task
+
+----
+
+Pregunta 4:
+Your team needs to retrain an ML model whenever there is significant data drift. Which AWS service will help you automate the retraining process based on predefined conditions?
+AWS Step Functions
+SageMaker Model Monitor
+SageMaker Pipelines (Correct)
+Amazon Augmented AI
+
+----
+
+Pregunta 5:
+A company wants to optimize its ML model to ensure minimal cost while maintaining adequate performance. What approach should they take?
+Deploy models on the largest instance type available
+Use Elastic Inference to right-size GPU usage (Correct)
+Train models without stopping unused resources
+Use random hyperparameter search
+
+----
+
+Pregunta 6:
+You are tasked with ensuring the explainability of your ML model in production. Which tool should you use to generate explanations for predictions made by the model?
+SageMaker Model Monitor
+SageMaker Clarify (Correct)
+AWS Glue
+SageMaker Pipelines
+
+----
+
+Pregunta 7:
+You need to establish a feedback loop that incorporates human review for certain predictions made by your model. Which AWS service would you use?
+SageMaker Clarify
+SageMaker Model Monitor
+Amazon Augmented AI (Correct)
+SageMaker Pipelines
+
+----
+
+Pregunta 8:
+You are setting up a CI/CD pipeline for machine learning in AWS and need to ensure model consistency between training and inference. Which service can help maintain feature consistency across these stages?
+SageMaker Data Wrangler
+SageMaker Feature Store (Correct)
+SageMaker Neo
+AWS Glue Data Catalog
+
+----
+
+Pregunta 9:
+Your team needs to track and audit the complete lineage of a machine learning model, from data ingestion to deployment. Which combination of AWS services should you use?
+SageMaker Lineage Tracking and SageMaker Model Registry (Correct)
+AWS CloudTrail and SageMaker Clarify
+Amazon Macie and SageMaker Studio
+SageMaker Feature Store and AWS Glue
+
+----
+
+Pregunta 10:
+A financial institution requires that all models be explainable to meet regulatory requirements. Which AWS service should be used to ensure that model predictions are understandable and compliant?
+SageMaker Model Monitor
+SageMaker Clarify (Correct)
+SageMaker Neo
+SageMaker Experiments

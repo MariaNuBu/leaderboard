@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "Which AWS tool provides real-time identification of potential areas for optimization?",
+      "options": [
+        "AWS Budgets",
+        "Amazon CloudWatch",
+        "AWS Cost Explorer",
+        "AWS Trusted Advisor"
+      ],
+      "correct_answers": [
+        "AWS Trusted Advisor"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A global e-commerce company has developed a custom sentiment analysis model using Amazon Comprehend in Account A within the us-west-2 Region. The company now needs to copy the model to Account B, which handles customer service operations, so that the model can be used to analyze customer feedback. The solution must ensure secure and efficient transfer of the model with minimal development effort.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Leverage AWS Glue Data Catalog to register the model metadata in Account A and enable cross-account sharing with Account B. Use the Comprehend console in Account B to access the model",
+        "Manually download the model artifacts from Amazon S3 in Account A and upload them to an S3 bucket in Account B. Use a custom script to recreate the model in Account B",
+        "Use the Amazon Comprehend ImportModel API operation in Account B to securely import the sentiment analysis model from Account A by configuring a resource based IAM policy in account A",
+        "Use the Amazon Comprehend ImportModel API operation in Account B to securely import the sentiment analysis model from Account A by configuring a resource based IAM policy in account B"
+      ],
+      "correct_answers": [
+        "Use the Amazon Comprehend ImportModel API operation in Account B to securely import the sentiment analysis model from Account A by configuring a resource based IAM policy in account A"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/comprehend/latest/APIReference/API_ImportModel.html",
+        "https://docs.aws.amazon.com/comprehend/latest/dg/custom-copy-sharing.html#custom-copy-sharing-example-policy",
+        "https://docs.aws.amazon.com/comprehend/latest/dg/custom-copy.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

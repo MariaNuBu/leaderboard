@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A company is training a deep learning model with billions of parameters, which is too large to fit on a single machine. They decide to use model parallelism on Amazon SageMaker.\nWhat key feature of SageMaker makes model parallelism easier to implement, and how does it work?",
+      "options": [
+        "SageMaker Model Monitor automatically manages and optimizes the model splitting process across multiple GPUs.",
+        "SageMaker handles model parallelism by dividing the dataset across multiple machines and averaging the model gradients.",
+        "SageMaker’s Model Parallelism Library automatically splits the model across multiple GPUs or machines, based on the model architecture and available memory.",
+        "SageMaker’s built-in algorithms dynamically adjust the batch size to ensure the model can be trained on multiple machines."
+      ],
+      "correct_answers": [
+        "SageMaker’s Model Parallelism Library automatically splits the model across multiple GPUs or machines, based on the model architecture and available memory."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

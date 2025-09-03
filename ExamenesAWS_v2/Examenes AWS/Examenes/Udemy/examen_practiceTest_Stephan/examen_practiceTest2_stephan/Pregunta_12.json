@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A cloud architect is tasked with deploying a pre-trained AI model for a customer-facing application. The demand for the model's services fluctuates throughout the day, with occasional peaks in traffic and long periods of low activity. The architect needs to find a solution that scales automatically to handle high traffic while minimizing costs during idle periods.\n\nWhich solution will fulfill these requirements with minimal management overhead?\n\nDeploy the model by using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate. Use Amazon EventBridge to trigger auto scaling",
+      "options": [
+        "Deploy the model to an Amazon SageMaker endpoint. Create SageMaker endpoint auto scaling policies based on Amazon CloudWatch metrics to adjust the number of instances dynamically",
+        "Deploy the model to a group of Amazon Elastic Container Service (Amazon ECS) managed EC2 instances and set up an Application Load Balancer (ALB) in front of the ECS fleet to distribute incoming traffic",
+        "Deploy the model by using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate. Use Amazon EventBridge to trigger auto scaling",
+        "Deploy the model to an Amazon SageMaker endpoint using Provisioned Concurrency with Serverless Inference to cater to dynamically changing traffic patterns"
+      ],
+      "correct_answers": [
+        "Deploy the model to an Amazon SageMaker endpoint. Create SageMaker endpoint auto scaling policies based on Amazon CloudWatch metrics to adjust the number of instances dynamically"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-policy.html",
+        "https://docs.aws.amazon.com/autoscaling/application/userguide/target-tracking-scaling-policy-overview.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

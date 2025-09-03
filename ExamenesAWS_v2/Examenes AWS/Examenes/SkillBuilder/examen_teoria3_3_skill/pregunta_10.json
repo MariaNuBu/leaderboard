@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A data science team has built a machine learning model to classify customer support tickets. They want to set up an automated workflow to retrain and redeploy the model every night with new data. Which services would be best to use for orchestrating this workflow?",
+      "options": [
+        "Use AWS CodePipeline to orchestrate the workflow, with AWS Lambda functions for each pipeline stage.",
+        "Use AWS Step Functions to create a workflow, with AWS CodePipeline invoking the state machine in response to source code changes.",
+        "Use AWS CodeBuild to run a script that calls each service API.",
+        "Use AWS Lambda to coordinate between Amazon SageMaker, Amazon Simple Storage Service (Amazon S3), and other services."
+      ],
+      "correct_answers": [
+        "Use AWS Step Functions to create a workflow, with AWS CodePipeline invoking the state machine in response to source code changes."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

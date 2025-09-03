@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A company builds and deploys ML models by using Amazon SageMaker AI. The models are used across multiple departments. The company allocates a monthly budget that each department can spend on AWS services. The company wants to ensure that each department knows when the department's monthly spend is likely to exceed the allocated budget. Which solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Create a budget in AWS Budgets with a fixed method. Specify a filter based on user-defined cost allocation tags that are associated with each department. Configure the budget to trigger an alert and notify the department based on the forecasted monthly spend.",
+        "Create a budget in AWS Budgets with an auto-adjusting method. Specify a filter based on AWS generated cost allocation tags that are associated with each department. Configure the budget to trigger an alert and notify the department based on the actual monthly spend.",
+        "Create a cost report for each department by using AWS Cost Explorer. Filter the cost report based on user-defined cost allocation tags that are associated with each department. Grant each department access to its own Cost Explorer report to review and predict when each department will exceed its own budget.",
+        "Create a budget in AWS Budgets with an auto-adjusting method. Specify a filter based on AWS generated cost allocation tags that are associated with each department. Create budget reports for each department and configure AWS Budgets to deliver daily reports."
+      ],
+      "correct_answers": [
+        "Create a budget in AWS Budgets with a fixed method. Specify a filter based on user-defined cost allocation tags that are associated with each department. Configure the budget to trigger an alert and notify the department based on the forecasted monthly spend."
+      ],
+      "references": [],
+      "topic": "Cost Management & AWS Budgets",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

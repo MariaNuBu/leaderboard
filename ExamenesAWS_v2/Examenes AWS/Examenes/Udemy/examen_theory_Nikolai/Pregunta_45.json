@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "A machine learning team wants to quickly build and customize a fraud detection solution using SageMaker Jumpstart. They need to fine-tune the pre-trained model for their specific dataset. Which TWO techniques should they use to tailor the model for their needs? (Choose Two)",
+      "options": [
+        "Manually write a training script to run on SageMaker training jobs.",
+        "Use SageMaker automatic hyperparameter tuning to optimize model performance for their data.",
+        "Fine-tune the pre-trained model by training it on their custom dataset.",
+        "Develop a custom algorithm from scratch and integrate it with SageMaker Jumpstart.",
+        "Use prompt engineering to shape the input prompts and encourage the desired response."
+      ],
+      "correct_answers": [
+        "Use SageMaker automatic hyperparameter tuning to optimize model performance for their data.",
+        "Fine-tune the pre-trained model by training it on their custom dataset."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

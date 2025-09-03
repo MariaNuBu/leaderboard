@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "4. Question\nCategory: MLA – Data Preparation for Machine Learning (ML)\nA data scientist is in the process of examining a machine learning model to identify potential biases within the training data before it’s deployed in a production environment. The goal is to guarantee that the model exhibits no disproportionate favoritism or discrimination towards any specific demographic group.\n\nMatch each pre-training bias metric with its appropriate scenario. Each metric may be used more than once. (Select THREE.)\n\nTotal Variation Distance (TVD)\nKullback-Leibler Divergence (KL)\nDifference in Proportions of Labels (DPL)\nClass Imbalance (CI)\nThe data scientist wants to compare the difference in the proportion of positive outcomes among different racial groups.\n(Difference in Proportions of Labels (DPL))\nThe dataset must be analyzed to measure the imbalance between male and female instances.\n(Class Imbalance (CI))\nThe data scientist is interested in evaluating the maximum disparity in results among different income levels.\n(Total Variation Distance (TVD))",
+      "options": [
+        "Total Variation Distance (TVD)",
+        "Kullback-Leibler Divergence (KL)",
+        "Difference in Proportions of Labels (DPL)",
+        "Class Imbalance (CI)"
+      ],
+      "correct_answers": [
+        "Difference in Proportions of Labels (DPL)",
+        "Class Imbalance (CI)",
+        "Total Variation Distance (TVD)"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-data-bias.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-detect-data-bias.html"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

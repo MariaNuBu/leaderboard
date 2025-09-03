@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which step is most critical before deploying a SageMaker model using a Docker container?",
+      "options": [
+        "Validate the model using SageMaker JumpStart.",
+        "Ensure the model is stored in /opt/ml/model within the container.",
+        "Set up Auto Scaling policies for the endpoint.",
+        "Use SageMaker Neo to compile the model."
+      ],
+      "correct_answers": [
+        "Validate the model using SageMaker JumpStart."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

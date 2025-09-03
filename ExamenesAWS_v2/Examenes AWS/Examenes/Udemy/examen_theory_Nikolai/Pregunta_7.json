@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Pregunta 7\n\nA company is training a reinforcement learning model in SageMaker to optimize energy usage in a smart grid. After training the model, they need to evaluate its performance before deployment. Which SageMaker feature is most appropriate for this evaluation?\n\nUse Amazon Athena to run SQL queries on the training results to evaluate performance.\n\nExplicación\nAthena is used for querying data, not for model evaluation.\n\nUse the SageMaker model monitor to automatically track and evaluate the model's performance on new data.\n\nExplicación\nModel Monitor is for monitoring deployed models, not evaluating training performance.\n\nDeploy the model to an endpoint and evaluate performance using Amazon QuickSight.\n\nExplicación\nQuickSight is used for data visualization, not direct model evaluation.",
+      "options": [
+        "Use Amazon Athena to run SQL queries on the training results to evaluate performance.",
+        "Use the SageMaker model monitor to automatically track and evaluate the model's performance on new data.",
+        "Use SageMaker's built-in evaluation tools and plot training metrics using SageMaker SDK.",
+        "Deploy the model to an endpoint and evaluate performance using Amazon QuickSight."
+      ],
+      "correct_answers": [
+        "Use SageMaker's built-in evaluation tools and plot training metrics using SageMaker SDK."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

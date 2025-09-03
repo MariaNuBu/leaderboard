@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "What is a key advantage of using SageMaker's Managed Spot Training?",
+      "options": [
+        "Spot instances guarantee uninterrupted training.",
+        "Training cost can be reduced by up to 90%",
+        "Spot instances automatically scale based on traffic.",
+        "Managed Spot Training only works with GPU instances."
+      ],
+      "correct_answers": [
+        "Training cost can be reduced by up to 90%"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-managed-spot-training.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

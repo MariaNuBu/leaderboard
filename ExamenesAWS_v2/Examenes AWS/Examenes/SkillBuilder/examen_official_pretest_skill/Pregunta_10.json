@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A data scientist is developing a forecasting model by using Amazon SageMaker. The data scientist has 3 years of daily time series data, including days with missing data. The data is stored in Amazon S3. The data scientist wants to perform feature engineering by filling in missing values with various substitutes.\n\nWhat is the MOST operationally efficient method to fill in missing values?",
+      "options": [
+        "A Use Amazon EMR within the SageMaker environment to fill missing values.",
+        "B Use SageMaker Data Wrangler within the SageMaker Canvas environment to fill missing values.",
+        "C Use AWS Lambda to automatically detect and fill missing values in the dataset.",
+        "D Use AWS Glue to perform extract, transform, and load (ETL) jobs within the SageMaker environment to fill missing values."
+      ],
+      "correct_answers": [
+        "B Use SageMaker Data Wrangler within the SageMaker Canvas environment to fill missing values."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

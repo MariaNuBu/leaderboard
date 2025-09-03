@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A company is deploying a machine learning (ML) model that is expected to have fluctuating traffic patterns, with sudden spikes in requests.  Which factors should be the primary consideration when provisioning the compute resources for this deployment?",
+      "options": [
+        "CPU and memory requirements",
+        "Network bandwidth",
+        "Storage capacity",
+        "Scalability and elasticity"
+      ],
+      "correct_answers": [
+        "Scalability and elasticity"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

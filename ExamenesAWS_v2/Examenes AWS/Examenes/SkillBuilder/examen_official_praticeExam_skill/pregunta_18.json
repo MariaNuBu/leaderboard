@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A company needs to train an ML model that will use historical transaction data to predict customer behavior.\n\nSelect the correct AWS service from the following list to perform each task on the data. Each service should be selected one time or not at all. (Select THREE.)\n\nAmazon Athena\nAWS Glue\nAmazon Kinesis Data Streams\nAmazon S3\n\nQuery the data for exploration and analysis.\n\nStore the data.\n\nTransform the data.",
+      "options": [
+        "Amazon Athena",
+        "AWS Glue",
+        "Amazon Kinesis Data Streams",
+        "Amazon S3"
+      ],
+      "correct_answers": [
+        "Amazon Athena",
+        "Amazon S3",
+        "AWS Glue"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

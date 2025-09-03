@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "Pregunta 58\n\nA company specializes in providing personalized product recommendations for e-commerce platforms. You’ve been tasked with developing a solution that can quickly generate high-quality product descriptions, tailor marketing copy based on customer preferences, and analyze customer reviews to identify trends in sentiment. Given the scale of data and the need for flexibility in choosing foundational models, you decide to use an AI service that can integrate seamlessly with your existing AWS infrastructure while also offering managed foundational models from third-party providers.\n\nWhich AWS service would best meet your requirements?\n\nAmazon Rekognition\n\nAmazon Personalize",
+      "options": [
+        "Amazon Rekognition",
+        "Amazon Personalize",
+        "Amazon Bedrock",
+        "Amazon SageMaker"
+      ],
+      "correct_answers": [
+        "Amazon Bedrock"
+      ],
+      "references": [
+        "https://aws.amazon.com/bedrock/",
+        "https://aws.amazon.com/bedrock/faqs/",
+        "https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

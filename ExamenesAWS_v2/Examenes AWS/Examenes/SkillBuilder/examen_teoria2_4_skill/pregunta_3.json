@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Nikki, a machine learning engineer, is evaluating a classification model for a business problem where it is critical to identify all positive cases correctly, even if it means having a higher number of false positives (FPs).\n\nWhich metric would be best for this example?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1 score"
+      ],
+      "correct_answers": [
+        "Recall"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You are deploying a deep learning model on an AWS EC2 instance. The model requires extensive GPU resources. Which instance type should you select for optimal performance?",
+      "options": [
+        "t2.micro",
+        "m5.large",
+        "p3.8xlarge",
+        "c5.2xlarge"
+      ],
+      "correct_answers": [
+        "p3.8xlarge"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

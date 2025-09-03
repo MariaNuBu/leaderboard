@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "An organization is deploying a machine learning model to edge devices with limited computing resources. They want to optimize the model to reduce resource usage without compromising accuracy. Which AWS service should they use to achieve this optimization?\n\nAmazon SageMaker Real-Time Inference Endpoint\n\nExplicación\nReal-Time Inference Endpoints are for continuous, real-time predictions rather than model optimization for resource-constrained environments.",
+      "options": [
+        "Amazon SageMaker Real-Time Inference Endpoint",
+        "Amazon SageMaker Neo",
+        "AWS IoT Greengrass",
+        "Amazon SageMaker Batch Transform"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Neo"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

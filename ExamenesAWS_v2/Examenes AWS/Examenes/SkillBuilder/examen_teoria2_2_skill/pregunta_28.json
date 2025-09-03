@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A data scientist is working on a project that requires training multiple machine learning models using different frameworks. They want to ensure consistent and reproducible environments for training and deployment. Their team is considering using Docker containers to encapsulate the dependencies and configurations for each machine learning framework. Which statement best describes the benefits of using Docker containers in this scenario?",
+      "options": [
+        "Docker containers are easier to manage and scale than virtual machines, which makes them suitable for large-scale machine learning projects.",
+        "Docker containers provide a lightweight and isolated environment for running applications. This ensures consistent and reproducible environments across different machines and environments.",
+        "Docker containers offer better performance than virtual machines, which results in faster training and deployment of machine learning models.",
+        "Docker containers are more secure than traditional virtualization methods, which makes them ideal for sensitive machine learning projects."
+      ],
+      "correct_answers": [
+        "Docker containers provide a lightweight and isolated environment for running applications. This ensures consistent and reproducible environments across different machines and environments."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/containers.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

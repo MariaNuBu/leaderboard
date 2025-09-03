@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "A machine learning team is training a deep learning model using Amazon SageMaker and wants to monitor the training process in real time to identify issues like vanishing gradients and overfitting. They also need to automatically track and compare different training experiments, including hyperparameter configurations and model performance, to optimize the model. Which combination of SageMaker features should the team use to achieve these goals?",
+      "options": [
+        "Use SageMaker Studio to manually track training metrics and SageMaker Data Wrangler to handle training data",
+        "Use SageMaker Ground Truth for data labeling and SageMaker Autopilot for model optimization",
+        "Use SageMaker Debugger for real-time training monitoring and SageMaker Experiments to track and compare training runs",
+        "Use SageMaker Neo to optimize model performance and SageMaker Feature Store to manage training data features"
+      ],
+      "correct_answers": [
+        "Use SageMaker Debugger for real-time training monitoring and SageMaker Experiments to track and compare training runs"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

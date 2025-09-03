@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A company wants to use a machine learning model developed externally for their business operations. The model is a fraud detection algorithm trained on a large dataset and formatted as a PyTorch model. Which integration method would be most suitable to deploy this model on Amazon SageMaker?",
+      "options": [
+        "Bring Your Own Model (BYOM)",
+        "AWS Marketplace subscription",
+        "SageMaker script mode",
+        "SageMaker built-in algorithms"
+      ],
+      "correct_answers": [
+        "Bring Your Own Model (BYOM)"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

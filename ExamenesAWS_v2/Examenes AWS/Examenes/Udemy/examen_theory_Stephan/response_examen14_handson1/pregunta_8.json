@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "Your application requires high-performance block storage for an EC2 instance that needs to persist data after termination. Which AWS storage solution should you choose?",
+      "options": [
+        "Amazon S3",
+        "Amazon EBS",
+        "Amazon EFS",
+        "Amazon S3 Glacier"
+      ],
+      "correct_answers": [
+        "Amazon EBS"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

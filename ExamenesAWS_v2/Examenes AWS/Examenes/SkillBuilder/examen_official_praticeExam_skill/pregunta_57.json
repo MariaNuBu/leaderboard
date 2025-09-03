@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "A bank is preparing data to train an ML model on Amazon SageMaker AI. The ML model will be used for loan approvals. The bank notices that the historical loan data for training contains many types of biases. An ML engineer must identify the features that contain bias with minimal operational overhead.\n\nSelect and order the correct steps from the following list to identify features that contain bias with the LEAST operational overhead. Each step should be selected one time or not at all. (Select and order THREE.)",
+      "options": [
+        "Download the report from the output location in Amazon S3.",
+        "Create and run a bias report by using SageMaker Data Wrangler and specify the features that were identified.",
+        "Perform an exploratory data analysis (EDA) by using SageMaker Data Wrangler to identify the features to analyze.",
+        "Create and run a bias report on the dataset by using SageMaker Clarify.",
+        "Use Amazon EMR HiveQL to query and prepare the data for analysis.",
+        "Review the report by using SageMaker Data Wrangler."
+      ],
+      "correct_answers": [
+        "Perform an exploratory data analysis (EDA) by using SageMaker Data Wrangler to identify the features to analyze.",
+        "Create and run a bias report by using SageMaker Data Wrangler and specify the features that were identified.",
+        "Review the report by using SageMaker Data Wrangler."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

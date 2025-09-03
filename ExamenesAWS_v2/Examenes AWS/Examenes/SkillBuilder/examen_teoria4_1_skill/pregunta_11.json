@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A research organization has developed a machine learning model to analyze satellite imagery for environmental monitoring purposes. The model is deployed in a batch processing pipeline that runs weekly.\nWhich monitoring approach would be most suitable for this scenario?",
+      "options": [
+        "Real-time monitoring of input data validation, output data anomalies, and inference latency",
+        "Batch monitoring of data quality, and model performance",
+        "Comprehensive monitoring, including data quality, model performance, bias, and feature attribution",
+        "User behavior monitoring and error logging"
+      ],
+      "correct_answers": [
+        "Batch monitoring of data quality, and model performance"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A machine learning engineer is working on a credit risk prediction model. After training the model on Amazon SageMaker, they need to evaluate it for potential biases and ensure it complies with regulatory requirements. Which SageMaker capability should the engineer use for this purpose?",
+      "options": [
+        "Amazon SageMaker Clarify",
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Ground Truth",
+        "Amazon SageMaker Debugger"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Clarify"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-bias-detect-data-model.html"
+      ],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

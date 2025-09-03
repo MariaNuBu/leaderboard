@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "A machine learning engineer is training a large language model on a massive dataset using Amazon SageMaker. The model is too large to fit on a single GPU's memory. Which approach would be most suitable for training this model efficiently?",
+      "options": [
+        "Use early stopping to terminate training when the model starts overfitting.",
+        "Train the model on a single GPU without any distributed training techniques.",
+        "Use model parallelism to split the model across multiple GPUs.",
+        "Use data parallelism to split the dataset across multiple GPUs."
+      ],
+      "correct_answers": [
+        "Use model parallelism to split the model across multiple GPUs."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-parallel.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

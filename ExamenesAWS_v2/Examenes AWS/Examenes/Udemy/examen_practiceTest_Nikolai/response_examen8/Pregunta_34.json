@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A financial company is concerned about bias in its AI models and wants to assess the influence of individual features on model predictions. The company aims to build trust with stakeholders and ensure regulatory compliance by explaining how certain features impact predictions.\nWhich feature of Amazon SageMaker Clarify would best meet these needs?",
+      "options": [
+        "Bias Detection",
+        "SHAP (Shapley Additive Explanations) values for feature attribution",
+        "Data Wrangling",
+        "Early stopping"
+      ],
+      "correct_answers": [
+        "SHAP (Shapley Additive Explanations) values for feature attribution"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

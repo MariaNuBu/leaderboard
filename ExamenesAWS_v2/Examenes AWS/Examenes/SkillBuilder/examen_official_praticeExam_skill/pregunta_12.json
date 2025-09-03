@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A company wants to improve its fraud detection capabilities. The company must implement a highly available streaming solution on AWS to ingest credit card data in real time to detect fraudulent transactions.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use Amazon Kinesis Data Streams to ingest the data. Use Amazon Managed Service for Apache Flink to analyze data. Use Amazon SageMaker AI to detect fraudulent transactions.",
+        "Use Amazon Kinesis Data Streams to ingest the data. Configure Amazon Fraud Detector to read from the Kinesis data stream to detect fraudulent transactions.",
+        "Use Amazon SageMaker Autopilot to automatically ingest the data, build a model, and analyze the data to detect fraudulent transactions.",
+        "Use Amazon SageMaker Data Wrangler to ingest the data in real time. Configure SageMaker Autopilot to perform the analysis to detect fraudulent transactions."
+      ],
+      "correct_answers": [
+        "Use Amazon Kinesis Data Streams to ingest the data. Use Amazon Managed Service for Apache Flink to analyze data. Use Amazon SageMaker AI to detect fraudulent transactions."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Category: MLA – ML Model Development\nA company is looking to use Amazon Bedrock for its AI-driven initiatives. They need a tool that can help create advanced conversational chatbots capable of interacting with customers and providing relevant information from their data systems.\n\nWhich option best describes a use case that Amazon Bedrock excels at?\n\nPredicting future product demand.\nDeveloping chatbots that provide relevant information to customers.\nIdentifying content within social media images.\nPredictive maintenance of vehicles.",
+      "options": [
+        "Predicting future product demand.",
+        "Developing chatbots that provide relevant information to customers.",
+        "Identifying content within social media images.",
+        "Predictive maintenance of vehicles."
+      ],
+      "correct_answers": [
+        "Developing chatbots that provide relevant information to customers."
+      ],
+      "references": [
+        "https://aws.amazon.com/bedrock/",
+        "https://aws.amazon.com/generative-ai/",
+        "https://tutorialsdojo.com/amazon-bedrock/"
+      ],
+      "topic": "MLA – ML Model Development",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

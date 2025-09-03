@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "You are the senior project manager at a global e-commerce company that runs multiple machine learning projects, including recommendation systems, fraud detection, and demand forecasting. The company has a cloud budget that is tightly monitored, and you are required to provide detailed reports on the costs associated with each ML project. To do this effectively, you need to track and allocate costs across different teams and projects, ensuring that each project stays within its allocated budget.\n\nWhich of the following approaches is the MOST EFFECTIVE for tracking and allocating costs across your ML projects using AWS services?",
+      "options": [
+        "Use Amazon CloudWatch to monitor usage metrics for each resource and manually calculate the associated costs based on the metrics. Allocate costs by assigning each resource to a specific project or team",
+        "Create separate AWS accounts for each ML project, allowing costs to be isolated and tracked at the account level. Manually aggregate the costs for reporting purposes using monthly billing statements",
+        "Implement resource tagging across all AWS resources used by your ML projects, including SageMaker instances, S3 buckets, and Lambda functions. Use AWS Cost Explorer to filter costs by tags such as project, team, and environment to generate detailed cost reports",
+        "Set up AWS Budgets for each project and rely on the alerts when the budget threshold is exceeded. Use these alerts to monitor costs and manually adjust resource usage as needed"
+      ],
+      "correct_answers": [
+        "Implement resource tagging across all AWS resources used by your ML projects, including SageMaker instances, S3 buckets, and Lambda functions. Use AWS Cost Explorer to filter costs by tags such as project, team, and environment to generate detailed cost reports"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html",
+        "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

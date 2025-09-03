@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Your company operates a network of Internet of Things (IoT) devices that collect sensor data from remote locations. Which benefit of edge computing would be the MOST relevant in this scenario?",
+      "options": [
+        "Reduced latency",
+        "Improved data privacy and security",
+        "Increased energy efficiency",
+        "Enhanced reliability and fault tolerance"
+      ],
+      "correct_answers": [
+        "Reduced latency"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

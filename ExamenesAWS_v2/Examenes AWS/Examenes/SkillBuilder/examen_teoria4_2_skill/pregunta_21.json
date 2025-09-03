@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "What is the primary purpose of Capacity Blocks for machine learning (ML)?",
+      "options": [
+        "Reserve GPU instances for short-duration machine learning workloads on a future date.",
+        "Provide access to CPU instances for long-term machine learning workloads.",
+        "Offer a cost-effective solution for continuous GPU usage over an extended period.",
+        "Enable low-latency networking for general-purpose EC2 instances."
+      ],
+      "correct_answers": [
+        "Reserve GPU instances for short-duration machine learning workloads on a future date."
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

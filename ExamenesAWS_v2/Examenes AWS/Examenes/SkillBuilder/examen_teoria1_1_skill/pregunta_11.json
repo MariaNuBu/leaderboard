@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A data scientist at a financial institution is in the early stages of the machine learning (ML) lifecycle. They are deciding which data to collect for an ML algorithm to predict loan defaults. Which dataset should the data scientist exclude due to poor data quality?",
+      "options": [
+        "A dataset of loan amounts, credit scores, and repayment histories for 1,000 customers over the past 5 years",
+        "A dataset that includes past loan applications but also includes customer email addresses and other sensitive information",
+        "A dataset that consists of only loan applicants who currently hold a loan with the institution",
+        "A dataset that includes demographic information, such as age, income, and location"
+      ],
+      "correct_answers": [
+        "A dataset that consists of only loan applicants who currently hold a loan with the institution"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

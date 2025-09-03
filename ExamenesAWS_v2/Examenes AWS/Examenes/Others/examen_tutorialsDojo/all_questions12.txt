@@ -1,0 +1,759 @@
+PREGUNTA 1
+
+Topic: MLA – Deployment and Orchestration of ML Workflows
+
+A data scientist is working for a company that specializes in developing machine learning models for large-scale video processing tasks. The current project involves training a deep-learning model using a massive dataset of high-resolution videos. The dataset is stored in a distributed file system, and the training process requires high throughput and low latency access to the data. Additionally, the training process involves frequent read and write operations, and the storage solution must be able to handle the high I/O demands efficiently.
+
+Which of the following storage services will meet the requirements?
+
+Amazon Elastic File System (Amazon EFS)
+AWS Storage Gateway
+Amazon File Cache
+Amazon FSx for Lustre
+
+
+
+the correct answer is: Amazon FSx for Lustre.
+ 
+
+References:
+
+https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html
+
+https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html
+
+ 
+
+Check out this Amazon FSx Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-fsx/
+
+
+PREGUNTA 2:
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A company is working on a machine learning project that involves analyzing customer data to predict churn rates.
+
+Which of the following statements best describes the machine learning approach the company should take?
+
+Develop a set of hard-coded rules and conditional statements to generate predictions.
+Feed the customer data into machine learning algorithms, which will learn patterns and build models to make predictions.
+Manually analyze the customer data and replicate the analysis process using custom code to automate predictions.
+Use raw, unprocessed customer data directly as input to train the machine learning model.
+
+
+Therefore, the correct answer is: Feed the customer data into machine learning algorithms, which will learn patterns and build models to make predictions.
+
+References:
+
+https://community.aws/content/2drbbXokwrIXivItJ8ZeCk3gT5F/introduction-to-artificial-intelligence-and-machine-learning?lang=en
+
+https://aws.amazon.com/what-is/machine-learning/
+
+ 
+
+Check out this AWS Machine Learning And AI Cheat Sheets:
+
+https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/
+
+
+PREGUNTA 3
+
+Category: MLA – ML Model Development
+A company is looking to use Amazon Bedrock for its AI-driven initiatives. They need a tool that can help create advanced conversational chatbots capable of interacting with customers and providing relevant information from their data systems.
+
+Which option best describes a use case that Amazon Bedrock excels at?
+
+Predicting future product demand.
+Developing chatbots that provide relevant information to customers.
+Identifying content within social media images.
+Predictive maintenance of vehicles.
+
+
+Hence, the correct answer is: Developing chatbots that provide relevant information to customers.
+
+The option that says: Predicting future product demand is incorrect because Amazon Bedrock’s primary focus is on generative AI and NLP applications, not predictive analytics.
+
+The option that says: Identifying content within social media images is incorrect this task is better suited for services like Amazon Rekognition, which specializes in image and video analysis. Therefore, this does not satisfy the requirements.
+
+The option that says: Predictive maintenance of vehicles is incorrect because this option typically involves analyzing sensor data and applying machine learning models, which is not the primary use case for Amazon Bedrock.
+
+ 
+
+References:
+
+https://aws.amazon.com/bedrock/
+
+https://aws.amazon.com/generative-ai/
+
+ 
+
+Check out this Amazon Bedrock Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-bedrock/
+
+
+
+PREGUNTA 4
+
+
+4. Question
+Category: MLA – Data Preparation for Machine Learning (ML)
+A data scientist is in the process of examining a machine learning model to identify potential biases within the training data before it’s deployed in a production environment. The goal is to guarantee that the model exhibits no disproportionate favoritism or discrimination towards any specific demographic group.
+
+Match each pre-training bias metric with its appropriate scenario. Each metric may be used more than once. (Select THREE.)
+
+Total Variation Distance (TVD)
+Kullback-Leibler Divergence (KL)
+Difference in Proportions of Labels (DPL)
+Class Imbalance (CI)
+The data scientist wants to compare the difference in the proportion of positive outcomes among different racial groups.
+(Difference in Proportions of Labels (DPL))
+The dataset must be analyzed to measure the imbalance between male and female instances.
+(Class Imbalance (CI))
+The data scientist is interested in evaluating the maximum disparity in results among different income levels.
+(Total Variation Distance (TVD))
+
+
+References:
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-data-bias.html
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-detect-data-bias.html
+
+ 
+
+Check out this AWS Machine Learning And AI Cheat Sheets:
+
+https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/
+
+
+PREGUNTA 5
+
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A manufacturing company has uploaded raw event log data into a data repository to build a machine learning (ML) model for predictive maintenance. The raw event logs include vehicle numbers, scheduled maintenance, warranty expiration, wheel rotation, and more. The goal is to transform the data into an efficient format for storing and processing.
+
+What data format should be used?
+
+CSV Format
+XML
+Avro RecordIO
+Parquet
+
+Hence, the correct answer is: Parquet.
+
+The option that says: CSV Format is incorrect. While it is easy to use and widely supported, it is not as efficient as columnar formats for large-scale data processing and storage. It does not support advanced data compression and indexing, which can lead to larger storage requirements and slower query performance.
+
+The option that says: XML is incorrect because XML is primarily a hierarchical data format that is verbose and not optimized for storage and processing efficiency, especially with large datasets. While XML is good for data interchange and readability, it does not support efficient data compression and query performance, making it less suitable for big data processing and analytics tasks compared to columnar storage formats like Parquet.
+
+The option that says: Avro RecordIO is incorrect because this option is only a row-based storage format that is efficient for serialization but not ideal for storage and processing of large datasets like Parquet. Avro does support schema evolution, but its row-based nature makes it less efficient for large-scale analytical workloads compared to Parquet.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html
+
+https://parquet.apache.org/docs/overview/
+
+ 
+
+Check out this AWS Glue DataBrew Cheat Sheet:
+
+https://tutorialsdojo.com/aws-glue-databrew/
+
+PREGUNTA 6
+
+
+
+TOPIC: MLA – ML Model Development
+A healthcare company seeks to enhance patient outcome predictions using generative AI applications. The company requires a solution that allows selection from various predictive models, guarantees the confidentiality of private data during model fine-tuning, and eliminates the need for managing the underlying ML infrastructure.
+
+Which AWS service best meets the requirements?
+
+Amazon SageMaker Studio
+Amazon Bedrock
+Amazon Comprehend Medical
+Amazon Rekognition
+
+
+
+Hence, the correct answer is Amazon Bedrock.
+
+The option that says: Amazon SageMaker Studio is incorrect. While this service offers comprehensive tools for machine learning, it’s primarily designed for broad ML tasks rather than focusing specifically on generative AI and foundation models. It requires more hands-on management of the machine learning lifecycle compared to Bedrock.
+
+The option that says: Amazon Comprehend Medical is incorrect because this service is tailored only for extracting medical information from unstructured text using natural language processing. It does not support the creation or management of generative AI models, as it’s focused solely on NLP tasks in the medical field.
+
+The option that says: Amazon Rekognition is incorrect because Amazon Rekognition is simply used for tasks like facial analysis, object detection, and activity recognition. It does not facilitate the building or scaling of foundation models for generative AI applications, making it unsuitable for predictive analytics in healthcare beyond visual data.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+
+https://aws.amazon.com/bedrock/
+
+ 
+
+Check out this Amazon Bedrock Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-bedrock/
+
+
+PREGUNTA 7
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+
+A financial adviser plans to use machine learning to improve the efficiency and accuracy of processing mortgage loan requests. By incorporating relevant financial and behavioral data, they aim to reduce the time needed to evaluate applications.
+
+Which options are important for gathering data during model training?
+
+Employment history
+Medical history
+Credit bureau data
+Education History
+
+
+Hence, the correct answer is: Credit bureau data.
+
+The option that says: Employment history is incorrect. While employment history provides some information about job stability and income, it does not offer as comprehensive a picture of financial behavior as credit bureau data. It is less directly relevant to financial risk assessment.
+
+The option that says: Medical history is incorrect because this is related to an individual’s health and has no direct correlation with their financial behavior or creditworthiness. In addition, it would likely violate privacy regulations to use this data. The primary focus here is on financial and behavioral data that directly impact the likelihood of defaults or claims rather than health-related data.
+
+The option that says: Education History is incorrect. While it offers insights into earning potential and stability, it is not as directly relevant to assessing financial behavior and creditworthiness as other factors like credit bureau data, which provide crucial indicators of financial status and repayment ability for mortgage loan processing.
+
+ 
+
+References:
+
+https://www.experian.com/blogs/insights/what-is-credit-risk-analytics/
+
+https://aws.amazon.com/blogs/machine-learning/prepare-data-for-predicting-credit-risk-using-amazon-sagemaker-data-wrangler-and-amazon-sagemaker-clarify/
+
+ 
+
+Check out this Amazon SageMaker Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-sagemaker/
+
+
+PREGUNTA 8
+
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A retail company is launching a series of new products across its global stores. The company wants to forecast daily demand for its products based on historical sales data. The historical data includes information on product sales, inventory levels, and marketing campaigns. However, the timestamps for this data are irregular, and some data points are missing due to occasional stockouts or incomplete records.
+
+Which approach would you recommend to satisfy these requirements with the LEAST operational overhead?
+
+Process and forecast data using Amazon EMR Serverless with PySpark.
+Visualize and forecast data using Amazon QuickSight.
+Prepare and analyze data using Amazon SageMaker Studio Data Wrangler.
+Clean and forecast data using Amazon SageMaker Studio Notebook with Pandas.
+
+Hence, the correct answer is: Prepare and analyze data using Amazon SageMaker Studio Data Wrangler.
+
+The option that says: Process and forecast data using Amazon EMR Serverless with PySpark is incorrect because while this can primarily handle large-scale data processing and complex transformations, it requires more setup and maintenance compared to Data Wrangler. This approach involves configuring clusters, managing PySpark scripts, and ensuring infrastructure scalability, leading to higher operational overhead.
+
+The option that says: Visualize and forecast data using Amazon QuickSight. is incorrect. Amazon QuickSight is just a tool for data visualization with basic forecasting capabilities. It is not primarily designed for extensive data cleaning or handling irregular timestamps and missing data points. QuickSight focuses more on presenting insights rather than preparing data, which is a crucial step in this scenario.
+
+The option that says: Clean and forecast data using Amazon SageMaker Studio Notebook with Pandas is incorrect. This option requires significant coding and manual intervention to handle irregular timestamps and missing data points compared to the streamlined interface provided by Data Wrangler.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html
+
+https://aws.amazon.com/blogs/machine-learning/prepare-time-series-data-with-amazon-sagemaker-data-wrangler/
+
+ 
+
+Check out this Amazon SageMaker Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-sagemaker/
+
+
+PREGUNTA 9
+
+TOPIC:
+MLA – ML Model Development
+A data analyst needs to choose the most appropriate visualization methods for various data analysis tasks related to customer purchase patterns.
+
+Match each visualization method with its primary use case in analyzing customer purchase records. Each service should be selected one or more times. (Select THREE.)
+
+Bar Chart
+Histogram
+Density plot
+Heatmap
+Examining the frequency of purchases for different items over a specific time period.
+(Histogram)
+Understanding the concentration and distribution of transaction values in a continuous range.
+(Density plot)
+Identifying patterns in purchasing behavior across various time intervals and item categories.
+(Bar chart)
+
+
+ 
+
+References:
+
+https://aws.amazon.com/what-is/data-visualization/
+
+https://docs.aws.amazon.com/quicksight/latest/user/bar-charts.html
+
+https://docs.aws.amazon.com/quicksight/latest/user/histogram-charts.html
+
+ 
+
+Check out this AWS Machine Learning And AI Cheat Sheets:
+
+https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/
+
+
+PREGUNTA 10
+
+TOPIC: MLA – ML Model Development
+A large retail company is exploring generative AI to enhance its customer service chatbot. The company aims to fine-tune models from third-party services to enhance the chatbot’s comprehension of business-specific customer inquiries.
+
+Which benefits of Amazon Bedrock will help the retail company meet its requirements? (Select TWO.)
+
+Ensures that prompts and responses remain completely private and secure.
+Offers a wide range of pre-trained foundation models (FMs) from multiple providers.
+Offers distinct APIs for accessing different foundation models (FMs).
+Amazon Bedrock enables private customization of foundation models (FMs).
+Amazon Bedrock requires customers to handle infrastructure provisioning.
+
+
+Hence, the correct answers are:
+
+– Offers a wide range of pre-trained foundation models (FMs) from multiple providers.
+
+– Amazon Bedrock enables private customization of foundation models (FMs).
+
+The option that says: Ensures that prompts and responses remain completely private and secure is incorrect. While important, the scenario does not specifically highlight privacy as a concern for enhancing the chatbot’s functionality. Therefore, it’s not among the most directly relevant benefits for the given requirement.
+
+The option that says: Offers distinct APIs for accessing different foundation models (FMs) is incorrect. This option simply describes a way of getting details about different foundation models available on Amazon Bedrock.
+
+The option that says: Amazon Bedrock requires customers to handle infrastructure provisioning is incorrect. Amazon Bedrock is primarily designed to take care of the infrastructure provisioning and management. Customers do not need to handle the underlying infrastructure, allowing them to focus on developing and deploying their AI applications.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+
+https://aws.amazon.com/bedrock/
+
+ 
+
+Check out this Amazon Bedrock Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-bedrock/
+
+
+
+PREGUNTA 11
+
+TOPIC: MLA – Deployment and Orchestration of ML Workflows
+A financial services company is leveraging AWS machine learning services to enhance its operations and customer experience. The company is focused on implementing advanced solutions to detect fraudulent activities, gain insights from customer feedback, and offer personalized financial advice through an interactive chatbot.
+
+Select the correct AWS service to meet this requirement for each case. Each service should be selected one or more times. (Select THREE.)
+
+– Amazon SageMaker AI
+
+– Amazon Comprehend
+
+– Amazon Lex
+
+Detecting fraudulent transactions
+(Amazon SageMaker AI)
+Analyzing customer feedback for sentiment and insights
+(Amazon Comprehend)
+Providing personalized financial advice through a chatbot
+(Amazon Lex)
+
+
+Hence, the correct answers are:
+
+– Amazon SageMaker AI – Detecting fraudulent transactions
+
+– Amazon Comprehend – Analyzing customer feedback for sentiment and insights
+
+– Amazon Lex – Providing personalized financial advice through a chatbot 
+
+References:
+
+https://aws.amazon.com/blogs/machine-learning/detect-fraudulent-transactions-using-machine-learning-with-amazon-sagemaker/
+
+https://docs.aws.amazon.com/comprehend/latest/dg/tutorial-reviews.html
+
+https://aws.amazon.com/lex/financial-services/
+
+ 
+
+Check out the following Cheat Sheets:
+
+https://tutorialsdojo.com/amazon-sagemaker/
+
+https://tutorialsdojo.com/amazon-comprehend/
+
+https://tutorialsdojo.com/amazon-lex/
+
+
+PREGUNTA 12
+
+TOPIC: MLA – ML Solution Monitoring, Maintenance, and Security
+A finance company recently moved its on-premises application to AWS, using Amazon EC2 for hosting, Amazon RDS for database management, and Amazon S3 for data storage. The company wants to leverage machine learning to analyze log data from various AWS resources that they are using.
+
+Which AWS service would best support these requirements?
+
+Amazon CloudWatch Logs Insights
+AWS Config
+AWS CloudTrail
+Amazon Managed Grafana
+
+
+Hence, the correct answer is: Amazon CloudWatch Logs Insights.
+
+The option that says: AWS Config is incorrect. This service is primarily used for assessing, auditing, and evaluating the configurations of your AWS resources. While it provides valuable insights into configuration drift and compliance status, it does not offer real-time log analysis or querying capabilities for detecting patterns and troubleshooting issues.
+
+The option that says: AWS CloudTrail is incorrect because it is just a service that enables governance, compliance, and operational and risk auditing of your AWS account. It records API calls made on your account and provides a history of AWS API calls for your account, including API calls made through the AWS Management Console, AWS SDKs, command-line tools, and other AWS services. It does not provide real-time log analysis and querying capabilities.
+
+The option that says: Amazon Managed Grafana is incorrect. This service is primarily a visualization tool rather than a log analysis service and does not inherently analyze log data or utilize machine learning to identify log patterns.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html
+
+https://docs.aws.amazon.com/decision-guides/latest/monitoring-on-aws-how-to-choose/monitoring-on-aws-how-to-choose.html
+
+ 
+
+Check out this Amazon CloudWatch Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-cloudwatch/
+
+
+
+PREGUNTA 13
+
+
+Category: MLA – ML Model Development
+An e-commerce company wants to implement a machine learning system to detect fraudulent online transactions. An ML engineer has deployed a machine learning model to identify and minimize these fraudulent activities. However, only a small percentage (around 3%) of the transactions in the dataset are found fraudulent. The company wants to fine-tune the model’s ability to detect fraud while minimizing false positives to ensure genuine transactions are not impeded.
+
+Which metrics should the ML engineer use to optimize the performance of its fraud detection system? (Select TWO.)
+
+RMSE (Root Mean Square Error)
+True Positive Rate
+False Positive Rate
+F1 Score
+Cut-off
+
+
+Hence, the correct answers are:
+
+– False Positive Rate
+
+– F1 Score
+
+The option that says: RMSE (Root Mean Square Error) is incorrect because it is a metric primarily used for regression problems, where the goal is to predict a continuous value. In the case of fraud detection, which is a classification problem, RMSE is not an appropriate metric.
+
+The option that says: True Positive Rate is incorrect. The True Positive Rate (TPR) measures how well the model identifies actual fraudulent transactions but does not address the need to minimize false positives. A high TPR indicates that the model detects many fraudulent cases accurately; however, it can also result in a high False Positive Rate (FPR), meaning that genuine transactions might be wrongly flagged as fraudulent. Since the company’s goal is to minimize false positives to avoid disrupting legitimate transactions, focusing on metrics like FPR and F1 Score is more appropriate. These metrics directly address the issue of false positives and ensure that the model effectively balances detecting fraud while minimizing incorrect flags on genuine transactions.
+
+The option that says: Cut-off is incorrect. The cut-off (or threshold) is not a performance metric but only a decision boundary used to classify transactions as fraudulent or not. Adjusting the cut-off is part of the process to optimize performance metrics like precision, recall, and F1 Score, but it is not a metric itself.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/machine-learning/latest/dg/amazon-machine-learning-key-concepts.html
+
+https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html
+
+ 
+
+Check out this AWS Machine Learning and AI Cheat Sheet:
+
+https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/
+
+
+PREGUNTA 14
+
+Category: MLA – ML Solution Monitoring, Maintenance, and Security
+A company wants to use cost allocation tags to manage and optimize its AWS costs related to Machine Learning (ML) workloads more effectively. It also aims to track and report on its spending across different ML projects and departments.
+
+Select and order the correct steps from the following list to implement cost allocation tagging for this purpose. Each step should be selected one time or not at all. (Select and order THREE.)
+
+Create user-defined tags (key-value pairs) for the ML resources.
+Configure tag-based cost and usage reports for detailed analysis.
+Enable the cost allocation tags in the AWS Billing console.
+Set up automated alerts based on budget thresholds for ML expenses.
+Attach the tags to the ML resources in the AWS Management Console.
+
+(Create user-defined tags (key-value pairs) for the ML resources.)
+
+(Attach the tags to the ML resources in the AWS Management Console.)
+
+(Enable the cost allocation tags in the AWS Billing console.)
+
+
+Hence, the correct answers are:
+
+– Step 1: Create user-defined tags (key-value pairs) for the ML resources.
+
+– Step 2: Attach the tags to the ML resources in the AWS Management Console.
+
+– Step 3: Enable the cost allocation tags in the AWS Billing console.
+
+The option that says: Configure tag-based cost and usage reports for detailed analysis is incorrect. This step should come after the first three steps. You need to enable cost allocation tags, create the tags, and attach them to the ML resources before you can use Cost Explorer to analyze and report costs based on those tags.
+
+The option that says: Set up automated alerts based on budget thresholds for ML expenses is incorrect. While important for managing costs, this option is not a necessary step for the tagging process. It’s more related to budget management and monitoring rather than cost allocation tagging
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/custom-tags.html
+
+https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html
+
+Check out this AWS Billing and Cost Management Cheat Sheet:
+
+https://tutorialsdojo.com/aws-billing-and-cost-management/
+
+
+
+PREGUNTA 15
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A company is developing a machine learning (ML) platform for sentiment analysis of news articles. The platform needs storage to process large volumes of text data. The ML platform must handle concurrent access from multiple EC2 instances for data preprocessing, model training, and inference.
+
+Which of the following options will meet the requirements in this scenario?
+
+Amazon EFS
+Amazon EBS
+AWS Storage Gateway
+AWS DataSync
+
+Hence, the correct answer is: Amazon EFS.
+
+The option that says: Amazon EBS is incorrect because while EBS volumes are reliable and performant, they are only tied to specific instances and don’t support shared access.
+
+The option that says: AWS Storage Gateway is incorrect. This service is simply used for connecting on-premises environments to AWS storage services.
+
+The option that says: AWS DataSync is incorrect because it’s just a data transfer service for moving data between on-premises and AWS. DataSync is useful for data migration but not designed for concurrent access or ML model training.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html
+
+https://aws.amazon.com/efs/faq/
+
+https://docs.aws.amazon.com/efs/latest/ug/mount-multiple-ec2-instances.html#:~:text=You%20can%20mount%20EFS%20file,AWS%20Systems%20Manager%20User%20Guide.
+
+ 
+
+Check out this Amazon EFS Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-efs/
+
+
+PREGUNTA 16
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A machine learning engineer is working on an AWS project involving real-time fraud detection for an online payment platform. The platform generates a continuous stream of transaction data that needs processing and analysis using a pre-trained model on Amazon SageMaker AI.
+
+Which combination of AWS services should the machine learning engineer choose to ingest and process the real-time transaction data before delivering it to SageMaker AI for inference? (Select TWO.)
+
+Amazon Data Firehose
+Amazon Kinesis Data Streams
+AWS Glue
+Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+Amazon Managed Service for Apache Flink
+
+
+Hence, the correct answers are:
+
+– Amazon Kinesis Data Streams
+
+– Amazon Managed Service for Apache Flink
+
+Amazon Data Firehose is incorrect. While Kinesis Data Firehose can ingest and deliver data to Amazon S3 or other destinations, it is primarily designed for batch processing and not real-time inference.
+
+AWS Glue is incorrect because AWS Glue is a fully managed extract, transform, and load (ETL) service, primarily used for batch data processing and not real-time data ingestion and processing.
+
+Amazon Managed Streaming for Apache Kafka (Amazon MSK) is incorrect. While this service could technically handle streaming data, it’s mainly used for data transfer between different applications and systems rather than real-time processing and inference.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/streams/latest/dev/introduction.html
+
+https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/amazon-kinesis.html
+
+https://aws.amazon.com/managed-service-apache-flink/?nc=sn&loc=1
+
+ 
+
+Check out these AWS Cheat Sheets:
+
+https://tutorialsdojo.com/amazon-kinesis/
+
+https://tutorialsdojo.com/amazon-kinesis-data-streams-vs-data-firehose-vs-data-analytics-vs-video-streams/
+
+
+
+PREGUNTA 17
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A financial institution is working on a machine learning model for predicting loan approval decisions. The institution prioritizes explaining lending decisions to stakeholders in human terms for transparency and fairness.
+
+Which of the following machine learning model statements is true, and which does the institution need to choose to meet the requirement?
+
+A complex model should be chosen because accuracy is more important than explainability in loan approval decisions.
+A simple model should be chosen because accuracy is more important than explainability in loan approval decisions.
+A complex model should be chosen because explainability is crucial in loan approval decisions.
+A simple model should be chosen because explainability is crucial in loan approval decisions.
+
+
+Hence, the correct answer is: A simple model should be chosen because explainability is crucial in loan approval decisions.
+
+The option that says: A complex model should be chosen because accuracy is more important than explainability in loan approval decisions is incorrect because it prioritizes accuracy over explainability, which is the requirement in this scenario. Furthermore, while accuracy is important in predicting loan approvals, it cannot be prioritized over explainability in this context. Financial institutions must ensure their decisions are transparent and fair, which is difficult with complex models like deep neural networks or ensemble methods that lack interpretability. Regulatory bodies often require institutions to provide clear reasons for loan approval or denial, making explainability crucial.
+
+The option that says: A simple model should be chosen because accuracy is more important than explainability in loan approval decisions is incorrect. This option correctly identifies the use of a simple model but incorrectly states the reason. The emphasis here should be on explainability, not just accuracy. While simple models can sometimes be less accurate than complex ones, their interpretability makes them more suitable for loan approval decisions where transparency is essential.
+
+The option that says: A complex model should be chosen because explainability is crucial in loan approval decisions is incorrect. While it correctly states that explainability is crucial, it incorrectly suggests using a complex model. Complex models are typically less interpretable, making it difficult to explain the decision-making process. For ensuring fairness and transparency, simple models that are inherently more interpretable are preferred.
+
+ 
+
+References:
+
+https://aws.amazon.com/what-is/machine-learning/
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-explainability.html
+
+ 
+
+Check out this AWS Machine Learning And AI Cheat Sheets:
+
+https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/
+
+
+
+
+PREGUNTA 18
+
+
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A healthcare analytics team is discussing the lifecycle management of models deployed to production. The team’s data scientist is tasked with deciding whether the deployed machine learning models need to be retrained and updated regularly.
+
+Which of the following statements accurately reflects the requirements for maintaining machine learning models in production?
+
+Production data does not differ from training data over time, so models do not require continuous retraining.
+Machine learning models need to be regularly retrained as data changes over time.
+Once a machine learning model is deployed, it can remain effective indefinitely without updates.
+Production data is always consistent with training data, making retraining unnecessary.
+
+
+Hence, the correct answer is: Machine learning models need to be regularly retrained as data changes over time.
+
+The option that says: Production data does not differ from training data over time, so models do not require continuous retraining is incorrect. Production data can simply change over time due to various factors such as seasonality, trends, or external influences. These changes, known as data drift, can lead to discrepancies between the training data and the production data, necessitating continuous retraining to ensure the model’s accuracy and relevance.
+
+The option that says: Production data is always consistent with training data, making retraining unnecessary is incorrect because production data is rarely consistent with training data over extended periods. As mentioned above, the various factors cause the production data to diverge from the training data. This inconsistency requires regular monitoring and retraining of the models to ensure they continue to perform well.
+
+The option that says: Once a machine learning model is deployed, it can remain effective indefinitely without updates is incorrect because machine learning models must be regularly updated to account for changes in data patterns and maintain their performance. Without updates, models can become outdated and less effective as they fail to adapt to new data characteristics.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+
+ 
+
+Check out this Amazon SageMaker Sheet:
+
+https://tutorialsdojo.com/amazon-sagemaker/
+
+
+PREGUNTA 19
+
+A financial company has accumulated a large volume of client feedback, reviews, and comments over the years. The company wants to analyze these data to identify common topics that frequently appear in the feedback to understand client sentiment better and improve their offerings. The specific topics are not predetermined, and the goal is to discover them automatically from the text data.
+
+Which built-in Amazon SageMaker AI algorithm is the most appropriate for this task?
+
+Latent Dirichlet Allocation (LDA) Algorithm
+Sequence-to-Sequence Algorithm
+Text Classification – TensorFlow algorithm
+BlazingText algorithm in Text Classification Mode
+
+
+Hence, the correct answer is: Latent Dirichlet Allocation (LDA) Algorithm.
+
+The option that says: Sequence-to-Sequence Algorithm is incorrect. This algorithm is primarily used for tasks such as language translation or summarization. Sequence-to-sequence models are designed to transform a sequence of elements (such as words in a sentence) into another sequence, and they are not suitable for unsupervised topic discovery.
+
+The option that says: Text Classification – TensorFlow Algorithm is incorrect because text classification requires predefined classes or topics. The goal in this scenario is to discover unknown topics, not classify text into existing categories. This algorithm is suitable for tasks where the categories are known and need to be applied to new text data.
+
+The option that says: BlazingText algorithm in Text Classification mode is incorrect. BlazingText algorithm in Text Classification mode is a supervised learning approach, which means it requires labeled training data to classify the text. In this scenario, the specific topics of the documents are unknown, making supervised learning methods unsuitable.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/lda-how-it-works.html
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/lda.html
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+
+ 
+
+Check out this Amazon SageMaker AI Cheat Sheet:
+
+https://tutorialsdojo.com/amazon-sagemaker/
+
+
+
+PREGUNTA 20
+TOPIC: MLA – Data Preparation for Machine Learning (ML)
+A Machine Learning Specialist uses Amazon SageMaker Data Wrangler to prepare the training data for a model. The specialist aims to analyze the dataset to understand feature relationships and detect issues. The goal is to visualize correlations and assess their strength to identify patterns and outliers.
+
+Which visualization technique should be used?
+
+Histogram
+Bias Report
+Scatter Plot
+Multicollinearity
+
+
+Hence, the correct answer is: Scatter Plot.
+
+The option that says: Histogram is incorrect. This option is only used to visualize the distribution of a single variable rather than relationships between two variables. While histograms are helpful for understanding the distribution and frequency of data points, they do not provide insight into how two variables interact or correlate with each other.
+
+The option that says: Bias Report is incorrect. As the name suggests, this technique is primarily used to detect bias in machine learning models, not to visualize relationships between variables in the dataset. Bias reports are crucial for ensuring fairness and accuracy in models but do not serve the purpose of visualizing feature correlations.
+
+The option that says: Multicollinearity is incorrect because it’s just a statistical phenomenon in which several independent variables in a model are highly correlated. It is not a visualization technique but rather an issue that needs to be detected and addressed through statistical analysis, often using techniques like variance inflation factor (VIF) or correlation matrices.
+
+ 
+
+References:
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-analyses.html#data-wrangler-visualize-scatter-plot
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.htmlhttps://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+
+ 
+
+Tutorials Dojo’s AWS Machine Learning Cheat Sheets:
+
+https://tutorialsdojo.com/aws-cheat-sheets-aws-machine-learning-and-ai/

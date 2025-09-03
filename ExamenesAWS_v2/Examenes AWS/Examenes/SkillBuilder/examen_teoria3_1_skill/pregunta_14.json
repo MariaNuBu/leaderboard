@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "You are developing a machine learning (ML) solution for real-time inference on video streams. Your organization is already using the AWS Neuron SDK for model training. Your organization would also like to use this SDK to deploy the model for inference. Which AWS compute instance type would be MOST appropriate for this task?",
+      "options": [
+        "Amazon EC2 P5 instances",
+        "Amazon EC2 G5 instances",
+        "Amazon EC2 Inf2 instances",
+        "Amazon SageMaker ml.inf1.xlarge instance"
+      ],
+      "correct_answers": [
+        "Amazon EC2 Inf2 instances"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

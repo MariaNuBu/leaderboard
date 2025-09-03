@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A healthcare company is building an application that uses multiple scikit-learn models to predict disease risk factors based on patient data. The company wants to deploy these models using Amazon SageMaker to serve real-time predictions with low latency. The solution must be cost-effective while ensuring efficient traffic handling for all deployed models.\n\nWhich of the following options must be combined to develop a solution that meets these requirements? (Select two)",
+      "options": [
+        "Use Amazon SageMaker Multi-Model Endpoint to host multiple scikit-learn models in one container behind a single endpoint, reducing infrastructure costs",
+        "Deploy each scikit-learn model individually on separate SageMaker Real-Time Endpoints to ensure traffic is isolated for each model",
+        "Package all scikit-learn models into separate containers and deploy them behind a single SageMaker Real-Time Endpoint",
+        "Use SageMaker Real-Time Inference to deploy the Multi-Model Endpoint for low-latency predictions and optimized traffic handling",
+        "Use SageMaker Serverless Inference to deploy each model and configure an AWS Application Load Balancer (ALB) to route traffic across all model endpoints"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Multi-Model Endpoint to host multiple scikit-learn models in one container behind a single endpoint, reducing infrastructure costs",
+        "Use SageMaker Real-Time Inference to deploy the Multi-Model Endpoint for low-latency predictions and optimized traffic handling"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endpoints.html",
+        "https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/multi_model_sklearn_home_value/sklearn_multi_model_endpoint_home_value.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You are training your machine learning (ML) model to determine topics in a set of documents. The example data that you are using does not provide answers during training. Which algorithm can you use for your ML problem?",
+      "options": [
+        "Latent Dirichlet Allocation (LDA) algorithm",
+        "k-means algorithm",
+        "Random Cut Forest (RCF) algorithm",
+        "Principal Component Analysis (PCA) algorithm"
+      ],
+      "correct_answers": [
+        "Latent Dirichlet Allocation (LDA) algorithm"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

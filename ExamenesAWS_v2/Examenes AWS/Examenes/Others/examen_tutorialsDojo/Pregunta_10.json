@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "TOPIC: MLA – ML Model Development\nA large retail company is exploring generative AI to enhance its customer service chatbot. The company aims to fine-tune models from third-party services to enhance the chatbot’s comprehension of business-specific customer inquiries.\n\nWhich benefits of Amazon Bedrock will help the retail company meet its requirements? (Select TWO.)\n\nEnsures that prompts and responses remain completely private and secure.\nOffers a wide range of pre-trained foundation models (FMs) from multiple providers.\nOffers distinct APIs for accessing different foundation models (FMs).\nAmazon Bedrock enables private customization of foundation models (FMs).\nAmazon Bedrock requires customers to handle infrastructure provisioning.",
+      "options": [
+        "Ensures that prompts and responses remain completely private and secure.",
+        "Offers a wide range of pre-trained foundation models (FMs) from multiple providers.",
+        "Offers distinct APIs for accessing different foundation models (FMs).",
+        "Amazon Bedrock enables private customization of foundation models (FMs).",
+        "Amazon Bedrock requires customers to handle infrastructure provisioning."
+      ],
+      "correct_answers": [
+        "Offers a wide range of pre-trained foundation models (FMs) from multiple providers.",
+        "Amazon Bedrock enables private customization of foundation models (FMs)."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html",
+        "https://aws.amazon.com/bedrock/",
+        "https://tutorialsdojo.com/amazon-bedrock/"
+      ],
+      "topic": "MLA – ML Model Development",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

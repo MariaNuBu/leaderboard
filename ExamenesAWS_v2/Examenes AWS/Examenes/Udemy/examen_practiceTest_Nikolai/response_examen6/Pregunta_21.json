@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A fintech company is using Amazon Kinesis Data Firehose to collect sensitive financial data, which is then stored in Amazon S3 for compliance reporting. The company is required to meet strict encryption and data integrity requirements. Which of the following steps should the company take to secure the data stream?\n\nUse AWS Shield to secure the streaming data from Distributed Denial of Service (DDoS) attacks.\n\nExplicación\nAWS Shield is a service that helps protect against DDoS attacks but does not provide encryption for streaming data.\n\nUse Amazon Kinesis Data Streams instead of Firehose to ensure stronger encryption of the data.\n\nExplicación\nWhile Kinesis Data Streams also supports encryption, Firehose is more suitable for real-time delivery to S3 and can also be configured for encryption.\n\nStore the data in Amazon S3 without any additional encryption since S3 already provides security.\n\nExplicación\nWhile Amazon S3 offers built-in security, additional encryption with KMS is required to meet strict compliance and encryption requirements.",
+      "options": [
+        "Use AWS Shield to secure the streaming data from Distributed Denial of Service (DDoS) attacks.",
+        "Use Amazon Kinesis Data Streams instead of Firehose to ensure stronger encryption of the data.",
+        "Store the data in Amazon S3 without any additional encryption since S3 already provides security.",
+        "Enable encryption at rest using AWS KMS for S3 and encryption in transit using HTTPS."
+      ],
+      "correct_answers": [
+        "Enable encryption at rest using AWS KMS for S3 and encryption in transit using HTTPS."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

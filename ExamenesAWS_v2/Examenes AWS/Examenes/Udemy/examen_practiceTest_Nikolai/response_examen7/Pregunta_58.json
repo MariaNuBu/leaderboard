@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "A media company is ingesting high-velocity log data using Amazon Kinesis Data Firehose. They need to analyze this data in near real-time using SQL queries. The data is semi-structured and needs to be loaded into a data warehouse for fast querying. Which combination of services should the company use to accomplish this?\n\nUse Amazon Kinesis Data Firehose to stream the data into an Amazon S3 bucket, then use Amazon Athena to run SQL queries on the data stored in S3.\n\nExplicación\nWhile this option could work for querying the data in Amazon S3 with Athena, it is less optimized than Redshift for near real-time data warehousing and analytics.\n\nStream data into Amazon Kinesis Data Streams, then use a Lambda function to transform and store the data in Amazon DynamoDB\n\nExplicación\nAlthough Kinesis Data Streams can be used for ingestion and transformation with Lambda, DynamoDB is not suitable for running complex SQL queries as it is a NoSQL database.\n\nUse Amazon Kinesis Data Firehose to load the data into Amazon Redshift using the native Firehose to Redshift integration for fast querying.\n\nExplicación\nAmazon Kinesis Data Firehose has a native integration with Amazon Redshift, which is a fully managed data warehouse that supports fast querying of large datasets. Firehose can automatically load the streaming data into Redshift tables, making it suitable for this use case.\n\nUse Amazon Kinesis Data Firehose to stream the data into Amazon RDS with a PostgreSQL database for querying.\n\nExplicación\nAmazon RDS is a managed relational database, but it is not optimized for large-scale data warehousing like Redshift. It also lacks the near real-time analytics capabilities required.",
+      "options": [
+        "Use Amazon Kinesis Data Firehose to stream the data into an Amazon S3 bucket, then use Amazon Athena to run SQL queries on the data stored in S3.",
+        "Stream data into Amazon Kinesis Data Streams, then use a Lambda function to transform and store the data in Amazon DynamoDB",
+        "Use Amazon Kinesis Data Firehose to load the data into Amazon Redshift using the native Firehose to Redshift integration for fast querying.",
+        "Use Amazon Kinesis Data Firehose to stream the data into Amazon RDS with a PostgreSQL database for querying."
+      ],
+      "correct_answers": [
+        "Use Amazon Kinesis Data Firehose to load the data into Amazon Redshift using the native Firehose to Redshift integration for fast querying."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

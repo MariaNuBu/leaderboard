@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A retail company is using Amazon SageMaker for customer recommendations. The company’s model requires low-latency responses to provide real-time product recommendations based on user interactions. They also need to monitor the model to detect data drift and quality drift over time to maintain recommendation accuracy.\n\nWhich of the following steps should they take to ensure both low-latency inference and model monitoring? (Choose TWO.)",
+      "options": [
+        "Deploy the model using a real-time inference endpoint for low-latency responses.",
+        "Use SageMaker Serverless Inference to handle traffic spikes and save costs.",
+        "Set up SageMaker Model Monitor to detect data and quality drift on the deployed endpoint.",
+        "Use Batch Transform to periodically update recommendations for all users.",
+        "Enable SageMaker Neo to enhance model performance for edge deployment."
+      ],
+      "correct_answers": [
+        "Deploy the model using a real-time inference endpoint for low-latency responses.",
+        "Set up SageMaker Model Monitor to detect data and quality drift on the deployed endpoint."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

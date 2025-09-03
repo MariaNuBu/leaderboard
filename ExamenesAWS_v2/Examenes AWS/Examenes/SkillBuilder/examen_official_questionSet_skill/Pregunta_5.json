@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An ML engineer is developing a model that detects fraudulent transactions. Despite the model having good overall accuracy with non-fraudulent cases and a small dataset, there are false negatives because of a low number of recorded fraudulent activities. The ML engineer wants to improve the performance of the model.\n\nWhich solution will meet this requirement?",
+      "options": [
+        "A\nApply random oversampling on the non-fraudulent transactions.",
+        "B\nApply undersampling on all transaction cases.",
+        "C\nDuplicate the entire training dataset and shuffle both datasets.",
+        "D\nApply Synthetic Minority Oversampling Technique (SMOTE) on the fraudulent transactions."
+      ],
+      "correct_answers": [
+        "D\nApply Synthetic Minority Oversampling Technique (SMOTE) on the fraudulent transactions."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

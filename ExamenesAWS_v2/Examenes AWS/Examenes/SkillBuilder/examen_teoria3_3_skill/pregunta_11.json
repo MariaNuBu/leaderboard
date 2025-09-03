@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "An MLOps engineer is deploying a new version of a large machine learning model that serves predictions to a popular mobile app. Minimizing capacity requirements during the deployment is important to reduce costs. Which deployment strategy should they choose?",
+      "options": [
+        "Blue/green deployment",
+        "All at once deployment",
+        "Canary deployment",
+        "Rolling deployment"
+      ],
+      "correct_answers": [
+        "Rolling deployment"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

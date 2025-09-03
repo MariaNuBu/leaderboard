@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "You have a model that predicts whether a customer will make a purchase. You notice a high rate of false negatives. Which metric should you focus on improving?",
+      "options": [
+        "Precision",
+        "Recall",
+        "F1 Score",
+        "ROC-AUC"
+      ],
+      "correct_answers": [
+        "Recall"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

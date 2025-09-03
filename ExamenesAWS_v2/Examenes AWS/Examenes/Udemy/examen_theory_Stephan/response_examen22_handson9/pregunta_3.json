@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "What should you do to enable a SageMaker training job to access S3 resources in a secure manner?",
+      "options": [
+        "Assign an appropriate IAM role to the SageMaker instance.",
+        "Provide the job with an IAM user's access key and secret key.",
+        "Disable VPC access for the training job.",
+        "Use S3 bucket policies only for access control."
+      ],
+      "correct_answers": [
+        "Assign an appropriate IAM role to the SageMaker instance."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

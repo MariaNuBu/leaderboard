@@ -1,0 +1,109 @@
+I have the following question:
+
+Source: https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview
+
+Topic: 1.1 Ingest and store data.
+Practice test: AWS Certified Machine Learning Engineer Associate: Hands On!
+
+
+Pregunta 1:
+Your company needs to store a massive volume of semi-structured data for future analysis. Which AWS storage solution would be the most cost-effective and flexible?
+Amazon RDS
+Amazon S3
+Amazon Redshift
+Amazon DynamoDB
+
+Amazon S3
+
+Pregunta 2:
+
+Your application needs to provide low-latency access to frequently accessed data while minimizing costs.
+Which S3 storage class should you choose?
+S3 Standard
+S3 Glacier
+S3 One Zone-Infrequent Access
+S3 Intelligent-Tiering
+
+S3 Standard
+
+
+
+Pregunta 3:
+Your company uses AWS Lambda to generate thumbnails from images uploaded to S3. The thumbnails are only needed temporarily. Which storage class should you choose for these thumbnails?
+S3 Standard
+S3 One Zone-Infrequent Access
+S3 Glacier
+S3 Intelligent-Tiering
+
+S3 One Zone-Infrequent Access
+
+
+Pregunta 4:
+A large-scale real-time data processing application needs to analyze data from loT devices. Which service should you use to ingest, process, and analyze this data in near real-time?
+Amazon S3
+Amazon Kinesis Data Streams
+Amazon Redshift
+AWS Glue
+
+Amazon Kinesis Data Streams
+
+
+Pregunta 5:
+Your company is implementing a data lake architecture on AWS. They need to enforce governance and control access to specific data products across multiple teams. Which approach should they use?
+Data Warehousing
+Data Mesh
+Data Lakehouse
+Data Lake
+
+Data Mesh
+
+
+Pregunta 6:
+A company needs to encrypt sensitive data at rest stored in Amazon S3. They also require auditability of key usage. Which encryption option should they choose?
+SSE-S3
+SSE-KMS
+SSE-C
+Client-Side Encryption
+
+SSE-KMS
+
+
+
+Pregunta 7:
+Your organization needs to choose a data format for a large-scale ETL pipeline that processes batch data in Hadoop and Spark. The data should be optimized for analytics and efficient storage. Which format is most appropriate?
+JSON
+CSV
+Parquet
+XML
+
+Parquet
+
+
+Pregunta 8:
+Your application requires high-performance block storage for an EC2 instance that needs to persist data after termination. Which AWS storage solution should you choose?
+Amazon S3
+Amazon EBS
+Amazon EFS
+Amazon S3 Glacier
+
+Amazon EBS
+
+
+Pregunta 9:
+A team is working on a shared development environment and needs a scalable, highly available file system that can be mounted on multiple EC2 instances across multiple Availability Zones. Which AWS service should they use?
+Amazon S3
+Amazon EBS
+AWS Backup
+Amazon EFS
+
+Amazon EFS
+
+
+Pregunta 10:
+During peak usage, your Kinesis Data Streams application is experiencing throttling errors. Which of the following actions should you take to resolve this issue?
+Increase the number of shards
+Decrease the retention period
+Use S3 Glacier for storage
+Disable encryption
+
+Increase the number of shards

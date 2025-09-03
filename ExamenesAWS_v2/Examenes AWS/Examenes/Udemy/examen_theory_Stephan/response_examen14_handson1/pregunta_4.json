@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A large-scale real-time data processing application needs to analyze data from IoT devices. Which service should you use to ingest, process, and analyze this data in near real-time?",
+      "options": [
+        "Amazon S3",
+        "Amazon Kinesis Data Streams",
+        "Amazon Redshift",
+        "AWS Glue"
+      ],
+      "correct_answers": [
+        "Amazon Kinesis Data Streams"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A data scientist needs to set up monitoring for a deployed machine learning model using Amazon SageMaker. They are primarily concerned with detecting when the incoming data used for predictions becomes significantly different from the training data. What type of drift should they monitor for in this case?",
+      "options": [
+        "Bias Drift",
+        "Data Drift",
+        "Feature Attribution Drift",
+        "Model Quality Drift"
+      ],
+      "correct_answers": [
+        "Data Drift"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

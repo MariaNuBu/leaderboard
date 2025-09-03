@@ -1,0 +1,261 @@
+You are a machine learning engineer for a cybersecurity company and planning to train your own model to detect security threats. You want to train your model using deep learning and SageMaker.
+
+Which of the AI/ML stack would you choose to accomplish your goal?
+
+AWS AI services
+AWS ML services
+AWS ML frameworks and infrastructure (Correct)
+AWS AI and ML frameworks
+
+---
+
+You are creating an app for a marathon race. During the race, cameras will be taking pictures of the racers. The racers will wear numbered signs on their chests and back. The images taken during the race will be uploaded to a repository in Amazon S3. You want to use an AI service to quickly determine each racer  in the pictures by identifying the numbers on their signs. This way, the racers will be able to log into the app with their number and see all the pictures of themselves automatically. They will not have to manually look through ALL the pictures. Which is best service for this business need?
+
+Amazon Comprehend
+
+Amazon Kendra
+
+Amazon Personalize
+
+Amazon Rekognition (Correct)
+
+---
+
+You work for a call center. The call center wants to automatically detect customer sentiment and categorize inbound support requests. They also want to extract insights from customer surveys to help improve products. Which is best service for this use case?
+
+Amazon Connect Contact Lens (Correct)
+
+Amazon SageMaker Canvas
+
+Amazon Personalize
+
+Amazon Textract
+
+---
+
+You work for a retailer that wants to use an online chatbot on their website to help customers with common needs and questions in a natural and human-like way. Which is best service for this business need?
+
+Amazon Comprehend
+
+Amazon Kendra
+
+Amazon Lex V2 (Correct)
+
+Amazon Rekognition
+
+---
+
+Which of these is a benefit of Amazon SageMaker Studio?
+
+You can write custom custom integration code.
+
+You can generate content from your company data.
+
+You can gather data for training.
+
+You can perform all machine learning (ML) model development steps in a web-based visual interface. (Correct)
+
+---
+
+You are training your machine learning (ML) model for a classification problem. You provide answers in the example data during training. Which algorithm can be used for a binary classification, a multi-class classification, and a regression ML task?
+
+Linear learner algorithm
+
+k-nearest neighbors (k-NN) algorithm
+
+Factorization Machines algorithm
+
+XGBoost algorithm (Correct)
+
+---
+
+You are training your machine learning (ML) model to determine topics in a set of documents. The example data that you are using does not provide answers during training. Which algorithm can you use for your ML problem?
+
+Latent Dirichlet Allocation (LDA) algorithm (Correct)
+
+k-means algorithm
+
+Random Cut Forest (RCF) algorithm
+
+Principal Component Analysis (PCA) algorithm
+
+---
+
+You are building a model to translate text to different languages. You are providing answers during training for the neural machine. Which algorithm could you use for your text translation model?
+
+Sequence-to-Sequence algorithm (Correct)
+
+BlazingText algorithm
+
+Neural Topic Model (NTM) algorithm
+
+IP Insights algorithm
+
+---
+
+You are building a model for an autonomous pizza delivery drone. You need to use a reinforcement learning algorithm to train your model. Which deep learning frameworks are supported in Amazon SageMaker reinforcement learning (RL)? (Select TWO.)
+
+TensorFlow (Correct)
+HuggingFace
+Apache MXNet (Correct)
+PyTorch
+Intel Coach
+
+---
+
+A financial company is looking to use network data and traditional tabular datasets to help construct corporate SEC filings. Which Amazon SageMaker JumpStart pre-built ML solution category they you look into?
+
+Personalized Recommendations
+Demand forecasting
+Credit rating prediction (Correct)
+Extract and analyze data from documents
+
+---
+
+An automotive fleet company wants help to determine when vehicle failures might happen and what the repair costs associated with those failures would be. Which Amazon SageMaker JumpStart pre-built ML solution category should they look into?
+
+Predictive maintenance (Correct)
+Financial pricing
+Causal interference
+Churn prediction 
+
+---
+
+A company that produces description text used in a board game rule book wants to automatically generate it using AI. Which FM category should they select from Amazon Bedrock to do this task?
+
+Text generation (Correct)
+
+Chatbots
+
+Search
+
+Text summarization
+
+---
+
+A ML engineer for a healthcare company is building a machine learning (ML) model that can help to diagnose illnesses based on a series of test results. It is crucial that medical professionals are able to ascertain the reasons behind the diagnoses to help determine care and to also explain their reasoning to their patients. When balancing model interpretability and model performance, which statement would best describe the priorities used when selecting an algorithm?
+
+Select an algorithm with a very high model interpretability while putting much less emphasis on model performance.
+
+Select an algorithm with a very high model performance while putting much less emphasis on model interpretability.
+
+Select an algorithm that balances both model interpretability and model performance identically. (Correct)
+
+Only model performance matters. Model interpretability should have no bearing on your decision.
+
+---
+
+A developer is building a ML model that will use deep learning to have lifelike conversations with humans. The model will be very intensive, involve parallel processing, and have an extremely large dataset. When determining whether to use a CPU or GPU instance for this scenario, which statement is true?
+
+CPUs would be a more cost-effective solution, so CPUs should be used.
+Either CPUs or GPUs would work. Use whichever one works with your developed model.
+Because the model is quite intensive and complex, using GPUs would provide significant performance gains despite generally costing more compared to CPUs. (Correct)
+Because the model uses parallel processing, CPUs should be used to streamline the processing. The model would be faster by using CPUs compared to using GPUs.
+
+---
+
+A developer is building an image generation model for their company. They want their model to be trained on high-definition images and to be able to output images of the highest quality. The dataset they are training it on is large. Which of these statements is true regarding the decision between using a CPU or GPU instance, when balancing for cost efficiency?
+
+Although choosing a CPU might result in a more cost-efficient model, the performance might suffer too much, given the dataset and output required. For this reason, GPU should be selected. (Correct)
+
+Because they are dealing with images and not video, a CPU could be more cost efficient because they will not need as much processing power.
+
+This is a simpler model, so CPU should be chosen to drive costs down.
+
+GPU should be selected because it would be a more cost-efficient solution to this model.
+
+---
+
+A developer is building a machine learning (ML) model that can review customer information and determine whether the customer is approved for certain financial services. When determining between model performance and model interpretability, which statement would be true?
+
+The financial industry requires that models be transparent and explainable to ensure fair lending practices and prevent discrimination. Many financial institutions also face strict regulatory and compliance requirements. For this reason, a model with a high model interpretability should be chosen over high performance. (Correct)
+
+They want the model to get to the correct answer, so model interpretability is the most important aspect of the model design.
+
+The model is too complex to worry about interpretability, if it reaches the correct conclusion. Because of the complexity, they should prioritize model performance.
+
+They want to get this information quickly to customers, so model performance is more important than interpretability in this instance.
+
+---
+
+What might be a reason for a machine learning (ML) engineer to use Amazon SageMaker?
+
+They want to build their ML models using their own infrastructure.
+
+They want a prebuilt ML model with little to no configuration required.
+
+They want to use Amazon Bedrock.
+
+They want a single service to manage building, training, and deploying their ML models (Correct)
+
+---
+
+A developer runs an internal wiki site for a company that installs and builds custom home entertainment systems in homes and businesses. Although all the information that their employees need is in that wiki, their employees have complained that searching for what they need is cumbersome and difficult. The developer is looking for a way for their employees to quickly get the answers that they need in a natural conversational way. Which AWS artificial intelligence (AI) service should they consider?
+
+Amazon Kendra (Correct)
+
+Amazon Lex V2
+
+Amazon SageMaker Canvas
+
+Amazon Personalize
+
+---
+
+A machine learning (ML) engineer is building a model to classify textual documents. Which built-in algorithm should they select with Amazon SageMaker to train their model?
+
+Sequence-to-Sequence Algorithm
+
+ResNet
+
+BlazingText algorithm (Correct)
+
+IP Insights
+
+---
+
+A machine learning (ML) engineer is tasked with building an ML model that can help with customer retention. They want a model that can interpret historic records in which customers continued using their service or ultimately ended up leaving. They then want to send the model current customer profile information and have it predict whether that customer is going to leave or stay. They have heard of a few models that can work for this, such as CatBoost and TabTransformer, but they want to get up and running as quickly as possible. Which prebuilt solution template might they select from Amazon SageMaker JumpStart for this solution?
+
+Churn prediction (Correct)
+
+Personalized recommendations
+
+Predictive maintenance
+
+Reinforcement learning (RL)
+
+---
+
+Which type of algorithm includes multilayer perceptrons and convolutional networks?
+
+Tree-based models
+
+Neural networks (Correct)
+
+Clustering
+
+General linear models
+
+---
+
+A machine learning (ML) engineer is deciding whether to use AWS artificial intelligence (AI) services or AWS ML services for a common business need. What might be a reason to use AWS AI services?
+
+AWS AI services are often cheaper than other solutions but lack performance.
+
+With AWS AI services, you can build highly specialized models from scratch.
+
+AWS AI services are pre-built and fully managed services that solve common business needs such as image recognition and text translation. Because they are prebuilt and fully managed, you can get up and running with very little configuration. (Correct)
+
+With AWS AI services, you can choose from several algorithms, which can then be fine-tuned to support your business needs in a more specialized manner.
+
+---
+
+A machine learning (ML) engineer is tasked with deploying an ML model for text generation. They don't have the time to train a new model or build something from scratch, but they want the ability to fine-tune the model to better fit their business needs. Which layer of the AWS machine learning stack would they be looking at to solve this need?
+
+AWS artificial intelligence (AI) services
+
+AWS artificial intelligence (AI) frameworks
+
+ML frameworks and infrastructure
+
+AWS ML services (Correct)

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "Your company has developed a machine learning model to predict customer churn based on various customer data. The model is deployed in production, and you have set up monitoring to track its performance. One day, you receive an alert indicating a significant drop in the model's accuracy metric. What would be the most appropriate course of action?",
+      "options": [
+        "Immediately retrain the model using the latest available data and redeploy it.",
+        "Notify the data science team to investigate the root cause of the performance degradation.",
+        "Schedule a periodic retraining of the model at a predetermined interval.",
+        "Scale out the inference infrastructure to compensate for the performance drop."
+      ],
+      "correct_answers": [
+        "Notify the data science team to investigate the root cause of the performance degradation."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A DevOps engineer needs to automatically start the training of a new model version whenever new data is ingested. Which AWS service would help orchestrate this process?",
+      "options": [
+        "AWS CodeBuild",
+        "AWS CodeDeploy",
+        "AWS CodePipeline",
+        "AWS Step Functions"
+      ],
+      "correct_answers": [
+        "AWS Step Functions"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

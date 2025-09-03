@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Your team needs to track and audit the complete lineage of a machine learning model, from data ingestion to deployment. Which combination of AWS services should you use?",
+      "options": [
+        "SageMaker Lineage Tracking and SageMaker Model Registry",
+        "AWS CloudTrail and SageMaker Clarify",
+        "Amazon Macie and SageMaker Studio",
+        "SageMaker Feature Store and AWS Glue"
+      ],
+      "correct_answers": [
+        "SageMaker Lineage Tracking and SageMaker Model Registry"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-lineage.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

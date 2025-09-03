@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You're using transfer learning to fine-tune a pre-trained BERT model for a custom NLP task.\nWhat is the most important hyperparameter to adjust during fine-tuning?",
+      "options": [
+        "Learning rate",
+        "Number of layers in the model",
+        "Batch size",
+        "Dropout rate"
+      ],
+      "correct_answers": [
+        "Learning rate"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

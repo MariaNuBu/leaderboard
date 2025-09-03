@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "A company needs to host a custom ML model to perform forecast analysis. The forecast analysis will occur with predictable and sustained load during the same 2-hour period every day. Multiple invocations during the analysis period will require quick responses. The company needs AWS to manage the underlying infrastructure and any auto scaling activities. Which solution will meet these requirements?",
+      "options": [
+        "Schedule an Amazon SageMaker batch transform job by using AWS Lambda.",
+        "Configure an Auto Scaling group of Amazon EC2 instances to use scheduled scaling.",
+        "Use Amazon SageMaker Serverless Inference with provisioned concurrency.",
+        "Run the model on an Amazon Elastic Kubernetes Service (Amazon EKS) cluster on Amazon EC2 with pod auto scaling."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Serverless Inference with provisioned concurrency."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

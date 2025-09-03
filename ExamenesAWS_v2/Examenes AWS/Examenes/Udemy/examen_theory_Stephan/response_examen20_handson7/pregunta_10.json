@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "Your company wants to deploy a Bedrock‑based AI system with the ability to write and execute Python code as part of its responses. Which feature should be enabled?",
+      "options": [
+        "Action Groups with a Code Interpreter",
+        "Model Evaluation for code execution",
+        "Knowledge Base with embedded Python scripts",
+        "RAG with integrated code modules"
+      ],
+      "correct_answers": [
+        "Action Groups with a Code Interpreter"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-enable-code-interpretation.html"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

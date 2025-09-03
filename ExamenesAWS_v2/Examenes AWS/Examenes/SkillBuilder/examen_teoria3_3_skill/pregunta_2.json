@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Which statement accurately describes unique aspects of machine learning workflows compared to traditional software development?",
+      "options": [
+        "ML models can be deployed to production like any other type of software.",
+        "ML introduces extra steps like data prep, training, versioning, and monitoring that require adapted best practices.",
+        "ML models behave like traditional software and require standard DevOps tooling.",
+        "ML models can persist without ongoing management because the models are static."
+      ],
+      "correct_answers": [
+        "ML introduces extra steps like data prep, training, versioning, and monitoring that require adapted best practices."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

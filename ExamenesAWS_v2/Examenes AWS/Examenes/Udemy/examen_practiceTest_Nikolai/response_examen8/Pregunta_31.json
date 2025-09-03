@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "A machine learning team needs to train a model on a large dataset that can fit into memory, but the training would be too slow on a single machine. Which distributed training method should they use in Amazon SageMaker to speed up the process?",
+      "options": [
+        "Model parallelism, where the model is split across multiple machines.",
+        "Use data parallelism to split the dataset across several machines, with each machine training a copy of the model.",
+        "Manually manage data distribution and gradient synchronization across multiple machines.",
+        "Train the model on a single large instance with more compute power."
+      ],
+      "correct_answers": [
+        "Use data parallelism to split the dataset across several machines, with each machine training a copy of the model."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

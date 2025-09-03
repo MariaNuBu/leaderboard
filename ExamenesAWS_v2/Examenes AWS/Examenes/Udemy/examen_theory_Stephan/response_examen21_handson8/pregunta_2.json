@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "What is a primary use case for SageMaker Model Monitor?",
+      "options": [
+        "Optimizing models for specific hardware",
+        "Detecting data drift in deployed models",
+        "Automating model training pipelines",
+        "Running models on edge devices"
+      ],
+      "correct_answers": [
+        "Detecting data drift in deployed models"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

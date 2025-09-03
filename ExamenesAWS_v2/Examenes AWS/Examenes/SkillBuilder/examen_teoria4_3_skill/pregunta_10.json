@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A machine learning engineer at a healthcare organization is tasked with building a machine learning model using Amazon SageMaker. The model will analyze medical images and assist radiologists in detecting potential abnormalities. However, the engineer must ensure that the entire process complies with HIPAA regulations to protect patient privacy and data security. Which combination of AWS services would be MOST appropriate to achieve this?",
+      "options": [
+        "AWS Artifact, AWS Config, and AWS Security Hub",
+        "AWS Artifact, AWS Config, and Amazon Inspector",
+        "AWS Artifact, AWS Security Hub, and Amazon Inspector",
+        "AWS Config, AWS Security Hub, and AWS Audit Manager"
+      ],
+      "correct_answers": [
+        "AWS Artifact, AWS Config, and AWS Security Hub"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Martha, a machine learning engineer, is building a binary classification model to predict whether an email is spam or not spam. Which evaluation metric would be most appropriate to use if falsely classifying a non-spam email as spam is highly undesirable?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1 score"
+      ],
+      "correct_answers": [
+        "Precision"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

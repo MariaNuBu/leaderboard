@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A company needs a model that predicts the price of a house before the house is listed for sale.\n\nWhich algorithm should the company use to meet this requirement?",
+      "options": [
+        "Instance segmentation",
+        "Semantic segmentation",
+        "Principal component analysis (PCA)",
+        "XGBoost for regression"
+      ],
+      "correct_answers": [
+        "XGBoost for regression"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

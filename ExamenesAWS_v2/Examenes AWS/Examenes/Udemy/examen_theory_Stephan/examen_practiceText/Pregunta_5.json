@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A technology startup is developing a machine learning-based application using Amazon SageMaker. The application requires frequent model training on large datasets, but the workloads are not time-sensitive and can be interrupted if necessary. The startup is looking to optimize its infrastructure costs, as it has a limited budget and wants to maximize cost savings without compromising on the ability to scale when needed.\nGiven these requirements, which purchasing option should the startup choose to optimize its costs for training machine learning models on Amazon SageMaker?",
+      "options": [
+        "On-Demand Instances",
+        "SageMaker Savings Plans",
+        "Spot Instances",
+        "Reserved Instances"
+      ],
+      "correct_answers": [
+        "Spot Instances"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 - "
+    }
+  ]
+}

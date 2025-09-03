@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A financial services company records customer service calls and needs to perform sentiment analysis on these calls to assess customer satisfaction. They also require the ability to review the transcripts of these calls for compliance purposes. Which combination of AWS services will BEST achieve these requirements?",
+      "options": [
+        "Use Amazon Transcribe to convert the call recordings into text, and Amazon Lex to analyze the sentiment of the calls.",
+        "Use AWS Lambda to convert the call recordings into text, store the transcripts in Amazon S3, and use Amazon Rekognition for sentiment analysis.",
+        "Use Amazon Polly to convert the call recordings into text, store the transcripts in Amazon DynamoDB, and use Amazon SageMaker to perform sentiment analysis.",
+        "Use Amazon Transcribe to convert the call recordings into text, store the transcripts in Amazon S3, and use Amazon Comprehend for sentiment analysis on the transcripts."
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert the call recordings into text, store the transcripts in Amazon S3, and use Amazon Comprehend for sentiment analysis on the transcripts."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

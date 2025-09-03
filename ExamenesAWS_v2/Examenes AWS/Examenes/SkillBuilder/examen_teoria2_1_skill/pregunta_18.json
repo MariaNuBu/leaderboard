@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A developer runs an internal wiki site for a company that installs and builds custom home entertainment systems in homes and businesses. Although all the information that their employees need is in that wiki, their employees have complained that searching for what they need is cumbersome and difficult. The developer is looking for a way for their employees to quickly get the answers that they need in a natural conversational way. Which AWS artificial intelligence (AI) service should they consider?",
+      "options": [
+        "Amazon Kendra",
+        "Amazon Lex V2",
+        "Amazon SageMaker Canvas",
+        "Amazon Personalize"
+      ],
+      "correct_answers": [
+        "Amazon Kendra"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

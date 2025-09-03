@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Your company needs to deploy a machine learning (ML) model that requires high-performance computing power and low latency for real-time predictions. The model needs to be updated frequently, and you want a fully managed solution with minimal operational overhead. Your application does not require advanced customization. Which deployment target would be the best choice?",
+      "options": [
+        "Amazon SageMaker endpoints",
+        "Amazon Elastic Kubernetes service (Amazon EKS)",
+        "Amazon Elastic Container Service (Amazon ECS)",
+        "AWS Lambda"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker endpoints"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

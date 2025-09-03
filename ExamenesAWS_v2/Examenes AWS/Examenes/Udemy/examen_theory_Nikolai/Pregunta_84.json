@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 84,
+      "question": "A machine learning engineer is designing a workflow for a document processing application. The application uses Amazon Textract to extract text and key-value pairs from scanned documents, but some documents have poor quality, requiring human verification for accuracy. The engineer decides to use Amazon Augmented AI (A2I) to handle low-confidence predictions.\nWhich workflow design is MOST suitable to integrate Amazon A2I for this task?",
+      "options": [
+        "Directly integrate Amazon A2I with Amazon Textract to automatically route low-confidence predictions to a human review team for validation.",
+        "Use Amazon SageMaker Ground Truth to collect annotations and improve the Textract model accuracy over time.",
+        "Use Amazon Rekognition to detect and flag poor-quality scans, and then send them to Amazon A2I for review.",
+        "Implement a manual process where low-confidence Textract predictions are exported to a CSV file and sent to reviewers via email."
+      ],
+      "correct_answers": [
+        "Directly integrate Amazon A2I with Amazon Textract to automatically route low-confidence predictions to a human review team for validation."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

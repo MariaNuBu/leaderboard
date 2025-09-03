@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "An ML engineer is using the Amazon SageMaker AI XGBoost algorithm to develop a diagnostic tool. The tool uses multiple indicators to predict whether a patient has a specific disease. The dataset includes data from a large number of patients classified as healthy and a small number of patients diagnosed with the disease. Initial tests show that the model can consistently identify a patient who does not have the disease. However, the model cannot accurately predict whether a patient has the disease. Which adjustment should the ML engineer make to improve the model's ability to accurately predict which patients have the disease?",
+      "options": [
+        "Increase the learning rate.",
+        "Increase the value of the scale_pos_weight hyperparameter.",
+        "Decrease the value of the scale_pos_weight hyperparameter.",
+        "Decrease the value of the max_depth hyperparameter."
+      ],
+      "correct_answers": [
+        "Increase the value of the scale_pos_weight hyperparameter."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

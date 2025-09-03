@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "A research institute stores encrypted genomic datasets in an Amazon S3 bucket. The S3 bucket uses server-side encryption with AWS KMS keys (SSE-KMS) to secure the sensitive data. A data scientist needs to use an Amazon SageMaker notebook instance to analyze the datasets stored in the bucket. The solution must ensure that the notebook instance can access the data in S3 bucket and decrypt the data using the KMS key, while adhering to AWS best practices for security and permissions.\n\nWhich options can meet these requirements independently? (Select two)\n\nAttach an IAM role to the SageMaker notebook instance with s3:GetObject permissions for the S3 bucket and kms:Decrypt permissions for the KMS key\n\nAdd the SageMaker notebook instance’s IAM role to the S3 bucket’s access control list (ACL) and include the kms:Decrypt action in the IAM role’s policy\n\nUse the SageMaker notebook instance’s IAM role to configure an inline policy that grants kms:Decrypt permissions for the KMS key and s3:GetBucketAcl permissions for the S3 bucket\n\nUpdate the security group of the SageMaker notebook to allow inbound access from the S3 bucket and outbound access to the KMS key\n\nGrant the SageMaker notebook instance’s IAM role s3:GetObject permissions for the S3 bucket. Include the role’s ARN in the KMS key policy to allow kms:Decrypt permissions",
+      "options": [
+        "Attach an IAM role to the SageMaker notebook instance with s3:GetObject permissions for the S3 bucket and kms:Decrypt permissions for the KMS key",
+        "Add the SageMaker notebook instance’s IAM role to the S3 bucket’s access control list (ACL) and include the kms:Decrypt action in the IAM role’s policy",
+        "Use the SageMaker notebook instance’s IAM role to configure an inline policy that grants kms:Decrypt permissions for the KMS key and s3:GetBucketAcl permissions for the S3 bucket",
+        "Update the security group of the SageMaker notebook to allow inbound access from the S3 bucket and outbound access to the KMS key",
+        "Grant the SageMaker notebook instance’s IAM role s3:GetObject permissions for the S3 bucket. Include the role’s ARN in the KMS key policy to allow kms:Decrypt permissions"
+      ],
+      "correct_answers": [
+        "Attach an IAM role to the SageMaker notebook instance with s3:GetObject permissions for the S3 bucket and kms:Decrypt permissions for the KMS key",
+        "Grant the SageMaker notebook instance’s IAM role s3:GetObject permissions for the S3 bucket. Include the role’s ARN in the KMS key policy to allow kms:Decrypt permissions"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/kms/latest/developerguide/cmks-in-iam-policies.html",
+        "https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-overview.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

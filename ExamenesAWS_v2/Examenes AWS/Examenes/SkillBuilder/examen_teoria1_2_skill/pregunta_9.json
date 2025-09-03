@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "You work for a travel company and want to build a model to categorize customer reviews as positive or negative.\n\nWhich text feature engineering technique would be most useful for this classification task?",
+      "options": [
+        "Bag-of-words",
+        "Binning",
+        "Log transformation",
+        "N-gram"
+      ],
+      "correct_answers": [
+        "N-gram"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

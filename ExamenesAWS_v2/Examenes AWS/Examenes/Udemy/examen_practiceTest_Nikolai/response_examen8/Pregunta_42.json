@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "A financial firm needs to create a scheduled ETL process using AWS Glue that extracts transaction data from Amazon Redshift, transforms it, and loads it into another Redshift cluster for reporting. The process should avoid reprocessing the same data repeatedly and only process newly added transactions.\nWhich AWS Glue feature will allow the firm to achieve this?",
+      "options": [
+        "AWS Glue Crawler",
+        "AWS Glue Incremental Processing",
+        "AWS Glue Triggers",
+        "AWS Glue Development Endpoint"
+      ],
+      "correct_answers": [
+        "AWS Glue Incremental Processing"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

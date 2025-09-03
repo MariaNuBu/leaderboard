@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "You are an ML engineer at a retail company that uses a SageMaker model to generate product recommendations for customers in real-time. During peak shopping periods, the traffic to the recommendation engine increases dramatically. The company needs to ensure that the model endpoint can handle these spikes in demand without compromising on response time or customer experience. At the same time, you want to optimize costs by scaling down resources during periods of low demand. You are evaluating different scaling policies to manage this dynamic workload effectively.\n\nWhich scaling policy is the MOST SUITABLE for this scenario, and why?",
+      "options": [
+        "Use a target tracking scaling policy that automatically adjusts the number of instances based on a predefined target metric, such as CPU utilization or invocations per instance, to maintain a steady level of performance during traffic spikes",
+        "Use a step scaling policy that adjusts the number of instances based on the size of the traffic spike, adding a set number of instances for each level of increased demand",
+        "Use scheduled scaling to preemptively add or remove instances based on anticipated traffic patterns, such as known peak times during Black Friday, to ensure sufficient capacity is available when needed",
+        "Use a manual scaling policy where you adjust the number of instances based on real-time monitoring of traffic, allowing you to fine-tune resource allocation as needed during high-demand periods"
+      ],
+      "correct_answers": [
+        "Use a target tracking scaling policy that automatically adjusts the number of instances based on a predefined target metric, such as CPU utilization or invocations per instance, to maintain a steady level of performance during traffic spikes"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

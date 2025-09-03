@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A restaurant company is building an ML model by using Amazon SageMaker AI to predict daily sales. The sales system generates data in CSV format. The company has 6,000 restaurants and generates many files each day. The company performs queries on the data. An ML engineer must build a solution to prepare, move, and integrate the data to use in the ML model. The ML engineer wants to use a serverless service and optimize query performance.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Store the data in Amazon S3 in CSV format. Use SageMaker Model Monitor to define and maintain a schema for the data.",
+        "Store the data in Amazon Elastic Block Store (Amazon EBS). Use SageMaker Ground Truth to extract, transform, and load (ETL) the data in CSV format.",
+        "Store the data in Amazon Elastic File System (Amazon EFS). Use AWS Glue to extract, transform, and load (ETL) the data in JSON format.",
+        "Store the data in Amazon S3 in CSV format. Use AWS Glue to extract, transform, and load (ETL) the data in Apache Parquet format."
+      ],
+      "correct_answers": [
+        "Store the data in Amazon S3 in CSV format. Use AWS Glue to extract, transform, and load (ETL) the data in Apache Parquet format."
+      ],
+      "references": [],
+      "topic": "Data Engineering for ML (ETL & Parquet)",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

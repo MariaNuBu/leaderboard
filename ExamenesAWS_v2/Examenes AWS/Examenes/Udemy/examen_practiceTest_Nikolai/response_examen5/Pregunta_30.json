@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "You are a data scientist tasked with developing a model for a large e-commerce platform. The company needs a solution that minimizes development time and operational complexity. The team is considering using Amazon SageMaker's built-in algorithms instead of building custom models.\nWhich of the following advantages do built-in SageMaker algorithms offer for this use case? (Choose TWO)",
+      "options": [
+        "Built-in algorithms can only be used for simple tasks like linear regression and are not suitable for complex machine learning tasks.",
+        "Built-in algorithms like XGBoost and Linear Learner abstract away infrastructure setup and allow quick model deployment.",
+        "Pre-configured environments and infrastructure management are handled by AWS, eliminating the need for custom containers.",
+        "Custom algorithms provide faster training times and more efficient resource usage compared to built-in algorithms.",
+        "Custom frameworks such as PyTorch and TensorFlow must be used with SageMaker to enable hyperparameter tuning."
+      ],
+      "correct_answers": [
+        "Built-in algorithms like XGBoost and Linear Learner abstract away infrastructure setup and allow quick model deployment.",
+        "Pre-configured environments and infrastructure management are handled by AWS, eliminating the need for custom containers."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

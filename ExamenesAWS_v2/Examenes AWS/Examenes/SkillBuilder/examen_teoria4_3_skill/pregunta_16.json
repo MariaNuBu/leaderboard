@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A machine learning engineer is working on a project that involves training and deploying a machine learning model using Amazon SageMaker. As part of the project, they must ensure that the principle of least privilege is applied to the various components of the machine learning workflow. Which approach would be the MOST appropriate to achieve this?",
+      "options": [
+        "Analyze the specific tasks and responsibilities required for each user, application, or service. Create separate AWS Identity and Access Management (IAM) roles with the minimum permissions necessary for each entity to perform its intended tasks. Assign these roles accordingly.",
+        "Implement AWS Organizations and create separate AWS accounts for different stages of the machine learning workflow such as data preparation, model training, and model deployment. Apply Service Control Policies (SCPs) to restrict access to specific services and resources based on the stage.",
+        "Create a single AWS Identity and Access Management (IAM) role with full administrative permissions and assign it to all users, applications, and services involved in the project.",
+        "Grant all users and applications involved in the project full access to SageMaker and related services. Restrict access to the training data stored in Amazon Simple Storage Service (Amazon S3) using an S3 bucket policy."
+      ],
+      "correct_answers": [
+        "Analyze the specific tasks and responsibilities required for each user, application, or service. Create separate AWS Identity and Access Management (IAM) roles with the minimum permissions necessary for each entity to perform its intended tasks. Assign these roles accordingly."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

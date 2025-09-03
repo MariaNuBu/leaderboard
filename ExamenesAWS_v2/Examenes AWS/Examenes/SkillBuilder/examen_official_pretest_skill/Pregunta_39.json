@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.\n\nA data scientist needs to deploy an ML model. The model will be invoked every 24 hours. The model takes 30 minutes to process requests.\n\nWhich solution will meet these requirements MOST cost-effectively?",
+      "options": [
+        "A\nCreate an Amazon SageMaker real-time endpoint.",
+        "B\nCreate an Amazon SageMaker asynchronous endpoint.",
+        "C\nCreate an Amazon SageMaker batch transform job.",
+        "D\nCreate an Amazon SageMaker serverless endpoint."
+      ],
+      "correct_answers": [
+        "C\nCreate an Amazon SageMaker batch transform job."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

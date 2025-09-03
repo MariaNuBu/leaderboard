@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A machine learning engineer has noticed some model quality drift. Specifically, they noticed predictions that their model made that differed from the actual ground truth labels that the model attempted to predict. Which steps for monitoring will work best for model quality issues?",
+      "options": [
+        "Implement data validation checks, calculate statistical metrics, compare metrics with baseline values or expected ranges, and use techniques like data drift detection.",
+        "Calculate relevant evaluation metrics, implement confidence thresholds, flag predictions, and monitor the model on different datasets.",
+        "Calculate bias metrics, compare metrics with baseline values or thresholds, and implement techniques like adversarial debiasing.",
+        "Use techniques like SHAP (SHapley Additive exPlanations), calculate statistic metrics, compare metrics with baseline or expected ranges, and identify features that have significantly changed over time"
+      ],
+      "correct_answers": [
+        "Calculate relevant evaluation metrics, implement confidence thresholds, flag predictions, and monitor the model on different datasets."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

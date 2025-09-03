@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A company needs to use retrieval augmented generation (RAG) to supplement an open source large language model (LLM) that runs on Amazon Bedrock. The company's data for RAG is a set of documents in an Amazon S3 bucket. The documents consist of .csv files and .docx files. Which solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Create a pipeline in Amazon SageMaker Pipelines to generate a new model. Call the new model from Amazon Bedrock to perform RAG queries.",
+        "Convert the data into vectors. Store the data in an Amazon Neptune database. Connect the database to Amazon Bedrock. Call the Amazon Bedrock API to perform RAG queries.",
+        "Fine-tune an existing LLM by using an AutoML job in Amazon SageMaker AI. Configure the S3 bucket as a data source for the AutoML job. Deploy the LLM to a SageMaker AI endpoint. Use the endpoint to perform RAG queries.",
+        "Create an Amazon Bedrock knowledge base. Configure a data source that references the S3 bucket. Use the Amazon Bedrock API to perform RAG queries."
+      ],
+      "correct_answers": [
+        "Create an Amazon Bedrock knowledge base. Configure a data source that references the S3 bucket. Use the Amazon Bedrock API to perform RAG queries."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

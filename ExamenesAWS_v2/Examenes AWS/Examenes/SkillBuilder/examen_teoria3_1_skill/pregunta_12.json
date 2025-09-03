@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "You are working on a complex machine learning (ML) project that involves multiple steps, including data preprocessing, model training, and model deployment. You want to use a service purpose-built for managing ML workflows. Which orchestration service is purpose-built for managing end-to-end workflows?",
+      "options": [
+        "AWS Step Functions",
+        "Amazon Managed Workflows for Apache Airflow (Amazon MWAA)",
+        "Amazon SageMaker Pipeline",
+        "Kubeflow"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Pipeline"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

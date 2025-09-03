@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 73,
+      "question": "A data scientist needs to collaborate on a machine learning project and share notebook access with other team members. They also require the ability to work with pre-installed machine learning libraries such as TensorFlow and PyTorch. Which SageMaker feature best fits this need?",
+      "options": [
+        "SageMaker Studio",
+        "SageMaker Notebook Instances",
+        "SageMaker Ground Truth",
+        "SageMaker Model Monitor"
+      ],
+      "correct_answers": [
+        "SageMaker Studio"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

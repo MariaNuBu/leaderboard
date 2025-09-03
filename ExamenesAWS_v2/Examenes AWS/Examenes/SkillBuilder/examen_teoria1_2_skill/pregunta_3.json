@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You are cleaning up a dataset that includes the body weights of patients at a medical clinic. A clinician tells you that they usually see adults, but children occasionally visit the clinic.\n\nWhich data measurement BEST provides the central tendencies of your data?",
+      "options": [
+        "You would choose the mean, because the best measurement of data that might contain outliers is taking the average of all data entries.",
+        "You would choose the median, because the best measurement of data that might contain outliers is sorting the data and dividing the dataset at the middle variable.",
+        "Because the data is numerical, you can use any method of measurement to find the average weight of a patient.",
+        "There is no measurement you can use to find central tendencies of data."
+      ],
+      "correct_answers": [
+        "You would choose the median, because the best measurement of data that might contain outliers is sorting the data and dividing the dataset at the middle variable."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

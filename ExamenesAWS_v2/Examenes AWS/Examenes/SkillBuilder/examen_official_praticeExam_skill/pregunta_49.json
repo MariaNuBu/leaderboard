@@ -1,0 +1,17 @@
+{
+  "id": 49,
+  "question": "A company runs training jobs on Amazon SageMaker AI by using a compute optimized instance. Demand for training runs will remain constant for the next 55 weeks. The instance needs to run for 35 hours each week. The company needs to reduce its model training costs.\n\nWhich solution will meet these requirements?",
+  "options": [
+    "Use a serverless endpoint with a provisioned concurrency of 35 hours for each week. Run the training on the endpoint.",
+    "Use a SageMaker training plan to reserve the compute optimized instance for training. Specify the instance type. Run the training.",
+    "Use the heterogeneous cluster feature of SageMaker Training. Configure the instance_type, instance_count, and instance_groups arguments to run training jobs.",
+    "Opt in to a SageMaker AI Savings Plan with a 1-year term and an All Upfront payment. Run a SageMaker Training job on the instance."
+  ],
+  "correct_answers": [
+    "Opt in to a SageMaker AI Savings Plan with a 1-year term and an All Upfront payment. Run a SageMaker Training job on the instance."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

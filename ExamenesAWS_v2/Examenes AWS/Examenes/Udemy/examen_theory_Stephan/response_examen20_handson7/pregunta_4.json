@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "While working with Amazon Bedrock, you need to frequently update your knowledge base with new company policies. What is the most efficient way to handle this?",
+      "options": [
+        "Fine-tuning the model every time a policy changes.",
+        "Manually adding new policies to the LLM's training dataset.",
+        "Using SageMaker Canvas to modify the model.",
+        "Updating the vector database used for Retrieval‑Augmented Generation (RAG)."
+      ],
+      "correct_answers": [
+        "Updating the vector database used for Retrieval‑Augmented Generation (RAG)."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
+        "https://aws.amazon.com/blogs/database/accelerate-your-generative-ai-application-development-with-amazon-bedrock-knowledge-bases-quick-create-and-amazon-aurora-serverless/"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

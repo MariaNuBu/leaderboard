@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "Which of these is a benefit of Amazon SageMaker Studio?",
+      "options": [
+        "You can write custom custom integration code.",
+        "You can generate content from your company data.",
+        "You can gather data for training.",
+        "You can perform all machine learning (ML) model development steps in a web-based visual interface."
+      ],
+      "correct_answers": [
+        "You can perform all machine learning (ML) model development steps in a web-based visual interface."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

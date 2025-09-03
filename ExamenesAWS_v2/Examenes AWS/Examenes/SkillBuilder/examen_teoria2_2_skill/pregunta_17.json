@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A machine learning engineer is tasked with setting up a training environment for a new deep learning project on AWS. They want to use a pre-built container that includes TensorFlow and its dependencies. Which option would best suit their needs?",
+      "options": [
+        "Create a custom container from scratch.",
+        "Use an Amazon SageMaker pre-built TensorFlow container.",
+        "Use an Amazon Elastic Container Service (Amazon ECS) container.",
+        "Use an Amazon Elastic Kubernetes Service (Amazon EKS) container."
+      ],
+      "correct_answers": [
+        "Use an Amazon SageMaker pre-built TensorFlow container."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

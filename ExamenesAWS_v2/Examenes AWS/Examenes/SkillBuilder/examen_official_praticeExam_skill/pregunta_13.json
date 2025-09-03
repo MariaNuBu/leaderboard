@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A company needs to ingest data from an Amazon Redshift cluster and a Snowflake data source into Amazon SageMaker Data Wrangler. The company also must transform the data to prepare the data for ML model training.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use Amazon Athena to directly query the Redshift cluster and the Snowflake data source. Use Athena also to transform the data. Import the query results into SageMaker Data Wrangler.",
+        "Use AWS Glue to crawl the Redshift cluster and the Snowflake data source. Import the resulting data catalog into SageMaker Data Wrangler. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data.",
+        "Use Amazon Kinesis Data Streams to stream the data directly from the Redshift cluster and the Snowflake data source into an Amazon S3 bucket. Import the data from the S3 bucket into SageMaker Data Wrangler. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data.",
+        "Connect to the Redshift cluster and the Snowflake data source by using separate data connections in SageMaker Data Wrangler. Import the data by using SQL queries. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data."
+      ],
+      "correct_answers": [
+        "Connect to the Redshift cluster and the Snowflake data source by using separate data connections in SageMaker Data Wrangler. Import the data by using SQL queries. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

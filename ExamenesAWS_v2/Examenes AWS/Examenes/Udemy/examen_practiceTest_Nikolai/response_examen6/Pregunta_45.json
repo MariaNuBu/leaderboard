@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "A data scientist is tasked with monitoring feature attribution drift for a deployed model in SageMaker. What does feature attribution drift indicate?\n\nThe model's predictions differ from actual outcomes, affecting model quality.\n\nExplicación\nThis describes model quality drift, not feature attribution drift.\n\nThe input data no longer follows the distribution used during model training.\n\nExplicación\nThis describes data drift, not feature attribution drift.",
+      "options": [
+        "The model's predictions differ from actual outcomes, affecting model quality.",
+        "The input data no longer follows the distribution used during model training.",
+        "Certain features in the input data have a varying level of importance in the model’s predictions over time.",
+        "The model shows a preference for specific categories or groups in a biased way."
+      ],
+      "correct_answers": [
+        "Certain features in the input data have a varying level of importance in the model’s predictions over time."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

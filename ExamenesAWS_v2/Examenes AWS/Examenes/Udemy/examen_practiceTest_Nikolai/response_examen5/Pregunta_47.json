@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "A data scientist is setting up an environment to develop, train, and deploy machine learning models using AWS SageMaker. The scientist wants a fully managed Jupyter notebook environment that simplifies infrastructure setup and provides pre-installed libraries such as TensorFlow and PyTorch. Additionally, they want to ensure that their work is automatically saved and can be accessed later.\nWhich AWS SageMaker feature would BEST meet these requirements?\n\nAWS Glue with integrated Jupyter environment\n\nExplicación\nAWS Glue is designed for ETL processes and does not include a Jupyter notebook environment for machine learning tasks.",
+      "options": [
+        "AWS Glue with integrated Jupyter environment",
+        "SageMaker Notebook Instances",
+        "SageMaker Studio with Jupyter Lab spaces",
+        "Amazon EC2 with Jupyter notebook manually installed"
+      ],
+      "correct_answers": [
+        "SageMaker Notebook Instances"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

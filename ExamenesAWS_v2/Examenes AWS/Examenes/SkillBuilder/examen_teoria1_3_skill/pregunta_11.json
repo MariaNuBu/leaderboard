@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "You work as a machine learning engineer at a finance company, and you are building a machine learning model to predict loan default risk. You want to make sure you have a balanced and accurate dataset, and you want to split your data to test out the model.\n\nWhy is it important to split your data into training, testing, and validation data sets?",
+      "options": [
+        "Splitting the data allows you to train the model on data relationships, tune hyperparameters, and evaluate the model on distinct datasets.",
+        "Splitting the data is a requirement for regulated financial models to ensure governance. The validation set proves to auditors that the model works.",
+        "Splitting the data is important so that you can preserve some data for future models. The test set should be saved separately and not used for the model.",
+        "Splitting the data is unnecessary. You can train and test the model on the full dataset."
+      ],
+      "correct_answers": [
+        "Splitting the data allows you to train the model on data relationships, tune hyperparameters, and evaluate the model on distinct datasets."
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

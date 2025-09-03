@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "A healthcare company uses a binary classification model to predict whether patients are at risk of developing a particular condition. The model is currently in production, but the company plans to develop a new version of the model to improve its accuracy. The ML engineer is tasked with recalibrating the model to maximize correct predictions for both patients at risk (positive labels) and patients not at risk (negative labels). The engineer must choose an appropriate metric to evaluate and adjust the model for these requirements.\n\nWhich metric should the ML engineer use for recalibrating the model?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "Root mean squared error (RMSE)",
+        "Recall"
+      ],
+      "correct_answers": [
+        "Accuracy"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

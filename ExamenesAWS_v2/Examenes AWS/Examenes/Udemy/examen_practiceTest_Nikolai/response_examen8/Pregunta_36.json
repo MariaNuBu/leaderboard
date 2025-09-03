@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A machine learning engineer is responsible for deploying a model in Amazon SageMaker. After deployment, the engineer needs to monitor the model to detect data drift, model quality drift, and feature attribution drift over time. What are the most appropriate steps to take to monitor the deployed model effectively?",
+      "options": [
+        "Implement a baseline job, define constraints based on training data, and schedule monitoring jobs.",
+        "Monitor only the model predictions for accuracy and retrain the model when performance declines.",
+        "Use Amazon S3 to store logs manually and monitor changes in the input data via manual inspection.",
+        "Perform model re-training without any active monitoring to avoid unnecessary processing costs."
+      ],
+      "correct_answers": [
+        "Implement a baseline job, define constraints based on training data, and schedule monitoring jobs."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

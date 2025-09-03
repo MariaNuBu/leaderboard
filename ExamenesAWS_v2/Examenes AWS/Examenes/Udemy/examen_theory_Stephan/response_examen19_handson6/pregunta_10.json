@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "What is a key advantage of using self-attention in transformer models over traditional RNNs?",
+      "options": [
+        "Decreasing model sizes",
+        "Parallelizable computation",
+        "Better sequence modeling with fewer parameters",
+        "Elimination of the need for tokenization"
+      ],
+      "correct_answers": [
+        "Parallelizable computation"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

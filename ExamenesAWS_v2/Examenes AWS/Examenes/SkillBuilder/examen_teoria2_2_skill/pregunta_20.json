@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A machine learning engineer is working on a project that involves training an image classification model using Amazon SageMaker. Their team has decided to use one of the SageMaker built-in algorithms for this task. What is a key advantage of using the SageMaker built-in algorithms?",
+      "options": [
+        "The engineer has complete control over the algorithm's source code and can modify it as needed.",
+        "The engineer can choose the specific Docker container to be used for training.",
+        "The algorithms support all data ingestion modes, including Pipe mode, File mode, and Fast File mode.",
+        "The algorithms are optimized for performance and provide a managed infrastructure, which reduces overhead."
+      ],
+      "correct_answers": [
+        "The algorithms are optimized for performance and provide a managed infrastructure, which reduces overhead."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

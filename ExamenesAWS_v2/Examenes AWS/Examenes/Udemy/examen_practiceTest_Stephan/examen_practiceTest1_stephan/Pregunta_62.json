@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": " \nYou are an ML engineer at an e-commerce company tasked with building an automated recommendation system that scales during peak shopping seasons. The solution requires provisioning multiple compute resources, including SageMaker for model training, EC2 instances for data preprocessing, and an RDS database for storing user interaction data. You need to automate the deployment and management of these resources, ensuring that the stacks can communicate effectively. The company prioritizes infrastructure as code (IaC) to maintain consistency and scalability across environments.\n\nWhich approach is the MOST SUITABLE for automating the provisioning of compute resources and ensuring seamless communication between stacks?\n\nUse AWS CDK (Cloud Development Kit) to define the infrastructure in a high-level programming language, deploying each service as an independent stack without configuring inter-stack communication\n\nUse AWS Elastic Beanstalk to deploy the entire ML solution, relying on its built-in environment management to handle the provisioning and communication between resources automatically\n\nManually provision the SageMaker, EC2, and RDS resources using the AWS Management Console, ensuring that communication is established by manually updating security groups and networking configurations",
+      "options": [
+        "Use AWS CDK (Cloud Development Kit) to define the infrastructure in a high-level programming language, deploying each service as an independent stack without configuring inter-stack communication",
+        "Use AWS Elastic Beanstalk to deploy the entire ML solution, relying on its built-in environment management to handle the provisioning and communication between resources automatically",
+        "Manually provision the SageMaker, EC2, and RDS resources using the AWS Management Console, ensuring that communication is established by manually updating security groups and networking configurations",
+        "Use AWS CloudFormation with nested stacks to automate the provisioning of SageMaker, EC2, and RDS resources, and configure outputs from one stack as inputs to another to enable communication between them"
+      ],
+      "correct_answers": [
+        "Use AWS CloudFormation with nested stacks to automate the provisioning of SageMaker, EC2, and RDS resources, and configure outputs from one stack as inputs to another to enable communication between them"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

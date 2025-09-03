@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A machine learning engineer is setting up a private ML environment and needs to configure the security group to allow inbound traffic from specific sources. \nWhat is the MOST appropriate way to configure the security group?",
+      "options": [
+        "Allow inbound traffic from all IP addresses.",
+        "Allow inbound traffic from a specific EC2 instance.",
+        "Allow inbound traffic from a specific security group.",
+        "Allow inbound traffic from a specific IP range."
+      ],
+      "correct_answers": [
+        "Allow inbound traffic from a specific IP range."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

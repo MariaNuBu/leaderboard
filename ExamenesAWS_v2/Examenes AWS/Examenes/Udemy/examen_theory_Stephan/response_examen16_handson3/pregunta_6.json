@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A news organization needs to automatically transcribe live news broadcasts into multiple languages simultaneously. Which combination of AWS services should they use?",
+      "options": [
+        "Amazon Polly and Amazon Comprehend",
+        "Amazon Translate and Amazon Polly",
+        "Amazon Transcribe and Amazon Translate",
+        "Amazon Rekognition and Amazon Comprehend"
+      ],
+      "correct_answers": [
+        "Amazon Transcribe and Amazon Translate"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html",
+        "https://docs.aws.amazon.com/translate/latest/dg/what-is-translate.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

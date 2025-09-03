@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A company is conducting multiple machine learning experiments using Amazon SageMaker. The team is focused on automating its ML workflows to include data preprocessing, training, hyperparameter tuning, and model deployment. They need to track every step and ensure reproducibility of their models while reducing manual intervention. Which combination of SageMaker features should they use?",
+      "options": [
+        "SageMaker Experiments, SageMaker Neo, and SageMaker Feature Store",
+        "SageMaker Autopilot, SageMaker Experiments, and SageMaker Pipelines",
+        "SageMaker Studio, SageMaker Clarify, and SageMaker Experiments",
+        "SageMaker Experiments, SageMaker Pipelines, and SageMaker Model Monitor"
+      ],
+      "correct_answers": [
+        "SageMaker Autopilot, SageMaker Experiments, and SageMaker Pipelines"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

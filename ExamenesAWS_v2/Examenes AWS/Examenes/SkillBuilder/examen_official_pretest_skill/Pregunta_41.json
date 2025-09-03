@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "An ML engineer must implement a solution that processes hundreds of thousands of text inputs once every 24 hours. Each of the inputs is inserted into a prompt and sent to a large language model (LLM) for inference. The LLM response must be stored in an Amazon S3 bucket.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Create an AWS Step Functions workflow that invokes an AWS Lambda function for each input. In the Lambda function, run single-prompt inference by using Amazon Bedrock LLMs and store the result in Amazon S3.",
+        "Create a batch inference job in Amazon Bedrock. Specify the input file as an input to a CreateModelInvocationJob request. Copy the output of the job to the target S3 bucket.",
+        "Create an AWS Step Functions workflow that calls an InvokeModel action for Amazon Bedrock for each input. Add a step to the workflow that stores the result in Amazon S3.",
+        "Create a batch inference job in Amazon Bedrock. Store the input file in an S3 bucket and specify the stored file as an input to a CreateModelInvocationJob request. Specify the output location for the request as the target S3 bucket."
+      ],
+      "correct_answers": [
+        "Create a batch inference job in Amazon Bedrock. Store the input file in an S3 bucket and specify the stored file as an input to a CreateModelInvocationJob request. Specify the output location for the request as the target S3 bucket."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

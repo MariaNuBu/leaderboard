@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A data science team is building an ML pipeline to predict customer turnover for a telecommunications company. The team wants to automate the data ingestion process and integrate it easily with the overall pipeline orchestration using AWS services. Which method would be the most efficient for the team to implement?",
+      "options": [
+        "Use an Amazon Relational Database Service (Amazon RDS) PostgreSQL database to store the customer data. Then use AWS Glue to schedule and run extract, transform, and load (ETL) jobs to preprocess the data and save it back to Amazon RDS. Then, connect Amazon SageMaker to the RDS database to train the ML model.",
+        "Upload the customer data directly to Amazon SageMaker for training. Use SageMaker processing jobs to preprocess the customer data before training the ML model.",
+        "Use Amazon Simple Storage Service (Amazon S3) to store the customer data. Then trigger an AWS Lambda function to preprocess the data and feed it into an Amazon SageMaker training job.",
+        "Use an Amazon Kinesis Data Stream to ingest the real-time customer data. Then use Kinesis Data Analytics to run SQL queries on the stream for preprocessing. Then, directly pipe the processed stream into Amazon SageMaker for model training."
+      ],
+      "correct_answers": [
+        "Use Amazon Simple Storage Service (Amazon S3) to store the customer data. Then trigger an AWS Lambda function to preprocess the data and feed it into an Amazon SageMaker training job."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

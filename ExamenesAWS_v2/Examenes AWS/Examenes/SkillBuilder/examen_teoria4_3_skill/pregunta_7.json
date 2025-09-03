@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You have deployed an Amazon SageMaker endpoint for your machine learning model within a VPC. To enhance security, you want to configure the endpoint to be accessible only from within the VPC.\nWhich steps should you take to achieve this?",
+      "options": [
+        "Create a security group that allows inbound traffic to the endpoint from any source (0.0.0.0/0) on the necessary ports.",
+        "Configure a NACL to allow all inbound and outbound traffic for the subnet hosting the endpoint.",
+        "Create a security group that allows inbound traffic to the endpoint only from sources within the VPC's CIDR range.",
+        "Enable public internet access for the subnet hosting the endpoint to ensure accessibility from outside the VPC."
+      ],
+      "correct_answers": [
+        "Create a security group that allows inbound traffic to the endpoint only from sources within the VPC's CIDR range."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

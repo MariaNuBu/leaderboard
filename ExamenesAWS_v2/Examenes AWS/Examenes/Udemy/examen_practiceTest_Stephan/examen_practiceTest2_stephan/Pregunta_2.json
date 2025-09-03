@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You are a data scientist at an insurance company that uses a machine learning model to assess the risk of potential clients and set insurance premiums accordingly. The model was trained on data from the past few years, but recently, the company has expanded its services to new regions with different demographic characteristics. You are concerned that these changes in the data distribution might affect the model's performance and lead to biased or inaccurate predictions. To address this, you decide to use Amazon SageMaker Clarify to monitor and detect any significant shifts in data distribution that could impact the model.\n\nWhich of the following actions is the MOST EFFECTIVE for detecting changes in data distribution using SageMaker Clarify and mitigating their impact on model performance?",
+      "options": [
+        "Use SageMaker Clarify’s bias detection capabilities to analyze the model’s output and identify any disparities between different demographic groups, retraining the model only if significant bias is detected",
+        "Use SageMaker Clarify to perform a one-time bias analysis during model training, ensuring that the model is initially fair and accurate, and manually monitor future data distribution changes",
+        "Set up a continuous monitoring job with SageMaker Clarify to track changes in feature distribution over time and alert you when a significant feature attribution drift is detected, allowing you to investigate and potentially retrain the model",
+        "Implement a random sampling process to manually review a subset of incoming data each month, comparing it with the original training data to check for distribution changes"
+      ],
+      "correct_answers": [
+        "Set up a continuous monitoring job with SageMaker Clarify to track changes in feature distribution over time and alert you when a significant feature attribution drift is detected, allowing you to investigate and potentially retrain the model"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-feature-attribution-drift.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

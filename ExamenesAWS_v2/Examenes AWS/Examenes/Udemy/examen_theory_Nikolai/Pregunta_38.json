@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "A company is implementing SageMaker Pipelines to automate and manage machine learning workflows at scale. The company wants to ensure that the pipeline can handle concurrent workflows efficiently. Which feature of SageMaker Pipelines best supports this requirement?",
+      "options": [
+        "It allows the manual execution of each pipeline step for better control.",
+        "It integrates with Amazon Athena for real-time querying.",
+        "It scales to handle tens of thousands of concurrent machine learning workflows in production.",
+        "It stores the pipeline definitions as relational database entries for fast retrieval."
+      ],
+      "correct_answers": [
+        "It scales to handle tens of thousands of concurrent machine learning workflows in production."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

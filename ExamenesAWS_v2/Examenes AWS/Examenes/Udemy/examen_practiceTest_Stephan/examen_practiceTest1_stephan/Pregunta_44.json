@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "You are a Data Scientist working for an e-commerce company that is developing a machine learning model to predict whether a customer will make a purchase based on their browsing behavior. You need to evaluate the model's performance using different evaluation metrics to understand how well the model is predicting the positive class (i.e., customers who will make a purchase). The dataset is imbalanced, with a small percentage of customers making a purchase. Given this context, you must decide on the most appropriate evaluation techniques to assess your model's effectiveness and identify potential areas for improvement.\n\nWhich of the following evaluation techniques and metrics should you prioritize when assessing the performance of your model, considering the dataset's imbalance and the need for a comprehensive understanding of both false positives and false negatives? (Select two)",
+      "options": [
+        "Use precision and recall to focus on the model's ability to correctly identify positive cases while minimizing false positives and false negatives",
+        "Utilize the AUC-ROC curve to evaluate the model’s ability to distinguish between classes across various thresholds, particularly in the presence of class imbalance",
+        "Evaluate the model using the confusion matrix, which provides insights into true positives, false positives, true negatives, and false negatives, allowing you to calculate additional metrics such as precision, recall, and F1 score",
+        "Use accuracy as the primary metric, as it measures the percentage of correct predictions out of all predictions made by the model",
+        "Prioritize Root mean squared error (RMSE) as the key metric, as it measures the average magnitude of the errors between predicted and actual values"
+      ],
+      "correct_answers": [
+        "Use precision and recall to focus on the model's ability to correctly identify positive cases while minimizing false positives and false negatives",
+        "Evaluate the model using the confusion matrix, which provides insights into true positives, false positives, true negatives, and false negatives, allowing you to calculate additional metrics such as precision, recall, and F1 score"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/binary-classification.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

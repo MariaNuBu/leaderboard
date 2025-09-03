@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A financial institution has developed a machine learning model to predict loan default risk. The model is based on various customer attributes such as income, credit history, and employment status. The model is currently in production, and the institution wants to monitor for potential statistical bias drift to ensure fair and accurate predictions.\nWhich approach would require the least amount of effort for this scenario?",
+      "options": [
+        "Use Amazon SageMaker Clarify directly to configure a processing job and analyze the model's predictions for bias.",
+        "Use Amazon SageMaker Data Wrangler to identify potential bias during data preparation before model training.",
+        "Use Amazon SageMaker Model Monitor, which integrates with Amazon SageMaker Clarify, to monitor the deployed model's predictions for bias drift.",
+        "Manually inspect the model's predictions and compare them with the training data to detect any statistical bias drift."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Model Monitor, which integrates with Amazon SageMaker Clarify, to monitor the deployed model's predictions for bias drift."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

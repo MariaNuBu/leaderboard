@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are a data scientist at a healthcare company tasked with building a predictive model using SageMaker. Your team wants to avoid the complexity of managing infrastructure and prefers a solution that minimizes setup time.\n\nWhich of the following SageMaker features would be MOST appropriate for your use case?",
+      "options": [
+        "Use SageMaker’s built-in algorithms, which come pre-packaged in containers, requiring only data input and hyperparameter setup.",
+        "Build your own deep learning model using TensorFlow or PyTorch and manually deploy it on an Amazon EC2 instance.",
+        "Build a custom container with proprietary algorithms and manage the infrastructure manually for optimized performance.",
+        "Use SageMaker Ground Truth to automatically handle infrastructure setup and dataset labeling."
+      ],
+      "correct_answers": [
+        "Use SageMaker’s built-in algorithms, which come pre-packaged in containers, requiring only data input and hyperparameter setup."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

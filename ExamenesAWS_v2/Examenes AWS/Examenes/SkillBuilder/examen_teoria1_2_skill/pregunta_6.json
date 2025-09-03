@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "You are building a data repository for a beverage company. You are tasked with encoding the values of the various flavor combinations customers can choose when they create a custom beverage. There are hundreds of flavor options, so you have a lot of features in your dataset.\n\nWhich encoding technique is the BEST option for this encoding task?",
+      "options": [
+        "Any type of encoding technique will work in this situation.",
+        "You would choose label encoding, because it assigns a unique integer for each flavor option.",
+        "You would choose one-hot encoding, because it works most effectively when there are a lot of features in your dataset.",
+        "Categorical encoding will not work for this machine learning solution."
+      ],
+      "correct_answers": [
+        "You would choose label encoding, because it assigns a unique integer for each flavor option."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

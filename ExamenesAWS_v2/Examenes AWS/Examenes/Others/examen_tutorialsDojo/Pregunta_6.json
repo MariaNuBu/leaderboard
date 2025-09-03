@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "TOPIC: MLA – ML Model Development\nA healthcare company seeks to enhance patient outcome predictions using generative AI applications. The company requires a solution that allows selection from various predictive models, guarantees the confidentiality of private data during model fine-tuning, and eliminates the need for managing the underlying ML infrastructure.\n\nWhich AWS service best meets the requirements?\n\nAmazon SageMaker Studio\nAmazon Bedrock\nAmazon Comprehend Medical\nAmazon Rekognition",
+      "options": [
+        "Amazon SageMaker Studio",
+        "Amazon Bedrock",
+        "Amazon Comprehend Medical",
+        "Amazon Rekognition"
+      ],
+      "correct_answers": [
+        "Amazon Bedrock"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html",
+        "https://aws.amazon.com/bedrock/"
+      ],
+      "topic": "MLA – ML Model Development",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

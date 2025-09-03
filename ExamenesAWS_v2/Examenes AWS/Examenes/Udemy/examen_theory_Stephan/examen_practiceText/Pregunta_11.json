@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A marketing company uses a machine learning model deployed on Amazon SageMaker to predict customer churn based on behavioral data. Recently, the company has noticed a significant drop in the model's performance metrics, such as accuracy and F1 score. After investigating, the data science team suspects that a change in the distribution of incoming data, possibly due to a new marketing campaign targeting different demographics, is affecting the model's performance.\n\nThe team wants to analyze the impact of this change in data distribution on the model's predictions and ensure that the model remains unbiased across various demographic groups.\n\nWhich tool or feature of Amazon SageMaker should the team use to address this issue?",
+      "options": [
+        "SageMaker Debugger",
+        "SageMaker Model Monitor",
+        "SageMaker Clarify",
+        "SageMaker Autopilot"
+      ],
+      "correct_answers": [
+        "SageMaker Clarify"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

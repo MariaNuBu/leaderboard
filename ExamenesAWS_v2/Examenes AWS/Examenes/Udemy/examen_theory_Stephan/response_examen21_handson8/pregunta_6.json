@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Which deployment method in SageMaker is most suitable for handling infrequent or unpredictable traffic with the ability to scale down to zero?",
+      "options": [
+        "Real-Time Inference",
+        "Serverless Inference",
+        "Batch Transform",
+        "Asynchronous Inference"
+      ],
+      "correct_answers": [
+        "Serverless Inference"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-inference.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

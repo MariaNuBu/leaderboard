@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A data scientist is using SageMaker Script Mode to train a machine learning model. They need to modularize their code by separating model definition, training logic, and inference logic into different Python files. They also need to include several external dependencies. How should the data scientist proceed to ensure SageMaker can correctly run their custom model?",
+      "options": [
+        "Split the code into multiple Python files, package them, and specify a single entry point script in the SageMaker estimator. Use a requirements.txt file to install dependencies.",
+        "Build a custom Docker container that includes all the Python files and dependencies, and then push it to Amazon ECR for SageMaker to use.",
+        "Write all code into a single Python file and include dependencies directly within the script.",
+        "Use SageMaker’s built-in algorithms and ignore the need for custom modularized code."
+      ],
+      "correct_answers": [
+        "Split the code into multiple Python files, package them, and specify a single entry point script in the SageMaker estimator. Use a requirements.txt file to install dependencies."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

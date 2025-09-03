@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Case Study -\nA company is building a web-based AI application by using Amazon SageMaker. The application will provide the following capabilities and features: ML experimentation, training, a central model registry, model deployment, and model monitoring.\nThe application must ensure secure and isolated use of training data during the ML lifecycle. The training data is stored in Amazon S3.\nThe company needs to run an on-demand workflow to monitor bias drift for models that are deployed to real-time endpoints from the application.\nWhich action will meet this requirement?",
+      "options": [
+        "A. Configure the application to invoke an AWS Lambda function that runs a SageMaker Clarify job. Most Voted",
+        "B. Invoke an AWS Lambda function to pull the sagemaker-model-monitor-analyzer built-in SageMaker image.",
+        "C. Use AWS Glue Data Quality to monitor bias.",
+        "D. Use SageMaker notebooks to compare the bias."
+      ],
+      "correct_answers": [
+        "A. Configure the application to invoke an AWS Lambda function that runs a SageMaker Clarify job. Most Voted"
+      ],
+      "references": [
+        "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01"
+      ],
+      "topic": "",
+      "Source": "https://www.examtopics.com/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01",
+      "Practice test": "ExamTopics"
+    }
+  ]
+}

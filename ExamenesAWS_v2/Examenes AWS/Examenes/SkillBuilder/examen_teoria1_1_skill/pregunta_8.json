@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "An organization is building a machine learning model to predict customer churn based on transaction history, browsing history, and demographics. The data required is stored in various data sources including Amazon RDS databases and Amazon DynamoDB. The data needs to be extracted and combined to create a unified dataset for training.  Which data merging solution would best suit this task?",
+      "options": [
+        "Use Amazon EMR with Apache Spark to process and combine data sources using the petabyte-scale capabilities of Amazon EMR.",
+        "Implement a real-time streaming pipeline using Amazon Managed Service for Apache Flink to use SQL transformations to unify data formatting when output to Amazon S3.",
+        "Use AWS Glue to extract and combine data from the different database sources with Python or Scala scripts and copy the output to Amazon S3.",
+        "Write Python scripts and deploy them using AWS Lambda. Run the scripts to access the data sources and write the combined data to Amazon S3."
+      ],
+      "correct_answers": [
+        "Use AWS Glue to extract and combine data from the different database sources with Python or Scala scripts and copy the output to Amazon S3."
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

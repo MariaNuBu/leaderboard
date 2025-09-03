@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A company needs to run containerized applications with minimal management of the underlying infrastructure.\nThey also require automatic scaling based on workload.\nWhich ECS launch type should they choose?",
+      "options": [
+        "External launch type",
+        "On-premises launch type",
+        "EC2 launch type",
+        "Fargate launch type"
+      ],
+      "correct_answers": [
+        "Fargate launch type"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

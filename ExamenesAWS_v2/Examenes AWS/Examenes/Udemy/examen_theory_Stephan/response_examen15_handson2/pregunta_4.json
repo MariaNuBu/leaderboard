@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Your company is developing a machine learning model to predict customer churn, but you're concerned about potential bias in the model's predictions. Which SageMaker feature helps detect and mitigate bias during model training?",
+      "options": [
+        "SageMaker Neo",
+        "SageMaker Feature Store",
+        "SageMaker Clarify",
+        "SageMaker Processing"
+      ],
+      "correct_answers": [
+        "SageMaker Clarify"
+      ],
+      "references": [],
+      "topic": "Data Transformation, Integrity, and Feature Engineering",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496099",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

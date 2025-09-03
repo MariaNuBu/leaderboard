@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "Which services or features can help optimize costs for AWS machine learning (ML) workloads by using spare EC2 instances at a discounted price?",
+      "options": [
+        "AWS Auto Scaling",
+        "AWS Trusted Advisor",
+        "Amazon EC2 Spot Instances",
+        "AWS Cost Explorer"
+      ],
+      "correct_answers": [
+        "Amazon EC2 Spot Instances"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

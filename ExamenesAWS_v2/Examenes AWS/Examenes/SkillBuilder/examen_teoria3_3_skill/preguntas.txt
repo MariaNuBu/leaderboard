@@ -1,0 +1,297 @@
+A team just finished a new feature that improves the relevance of purchase recommendations for users on an auto website. This feature updates the recommendation algorithm and involves changes to the code, model, and infrastructure. Which steps should the team take to release this feature quickly while maintaining system stability?
+
+Deploy the new algorithm directly to production to get it out faster.
+
+Test the new algorithm locally but skip integration testing.
+
+Run integration tests and then deploy to a staging environment. (Correct)
+
+Develop, test, and release the new algorithm feature in a separate environment that is isolated from production.
+
+---
+Which statement accurately describes unique aspects of machine learning workflows compared to traditional software development? 
+
+ML models can be deployed to production like any other type of software.
+
+ML introduces extra steps like data prep, training, versioning, and monitoring that require adapted best practices. (Correct)
+
+ML models behave like traditional software and require standard DevOps tooling.
+
+ML models can persist without ongoing management because the models are static.
+
+---
+
+A team is making changes to the feature engineering part of their machine learning pipeline. Which kind of test should you implement to ensure these changes do not negatively impact model accuracy?
+
+Unit testing 
+
+Integration testing 
+
+Regression testing (Correct)
+
+Acceptance testing 
+
+---
+
+
+A team is starting development on a new machine learning project that will involve multiple developers concurrently working on the codebase. They want to set up version control to coordinate collaboration on the code. What are some key benefits of using a version control system like Git for your project? 
+
+Auditing changes, tracking revisions, and coordinating team collaboration (Correct)
+
+Automatic deployment of code changes 
+
+Restricting access to code 
+
+Generating documentation 
+
+---
+
+A team has been working on developing a new feature called social media integration. The feature has been completed and tested on a separate feature branch. They now have to integrate this new feature into the main codebase. What should the next step be according to the Gitflow workflow?
+
+Merge the feature branch into the develop branch. (Correct)
+
+Create a new release branch off of the develop branch.
+
+Merge the release branch into the main branch.
+
+Create a pull request to merge the feature branch into the main branch.
+
+---
+
+After deploying a new version, the MLOps engineer notices issues arising in production. It is necessary to quickly rollback to the previous version. Which AWS service provides straightforward rollback capabilities? 
+
+AWS CloudTrail
+
+AWS CodeBuild
+
+AWS CodeDeploy
+
+AWS CodePipeline
+
+---
+
+A DevOps engineer is troubleshooting an issue with an AWS CodeDeploy pipeline that keeps failing during the Deploy stage. Which troubleshooting step should they take first?
+
+Check the pipeline configuration in CodeDeploy and AWS CodeBuild.
+
+Disable all pipeline stages except the Deploy stage to isolate the issue.
+
+Review all logs from the Deploy stage for error messages. (Correct)
+
+Redeploy the application manually using the AWS Command Line Interface (AWS CLI).
+
+---
+
+After verifying the pipeline configuration, the data engineer finds no issues. The Deploy logs show timeout errors when downloading application artifacts from Amazon Simple Storage Service (Amazon S3). In addition, the logs show explicit access denied messages. What should they do next?
+
+Validate that the AWS Identity and Access Management (IAM) roles used by AWS CodeDeploy have permissions to access the Amazon S3 artifacts bucket. (Correct)
+
+Increase the Deploy timeout setting in AWS CodeDeploy.
+
+Restart the AWS CodeDeploy agent on the Amazon Elastic Compute Cloud (Amazon EC2) instances.
+
+Delete all artifacts from Amazon S3 and re-upload them.
+
+---
+
+A DevOps engineer needs to automatically start the training of a new model version whenever new data is ingested. Which AWS service would help orchestrate this process?
+
+AWS CodeBuild 
+
+AWS CodeDeploy 
+
+AWS CodePipeline 
+
+AWS Step Functions (Correct)
+
+---
+
+A data science team has built a machine learning model to classify customer support tickets. They want to set up an automated workflow to retrain and redeploy the model every night with new data. Which services would be best to use for orchestrating this workflow?
+
+Use AWS CodePipeline to orchestrate the workflow, with AWS Lambda functions for each pipeline stage. 
+
+Use AWS Step Functions to create a workflow, with AWS CodePipeline invoking the state machine in response to source code changes. (Correct)
+
+Use AWS CodeBuild to run a script that calls each service API. 
+
+Use AWS Lambda to coordinate between Amazon SageMaker, Amazon Simple Storage Service (Amazon S3), and other services. 
+
+---
+
+An MLOps engineer is deploying a new version of a large machine learning model that serves predictions to a popular mobile app. Minimizing capacity requirements during the deployment is important to reduce costs. Which deployment strategy should they choose?
+
+Blue/green deployment 
+
+All at once deployment 
+
+Canary deployment 
+
+Rolling deployment (Correct)
+
+---
+
+An MLOps engineer has created a Git repository to help implement their ML solution. They want to create a local copy of the repository so they can work in an area with limited network connectivity. How should they accomplish this?
+
+From their development machine, use Git to run git add to stage the modified files locally. Then run git commit to commit the files locally.
+
+From their development machine, use Git to run git clone, specifying the name of the repository. (Correct)
+
+From their development machine, use Git to run git pull to synchronize the files in your repository.
+
+Use a console to create a Git repository.
+
+---
+
+An organization has deployed an image classification model in production to identify potentially problematic areas in cancer screenings. Over time, they observe that the model's accuracy on certain cancer types has degraded. They suspect this is because new images contain strains of cancer the model has not seen before during training. They want to retrain the model without losing its ability to identify the original cancer types it was trained on. Which retraining mechanism is the best choice for this use case?
+
+Automated retraining pipelines
+
+Scheduled retraining
+
+Incremental learning (Correct)
+
+Drift detection
+
+---
+
+An engineer is tasked with setting up an AWS CodePipeline for deploying a new customer-facing web application. The pipeline needs to support frequent updates and deployments in a safe, automated manner. Which practice should they incorporate into their pipeline design? 
+
+Set up CodePipeline to build the code, run tests, and then directly deploy the web app to production.
+
+Set up CodePipeline to build the code, run tests, deploy to staging, run integration tests, and then deploy to production. (Correct)
+
+Set up CodePipeline to build the code and run tests, then have a manual approval step before deploying to production.
+
+Set up AWS CodeBuild to build the code and run tests, then have developers manually deploy it to staging and production.
+
+---
+
+An ML engineer is working on a project to develop and deploy a recommendation engine model for an ecommerce website. Their team follows DevOps principles and they have implemented a CI/CD pipeline for the model development and deployment process. Which option best represents the correct order of stages in the CI/CD pipeline for this project? 
+
+Source -> Build -> Test -> Production (Correct)
+
+Build -> Source -> Test -> Production
+
+Source -> Build -> Production -> Test
+
+Source -> Test -> Build -> Production
+
+---
+
+The ML team at a company is implementing CI/CD pipelines to automate model training and deployment. As part of this initiative, the team decides to start using Git and GitHub for version control. Which Git command will upload the local committed changes to the remote GitHub repository?
+
+git push (Correct)
+
+git merge
+
+git pull
+
+git clone
+
+---
+
+An ML engineer is setting up a continuous deployment pipeline using a flow structure like Gitflow or GitHub flow.  Which step would be the most appropriate to include in the pipeline?
+
+Manually test new features on a development environment after merging feature branches.
+
+Deploy successful builds from the main branch to production. (Correct)
+
+Check for style and security issues on pull requests before merging.
+
+Run automated tests on the main branch after each commit.
+
+---
+
+A data science team has developed a new ML model to predict customer churn. They would like to deploy this model to production as soon as possible to start benefiting the business. However, they are concerned about the risks associated with manual deployment processes and want to ensure the model is thoroughly tested before going live. Which CI/CD principle would be most beneficial to incorporate into the ML workflow to address this team's concerns?
+
+Continuous integration (Correct)
+
+Collaboration
+
+Monitoring and feedback
+
+Continuous deployment
+
+---
+
+A team is developing a new deep learning model to classify images. They want to automate testing in their CI/CD pipeline. Which type of automated tests should they focus on implementing first?
+
+Integration tests to validate that your model training code connects properly to your preprocessing pipeline and your inference serving container.
+
+Unit tests for individual Python functions used in your preprocessing script. (Correct)
+
+Regression tests comparing the performance of the current model version against a previously deployed baseline.
+
+End-to-end tests that train a model on your full dataset and evaluate accuracy on a test set.
+
+---
+
+An ML engineer is building and deploying models for predicting customer turnover. Which AWS service could they use to automate and orchestrate the ML workflow involving data preprocessing, model training, evaluation, and deployment?
+
+Amazon SageMaker Model Monitor
+
+Amazon SageMaker Pipelines
+
+AWS Step Functions (Correct)
+
+Amazon SageMaker notebook instances
+
+---
+
+An ML engineer is working on deploying a new version of a product recommendation model for an ecommerce company. The current model version is running in production, serving customer traffic. The goal is to safely deploy the new model version with minimal disruption to the user experience while monitoring its performance closely. Which deployment strategy should they use?
+
+Canary deployment
+
+A/B testing
+
+Blue/green deployment with linear traffic shifting (Correc)
+
+Rolling deployment
+
+---
+
+A data science team is building an ML pipeline to predict customer turnover for a telecommunications company. The team wants to automate the data ingestion process and integrate it easily with the overall pipeline orchestration using AWS services. Which method would be the most efficient for the team to implement?
+
+Use an Amazon Relational Database Service (Amazon RDS) PostgreSQL database to store the customer data. Then use AWS Glue to schedule and run extract, transform, and load (ETL) jobs to preprocess the data and save it back to Amazon RDS. Then, connect Amazon SageMaker to the RDS database to train the ML model. 
+
+Upload the customer data directly to Amazon SageMaker for training. Use SageMaker processing jobs to preprocess the customer data before training the ML model. 
+
+Use Amazon Simple Storage Service (Amazon S3) to store the customer data. Then trigger an AWS Lambda function to preprocess the data and feed it into an Amazon SageMaker training job. (Correct)
+
+Use an Amazon Kinesis Data Stream to ingest the real-time customer data. Then use Kinesis Data Analytics to run SQL queries on the stream for preprocessing. Then, directly pipe the processed stream into Amazon SageMaker for model training.
+
+---
+
+A developer is working on an ML project that involves training and deploying a deep learning model for image classification. Their team has set up an AWS CodePipeline to automate the build, test, and deployment processes. Unfortunately, they have been experiencing issues with the CodePipeline where several of the stages are failing intermittently. What could be the potential cause of the intermittent failures in your CodePipeline?
+
+Inadequate compute resources
+
+Incorrect model hyperparameters
+
+Inconsistent input data (Correct)
+
+Outdated software dependencies
+
+---
+
+A developer is working on an ML project that involves training and deploying a deep learning model for image classification. Their team uses AWS services for the continuous integration and deployment (CI/CD) pipeline. The pipeline includes the following stages: 1. Source: Retrieve the source code from a Git repository. 2. Build: Build the machine learning model using AWS CodeBuild. 3. Test: Run unit tests and validation tests on the built model. 4. Deploy: Deploy the model to an Amazon Elastic Compute Cloud (Amazon ECS) cluster using AWS CodeDeploy. They want to ensure that the pipeline follows best practices and meets the necessary security requirements. Which action should they take? 
+
+Use a custom Docker image with the required machine learning libraries for the CodeBuild build environment. (Correct)
+
+Configure AWS CodePipeline to require manual approval before deploying the model to the production environment.
+
+Store the built model artifacts in an Amazon Simple Storage Service (Amazon S3) bucket with public access to enable easy sharing.
+
+Grant full administrative access to the Git repository to all team members for collaboration.
+
+---
+
+An ML engineer has implemented CI/CD best practices into their model training pipeline. What is one key benefit this provides?
+
+It scales compute resources to handle increased data volumes.
+
+It helps the models run faster.
+
+It enables reproducibility by preserving past model versions and training data. (Correct)
+
+It provides access controls to limit model access to authorized users.

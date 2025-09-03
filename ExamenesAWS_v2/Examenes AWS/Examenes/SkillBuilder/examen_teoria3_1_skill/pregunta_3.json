@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You need to orchestrate an end-to-end machine learning (ML) workflow that includes data preprocessing, model training, evaluation, and deployment. Which AWS service is purpose-built for automating, monitoring, and managing your ML workflow steps?",
+      "options": [
+        "Apache Airflow",
+        "Kubernetes",
+        "MLflow",
+        "SageMaker Pipelines"
+      ],
+      "correct_answers": [
+        "SageMaker Pipelines"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

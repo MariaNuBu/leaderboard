@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.\n\nA library designed a book recommendation system. The system was deployed by using an Amazon SageMaker endpoint. The endpoint has a target tracking scaling policy to auto scale based on the number of invocations metric. After system deployment, traffic has seen intermittent spikes that caused over-scaling. An ML engineer must implement a solution to handle the spike in traffic.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A Increase the metric value for scaling instances in the target tracking scaling policy.",
+        "B Decrease the metric value for scaling instances in the target tracking scaling policy.",
+        "C Specify a cooldown period in the target tracking scaling policy.",
+        "D Replace the target tracking scaling policy with a step scaling policy."
+      ],
+      "correct_answers": [
+        "C Specify a cooldown period in the target tracking scaling policy."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.2 Create and script infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

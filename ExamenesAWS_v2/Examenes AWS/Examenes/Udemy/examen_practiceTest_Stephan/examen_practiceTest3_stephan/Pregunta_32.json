@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A healthcare company is running containerized ML applications to process patient data and generate predictive insights. These applications are deployed across Amazon EC2 instances, Amazon Elastic Container Service (Amazon ECS) cluster and AWS Lambda functions. The EC2 and ECS workloads store predictions and artifacts on Amazon Elastic Block Store (Amazon EBS) volumes. To optimize costs, the company wants to identify inefficiently used resources and receive actionable recommendations to reduce expenses.\n\nWhat is the most efficient solution to achieve this goal with minimal development effort?",
+      "options": [
+        "Use AWS Compute Optimizer to analyze the specifications and utilization metrics of your AWS compute resources",
+        "Use AWS Budgets to analyze the specifications and utilization metrics of your AWS resources",
+        "Use AWS Trusted Advisor to analyze the specifications and utilization metrics of your AWS resources",
+        "Use AWS Cost Explorer to analyze the specifications and utilization metrics of your AWS compute resources"
+      ],
+      "correct_answers": [
+        "Use AWS Compute Optimizer to analyze the specifications and utilization metrics of your AWS compute resources"
+      ],
+      "references": [
+        "https://aws.amazon.com/compute-optimizer/faqs/",
+        "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html",
+        "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-cost-explorer-rightsizing-recommendations-integrates-with-aws-compute-optimizer/",
+        "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A machine learning engineer is tasked with automating the registration, versioning, and deployment of models as part of a workflow using SageMaker Pipelines. The goal is to track model development, including data preprocessing, training runs, and version history. The engineer needs to ensure that the pipeline can log the necessary details for auditing and compliance.\nWhich SageMaker feature should the engineer use to track the history of the model’s development?\n\nModel Group\n\nExplicación\nModel Group organizes versions of models but does not track development history.\n\nApproval Status\n\nExplicación\nApproval Status controls deployment of models but does not track development history.",
+      "options": [
+        "Model Group",
+        "Approval Status",
+        "Model Lineage",
+        "Model Metrics"
+      ],
+      "correct_answers": [
+        "Model Lineage"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

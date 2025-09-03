@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Which statement is true regarding securing machine learning (ML) resources, according to the principle of least privilege?",
+      "options": [
+        "Users should be granted access to all ML resources, regardless of their roles and responsibilities. This ensures they have the necessary permissions to perform their tasks efficiently.",
+        "Users should be granted the minimum level of access required to perform their specific roles and responsibilities and no more.",
+        "Users should be granted access to ML resources based on their job titles, regardless of their actual roles and responsibilities.",
+        "All users should have administrative-level access to ML resources to ensure they can troubleshoot and resolve issues quickly."
+      ],
+      "correct_answers": [
+        "Users should be granted the minimum level of access required to perform their specific roles and responsibilities and no more."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

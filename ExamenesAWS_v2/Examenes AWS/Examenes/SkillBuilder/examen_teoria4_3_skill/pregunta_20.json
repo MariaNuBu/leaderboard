@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A machine learning engineer is working for a company that develops and deploys machine learning models using Amazon SageMaker. The engineer is responsible for ensuring that the models are secure and compliant with industry standards. Which Amazon SageMaker features should the engineer use to ensure the deployed models are secure and compliant with industry standards for data encryption and communication security? (Select TWO.)",
+      "options": [
+        "SageMaker Model Monitoring",
+        "SageMaker Automatic Model Tuning",
+        "SageMaker Encryption at Rest",
+        "SageMaker Clarify",
+        "SageMaker Encryption in Transit"
+      ],
+      "correct_answers": [
+        "SageMaker Encryption at Rest",
+        "SageMaker Encryption in Transit"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

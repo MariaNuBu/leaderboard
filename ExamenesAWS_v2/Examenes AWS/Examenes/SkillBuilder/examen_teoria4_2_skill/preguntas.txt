@@ -1,0 +1,194 @@
+What is the primary purpose of monitoring the throughput key performance indicator (KPI) for a machine learning (ML) infrastructure?
+Ensuring that the system can handle the expected workload  (Correct)
+Identifying underutilized resources for cost optimization
+Detecting and addressing model drift over time
+Maintaining high availability and reliability of the system
+
+
+What is the primary benefit of using Amazon SageMaker Model Monitor?
+Automating the re-training of your learning (ML) models
+Providing detailed cost analysis for machine learning (ML) infrastructure
+Continuously monitoring the quality of machine learning (ML) models in production  (Correct)
+Generating custom metrics and dashboards for machine learning (ML) workloads
+
+
+Which statement best describes the distinction between observability and monitoring?
+Monitoring focuses on analyzing data to detect issues with model accuracy and performance, and observability emphasizes measuring inference latency only.
+Monitoring collects data about models, and observability provides deeper insights into internal behaviors and gives tools for system optimization.  (Correct)
+Monitoring helps evaluate the precision, recall, and F1 scores of the model.
+All models need observability, but only machine learning (ML) models require monitoring
+
+
+What is the primary purpose of AWS CloudTrail?
+To monitor and log API calls made in your AWS account  (Correct)
+To manage and optimize AWS infrastructure costs
+To deploy and manage machine learning (ML) models
+To provide a user interface for AWS services
+
+
+What is one of the automated actions that can be invoked by EventBridge in response to events from Amazon SageMaker?
+Sending an email notification
+Updating a DNS record
+Launching an EC2 instance
+Invoking an AWS Lambda function  (Correct)
+
+
+What are the two types of recommendations provided by Amazon SageMaker Inference Recommender?
+Deployment recommendations and scaling recommendations
+Inference recommendations and endpoint recommendations  (Correct)
+CPU recommendations and GPU recommendations
+Performance recommendations and cost recommendations
+
+
+What is one of the key benefits of implementing a cost allocation model?
+Providing more granular analysis and decision-making  (Correct)
+Reducing the complexity of the machine learning (ML) pipeline
+Automating the collection of usage metrics
+Optimizing resource usage
+
+
+Which services or features can help optimize costs for AWS machine learning (ML) workloads by using spare EC2 instances at a discounted price?
+AWS Auto Scaling
+AWS Trusted Advisor
+Amazon EC2 Spot Instances  (Correct)
+AWS Cost Explorer
+
+
+Which scenario would benefit MOST from using provisioned concurrency?
+An application with highly variable and unpredictable traffic patterns.
+A real-time fraud detection system in a financial institution that requires low latency and high availability.  (Correct)
+A machine learning (ML) model that receives infrequent inference requests.
+A batch processing workload that processes large volumes of data at scheduled intervals.
+
+
+Which AWS service gives you the ability to set custom budgets and receive alerts when your actual or forecasted costs exceed defined thresholds?
+AWS Billing and Cost Management
+AWS Budgets  (Correct)
+AWS Cost Explorer
+AWS Trusted Advisor
+
+
+Which AWS service can help you forecast future costs for your machine learning (ML) workloads based on historical usage patterns?
+AWS Billing and Cost Management
+AWS Budgets
+AWS Cost Explorer  (Correct)
+AWS Trusted Advisor
+
+
+You are deploying an ML model that will be processing data batch tasks. The volume of data will be very large, but you will only be running the model for a short duration.
+Spot Instances  (Correct)
+On-Demand Instances
+Reserved Instances
+Capacity Blocks
+
+
+You are working for a large enterprise business that requires you to budget for the deployment of an ML model. You are instructed to give a predictable budget over a 3-year timespan. The model should always be available during that timeframe.
+Spot Instances
+On-Demand Instances
+Reserved Instances  (Correct)
+Capacity Blocks
+
+
+You are building a large-scale ML model for deep learning training. You are expected to grow over time, but looking for a scalable and pay-as-you-grow purchasing model.
+Spot Instances
+On-Demand Instances
+Reserved Instances
+Capacity Blocks  (Correct)
+
+
+What is the primary benefit of using provisioned concurrency with Amazon SageMaker Serverless Inference?
+Streamlines capacity planning by automatically adjusting the number of instances based on traffic patterns
+Eliminates the need to manage scaling policies and choose instance types
+Scales your instances down to zero when there are no requests, minimizing costs
+Reduces the cold start latency associated with on-demand instances  (Correct)
+
+
+What is a recommended way to analyze AWS CloudTrail logs?
+Exporting the logs to a local file
+Using Excel spreadsheets
+Integrating CloudTrail with Amazon CloudWatch  (Correct)
+Manually reviewing the logs in the AWS Console
+
+
+Which tool can help identify opportunities for cost optimization in your AWS environment based on usage patterns and recommendations?
+AWS Trusted Advisor
+Amazon EC2 Spot Fleets
+AWS Cost Explorer  (Correct)
+Amazon EC2 Spot Instances
+
+
+What is the purpose of the prospective instances feature in SageMaker Inference Recommender?
+Recommend the best auto scaling configuration for the deployed model.
+Provide a list of instances that should be avoided for deploying the model.
+Suggest potential improvements to the model architecture for better inference performance.
+Provide a list of the top five instance types optimized for cost, throughput, and latency, based on preliminary benchmarking.  (Correct)
+
+
+Which AWS service provides built-in monitoring capabilities for GPU utilization in your machine learning (ML) workloads?
+Amazon Trusted Advisor
+AWS Compute Optimizer
+AWS Cost Explorer
+Amazon SageMaker  (Correct)
+
+
+What is the primary challenge in cost tracking and allocation for machine learning (ML) infrastructure?
+Complexity of the pipeline  (Correct)
+Insufficient data capture mechanisms
+Lack of visibility into the overall pipeline
+Inherent simplicity of the pipeline
+
+
+What is the primary purpose of Capacity Blocks for machine learning (ML)?
+Reserve GPU instances for short-duration machine learning workloads on a future date.  (Correct)
+Provide access to CPU instances for long-term machine learning workloads.
+Offer a cost-effective solution for continuous GPU usage over an extended period.
+Enable low-latency networking for general-purpose EC2 instances.
+
+
+What is the purpose of Amazon SageMaker Inference Recommender?
+To train machine learning models more efficiently
+To develop new machine learning algorithms
+To optimize the performance and cost of deploying machine learning models for inference  (Correct)
+To visualize and interpret machine learning models
+
+
+Which AWS tool provides real-time identification of potential areas for optimization?
+AWS Budgets
+Amazon CloudWatch
+AWS Cost Explorer
+AWS Trusted Advisor  (Correct)
+
+
+Which feature in Amazon QuickSight can help identify unusual patterns or deviations in your data to monitor performance and latency?
+Autonarratives
+Data visualization
+Anomaly detection  (Correct)
+Forecasting
+
+
+What is a key feature of Amazon CloudWatch Logs for machine learning (ML) infrastructure monitoring?
+The capability to integrate CloudWatch Logs with your custom machine learning pipelines
+The Patterns tab on the Logs Insights page to find recurring patterns in your query results  (Correct)
+The option to store your log files in an Amazon S3 bucket for long-term retention
+The ability to automatically scale your EC2 instances based on log anomalies
+
+
+Which AWS tool provides granular raw data files detailing your hourly AWS usage across accounts for Do-It-Yourself (DIY) analysis?
+Amazon CloudWatch
+AWS Budgets
+AWS Cost Explorer
+AWS Cost and Usage Report  (Correct)
+
+
+What are the main reasons for monitoring your ML infrastructure?
+Tracking the number of users accessing ML endpoints
+Reducing model drift
+Optimizing and decreasing infrastructure costs  (Correct)
+To ensure model compliance with regulators
+
+
+What is the purpose of the Amazon SageMaker Inference Recommender?
+Provide insights into the performance and latency of a machine learning system.
+Connect application data from various sources, including AWS services, for near real-time monitoring and alerting.
+Enable interactive data visualization and analysis of a machine learning system.
+Automatically test and recommend the optimal instance type and configuration for deploying machine learning models in production.  (Correct)

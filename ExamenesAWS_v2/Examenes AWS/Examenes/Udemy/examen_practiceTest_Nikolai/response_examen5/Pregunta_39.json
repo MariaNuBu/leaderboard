@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A machine learning engineer is conducting multiple model training sessions in SageMaker using different sets of hyperparameters and algorithms to find the best configuration for their model. They want to keep track of every trial and ensure the reproducibility of their experiments. Which AWS service feature would help them organize and compare these configurations effectively?",
+      "options": [
+        "SageMaker Ground Truth",
+        "SageMaker Autopilot",
+        "SageMaker Experiments",
+        "Amazon EC2 Spot Instances"
+      ],
+      "correct_answers": [
+        "SageMaker Experiments"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

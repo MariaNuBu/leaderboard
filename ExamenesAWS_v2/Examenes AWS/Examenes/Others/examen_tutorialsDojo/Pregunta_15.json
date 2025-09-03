@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA company is developing a machine learning (ML) platform for sentiment analysis of news articles. The platform needs storage to process large volumes of text data. The ML platform must handle concurrent access from multiple EC2 instances for data preprocessing, model training, and inference.\n\nWhich of the following options will meet the requirements in this scenario?\n\nAmazon EFS\nAmazon EBS\nAWS Storage Gateway\nAWS DataSync",
+      "options": [
+        "Amazon EFS",
+        "Amazon EBS",
+        "AWS Storage Gateway",
+        "AWS DataSync"
+      ],
+      "correct_answers": [
+        "Amazon EFS"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+        "https://aws.amazon.com/efs/faq/",
+        "https://docs.aws.amazon.com/efs/latest/ug/mount-multiple-ec2-instances.html#:~:text=You%20can%20mount%20EFS%20file,AWS%20Systems%20Manager%20User%20Guide."
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

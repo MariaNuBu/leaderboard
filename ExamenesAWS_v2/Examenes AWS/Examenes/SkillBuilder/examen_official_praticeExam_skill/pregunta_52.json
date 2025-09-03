@@ -1,0 +1,17 @@
+{
+  "id": 52,
+  "question": "A company uses Amazon SageMaker AI for its ML process. A compliance audit discovers that an Amazon S3 bucket for training data uses server-side encryption with S3 managed keys (SSE-S3).\n\nThe company requires customer managed keys. An ML engineer changes the S3 bucket to use server-side encryption with AWS KMS keys (SSE-KMS). The ML engineer makes no other configuration changes.\n\nAfter the change to the encryption settings, SageMaker AI training jobs start to fail with AccessDenied errors.\n\nWhat should the ML engineer do to resolve this problem?",
+  "options": [
+    "Update the IAM policy that is attached to the execution role for the training jobs. Include the s3:ListBucket and s3:GetObject permissions.",
+    "Update the S3 bucket policy that is attached to the S3 bucket. Set the value of the aws:SecureTransport condition key to True.",
+    "Update the IAM policy that is attached to the execution role for the training jobs. Include the kms:Encrypt and kms:Decrypt permissions.",
+    "Update the IAM policy that is attached to the user that created the training jobs. Include the kms:CreateGrant permission."
+  ],
+  "correct_answers": [
+    "Update the IAM policy that is attached to the execution role for the training jobs. Include the kms:Encrypt and kms:Decrypt permissions."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

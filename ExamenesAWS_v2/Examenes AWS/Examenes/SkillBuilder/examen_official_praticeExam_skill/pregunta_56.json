@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A company wants to migrate an ML application to the AWS Cloud. The application predicts employee turnover. The company wants to continue using its current code implementation that is based on Apache Spark.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Run the code in an Amazon EMR cluster.",
+        "Run the code in an AWS Glue interactive session.",
+        "Run the code in Amazon SageMaker Data Wrangler.",
+        "Run the code in an Amazon SageMaker Spark Processing job."
+      ],
+      "correct_answers": [
+        "Run the code in an AWS Glue interactive session."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

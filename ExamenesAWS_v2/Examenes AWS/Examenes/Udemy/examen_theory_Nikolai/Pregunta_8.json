@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "What is the primary difference between AWS Shield Standard and AWS Shield Advanced?",
+      "options": [
+        "Shield Advanced only protects Amazon S3 buckets.",
+        "Shield Standard is a paid service, while Shield Advanced is free.",
+        "Shield Standard provides protection against all types of DDoS attacks, while Shield Advanced does not.",
+        "Shield Advanced offers enhanced protection and additional features such as detailed attack diagnostics and cost protection."
+      ],
+      "correct_answers": [
+        "Shield Advanced offers enhanced protection and additional features such as detailed attack diagnostics and cost protection."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

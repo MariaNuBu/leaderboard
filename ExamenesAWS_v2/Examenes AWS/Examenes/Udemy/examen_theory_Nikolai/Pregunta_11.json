@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A machine learning specialist is using Amazon Bedrock to build a generative AI model.\nThey need to ensure that data used in prompts and model responses are encrypted and stay within the same AWS region.\nWhich two features of Amazon Bedrock help meet these security requirements? (Choose Two.)",
+      "options": [
+        "Serverless environment for model deployment",
+        "Use of Amazon S3 for large dataset storage",
+        "AWS Identity and Access Management (IAM)",
+        "Data encryption in transit and at rest",
+        "Integration with Amazon SageMaker"
+      ],
+      "correct_answers": [
+        "AWS Identity and Access Management (IAM)",
+        "Data encryption in transit and at rest"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A company uses AWS Glue to automate their ETL processes for data stored in various formats.\nThey are planning to optimize the performance of their Glue ETL jobs which currently handle large volumes of Parquet files.\nWhat would be the most cost-effective way to optimize these jobs without compromising on performance?",
+      "options": [
+        "Manually trigger ETL jobs instead of scheduling them to control when resources are utilized.",
+        "Increase the number of DPUs in each ETL job to process data faster.",
+        "Implement job bookmarking to track data processed between job runs and reduce data redundancy.",
+        "Convert all Parquet files into CSV format to simplify processing."
+      ],
+      "correct_answers": [
+        "Implement job bookmarking to track data processed between job runs and reduce data redundancy."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

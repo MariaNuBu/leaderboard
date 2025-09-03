@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "TOPIC: 1.3 Ensure data integrity and prepare data for modeling.\n\nA global automotive company is managing a fleet of hundreds of thousands of vehicles. For each new vehicle, the company receives a scan of the vehicle registration information card. The company uses Amazon Textract to extract the text from the scans. An ML engineer must redact the vehicle identification number (VIN) from the extracted text before being used for modeling.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A\nUse Amazon Comprehend to run an asynchronous job to redact personally identifiable information (PII) entities. Set the redaction configuration to redact VINs from the text.",
+        "B\nUse AWS Lambda to implement application code with a regular expression to detect the VIN in the text. Replace the VIN characters in the text with masking characters.",
+        "C\nUse Amazon SageMaker JumpStart to deploy an ML model that can detect the VIN. Replace the VIN characters in the text with masking characters.",
+        "D\nUse Amazon Textract and the AnalyzeDocument operation to the detect the VIN. Replace the VIN characters in the text with masking characters."
+      ],
+      "correct_answers": [
+        "A\nUse Amazon Comprehend to run an asynchronous job to redact personally identifiable information (PII) entities. Set the redaction configuration to redact VINs from the text."
+      ],
+      "references": [],
+      "topic": "TOPIC: 1.3 Ensure data integrity and prepare data for modeling.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

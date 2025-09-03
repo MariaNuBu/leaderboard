@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "You are working on a machine learning (ML) application that responds to requests for inference that often require processing large volumes of data. The processing time for each request can vary significantly, sometimes close to an hour.\n\nWhich inference strategy would you choose?",
+      "options": [
+        "Serverless inference",
+        "Real-time inference",
+        "Batch transform job",
+        "Asynchronous inference"
+      ],
+      "correct_answers": [
+        "Asynchronous inference"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

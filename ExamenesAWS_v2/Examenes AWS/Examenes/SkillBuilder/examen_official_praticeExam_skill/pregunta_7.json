@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "An ML engineer has deployed a sentiment analysis ML model on an Amazon SageMaker AI endpoint that is supported by Amazon EC2 instances. The model will go into production in 1 week. The ML engineer must implement a solution to accommodate large increases and decreases in user traffic.\n\nWhich solution will accommodate the changes in traffic MOST cost-effectively?",
+      "options": [
+        "Configure the EC2 instances to have more GPU compute capabilities.",
+        "Increase the number of EC2 instances to meet the expected peak demand.",
+        "Configure a target tracking scaling policy based on a metric in Amazon CloudWatch.",
+        "Deploy an Application Load Balancer (ALB). Register the endpoint as a target for the ALB."
+      ],
+      "correct_answers": [
+        "Configure a target tracking scaling policy based on a metric in Amazon CloudWatch."
+      ],
+      "references": [],
+      "topic": "Endpoint Autoscaling",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "TOPIC: 1.2 Transform data and perform feature engineering.\n\nAn ML engineer must reuse features across different ML applications for training and low-latency inference. The ML engineer must ensure that the features can be shared with multiple team members in different accounts.\n\nWhich solution will meet these requirements with the LEAST operational effort?",
+      "options": [
+        "A\nUse Amazon S3 for shared storage of features for reuse. Use IAM policies to control access across different accounts.",
+        "B\nUse Amazon DynamoDB to store features for reuse. Use IAM policies to control access across different accounts.",
+        "C\nUse Amazon Elastic Container Registry (Amazon ECR) to containerize the feature extraction and storage of features for reuse. Share the containers across different accounts. Use IAM policies or repository policies for access control.",
+        "D\nUse Amazon SageMaker Feature Store to store features for reuse and to provide access for team members across different accounts."
+      ],
+      "correct_answers": [
+        "D\nUse Amazon SageMaker Feature Store to store features for reuse and to provide access for team members across different accounts."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

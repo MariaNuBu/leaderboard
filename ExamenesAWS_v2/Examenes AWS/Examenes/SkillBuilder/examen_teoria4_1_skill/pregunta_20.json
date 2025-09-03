@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A development team is tasked with setting up feature attribution drift monitoring for a speech recognition model deployed on Amazon SageMaker. The model takes audio signals as input and transcribes them into text.  Which statement accurately describes how SageMaker Clarify's feature attribution monitoring can help in this scenario?",
+      "options": [
+        "It can identify the specific audio features or acoustic properties that contribute the most to the model's transcription accuracy, facilitating improvements in those areas.",
+        "It can automatically adjust the model's parameters or retrain it with new data when feature attribution drift is detected, ensuring the transcription accuracy remains high.",
+        "It can detect changes in distribution of audio frequencies or signal-to-noise ratios in the input data, alerting you to potential issues with the data quality.",
+        "It can compare the model's transcriptions to ground truth transcripts and quantify the contribution of each word or phrase to the overall accuracy."
+      ],
+      "correct_answers": [
+        "It can identify the specific audio features or acoustic properties that contribute the most to the model's transcription accuracy, facilitating improvements in those areas."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

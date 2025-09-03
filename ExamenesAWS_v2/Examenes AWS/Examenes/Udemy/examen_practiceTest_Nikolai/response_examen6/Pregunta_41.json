@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "A company needs to ensure that its machine learning models are ethically developed by reducing bias and detecting potential vulnerabilities in the output. How can Amazon SageMaker Ground Truth help in this process?",
+      "options": [
+        "By leveraging Ground Truth’s human-in-the-loop feedback mechanism to review and correct model outputs for bias and vulnerabilities.",
+        "By using Ground Truth's fully automated labeling system to eliminate all bias from the training data.",
+        "By exclusively relying on third-party vendors to detect bias and vulnerabilities in model outputs.",
+        "By using Ground Truth only for labeling data, leaving bias detection to other AWS services like SageMaker Clarify."
+      ],
+      "correct_answers": [
+        "By leveraging Ground Truth’s human-in-the-loop feedback mechanism to review and correct model outputs for bias and vulnerabilities."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

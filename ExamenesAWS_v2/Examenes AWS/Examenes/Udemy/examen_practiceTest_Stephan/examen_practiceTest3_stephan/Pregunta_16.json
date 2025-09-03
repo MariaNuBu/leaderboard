@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A company operates an Amazon SageMaker training job in a public subnet within an Amazon VPC. The network is properly configured, allowing seamless data transfer between the SageMaker training job and Amazon S3. Recently, the company identified malicious traffic originating from a specific IP address, targeting the resources within the VPC. The company needs to block all traffic from the suspicious IP address while ensuring legitimate traffic remains unaffected.\n\nWhich of the following would you recommend to address this requirement?",
+      "options": [
+        "Enable AWS WAF (Web Application Firewall) for the SageMaker domain and create a rule to block traffic from the specific IP address",
+        "Create a network ACL (NACL) for the subnet hosting the SageMaker training job and add a deny rule to block traffic from the specific IP address",
+        "Update the security group associated with the SageMaker training job to include a deny rule for traffic from the specific IP address",
+        "Modify the VPC route table to direct all traffic from the specific IP address to a target with a blackhole routing state"
+      ],
+      "correct_answers": [
+        "Create a network ACL (NACL) for the subnet hosting the SageMaker training job and add a deny rule to block traffic from the specific IP address"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html",
+        "https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_Route.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

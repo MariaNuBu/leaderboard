@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "You are a data scientist working on a project that involves training a machine learning (ML) model to forecast customer demand. You and other members of your team need to re-train the model in Amazon SageMaker frequently as new data becomes available. Which method should you use to manage and track model versions?",
+      "options": [
+        "Manage this model using local storage and share the model as needed.",
+        "Manage this model using Amazon SageMaker Model Registry in a Collection.",
+        "Manage this model using Amazon SageMaker Model Registry in a Model Group.",
+        "Manage this model using Amazon S3."
+      ],
+      "correct_answers": [
+        "Manage this model using Amazon SageMaker Model Registry in a Model Group."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

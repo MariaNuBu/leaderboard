@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A manufacturing organization is looking to build a machine learning lifecycle to predict the maintenance of factory machinery. This solution should help to increase quality control and optimize logistic efficiency by reducing downtime. The organization plans to store a large amount of data from which they will build a machine learning cluster for model training and inference. The organization would like to iterate over time on different versions of the model. This will require a storage requirement for various models with varying frequencies of use. What is NOT an appropriate storage solution for one of the machine learning lifecycle phases?",
+      "options": [
+        "Use Amazon S3 for data collection, ingestion, and pre-processing for scalable and cost-effective large-scale storage.",
+        "Use Amazon Elastic Block Store (Amazon EBS) for model training. Using low-latency access and high IOPS performance storage using io2 EBS volumes for model training.",
+        "Use Amazon FSx for Windows File Server to host the inference phase. Use Amazon FSx lifecycle policies to offload model copies and archival data.",
+        "Use Amazon Elastic File System (Amazon EFS) for model training. Concurrent access to a shared training data reduces the need for data replication."
+      ],
+      "correct_answers": [
+        "Use Amazon Elastic Block Store (Amazon EBS) for model training. Using low-latency access and high IOPS performance storage using io2 EBS volumes for model training."
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

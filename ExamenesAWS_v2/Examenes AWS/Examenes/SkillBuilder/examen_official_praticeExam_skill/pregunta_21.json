@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "An ML engineer notices class imbalance in an image classification training job.\n\nWhat should the ML engineer do to resolve this issue?",
+      "options": [
+        "Reduce the size of the dataset.",
+        "Transform some of the images in the dataset.",
+        "Apply random oversampling on the dataset.",
+        "Apply random data splitting on the dataset."
+      ],
+      "correct_answers": [
+        "Apply random oversampling on the dataset."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "PREGUNTA 37\n\nTOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.\n\nAn online retail company is using an Amazon SageMaker endpoint to deliver product recommendations to customers directly in a web application. An ML specialist needs to ensure that the ML model remains available during seasonal sale events. The ML model must be able to accommodate the expected increase in endpoint invocations.\n\nWhich solution provides the HIGHEST scalability capabilities to meet these requirements?",
+      "options": [
+        "A\nIncrease the SageMaker instance size that hosts the ML model endpoint.",
+        "B\nConfigure the ML model endpoint in SageMaker JumpStart.",
+        "C\nConfigure auto scaling on the SageMaker ML model endpoint.",
+        "D\nUse SageMaker Neo to optimize the ML model endpoint for inference."
+      ],
+      "correct_answers": [
+        "C\nConfigure auto scaling on the SageMaker ML model endpoint."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

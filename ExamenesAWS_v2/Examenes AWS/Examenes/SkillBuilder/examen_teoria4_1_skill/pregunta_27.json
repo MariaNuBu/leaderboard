@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A healthcare company has developed a machine learning model to predict patient re-admission risk based on electronic medical records. The model is currently deployed and receiving data from multiple hospitals.  \nWhich statement best describes how Amazon SageMaker Model Monitor works at a high level",
+      "options": [
+        "SageMaker Model Monitor performs real-time code analysis on the deployed model to identify and fix any technical errors or bugs.",
+        "SageMaker Model Monitor automatically updates the model's hyperparameters and architecture based on the incoming data to improve its performance.",
+        "SageMaker Model Monitor compares the incoming data to a baseline dataset used for training the model, checks for data quality issues, and generates reports on any violations or deviations detected.",
+        "SageMaker Model Monitor continuously retrains the model using the incoming data to ensure it remains up-to-date and accurate."
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor compares the incoming data to a baseline dataset used for training the model, checks for data quality issues, and generates reports on any violations or deviations detected."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "Which of the following is a key benefit of using Amazon SageMaker Debugger?",
+      "options": [
+        "Improved model performance",
+        "Reduced training time",
+        "Automatic model deployment",
+        "Increased computational resources"
+      ],
+      "correct_answers": [
+        "Improved model performance"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 68,
+      "question": "A media company uses AWS to ingest and process live streaming data from various global events. They need to analyze and respond to the incoming data in real-time. The solution must be capable of scaling automatically to handle varying loads and integrate efficiently with AWS Lambda for real-time processing.\nWhich configuration would BEST meet these requirements?",
+      "options": [
+        "Set up Kinesis Data Streams with enhanced fan-out and subscribe multiple consumer applications directly.",
+        "Use Kinesis Data Streams with a custom AWS Lambda function for data processing.",
+        "Implement Managed Apache Flink in Kinesis Data Analytics for complex real-time analytics.",
+        "Deploy Kinesis Data Firehose for direct integration with Amazon Redshift for analytics."
+      ],
+      "correct_answers": [
+        "Use Kinesis Data Streams with a custom AWS Lambda function for data processing."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

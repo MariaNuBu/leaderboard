@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "You are tasked with setting up a highly secure SageMaker environment for training a sensitive dataset. What combination of practices would you implement?",
+      "options": [
+        "Use public subnets and disable encryption.",
+        "Store credentials in environment variables and use public IP addresses.",
+        "Use a single IAM role with AdministratorAccess and disable logging.",
+        "Enable network isolation, use KMS encryption, and assign least-privilege IAM roles."
+      ],
+      "correct_answers": [
+        "Enable network isolation, use KMS encryption, and assign least-privilege IAM roles."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

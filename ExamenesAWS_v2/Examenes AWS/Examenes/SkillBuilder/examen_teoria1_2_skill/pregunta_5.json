@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An automobile company wants to use a machine learning solution to determine how quickly their various sizes of vehicles reach their highest speeds. The vehicle sizes are compact, mid-size, and full-size.\n\nWhich type of categorical data BEST describes the feature of their dataset that lists the size of the vehicle?",
+      "options": [
+        "Numerical",
+        "Nominal",
+        "Ordinal",
+        "Binary"
+      ],
+      "correct_answers": [
+        "Ordinal"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

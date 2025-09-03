@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "An ML engineer is working on a project to develop and deploy a recommendation engine model for an ecommerce website. Their team follows DevOps principles and they have implemented a CI/CD pipeline for the model development and deployment process. Which option best represents the correct order of stages in the CI/CD pipeline for this project?",
+      "options": [
+        "Source -> Build -> Test -> Production",
+        "Build -> Source -> Test -> Production",
+        "Source -> Build -> Production -> Test",
+        "Source -> Test -> Build -> Production"
+      ],
+      "correct_answers": [
+        "Source -> Build -> Test -> Production"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

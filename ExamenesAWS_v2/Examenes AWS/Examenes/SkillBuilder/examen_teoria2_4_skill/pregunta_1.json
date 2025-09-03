@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which scenario would more likely result in the best model performance but at the highest cost and longest training time?",
+      "options": [
+        "Using a simple model architecture with fewer parameters and training on a small subset of the dataset on a low-cost Amazon EC2 instance.",
+        "Employing a deep neural network architecture with a large number of parameters and training on the entire dataset using multiple high-performance GPU instances.",
+        "Using a moderately complex model architecture with a moderate number of parameters and training on a representative subset of the dataset on a mid-range Amazon EC2 instance.",
+        "Adopting a transfer learning approach by fine-tuning a pre-trained model on a small portion of the dataset using a single CPU instance."
+      ],
+      "correct_answers": [
+        "Employing a deep neural network architecture with a large number of parameters and training on the entire dataset using multiple high-performance GPU instances."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

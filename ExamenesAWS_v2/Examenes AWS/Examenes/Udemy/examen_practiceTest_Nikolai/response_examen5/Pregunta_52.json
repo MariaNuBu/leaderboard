@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 52,
+      "question": "Which of the following scenarios best describes the use of supervised learning?\n\nA financial institution segments its customers based on spending patterns without predefined categories.\n\nExplicación\nThis describes unsupervised learning (clustering) where customer segments are formed without predefined categories or labels.",
+      "options": [
+        "A financial institution segments its customers based on spending patterns without predefined categories.",
+        "A company develops a predictive model to classify emails as either spam or not spam using historical labeled data.",
+        "A retail business uses machine learning to automatically group products based on their similarity without providing labeled data.",
+        "A gaming company implements a system where an AI learns to improve its strategy by playing games and receiving feedback from wins and losses."
+      ],
+      "correct_answers": [
+        "A company develops a predictive model to classify emails as either spam or not spam using historical labeled data."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

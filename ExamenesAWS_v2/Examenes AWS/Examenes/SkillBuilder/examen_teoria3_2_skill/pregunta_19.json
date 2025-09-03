@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "An MLOps engineer needs to deploy an Amazon EC2 instance using the AWS Cloud Development Kit (AWS CDK). They need to explicitly configure all of the properties available in AWS CloudFormation. Which type of AWS CDK construct should you use?",
+      "options": [
+        "L2 construct",
+        "You cannot access CloudFormation properties in AWS CDK.",
+        "L3 construct/patterns",
+        "L1 construct"
+      ],
+      "correct_answers": [
+        "L1 construct"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

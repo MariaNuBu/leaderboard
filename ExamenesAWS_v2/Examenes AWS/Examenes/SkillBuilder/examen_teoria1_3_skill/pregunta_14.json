@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "An appliance company has a dataset that contains information about customer purchases, including product details, purchase date, and order value. You want to use an AWS service to validate your data's integrity.Which AWS services can you use to validate data integrity? SELECT TWO.",
+      "options": [
+        "Amazon Simple Storage Service (Amazon S3)",
+        "AWS Glue Data Quality",
+        "AWS Glue DataBrew",
+        "Amazon Elastic Compute Cloud (EC2)",
+        "Amazon Elastic File System (EFS)"
+      ],
+      "correct_answers": [
+        "AWS Glue Data Quality",
+        "AWS Glue DataBrew"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "Your company has a significant amount of data stored in an Amazon DynamoDB database. As part of a new machine learning project, you need to access this data from an Amazon SageMaker notebook for analysis and model development. The goal is to ensure that the data is efficiently accessible from the notebook while maintaining performance and minimizing potential delays.\n\nUse Sagemaker Data Wrangler to directly import data from Amazon DynamoDb database to Sagemaker notebook",
+      "options": [
+        "Use Sagemaker Data Wrangler to directly import data from Amazon DynamoDb database to Sagemaker notebook",
+        "Use the AWS SDK for Python (Boto3) to query DynamoDB directly from the SageMaker notebook",
+        "Export your DynamoDB table into a .csv file and upload this file to the S3 bucket. Configure Sagemaker notebook to connect to S3 bucket for accessing the data",
+        "Use AWS Glue to transfer your table from DynamoDB to S3 bucket. Configure Sagemaker notebook to connect to S3 bucket for accessing the data"
+      ],
+      "correct_answers": [
+        "Use the AWS SDK for Python (Boto3) to query DynamoDB directly from the SageMaker notebook"
+      ],
+      "references": [
+        "https://repost.aws/questions/QUowJvrZpiRjOS5v0OhDkEXQ/accessing-dynamodb-data-from-sagemaker",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-import.html",
+        "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

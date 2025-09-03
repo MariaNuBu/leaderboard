@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A machine learning engineer is deploying an application that uses Amazon SageMaker for model training and inference. Who is responsible for securing the training data stored in Amazon Simple Storage Service (Amazon S3), according to the shared responsibility model?",
+      "options": [
+        "The responsibility for securing the training data in Amazon S3 depends on the specific use case and configuration.",
+        "AWS is solely responsible for securing the training data stored in Amazon S3.",
+        "The machine learning engineer is solely responsible for securing the training data stored in Amazon S3.",
+        "Both AWS and the machine learning engineer share responsibility for securing the training data stored in Amazon S3"
+      ],
+      "correct_answers": [
+        "Both AWS and the machine learning engineer share responsibility for securing the training data stored in Amazon S3"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

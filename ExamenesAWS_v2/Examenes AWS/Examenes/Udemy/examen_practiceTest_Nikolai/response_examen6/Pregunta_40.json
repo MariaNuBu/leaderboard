@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "A legal firm wants to build an intelligent document retrieval system where users can search for case files using natural language queries. The system should be able to extract key legal terms like case names, judges, and dates from the documents, and allow users to find relevant cases based on specific legal topics. The documents are stored in various formats, including PDFs and Word documents.\n\nWhich combination of AWS services would BEST suit this use case?",
+      "options": [
+        "Amazon Comprehend for both text extraction and entity recognition, Amazon S3 for storing the documents, and Amazon Elasticsearch for search functionality.",
+        "Amazon Textract for extracting text, Amazon Rekognition for facial recognition in legal documents, and Amazon Kendra for providing search functionality.",
+        "Amazon Textract for text extraction, Amazon Comprehend for identifying legal entities, and Amazon Kendra for creating a natural language search interface.",
+        "Amazon Rekognition for identifying objects in the legal documents, Amazon Kendra for search, and Amazon Lex for creating a conversational interface."
+      ],
+      "correct_answers": [
+        "Amazon Textract for text extraction, Amazon Comprehend for identifying legal entities, and Amazon Kendra for creating a natural language search interface."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

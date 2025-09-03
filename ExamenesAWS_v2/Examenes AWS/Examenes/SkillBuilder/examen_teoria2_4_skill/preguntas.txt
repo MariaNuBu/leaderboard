@@ -1,0 +1,319 @@
+Which scenario would more likely result in the best model performance but at the highest cost and longest training time?
+
+Using a simple model architecture with fewer parameters and training on a small subset of the dataset on a low-cost Amazon EC2 instance.
+
+Employing a deep neural network architecture with a large number of parameters and training on the entire dataset using multiple high-performance GPU instances. (Correct)
+
+Using a moderately complex model architecture with a moderate number of parameters and training on a representative subset of the dataset on a mid-range Amazon EC2 instance.
+
+Adopting a transfer learning approach by fine-tuning a pre-trained model on a small portion of the dataset using a single CPU instance.
+
+---
+
+For the case study income eligibility model, the business goals need a quality model that balances minimizing both false positive (FP) and false negative (FN). Which metrics would best be used to evaluate these models?
+
+MSE
+
+Accuracy
+
+Recall
+
+F1 score (Correct)
+
+---
+
+Nikki, a machine learning engineer, is evaluating a classification model for a business problem where it is critical to identify all positive cases correctly, even if it means having a higher number of false positives (FPs)?
+
+Which metric would be best for this example?
+
+Accuracy
+
+Precision
+
+Recall (Correct)
+
+F1 score
+
+---
+
+Martha, a machine learning engineer, is building a binary classification model to predict whether an email is spam or not spam. Which evaluation metric would be most appropriate to use if falsely classifying a non-spam email as spam is highly undesirable?
+
+Accuracy
+
+Precision (Correct)
+
+Recall
+
+F1 score
+
+---
+
+Which of the following is a key benefit of using Amazon SageMaker Debugger?
+
+Improved model performance (Correct)
+
+Reduced training time
+
+Automatic model deployment
+
+Increased computational resources
+
+---
+
+Which of the following SageMaker Clarify metrics would be most useful for identifying potential biases in the model's predictions?
+
+Class imbalance
+
+Facet imbalance
+
+Differential prediction bias (Correct)
+
+Feature attribution
+
+---
+
+A machine learning engineer is using SageMaker Clarify to evaluate the fairness and explainability of a machine learning model used for loan approval decisions.
+
+Which of the following metrics would they use to understand the contribution of each input feature, (income, credit score, employment status) to the model's predictions?
+
+Differential Validity 
+
+SHAP (SHapley Additive exPlanations) (Correct)
+
+Partial Dependence Plots (PDPs)
+
+Class Imbalance
+
+---
+
+A newly trained machine learning engineer is working on a project that involves extensive experimentation with different algorithms, hyperparameters, and data configurations. Alex wants to ensure that the experimentation process is organized, reproducible, and scalable.
+
+Which of the following AWS services would be most suitable to streamline the machine learning experimentation workflow?
+
+AWS Lambda
+
+Amazon SageMaker Experiments (Correct)
+
+Amazon S3
+
+Amazon EC2
+
+---
+
+A data scientist is tasked with creating a performance baseline for a machine learning model. Which of the following approaches should the data scientist take?
+
+Train the model on the entire dataset and use the same data to evaluate the model's performance.
+
+Train multiple complex models on the entire dataset, and use the average of their performances as the baseline.
+
+Start with a simple model, such as linear regression, and evaluate its performance on a held-out test dataset to establish the baseline. (Correct)
+
+Split the dataset randomly into training and test sets and use the test set to establish the baseline performance.
+
+---
+
+A data scientist is using Amazon SageMaker Automatic Model Tuning to optimize the hyperparameters of a machine learning model. Which technique can help prevent convergence issues during the tuning process?
+
+Increase the batch size to improve computational efficiency.
+
+Increase the learning rate to allow the model to explore a wider range of parameter values.
+
+Reduce the number of epochs to limit the amount of training time.
+
+Use early stopping to terminate training when the validation loss stops improving. (Correct)
+
+---
+
+Which step should an ML engineer take using Amazon SageMaker Clarify to evaluate a binary classification model for explainability?
+
+Use the SageMaker Clarify model explainability feature to identify the most influential features for the model's predictions. (Correct)
+
+Retrain the model using SageMaker Clarify to remove any potential bias.
+
+Use the SageMaker Clarify bias detection feature to analyze the model's inputs, outputs, and metadata against known protected variables. 
+
+Use SageMaker Clarify to automatically fix any detected bias in the model. 
+
+---
+
+When training a recurrent neural network (RNN), exploding gradients cause convergence issues. Which Amazon SageMaker feature can help address this issue?
+
+Amazon SageMaker Model Monitor
+
+Amazon SageMaker Clarify
+
+Amazon SageMaker Ground Truth 
+
+Amazon SageMaker Training Compiler (Correct)
+
+---
+
+A data scientist has used Amazon SageMaker Clarify to interpret the outputs of their machine learning model, and they need to understand how different input features contribute to the model's predictions. Which of the following techniques provided by SageMaker Clarify can help them achieve this?
+
+SHAP (SHapley Additive exPlanations) values (Correct)
+
+Mean Squared Error (MSE) 
+
+Bias metric computation
+
+Confusion matrix 
+
+---
+
+A machine learning engineer is working on a regression problem to predict house prices based on various features such as square footage, number of bedrooms, and location. Which evaluation metric is MOST appropriate to assess the performance of the regression model?
+
+Mean squared error (MSE) (Correct)
+
+R-squared
+
+F1-score 
+
+Confusion matrix
+
+---
+
+A machine learning engineer is working on a credit risk prediction model. After training the model on Amazon SageMaker, they need to evaluate it for potential biases and ensure it complies with regulatory requirements. Which SageMaker capability should the engineer use for this purpose?
+
+Amazon SageMaker Clarify (Correct)
+
+Amazon SageMaker Model Monitor
+
+Amazon SageMaker Ground Truth
+
+Amazon SageMaker Debugger
+
+---
+
+As a machine learning associate, which of the following statements accurately describe the benefits of using Amazon SageMaker Experiments? (Select TWO.)
+
+SageMaker Experiments automatically deploys your best-performing model to production, eliminating the need for manual deployment.
+
+SageMaker Experiments is only compatible with machine learning frameworks developed by AWS, and cannot be used with third-party libraries or languages.
+
+SageMaker Experiments allows you to organize, view, analyze, and compare iterative machine learning experiments, making it easier to manage and gain insights from your experimentation workflow. (Correct)
+
+SageMaker Experiments automatically tracks the inputs, parameters, configurations, and results of your machine learning experiments, enabling reproducibility and auditing. (Correct)
+
+SageMaker Experiments automatically selects the best hyperparameters for your machine learning model, eliminating the need for manual tuning. 
+
+---
+
+A machine learning engineer is working on a computer vision project for animal classification. During the training process, the engineer notices that the model's accuracy is not improving despite increasing the number of training epochs. Which of the following actions would be most appropriate for the engineer to identify and resolve the issue?
+
+Retrain the model from scratch with a different deep learning framework.
+
+Deploy the model to production and monitor its performance using Amazon SageMaker Model Monitor.
+
+Use Amazon SageMaker Debugger to analyze the model's behavior and identify potential issues such as overfitting, data quality problems, or vanishing gradients. (Correct)
+
+Increase the model's complexity by adding more layers or increasing the number of parameters.
+
+---
+
+A machine learning engineer is training a deep learning model using Amazon SageMaker. What causes the loss function to stop decreasing after a certain number of epochs when training a deep learning model using SageMaker? 
+
+The model has reached a local minima, and further training will not improve the performance. (Correct)
+
+The learning rate is too high, causing the model to overshoot the optimal solution.
+
+The training data is imbalanced, causing the model to overfit to the majority class.
+
+The model architecture is too complex, causing the model to overfit to the training data.
+
+---
+
+In a multiclass classification model such as classifying movies into a genre, which of the following metrics would be MOST appropriate to evaluate the performance of the trained model?
+
+Mean squared error (MSE)
+
+R-squared 
+
+F1-score (Correct)
+
+Confusion matrix
+
+---
+
+An ML engineer is working on a credit risk prediction model. The model has been trained and deployed using Amazon SageMaker. To ensure fairness and transparency, the engineer wants to interpret the model's outputs and understand its behavior. Which AWS service or feature should you use to achieve this goal?
+
+Amazon SageMaker Model Monitor
+
+Amazon SageMaker Debugger
+
+Amazon SageMaker Ground Truth 
+
+Amazon SageMaker Clarify (Correct)
+
+---
+
+A user has trained a machine learning model using Amazon SageMaker and wants to evaluate its performance and explainability using Amazon SageMaker Clarify. Which metric provided by SageMaker Clarify can help the user gain insights into their training data and model?
+
+Mean squared error
+
+F1 score
+
+Accuracy score
+
+Bias metric (Correct)
+
+---
+
+When a machine learning engineer training a deep learning model on a classification task notices that the training and validation loss curves are converging towards each other, what does this convergence indicate?
+
+The model is underfitting, and it needs more training iterations or a more complex architecture.
+
+The model is experiencing mode collapse, a common issue in generative adversarial networks (GANs).
+
+The model is overfitting to the training data, and it will likely perform poorly on new, unseen data.
+
+The model has reached its optimal performance, and further training will not improve its accuracy. (Correct)
+
+---
+
+A machine learning engineer is working on a binary classification problem to predict whether a customer will churn or not. The engineer has trained the model and obtained the following evaluation metrics:
+
+ 
+
+- Precision: 0.85
+
+- Recall: 0.70
+
+- F1 score: 0.77
+
+- Accuracy: 0.82
+
+ 
+
+Which of the following statements is correct regarding the performance of your model?
+
+The model has a high precision, indicating a low false positive rate. However, the lower recall suggests a higher false negative rate, meaning the model may struggle to identify churning customers accurately. (Correct)
+
+The high accuracy of 0.82 suggests that the model is performing well in predicting both churning and non-churning customers.
+
+The model has a high false positive rate, meaning it may incorrectly classify non-churning customers as churning.
+
+The model has a low F1 score, indicating poor overall performance in both precision and recall.
+
+---
+
+A data scientist is working on a machine learning project for a retail company. The goal is to develop a product recommendation system. The company has a large dataset of customer purchase histories and product details. The data scientist has trained several models and needs to select the best one for deployment. What is the recommended approach for the data scientist to assess the trade-offs between model performance, training time, and cost?
+
+Choose the model with the highest accuracy, regardless of training time and cost. This approach prioritizes model performance over other factors, which may lead to excessive computational resources and costs.
+
+Select the model with the lowest deployment cost, even if it means sacrificing performance or increasing training time.
+
+Choose the model with the shortest training time, as this will minimize costs and allow for faster iterations.
+
+Evaluate the models based on a combination of performance, training time, and estimated deployment costs. Select the model that strikes the best balance between these factors, considering the company's requirements and constraints. (Correct)
+
+---
+
+A machine learning engineer is working on a critical model deployment for a financial services company. The model requires thorough testing before deployment. Which AWS service should the engineer use to address these requirements?
+
+Amazon SageMaker Model Monitor 
+
+Amazon SageMaker Experiments
+
+Amazon SageMaker Debugger (Correct)
+
+Amazon SageMaker Clarify

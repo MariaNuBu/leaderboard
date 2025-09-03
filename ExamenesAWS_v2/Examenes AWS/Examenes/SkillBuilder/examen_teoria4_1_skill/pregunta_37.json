@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "A company has deployed a machine learning model for credit risk assessment using Amazon SageMaker. They want to monitor the model's quality over time to ensure it maintains its accuracy.  Which step should they take to set up model quality monitoring using SageMaker Model Monitor?",
+      "options": [
+        "Provide the baseline data used for training the model, the inference inputs and predictions made by the deployed model, and the corresponding Ground Truth labels.",
+        "Schedule a monitoring job to periodically compare the model's predictions with the Ground Truth labels and compute performance metrics.",
+        "Enable data capture for the deployed model and establish a baseline using the training data.",
+        "Configure CloudWatch alarms to trigger remedial actions when model quality drifts beyond specified thresholds."
+      ],
+      "correct_answers": [
+        "Provide the baseline data used for training the model, the inference inputs and predictions made by the deployed model, and the corresponding Ground Truth labels."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

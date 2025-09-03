@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "What is the correct way to structure a Dockerfile for a SageMaker training container?",
+      "options": [
+        "Specify the training script using ENV SAGEMAKER_PROGRAM",
+        "Store the training data in /opt/ml/model",
+        "Run the Docker container using CMD instead of ENTRYPOINT",
+        "Set up a virtual environment within the Docker container"
+      ],
+      "correct_answers": [
+        "Specify the training script using ENV SAGEMAKER_PROGRAM"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms-training-containers.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

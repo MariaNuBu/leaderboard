@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A user has trained a machine learning model using Amazon SageMaker and wants to evaluate its performance and explainability using Amazon SageMaker Clarify. Which metric provided by SageMaker Clarify can help the user gain insights into their training data and model?",
+      "options": [
+        "Mean squared error",
+        "F1 score",
+        "Accuracy score",
+        "Bias metric"
+      ],
+      "correct_answers": [
+        "Bias metric"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

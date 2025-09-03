@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A data scientist is using Amazon SageMaker Automatic Model Tuning to optimize the hyperparameters of a machine learning model. Which technique can help prevent convergence issues during the tuning process?",
+      "options": [
+        "Increase the batch size to improve computational efficiency.",
+        "Increase the learning rate to allow the model to explore a wider range of parameter values.",
+        "Reduce the number of epochs to limit the amount of training time.",
+        "Use early stopping to terminate training when the validation loss stops improving."
+      ],
+      "correct_answers": [
+        "Use early stopping to terminate training when the validation loss stops improving."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/early-stopping.html"
+      ],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

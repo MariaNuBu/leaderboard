@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "You are using AWS SageMaker JumpStart to deploy a model for text generation. Which model type would you choose for multilingual text generation?",
+      "options": [
+        "GPT-3",
+        "Amazon Titan",
+        "Jurassic-2",
+        "Nova Reel"
+      ],
+      "correct_answers": [
+        "Jurassic-2"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

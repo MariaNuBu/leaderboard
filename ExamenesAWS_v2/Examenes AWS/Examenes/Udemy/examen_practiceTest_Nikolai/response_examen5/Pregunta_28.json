@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A healthcare organization needs to analyze large volumes of patient medical forms and identify important entities such as patient names, diagnoses, and medications.\nThese forms include both text and handwritten content.\nThe organization also needs to extract and categorize information to automate the documentation process and store the extracted metadata for further querying.\nWhich combination of services would BEST meet the organization’s requirements?",
+      "options": [
+        "Amazon Textract for extracting both printed and handwritten text, Amazon Comprehend for entity recognition, and Amazon S3 for storing the extracted metadata.",
+        "Amazon Rekognition for detecting text and images, Amazon Comprehend for analyzing the extracted text, and Amazon RDS for storing structured data.",
+        "Amazon SageMaker for handwriting recognition, Amazon Comprehend for sentiment analysis, and Amazon Kendra for querying the extracted metadata.",
+        "Amazon Comprehend for entity extraction, Amazon Textract for analyzing images and text, and Amazon Elasticsearch for indexing and querying the results."
+      ],
+      "correct_answers": [
+        "Amazon Textract for extracting both printed and handwritten text, Amazon Comprehend for entity recognition, and Amazon S3 for storing the extracted metadata."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

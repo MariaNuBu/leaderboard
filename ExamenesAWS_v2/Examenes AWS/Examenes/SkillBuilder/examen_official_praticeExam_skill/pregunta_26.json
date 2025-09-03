@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "A company needs to use an Amazon SageMaker AI built-in algorithm for supervised training to predict whether a customer will buy a product. Which algorithm should the company use to meet this requirement?",
+      "options": [
+        "K-means",
+        "K-nearest neighbors (k-NN)",
+        "Support Vector Regression (SVR)",
+        "Random Cut Forest (RCF)"
+      ],
+      "correct_answers": [
+        "K-nearest neighbors (k-NN)"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

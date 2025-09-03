@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A machine learning engineer wants to deploy an Amazon SageMaker endpoint for a real-time inference application. The endpoint should only be accessible from within the company's internal network.\nWhich configuration should they use?",
+      "options": [
+        "Deploy the SageMaker endpoint in a public subnet and configure a Network Address Translation (NAT) gateway to allow inbound traffic from the internal network.",
+        "Deploy the SageMaker endpoint in a private subnet within a VPC and configure a VPC endpoint to allow traffic from the internal network.",
+        "Deploy the SageMaker endpoint in a public subnet and configure an Internet Gateway to allow inbound traffic from the internal network.",
+        "Deploy the SageMaker endpoint in a private subnet within a VPC. Then, configure a bastion host in a public subnet to allow access from the internal network."
+      ],
+      "correct_answers": [
+        "Deploy the SageMaker endpoint in a private subnet within a VPC and configure a VPC endpoint to allow traffic from the internal network."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

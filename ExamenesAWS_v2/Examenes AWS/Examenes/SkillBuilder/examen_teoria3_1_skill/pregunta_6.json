@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Your company is trying to decide between using on-demand or provisioned resources for their machine learning (ML) workloads. What is the main difference between the two, in terms of performance and scaling?",
+      "options": [
+        "On-demand resources can scale up and down instantly, whereas provisioned resources have a fixed capacity and can take time to scale.",
+        "Provisioned resources have better performance than on-demand resources.",
+        "On-demand resources are more cost-effective for short-term, unpredictable workloads, whereas provisioned resources are better for long-term, predictable workloads.",
+        "Provisioned resources can scale up and down instantly, whereas on-demand resources have a fixed capacity."
+      ],
+      "correct_answers": [
+        "On-demand resources are more cost-effective for short-term, unpredictable workloads, whereas provisioned resources are better for long-term, predictable workloads."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

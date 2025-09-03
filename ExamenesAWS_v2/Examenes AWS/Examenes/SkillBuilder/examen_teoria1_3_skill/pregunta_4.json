@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "The machine learning (ML) engineer learns that the class imbalance (CI) metric of this dataset is -0.33. Which statement BEST describes the assessment of this metric?",
+      "options": [
+        "The CI measure is negative, which indicates the advantaged group is relatively underrepresented in this dataset.",
+        "The CI measure is negative, which indicates the advantaged group is relatively overrepresented in this dataset.",
+        "The CI measure is positive, which indicates the disadvantaged group is relatively underrepresented in this dataset.",
+        "The CI measure is positive, which indicates the disadvantaged group is relatively overrepresented in this dataset."
+      ],
+      "correct_answers": [
+        "The CI measure is negative, which indicates the advantaged group is relatively underrepresented in this dataset."
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

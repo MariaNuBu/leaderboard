@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "A data scientist is using Amazon SageMaker to develop a machine learning model for customer behavior prediction. The scientist is working in a SageMaker Notebook Instance and wants to collaborate with a team of data analysts on this project. Additionally, they need to ensure that their work, including data visualizations and intermediate results, is saved and can be accessed even after the notebook instance is stopped.\n\nWhich configuration should the data scientist consider to achieve these goals? (Select TWO)",
+      "options": [
+        "Use SageMaker Studio to enable collaboration, as it allows multiple users to access shared resources within a Jupyter Lab environment.",
+        "Enable persistent storage in the SageMaker Notebook Instance to automatically save data and code, ensuring that all work is retained even after stopping the instance.",
+        "Install all necessary libraries manually in the SageMaker Notebook Instance to ensure the team has access to the correct dependencies for their machine learning project.",
+        "Use SageMaker notebook instances to share code directly, which allows for real-time collaboration between multiple users.",
+        "Configure a custom EC2 instance with an EBS volume for persistent storage, ensuring data is saved when the instance is stopped."
+      ],
+      "correct_answers": [
+        "Use SageMaker Studio to enable collaboration, as it allows multiple users to access shared resources within a Jupyter Lab environment.",
+        "Enable persistent storage in the SageMaker Notebook Instance to automatically save data and code, ensuring that all work is retained even after stopping the instance."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

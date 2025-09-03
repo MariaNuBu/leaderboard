@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A healthcare organization is deploying a machine learning model on Amazon SageMaker to analyze patient data and predict potential health risks.\nDue to strict regulatory requirements, the organization must ensure that all data processing and model hosting occurs within a secure, isolated environment that prevents unauthorized access and protects sensitive patient information.\nThe organization also wants to limit access to the model only to specific trusted IP addresses and other AWS services that are part of its internal network.\n\nWhich AWS configuration should the organization implement to meet these security and isolation requirements?",
+      "options": [
+        "Use AWS Lambda with an API Gateway to provide access to the SageMaker model, controlling access through API keys and Lambda execution roles.",
+        "Deploy the SageMaker model in a public subnet with an open security group, allowing easy access from the internet for real-time predictions.",
+        "Deploy the SageMaker model in a private subnet within a Virtual Private Cloud (VPC) and use security groups to restrict inbound traffic to specific IP addresses and allow access only from other services within the VPC.",
+        "Deploy the SageMaker model with a direct connection to Amazon S3, and use AWS Identity and Access Management (IAM) policies to control access to the data stored in S3."
+      ],
+      "correct_answers": [
+        "Deploy the SageMaker model in a private subnet within a Virtual Private Cloud (VPC) and use security groups to restrict inbound traffic to specific IP addresses and allow access only from other services within the VPC."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 -"
+    }
+  ]
+}

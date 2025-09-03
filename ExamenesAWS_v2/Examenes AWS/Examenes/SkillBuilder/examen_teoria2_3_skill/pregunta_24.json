@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "You are a data scientist working with a model for performing text summarization on customer feedback. You observe that the model does not perform well when processing industry-specific jargon and technical terms. You do not have access to the original training data but have a collection of text samples with this terminology. What is the best approach for improving the performance of this model?",
+      "options": [
+        "Instruction-based fine-tuning",
+        "Elastic weight consolidation (EWC)",
+        "Model re-training",
+        "Domain adaptation fine-tuning"
+      ],
+      "correct_answers": [
+        "Domain adaptation fine-tuning"
+      ],
+      "references": [
+        "https://aclanthology.org/2020.acl-main.234.pdf"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

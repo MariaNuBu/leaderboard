@@ -1,0 +1,263 @@
+Which statement BEST describes the benefit of using automation in an application, according to the AWS Well-Architected Framework?
+
+It helps to verify that the provisioned resources are cost efficient.
+
+It helps to create an energy-efficient infrastructure.
+
+It helps to ensure that solutions are resilient to disruptions and recover quickly.
+
+It provides a method for repeatable, consistent deployments. (Correct)
+
+---
+
+An MLOps engineer needs to provide a repeatable method for creating standard infrastructure for testing environments. This infrastructure needs to be consistent for all users to ensure valid testing results. Users need to conduct tests once or twice per week. Which method uses an infrastructure as code (IaC) approach that is cost-effective and operationally efficient?
+
+Provide users with access to AWS CloudFormation so that they can build their own infrastructure on an as-needed basis.
+
+Create an AWS CloudFormation template and use it to deploy infrastructure for a test environment. Keep the environment running and then add and remove access for users as needed.
+
+Create an AWS CloudFormation template and use it to deploy infrastructure for a test environment. Destroy the resources after the results are gathered and testing is complete. (Correct)
+
+Create an AWS CloudFormation template for each test environment request. Provide users access to the resources after they are deployed.
+
+---
+
+An MLOps engineer is creating a CloudFormation template that will be used in multiple AWS Regions. The template will provision EC2 instances, but it needs to provide a different Amazon Machine Image (AMI), depending on which Region the template is being used in. Which section of the CloudFormation template would be used to provide the AMI ID values for each Region?
+
+Mappings (Correct)
+
+Rules
+
+Transform
+
+Outputs
+
+---
+
+Which of the following AWS Command Line Interface (AWS CLI) commands will provision resources defined in a AWS CloudFormation template?
+
+$ aws cloudformation create-change-set
+
+$ aws cdk synth
+
+$ aws cdk init
+
+$ aws cloudformation create-stack (Correct)
+
+
+---
+
+An MLOps engineer is using the AWS Cloud Development Kit (AWS CDK) to deploy infrastructure for a machine learning (ML) application. They have an inference container and model artifacts, but need to provision an entire architecture to support the application. They do not need to manage every resource at a granular level and they have limited available time to specify the infrastructure in its entirety. Which level of AWS CDK construct should they consider?
+
+You cannot use constructs to deploy entire architectures
+
+L1 constructs
+
+L2 constructs
+
+L3 constructs (Correct)
+
+---
+
+Which statement MOST accurately describes how to interact with AWS CloudFormation and the AWS Cloud Development Kit (AWS CDK)?
+
+CloudFormation templates can be written using common programming languages, such as Python, TypeScript, Java, C#, and Go.
+
+The AWS CDK can be used to generate CloudFormation templates. (Correct)
+
+The AWS CDK can be used to write CloudFormation templates in either JSON or YAML.
+
+CloudFormation can be used to launch AWS CDK applications to provision resources.
+
+---
+
+A machine learning engineer is using the Amazon SageMaker Python SDK to create a model training job. Which class and class method would the engineer use to define, and then start, a training job?
+
+Instantiate a Processor class and use the run() method.
+
+Instantiate an Estimator class and use the run() method.
+
+Instantiate an Estimator class and use the fit() method. (Correct)
+
+Instantiate an Estimator class and use the deploy() method.
+
+---
+
+A machine learning engineer is reviewing the code to create a custom inference container image. Which of these does not meet the requirements for inference containers on SageMaker?
+
+The container includes the path: opt/ml/model.
+
+The Dockerfile contains an ENTRYPOINT instruction: ENTRYPOINT ["python", "serve.py"]
+
+The container includes a web server configured to listen on port 8000. (Correct)
+
+The container can accept POST requests to /ping and /invocations endpoints.
+
+---
+
+A machine learning engineer is designing a machine learning application running on Amazon ECS. They have decided to use serverless hosting on AWS Fargate for their containers. How do they define the amount of compute capacity their application will need?
+
+Specify an EC2 instance type and AWS Fargate will replicate the resources provided by that instance.
+
+Specify the CPU resources that their workload requires.
+
+Specify both the CPU and memory resources that their workload requires. (Correct)
+
+Specify the memory resources that their workload requires.
+
+---
+
+An MLOps engineer is configuring a SageMaker endpoint. They expect traffic to the endpoint to fluctuate significantly throughout the day. Which of the following describes the BEST approach to making sure that their model performance will meet performance benchmarks while remaining cost effective?
+
+Conduct load testing on the application. Using different metrics, identify which metric value reliably corresponds to occurrences of model latency. Create a target tracking policy and use this metric as the target metric. Set the target value to a value lower than the value at which model latency occurs. (Correct)
+
+Conduct load testing on the application. Select the EC2 instance type with CPU resources capable of handling the maximum amount of expected load.
+
+Conduct load testing on the application. Identify the level of CPUUtilization where model latency begins to occur. Create a target tracking auto scaling policy and select CPUUtilization as the target metric, and a target value less than the value where latency begins to occur.
+
+Conduct load testing on the application. Using different metrics, identify which resource reaches saturation when model latency begins to occur. Select an EC2 instance with enough of this resource to support the maximum amount of expected load.
+
+---
+
+
+An MLOps engineer is planning for the deployment of a SageMaker endpoint for performing real-time inference. After analyzing historic application traffic data, they have noticed that application traffic spikes typically occur after the number of invocations breach a specific threshold. They need to scale out by five EC2 instances to prevent these spikes from creating performance issues. So, they need to create an auto scaling policy that will pre-emptively scale out their compute resources when this threshold is breached. Which SageMaker endpoint auto scaling policy is best suited for this scenario?
+
+Target tracking scaling policy
+
+Step scaling policy (Correct)
+
+Scheduled scaling policy
+
+On-demand scaling
+
+---
+
+Which of the following most accurately describes the infrastructure as code (IaC) approaches of AWS CloudFormation and AWS Cloud Development Kit (AWS CDK)?
+
+Both CloudFormation and AWS CDK only support an imperative approach to IaC.
+
+Both CloudFormation and AWS CDK only support a declarative approach to IaC.
+
+CloudFormation supports a declarative approach to IaC and AWS CDK supports an imperative approach. (Correct)
+
+CloudFormation supports an imperative approach to IaC and AWS CDK supports a declarative approach.
+
+---
+
+Which AWS container service provides version control and access management features for container images?
+
+Amazon Elastic Container Service (Amazon ECS)
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+
+AWS Fargate
+
+Amazon Elastic Container Registry (Amazon ECR) (Correct)
+
+---
+
+Which of the following is a benefit of using infrastructure as code (IaC)?
+
+It requires you to specify all of the settings of your infrastructure resources for each deployment, supporting greater customization.
+
+You can deploy the same infrastructure for developer and test environments. (Correct)
+
+It decreases your reliance on available programming skills by letting you rely on infrastructure skill sets.
+
+It creates reliable architectures by preventing the convenient deletion of infrastructure resources.
+
+---
+
+A machine learning (ML) engineer is using the Amazon SageMaker Python SDK to create an automated model training pipeline. How would they define a data processing step in their pipeline?
+
+Instantiate an Estimator class and use the run() method. Use this as input to a ProcessingStep().
+
+Instantiate a Processor class and use the run() method. Use this as input to a TrainingStep().
+
+Instantiate a Processor class and use the run() method. Use this as input to a ProcessingStep(). (Correct)
+
+Instantiate a Processor class and use the fit() method. Use this as input to a ProcessingStep().
+
+---
+
+An MLOps engineer is planning for the deployment of an Amazon SageMaker endpoint for performing real-time inference. They need to choose an auto scaling policy and are considering a target tracking policy or a step scaling policy. What is a key difference between a target tracking scaling policy and a step scaling policy in SageMaker?
+
+A target tracking scaling policy is more complex to configure, whereas a step scaling policy is more straightforward.
+
+A target tracking scaling policy adjusts the number of instances to maintain a specific metric value. A step scaling policy adjusts the number of instances based on the size of the alarm breach. (Correct)
+
+A target tracking scaling policy manages both scale out and scale in actions. A step scaling policy can only be used to scale out resources to meet increased demand.
+
+A target tracking scaling policy uses a predefined metric, whereas a step scaling policy uses a custom metric.
+
+---
+
+A machine learning (ML) engineer is building a custom model training container. Where in the directory structure will the container store the hyperparameters during the training job?
+
+opt/ml/input/config (Correct)
+
+opt/ml/code
+
+opt/ml/input/checkpoints
+
+opt/ml/input/data
+
+---
+
+An MLOps engineer is troubleshooting an application that includes a SageMaker endpoint. Users have been reporting occasional performance issues. The engineer notices that these reports correspond to increased latency in model predictions. Further research shows that model prediction latency increases when CPUUtilizaton of the Amazon EC2 instances hosting the inference containers reaches 95 percent. The MLOps engineer also notices that this saturation sometimes occurs during invocations metric spikes. How should the engineer address this issue in an operationally efficient and cost-effective manner?
+
+Implement a target tracking policy on the SageMaker endpoint and set the target metric to Invocations.
+
+Implement a step scaling policy to scale out the number of instances when CPUUtilization reaches a certain threshold.
+
+Change the Amazon EC2 instance type used for hosting the inference containers to a type with a larger CPU.
+
+Implement a target tracking policy on the SageMaker endpoint and set the target metric to CPUUtilization. (Correct)
+
+---
+
+An MLOps engineer needs to deploy an Amazon EC2 instance using the AWS Cloud Development Kit (AWS CDK). They need to explicitly configure all of the properties available in AWS CloudFormation. Which type of AWS CDK construct should you use?
+
+L2 construct
+
+You cannot access CloudFormation properties in AWS CDK.
+
+L3 construct/patterns
+
+L1 construct (Correct)
+
+---
+
+Which AWS Cloud Development Kit (AWS CDK) Command Line Interface (CLI) command is used to generate AWS CloudFormation templates of the stacks defined in an app?
+
+cdk diff
+
+cdk bootstrap
+
+cdk synth (Correct)
+
+cdk deploy
+
+---
+
+An MLOps engineer is creating an AWS CloudFormation template. They need the template to provision an Amazon EC2 instance. Which section of the CloudFormation template would they use to specify the instance and its properties?
+
+Parameters
+
+Outputs
+
+Resources (Correct)
+
+Mappings
+
+---
+
+Which of the following is an example of a best practice from the operational excellence pillar of the AWS Well-Architected Framework?
+
+Deploying machine learning (ML) models to multiple Availability Zones to prevent outages in the event of failure in one Availability Zone
+
+Implementing an encryption strategy on you training data while in storage
+
+Choosing the most energy-efficient Amazon EC2 instances for model training jobs
+
+Using a repeatable process to deploy machine learning (ML) models (Correct)

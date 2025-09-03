@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "You are tasked with training a machine learning model for image classification using Amazon SageMaker's built-in algorithms.\nWhich of the following steps accurately describe the process of using SageMaker's built-in algorithms?\n\nSet up a custom container, upload the algorithm, and configure infrastructure.\n\nExplicación\nThere is no need to set up a custom container or upload the algorithm for built-in algorithms since they are pre-packaged by AWS.",
+      "options": [
+        "Set up a custom container, upload the algorithm, and configure infrastructure.",
+        "Select the algorithm from the SageMaker console, upload your dataset, configure hyperparameters, and launch the training job.",
+        "Create a custom script for model training, manually configure hyperparameter tuning, and deploy the model on an EC2 instance.",
+        "Use SageMaker built-in image generation algorithms and skip hyperparameter configuration to deploy a pre-trained model."
+      ],
+      "correct_answers": [
+        "Select the algorithm from the SageMaker console, upload your dataset, configure hyperparameters, and launch the training job."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4"
+    }
+  ]
+}

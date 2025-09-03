@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "Raw click-stream data has been ingested into a centralized data store that will ultimately be used for training a machine learning (ML) algorithm to personalize recommendations. The raw data consists of user IDs, time stamps, session duration, geolocation, and more. Which data format should the data be transformed to for efficient storing and processing?",
+      "options": [
+        "Parquet",
+        "JSON",
+        "CSV",
+        "PDF"
+      ],
+      "correct_answers": [
+        "Parquet"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

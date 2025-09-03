@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A company wants to use ML to categorize products that are sold in stores. An ML engineer is building an image classification model by using convolutional neural networks (CNN) on Amazon SageMaker. The company will use the model to classify images of laptops and mobile phones. During model training, the precision for the mobile phones image class was lower than expected. The ML engineer wants to understand why some images of mobile phones were misclassified. Additionally, the ML engineer wants to improve model performance for the mobile phones class.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A Add more images of mobile phones to the training data and re-train the model.",
+        "B Use SageMaker Model Monitor to analyze predictions.",
+        "C Use SageMaker Clarify to monitor the model post-deployment.",
+        "D Use SageMaker with TensorBoard to analyze intermediate tensors."
+      ],
+      "correct_answers": [
+        "D Use SageMaker with TensorBoard to analyze intermediate tensors."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

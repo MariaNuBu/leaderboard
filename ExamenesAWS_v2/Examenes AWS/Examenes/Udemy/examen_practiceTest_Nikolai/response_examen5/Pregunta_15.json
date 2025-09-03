@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A machine learning engineer wants to collaborate with a team on a project in AWS SageMaker. The team needs to share notebooks, manage multiple users, and ensure that they can easily scale resources based on their deep learning model's GPU requirements. They also prefer to work in an integrated environment that allows seamless transition between data preparation, training, and model deployment. Which SageMaker tool would BEST meet these collaboration and scaling requirements?",
+      "options": [
+        "Amazon EMR with SageMaker integration",
+        "SageMaker Studio",
+        "SageMaker Notebook Instances",
+        "AWS Lambda with integrated Jupyter notebooks"
+      ],
+      "correct_answers": [
+        "SageMaker Studio"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

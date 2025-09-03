@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "During the training of a transformer model, which aspect allows the model to consider the position of each token within the sequence?",
+      "options": [
+        "Token embedding",
+        "Self-attention",
+        "Positional encoding",
+        "Multi-headed attention"
+      ],
+      "correct_answers": [
+        "Positional encoding"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

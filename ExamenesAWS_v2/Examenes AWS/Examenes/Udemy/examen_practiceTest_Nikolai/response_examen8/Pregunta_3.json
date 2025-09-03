@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You are working with SageMaker built-in algorithms and need to perform image classification. Which of the following statements correctly describes the process of using a SageMaker built-in algorithm for training and deployment?",
+      "options": [
+        "SageMaker built-in algorithms require the use of custom containers where you manually install the necessary libraries.",
+        "You need to bring your dataset and specify hyperparameters, but the algorithm is pre-packaged and managed by AWS, including the necessary infrastructure setup.",
+        "The built-in algorithms come fully trained and do not require further training on your specific dataset, ensuring immediate deployment.",
+        "SageMaker built-in algorithms cannot be used for image classification tasks, and custom algorithms must be used for these purposes."
+      ],
+      "correct_answers": [
+        "You need to bring your dataset and specify hyperparameters, but the algorithm is pre-packaged and managed by AWS, including the necessary infrastructure setup."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "A financial firm wants to use reinforcement learning to optimize trading strategies using Amazon SageMaker. They want to train an agent that interacts with a simulated trading environment and receives feedback in the form of profits or losses. Which of the following elements must be included to formulate the reinforcement learning problem in this context?\n\nTraining the model using a supervised learning algorithm\n\nExplicación\nSupervised learning is not used in reinforcement learning. RL uses a feedback loop to adjust the agent’s behavior rather than learning from labeled\n\nConfiguring manual data labeling for the agent's learning\n\nExplicación\nReinforcement learning does not require manual data labeling, unlike supervised learning.",
+      "options": [
+        "Training the model using a supervised learning algorithm",
+        "Configuring manual data labeling for the agent's learning",
+        "Defining the agent, environment, actions, and rewards",
+        "Creating static rules for decision-making"
+      ],
+      "correct_answers": [
+        "Defining the agent, environment, actions, and rewards"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

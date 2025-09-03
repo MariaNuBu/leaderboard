@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Topic: 1.1 Ingest and store data.\n\nA company wants to build an ML model to predict future sales based on historical trends. The company has several years of sales data stored in an SQL server in an on-premises database. The company uses AWS and has dedicated network connectivity between AWS and the on-premises database. An ML engineer is using Amazon SageMaker pre-built Docker images to train the model.\n\nWhich approach must the engineer use to ingest the data to train the model?",
+      "options": [
+        "A\nUse AWS Database Migration Service (AWS DMS) to migrate the data to an Amazon RDS MySQL instance. Provide the Amazon RDS instance URL within the SageMaker notebook.",
+        "B\nUse AWS Database Migration Service (AWS DMS) to export the data to Amazon S3. Provide the S3 location within the SageMaker notebook.",
+        "C\nUse AWS Database Migration Service (AWS DMS) to migrate the data to Amazon Redshift. Provide the Redshift endpoint within the SageMaker notebook.",
+        "D\nUse AWS DataSync to export a copy of the dataset as CSV file from a local file share to Amazon FSx for Windows File Server. Provide the Amazon FSx for Windows File Server location within the SageMaker notebook."
+      ],
+      "correct_answers": [
+        "B\nUse AWS Database Migration Service (AWS DMS) to export the data to Amazon S3. Provide the S3 location within the SageMaker notebook."
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A tech company wants to deploy a machine learning model for processing large video files. The model processes each video file individually and does not require real-time responses. The company wants to minimize costs by only paying for compute when processing files and scale resources based on demand.\n\nWhich SageMaker deployment option should they choose?\n\nReal-Time Inference Endpoint\n\nExplicación\nReal-time inference is designed for low-latency, real-time tasks and would incur higher costs due to persistent infrastructure.\n\nBatch Transform\n\nExplicación\nBatch Transform is suitable for batch processing but lacks support for on-demand scaling and asynchronous request handling.\n\nServerless Inference\n\nExplicación\nServerless inference handles unpredictable traffic but may not handle large, long-running tasks efficiently.",
+      "options": [
+        "Real-Time Inference Endpoint",
+        "Batch Transform",
+        "Serverless Inference",
+        "Asynchronous Inference"
+      ],
+      "correct_answers": [
+        "Asynchronous Inference"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

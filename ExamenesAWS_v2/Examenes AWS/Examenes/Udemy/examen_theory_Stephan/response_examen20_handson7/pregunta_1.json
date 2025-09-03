@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are developing a customer support chatbot using Amazon Bedrock. The chatbot needs to respond accurately to specific customer inquiries using recent company data. Which approach would be most effective for this scenario?",
+      "options": [
+        "Fine-tuning the foundational model with proprietary data.",
+        "Using Retrieval-Augmented Generation (RAG) with a vector database.",
+        "Manually coding responses for common inquiries.",
+        "Relying on pre-trained models without any modifications."
+      ],
+      "correct_answers": [
+        "Using Retrieval-Augmented Generation (RAG) with a vector database."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-it-works.html",
+        "https://aws.amazon.com/bedrock/knowledge-bases/"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

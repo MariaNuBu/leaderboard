@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A media company wants to automate the content moderation process for user-submitted images and accompanying text comments. They need to identify inappropriate content such as violent imagery in photos and offensive language in the text. The solution should automatically flag inappropriate submissions and store the flagged data for further review.\n\nWhich combination of services should the company use to implement this automated system?",
+      "options": [
+        "Amazon Rekognition to detect inappropriate content in images, Amazon Comprehend for sentiment analysis of the text, and Amazon DynamoDB for storing flagged data.",
+        "Amazon Comprehend to detect sentiment and entity extraction from text, Amazon Lex for conversational moderation, and Amazon Elasticsearch for storing flagged data.",
+        "Amazon Rekognition for content moderation of images, Amazon Comprehend for identifying offensive language in the text, and Amazon S3 for storing flagged data.",
+        "Amazon SageMaker to build custom models for detecting inappropriate images, Amazon Comprehend for text analysis, and Amazon RDS for storing flagged data."
+      ],
+      "correct_answers": [
+        "Amazon Rekognition for content moderation of images, Amazon Comprehend for identifying offensive language in the text, and Amazon S3 for storing flagged data."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

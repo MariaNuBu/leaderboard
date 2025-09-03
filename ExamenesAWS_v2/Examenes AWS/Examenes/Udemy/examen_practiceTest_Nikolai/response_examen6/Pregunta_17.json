@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "An e-commerce company has deployed a web application on AWS using multiple EC2 instances behind an Elastic Load Balancer (ELB). The company wants to monitor real-time performance metrics of its application, such as CPU utilization, memory usage, and request latency, and receive alerts if any thresholds are exceeded. Which AWS services and features should be used to meet these requirements?",
+      "options": [
+        "Set up AWS Lambda functions to periodically pull CPU and memory metrics from EC2 and push them to CloudWatch for monitoring and alerting.",
+        "Enable AWS Config to track the CPU and memory metrics, and set up SNS notifications for threshold alerts.",
+        "Use AWS CloudWatch to monitor CPU utilization and set CloudWatch Alarms for threshold breaches. Install the CloudWatch Agent on EC2 instances to monitor memory usage and other custom metrics.",
+        "Use AWS CloudTrail to capture EC2 instance activity and automatically alert on high CPU or memory usage."
+      ],
+      "correct_answers": [
+        "Use AWS CloudWatch to monitor CPU utilization and set CloudWatch Alarms for threshold breaches. Install the CloudWatch Agent on EC2 instances to monitor memory usage and other custom metrics."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "An energy company is analyzing data on customer energy usage to develop a machine learning model to predict which customers are most likely to switch providers. They have numeric data on each customer's average monthly energy usage and text-based data from customer reviews.\n\nWhich feature engineering techniques might the company use to incorporate the data into the model? (Select TWO.)",
+      "options": [
+        "Calculating the median of customer reviews",
+        "N-gram",
+        "Deleting outliers",
+        "Deleting rows with missing data",
+        "Log transformation"
+      ],
+      "correct_answers": [
+        "N-gram",
+        "Log transformation"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Which encryption method is recommended for securing data in transit when using SageMaker?",
+      "options": [
+        "Server-side encryption (SSE) with S3",
+        "Client-side encryption",
+        "TLS/SSL encryption",
+        "Encryption with IAM roles"
+      ],
+      "correct_answers": [
+        "TLS/SSL encryption"
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

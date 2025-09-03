@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Which statement MOST accurately describes how to interact with AWS CloudFormation and the AWS Cloud Development Kit (AWS CDK)?",
+      "options": [
+        "CloudFormation templates can be written using common programming languages, such as Python, TypeScript, Java, C#, and Go.",
+        "The AWS CDK can be used to generate CloudFormation templates.",
+        "The AWS CDK can be used to write CloudFormation templates in either JSON or YAML.",
+        "CloudFormation can be used to launch AWS CDK applications to provision resources."
+      ],
+      "correct_answers": [
+        "The AWS CDK can be used to generate CloudFormation templates."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

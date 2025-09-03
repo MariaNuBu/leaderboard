@@ -1,0 +1,19 @@
+{
+  "id": 43,
+  "question": "A company uses Amazon SageMaker AI to develop an ML model. The company needs to receive a notification if a significant drift in model quality occurs.\n\nWhich combination of actions will meet this requirement? (Select TWO.)",
+  "options": [
+    "Use SageMaker Model Monitor to collect model metrics.",
+    "Use SageMaker Data Wrangler to periodically check model metrics for feature drift.",
+    "Create an Amazon CloudWatch alarm that notifies an Amazon Simple Notification Service (Amazon SNS) topic when the model metrics exceed a threshold.",
+    "Create a step in SageMaker Data Wrangler to send a notification when the model metrics exceed a threshold.",
+    "Collect Amazon CloudWatch logs in an Amazon S3 bucket. Monitor the model metrics."
+  ],
+  "correct_answers": [
+    "Use SageMaker Model Monitor to collect model metrics.",
+    "Create an Amazon CloudWatch alarm that notifies an Amazon Simple Notification Service (Amazon SNS) topic when the model metrics exceed a threshold."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

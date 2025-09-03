@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A machine learning specialist is using SageMaker Data Wrangler to prepare a dataset that contains missing values. The specialist must handle these missing values before training the model. Which TWO methods can SageMaker Data Wrangler offer for handling missing data? (Choose two.)",
+      "options": [
+        "Dropping the entire dataset",
+        "Imputing missing values using pandas or PySpark",
+        "Dropping records with missing values",
+        "Scaling the missing values",
+        "One-hot encoding missing values"
+      ],
+      "correct_answers": [
+        "Imputing missing values using pandas or PySpark",
+        "Dropping records with missing values"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

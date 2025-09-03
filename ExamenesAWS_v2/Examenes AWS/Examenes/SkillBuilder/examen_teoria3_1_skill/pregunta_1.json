@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are working on a machine learning (ML) solution for your company. The business lead of the project reaches out after the ML model is developed and asks about the next step of the ML process. Which answer BEST describes the model deployment phase of the ML lifecycle?",
+      "options": [
+        "Model deployment is the integration of the model and its resources into a production environment so it can be used to create predictions.",
+        "Model deployment is the process of selecting, training, and optimizing a machine learning model on the prepared data.",
+        "Model deployment is the process of cleaning and preparing the data for model training.",
+        "Model deployment is another term for describing the entire ML lifecycle."
+      ],
+      "correct_answers": [
+        "Model deployment is the integration of the model and its resources into a production environment so it can be used to create predictions."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

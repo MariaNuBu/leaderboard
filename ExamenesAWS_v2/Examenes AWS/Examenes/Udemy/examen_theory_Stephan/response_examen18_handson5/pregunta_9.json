@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Your model training job is taking longer than expected on SageMaker. You suspect that the compute instances are not fully utilized. Which SageMaker feature can help you diagnose this issue?",
+      "options": [
+        "SageMaker Experiments",
+        "SageMaker Model Monitor",
+        "SageMaker Ground Truth",
+        "SageMaker Debugger"
+      ],
+      "correct_answers": [
+        "SageMaker Debugger"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

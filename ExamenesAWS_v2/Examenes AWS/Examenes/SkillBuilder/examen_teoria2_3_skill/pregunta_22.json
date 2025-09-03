@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "You are a data scientist who needs to reduce the size of a machine learning (ML) model. You decide to use iterative model pruning. What would impact how much smaller your model becomes?",
+      "options": [
+        "After ranking neurons in a neural network by their importance in making correct predictions, setting a higher percentage of top-ranked neurons to consolidate in the model",
+        "After ranking neurons in a neural network by their importance to making correct predictions, setting a higher percentage of bottom-ranked neurons to remove from the model",
+        "After ranking weights by their importance in making correct permissions, setting a higher percentage of bottom-ranked weights to remove from the model",
+        "After ranking weights by their importance in making correct predictions, setting a higher percentage of top-ranked weights to consolidate into single weights"
+      ],
+      "correct_answers": [
+        "After ranking weights by their importance in making correct permissions, setting a higher percentage of bottom-ranked weights to remove from the model"
+      ],
+      "references": [
+        "https://arxiv.org/abs/1804.03279"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

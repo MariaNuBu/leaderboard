@@ -1,0 +1,17 @@
+{
+  "id": 41,
+  "question": "A company wants to deploy a new ML model to Amazon SageMaker AI. The company developed the model by using the JAX framework. The JAX framework must be immediately available in a SageMaker AI notebook to all notebook users.\n\nWhich solution will add the model with the JAX framework to SageMaker AI?",
+  "options": [
+    "Create a custom Docker container that includes the JAX framework and associated libraries. Push the container image to Amazon Elastic Container Registry (Amazon ECR). Use the container image in SageMaker AI.",
+    "Store the JAX framework and associated libraries in AWS CodeArtifact. Install the framework and libraries by using the SageMaker SDK.",
+    "Use a PyTorch SageMaker AI notebook. Install the JAX framework and associated libraries before using the model. Ensure that the correct runtime is selected.",
+    "Use the prebuilt PyTorch SageMaker AI Docker container with a requirements.txt file to download and install the JAX framework and associated libraries."
+  ],
+  "correct_answers": [
+    "Create a custom Docker container that includes the JAX framework and associated libraries. Push the container image to Amazon Elastic Container Registry (Amazon ECR). Use the container image in SageMaker AI."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

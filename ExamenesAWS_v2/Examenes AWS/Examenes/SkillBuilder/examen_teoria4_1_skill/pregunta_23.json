@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A financial institution has developed a machine learning model to detect fraudulent transactions. The model is currently in production and processing real-time data from various sources. When would it be appropriate to monitor the model's data quality and performance using Amazon SageMaker Model Monitor?",
+      "options": [
+        "Only during the initial deployment phase of the model",
+        "After a scheduled batch processing job has completed",
+        "Continuously, as the model processes real-time data from incoming transactions",
+        "Only when there is a suspected issue with the model's predictions or performance"
+      ],
+      "correct_answers": [
+        "Continuously, as the model processes real-time data from incoming transactions"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "question": {
+    "id": 5,
+    "question": "Your company is implementing a data lake architecture on AWS. They need to enforce governance and control access to specific data products across multiple teams. Which approach should they use?",
+    "options": [
+      "Data Warehousing",
+      "Data Mesh",
+      "Data Lakehouse",
+      "Data Lake"
+    ],
+    "correct_answers": [
+      "Data Mesh"
+    ],
+    "topic": "Data Ingestion and Storage",
+    "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+    "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+  }
+}

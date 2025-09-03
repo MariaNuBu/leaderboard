@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A company is using Amazon SageMaker Debugger to monitor and debug their machine learning model during training. They encounter an issue where the model's performance is no longer improving, and they suspect it might be due to disappearing gradients. Which of the following steps should they take to resolve this issue?\n\nManually stop the training job and restart it with more training data to solve the disappearing gradient issue.\n\nExplicación\nRestarting the training job with more data doesn’t address disappearing gradients, which is related to how the gradients are computed and propagated during training.\n\nUse SageMaker Neo to optimize the model performance for deployment on edge devices to avoid disappearing gradients.\n\nExplicación\nSageMaker Neo is used for model optimization for inference and deployment but does not solve issues related to disappearing gradients during training.\n\nIncrease the batch size in the training script to capture disappearing gradients more effectively.\n\nExplicación\nIncreasing batch size may not address disappearing gradients directly; other techniques such as adjusting the learning rate are more effective.",
+      "options": [
+        "Manually stop the training job and restart it with more training data to solve the disappearing gradient issue.",
+        "Use SageMaker Neo to optimize the model performance for deployment on edge devices to avoid disappearing gradients.",
+        "Increase the batch size in the training script to capture disappearing gradients more effectively.",
+        "Set up a custom rule in SageMaker Debugger to detect vanishing gradients and adjust the learning rate or change the optimizer."
+      ],
+      "correct_answers": [
+        "Set up a custom rule in SageMaker Debugger to detect vanishing gradients and adjust the learning rate or change the optimizer."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "After deploying a new version, the MLOps engineer notices issues arising in production. It is necessary to quickly rollback to the previous version. Which AWS service provides straightforward rollback capabilities?",
+      "options": [
+        "AWS CloudTrail",
+        "AWS CodeBuild",
+        "AWS CodeDeploy",
+        "AWS CodePipeline"
+      ],
+      "correct_answers": [
+        "AWS CodeDeploy"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

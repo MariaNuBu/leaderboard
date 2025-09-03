@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A machine learning (ML) engineer is building a model to classify textual documents. Which built-in algorithm should they select with Amazon SageMaker to train their model?",
+      "options": [
+        "Sequence-to-Sequence Algorithm",
+        "ResNet",
+        "BlazingText algorithm",
+        "IP Insights"
+      ],
+      "correct_answers": [
+        "BlazingText algorithm"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

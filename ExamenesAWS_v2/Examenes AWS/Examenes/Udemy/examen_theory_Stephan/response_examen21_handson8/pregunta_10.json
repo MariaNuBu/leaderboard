@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "Which of the following is a key benefit of using Docker containers in Amazon SageMaker?",
+      "options": [
+        "Containers are tied to a specific instance type.",
+        "Containers allow the use of any script or algorithm regardless of runtime or language.",
+        "Containers must use SageMaker built-in algorithms only.",
+        "Containers cannot be used for inference tasks."
+      ],
+      "correct_answers": [
+        "Containers allow the use of any script or algorithm regardless of runtime or language."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A machine learning engineer is working on a binary classification task to predict whether an email is spam or not. They have trained their model using the binary cross-entropy loss function and gradient descent optimization. However, they notice that the model's performance on the validation set is not improving, despite a decrease in the training loss. What could be a potential reason for this behavior?",
+      "options": [
+        "The batch size is too small, causing the optimizer to converge slowly.",
+        "The model is overfitting to the training data and failing to generalize to the validation set.",
+        "The learning rate is too high, causing the optimizer to overshoot the global minimum.",
+        "The binary cross-entropy loss function is not suitable for this classification task."
+      ],
+      "correct_answers": [
+        "The model is overfitting to the training data and failing to generalize to the validation set."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality-metrics.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

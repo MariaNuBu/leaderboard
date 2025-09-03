@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "What is one of the automated actions that can be invoked by EventBridge in response to events from Amazon SageMaker?",
+      "options": [
+        "Sending an email notification",
+        "Updating a DNS record",
+        "Launching an EC2 instance",
+        "Invoking an AWS Lambda function"
+      ],
+      "correct_answers": [
+        "Invoking an AWS Lambda function"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

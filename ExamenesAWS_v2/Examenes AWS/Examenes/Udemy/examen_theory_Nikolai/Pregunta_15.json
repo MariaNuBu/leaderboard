@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A data scientist is evaluating a binary classification model used for fraud detection. The model correctly identified 150 fraudulent transactions, but it also predicted 50 non-fraudulent transactions as fraud. Which metric will be most useful in assessing the proportion of true fraudulent cases identified by the model?",
+      "options": [
+        "Recall",
+        "Precision",
+        "F1 Score",
+        "Accuracy"
+      ],
+      "correct_answers": [
+        "Recall"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "An MLOps engineer is planning for the deployment of a SageMaker endpoint for performing real-time inference. After analyzing historic application traffic data, they have noticed that application traffic spikes typically occur after the number of invocations breach a specific threshold. They need to scale out by five EC2 instances to prevent these spikes from creating performance issues. So, they need to create an auto scaling policy that will pre-emptively scale out their compute resources when this threshold is breached. Which SageMaker endpoint auto scaling policy is best suited for this scenario?",
+      "options": [
+        "Target tracking scaling policy",
+        "Step scaling policy",
+        "Scheduled scaling policy",
+        "On-demand scaling"
+      ],
+      "correct_answers": [
+        "Step scaling policy"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

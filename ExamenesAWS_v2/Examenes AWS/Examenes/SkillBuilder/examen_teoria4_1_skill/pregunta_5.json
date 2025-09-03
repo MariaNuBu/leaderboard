@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A machine learning engineer working on a fraud detection model for a financial institution. The model is currently deployed and receiving real-time transaction data for inference. To monitor the data quality of the incoming transactions, the engineer has set up Amazon SageMaker Model Monitor. Which steps should they take to create a baseline for data quality monitoring?",
+      "options": [
+        "Use the training dataset to generate baseline constraints and statistics using the suggest_baseline method of the ModelQualityMonitor object.",
+        "Analyze the captured inference data from the deployed endpoint to generate baseline constraints and statistics.",
+        "Use the validation dataset to generate baseline constraints and statistics using the suggest_baseline method of the ModelQualityMonitor object.",
+        "Use a pre-defined set of default baseline constraints and statistics provided by SageMaker Model Monitor."
+      ],
+      "correct_answers": [
+        "Use the training dataset to generate baseline constraints and statistics using the suggest_baseline method of the ModelQualityMonitor object."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

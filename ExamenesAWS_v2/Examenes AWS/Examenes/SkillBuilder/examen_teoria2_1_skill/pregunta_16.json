@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A developer is building a machine learning (ML) model that can review customer information and determine whether the customer is approved for certain financial services. When determining between model performance and model interpretability, which statement would be true?",
+      "options": [
+        "The financial industry requires that models be transparent and explainable to ensure fair lending practices and prevent discrimination. Many financial institutions also face strict regulatory and compliance requirements. For this reason, a model with a high model interpretability should be chosen over high performance.",
+        "They want the model to get to the correct answer, so model interpretability is the most important aspect of the model design.",
+        "The model is too complex to worry about interpretability, if it reaches the correct conclusion. Because of the complexity, they should prioritize model performance.",
+        "They want to get this information quickly to customers, so model performance is more important than interpretability in this instance."
+      ],
+      "correct_answers": [
+        "The financial industry requires that models be transparent and explainable to ensure fair lending practices and prevent discrimination. Many financial institutions also face strict regulatory and compliance requirements. For this reason, a model with a high model interpretability should be chosen over high performance."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

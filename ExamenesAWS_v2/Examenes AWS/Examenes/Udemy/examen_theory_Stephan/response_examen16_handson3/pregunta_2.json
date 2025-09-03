@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Your company needs to perform sentiment analysis on customer feedback provided in various languages.\nWhich AWS service would best suit this requirement?",
+      "options": [
+        "Amazon Translate",
+        "Amazon Polly",
+        "Amazon Comprehend",
+        "Amazon Transcribe"
+      ],
+      "correct_answers": [
+        "Amazon Comprehend"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

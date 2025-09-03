@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Which AWS service would you use to quickly deploy a pre-trained model like GPT-J for text generation tasks?",
+      "options": [
+        "AWS Lambda",
+        "Amazon SageMaker JumpStart",
+        "Amazon Comprehend",
+        "Amazon Translate"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker JumpStart"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

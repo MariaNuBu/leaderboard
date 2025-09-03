@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A financial institution requires that all models be explainable to meet regulatory requirements. Which AWS service should be used to ensure that model predictions are understandable and compliant?",
+      "options": [
+        "SageMaker Model Monitor",
+        "SageMaker Clarify",
+        "SageMaker Neo",
+        "SageMaker Experiments"
+      ],
+      "correct_answers": [
+        "SageMaker Clarify"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-explainability.html",
+        "https://aws.amazon.com/sagemaker/clarify/"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

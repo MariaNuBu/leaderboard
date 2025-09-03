@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Which statement best describes the distinction between observability and monitoring?",
+      "options": [
+        "Monitoring focuses on analyzing data to detect issues with model accuracy and performance, and observability emphasizes measuring inference latency only.",
+        "Monitoring collects data about models, and observability provides deeper insights into internal behaviors and gives tools for system optimization.",
+        "Monitoring helps evaluate the precision, recall, and F1 scores of the model.",
+        "All models need observability, but only machine learning (ML) models require monitoring"
+      ],
+      "correct_answers": [
+        "Monitoring collects data about models, and observability provides deeper insights into internal behaviors and gives tools for system optimization."
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

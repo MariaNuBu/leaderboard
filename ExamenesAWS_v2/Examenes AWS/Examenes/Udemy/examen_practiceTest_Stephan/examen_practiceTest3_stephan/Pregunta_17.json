@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A marketing analyst has developed a binary classification model using an external framework and stored the model artifacts in an Amazon S3 bucket. The analyst now wants to make the model available to a colleague using Amazon SageMaker Canvas for further tuning and analysis. Both the analyst and the colleague are part of the same SageMaker domain.\n\nWhat requirements must be fulfilled to ensure the model can be shared with the SageMaker Canvas user? (Select two)",
+      "options": [
+        "The Canvas user must be configured to the SageMaker domain. Autopilot should be used to share the ML model with SageMaker Canvas",
+        "The Canvas user must be configured in the SageMaker domain. The Canvas user must have permissions to access the S3 bucket where the model artifacts are stored",
+        "Latest version of Amazon SageMaker Studio is needed, SageMaker Studio Classic does not support sharing models to Canvas"
+      ],
+      "correct_answers": [
+        "The model must be registered in the SageMaker Model Registry",
+        "The Canvas user must have permissions to access the S3 bucket where the model artifacts are stored"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-byom.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-collaborate-permissions.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

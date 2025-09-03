@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A data scientist is working on a machine learning project that involves sensitive data. Which network access controls should they implement to ensure the security and isolation of the ML resources?",
+      "options": [
+        "Configure a VPC with private subnets for the ML resources and restrict access to the resources from the internet.",
+        "Use public subnets for the ML resources and rely on IAM policies to control access.",
+        "Implement a bastion host in a public subnet and access the ML resources through the bastion host.",
+        "Use AWS security groups to control inbound and outbound traffic to the ML resources."
+      ],
+      "correct_answers": [
+        "Configure a VPC with private subnets for the ML resources and restrict access to the resources from the internet."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

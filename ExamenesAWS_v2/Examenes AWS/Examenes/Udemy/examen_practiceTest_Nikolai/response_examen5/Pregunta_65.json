@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "A machine learning engineer is using Amazon SageMaker Studio to perform exploratory data analysis on a large dataset stored in Amazon S3.\nThe analyst needs to create visualizations, run data preprocessing workflows, and share the results with team members.\nThe analyst also wants to avoid setting up infrastructure manually.\nConsidering these requirements, which SageMaker features should the analyst leverage to achieve these tasks efficiently? (Select THREE)",
+      "options": [
+        "Store the dataset in the SageMaker notebook instance's local storage to avoid the complexity of using external services like Amazon S3.",
+        "Use SageMaker Automatic Model Tuning to automatically handle hyperparameter optimization during the preprocessing and analysis steps.",
+        "Use Amazon SageMaker's Real-Time Inference Endpoints to deploy the model and generate immediate predictions on the dataset.",
+        "Utilize SageMaker Studio's JupyterLab environment to interactively run code cells, visualize data, and tweak preprocessing workflows without worrying about underlying infrastructure.",
+        "Share SageMaker Studio notebooks directly with team members for collaboration, ensuring that they can access the same environment and results.",
+        "Take advantage of the built-in integrations with popular data visualization libraries such as Matplotlib and Seaborn to create interactive data visualizations."
+      ],
+      "correct_answers": [
+        "Utilize SageMaker Studio's JupyterLab environment to interactively run code cells, visualize data, and tweak preprocessing workflows without worrying about underlying infrastructure.",
+        "Share SageMaker Studio notebooks directly with team members for collaboration, ensuring that they can access the same environment and results.",
+        "Take advantage of the built-in integrations with popular data visualization libraries such as Matplotlib and Seaborn to create interactive data visualizations."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "You are a machine learning (ML) engineer trying to decide between hyperparameter tuning techniques. You need a technique that prioritizes speed and scalability for data with a larger search space. What is the best choice?",
+      "options": [
+        "Hyperband",
+        "Grid search",
+        "Bayesian optimization",
+        "Manual selection"
+      ],
+      "correct_answers": [
+        "Hyperband"
+      ],
+      "references": [
+        "https://arxiv.org/abs/1603.06560"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "A telecommunications company receives real-time network performance data streams from thousands of devices across its infrastructure. The data streams consist of thousands of JSON records per second, detailing metrics like latency, packet loss, and jitter. The company needs to implement a scalable solution on AWS to monitor these metrics and detect anomalies in real time with the least operational overhead.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use Amazon Kinesis Firehose for real-time streaming of the network metrics data into an Amazon S3 bucket, then periodically run an AWS Glue ETL job to detect anomalies using a custom Python script",
+        "Use Amazon Kinesis Data Streams to ingest the data, process it with Apache Flink to analyze the streams in real time, and apply the RANDOM_CUT_FOREST algorithm to detect anomalies",
+        "Ingest the data using Amazon Kinesis Data Streams, analyze the network metrics using Amazon Comprehend, and identify anomalies with a SageMaker model",
+        "Use AWS Lambda to process the network metrics streams in real time and write a custom function to detect anomalies directly from the data"
+      ],
+      "correct_answers": [
+        "Use Amazon Kinesis Data Streams to ingest the data, process it with Apache Flink to analyze the streams in real time, and apply the RANDOM_CUT_FOREST algorithm to detect anomalies"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/big-data/real-time-anomaly-detection-via-random-cut-forest-in-amazon-managed-service-for-apache-flink/",
+        "https://aws.amazon.com/managed-service-apache-flink/",
+        "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

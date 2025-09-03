@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A machine learning engineer is working on a project that involves training multiple versions of a model for sentiment analysis. Her team wants to maintain a clear record of all model versions, track their performance metrics, and ensure only approved models are deployed to production.\n\nWhich approach should the team use to achieve these goals?",
+      "options": [
+        "Store all model versions in a shared file system and manually keep track of their metadata and performance metrics.",
+        "Use Amazon SageMaker Model Registry to register and manage different versions of the sentiment analysis model within a Model Group.",
+        "Create a custom database to store model artifacts and metadata, and develop a custom approval workflow for model deployment.",
+        "Train and deploy only a single version of the model because managing multiple versions would be too complex and time-consuming."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Model Registry to register and manage different versions of the sentiment analysis model within a Model Group."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

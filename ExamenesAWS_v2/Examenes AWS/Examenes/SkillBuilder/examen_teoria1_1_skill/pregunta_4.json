@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "An organization is looking to develop an image recognition machine learning model that will process a large dataset of images. The dataset will range from hundreds of gigabytes to terabytes in size and involve extremely high throughput and low latency access to the data. The storage solution will need to accommodate concurrent access from multiple Amazon EC2 instances to a Windows File Server for distributed training of the model. Which AWS storage option is BEST suited for training this machine learning model, based on the requirements?",
+      "options": [
+        "Amazon S3",
+        "Amazon FSx",
+        "Amazon Elastic Block Store (Amazon EBS)",
+        "Amazon Elastic File System (Amazon EFS)"
+      ],
+      "correct_answers": [
+        "Amazon FSx"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

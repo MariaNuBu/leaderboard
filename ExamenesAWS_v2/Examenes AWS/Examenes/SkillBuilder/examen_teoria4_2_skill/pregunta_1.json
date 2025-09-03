@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of monitoring the throughput key performance indicator (KPI) for a machine learning (ML) infrastructure?",
+      "options": [
+        "Ensuring that the system can handle the expected workload",
+        "Identifying underutilized resources for cost optimization",
+        "Detecting and addressing model drift over time",
+        "Maintaining high availability and reliability of the system"
+      ],
+      "correct_answers": [
+        "Ensuring that the system can handle the expected workload"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

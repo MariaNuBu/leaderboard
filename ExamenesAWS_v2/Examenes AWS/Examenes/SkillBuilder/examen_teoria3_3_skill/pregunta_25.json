@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "An ML engineer has implemented CI/CD best practices into their model training pipeline. What is one key benefit this provides?",
+      "options": [
+        "It scales compute resources to handle increased data volumes.",
+        "It helps the models run faster.",
+        "It enables reproducibility by preserving past model versions and training data.",
+        "It provides access controls to limit model access to authorized users."
+      ],
+      "correct_answers": [
+        "It enables reproducibility by preserving past model versions and training data."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

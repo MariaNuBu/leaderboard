@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "An organization needs to ensure that its AWS resources comply with regulatory standards. They decide to implement AWS Config to monitor and manage the configuration of these resources. The organization also requires automated alerts for non-compliant resources and periodic compliance checks.\n\nWhich combination of AWS Config features should they enable to meet these requirements? (Choose TWO)\n\nConfiguration Items\n\nAWS Config Rules with periodic evaluation\n\nConfiguration Stream\n\nCustom rules created with AWS Lambda\n\nReal-time proactive evaluation mode",
+      "options": [
+        "Configuration Items",
+        "AWS Config Rules with periodic evaluation",
+        "Configuration Stream",
+        "Custom rules created with AWS Lambda",
+        "Real-time proactive evaluation mode"
+      ],
+      "correct_answers": [
+        "AWS Config Rules with periodic evaluation",
+        "Custom rules created with AWS Lambda"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

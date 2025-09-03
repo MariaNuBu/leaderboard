@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "As a machine learning engineer, you have deployed a model using Amazon SageMaker and received reports of unauthorized access attempts. Which of the following SageMaker features would you leverage to investigate the security issue?",
+      "options": [
+        "Amazon Athena",
+        "AWS CloudTrail Logs",
+        "Amazon Kinesis Data Streams",
+        "Amazon S3 Versioning"
+      ],
+      "correct_answers": [
+        "AWS CloudTrail Logs"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

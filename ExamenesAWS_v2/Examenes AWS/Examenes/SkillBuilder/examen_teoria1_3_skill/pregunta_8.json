@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A healthcare organization is developing a machine learning (ML) model to predict patient risk of developing certain chronic conditions. Which consideration should they prioritize to ensure compliance with data privacy regulations?",
+      "options": [
+        "Obtaining explicit consent from patients for the use of their personal health data in the model",
+        "Limiting the model's access to only the minimum necessary patient information required",
+        "Implementing rigorous data security measures to protect the model from unauthorized access",
+        "Anonymizing the patient data before using it to train the model"
+      ],
+      "correct_answers": [
+        "Limiting the model's access to only the minimum necessary patient information required"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

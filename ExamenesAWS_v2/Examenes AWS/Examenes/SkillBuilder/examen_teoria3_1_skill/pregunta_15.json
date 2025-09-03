@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A repeatable framework includes the following components: version control, continuous integration and continuous delivery (CI/CD), model building, model deployment, monitoring, workflow security, model registries, and evaluation. Which answer best describes which factors of the machine learning (ML) lifecycle are included in the model deployment component of a repeatable framework?",
+      "options": [
+        "Deployment focuses exclusively on storing and managing machine learning models, their metadata, and associated artifacts.",
+        "Deployment involves setting up the trained model in a production environment. It can include steps such as containerizing the model, integrating it with the target application or service, and ensuring seamless integration with the overall system architecture.",
+        "Deployment involves the processes of data preparation, feature engineering, and model training.",
+        "Deployment focuses exclusively on ongoing evaluation of model performance in the production environment."
+      ],
+      "correct_answers": [
+        "Deployment involves setting up the trained model in a production environment. It can include steps such as containerizing the model, integrating it with the target application or service, and ensuring seamless integration with the overall system architecture."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

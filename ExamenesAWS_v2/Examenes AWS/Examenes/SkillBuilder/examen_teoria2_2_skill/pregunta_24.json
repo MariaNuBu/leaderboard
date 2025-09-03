@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A machine learning engineer is working on a project that requires a custom algorithm not available as a built-in option in Amazon SageMaker. Their team has decided to use the SageMaker script mode to implement this algorithm. What is the most appropriate approach to take?",
+      "options": [
+        "Request AWS to add their custom algorithm as a built-in option in SageMaker.",
+        "Build their own container from scratch and include their custom algorithm and dependencies.",
+        "Write a Python script containing their custom algorithm and use SageMaker script mode to run it.",
+        "Use a pre-built SageMaker container and modify it to include their custom algorithm."
+      ],
+      "correct_answers": [
+        "Write a Python script containing their custom algorithm and use SageMaker script mode to run it."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/script-mode.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

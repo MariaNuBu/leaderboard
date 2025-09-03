@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A machine learning engineer is working on a project to monitor a deployed model that predicts customer churn for a telecommunications company. The model is currently in production and receiving real-time data from customer interactions. Which statement best describes the key aspects of effective model monitoring in this scenario?",
+      "options": [
+        "Model monitoring is a one-time process that evaluates the model's performance after deployment and provides a report on its accuracy.",
+        "Model monitoring involves continuously comparing the incoming data to a baseline dataset used for training, and detecting any deviations or anomalies in data quality or model performance.",
+        "Model monitoring is a process that checks the model's code for errors and bugs, ensuring it is functioning correctly from a technical perspective.",
+        "Model monitoring is a manual process where data scientists periodically review the model's predictions and compare them to actual customer behavior"
+      ],
+      "correct_answers": [
+        "Model monitoring involves continuously comparing the incoming data to a baseline dataset used for training, and detecting any deviations or anomalies in data quality or model performance."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

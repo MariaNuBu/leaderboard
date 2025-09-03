@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A machine learning (ML) engineer is deciding whether to use AWS artificial intelligence (AI) services or AWS ML services for a common business need. What might be a reason to use AWS AI services?",
+      "options": [
+        "AWS AI services are often cheaper than other solutions but lack performance.",
+        "With AWS AI services, you can build highly specialized models from scratch.",
+        "AWS AI services are pre-built and fully managed services that solve common business needs such as image recognition and text translation. Because they are prebuilt and fully managed, you can get up and running with very little configuration.",
+        "With AWS AI services, you can choose from several algorithms, which can then be fine-tuned to support your business needs in a more specialized manner."
+      ],
+      "correct_answers": [
+        "AWS AI services are pre-built and fully managed services that solve common business needs such as image recognition and text translation. Because they are prebuilt and fully managed, you can get up and running with very little configuration."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

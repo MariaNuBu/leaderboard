@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "You need to ensure that a specific S3 bucket is not publicly accessible. Which AWS service can help you audit this?",
+      "options": [
+        "CloudWatch",
+        "AWS Config",
+        "AWS CloudTrail",
+        "AWS Trusted Advisor"
+      ],
+      "correct_answers": [
+        "AWS Config"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

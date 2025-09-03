@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A machine learning model deployed into production has started underperforming due to the introduction of new data, resulting in the model making less accurate predictions. The team is concerned about both data drift (changes in input data distribution) and model drift (declining model accuracy).\nWhich AWS service combination is most suitable for addressing these issues?",
+      "options": [
+        "SageMaker Model Monitor to track data drift and SageMaker Pipelines to automate model retraining.",
+        "AWS CloudTrail to monitor model drift and AWS Lambda to retrain the model.",
+        "Amazon S3 to store new data and SageMaker Model Monitor to manage model drift.",
+        "SageMaker Feature Store to track data distribution and Amazon Kinesis to monitor model predictions."
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor to track data drift and SageMaker Pipelines to automate model retraining."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

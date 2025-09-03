@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are designing a model for sentiment analysis on customer reviews. Which neural network type is best suited for this task and why?",
+      "options": [
+        "Convolutional Neural Network (CNN)",
+        "Feedforward Neural Network",
+        "Generative Adversarial Network (GAN)",
+        "Recurrent Neural Network (RNN)"
+      ],
+      "correct_answers": [
+        "Recurrent Neural Network (RNN)"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

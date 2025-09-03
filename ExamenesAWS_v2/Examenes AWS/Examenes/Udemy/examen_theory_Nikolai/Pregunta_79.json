@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 79,
+      "question": "You are tasked with building an AI application using Amazon Bedrock. The application will experience variable traffic, with periods of very high usage followed by long idle times. Which pricing option is the MOST cost-effective for this use case?\n\nReserved instance pricing\n\nExplicación\nReserved instance pricing is for long-term, consistent usage but is not relevant in the context of serverless Bedrock, which uses token-based pricing.\n\nSpot instance pricing\n\nExplicación\nSpot instance pricing applies to EC2, not Amazon Bedrock, and is irrelevant to token-based pricing models.",
+      "options": [
+        "Reserved instance pricing",
+        "Spot instance pricing",
+        "On-demand pricing",
+        "Provisioned throughput mode"
+      ],
+      "correct_answers": [
+        "On-demand pricing"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

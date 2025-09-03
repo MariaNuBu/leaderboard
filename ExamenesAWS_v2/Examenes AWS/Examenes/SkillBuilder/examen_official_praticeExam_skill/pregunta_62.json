@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "An ecommerce company designed an ML recommendation system to suggest similar products to customers that visit a product page. The system was deployed by using an Amazon SageMaker AI endpoint. After the system deployment, traffic has increased sporadically throughout the day. An ML engineer must implement a solution that uses auto scaling policies to better handle the increasing traffic without compromising customer experience.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use a target tracking scaling policy based on a custom metric and a target value to scale instance count.",
+        "Use a target tracking scaling policy to specify different instance types based on a predefined metric.",
+        "Use a schedule-based scaling policy to scale instance count at different times during the day.",
+        "Use a step scaling policy to specify different instance types based on demand."
+      ],
+      "correct_answers": [
+        "Use a target tracking scaling policy based on a custom metric and a target value to scale instance count."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

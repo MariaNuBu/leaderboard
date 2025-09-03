@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "Which approach is referred as script mode when using Amazon SageMaker?",
+      "options": [
+        "Using the built-in training algorithms included in SageMaker provided container images.",
+        "Using the machine learning (ML) framework, settings, libraries, and dependencies included in SageMaker provided container images, but providing your own custom training algorithms.",
+        "Building custom container images with your own algorithm, framework, dependencies, and settings.",
+        "Bringing your own locally trained or externally trained model to adapt for use with SageMaker."
+      ],
+      "correct_answers": [
+        "Using the machine learning (ML) framework, settings, libraries, and dependencies included in SageMaker provided container images, but providing your own custom training algorithms."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

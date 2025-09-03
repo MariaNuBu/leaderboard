@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "What is the primary challenge in cost tracking and allocation for machine learning (ML) infrastructure?",
+      "options": [
+        "Complexity of the pipeline",
+        "Insufficient data capture mechanisms",
+        "Lack of visibility into the overall pipeline",
+        "Inherent simplicity of the pipeline"
+      ],
+      "correct_answers": [
+        "Complexity of the pipeline"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

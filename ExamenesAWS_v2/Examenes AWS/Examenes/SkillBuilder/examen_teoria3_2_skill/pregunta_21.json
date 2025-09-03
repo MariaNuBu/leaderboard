@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "An MLOps engineer is creating an AWS CloudFormation template. They need the template to provision an Amazon EC2 instance. Which section of the CloudFormation template would they use to specify the instance and its properties?",
+      "options": [
+        "Parameters",
+        "Outputs",
+        "Resources",
+        "Mappings"
+      ],
+      "correct_answers": [
+        "Resources"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

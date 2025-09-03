@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A financial services company is using Amazon SageMaker to develop a machine learning model for fraud detection. The dataset contains transaction records, customer profiles, and behavioral data, stored in Amazon S3. The data is updated in real-time, and new fraudulent patterns emerge frequently, requiring regular model updates. To ensure that the model remains effective, the company wants to automate the model retraining process based on new data, detect data drift in real-time, and perform hyperparameter tuning for optimal performance. Additionally, the company needs to ensure that model predictions are explainable to regulators.\n\nWhich is the most appropriate solution to meet these requirements?",
+      "options": [
+        "Use SageMaker Model Monitor to detect data drift, SageMaker Pipelines to automate the retraining process, and SageMaker Clarify to explain model predictions.",
+        "Use SageMaker Feature Store to automatically update features as new data comes in, SageMaker Model Monitor to automate model retraining, and SageMaker Autopilot to handle hyperparameter tuning.",
+        "Use SageMaker Clarify to detect data drift, SageMaker Feature Store to manage real-time feature updates, and SageMaker Autopilot to retrain the model based on new data.",
+        "Use SageMaker Data Wrangler to preprocess new data, SageMaker Pipelines to automate retraining and hyperparameter tuning, and SageMaker Ground Truth to explain model predictions."
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Monitor to detect data drift, SageMaker Pipelines to automate the retraining process, and SageMaker Clarify to explain model predictions."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

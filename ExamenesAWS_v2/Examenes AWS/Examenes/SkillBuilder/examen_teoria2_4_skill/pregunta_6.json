@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Which of the following SageMaker Clarify metrics would be most useful for identifying potential biases in the model's predictions?",
+      "options": [
+        "Class imbalance",
+        "Facet imbalance",
+        "Differential prediction bias",
+        "Feature attribution"
+      ],
+      "correct_answers": [
+        "Differential prediction bias"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

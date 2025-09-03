@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A machine learning engineer needs to track and record all API calls made to their AWS account, including changes made to AWS resources, for security and compliance purposes. Which AWS service should the engineer use to achieve this?",
+      "options": [
+        "AWS CloudWatch",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Security Hub"
+      ],
+      "correct_answers": [
+        "AWS CloudTrail"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

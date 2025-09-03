@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Your team is planning to deploy a generative AI model in a serverless environment using Amazon Bedrock. What advantage does this provide?",
+      "options": [
+        "Increased control over the underlying hardware.",
+        "Lower latency in model inference.",
+        "Automatic scaling without managing infrastructure.",
+        "Ability to use custom GPU configurations."
+      ],
+      "correct_answers": [
+        "Automatic scaling without managing infrastructure."
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/big-data/enrich-your-serverless-data-lake-with-amazon-bedrock/"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

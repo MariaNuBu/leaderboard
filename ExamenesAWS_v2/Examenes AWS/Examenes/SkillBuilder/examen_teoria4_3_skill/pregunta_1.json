@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is responsible for securing the data in an Amazon Simple Storage Service (Amazon S3) bucket, according to the shared responsibility model?",
+      "options": [
+        "AWS is solely responsible for securing the data in an Amazon S3 bucket.",
+        "The customer is solely responsible for securing the data in an Amazon S3 bucket.",
+        "Both AWS and the customer share responsibility for securing the data in an Amazon S3 bucket.",
+        "The responsibility for securing the data in an Amazon S3 bucket depends on the specific use case and configuration."
+      ],
+      "correct_answers": [
+        "Both AWS and the customer share responsibility for securing the data in an Amazon S3 bucket."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

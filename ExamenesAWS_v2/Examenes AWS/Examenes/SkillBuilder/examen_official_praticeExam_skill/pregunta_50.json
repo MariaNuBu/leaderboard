@@ -1,0 +1,17 @@
+{
+  "id": 50,
+  "question": "A company needs to run a batch data-processing job on Amazon EC2 instances. The job will run during the weekend and will take 90 minutes to finish running. The processing can handle interruptions. The company will run the job every weekend for the next 6 months.\n\nWhich EC2 instance purchasing option will meet these requirements MOST cost-effectively?",
+  "options": [
+    "Spot Instances",
+    "Reserved Instances",
+    "On-Demand Instances",
+    "Dedicated Instances"
+  ],
+  "correct_answers": [
+    "Spot Instances"
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

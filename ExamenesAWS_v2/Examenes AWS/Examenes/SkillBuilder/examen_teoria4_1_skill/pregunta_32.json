@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A data scientist at a retail company has just deployed a new machine learning model that predicts customer purchase behavior. The model is integrated with Amazon SageMaker, and the data scientist wants to use the Model Dashboard to monitor its performance. Which option best describes the information they can view in the Model Dashboard?",
+      "options": [
+        "Customer feedback and satisfaction ratings for the products recommended by the model",
+        "Aggregated model performance metrics, monitoring results, and endpoint utilization statistics",
+        "Detailed code-level logs and debugging information for the model's training and inference processes",
+        "Real-time sales data and revenue metrics for the products the model promotes"
+      ],
+      "correct_answers": [
+        "Aggregated model performance metrics, monitoring results, and endpoint utilization statistics"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

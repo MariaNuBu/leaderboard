@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "How does iterative model pruning reduce the size of a machine learning (ML) model?",
+      "options": [
+        "It uses a larger teacher model to transfer knowledge to a smaller student model.",
+        "It changes the representation of weights within the model to the most space-efficient representation.",
+        "It removes the least important parameters or nodes from a model.",
+        "It reduces the size of the training dataset."
+      ],
+      "correct_answers": [
+        "It removes the least important parameters or nodes from a model."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

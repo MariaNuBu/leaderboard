@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "An MLOps engineer is planning for the deployment of an Amazon SageMaker endpoint for performing real-time inference. They need to choose an auto scaling policy and are considering a target tracking policy or a step scaling policy. What is a key difference between a target tracking scaling policy and a step scaling policy in SageMaker?",
+      "options": [
+        "A target tracking scaling policy is more complex to configure, whereas a step scaling policy is more straightforward.",
+        "A target tracking scaling policy adjusts the number of instances to maintain a specific metric value. A step scaling policy adjusts the number of instances based on the size of the alarm breach.",
+        "A target tracking scaling policy manages both scale out and scale in actions. A step scaling policy can only be used to scale out resources to meet increased demand.",
+        "A target tracking scaling policy uses a predefined metric, whereas a step scaling policy uses a custom metric."
+      ],
+      "correct_answers": [
+        "A target tracking scaling policy adjusts the number of instances to maintain a specific metric value. A step scaling policy adjusts the number of instances based on the size of the alarm breach."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "Which AWS Machine Learning Lens design principle is most closely related to monitoring and maintaining the effectiveness of machine learning models over time?",
+      "options": [
+        "Assign ownership",
+        "Provide protection",
+        "Enable continuous improvement",
+        "Minimize environmental impact"
+      ],
+      "correct_answers": [
+        "Enable continuous improvement"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

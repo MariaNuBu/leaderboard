@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A healthcare company has developed a machine learning model to assist in diagnosing patients based on their medical records and test results. Which approach would be most appropriate to monitor for potential bias in the model's predictions?",
+      "options": [
+        "Calculate bias metrics (for example, disparate impact, equal opportunity difference) for different sensitive groups or subpopulations.",
+        "Use interpretability techniques like SHAP to calculate feature attributions and monitor changes over time.",
+        "Calculate relevant evaluation metrics (for example, accuracy, precision, recall) on a held-out test set.",
+        "Implement techniques like data drift detection to identify changes in the distribution of input data over time."
+      ],
+      "correct_answers": [
+        "Calculate bias metrics (for example, disparate impact, equal opportunity difference) for different sensitive groups or subpopulations."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

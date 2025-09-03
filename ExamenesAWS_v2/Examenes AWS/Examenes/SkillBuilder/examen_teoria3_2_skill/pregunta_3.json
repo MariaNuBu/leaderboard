@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "An MLOps engineer is creating a CloudFormation template that will be used in multiple AWS Regions. The template will provision EC2 instances, but it needs to provide a different Amazon Machine Image (AMI), depending on which Region the template is being used in. Which section of the CloudFormation template would be used to provide the AMI ID values for each Region?",
+      "options": [
+        "Mappings",
+        "Rules",
+        "Transform",
+        "Outputs"
+      ],
+      "correct_answers": [
+        "Mappings"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

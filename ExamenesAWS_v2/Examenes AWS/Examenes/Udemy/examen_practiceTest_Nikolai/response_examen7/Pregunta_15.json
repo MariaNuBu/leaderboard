@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A global retail company collects customer feedback in various languages through email and web forms. The company wants to automatically detect customer sentiment, categorize the feedback into relevant product categories, and translate the feedback into English for further analysis by the product team. The solution should support scalability and automate the entire process.\n\nWhich combination of services would BEST meet the company’s needs?",
+      "options": [
+        "Amazon Comprehend for both sentiment analysis and categorization, Amazon Translate for translation, and Amazon Kendra for providing search capabilities across the feedback.",
+        "Amazon Comprehend for sentiment analysis, Amazon Translate for translating feedback to English, and Amazon SageMaker for classifying feedback into product categories.",
+        "Amazon Rekognition for analyzing the text within images, Amazon Comprehend for categorizing feedback, and Amazon Translate for language translation.",
+        "Amazon Translate for translating feedback, Amazon Comprehend for sentiment analysis and entity recognition, and AWS Lambda for automating the process."
+      ],
+      "correct_answers": [
+        "Amazon Translate for translating feedback, Amazon Comprehend for sentiment analysis and entity recognition, and AWS Lambda for automating the process."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 - "
+    }
+  ]
+}

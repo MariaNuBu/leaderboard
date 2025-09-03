@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A machine learning engineer is setting up a private subnet within a VPC to host their ML workloads.  Which statement about security groups in this environment is correct?",
+      "options": [
+        "Security groups should be configured to allow inbound and outbound traffic only on the specific ports required by the ML workloads and services.",
+        "Security groups should be configured to allow inbound SSH traffic from the public internet to enable remote access to the ML instances.",
+        "Security groups should be configured to allow all inbound and outbound traffic to ensure the ML workloads can communicate freely.",
+        "Security groups are not required in a private subnet environment, as all traffic within the VPC is automatically allowed."
+      ],
+      "correct_answers": [
+        "Security groups should be configured to allow inbound and outbound traffic only on the specific ports required by the ML workloads and services."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A data science team has been tasked with building a machine learning (ML) model for detecting disease outbreaks. The data will be trained on a large dataset of medical records, including lab results, treatment histories, medication data, and more. The team needs to decide on a storage solution for hosting and training the ML model. Which storage services are the best choices for this project? (Select TWO.)",
+      "options": [
+        "Amazon S3",
+        "Amazon FSx for Lustre",
+        "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "Amazon Elastic File System (Amazon EFS)",
+        "Amazon Elastic Block Store (Amazon EBS)"
+      ],
+      "correct_answers": [
+        "Amazon S3",
+        "Amazon Elastic File System (Amazon EFS)"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

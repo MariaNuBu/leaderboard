@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A data scientist is working on a computer vision project that involves training a Convolutional Neural Network (CNN) on a dataset of high-resolution images. The dataset is relatively small, but they need to experiment with different model architectures and hyperparameters to achieve the desired performance. Which approach should they take?",
+      "options": [
+        "Use AWS Trainium instances for training the model.",
+        "Use GPU instances for training the model.",
+        "Use a combination of CPU and GPU instances for training the model.",
+        "Use CPU instances for training the model."
+      ],
+      "correct_answers": [
+        "Use GPU instances for training the model."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

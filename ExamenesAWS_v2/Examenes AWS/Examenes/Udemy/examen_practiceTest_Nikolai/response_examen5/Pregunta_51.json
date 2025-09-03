@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A data scientist is using SageMaker Experiments to track and compare model training runs. They want to ensure that detailed metadata, such as hyperparameters, datasets, and code changes, are logged automatically for each trial. Which feature of SageMaker Experiments provides this functionality?\n\nSageMaker Feature Store\n\nExplicación\nSageMaker Feature Store is used to store and manage features used in training, but it is not responsible for tracking experiment metadata.\n\nModel Monitor\n\nExplicación\nModel Monitor is used to monitor models in production for data and model drift but does not handle logging trial metadata during the experimentation phase.\n\nTrial Components\n\nExplicación\nTrial Components refer to different stages of an individual trial, but they do not handle automatic logging of metadata.",
+      "options": [
+        "SageMaker Feature Store",
+        "Model Monitor",
+        "Trial Components",
+        "Trackers"
+      ],
+      "correct_answers": [
+        "Trackers"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

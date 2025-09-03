@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "When evaluating a model, you notice that it performed well on the training set, but poorly on the validation set. You recognize this an an overfit model. You notice that for the first half of the training job, model performance improved rapidly. However, during the second half of the training job, model performance on the training data had mostly leveled out and wasn't improving much. Which regularization technique might help address this issue.",
+      "options": [
+        "Early stopping",
+        "Dropout",
+        "L1 regularization",
+        "L2 regularization"
+      ],
+      "correct_answers": [
+        "Early stopping"
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

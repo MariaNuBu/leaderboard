@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "An ML model that predicts customer churn for a subscription-based service has been deployed for several months and is showing signs of performance degradation. The data science team has been notified and is investigating the issue. \nWhat is the most appropriate troubleshooting tool to help identify the root cause of the problem?",
+      "options": [
+        "Amazon SageMaker Model Registry",
+        "SageMaker Lineage Tracking",
+        "SageMaker Model Cards",
+        "A/B testing framework"
+      ],
+      "correct_answers": [
+        "SageMaker Lineage Tracking"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

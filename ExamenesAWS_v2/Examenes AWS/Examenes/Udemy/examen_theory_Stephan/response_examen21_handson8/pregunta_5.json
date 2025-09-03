@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "For which use case is SageMaker JumpStart most appropriate?",
+      "options": [
+        "Custom model training from scratch",
+        "Real-time anomaly detection",
+        "Deploying pre-trained models to pre-configured endpoints",
+        "Optimizing models for edge devices"
+      ],
+      "correct_answers": [
+        "Deploying pre-trained models to pre-configured endpoints"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

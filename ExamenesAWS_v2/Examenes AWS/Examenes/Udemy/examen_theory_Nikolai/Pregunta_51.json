@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A machine learning engineer is using Amazon SageMaker Debugger to monitor a TensorFlow model's training. They want to automatically detect overfitting and underfitting. What steps should the engineer take to use SageMaker Debugger effectively? (Choose Two.)",
+      "options": [
+        "Manually stop the training job if no improvements are observed",
+        "Use AWS Glue to preprocess data before training",
+        "Use Amazon SageMaker Ground Truth to label additional training data",
+        "Set up a debugger hook in the training script to capture relevant tensors",
+        "Configure debug rules that monitor key metrics such as loss curves during training"
+      ],
+      "correct_answers": [
+        "Set up a debugger hook in the training script to capture relevant tensors",
+        "Configure debug rules that monitor key metrics such as loss curves during training"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

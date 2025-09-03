@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "During a hyperparameter tuning job, you want to monitor the CPU and memory utilization of the SageMaker instance. Which service would you use for this?",
+      "options": [
+        "AWS CloudTrail",
+        "AWS CloudWatch",
+        "AWS KMS",
+        "AWS Shield"
+      ],
+      "correct_answers": [
+        "AWS CloudWatch"
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

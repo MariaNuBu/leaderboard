@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "What characteristic best describes a stateless system?",
+      "options": [
+        "Processes each request independently without retaining previous state.",
+        "Requires continuous data stream management.",
+        "Stores session data for each user interaction.",
+        "Maintains context across multiple requests."
+      ],
+      "correct_answers": [
+        "Processes each request independently without retaining previous state."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

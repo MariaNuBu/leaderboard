@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You're implementing a customer query system that uses Amazon Bedrock's LLM agents. The agent needs to use both a knowledge base and an external API for retrieving real‑time data. How should you structure the agent to meet these requirements?",
+      "options": [
+        "Create a single action group combining the knowledge base and the API.",
+        "Use separate action groups for the knowledge base and API, guiding the LLM on when to use each.",
+        "Hardcode the API calls within the LLM prompt.",
+        "Train the LLM to handle both tasks without external action groups."
+      ],
+      "correct_answers": [
+        "Use separate action groups for the knowledge base and API, guiding the LLM on when to use each."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/action-define.html",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "A company deployed into production an ML model to use for image classification. The company developed a new version of the model with improved precision. The company wants to deploy the new model into production. The company must test the new model alongside the old model by using the same data. Precision cannot be compromised. Some downtime can be tolerated.\n\nWhich deployment strategy will meet these requirements?",
+      "options": [
+        "Blue/green deployment",
+        "Canary deployment",
+        "A/B testing",
+        "Shadow testing"
+      ],
+      "correct_answers": [
+        "Shadow testing"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

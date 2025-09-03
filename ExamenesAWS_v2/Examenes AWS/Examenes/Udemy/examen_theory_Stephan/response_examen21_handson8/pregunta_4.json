@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "You need to monitor a deployed model for feature attribution drift. Which metric should you monitor using SageMaker Model Monitor?",
+      "options": [
+        "Kullback-Leibler Divergence (KL)",
+        "Total Variation Distance (TVD)",
+        "Conditional Demographic Disparity (CDD)",
+        "Normalized Discounted Cumulative Gain (NDCG)"
+      ],
+      "correct_answers": [
+        "Normalized Discounted Cumulative Gain (NDCG)"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-feature-attribution-drift.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

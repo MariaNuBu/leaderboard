@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "Official Pretest: AWS Certified Machine Learning Engineer - Associate \nPREGUNTA 55\n\nTOPIC 4.1 Monitor model inference.\n\nA digital marketing company is running a classification model in a production environment. The company is experiencing drift issues.\n\nSelect the correct issue from the following list for each drift scenario. Each issue should be selected one time. (Select THREE.)\n\nBias drift\nData quality drift\nFeature attribution drift\n\n Degrading accuracy because real-life data has a different distribution than the training data.\n\n Data quality drift\nShowing disparate treatment to certain groups.\n\n Bias drift\nAffecting the interpretability of the model.\n\n Feature attribution drift",
+      "options": [
+        "Bias drift",
+        "Data quality drift",
+        "Feature attribution drift"
+      ],
+      "correct_answers": [
+        "Data quality drift",
+        "Bias drift",
+        "Feature attribution drift"
+      ],
+      "references": [],
+      "topic": "TOPIC 4.1 Monitor model inference.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A company receives hundreds of resumes every day. The company stores the resumes in an Amazon S3 bucket.\n\nThe company needs to deploy an automated and scalable solution to detect and extract personally identifiable information (PII) from PDF resume files. The solution must also detect and provide PII entities before saving the result back to the S3 bucket.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Create an Amazon Transcribe batch translation job. Start an asynchronous job to detect the PII entities.",
+        "Create an Amazon Personalize batch inference job. Start an asynchronous job to detect the PII entities.",
+        "Call the Amazon Textract asynchronous API operations to detect the PII entities.",
+        "Create an Amazon Comprehend analysis job. Start an asynchronous job to detect the PII entities."
+      ],
+      "correct_answers": [
+        "Create an Amazon Comprehend analysis job. Start an asynchronous job to detect the PII entities."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

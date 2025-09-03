@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "An ML engineer needs to create a training environment for thousands of training jobs. Each training job runs for a short duration of time and uses the same configuration, such as instance type. Each job needs to start running as soon as the previous job finishes running. On some days, no training jobs run. Which solution will meet these requirements MOST cost-effectively?",
+      "options": [
+        "Create an Amazon SageMaker HyperPod cluster. Queue the training jobs by using Slurm.",
+        "Create an AWS Batch job that uses Amazon EC2 Spot Instances. Queue the training jobs by using FIFO scheduling.",
+        "Create an Amazon Elastic Kubernetes Service (Amazon EKS) cluster that uses AWS Fargate. Use Apache Airflow to queue the training jobs.",
+        "Create Amazon SageMaker AI training jobs. Set the keep_alive_period_in_seconds value for each job."
+      ],
+      "correct_answers": [
+        "Create Amazon SageMaker AI training jobs. Set the keep_alive_period_in_seconds value for each job."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

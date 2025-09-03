@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A company has a medical image diagnostics application that analyzes images that are up to 1 MB in size. Hospitals use REST API calls to AWS to transmit images to CPU-based inference models that are hosted on Amazon SageMaker AI. The models take less than 1 minute to process each image. The models must respond with interpretations for the images in real time. The traffic volume to the models is unpredictable during working hours and is almost nonexistent after working hours. Which deployment solution will meet these requirements MOST cost-effectively?",
+      "options": [
+        "Set up SageMaker AI batch transform to preprocess the images. Perform inference at the end of each day.",
+        "Set up SageMaker Asynchronous Inference. Queue the inference requests and respond within 1 hour.",
+        "Set up SageMaker Serverless Inference. Scale the underlying infrastructure based on workload requests.",
+        "Host the models in a Docker container. Use SageMaker AI to perform real-time inference."
+      ],
+      "correct_answers": [
+        "Set up SageMaker Serverless Inference. Scale the underlying infrastructure based on workload requests."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

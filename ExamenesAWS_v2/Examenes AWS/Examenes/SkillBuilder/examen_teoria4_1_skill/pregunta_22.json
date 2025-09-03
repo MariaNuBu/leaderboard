@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A retail company uses a machine learning model for product recommendations. The monitoring system detects a sudden increase in the number of null values in the input data. What would be the most appropriate automated remediation strategy?",
+      "options": [
+        "Notify the site reliability engineers to investigate the application components responsible for data ingestion.",
+        "Scale out the inference infrastructure to handle the increased data volume.",
+        "Update the business KPIs to account for the null values in the input data.",
+        "Retrain the model with the new data to adapt to the null values."
+      ],
+      "correct_answers": [
+        "Notify the site reliability engineers to investigate the application components responsible for data ingestion."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

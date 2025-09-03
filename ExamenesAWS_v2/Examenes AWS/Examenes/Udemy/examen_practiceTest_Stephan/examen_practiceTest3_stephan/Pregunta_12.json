@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A healthcare research organization is running ML models on-premises to analyze patient data for early disease detection. The organization uses custom Python scripts written with PyTorch and relies on proprietary medical datasets for training the models. The models are highly customized and require domain-specific knowledge for accurate predictions. The organization plans to migrate the ML workflows to AWS to leverage scalable and managed infrastructure. The migration must require the least effort while ensuring minimal changes to the existing PyTorch scripts.\n\nWhat do you recommend?",
+      "options": [
+        "Use Amazon SageMaker Script Mode to import the existing PyTorch scripts and proprietary datasets into SageMaker for training and inference without significant modifications",
+        "Develop a custom PyTorch container with the existing scripts and datasets, then deploy it on Amazon SageMaker for distributed training and inference",
+        "Migrate the datasets to Amazon S3 and use Amazon EMR to preprocess the data before deploying the PyTorch models on EC2 instances",
+        "Refactor the PyTorch scripts to integrate them with SageMaker’s built-in algorithms, and upload the datasets to Amazon S3 for preprocessing"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Script Mode to import the existing PyTorch scripts and proprietary datasets into SageMaker for training and inference without significant modifications"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-script-mode/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers-adapt-your-own.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

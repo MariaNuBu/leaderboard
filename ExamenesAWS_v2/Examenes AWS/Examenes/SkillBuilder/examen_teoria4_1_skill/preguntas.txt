@@ -1,0 +1,330 @@
+The Machine Learning Lens: AWS Well-Architected Framework design principle, continuous improvement, is a key component to help your models remain accurate and effective over time. 
+Which best practices can be used to help with continuous improvement?
+
+
+Establish feedback loops, monitor performance, and automate retraining. (Correct)
+Optimize resource usage, monitor return on investment (ROI), and monitor metrics to right-size your instance types.
+Resource pooling, implementing caching strategies, and data management.
+AWS auto scaling, Amazon SageMaker built-in scaling, and AWS Lambda for scaling ML inference workloads.
+
+
+
+
+A machine learning engineer has noticed a change in the production data for his ML model. The training dataset had a balanced distribution of the two groups of data. However, over time, the production dataset has a third group, which was not represented in the original training dataset. Which type of drift has the machine learning engineer identified?
+
+
+Data quality drift
+Model quality drift
+Model bias drift (Correct)
+Feature attribution drift
+
+
+
+
+A machine learning engineer has noticed some model quality drift. Specifically, they noticed predictions that their model made that differed from the actual ground truth labels that the model attempted to predict. Which steps for monitoring will work best for model quality issues?
+
+
+Implement data validation checks, calculate statistical metrics, compare metrics with baseline values or expected ranges, and use techniques like data drift detection.
+Calculate relevant evaluation metrics, implement confidence thresholds, flag predictions, and monitor the model on different datasets. (Correct)
+Calculate bias metrics, compare metrics with baseline values or thresholds, and implement techniques like adversarial debiasing.
+Use techniques like SHAP (SHapley Additive exPlanations), calculate statistic metrics, compare metrics with baseline or expected ranges, and identify features that have significantly changed over time
+
+
+A manufacturing company has developed a machine learning model to predict equipment failures based on sensor data. The model is used in batch transform jobs that run weekly to process the latest sensor data. The company wants to ensure that the model's performance and the quality of the input data remain within acceptable limits.
+Which option would be the most appropriate for monitoring the model in this scenario?
+
+
+Set up Amazon SageMaker Model Monitor to continuously monitor the model's performance and data quality for the real-time endpoint.
+Use Amazon SageMaker Model Monitor to schedule monitoring jobs to run after each batch transform job. (Correct)
+Manually analyze the model's predictions and input data after each batch transform job to identify any issues.
+Retrain the model periodically with new data to ensure it remains up to date.
+
+
+A machine learning engineer working on a fraud detection model for a financial institution. The model is currently deployed and receiving real-time transaction data for inference. To monitor the data quality of the incoming transactions, the engineer has set up Amazon SageMaker Model Monitor. Which steps should they take to create a baseline for data quality monitoring?
+
+
+Use the training dataset to generate baseline constraints and statistics using the suggest_baseline method of the ModelQualityMonitor object. (Correct)
+Analyze the captured inference data from the deployed endpoint to generate baseline constraints and statistics.
+Use the validation dataset to generate baseline constraints and statistics using the suggest_baseline method of the ModelQualityMonitor object.
+Use a pre-defined set of default baseline constraints and statistics provided by SageMaker Model Monitor.
+
+
+A company has deployed a binary classification model to predict customer churn based on customer behavior data. They want to monitor the model's quality over time using SageMaker Model Monitor. The company has a dataset of labeled customer data, including the ground truth labels for churn, stored in Amazon Simple Storage Service (Amazon S3).
+Which inputs are required for Amazon SageMaker Model Monitor to monitor the model's quality effectively?
+
+
+Baseline data, inference input data, and Amazon SageMaker Ground Truth labels (Correct)
+Inference input data and Amazon SageMaker Ground Truth labels
+Baseline data and inference input data
+Inference input data only
+
+
+A financial institution has developed a machine learning model to predict loan default risk. The model is based on various customer attributes such as income, credit history, and employment status. The model is currently in production, and the institution wants to monitor for potential statistical bias drift to ensure fair and accurate predictions.
+Which approach would require the least amount of effort for this scenario?
+
+
+Use Amazon SageMaker Clarify directly to configure a processing job and analyze the model's predictions for bias.
+Use Amazon SageMaker Data Wrangler to identify potential bias during data preparation before model training.
+Use Amazon SageMaker Model Monitor, which integrates with Amazon SageMaker Clarify, to monitor the deployed model's predictions for bias drift.(Correct)
+Manually inspect the model's predictions and compare them with the training data to detect any statistical bias drift.
+
+
+A financial institution has developed a credit risk assessment model to evaluate loan applications. The model's predictions are influenced by various features, such as the applicant's income, credit history, and employment status. The institution wants to ensure that the model's feature attributions remain consistent and fair over time.
+Which benefit of SageMaker Clarify attribution monitoring would be most relevant in this scenario?
+
+
+Automatically create a baseline and compute feature statistics for the model's predictions.
+Inspect merged data and generate quality metrics and violations related to feature attribution drift. (Correct)
+Push generated reports to Amazon Simple Storage Service (Amazon S3) for further analysis in a notebook environment.
+Emit CloudWatch metrics to set up alerts and triggers for detected violations
+
+
+A financial institution has developed a new fraud detection model. Because of the high-stakes nature of the application, they want to thoroughly evaluate the model's performance and impact before fully deploying it.Which benefit of A/B testing would be most relevant in this scenario?
+Continuous monitoring for performance degradation or concept drift
+Realistic performance evaluation in a production-like environment (Correct)
+Improved user experience optimization
+Increased stakeholder confidence and trust in the deployed model
+
+
+A company wants to ensure that their ML models are compliant with regulatory requirements and can provide evidence of the data sources used for training.
+Which feature of the Amazon SageMaker Model Dashboard would be MOST useful for this scenario?
+
+
+Alerts
+Risk rating
+Endpoint performance
+Model lineage graphs (Correct)
+
+
+A research organization has developed a machine learning model to analyze satellite imagery for environmental monitoring purposes. The model is deployed in a batch processing pipeline that runs weekly.
+Which monitoring approach would be most suitable for this scenario?
+
+
+Real-time monitoring of input data validation, output data anomalies, and inference latency
+Batch monitoring of data quality, and model performance (Correct)
+Comprehensive monitoring, including data quality, model performance, bias, and feature attribution
+User behavior monitoring and error logging
+
+
+Your company has developed a machine learning model to predict customer churn based on various customer data. The model is deployed in production, and you have set up monitoring to track its performance. One day, you receive an alert indicating a significant drop in the model's accuracy metric. What would be the most appropriate course of action?
+
+
+Immediately retrain the model using the latest available data and redeploy it.
+Notify the data science team to investigate the root cause of the performance degradation. (Correct)
+Schedule a periodic retraining of the model at a predetermined interval.
+Scale out the inference infrastructure to compensate for the performance drop.
+
+
+A machine learning engineer is working on a fraud detection system for a financial institution. The system uses a machine learning model to identify potentially fraudulent transactions based on various features such as transaction amount, location, and customer behavior. 
+Which monitoring task would be most important to ensure the reliability and fairness of the fraud detection system?
+
+
+Monitor bias drift by calculating bias metrics for different customer demographics and comparing them to established baselines. (Correct)
+Monitor data quality by checking for missing values and outliers in the input data.
+Monitor model quality by calculating evaluation metrics like precision, recall, and F1 score on a held-out test set.
+Monitor feature attribution drift by analyzing changes in the importance or contribution of individual features to the model's predictions.
+
+
+A machine learning engineer is setting up model quality monitoring for a multiclass classification model deployed using Amazon SageMaker. 
+Which metrics will SageMaker Model Monitor compute to assess the model's quality?
+
+
+Area Under the Curve (AUC), Precision-Recall (PR) Curve, Receiver Operating Characteristic (ROC) Curve
+Confusion Matrix, Weighted Precision, Weighted Recall, Weighted Accuracy, Weighted F1 score (Correct)
+Mean Absolute Error (MAE), Mean Squared Error (MSE), R-squared (R²)
+Accuracy, Precision, Recall, F1 score
+
+
+An ML model that predicts customer churn for a subscription-based service has been deployed for several months and is showing signs of performance degradation. The data science team has been notified and is investigating the issue. 
+What is the most appropriate troubleshooting tool to help identify the root cause of the problem?
+
+
+Amazon SageMaker Model Registry
+SageMaker Lineage Tracking (Correct)
+SageMaker Model Cards
+A/B testing framework
+
+
+An online education platform wants to use Amazon SageMaker Clarify to monitor their student performance prediction model for potential bias against certain demographic groups. Which option would be the most efficient for this use case?
+
+
+Use SageMaker Data Wrangler to identify potential bias during data preparation.
+SageMaker Clarify cannot be used for monitoring deployed models; it can only analyze bias in the training data.
+Use SageMaker Clarify directly by configuring a SageMaker Clarify processing job.
+Use SageMaker Model Monitor with SageMaker Clarify to monitor the model's predictions for bias drift. (Correct)
+
+
+Which AWS Machine Learning Lens design principle is most closely related to monitoring and maintaining the effectiveness of machine learning models over time?
+Assign ownership
+Provide protection
+Enable continuous improvement (Correct)
+Minimize environmental impact
+
+
+A company has developed a machine learning model to predict customer churn. Which statement best describes the importance of monitoring this model?
+
+
+Monitoring is not necessary since the model was trained on historical data and will remain accurate over time.
+Monitoring is important to detect potential data quality issues, model performance degradation, or bias drift that may occur. (Correct)
+Monitoring is solely focused on tracking the model's computational resource usage and infrastructure performance.
+Monitoring is only required during the initial deployment phase to ensure the model is functioning correctly.
+
+
+A retail company has developed a machine learning model to predict customer demand for various products. The company wants to set up Amazon SageMaker Model Monitor to continuously monitor the model's performance. 
+Which step would be involved in setting up SageMaker Model Monitor for this use case?
+
+
+Deploy a separate monitoring model alongside the production model to analyze its performance.
+Retrain the model using the latest customer data to ensure it remains up-to-date.
+Manually review and label a sample of the model's predictions to establish a ground truth for evaluation.
+Create a baseline by analyzing the training dataset used to train the model and define constraints and statistics for monitoring. (Correct)
+
+
+A development team is tasked with setting up feature attribution drift monitoring for a speech recognition model deployed on Amazon SageMaker. The model takes audio signals as input and transcribes them into text.  Which statement accurately describes how SageMaker Clarify's feature attribution monitoring can help in this scenario?
+
+
+It can identify the specific audio features or acoustic properties that contribute the most to the model's transcription accuracy, facilitating improvements in those areas. (Correct)
+It can automatically adjust the model's parameters or retrain it with new data when feature attribution drift is detected, ensuring the transcription accuracy remains high.
+It can detect changes in distribution of audio frequencies or signal-to-noise ratios in the input data, alerting you to potential issues with the data quality.
+It can compare the model's transcriptions to ground truth transcripts and quantify the contribution of each word or phrase to the overall accuracy.
+
+
+A healthcare organization wants to use the SageMaker Model Dashboard to monitor its suite of models used for medical diagnosis. Which feature would be most relevant and beneficial for their use case?
+
+
+Real-time inference metrics: Detailed metrics on the latency and throughput of real-time predictions.
+Interpretability analysis: Insights into the internal decision-making processes of the models to ensure explainability.
+Data quality alerts: Automated alerts that notify the team when the input data quality deviates from expected standards.
+Risk rating: The ability to assign a risk level to each model based on the potential impact of incorrect predictions. (Correct)
+
+
+A retail company uses a machine learning model for product recommendations. The monitoring system detects a sudden increase in the number of null values in the input data. What would be the most appropriate automated remediation strategy?
+
+
+Notify the site reliability engineers to investigate the application components responsible for data ingestion. (Correct)
+Scale out the inference infrastructure to handle the increased data volume.
+Update the business KPIs to account for the null values in the input data.
+Retrain the model with the new data to adapt to the null values.
+
+
+A financial institution has developed a machine learning model to detect fraudulent transactions. The model is currently in production and processing real-time data from various sources. When would it be appropriate to monitor the model's data quality and performance using Amazon SageMaker Model Monitor?
+
+
+Only during the initial deployment phase of the model
+After a scheduled batch processing job has completed
+Continuously, as the model processes real-time data from incoming transactions (Correct)
+Only when there is a suspected issue with the model's predictions or performance
+
+
+Which scenario best represents an example of model quality drift?
+The contribution of individual features to the model's predictions has changed compared to the baseline established during training.
+The model's predictions start to deviate from the actual ground truth labels it was trained to predict. (Correct)
+The distribution of input data received by the model in production differs significantly from the training data distribution.
+The model starts to exhibit increased bias in its predictions for certain subpopulations or sensitive groups.
+
+
+A healthcare company has developed a machine learning model to assist in diagnosing patients based on their medical records and test results. Which approach would be most appropriate to monitor for potential bias in the model's predictions?
+Calculate bias metrics (for example, disparate impact, equal opportunity difference) for different sensitive groups or subpopulations. (Correct)
+Use interpretability techniques like SHAP to calculate feature attributions and monitor changes over time.
+Calculate relevant evaluation metrics (for example, accuracy, precision, recall) on a held-out test set.
+Implement techniques like data drift detection to identify changes in the distribution of input data over time.
+
+
+A machine learning engineer is tasked with monitoring the data quality of a machine learning model deployed for credit risk assessment. The model takes various financial and demographic features as input. 
+Which step should the engineer take to create a baseline dataset for monitoring data quality drift?
+Run a baseline processing job using the ModelQualityMonitor object in the Amazon SageMaker Python SDK, providing the training dataset stored in Amazon Simple Storage Service (Amazon S3). (Correct)
+Use a third-party tool to analyze the training dataset and generate baseline statistics and constraints.
+Manually analyze the training dataset and create JSON files containing statistics and constraints based on your domain knowledge.
+Skip creating a baseline dataset and directly compare the incoming inference data against predefined thresholds.
+
+
+A healthcare company has developed a machine learning model to predict patient re-admission risk based on electronic medical records. The model is currently deployed and receiving data from multiple hospitals.  
+Which statement best describes how Amazon SageMaker Model Monitor works at a high level
+SageMaker Model Monitor performs real-time code analysis on the deployed model to identify and fix any technical errors or bugs.
+SageMaker Model Monitor automatically updates the model's hyperparameters and architecture based on the incoming data to improve its performance.
+SageMaker Model Monitor compares the incoming data to a baseline dataset used for training the model, checks for data quality issues, and generates reports on any violations or deviations detected. (Correct)
+SageMaker Model Monitor continuously retrains the model using the incoming data to ensure it remains up-to-date and accurate.
+
+
+A data scientist is using the SageMaker Model Dashboard to monitor a suite of models used for natural language processing tasks. They have set up Model Monitor alerts and want to understand how the dashboard helps them manage and prioritize these alerts. 
+Which feature best supports their alert management process?
+
+
+Alert severity levels: Alerts are categorized into critical, warning, and informational levels to help prioritize response.
+Alert history: The dashboard provides a record of all activated alerts, allowing the data scientist to review and analyze past issues. (Correct)
+Customizable alert actions: The data scientist can define specific actions to be taken automatically when certain alerts are activated.
+Alert dependencies: The dashboard identifies and groups related alerts, helping the data scientist address root causes effectively.
+
+
+An ecommerce company has deployed a machine learning model to recommend products to customers based on their browsing and purchase history. The company wants to ensure that the model's recommendations remain relevant and unbiased over time.  Which benefit of Amazon SageMaker Model Monitor would be most valuable in this scenario?
+
+
+Early detection of data quality issues
+Compliance with data quality standards
+Improved model performance and accuracy (Correct)
+Reduced operational overhead for data monitoring
+
+
+A media company wants to improve its content recommendation system by testing a new machine learning model.  Which scenario would benefit the most from using A/B testing for evaluating the new recommendation model?
+
+
+The company wants to assess the impact of the new model on user engagement metrics, such as click-through rates and content consumption. (Correct)
+The company wants to ensure that the new model complies with data privacy regulations and does not expose any sensitive user information.
+The company wants to evaluate the new model's performance on a static dataset of historical user interactions and content metadata.
+The company wants to compare the computational performance of the new model against the existing model in terms of inference latency and resource utilization.
+
+
+An ecommerce company wants to monitor their product recommendation model for potential bias against certain customer segments.  Which statement best describes how Amazon SageMaker Clarify can help with this task?
+
+
+SageMaker Clarify can only detect bias in the training data used to build the recommendation model, but not in the model's predictions.
+SageMaker Clarify can monitor the model's predictions for bias or feature attribution drift, helping identify if certain customer segments are being treated unfairly. (Correct)
+SageMaker Clarify can only detect bias in numerical features like purchase history or browsing behavior, but not in categorical features like customer demographics.
+SageMaker Clarify can automatically adjust the model's parameters to mitigate any detected bias.
+
+
+A data scientist at a retail company has just deployed a new machine learning model that predicts customer purchase behavior. The model is integrated with Amazon SageMaker, and the data scientist wants to use the Model Dashboard to monitor its performance. Which option best describes the information they can view in the Model Dashboard?
+Customer feedback and satisfaction ratings for the products recommended by the model
+Aggregated model performance metrics, monitoring results, and endpoint utilization statistics (Correct)
+Detailed code-level logs and debugging information for the model's training and inference processes
+Real-time sales data and revenue metrics for the products the model promotes
+
+
+A machine learning engineer is working on a project that involves deploying a credit risk assessment model in production. To ensure the model's transparency and explainability, you want to monitor for feature attribution drift using Amazon SageMaker Clarify, integrated with SageMaker Model Monitor. Which statement accurately describes the benefits of this approach?
+
+
+It automatically retrains the model when feature attribution drift is detected, ensuring the model remains up-to-date with the latest data patterns.
+It provides insights into how the model makes predictions by quantifying the contribution of each feature, facilitating the detection for any shifts in feature importance. (Correct)
+It aids in tracking the performance of the model by comparing its predictions to the actual credit risk outcomes, helping you identify any accuracy degradation.
+It helps you to monitor for changes in the distribution of input features over time, ensuring the model's predictions remain consistent and reliable.
+
+
+A company has deployed a machine learning model for predictive maintenance of industrial equipment. Which category of monitoring is MOST relevant for ensuring the model remains effective over time? 
+Monitoring infrastructure performance
+Meeting business requirements
+Evaluating model performance (Correct)
+Ensuring compliance with regulations and industry standards
+
+
+A retail company has deployed a machine learning model using Amazon SageMaker to predict customer purchase behavior. The company wants to ensure the model's performance remains consistent over time. 
+Which AWS services would be most suitable for monitoring the deployed model?
+Amazon SageMaker Model Monitor (Correct)
+AWS Lambda
+AWS CloudTrail
+Amazon CloudWatch Logs
+
+
+A machine learning engineer is working on a project to monitor a deployed model that predicts customer churn for a telecommunications company. The model is currently in production and receiving real-time data from customer interactions. Which statement best describes the key aspects of effective model monitoring in this scenario?
+
+
+Model monitoring is a one-time process that evaluates the model's performance after deployment and provides a report on its accuracy.
+Model monitoring involves continuously comparing the incoming data to a baseline dataset used for training the model, and detecting any deviations or anomalies in data quality or model performance. (Correct)
+Model monitoring is a process that checks the model's code for errors and bugs, ensuring it is functioning correctly from a technical perspective.
+Model monitoring is a manual process where data scientists periodically review the model's predictions and compare them to actual customer behavior
+
+
+A company has deployed a machine learning model for credit risk assessment using Amazon SageMaker. They want to monitor the model's quality over time to ensure it maintains its accuracy.  Which step should they take to set up model quality monitoring using SageMaker Model Monitor?
+Provide the baseline data used for training the model, the inference inputs and predictions made by the deployed model, and the corresponding Ground Truth labels. (Correct)
+Schedule a monitoring job to periodically compare the model's predictions with the Ground Truth labels and compute performance metrics.
+Enable data capture for the deployed model and establish a baseline using the training data.
+Configure CloudWatch alarms to trigger remedial actions when model quality drifts beyond specified thresholds.

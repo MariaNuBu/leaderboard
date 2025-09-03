@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "A company created an ML training job by using the Amazon SageMaker AI API. The company stores training data on Amazon S3. The company wants to replicate a subset of the data onto each ML compute instance that is launched for model training.\n\nWhich solution will meet this requirement?",
+      "options": [
+        "Set the S3DataType field to ShardedByS3Key.",
+        "Set the S3Uri field to FullyReplicated.",
+        "Set the S3DataDistributionType field to FullyReplicated.",
+        "Set the S3DataDistributionType field to ShardedByS3Key."
+      ],
+      "correct_answers": [
+        "Set the S3DataDistributionType field to ShardedByS3Key."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

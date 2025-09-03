@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A machine learning engineer is working on a binary classification problem to predict whether a customer will churn or not. The engineer has trained the model and obtained the following evaluation metrics:\n\n- Precision: 0.85\n- Recall: 0.70\n- F1 score: 0.77\n- Accuracy: 0.82\n\nWhich of the following statements is correct regarding the performance of your model?",
+      "options": [
+        "The model has a high precision, indicating a low false positive rate. However, the lower recall suggests a higher false negative rate, meaning the model may struggle to identify churning customers accurately.",
+        "The high accuracy of 0.82 suggests that the model is performing well in predicting both churning and non-churning customers.",
+        "The model has a high false positive rate, meaning it may incorrectly classify non-churning customers as churning.",
+        "The model has a low F1 score, indicating poor overall performance in both precision and recall."
+      ],
+      "correct_answers": [
+        "The model has a high precision, indicating a low false positive rate. However, the lower recall suggests a higher false negative rate, meaning the model may struggle to identify churning customers accurately."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

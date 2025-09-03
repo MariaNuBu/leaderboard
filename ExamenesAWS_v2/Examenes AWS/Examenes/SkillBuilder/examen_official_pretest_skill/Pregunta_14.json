@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "An ML engineer uses Amazon SageMaker Data Wrangler to pre-process a housing dataset for a Support Vector Machine (SVM) regression model. The dataset includes a Property_Age feature with values ranging from 1-10. The dataset also includes a Property_Price feature with most values around 300,000 and several outliers with values up to 15,000,000. The model requires features to be on a similar scale for optimal performance.\n\nWhich SageMaker Data Wrangler scaling function should be applied to the model?",
+      "options": [
+        "A\nStandard Scaler",
+        "B\nRobust Scaler",
+        "C\nMin Max Scaler",
+        "D\nMax Absolute Scaler"
+      ],
+      "correct_answers": [
+        "B\nRobust Scaler"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

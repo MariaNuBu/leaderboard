@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "Which feature in Amazon QuickSight can help identify unusual patterns or deviations in your data to monitor performance and latency?",
+      "options": [
+        "Autonarratives",
+        "Data visualization",
+        "Anomaly detection",
+        "Forecasting"
+      ],
+      "correct_answers": [
+        "Anomaly detection"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

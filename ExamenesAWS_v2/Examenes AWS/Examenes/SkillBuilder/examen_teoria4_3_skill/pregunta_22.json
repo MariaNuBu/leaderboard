@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "Which Amazon SageMaker governance tool allows administrators to define minimum permissions for common machine learning activities in minutes?",
+      "options": [
+        "Amazon SageMaker Role Manager",
+        "Amazon SageMaker Model Dashboard",
+        "Amazon SageMaker Assets",
+        "Amazon SageMaker Model Cards"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Role Manager"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

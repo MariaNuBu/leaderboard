@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "A company wants a cost-effective way to train an ML model from AWS Marketplace algorithms by using Amazon SageMaker AI. The model is trained once each month and takes several hours. Training time is not a concern for the company.\n\nWhat is the MOST cost-effective way to train the model?",
+      "options": [
+        "Use SageMaker AI managed spot training.",
+        "Use the Amazon EC2 On-Demand Instance type.",
+        "Use a SageMaker AI Savings Plan.",
+        "Use an Amazon EC2 Instance Savings Plan."
+      ],
+      "correct_answers": [
+        "Use SageMaker AI managed spot training."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

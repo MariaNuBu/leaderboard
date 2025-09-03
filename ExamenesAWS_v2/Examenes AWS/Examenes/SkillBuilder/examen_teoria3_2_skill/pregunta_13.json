@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "Which AWS container service provides version control and access management features for container images?",
+      "options": [
+        "Amazon Elastic Container Service (Amazon ECS)",
+        "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "AWS Fargate",
+        "Amazon Elastic Container Registry (Amazon ECR)"
+      ],
+      "correct_answers": [
+        "Amazon Elastic Container Registry (Amazon ECR)"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

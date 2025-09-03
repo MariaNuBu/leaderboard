@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "You are a data scientist working on a loan approval model for a bank. The model predicts whether a loan application should be approved or rejected based on various features such as income, credit score, and employment history. The bank is particularly concerned about ensuring that the model is fair and does not discriminate against any demographic group, such as age, gender, or ethnicity. To address this, you need to select the appropriate evaluation metrics to assess both the model’s performance and any potential bias.\n\nGiven these requirements, which combination of evaluation metrics and bias detection methods is MOST APPROPRIATE for ensuring fair and accurate model predictions?",
+      "options": [
+        "Evaluate the model using F1 score and AUC-ROC, and assess whether the model has similar true positive rates across different demographic groups",
+        "Use accuracy as the primary evaluation metric and perform feature importance analysis to ensure that the model’s decisions are driven by relevant features",
+        "Evaluate the model using F1 score and AUC-ROC, and and check for bias by comparing feature distributions across demographic groups",
+        "Measure the model’s performance using accuracy and AUC-ROC, and check for bias by comparing feature distributions across demographic groups"
+      ],
+      "correct_answers": [
+        "Evaluate the model using F1 score and AUC-ROC, and assess whether the model has similar true positive rates across different demographic groups"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-data-bias-metric-cddl.html",
+        "https://aws.amazon.com/blogs/machine-learning/learn-how-amazon-sagemaker-clarify-helps-detect-bias/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

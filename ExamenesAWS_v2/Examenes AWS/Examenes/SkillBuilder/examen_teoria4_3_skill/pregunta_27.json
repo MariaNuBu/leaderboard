@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "What is the primary purpose of a virtual private cloud (VPC) in a machine learning (ML) environment?",
+      "options": [
+        "To provide a secure and isolated network for hosting ML models and related resources",
+        "To enable the integration of ML models with other AWS services",
+        "To facilitate the deployment of ML models to end-users",
+        "To manage the scaling and provisioning of ML compute resources"
+      ],
+      "correct_answers": [
+        "To provide a secure and isolated network for hosting ML models and related resources"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

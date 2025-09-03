@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "What are the two types of recommendations provided by Amazon SageMaker Inference Recommender?",
+      "options": [
+        "Deployment recommendations and scaling recommendations",
+        "Inference recommendations and endpoint recommendations",
+        "CPU recommendations and GPU recommendations",
+        "Performance recommendations and cost recommendations"
+      ],
+      "correct_answers": [
+        "Inference recommendations and endpoint recommendations"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

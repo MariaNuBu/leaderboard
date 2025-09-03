@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "An organization is looking to consolidate hundreds of gigabytes of structured and unstructured data across multiple on-premises locations. The organization plans to store the data in Amazon S3 and is primarily concerned about transfer speeds, bandwidth, and cost of transferring data to AWS. Which service is best suited for this use case?",
+      "options": [
+        "AWS Snowball",
+        "AWS Global Accelerator",
+        "Amazon S3 Transfer Acceleration",
+        "AWS Database Migration Service (AWS DMS)"
+      ],
+      "correct_answers": [
+        "AWS Snowball"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

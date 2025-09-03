@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You are a data scientist working for a healthcare company that develops predictive models for diagnosing diseases based on patient data. Due to regulatory requirements and the critical nature of healthcare decisions, model interpretability is a top priority. The company needs to ensure that the predictions made by the model can be explained to both medical professionals and regulatory bodies.\n\nYou are evaluating different algorithms in Amazon SageMaker for your model, balancing the trade-off between accuracy and interpretability. The initial trials show that more complex models like deep neural networks (DNNs) yield higher accuracy but are less interpretable, whereas simpler models like logistic regression provide clearer insights but may not perform as well on the dataset.\n\nGiven these considerations, which of the following approaches is MOST APPROPRIATE for achieving both interpretability and acceptable performance?",
+      "options": [
+        "Use a tree-based algorithm like XGBoost, which offers a balance between accuracy and interpretability with feature importance",
+        "Deploy an ensemble of models including a complex model for accuracy and a simpler model for interpretability, using model stacking in SageMaker",
+        "Choose a logistic regression model due to its high interpretability and supplement it with additional data preprocessing to improve accuracy",
+        "Select a deep neural network (DNN) model and use SHAP (SHapley Additive exPlanations) to provide interpretability"
+      ],
+      "correct_answers": [
+        "Use a tree-based algorithm like XGBoost, which offers a balance between accuracy and interpretability with feature importance"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/ml-model-interpretability/overview.html",
+        "https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-shapley-values.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

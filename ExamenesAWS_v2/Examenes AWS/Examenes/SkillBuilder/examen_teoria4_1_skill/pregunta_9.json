@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A financial institution has developed a new fraud detection model. Because of the high-stakes nature of the application, they want to thoroughly evaluate the model's performance and impact before fully deploying it.Which benefit of A/B testing would be most relevant in this scenario?",
+      "options": [
+        "Continuous monitoring for performance degradation or concept drift",
+        "Realistic performance evaluation in a production-like environment",
+        "Improved user experience optimization",
+        "Increased stakeholder confidence and trust in the deployed model"
+      ],
+      "correct_answers": [
+        "Realistic performance evaluation in a production-like environment"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

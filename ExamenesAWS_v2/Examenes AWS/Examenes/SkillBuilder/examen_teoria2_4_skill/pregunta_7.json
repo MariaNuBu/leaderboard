@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A machine learning engineer is using SageMaker Clarify to evaluate the fairness and explainability of a machine learning model used for loan approval decisions.\n\nWhich of the following metrics would they use to understand the contribution of each input feature (income, credit score, employment status) to the model's predictions?",
+      "options": [
+        "Differential Validity",
+        "SHAP (SHapley Additive exPlanations)",
+        "Partial Dependence Plots (PDPs)",
+        "Class Imbalance"
+      ],
+      "correct_answers": [
+        "SHAP (SHapley Additive exPlanations)"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

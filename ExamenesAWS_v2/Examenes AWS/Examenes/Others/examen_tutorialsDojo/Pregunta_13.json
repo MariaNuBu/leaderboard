@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "Category: MLA – ML Model Development\nAn e-commerce company wants to implement a machine learning system to detect fraudulent online transactions. An ML engineer has deployed a machine learning model to identify and minimize these fraudulent activities. However, only a small percentage (around 3%) of the transactions in the dataset are found fraudulent. The company wants to fine-tune the model’s ability to detect fraud while minimizing false positives to ensure genuine transactions are not impeded.\n\nWhich metrics should the ML engineer use to optimize the performance of its fraud detection system? (Select TWO.)\n\nRMSE (Root Mean Square Error)\nTrue Positive Rate\nFalse Positive Rate\nF1 Score\nCut-off",
+      "options": [
+        "RMSE (Root Mean Square Error)",
+        "True Positive Rate",
+        "False Positive Rate",
+        "F1 Score",
+        "Cut-off"
+      ],
+      "correct_answers": [
+        "False Positive Rate",
+        "F1 Score"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/amazon-machine-learning-key-concepts.html",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "An ML engineer needs to deploy an ML model to an Amazon SageMaker endpoint. The SageMaker endpoint requires VPC configuration. The endpoint must return an inference for each request to the model. The request size is between 5 MB and 10 MB. The response processing can take up to 20 minutes.\n\nWhich solution will meet these requirements in the MOST cost-effective manner?",
+      "options": [
+        "A\nCreate a SageMaker asynchronous endpoint with a VPC configuration.",
+        "B\nCreate a SageMaker real-time endpoint with a VPC configuration.",
+        "C\nCreate a SageMaker batch transform job with a VPC configuration.",
+        "D\nCreate a SageMaker serverless endpoint with a VPC configuration."
+      ],
+      "correct_answers": [
+        "A\nCreate a SageMaker asynchronous endpoint with a VPC configuration."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

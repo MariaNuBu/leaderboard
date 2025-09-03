@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A retail company wants to implement a recommendation engine for their e-commerce platform using Amazon Personalize. They want to recommend products in real-time based on user behavior, such as clicks and past purchases. Additionally, they want to enhance their chatbot built on Amazon Lex by providing personalized product recommendations during the conversation. How can these services be integrated to meet this goal?\n\nIntegrate Amazon Lex with Amazon Kendra's factoid feature and Personalize’s real-time API to generate product recommendations based on search results.\n\nExplicación\nWhile Amazon Kendra handles search queries, it doesn’t integrate directly with Amazon Personalize for real-time recommendations. The focus here is on Lex and Personalize integration.\n\nUse AWS Glue to transform data and integrate Lex with Personalize by directly uploading the product catalog into the Lex bot.\n\nExplicación\nAWS Glue is used for ETL, but for real-time personalization, Amazon Personalize’s real-time API should be leveraged, not direct product catalog uploads into Lex.\n\nUse Amazon Kendra to index products and Lex for voice commands, enabling personalized search results based on customer queries.\n\nExplicación\nAmazon Kendra is not designed for product recommendation engines; it handles document search queries, not personalized recommendatio",
+      "options": [
+        "Integrate Amazon Lex with Amazon Kendra's factoid feature and Personalize’s real-time API to generate product recommendations based on search results.",
+        "Use AWS Glue to transform data and integrate Lex with Personalize by directly uploading the product catalog into the Lex bot.",
+        "Use Amazon Kendra to index products and Lex for voice commands, enabling personalized search results based on customer queries.",
+        "Train an Amazon Personalize model with item interaction data and call the recommendations via an AWS Lambda function within the Amazon Lex bot flow."
+      ],
+      "correct_answers": [
+        "Train an Amazon Personalize model with item interaction data and call the recommendations via an AWS Lambda function within the Amazon Lex bot flow."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

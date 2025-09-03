@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "Which hyperparameter configuration could result in an underfit model?",
+      "options": [
+        "A gradient descent algorithm configuration with too many epochs",
+        "A decision tree model trained with a maximum depth hyperparameter that is too low",
+        "A neural network model trained with a number of layers hyperparameter set too high",
+        "A neural network model trained with a number of neurons in each layer hyperparameter set too high"
+      ],
+      "correct_answers": [
+        "A decision tree model trained with a maximum depth hyperparameter that is too low"
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

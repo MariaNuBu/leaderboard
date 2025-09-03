@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 47,
+      "question": "A retail company uses Amazon Comprehend to analyze customer feedback. They want to automatically identify key phrases from product reviews and classify the sentiment of each review. The company also requires deeper analysis of medical-related feedback from a subset of their customers. Which setup is MOST appropriate to meet these requirements?\n\nUse Amazon Comprehend Medical for all reviews to extract key phrases and sentiment analysis.\n\nExplicación\nAmazon Comprehend Medical is over-specialized for general feedback and is intended for medical text analysis only.\n\nUse Amazon Textract to extract text from reviews, and Amazon Comprehend Medical for sentiment analysis.\n\nExplicación\nAmazon Textract is used for extracting text from documents, but it's not necessary here, as reviews are likely in text form already.\n\nDeploy a custom model in SageMaker for key phrase extraction and sentiment analysis of all feedback.\n\nExplicación\nWhile SageMaker could be used, Amazon Comprehend already provides pre-trained models for key phrase extraction and sentiment analysis without the need for custom model development.",
+      "options": [
+        "Use Amazon Comprehend Medical for all reviews to extract key phrases and sentiment analysis.",
+        "Use Amazon Textract to extract text from reviews, and Amazon Comprehend Medical for sentiment analysis.",
+        "Deploy a custom model in SageMaker for key phrase extraction and sentiment analysis of all feedback.",
+        "Use Amazon Comprehend for general feedback analysis and Amazon Comprehend Medical to process and extract relevant insights from medical feedback."
+      ],
+      "correct_answers": [
+        "Use Amazon Comprehend for general feedback analysis and Amazon Comprehend Medical to process and extract relevant insights from medical feedback."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

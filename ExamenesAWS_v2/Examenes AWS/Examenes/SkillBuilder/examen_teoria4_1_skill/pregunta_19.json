@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A retail company has developed a machine learning model to predict customer demand for various products. The company wants to set up Amazon SageMaker Model Monitor to continuously monitor the model's performance. \nWhich step would be involved in setting up SageMaker Model Monitor for this use case?",
+      "options": [
+        "Deploy a separate monitoring model alongside the production model to analyze its performance.",
+        "Retrain the model using the latest customer data to ensure it remains up-to-date.",
+        "Manually review and label a sample of the model's predictions to establish a ground truth for evaluation.",
+        "Create a baseline by analyzing the training dataset used to train the model and define constraints and statistics for monitoring."
+      ],
+      "correct_answers": [
+        "Create a baseline by analyzing the training dataset used to train the model and define constraints and statistics for monitoring."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

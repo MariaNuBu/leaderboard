@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "Which type of algorithm includes multilayer perceptrons and convolutional networks?",
+      "options": [
+        "Tree-based models",
+        "Neural networks",
+        "Clustering",
+        "General linear models"
+      ],
+      "correct_answers": [
+        "Neural networks"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

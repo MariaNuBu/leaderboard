@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "A financial institution wants to deploy a machine learning model that provides fraud detection in real time. Traffic to the model is highly variable, with periods of high activity followed by periods of low or no activity. The institution needs a cost-effective and scalable solution that adjusts to these traffic patterns.\n\nWhich deployment option should they choose in Amazon SageMaker?\n\nReal-Time Inference Endpoint\n\nExplicación\nReal-time inference requires persistent infrastructure, which may result in unnecessary costs during low-traffic periods.\n\nBatch Transform\n\nExplicación\nBatch transform is designed for offline, large-batch processing and does not handle real-time requests.",
+      "options": [
+        "Real-Time Inference Endpoint",
+        "Batch Transform",
+        "Serverless Inference",
+        "Asynchronous Inference"
+      ],
+      "correct_answers": [
+        "Serverless Inference"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

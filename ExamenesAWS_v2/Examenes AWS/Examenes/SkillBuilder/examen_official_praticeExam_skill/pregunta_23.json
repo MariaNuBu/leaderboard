@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "An ML engineer needs to encrypt all data in transit when an ML training job runs. The ML engineer must ensure that encryption in transit is applied to processes that Amazon SageMaker AI uses during the training job.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Encrypt communication between nodes for batch processing.",
+        "Encrypt communication between nodes in a training cluster.",
+        "Specify an AWS Key Management Service (AWS KMS) key during the creation of the training job request.",
+        "Specify an AWS Key Management Service (AWS KMS) key during the creation of the SageMaker AI domain."
+      ],
+      "correct_answers": [
+        "Encrypt communication between nodes in a training cluster."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

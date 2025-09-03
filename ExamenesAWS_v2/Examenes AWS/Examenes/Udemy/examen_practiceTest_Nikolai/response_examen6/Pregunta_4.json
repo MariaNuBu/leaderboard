@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A machine learning team is running several trials using Amazon SageMaker Experiments to identify the best model configuration for their project. After multiple trials, they need to visualize and compare the accuracy and precision of each trial to select the optimal model.\nWhat feature of SageMaker Experiments will allow them to easily perform this comparison?",
+      "options": [
+        "SageMaker Studio's graphical interface",
+        "SageMaker Pipelines",
+        "CloudWatch Metrics Dashboard",
+        "Trackers in SageMaker CLI"
+      ],
+      "correct_answers": [
+        "SageMaker Studio's graphical interface"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

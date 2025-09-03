@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "Which AWS service gives you the ability to set custom budgets and receive alerts when your actual or forecasted costs exceed defined thresholds?",
+      "options": [
+        "AWS Billing and Cost Management",
+        "AWS Budgets",
+        "AWS Cost Explorer",
+        "AWS Trusted Advisor"
+      ],
+      "correct_answers": [
+        "AWS Budgets"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

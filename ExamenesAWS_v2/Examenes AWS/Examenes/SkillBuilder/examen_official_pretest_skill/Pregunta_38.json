@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.\n\nA company built a deep learning model for climate modeling by using Amazon SageMaker. In each invocation, the model processes 400 MB of data for 30 minutes to return a prediction. The climate model is invoked automatically when a new climate event is detected. The company needs a deployment strategy to move the deep learning model to production. A cold start can be tolerated.\n\nWhat is the MOST cost-effective solution?",
+      "options": [
+        "A\nDeploy the model by using a real-time endpoint.",
+        "B\nDeploy the model by using a batch transform.",
+        "C\nDeploy the model by using an asynchronous endpoint.",
+        "D\nDeploy the model by using a serverless endpoint."
+      ],
+      "correct_answers": [
+        "C\nDeploy the model by using an asynchronous endpoint."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

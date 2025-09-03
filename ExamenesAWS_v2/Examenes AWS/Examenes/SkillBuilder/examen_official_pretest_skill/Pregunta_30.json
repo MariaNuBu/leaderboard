@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "TOPIC: 2.2 Train and refine models.\n\nA company deployed an ML model into production 6 months ago by using Amazon SageMaker Real-Time Inference. The company's website uses the real-time endpoint to provide product recommendations to customers. During the last 6 weeks, the effectiveness of the predictions has decreased and has resulted in lower sales.\n\nWhich solution can improve the product recommendations over time?",
+      "options": [
+        "Use the most recent data from only the last 2 weeks of sales to rebuild and train the model.",
+        "Re-train the model periodically as the products that are offered change and the inventory changes. Use the original training data and adjust hyperparameters to account for product and inventory changes.",
+        "Use SageMaker Ground Truth to automatically adjust the model to account for product and inventory changes.",
+        "Re-train the model periodically as the products that are offered change and the inventory changes. Use the original training data and new training data."
+      ],
+      "correct_answers": [
+        "Re-train the model periodically as the products that are offered change and the inventory changes. Use the original training data and new training data."
+      ],
+      "references": [],
+      "topic": "2.2 Train and refine models.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

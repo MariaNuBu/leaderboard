@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "Your data science team is working on developing a machine learning model to predict customer churn. The dataset that you are using contains hundreds of features, but you suspect that not all of these features are equally important for the model's accuracy. To improve the model's performance and reduce its complexity, the team wants to focus on selecting only the most relevant features that contribute significantly to minimizing the model's error rate.\n\nWhich feature engineering process should your team apply to select a subset of features that are the most relevant towards minimizing the error rate of the trained model?\n\nFeature creation\n\nFeature transformation",
+      "options": [
+        "Feature creation",
+        "Feature transformation",
+        "Feature selection",
+        "Feature extraction"
+      ],
+      "correct_answers": [
+        "Feature selection"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/feature-engineering.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

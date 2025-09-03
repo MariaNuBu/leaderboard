@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A company is deploying a computer vision model in retail stores. The model is for live self-checkout fraud detection and is deployed on an Amazon SageMaker AI real-time inference endpoint.\n\nAfter updates to the model, the company must validate the updated model on 10% of customers before making the model immediately available to all customers. The company has already created Amazon CloudWatch alarms to monitor the endpoint. The company will use the SageMaker UpdateEndpoint API operation for the deployment.\n\nWhich deployment configuration will meet these requirements?",
+      "options": [
+        "Use a canary deployment. In the CanarySize field, specify CAPACITY_PERCENT with a value of 10.",
+        "Use a canary deployment. In the CanarySize field, specify CAPACITY_PERCENT with a value of 90.",
+        "Use a linear deployment. In the LinearStepSize field, specify CAPACITY_PERCENT with a value of 10.",
+        "Use a linear deployment. In the LinearStepSize field, specify CAPACITY_PERCENT with a value of 90."
+      ],
+      "correct_answers": [
+        "Use a canary deployment. In the CanarySize field, specify CAPACITY_PERCENT with a value of 10."
+      ],
+      "references": [],
+      "topic": "Deployment Strategies (Canary vs. Linear)",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

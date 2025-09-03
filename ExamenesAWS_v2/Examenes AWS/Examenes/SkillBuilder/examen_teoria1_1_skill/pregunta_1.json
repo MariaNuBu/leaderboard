@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A financial institution is using machine learning to increase the speed of loan application requests.\n\nWhich of these datasets are relevant for data collection when training the model?",
+      "options": [
+        "Social media activity",
+        "Medical history",
+        "Credit bureau data",
+        "Political affiliations"
+      ],
+      "correct_answers": [
+        "Credit bureau data"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

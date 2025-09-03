@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "Your team is developing a recommendation system that needs to analyze large-scale user interaction data and generate personalized recommendations in real time. When should you consider using GPUs for this task?",
+      "options": [
+        "When the recommendation model is a simple linear model with small-scale data",
+        "When the recommendation model is based on deep learning techniques requiring fast training and inference",
+        "When the model requires frequent updates and quick iterations",
+        "When the deployment environment strictly limits power consumption"
+      ],
+      "correct_answers": [
+        "When the recommendation model is based on deep learning techniques requiring fast training and inference"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

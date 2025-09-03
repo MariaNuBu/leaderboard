@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "TOPIC: 2.1 Choose a modeling approach.\n\nA company is building a fraudulent transaction detection solution on Amazon SageMaker. The company wants to use a SageMaker built-in algorithm for the fraud detection model by using customer transaction data.\n\nWhich algorithm should the company use?",
+      "options": [
+        "A\nIP Insights",
+        "B\nRandom Cut Forest (RCF)",
+        "C\nFactorization Machines",
+        "D\nObject2Vec"
+      ],
+      "correct_answers": [
+        "B\nRandom Cut Forest (RCF)"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a modeling approach.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

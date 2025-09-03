@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "What is the purpose of the prospective instances feature in SageMaker Inference Recommender?",
+      "options": [
+        "Recommend the best auto scaling configuration for the deployed model.",
+        "Provide a list of instances that should be avoided for deploying the model.",
+        "Suggest potential improvements to the model architecture for better inference performance.",
+        "Provide a list of the top five instance types optimized for cost, throughput, and latency, based on preliminary benchmarking."
+      ],
+      "correct_answers": [
+        "Provide a list of the top five instance types optimized for cost, throughput, and latency, based on preliminary benchmarking."
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

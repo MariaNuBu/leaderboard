@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A company is preparing a machine learning pipeline using Amazon SageMaker Data Wrangler. The data engineer needs to integrate multiple data sources, clean and transform the data, and output it to an Amazon S3 bucket for training. What steps should the engineer take to ensure the data is properly prepared for training in SageMaker?",
+      "options": [
+        "Use SageMaker Data Wrangler to create a pipeline, automatically export the transformed data to S3 in Apache Parquet format, and then use SageMaker training jobs to access the data.",
+        "Clean and transform the data using SageMaker Processing jobs, and then manually upload it to an Amazon S3 bucket.",
+        "Export the transformed dataset from Data Wrangler directly to SageMaker Feature Store for training.",
+        "Use Data Wrangler to import, clean, and transform the data, and then export the final dataset to Amazon S3 in CSV format."
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler to create a pipeline, automatically export the transformed data to S3 in Apache Parquet format, and then use SageMaker training jobs to access the data."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

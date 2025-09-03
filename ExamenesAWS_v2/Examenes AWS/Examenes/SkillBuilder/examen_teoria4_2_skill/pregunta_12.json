@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "You are deploying an ML model that will be processing data batch tasks. The volume of data will be very large, but you will only be running the model for a short duration.",
+      "options": [
+        "Spot Instances",
+        "On-Demand Instances",
+        "Reserved Instances",
+        "Capacity Blocks"
+      ],
+      "correct_answers": [
+        "Spot Instances"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

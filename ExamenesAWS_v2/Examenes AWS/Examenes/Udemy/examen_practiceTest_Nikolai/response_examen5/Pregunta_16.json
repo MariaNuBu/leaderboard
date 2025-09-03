@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A company wants to streamline their machine learning workflow by using AWS SageMaker. They need an environment that allows them to handle every step of the machine learning lifecycle, from data preparation to model deployment and monitoring. The company prefers a fully managed environment where infrastructure concerns, such as managing servers, can be avoided.\nWhich statement BEST describes how AWS SageMaker meets these needs?",
+      "options": [
+        "SageMaker simplifies the machine learning workflow by providing a fully managed service, handling data preparation, model training, and deployment without requiring manual server management.",
+        "SageMaker integrates with Amazon EC2, which must be manually configured for machine learning tasks, while SageMaker handles data preparation and monitoring.",
+        "SageMaker only assists in the model training phase, and the company must use additional AWS services for data preparation and model deployment.",
+        "SageMaker requires manual setup of servers and other infrastructure for model training but simplifies model deployment with managed endpoints."
+      ],
+      "correct_answers": [
+        "SageMaker simplifies the machine learning workflow by providing a fully managed service, handling data preparation, model training, and deployment without requiring manual server management."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

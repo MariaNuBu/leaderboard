@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "During a model training session, you notice that your training job is taking significantly longer than expected. To identify the root cause, you decide to use the SageMaker Profiler to analyze resource bottlenecks, such as CPU and GPU underutilization. Which of the following actions should you take to correctly set up SageMaker Profiler for this task?",
+      "options": [
+        "Add SageMaker Profiler start and stop commands in the training script to collect system resource metrics like CPU and GPU utilization.",
+        "Define custom debug rules to monitor vanishing gradients and early stopping criteria during training.",
+        "Use SageMaker Model Monitor to track and visualize the training job's input data distribution changes.",
+        "Automatically correct detected bottlenecks by reducing the training batch size using SageMaker Debugger’s real-time insights."
+      ],
+      "correct_answers": [
+        "Add SageMaker Profiler start and stop commands in the training script to collect system resource metrics like CPU and GPU utilization."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

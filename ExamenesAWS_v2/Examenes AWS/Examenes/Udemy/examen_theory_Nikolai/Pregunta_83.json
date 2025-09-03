@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 83,
+      "question": "A company wants to implement an AI-powered assistant using Amazon Q Business to automate tasks and streamline their business operations. The company needs to ensure that sensitive data is protected, and they require fine-grained control over data access and user permissions. How should they configure Amazon Q Business to meet these security requirements?\\n\\nConfigure Amazon Q Business to automatically encrypt all data and rely on predefined user roles for access control.\\n\\nExplicación\\nPredefined user roles may not provide the necessary granularity for access cont",
+      "options": [
+        "Configure Amazon Q Business to automatically encrypt all data and rely on predefined user roles for access control.",
+        "Integrate Amazon Q Business with AWS Identity and Access Management (IAM) Identity Center to manage user permissions and enable data encryption for sensitive information.",
+        "Configure Amazon Q Business to store all sensitive data in unencrypted form but apply IAM policies for access control.",
+        "Use Amazon Q Business with Amazon S3 to store and protect all generated data, without any need for encryption or access control."
+      ],
+      "correct_answers": [
+        "Integrate Amazon Q Business with AWS Identity and Access Management (IAM) Identity Center to manage user permissions and enable data encryption for sensitive information."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "You are experimenting with different ensemble methods and want to train an ensemble model using the bagging method. Which model types can you consider?",
+      "options": [
+        "Random forest",
+        "Decision tree",
+        "Linear regression model",
+        "Neural network"
+      ],
+      "correct_answers": [
+        "Random forest"
+      ],
+      "references": [
+        "https://scikit-learn.org/stable/modules/ensemble.html#bagging"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

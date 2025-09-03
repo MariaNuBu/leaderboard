@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A machine learning engineer is training a model for classifying images of clothing. They want the model to determine if an article of clothing is a top or a bottom. Which loss function should they use to train their model?",
+      "options": [
+        "Gradient descent",
+        "Log-likelyhood loss",
+        "Root mean squared error",
+        "Stochastic gradient descent"
+      ],
+      "correct_answers": [
+        "Log-likelyhood loss"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

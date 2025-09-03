@@ -1,0 +1,17 @@
+{
+  "id": 48,
+  "question": "A company is using an AWS Lambda function to monitor the metrics from an ML model. An ML engineer needs to implement a solution to send an email message when the metrics breach a threshold.\n\nWhich solution will meet this requirement?",
+  "options": [
+    "Log the metrics from the Lambda function to AWS CloudTrail. Configure a CloudTrail trail to send the email message.",
+    "Log the metrics from the Lambda function to Amazon CloudFront. Configure an Amazon CloudWatch alarm to send the email message.",
+    "Log the metrics from the Lambda function to Amazon CloudWatch. Configure a CloudWatch alarm to send the email message.",
+    "Log the metrics from the Lambda function to Amazon CloudWatch. Configure an Amazon CloudFront rule to send the email message."
+  ],
+  "correct_answers": [
+    "Log the metrics from the Lambda function to Amazon CloudWatch. Configure a CloudWatch alarm to send the email message."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

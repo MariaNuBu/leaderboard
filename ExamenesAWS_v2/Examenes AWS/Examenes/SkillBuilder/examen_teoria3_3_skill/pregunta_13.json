@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "An organization has deployed an image classification model in production to identify potentially problematic areas in cancer screenings. Over time, they observe that the model's accuracy on certain cancer types has degraded. They suspect this is because new images contain strains of cancer the model has not seen before during training. They want to retrain the model without losing its ability to identify the original cancer types it was trained on. Which retraining mechanism is the best choice for this use case?",
+      "options": [
+        "Automated retraining pipelines",
+        "Scheduled retraining",
+        "Incremental learning",
+        "Drift detection"
+      ],
+      "correct_answers": [
+        "Incremental learning"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

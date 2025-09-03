@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "The Machine Learning Lens: AWS Well-Architected Framework design principle, continuous improvement, is a key component to help your models remain accurate and effective over time. \nWhich best practices can be used to help with continuous improvement?",
+      "options": [
+        "Establish feedback loops, monitor performance, and automate retraining.",
+        "Optimize resource usage, monitor return on investment (ROI), and monitor metrics to right-size your instance types.",
+        "Resource pooling, implementing caching strategies, and data management.",
+        "AWS auto scaling, Amazon SageMaker built-in scaling, and AWS Lambda for scaling ML inference workloads."
+      ],
+      "correct_answers": [
+        "Establish feedback loops, monitor performance, and automate retraining."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

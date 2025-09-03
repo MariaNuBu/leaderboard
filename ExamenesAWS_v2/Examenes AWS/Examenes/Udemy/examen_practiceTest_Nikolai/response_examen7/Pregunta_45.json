@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 45,
+      "question": "A data engineering team is tasked with setting up an automated ETL pipeline using AWS Glue. They have a semi-structured data file stored in Amazon S3 and need to extract, transform, and load this data into Amazon Redshift for further analysis. Additionally, they want to catalog the data schema and make it queryable via SQL. How should the team implement this solution efficiently using AWS Glue?",
+      "options": [
+        "Manually create the schema in Redshift before loading the data to avoid unnecessary processing by AWS Glue crawlers and run AWS Glue ETL jobs to load the data.",
+        "Use AWS Glue crawlers to automatically infer the schema from the data in S3 and store the schema in the Glue Data Catalog. Then, run AWS Glue ETL jobs to extract, transform, and load the data into Amazon Redshift.",
+        "Use AWS Glue ETL jobs to extract the data from S3, transform it using pre-built transformations, and load it directly into Amazon Redshift without any further processing.",
+        "Use AWS Lambda to manually trigger AWS Glue jobs and control costs, avoiding automatic cataloging and schema inference."
+      ],
+      "correct_answers": [
+        "Use AWS Glue crawlers to automatically infer the schema from the data in S3 and store the schema in the Glue Data Catalog. Then, run AWS Glue ETL jobs to extract, transform, and load the data into Amazon Redshift."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

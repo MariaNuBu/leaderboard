@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "An ecommerce company has deployed a machine learning model to recommend products to customers based on their browsing and purchase history. The company wants to ensure that the model's recommendations remain relevant and unbiased over time.  Which benefit of Amazon SageMaker Model Monitor would be most valuable in this scenario?",
+      "options": [
+        "Early detection of data quality issues",
+        "Compliance with data quality standards",
+        "Improved model performance and accuracy",
+        "Reduced operational overhead for data monitoring"
+      ],
+      "correct_answers": [
+        "Improved model performance and accuracy"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

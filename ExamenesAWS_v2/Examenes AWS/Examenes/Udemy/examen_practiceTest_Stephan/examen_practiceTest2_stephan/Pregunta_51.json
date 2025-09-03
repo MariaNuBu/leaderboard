@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "You are a Data Scientist working for a retail company and you have been tasked with developing a demand forecasting model using Amazon SageMaker. The company requires the model to be highly accurate to optimize inventory levels, but you also need to consider constraints on training time and cost due to budget limitations. You have access to multiple SageMaker instance types and options like spot instances to reduce costs, but you must balance these factors against the need for a performant model. Your goal is to choose a configuration that provides an acceptable tradeoff between model performance, training time, and cost.\n\nWhich of the following strategies should you consider when balancing model performance, training time, and cost in this scenario using Amazon SageMaker? (Select two)",
+      "options": [
+        "Deploy multiple models with different instance types simultaneously, choosing the one that completes training first, regardless of performance or cost",
+        "Use the largest available instance type to minimize training time, regardless of cost, ensuring that the model is trained as quickly as possible",
+        "Optimize hyperparameters using Amazon SageMaker’s automatic model tuning (hyperparameter optimization) to improve performance, while using spot instances to reduce cost",
+        "Use a smaller instance type to save on costs, and accept longer training times, as model accuracy is not the highest priority",
+        "Implement distributed training across multiple smaller instances to balance training time and cost while maintaining model performance"
+      ],
+      "correct_answers": [
+        "Optimize hyperparameters using Amazon SageMaker’s automatic model tuning (hyperparameter optimization) to improve performance, while using spot instances to reduce cost",
+        "Implement distributed training across multiple smaller instances to balance training time and cost while maintaining model performance"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

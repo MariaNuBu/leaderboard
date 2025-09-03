@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A machine learning engineer is training a deep learning model on SageMaker using TensorFlow. During training, the model's performance stops improving, and the engineer suspects that the model may be experiencing vanishing gradients. They want to use SageMaker Debugger to monitor the training and resolve this issue. Which steps should the engineer take to identify and address the vanishing gradients using SageMaker Debugger?",
+      "options": [
+        "Enable SageMaker Debugger to monitor resource utilization and set up alarms for underutilized GPUs.",
+        "Run a custom SageMaker Debugger rule to visualize CPU and memory usage, then adjust the batch size to optimize resource utilization.",
+        "Use SageMaker Debugger’s built-in rules to monitor the gradient values during training and adjust the learning rate if vanishing gradients are detected.",
+        "Utilize SageMaker Profiler to collect GPU utilization data and implement early stopping when vanishing gradients are detected."
+      ],
+      "correct_answers": [
+        "Use SageMaker Debugger’s built-in rules to monitor the gradient values during training and adjust the learning rate if vanishing gradients are detected."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

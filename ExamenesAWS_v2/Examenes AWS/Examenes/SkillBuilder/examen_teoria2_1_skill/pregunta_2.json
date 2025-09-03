@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You are creating an app for a marathon race. During the race, cameras will be taking pictures of the racers. The racers will wear numbered signs on their chests and back. The images taken during the race will be uploaded to a repository in Amazon S3. You want to use an AI service to quickly determine each racer  in the pictures by identifying the numbers on their signs. This way, the racers will be able to log into the app with their number and see all the pictures of themselves automatically. They will not have to manually look through ALL the pictures. Which is best service for this business need?",
+      "options": [
+        "Amazon Comprehend",
+        "Amazon Kendra",
+        "Amazon Personalize",
+        "Amazon Rekognition"
+      ],
+      "correct_answers": [
+        "Amazon Rekognition"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

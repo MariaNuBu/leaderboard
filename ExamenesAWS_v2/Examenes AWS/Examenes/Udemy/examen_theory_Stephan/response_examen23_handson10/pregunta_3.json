@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You want to stream real-time log data from CloudWatch Logs to Amazon S3 for archival. What approach should you take?",
+      "options": [
+        "Use CloudWatch Logs Subscriptions.",
+        "Set up a CloudWatch Dashboard.",
+        "Use CloudWatch Metric Streams.",
+        "Use the CloudWatch Logs Export feature."
+      ],
+      "correct_answers": [
+        "Use CloudWatch Logs Subscriptions."
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

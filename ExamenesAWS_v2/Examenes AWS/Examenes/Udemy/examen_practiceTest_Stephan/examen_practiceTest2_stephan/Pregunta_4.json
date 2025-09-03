@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "You are a machine learning engineer responsible for optimizing the cost and performance of an ML model deployed on Amazon SageMaker. The model serves real-time predictions for an e-commerce platform, and the current instance type is providing reliable performance but at a higher cost than anticipated. Your goal is to determine the most cost-effective instance type that still meets the performance requirements for low-latency predictions.\n\nWhich approach is the MOST EFFECTIVE for rightsizing the instance family and size for your SageMaker endpoint?\n\nUse SageMaker Inference Recommender to select the lowest-cost instance type, regardless of performance, and configure autoscaling to handle any additional load during peak times\n\nUse AWS Compute Optimizer to analyze the current instance’s CPU and memory usage, and automatically switch to the smallest recommended instance type that matches the utilization metrics",
+      "options": [
+        "Use SageMaker Inference Recommender to select the lowest-cost instance type, regardless of performance, and configure autoscaling to handle any additional load during peak times",
+        "Use AWS Compute Optimizer to analyze the current instance’s CPU and memory usage, and automatically switch to the smallest recommended instance type that matches the utilization metrics",
+        "Use SageMaker Inference Recommender to run load tests across various instance types and configurations, compare the performance and cost of each, and select the instance type that offers the best balance between cost and performance",
+        "Manually review the performance metrics from Amazon CloudWatch for the current instance and experiment with different instance types by redeploying the model on each until you find the optimal one"
+      ],
+      "correct_answers": [
+        "Use SageMaker Inference Recommender to run load tests across various instance types and configurations, compare the performance and cost of each, and select the instance type that offers the best balance between cost and performance"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/inference-recommender-prospective.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/inference-recommender-load-test.html",
+        "https://aws.amazon.com/compute-optimizer/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

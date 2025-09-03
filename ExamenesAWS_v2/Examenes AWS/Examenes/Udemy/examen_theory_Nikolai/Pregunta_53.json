@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "A company wants to set up an event-driven architecture using AWS Lambda. They need to automatically process files as soon as they are uploaded to an Amazon S3 bucket. Which steps should be taken to achieve this setup? (Choose two)",
+      "options": [
+        "Manually start the Lambda function each time a file is uploaded.",
+        "Create a Lambda function and configure an S3 bucket to trigger the function on 'PUT' events.",
+        "Set up Amazon SNS to notify the Lambda function when a file is uploaded.",
+        "Attach a role to the Lambda function that has permissions to access both the source and destination S3 buckets.",
+        "Configure the Lambda function to be triggered by Amazon CloudWatch Events."
+      ],
+      "correct_answers": [
+        "Create a Lambda function and configure an S3 bucket to trigger the function on 'PUT' events.",
+        "Attach a role to the Lambda function that has permissions to access both the source and destination S3 buckets."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

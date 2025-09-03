@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "An ML engineer is working on deploying a new version of a product recommendation model for an ecommerce company. The current model version is running in production, serving customer traffic. The goal is to safely deploy the new model version with minimal disruption to the user experience while monitoring its performance closely. Which deployment strategy should they use?",
+      "options": [
+        "Canary deployment",
+        "A/B testing",
+        "Blue/green deployment with linear traffic shifting",
+        "Rolling deployment"
+      ],
+      "correct_answers": [
+        "Blue/green deployment with linear traffic shifting"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

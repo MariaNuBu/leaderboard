@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Which scenario would benefit MOST from using provisioned concurrency?",
+      "options": [
+        "An application with highly variable and unpredictable traffic patterns.",
+        "A real-time fraud detection system in a financial institution that requires low latency and high availability.",
+        "A machine learning (ML) model that receives infrequent inference requests.",
+        "A batch processing workload that processes large volumes of data at scheduled intervals."
+      ],
+      "correct_answers": [
+        "A real-time fraud detection system in a financial institution that requires low latency and high availability."
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

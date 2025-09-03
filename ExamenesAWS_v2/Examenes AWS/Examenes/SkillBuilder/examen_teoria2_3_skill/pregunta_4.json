@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "While evaluating your model, you notice that it performed well on the training data but did not perform well on validation data. Which of the following describe the model fit and a possible cause for this fit?",
+      "options": [
+        "This model is underfit, it might not have been trained for a long enough period of time to capture the underlying relationships in the data.",
+        "This model is underfit, it might have been trained for too long a period of time and learned noise in the training data.",
+        "The model is overfit, it might have been trained for too long on the same data and memorized the training examples instead of learning the underlying patterns.",
+        "The model is overfit, it might not have been trained for a long enough period of time to capture the underlying relationships in the data."
+      ],
+      "correct_answers": [
+        "The model is overfit, it might have been trained for too long on the same data and memorized the training examples instead of learning the underlying patterns."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A company is using Amazon Rekognition to scan images uploaded to their media library. They want to identify inappropriate content, label objects, and verify users based on face comparisons. Which combination of Amazon Rekognition features is most suitable for these use cases?",
+      "options": [
+        "Label detection, celebrity recognition, and face liveness detection",
+        "Unsafe content detection, label detection, and face comparison",
+        "Label detection, text detection, and face search",
+        "Face comparison, text detection, and celebrity recognition"
+      ],
+      "correct_answers": [
+        "Unsafe content detection, label detection, and face comparison"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A developer wants to build an application that can translate customer service chat logs from one language to another in real‑time. Which AWS service would be most appropriate?",
+      "options": [
+        "Amazon Polly",
+        "Amazon Translate",
+        "Amazon Comprehend",
+        "Amazon Lex"
+      ],
+      "correct_answers": [
+        "Amazon Translate"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/translate/latest/dg/what-is-translate.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

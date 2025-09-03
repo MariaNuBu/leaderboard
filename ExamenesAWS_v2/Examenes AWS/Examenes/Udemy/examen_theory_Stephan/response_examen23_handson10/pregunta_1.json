@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are setting up CloudWatch Logs for an EC2 instance. Which agent should you use to collect both system-level metrics and log data?",
+      "options": [
+        "CloudWatch Logs Agent",
+        "Cloud Watch Unified Agent",
+        "AWS SDK",
+        "CloudWatch Metrics"
+      ],
+      "correct_answers": [
+        "Cloud Watch Unified Agent"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

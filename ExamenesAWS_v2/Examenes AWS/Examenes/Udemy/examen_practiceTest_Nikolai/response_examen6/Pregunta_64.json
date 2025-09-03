@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A company uses Amazon SageMaker Pipelines to orchestrate its machine learning workflows. They need to reuse the same preprocessing step across multiple different models. How can SageMaker Pipelines help with reusability?",
+      "options": [
+        "By storing steps in Amazon S3, which can be manually imported into each pipeline.",
+        "By enabling the same pipeline step to be reused across different pipelines without redefinition.",
+        "By allowing steps to be manually copied and pasted across different pipeline definitions.",
+        "By requiring each pipeline to be redefined from scratch for different models."
+      ],
+      "correct_answers": [
+        "By enabling the same pipeline step to be reused across different pipelines without redefinition."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

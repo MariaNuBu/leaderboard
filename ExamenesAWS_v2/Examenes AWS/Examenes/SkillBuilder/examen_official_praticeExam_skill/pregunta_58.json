@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "A data scientist wants to use generative AI to run natural language queries on thousands of legal documents and generate responses.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use the Amazon Kendra Retrieve API to search an Amazon Kendra index to return relevant text chunks. Pass relevant text chunks to a language model for generative responses.",
+        "Use the Amazon Bedrock API to customize a foundation model (FM) for generative responses. Query the documents to return relevant text chunks.",
+        "Use the Amazon Lex console to create an Amazon Lex bot to query the documents to return both relevant text chunks and generative responses.",
+        "Use Amazon Comprehend entity recognition to identify relevant text chunks. Pass relevant text chunks to a language model for generative responses."
+      ],
+      "correct_answers": [
+        "Use the Amazon Kendra Retrieve API to search an Amazon Kendra index to return relevant text chunks. Pass relevant text chunks to a language model for generative responses."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

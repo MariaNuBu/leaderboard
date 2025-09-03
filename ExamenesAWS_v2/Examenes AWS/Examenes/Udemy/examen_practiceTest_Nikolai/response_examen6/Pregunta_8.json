@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A customer support system uses both Amazon Kendra for retrieving relevant support documents and Amazon Lex for handling voice and text interactions. The company wants to ensure that their Kendra index is always up to date with new documents from an S3 bucket, and that Lex handles fallback intents when the user's question is unclear.\\nWhat solution ensures that both services are working together optimally?",
+      "options": [
+        "Use Amazon S3 Event Notifications to directly update the Kendra index and set up manual intents in Lex for ambiguous queries.",
+        "Implement AWS CloudTrail to monitor the Kendra index and integrate it with Lex’s natural language processing for ambiguous questions.",
+        "Use Amazon EventBridge to trigger Lambda functions that update the Kendra index and implement Lex's fallback intent for handling ambiguous queries.",
+        "Use AWS Glue to continuously update the Kendra index and rely on Lex's speech recognition for fallback intent handling."
+      ],
+      "correct_answers": [
+        "Use Amazon EventBridge to trigger Lambda functions that update the Kendra index and implement Lex's fallback intent for handling ambiguous queries."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

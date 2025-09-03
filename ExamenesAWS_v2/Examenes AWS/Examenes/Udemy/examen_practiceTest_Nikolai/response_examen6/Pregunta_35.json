@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "An e-learning platform wants to generate audio versions of its course materials in multiple languages. The platform stores text-based course content in Amazon S3 and wants to automate the process of translating the text, generating audio files, and storing the audio back in Amazon S3 for easy access. Which combination of AWS services will BEST achieve this?\n\nUse Amazon Comprehend to detect the language, Amazon Polly to generate the speech, and AWS Glue to store the audio files in Amazon S3.\n\nExplicación\nAmazon Comprehend is for text analysis (e.g., sentiment detection, language detection) but does not handle text-to-speech. AWS Glue is used for ETL tasks and is not directly involved in text-to-speech or translation.\n\nUse AWS Lambda to translate the text, Amazon Transcribe to convert the text to speech, and Amazon SageMaker to store the audio files in Amazon S3.\n\nExplicación\nAWS Lambda can orchestrate tasks but is not used for text translation or storage. Amazon Transcribe is for speech-to-text conversion, not the other way around. Amazon SageMaker is for building machine learning models and is not needed for storing files in S3.\n\nUse Amazon Polly to translate the text, Amazon Lex to generate the speech, and Amazon DynamoDB to store the audio files.\n\nExplicación\nAmazon Polly is a text-to-speech service and does not perform translations. Additionally, Amazon Lex is a conversational interface service, not a text-to-speech tool.",
+      "options": [
+        "Use Amazon Comprehend to detect the language, Amazon Polly to generate the speech, and AWS Glue to store the audio files in Amazon S3.",
+        "Use AWS Lambda to translate the text, Amazon Transcribe to convert the text to speech, and Amazon SageMaker to store the audio files in Amazon S3.",
+        "Use Amazon Polly to translate the text, Amazon Lex to generate the speech, and Amazon DynamoDB to store the audio files.",
+        "Use Amazon Translate to translate the text, Amazon Polly to generate the speech in the desired languages, and an AWS Lambda function to store the audio files back in Amazon S3."
+      ],
+      "correct_answers": [
+        "Use Amazon Translate to translate the text, Amazon Polly to generate the speech in the desired languages, and an AWS Lambda function to store the audio files back in Amazon S3."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Topic: 1.1 Ingest and store data.\n\nA research team collects data from 10 universities that are participating in a research study. The data consists of many large .csv files that are uploaded from each university into Amazon S3. An ML engineer notices that files are taking a long time to upload. The ML engineer needs to increase the upload speed.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A Use a VPC peering connection.",
+        "B Use an AWS DataSync connection.",
+        "C Use Amazon S3 Transfer Acceleration.",
+        "D Use AWS Direct Connect."
+      ],
+      "correct_answers": [
+        "C Use Amazon S3 Transfer Acceleration."
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

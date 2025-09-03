@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A data scientist is training a machine learning model on a tabular dataset using Amazon SageMaker. The model is not particularly large, but the dataset is extensive. They want to reduce the training time while avoiding overfitting. How should they approach their model training task?",
+      "options": [
+        "Use model parallelism to split the model across multiple GPUs and instances.",
+        "Increase the batch size to use more of the available GPU memory.",
+        "Enable early stopping in SageMaker to terminate training when performance stops improving.",
+        "Use a hybrid approach that combines data parallelism and model parallelism."
+      ],
+      "correct_answers": [
+        "Enable early stopping in SageMaker to terminate training when performance stops improving."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/early-stopping.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

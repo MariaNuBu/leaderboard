@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are a machine learning engineer for a cybersecurity company and planning to train your own model to detect security threats. You want to train your model using deep learning and SageMaker.\n\nWhich of the AI/ML stack would you choose to accomplish your goal?",
+      "options": [
+        "AWS AI services",
+        "AWS ML services",
+        "AWS ML frameworks and infrastructure",
+        "AWS AI and ML frameworks"
+      ],
+      "correct_answers": [
+        "AWS ML frameworks and infrastructure"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A machine learning engineer needs to train an ML model that can perform image generation. She works for a company that has a dog named Doppler as its mascot. She has decided to fine-tune a Stable Diffusion by Stability AI model so it can generate images of Doppler in various scenarios. The CEO of the company decides to add a second mascot, a cat named Mittens. So, the ML engineer needs the model to generate images of Mittens as well. What approach can be taken to add Mittens to the model?",
+      "options": [
+        "Choose a new model that is better suited for the task to eliminate the need for fine-tuning.",
+        "Create a second model, trained on Mittens. Then, use transfer learning to combine the model trained on Doppler with the one trained on Mittens.",
+        "Create a brand-new model and fine-tune it using both Doppler the dog and Mittens the cat as the custom dataset.",
+        "Fine-tune the model using the output artifact from the original model trained with Doppler the dog."
+      ],
+      "correct_answers": [
+        "Fine-tune the model using the output artifact from the original model trained with Doppler the dog."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

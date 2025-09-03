@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A company runs Amazon SageMaker AI ML models that use accelerated instances. The models require real-time responses. Each model has different scaling requirements. The company must not allow a cold start for the models. Which solution will meet these requirements?",
+      "options": [
+        "Create a SageMaker Serverless Inference endpoint for each model. Use provisioned concurrency for the endpoints.",
+        "Create a SageMaker Asynchronous Inference endpoint for each model. Create an auto scaling policy for each endpoint.",
+        "Create a SageMaker AI endpoint. Create an inference component for each model. In the inference component settings, specify the newly created endpoint. Create an auto scaling policy for each inference component. Set the parameter for the minimum number of copies to at least 1.",
+        "Create an Amazon S3 bucket. Store all the model artifacts in the S3 bucket. Create a SageMaker AI multi-model endpoint. Point the endpoint to the S3 bucket. Create an auto scaling policy for the endpoint. Set the parameter for the minimum number of copies to at least 1."
+      ],
+      "correct_answers": [
+        "Create a SageMaker AI endpoint. Create an inference component for each model. In the inference component settings, specify the newly created endpoint. Create an auto scaling policy for each inference component. Set the parameter for the minimum number of copies to at least 1."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

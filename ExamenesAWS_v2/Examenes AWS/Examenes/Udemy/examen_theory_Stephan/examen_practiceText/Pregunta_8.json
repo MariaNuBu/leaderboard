@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A healthcare company has developed a new version of its machine learning model that predicts patient readmission risk. The model is deployed on Amazon SageMaker, and the company wants to roll out this new version carefully to ensure it does not negatively impact the existing predictions made by the current model in production. The new model needs to be evaluated for its performance in a real-world setting with actual user traffic, but any potential errors should be minimized to avoid affecting patient care.\n\nThe company wants to gradually introduce the new model to a small percentage of the traffic initially and then increase this percentage if the model performs well. It also needs a rollback strategy in case the new model performs worse than expected.\n\nWhich deployment strategy should the company choose to deploy the new model version?",
+      "options": [
+        "Linear Deployment",
+        "Blue/Green Deployment",
+        "All-at-Once Deployment",
+        "Canary Deployment"
+      ],
+      "correct_answers": [
+        "Canary Deployment"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 - "
+    }
+  ]
+}

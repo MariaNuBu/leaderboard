@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A data engineer is working on a machine learning (ML) project that requires real-time data processing for model inference. The data team needs to ingest and process large volumes of streaming data from various sources, such as social media and application clickstream data. Which AWS streaming services would be best suited for processing real-time streaming data for the ML inference with minimal management overhead?",
+      "options": [
+        "Deployment of a streaming platform, such as Amazon Apache Spark Streaming on Amazon EC2",
+        "Amazon Kinesis Data Streams and Amazon Data Firehose",
+        "Amazon Data Firehose and Amazon S3",
+        "Amazon Kinesis Data Streams and Amazon Managed Service for Apache Flink"
+      ],
+      "correct_answers": [
+        "Amazon Kinesis Data Streams and Amazon Managed Service for Apache Flink"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

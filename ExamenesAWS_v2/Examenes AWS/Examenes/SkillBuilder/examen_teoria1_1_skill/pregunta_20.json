@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A data analyst is examining a dataset intended for future use in a machine learning (ML) model and is performing exploratory data analysis. The dataset contains information about customer age, income, and spending data. Which type of visualization would help the data analyst determine relationships between customer age and income?",
+      "options": [
+        "Scatterplot",
+        "Histogram",
+        "Box plot",
+        "Bar chart"
+      ],
+      "correct_answers": [
+        "Scatterplot"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

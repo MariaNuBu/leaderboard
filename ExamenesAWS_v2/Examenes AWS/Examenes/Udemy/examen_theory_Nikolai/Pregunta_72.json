@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 72,
+      "question": "A data science team is using Amazon SageMaker Experiments to manage and compare multiple trials in a complex machine learning workflow. They have several trials, each involving data preprocessing, model training, and model evaluation. The team wants to compare key metrics such as accuracy and loss across all trials to identify the best-performing model. What features of SageMaker Experiments should the team use to accomplish this?\n\nTrackers to automatically retune hyperparameters for each trial.\n\nExplicación\nTrackers are used for logging metadata but not for retuning hyperparameters.\n\nTrial components to directly deploy the best-performing model to production.\n\nExplicación\nTrial components are not used for deploying models; they represent the different steps of a workflow such as preprocessing and training. Deployment is handled separately.\n\nTrial components to store only the preprocessing steps and discard training data.\n\nExplicación\nTrial components track multiple steps in the ML workflow, including preprocessing, training, and evaluation. Discarding training data would defeat the purpose of comparison across trials.",
+      "options": [
+        "Trackers to automatically retune hyperparameters for each trial.",
+        "Trial components to directly deploy the best-performing model to production.",
+        "Trial components to store only the preprocessing steps and discard training data.",
+        "The API and graphical interface for visualizing and comparing performance metrics."
+      ],
+      "correct_answers": [
+        "The API and graphical interface for visualizing and comparing performance metrics."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

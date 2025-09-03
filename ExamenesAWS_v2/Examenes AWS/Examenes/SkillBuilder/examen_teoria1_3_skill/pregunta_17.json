@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A pharmaceutical company is developing a machine learning (ML) model to predict the efficacy of a new drug. The company has cleaned, transformed, and otherwise prepared their data for the ML model. The company wants to take steps to validate their data's integrity.\n\nWhich answer best describes the value of ensuring data integrity?",
+      "options": [
+        "It is important to validate that your data is accurate, complete, reliable, consistent, and secure. Validating these aspects of your data leads to more accurate and efficient predictions from your ML model.",
+        "It is important to validate that your data does not contain bias. Bias can lead to inaccurate ML model predictions.",
+        "It is important to validate that your data is stored efficiently. Efficient storage leads to efficient ML predictions.",
+        "It is important to validate that your data does not contain patient information. Including patient information in your data might disregard compliance requirements."
+      ],
+      "correct_answers": [
+        "It is important to validate that your data is accurate, complete, reliable, consistent, and secure. Validating these aspects of your data leads to more accurate and efficient predictions from your ML model."
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

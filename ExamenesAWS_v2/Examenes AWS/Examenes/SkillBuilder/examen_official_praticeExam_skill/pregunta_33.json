@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A company has an ML model that uses historical transaction data to predict customer behavior. An ML engineer is optimizing the model in Amazon SageMaker AI to enhance the model's predictive accuracy. The ML engineer must examine the input data and the resulting predictions to identify trends that could skew the model's performance across different demographics. Which solution will provide this level of analysis?",
+      "options": [
+        "Use Amazon CloudWatch to monitor network metrics and CPU metrics for resource optimization during model training.",
+        "Create AWS Glue DataBrew recipes to correct the data based on statistics from the model output.",
+        "Use SageMaker Clarify to evaluate the model and training data for underlying patterns that might affect accuracy.",
+        "Create AWS Lambda functions to automate data preprocessing and to ensure consistent quality of input data for the model."
+      ],
+      "correct_answers": [
+        "Use SageMaker Clarify to evaluate the model and training data for underlying patterns that might affect accuracy."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

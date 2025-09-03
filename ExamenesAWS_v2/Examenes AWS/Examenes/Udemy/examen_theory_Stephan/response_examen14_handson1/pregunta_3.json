@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Your company uses AWS Lambda to generate thumbnails from images uploaded to S3. The thumbnails are only needed temporarily. Which storage class should you choose for these thumbnails?",
+      "options": [
+        "S3 Standard",
+        "S3 One Zone-Infrequent Access",
+        "S3 Glacier",
+        "S3 Intelligent-Tiering"
+      ],
+      "correct_answers": [
+        "S3 One Zone-Infrequent Access"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

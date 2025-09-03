@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "Which of the following types of drift is best described as a systematic favoring of certain groups in the model's predictions over time?",
+      "options": [
+        "Model quality drift",
+        "Feature attribution drift",
+        "Bias drift",
+        "Data drift"
+      ],
+      "correct_answers": [
+        "Bias drift"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

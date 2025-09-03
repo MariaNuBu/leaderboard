@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "You are a DevOps engineer responsible for maintaining a serverless machine learning application that provides real-time predictions using AWS Lambda. Recently, users have reported increased latency when interacting with the application, especially during peak usage hours. You need to quickly identify the root cause of the latency and resolve the performance issues to ensure the application remains responsive.\n\nWhich combination of monitoring and observability tools is the MOST EFFECTIVE for troubleshooting the latency and performance issues in this serverless application?",
+      "options": [
+        "Use AWS X-Ray to trace requests across the entire application, identify bottlenecks, and visualize the end-to-end latency for each request. Combine this with Amazon CloudWatch Lambda Insights to monitor the Lambda function’s memory usage, CPU usage, and invocation times",
+        "Enable detailed monitoring in Amazon CloudWatch to track Lambda invocations, errors, and throttles, and manually inspect the Lambda code to identify performance bottlenecks",
+        "Use Amazon CloudWatch Alarms to set thresholds for Lambda duration and error rates, and configure AWS X-Ray to periodically sample traces from the application for analysis",
+        "Deploy Amazon CloudWatch Logs Insights to query and analyze the application logs for errors, and use AWS Config to review recent changes to the infrastructure that might have introduced latency"
+      ],
+      "correct_answers": [
+        "Use AWS X-Ray to trace requests across the entire application, identify bottlenecks, and visualize the end-to-end latency for each request. Combine this with Amazon CloudWatch Lambda Insights to monitor the Lambda function’s memory usage, CPU usage, and invocation times"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Lambda-Insights.html",
+        "https://docs.aws.amazon.com/xray/latest/devguide/xray-gettingstarted.html",
+        "https://aws.amazon.com/blogs/aws/aws-lambda-support-for-aws-x-ray/",
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-metrics-basic-detailed.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

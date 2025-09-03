@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are mentoring a new associate machine learning engineer through the machine learning lifecycle. During the model evaluation phase, you examine your model's bias. How would you explain model bias to the associate machine learning engineer?",
+      "options": [
+        "Model bias is the error identified when a model hasn't learned the relationship between the input features and the target variable in the training data.",
+        "Model bias occurs when the model favors certain input features over others during training.",
+        "Model bias is the sensitivity of the model to different training data. It's very susceptible to noise in the training dataset.",
+        "Model bias measures the amount of variance in the model's predictions."
+      ],
+      "correct_answers": [
+        "Model bias is the error identified when a model hasn't learned the relationship between the input features and the target variable in the training data."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

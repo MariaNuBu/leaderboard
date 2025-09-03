@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "Which of the following is the most appropriate problem type for regression models?\n\nGrouping users into segments based on browsing patterns without knowing specific user behaviors in advance.\n\nExplicación\nThis is an unsupervised learning problem, specifically clustering, where users are grouped without labeled data or predefined segments.\n\nPredicting whether a customer will churn or not based on past behavior.\n\nExplicación\nThis is a binary classification problem, a type of supervised learning, where the outcome is categorical (churn or not).\n\nClassifying images into different categories such as cats, dogs, and birds.\n\nExplicación\nThis is a multi-class classification problem, which involves predicting categories like cats, dogs, or birds.",
+      "options": [
+        "Grouping users into segments based on browsing patterns without knowing specific user behaviors in advance.",
+        "Predicting whether a customer will churn or not based on past behavior.",
+        "Classifying images into different categories such as cats, dogs, and birds.",
+        "Estimating the future sales revenue based on advertising spend and historical sales data."
+      ],
+      "correct_answers": [
+        "Estimating the future sales revenue based on advertising spend and historical sales data."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "Which of the following scenarios best demonstrates the advantage of using AWS CloudFormation to manage infrastructure?\n\nA project manager needs to manually update resource configurations directly on the servers.\n\nExplicación\nManually updating configurations on servers does not utilize CloudFormation’s capabilities of managing infrastructure as code.",
+      "options": [
+        "A project manager needs to manually update resource configurations directly on the servers.",
+        "A team needs to ensure the consistent creation and configuration of multiple interconnected resources across different AWS accounts.",
+        "A developer manually creates individual resources through the AWS Management Console for a single application.",
+        "An IT department requires ad-hoc creation of resources without predefined configurations."
+      ],
+      "correct_answers": [
+        "A team needs to ensure the consistent creation and configuration of multiple interconnected resources across different AWS accounts."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

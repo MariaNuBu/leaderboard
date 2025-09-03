@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A machine learning engineer has noticed a change in the production data for his ML model. The training dataset had a balanced distribution of the two groups of data. However, over time, the production dataset has a third group, which was not represented in the original training dataset. Which type of drift has the machine learning engineer identified?",
+      "options": [
+        "Data quality drift",
+        "Model quality drift",
+        "Model bias drift",
+        "Feature attribution drift"
+      ],
+      "correct_answers": [
+        "Model bias drift"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

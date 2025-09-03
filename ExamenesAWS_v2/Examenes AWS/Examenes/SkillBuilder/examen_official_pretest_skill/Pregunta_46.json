@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "Official Pretest: AWS Certified Machine Learning Engineer - Associate \nPREGUNTA 46\n\nTOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.\n\nAn ML engineer must maintain an existing Amazon SageMaker Pipelines pipeline to build an ML model. The ML engineer must modify the current pipeline to implement a custom model training logic. The training code is written in Python.\n\nWhich modification should the ML engineer make to meet these requirements?",
+      "options": [
+        "A\nWrap the custom training logic into a function and use the LambdaStep definition with the function name and script name as parameters. Add the LambdaStep definition to the current pipeline.",
+        "B\nWrap the custom training logic into a function and use the TrainingStep definition with the function name and script name as parameters. Add the TrainingStep definition to the current pipeline.",
+        "C\nWrap the custom training logic into a function and use the @remote decorator in the function. Add the function as a step in the current pipeline.",
+        "D\nWrap the custom training logic into a function and use the @step decorator in the function. Add the function as a step in the current pipeline."
+      ],
+      "correct_answers": [
+        "D\nWrap the custom training logic into a function and use the @step decorator in the function. Add the function as a step in the current pipeline."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.3 Use automated orchestration tools to set up continuous integration and continuous delivery (CI/CD) pipelines.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "For the case study income eligibility model, the business goals need a quality model that balances minimizing both false positive (FP) and false negative (FN). Which metrics would best be used to evaluate these models?",
+      "options": [
+        "MSE",
+        "Accuracy",
+        "Recall",
+        "F1 score"
+      ],
+      "correct_answers": [
+        "F1 score"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

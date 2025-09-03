@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A machine learning engineer has been tasked with fine-tuning a pre-trained text generation model. The text generation model needs to be able to answer to industry-specific terminology and acronyms but is otherwise effective in the business solution. Which approach should you take to fine-tuning this model?",
+      "options": [
+        "Train the model from scratch using new or updated data.",
+        "Use the pre-trained model as is and have it learn over time.",
+        "Use a custom dataset to fine-tune the model with domain-specific data.",
+        "Change the hyperparameters on the pre-trained model."
+      ],
+      "correct_answers": [
+        "Use a custom dataset to fine-tune the model with domain-specific data."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

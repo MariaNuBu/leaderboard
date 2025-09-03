@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A machine learning (ML) engineer is building a custom model training container. Where in the directory structure will the container store the hyperparameters during the training job?",
+      "options": [
+        "opt/ml/input/config",
+        "opt/ml/code",
+        "opt/ml/input/checkpoints",
+        "opt/ml/input/data"
+      ],
+      "correct_answers": [
+        "opt/ml/input/config"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

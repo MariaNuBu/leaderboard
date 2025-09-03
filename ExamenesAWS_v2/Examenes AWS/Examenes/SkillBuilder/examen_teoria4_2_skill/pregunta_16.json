@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "What is a recommended way to analyze AWS CloudTrail logs?",
+      "options": [
+        "Exporting the logs to a local file",
+        "Using Excel spreadsheets",
+        "Integrating CloudTrail with Amazon CloudWatch",
+        "Manually reviewing the logs in the AWS Console"
+      ],
+      "correct_answers": [
+        "Integrating CloudTrail with Amazon CloudWatch"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

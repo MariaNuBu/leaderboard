@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "Which scenario best represents an example of model quality drift?",
+      "options": [
+        "The contribution of individual features to the model's predictions has changed compared to the baseline established during training.",
+        "The model's predictions start to deviate from the actual ground truth labels it was trained to predict.",
+        "The distribution of input data received by the model in production differs significantly from the training data distribution.",
+        "The model starts to exhibit increased bias in its predictions for certain subpopulations or sensitive groups."
+      ],
+      "correct_answers": [
+        "The model's predictions start to deviate from the actual ground truth labels it was trained to predict."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

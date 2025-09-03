@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A company’s data science team uses Amazon SageMaker notebook instances to develop machine learning models. The team frequently collaborates on projects that require access to shared datasets and specific Amazon S3 buckets. Currently, permissions for accessing S3 buckets are managed by creating individual IAM roles for each SageMaker notebook instance. This decentralized approach has led to inconsistent permissions, duplication of effort, and difficulty in managing access across team members. The company wants to centralize permissions management to ensure all SageMaker notebook instances used by the team can access the required S3 buckets consistently and efficiently.\n\nWhich solution will meet this requirement?\n\nAttach the necessary permissions directly to each data scientist's IAM user to enable granular control over access to the notebook instances",
+      "options": [
+        "Attach the necessary permissions directly to each data scientist's IAM user to enable granular control over access to the notebook instances",
+        "Attach a single IAM role with S3 permissions to all SageMaker notebook instances used by the data science team",
+        "Use inline policies directly on each notebook instance to define local permissions for the data scientists",
+        "Create an IAM group for the data science team, associate the required S3 access policies to the group, and attach the IAM group directly to the SageMaker notebook instances to grant permissions to all data scientists"
+      ],
+      "correct_answers": [
+        "Attach a single IAM role with S3 permissions to all SageMaker notebook instances used by the data science team"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

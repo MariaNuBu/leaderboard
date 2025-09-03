@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 46,
+      "question": "A data science team is using Amazon SageMaker Studio notebooks to build and train machine learning models. They want to automate the ingestion and transformation of large datasets stored in Amazon S3, and also ensure the trained models can make real-time predictions via an API endpoint. Which two AWS services should the team integrate with SageMaker to achieve this? (Choose Two)\n\nUse Amazon EC2 to manage and host the trained model for real-time inference.\n\nExplicación\nSageMaker has built-in model deployment capabilities, so using EC2 for hosting models is unnecessary.\n\nUse AWS Lambda to automate the dataset transformations directly within SageMaker notebooks.\n\nExplicación\nWhile AWS Lambda can handle event-driven tasks, AWS Glue is more suitable for large-scale ETL processes. Lambda is not directly used for transforming large datasets.",
+      "options": [
+        "Use Amazon EC2 to manage and host the trained model for real-time inference.",
+        "Use AWS Lambda to automate the dataset transformations directly within SageMaker notebooks.",
+        "Use AWS Glue to perform ETL (Extract, Transform, Load) operations on the data before training the model.",
+        "Use Amazon API Gateway to expose the trained model as a REST API endpoint for real-time predictions.",
+        "Use Amazon Redshift to store the transformed data and query it before feeding it into the SageMaker model."
+      ],
+      "correct_answers": [
+        "Use AWS Glue to perform ETL (Extract, Transform, Load) operations on the data before training the model.",
+        "Use Amazon API Gateway to expose the trained model as a REST API endpoint for real-time predictions."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

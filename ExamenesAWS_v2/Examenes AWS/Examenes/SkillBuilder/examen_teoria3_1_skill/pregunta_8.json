@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You built an image classification model that can identify different types of flowers from images. You want to deploy this model to classify a continuous stream of user-submitted flower images on your website in real time. Your focus is to create a seamless user experience, and you want to be able to specify the EC2 instance type you will run the workload on. Which deployment inference strategy would work BEST in this scenario?",
+      "options": [
+        "Batch transform",
+        "Serverless inference",
+        "Asynchronous inference",
+        "Real-time inference"
+      ],
+      "correct_answers": [
+        "Real-time inference"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

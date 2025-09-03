@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "You are a machine learning engineer for a neuroscience company. Your team is building a model to analyze neuroimaging statistics. You've cleaned and transformed your data for modeling. Now it's time to take final steps to configure your data for your AWS machine learning model.\n\nWhich steps are a part of the process to properly mount and configure the data for your AWS machine learning model? SELECT THREE.",
+      "options": [
+        "Load the data from staged storage service to ML training resource like Amazon SageMaker",
+        "Load data into model without assessing configuration",
+        "Mount Amazon Elastic File System (EFS) or Amazon FSx",
+        "Eliminate security measures once data is clean",
+        "Remove outliers from the data",
+        "Copy data from Amazon S3 to Amazon EFS or Amazon FSx"
+      ],
+      "correct_answers": [
+        "Load the data from staged storage service to ML training resource like Amazon SageMaker",
+        "Mount Amazon Elastic File System (EFS) or Amazon FSx",
+        "Copy data from Amazon S3 to Amazon EFS or Amazon FSx"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

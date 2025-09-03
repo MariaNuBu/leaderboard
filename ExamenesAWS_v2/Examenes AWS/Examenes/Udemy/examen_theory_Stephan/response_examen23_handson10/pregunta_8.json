@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "Your company needs to monitor and manage costs associated with AWS usage. Which service should you use?",
+      "options": [
+        "AWS Trusted Advisor",
+        "AWS Cost Explorer",
+        "CloudWatch Metrics",
+        "AWS Config"
+      ],
+      "correct_answers": [
+        "AWS Cost Explorer"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

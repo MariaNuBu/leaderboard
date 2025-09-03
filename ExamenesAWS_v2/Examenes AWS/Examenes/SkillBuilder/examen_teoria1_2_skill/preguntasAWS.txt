@@ -1,0 +1,322 @@
+Do the same for these questions:
+
+Source: Skill Builder Domain 1.
+
+Topic: 1.2 Transform data and perform feature engineering.
+Practice test: 
+
+
+
+A real estate company is working on a machine learning project where the goal is to predict housing prices. The team has a dataset that contains information on the number of bedrooms, the square footage, and the locations of different houses. Before building a machine learning model, the team wants to prepare and transform the data. 
+
+Which data preparation technique could convert values for the home's location (with values of urban, suburban, and rural) into numeric representations that can be fed into a machine learning algorithm? 
+
+Data cleaning 
+
+Feature engineering 
+
+Categorical encoding (Correct)
+
+Dimensionality reduction
+
+
+
+A non-profit organization is gathering data to decide which type of fundraiser their patrons would like to attend. They decide to provide two options for patrons to share their preferences: an online survey and a hard-copy mailer. Some patrons plan to fill out both the online and hard-copy survey to make sure their preference is recorded.
+
+Which data cleaning technique will BEST help the company retain unique data points for the most effective machine learning (ML) solution?
+
+Reformatting the hard-copy mailer to contain only "Yes/No" answers
+
+Inspecting the data for incorrectly entered dates
+
+Identifying duplicate data from those who submitted both an online and hard-copy survey (Correct)
+
+Checking the datasets for mistyped patron names
+
+
+You are cleaning up a dataset that includes the body weights of patients at a medical clinic. A clinician tells you that they usually see adults, but children occasionally visit the clinic.
+
+Which data measurement BEST provides the central tendencies of your data?
+
+You would choose the mean, because the best measurement of data that might contain outliers is taking the average of all data entries.
+
+You would choose the median, because the best measurement of data that might contain outliers is sorting the data and dividing the dataset at the middle variable. (Correct)
+
+Because the data is numerical, you can use any method of measurement to find the average weight of a patient.
+
+There is no measurement you can use to find central tendencies of data.
+
+
+
+
+An apparel company is building a machine learning solution to determine which types of products are not selling well. They've collected data on how long products sit in inventory, but their dataset contains many missing values.
+
+Which method is the most effective option for addressing missing values in the apparel company's dataset?
+
+Inspecting the reason for the missed values, and dropping, leaving, or imputing data accordingly (Correct)
+
+Dropping all the data that contains missing values
+
+Manually imputing every missing value
+
+Letting their ML algorithm replace the missing values
+
+
+
+An automobile company wants to use a machine learning solution to determine how quickly their various sizes of vehicles reach their highest speeds. The vehicle sizes are compact, mid-size, and full-size. 
+
+
+Which type of categorical data BEST describes the feature of their dataset that lists the size of the vehicle?
+
+Numerical
+
+Nominal
+
+Ordinal (Correct)
+
+Binary
+
+
+You are building a data repository for a beverage company. You are tasked with encoding the values of the various flavor combinations customers can choose when they create a custom beverage. There are hundreds of flavor options, so you have a lot of features in your dataset. 
+
+
+
+Which encoding technique is the BEST option for this encoding task?
+
+Any type of encoding technique will work in this situation.
+
+You would choose label encoding, because it assigns a unique integer for each flavor option. (Correct)
+
+You would choose one-hot encoding, because it works most effectively when there are a lot of features in your dataset.
+
+Categorical encoding will not work for this machine learning solution.
+
+
+
+An energy company wants to assess how often their customers have to replace their solar panels after their initial solar panel purchase. Their raw data includes the dates of first purchase, customer reviews, and dates of additional purchases.
+
+How might this company use feature engineering to help the machine learning model understand the relationship between these features in their dataset?
+
+This is not a good use case for feature engineering, because the data includes a text-based feature.
+
+The company can use numeric feature engineering to extract information from the purchase dates, and they can use text feature engineering to extract information from the customer reviews. (Correct)
+
+The company can only use numeric feature engineering to extract information from this dataset.
+
+The company can only use text feature engineering to extract information from this dataset.
+
+---
+
+A company is building a machine learning model to predict credit risk. One of the features in the dataset is LoanAmount, which is likely to contain a few outliers.
+
+Which feature engineering technique is a good method for engineering this numeric feature before model training?
+
+Take the log transform of the values to help normalize distribution. (Correct)
+
+Leave the values unchanged.
+
+Take the mean of all values.
+
+Use one-hot encoding to sort the values.
+
+---
+
+You work for a travel company and want to build a model to categorize customer reviews as positive or negative.
+
+Which text feature engineering technique would be most useful for this classification task?
+
+Bag-of-words
+Binning
+Log transformation
+N-gram (Correct)
+
+---
+
+A baseball analyst wants to predict a player's batting average using a machine learning model. They have a dataset with over thirty different hitting statistics for each player. 
+
+The analyst wants to retain necessary information but reduce the number of features before training the model. Which feature selection technique should they use?
+
+Feature splitting
+
+Feature scaling
+
+Principal component analysis (PCA) (Correct)
+
+No need for feature selection 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+----
+
+An aerospace engineering company is analyzing data from a recent rocket test flight. While reviewing the data, the analysts notice some duplicate timestamps for certain sensor readings and a few values that seem impossibly high or low.
+
+Which option is the best approach for handling these data issues?
+
+Adjust the sensor calibration to avoid the duplicate and outlier values being recorded in the first place.
+
+Manually or systematically check the anomalous data points to determine if they are truly errors. (Correct)
+
+Use one-hot encoding to locate and replace duplicated data points.
+
+Delete all data points that seem incorrect or duplicated without checking, because they are likely just errors.
+
+----
+
+A research university health department is analyzing data on risk factors for heart disease. They have collected a large dataset with hundreds of features. They want to reduce the number of features and select the most relevant ones for predicting heart disease risk.
+
+Which feature selection technique is the best option for this university’s machine learning (ML) use case?
+
+Feature splitting
+
+Exploratory data analysis (EDA)
+
+Feature combining (Correct)
+
+Randomly reducing features by 50 percent
+
+----
+
+A clothing company collects customer data from various sources including online transactions, in-store purchases, and customer surveys. This data is stored across different systems and formats. Your team needs to combine all this data into a centralized data lake for analysis.
+
+Which AWS service can automate extract, transform, and load (ETL) processes, and could help transform and clean this varied data into a standard format?
+
+AWS Glue (Correct)
+
+AWS Database Migration Service (AWS DMS) 
+
+Amazon SageMaker Ground Truth
+
+Spark running on Amazon EMR
+
+----
+
+An energy company is analyzing data on customer energy usage to develop a machine learning model to predict which customers are most likely to switch providers. They have numeric data on each customer's average monthly energy usage and text-based data from customer reviews.
+
+Which feature engineering techniques might the company use to incorporate the data into the model? (Select TWO.)
+
+
+Calculating the median of customer reviews
+
+N-gram (Correct)
+
+Deleting outliers
+
+Deleting rows with missing data
+
+Log transformation (Correct)
+
+----
+
+A large bookstore collects large amounts of customer data across websites, mobile apps, and brick-and-mortar stores. It wants to build a machine learning (ML) model to predict customer lifetime value. The company will need to preprocess and engineer features from the raw data before model training.
+
+What is the BEST approach to this scenario?
+
+Process the data in Spark or extract, transform, and load (ETL) tools and save features to CSV files in Amazon S3.
+
+Use AWS Glue to catalog the raw data and build jobs to transform features during training.
+
+Use Amazon SageMaker Feature Store to ingest the data and build curated features. Serve these features to models during training. (Correct)
+
+Upload the raw data directly to Amazon S3 and process features quickly during training.
+
+----
+
+You work for the education department in your local government agency. Your education department needs to check student test score data from multiple sources and formats to identify trends.
+
+Which AWS service is the best option for transforming and analyzing this dataset?
+
+Amazon S3
+
+Amazon Mechanical Turk
+
+Amazon Elastic File System (Amazon EFS)
+
+AWS Glue (Correct)
+
+----
+
+A retail company wants to predict which products customers will purchase based on past purchase data. The data contains purchase information like customer ID, product, price, date, and more.
+
+Which technique could the team use to transform the raw data into more informative features to help improve the accuracy of their model?
+
+Data splitting
+
+Removing outliers
+
+Feature engineering (Correct)
+
+Data cleaning
+
+----
+
+You work for an ecommerce company that processes large amounts of sales data each day. You decide to use Apache Spark on Amazon EMR to transform your sales data.
+
+Which answers describe data transformation capabilities of Amazon EMR? (Select TWO.)
+
+Human-touch data labeling
+
+Real-time analytics (Correct)
+
+Decreased performance
+
+Data storage
+
+Anomaly detection (Correct)
+
+----
+
+You work for a healthcare company that processes large amounts of patient data. Recently, your team has run into issues with inconsistent formatting and large file sizes that are slowing down analysis. You want to find a way to clean and optimize the data before feeding it into your machine learning models.
+
+
+Which AWS service would be the best choice to transform the data, fix formatting issues, and reduce the data size?
+
+Amazon Athena
+
+Amazon Mechanical Turk
+
+AWS Lake Formation
+
+Amazon SageMaker Data Wrangler (Correct)
+
+----
+
+A nonprofit company runs a local food bank and wants to use machine learning (ML) to better predict how much food they will need to stock their pantry each month. Before building any models, they know it is important to prepare and clean their historical data on food donations and distributions.
+
+----
+
+Why is data cleaning and transformation an important step for this company’s ML workload?
+
+Data cleaning transforms the data into a standardized format and handles missing values. This consistent and complete data helps machine learning models make accurate predictions. (Correct)
+
+Without cleaning and transforming their historical data, the company’s ML model will not process the data at all.
+
+Data cleaning is unimportant. The models will learn the patterns in the data regardless of small errors.
+
+The company should skip cleaning the data and go straight to building models. The deep learning algorithms can handle messy data without any preparation.
+
+----
+
+An agriculture company is analyzing yield data from their corn fields from the past 5 years. Upon plotting the data, they notice a few data points that are much higher or lower than the majority of the data.
+
+What should the agriculture company do with these potential outlier data points when analyzing the yield data?
+
+Replace any outliers with the mean or median value of the remaining data.
+
+Leave the outliers in the data set because they represent real values. 
+
+Remove the outliers completely from the dataset before further analysis.
+
+Keep the outliers but run statistical tests to identify any significant outliers. Determine if the outliers are natural or artificial before deciding to keep or remove outliers. (Correct)
+

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A company wants to use Amazon SageMaker to build predictive models for their digital marketing campaigns without having to write code. The datasets consist of tabular data already loaded into Amazon S3. The company requires that all models must be reviewed by data scientists for performance and fairness. Data scientists require partial dependence plots to evaluate the marginal effect that features have on the outcomes predicted by the models.\\n\\nWhich combination of steps meet the requirements with the LEAST operational overhead? (Select TWO.)",
+      "options": [
+        "A\\nUse SageMaker Pipeline to load data from Amazon S3, build predictive models, and register selected versions into SageMaker Model Registry.",
+        "B\\nUse SageMaker built-in algorithms to build predictive models. Register selected versions into SageMaker Model Registry.",
+        "C\\nUse SageMaker Canvas to build predictive models. Register selected versions into SageMaker Model Registry.",
+        "D\\nRun an explainability analysis by using SageMaker Clarify to construct partial dependence plots. Approve selected versions in SageMaker Model Registry.",
+        "E\\nRun an explainability analysis by using SageMaker Model Registry. Approve selected versions."
+      ],
+      "correct_answers": [
+        "C\\nUse SageMaker Canvas to build predictive models. Register selected versions into SageMaker Model Registry.",
+        "D\\nRun an explainability analysis by using SageMaker Clarify to construct partial dependence plots. Approve selected versions in SageMaker Model Registry."
+      ],
+      "references": [],
+      "topic": "2.3 Analyze model performance",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

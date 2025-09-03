@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A research university health department is analyzing data on risk factors for heart disease. They have collected a large dataset with hundreds of features. They want to reduce the number of features and select the most relevant ones for predicting heart disease risk.\n\nWhich feature selection technique is the best option for this university\u2019s machine learning (ML) use case?",
+      "options": [
+        "Feature splitting",
+        "Exploratory data analysis (EDA)",
+        "Feature combining",
+        "Randomly reducing features by 50 percent"
+      ],
+      "correct_answers": [
+        "Feature combining"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

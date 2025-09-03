@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You are working on a machine learning (ML) project for an ecommerce company. The model has been developed and tested, and now it's time to deploy it to production. You want to build a repeatable framework to deploy and monitor the model effectively. Which step is not a necessary component of a repeatable machine learning operations (MLOps) framework?",
+      "options": [
+        "Version control",
+        "Continuous integration and continuous delivery (CI/CD) for model deployment",
+        "Manual model performance updates",
+        "Monitoring"
+      ],
+      "correct_answers": [
+        "Manual model performance updates"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

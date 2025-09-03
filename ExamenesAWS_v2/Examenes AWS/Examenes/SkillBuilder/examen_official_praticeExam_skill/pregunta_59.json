@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "An industrial company is exploring the use of generative AI to retrieve information from maintenance notes. The company currently uses a text-to-text foundation model (FM) on Amazon Bedrock. The company wants to optimize the model. The company wants to help the model better understand the terminology and abbreviations that maintenance technicians use.\n\nWhat is the MOST cost-effective solution to help the model understand the company's data?",
+      "options": [
+        "Replace the model with a new model that has more parameters.",
+        "Customize the model by using fine-tuning.",
+        "Create an Amazon Bedrock Knowledge Base.",
+        "Pre-train a new FM by using the Amazon SageMaker AI model parallelism library."
+      ],
+      "correct_answers": [
+        "Customize the model by using fine-tuning."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

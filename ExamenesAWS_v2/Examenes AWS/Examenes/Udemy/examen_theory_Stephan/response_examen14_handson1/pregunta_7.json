@@ -1,0 +1,18 @@
+{
+  "question": {
+    "id": 7,
+    "question": "Your organization needs to choose a data format for a large-scale ETL pipeline that processes batch data in Hadoop and Spark. The data should be optimized for analytics and efficient storage. Which format is most appropriate?",
+    "options": [
+      "JSON",
+      "CSV",
+      "Parquet",
+      "XML"
+    ],
+    "correct_answers": [
+      "Parquet"
+    ],
+    "topic": "Data Ingestion and Storage",
+    "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+    "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+  }
+}

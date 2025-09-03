@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "A company has trained an ML model in Amazon SageMaker AI. The company needs to host the model to provide inferences in a production environment. The model must be highly available and must respond with minimum latency. The size of each request will be between 1 KB and 3 MB. The model will receive unpredictable bursts of requests during the day. The inferences must adapt proportionally to the changes in demand. How should the company deploy the model into production to meet these requirements?",
+      "options": [
+        "Create a SageMaker AI real-time inference endpoint. Configure auto scaling. Configure the endpoint to present the existing model.",
+        "Deploy the model on an Amazon Elastic Container Service (Amazon ECS) cluster. Use ECS scheduled scaling that is based on the CPU of the ECS cluster.",
+        "Install SageMaker AI Operators on an Amazon Elastic Kubernetes Service (Amazon EKS) cluster. Deploy the model in Amazon EKS. Set the Horizontal Pod Autoscaler to scale replicas based on the memory metric.",
+        "Use Spot Instances with a Spot Fleet behind an Application Load Balancer (ALB) for inferences. Use the ALBRequestCountPerTarget metric as the metric for auto scaling."
+      ],
+      "correct_answers": [
+        "Create a SageMaker AI real-time inference endpoint. Configure auto scaling. Configure the endpoint to present the existing model."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

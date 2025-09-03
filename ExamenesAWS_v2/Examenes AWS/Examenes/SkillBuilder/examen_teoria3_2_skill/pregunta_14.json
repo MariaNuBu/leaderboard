@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "Which of the following is a benefit of using infrastructure as code (IaC)?",
+      "options": [
+        "It requires you to specify all of the settings of your infrastructure resources for each deployment, supporting greater customization.",
+        "You can deploy the same infrastructure for developer and test environments.",
+        "It decreases your reliance on available programming skills by letting you rely on infrastructure skill sets.",
+        "It creates reliable architectures by preventing the convenient deletion of infrastructure resources."
+      ],
+      "correct_answers": [
+        "You can deploy the same infrastructure for developer and test environments."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

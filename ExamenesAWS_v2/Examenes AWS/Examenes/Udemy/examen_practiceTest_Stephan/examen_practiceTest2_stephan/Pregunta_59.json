@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 59,
+      "question": "You are a data scientist working for an e-commerce company that wants to implement personalized product recommendations for its users. The company has a large dataset of user interactions, including clicks, purchases, and reviews. The goal is to create a recommendation system that can scale to millions of users while providing real-time recommendations based on user behavior. You need to choose the most appropriate built-in algorithm in Amazon SageMaker to achieve this goal.\n\nGiven the requirements, which of the following Amazon SageMaker built-in algorithms is the MOST SUITABLE for this use case?\n\nK-Means Algorithm to cluster users into segments and recommend products based on these segments\n\nBlazingText Algorithm to analyze the text in user reviews and identify product similarities\n\nXGBoost Algorithm to rank the products based on user behavior and demographic features",
+      "options": [
+        "K-Means Algorithm to cluster users into segments and recommend products based on these segments",
+        "BlazingText Algorithm to analyze the text in user reviews and identify product similarities",
+        "XGBoost Algorithm to rank the products based on user behavior and demographic features",
+        "Factorization Machines Algorithm to model user-item interactions for collaborative filtering"
+      ],
+      "correct_answers": [
+        "Factorization Machines Algorithm to model user-item interactions for collaborative filtering"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/fact-machines.html",
+        "https://aws.amazon.com/blogs/machine-learning/accelerate-and-improve-recommender-system-training-and-predictions-using-amazon-sagemaker-feature-store/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You are a DevOps engineer at a tech company that is building a scalable microservices-based application. The application is composed of several containerized services, each responsible for different parts of the application, such as user authentication, data processing, and recommendation systems. The company wants to standardize and automate the deployment and management of its infrastructure using Infrastructure as Code (IaC). You need to choose between AWS CloudFormation and AWS Cloud Development Kit (CDK) for defining the infrastructure. Additionally, you must decide on the appropriate AWS container service to manage and deploy these microservices efficiently.\n\nGiven the requirements, which combination of IaC option and container service is MOST SUITABLE for this scenario, and why?",
+      "options": [
+        "Use AWS CDK for infrastructure as code, allowing you to define the infrastructure in a high-level programming language, and deploy the containerized microservices using Amazon EKS (Elastic Kubernetes Service) for advanced orchestration and scalability",
+        "Use AWS CloudFormation to define and deploy the infrastructure as code, and Amazon ECR (Elastic Container Registry) with Fargate for running the containerized microservices without needing to manage the underlying servers",
+        "Use AWS CDK with Amazon ECS on EC2 instances to combine the flexibility of programming languages with direct control over the underlying server infrastructure for the microservices",
+        "Use AWS CloudFormation with YAML templates for infrastructure automation and deploy the containerized microservices using Amazon Lightsail Containers to simplify management and reduce costs"
+      ],
+      "correct_answers": [
+        "Use AWS CDK for infrastructure as code, allowing you to define the infrastructure in a high-level programming language, and deploy the containerized microservices using Amazon EKS (Elastic Kubernetes Service) for advanced orchestration and scalability"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

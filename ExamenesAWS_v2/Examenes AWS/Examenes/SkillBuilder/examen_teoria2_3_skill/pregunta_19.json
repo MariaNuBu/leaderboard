@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "You are reviewing the results of a model training job. You notice that the model performed well on the training set but poorly on the validation set. What is a likely cause for this behavior?",
+      "options": [
+        "The model was not trained long enough.",
+        "The model is overfit.",
+        "The model bias is high.",
+        "The model is underfit."
+      ],
+      "correct_answers": [
+        "The model is overfit."
+      ],
+      "references": [
+        "https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

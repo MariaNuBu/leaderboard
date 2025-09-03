@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "You are an ML engineer at a data analytics company tasked with training a deep learning model on a large, computationally intensive dataset. The training job can tolerate interruptions and is expected to run for several hours or even days, depending on the available compute resources. The company has a limited budget for cloud infrastructure, so you need to minimize costs as much as possible.\n\nWhich strategy is the MOST EFFECTIVE for your ML training job while minimizing cost and ensuring the job completes successfully?",
+      "options": [
+        "Use Amazon SageMaker Managed Spot Training to dynamically allocate Spot Instances for the training job, automatically retrying any interrupted instances via checkpoints",
+        "Deploy the training job on a fixed number of On-Demand EC2 instances to ensure stability, and manually add Spot Instances as needed to speed up the job during off-peak hours",
+        "Start the training job using only Spot Instances to minimize cost, and switch to On-Demand instances manually if any Spot Instances are interrupted during training",
+        "Use Amazon EC2 Auto Scaling to automatically add Spot Instances to the training job based on demand, and configure the job to continue processing even if some Spot Instances are interrupted"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Managed Spot Training to dynamically allocate Spot Instances for the training job, automatically retrying any interrupted instances via checkpoints"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-managed-spot-training.html",
+        "https://aws.amazon.com/blogs/aws/managed-spot-training-save-up-to-90-on-your-amazon-sagemaker-training-jobs/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

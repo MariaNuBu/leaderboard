@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "An organization is in the process of deploying a machine learning system that ingests large amounts of streaming data from Amazon Kinesis to Amazon S3 for training. By using Amazon CloudWatch metrics, the organization finds that there is an increase in end-to-end latency and throughput is lower than needed. Which solution is most likely to improve ingestion performance?",
+      "options": [
+        "Compress the data before sending it to Amazon Kinesis to improve bandwidth utilization.",
+        "Use multiple Amazon S3 buckets to stream the data to spreading the load across multiple Amazon S3 buckets.",
+        "Batch the data to improve ingestion efficiency because Amazon Kinesis can support batching.",
+        "Increase Amazon S3 bucket capacity to avoid the storage destination from becoming a bottle neck."
+      ],
+      "correct_answers": [
+        "Batch the data to improve ingestion efficiency because Amazon Kinesis can support batching."
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

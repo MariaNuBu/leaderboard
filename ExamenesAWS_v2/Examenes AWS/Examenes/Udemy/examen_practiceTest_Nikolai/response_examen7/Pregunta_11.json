@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A data scientist is working on a binary classification problem to detect fraudulent transactions. The model has a high precision but a relatively low recall. What does this indicate about the model’s performance?",
+      "options": [
+        "The model has a high rate of correctly predicted frauds, but misses many actual frauds.",
+        "The model is accurately identifying most of the fraudulent transactions.",
+        "The model's predictions are consistent, but it makes many false positive predictions.",
+        "The model is poorly identifying true negatives."
+      ],
+      "correct_answers": [
+        "The model has a high rate of correctly predicted frauds, but misses many actual frauds."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

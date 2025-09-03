@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "Which of the following statements about AWS IAM roles is correct?\n\nIAM roles do not support inline policies and can only be defined with AWS managed policies.\n\nExplicación\nIAM roles support both managed and inline policies, giving flexibility to define permissions as needed.\n\nIAM roles are used only by AWS services and cannot be assumed by IAM users or external identities.\n\nExplicación\nIAM roles can indeed be assumed by IAM users, groups, or external identities, not just AWS services.\n\nIAM roles are associated directly with an IAM user and always tied to a specific user account.\n\nExplicación\nRoles are not directly tied to specific users but can be assumed by any user, service, or account that has permission, making them flexible for various scenarios.",
+      "options": [
+        "IAM roles do not support inline policies and can only be defined with AWS managed policies.",
+        "IAM roles are used only by AWS services and cannot be assumed by IAM users or external identities.",
+        "IAM roles are associated directly with an IAM user and always tied to a specific user account.",
+        "IAM roles can be assumed by AWS services or external identities and can have multiple policies attached to manage permissions."
+      ],
+      "correct_answers": [
+        "IAM roles can be assumed by AWS services or external identities and can have multiple policies attached to manage permissions."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "A retail company has deployed a machine learning model using Amazon SageMaker to predict customer purchase behavior. The company wants to ensure the model's performance remains consistent over time. \nWhich AWS services would be most suitable for monitoring the deployed model?",
+      "options": [
+        "Amazon SageMaker Model Monitor",
+        "AWS Lambda",
+        "AWS CloudTrail",
+        "Amazon CloudWatch Logs"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Model Monitor"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

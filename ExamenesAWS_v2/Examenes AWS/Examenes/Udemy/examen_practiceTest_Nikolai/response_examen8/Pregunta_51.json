@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A team is training a neural network model in Amazon SageMaker. During training, they notice that the model's performance has plateaued, and suspect a vanishing gradient issue. How can they leverage SageMaker Debugger to diagnose and address this problem?",
+      "options": [
+        "Set up custom debug rules to capture disappearing gradients and adjust the learning rate as needed.",
+        "Enable SageMaker Clarify to detect vanishing gradients during training.",
+        "Use cross-validation to rotate training data, preventing gradient loss.",
+        "Increase the training epochs until SageMaker Debugger resolves the issue."
+      ],
+      "correct_answers": [
+        "Set up custom debug rules to capture disappearing gradients and adjust the learning rate as needed."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

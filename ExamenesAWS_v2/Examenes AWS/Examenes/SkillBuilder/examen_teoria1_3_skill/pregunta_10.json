@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A publishing company is training a machine learning (ML) model on customer data to predict how many customers will buy their new book series. However, they are concerned about potential bias in the data due to historical underrepresentation of certain demographic groups. Which AWS service could this company use to help assess potential bias in the dataset?",
+      "options": [
+        "Amazon FSx",
+        "Amazon Comprehend",
+        "AWS Glue DataBrew",
+        "Amazon SageMaker Clarify"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Clarify"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

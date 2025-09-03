@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "Which of the following is the primary advantage of using the Hyperband algorithm for hyperparameter tuning over other methods?",
+      "options": [
+        "It allocates more resources to promising configurations while stopping underperforming configurations early",
+        "It randomly selects hyperparameters to reduce training time",
+        "It guarantees that all hyperparameter combinations are tested",
+        "It uses prior training results to suggest the next set of hyperparameters to test"
+      ],
+      "correct_answers": [
+        "It allocates more resources to promising configurations while stopping underperforming configurations early"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3"
+    }
+  ]
+}

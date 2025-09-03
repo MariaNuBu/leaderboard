@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "Which of the following is an advantage of using Amazon SageMaker Studio Notebooks over traditional standalone SageMaker notebook instances?\n\nStudio notebooks support integration with multiple machine learning libraries, while standalone instances do not.\n\nExplicación\nBoth Studio and standalone notebook instances support popular machine learning libraries (e.g., TensorFlow, PyTorch), as these are pre-installed in both.\n\nStudio notebooks do not require an IAM role for permissions when accessing AWS resources.\n\nExplicación\nBoth Studio notebooks and standalone notebook instances require proper IAM roles to ensure that permissions are in place for accessing AWS resources like S3, Lambda, or other services.",
+      "options": [
+        "Studio notebooks support integration with multiple machine learning libraries, while standalone instances do not.",
+        "Studio notebooks do not require an IAM role for permissions when accessing AWS resources.",
+        "Studio notebooks offer persistent storage for managing multiple notebooks and datasets.",
+        "Standalone notebook instances are cheaper to run than SageMaker Studio notebooks."
+      ],
+      "correct_answers": [
+        "Studio notebooks offer persistent storage for managing multiple notebooks and datasets."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

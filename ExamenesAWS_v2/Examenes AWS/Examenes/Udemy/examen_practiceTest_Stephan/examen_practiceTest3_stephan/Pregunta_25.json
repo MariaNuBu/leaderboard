@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A global news agency operates a document retrieval system that helps journalists find relevant articles using natural language queries. The existing system uses a vector database for storing embeddings of news articles. The agency has migrated all its archived articles to an Amazon S3 bucket and now needs a solution on AWS to provide semantic search capabilities for these articles.\n\nWhich solution will meet these requirements most efficiently?",
+      "options": [
+        "Use Amazon Kendra to index the archived articles in the S3 bucket and enable semantic search with natural language queries",
+        "Use Amazon Comprehend to extract key phrases and entities from the articles and build a custom search engine for semantic retrieval",
+        "Leverage AWS Glue to preprocess the archived articles and create a metadata catalog, then use Athena to perform semantic queries on the catalog",
+        "Deploy a SageMaker endpoint with a fine-tuned language model to process user queries and manually integrate the model with S3 for retrieving articles"
+      ],
+      "correct_answers": [
+        "Use Amazon Kendra to index the archived articles in the S3 bucket and enable semantic search with natural language queries"
+      ],
+      "references": [
+        "https://aws.amazon.com/kendra/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

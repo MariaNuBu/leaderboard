@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "You are building a model for an autonomous pizza delivery drone. You need to use a reinforcement learning algorithm to train your model. Which deep learning frameworks are supported in Amazon SageMaker reinforcement learning (RL)? (Select TWO.)",
+      "options": [
+        "TensorFlow",
+        "HuggingFace",
+        "Apache MXNet",
+        "PyTorch",
+        "Intel Coach"
+      ],
+      "correct_answers": [
+        "TensorFlow",
+        "Apache MXNet"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

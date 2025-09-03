@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "You are a data scientist working on a predictive maintenance model for an industrial manufacturing company. The model is designed to predict equipment failures based on sensor data collected over time. During the development process, you notice that the model performs exceptionally well on the training data but struggles to generalize to new, unseen data. Additionally, there are some indications that the model might not be fully capturing the complexity of the problem. To ensure the model performs well in production, you need to identify whether it is overfitting, underfitting, or both.\n\nWhich of the following strategies is the MOST EFFECTIVE for identifying overfitting and underfitting in your model?",
+      "options": [
+        "Perform cross-validation with different subsets of the data; if the model’s performance varies significantly across folds, the model is underfitting",
+        "Reduce the number of features in the model; if performance improves, the model was previously overfitting",
+        "Compare the training and validation loss curves over time; if the validation loss is much higher than the training loss, the model is likely overfitting",
+        "Analyze the model’s performance on a separate test set; if the model performs well on both the training and test sets, it is neither overfitting nor underfitting"
+      ],
+      "correct_answers": [
+        "Compare the training and validation loss curves over time; if the validation loss is much higher than the training loss, the model is likely overfitting"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/model-fit-underfitting-vs-overfitting.html",
+        "https://aws.amazon.com/what-is/overfitting/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

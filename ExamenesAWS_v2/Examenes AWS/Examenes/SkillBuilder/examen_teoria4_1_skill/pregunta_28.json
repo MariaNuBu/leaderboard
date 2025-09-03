@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A data scientist is using the SageMaker Model Dashboard to monitor a suite of models used for natural language processing tasks. They have set up Model Monitor alerts and want to understand how the dashboard helps them manage and prioritize these alerts. \nWhich feature best supports their alert management process?",
+      "options": [
+        "Alert severity levels: Alerts are categorized into critical, warning, and informational levels to help prioritize response.",
+        "Alert history: The dashboard provides a record of all activated alerts, allowing the data scientist to review and analyze past issues.",
+        "Customizable alert actions: The data scientist can define specific actions to be taken automatically when certain alerts are activated.",
+        "Alert dependencies: The dashboard identifies and groups related alerts, helping the data scientist address root causes effectively."
+      ],
+      "correct_answers": [
+        "Alert history: The dashboard provides a record of all activated alerts, allowing the data scientist to review and analyze past issues."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 45,
+  "question": "A company has a trained ML model. The company needs an inference option that is always available. The inference option also must provide low, consistent latency for predictable traffic patterns.\n\nWhich type of inference will meet these requirements?",
+  "options": [
+    "Real-time inference",
+    "Serverless inference",
+    "Asynchronous inference",
+    "Batch inference"
+  ],
+  "correct_answers": [
+    "Real-time inference"
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

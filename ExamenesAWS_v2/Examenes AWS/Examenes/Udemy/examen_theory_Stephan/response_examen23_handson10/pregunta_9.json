@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "To ensure your CloudWatch Logs are encrypted with a specific KMS key, what should you configure?",
+      "options": [
+        "CloudWatch Logs Agent",
+        "AWS CloudTrail",
+        "CloudWatch Logs Encryption",
+        "CloudWatch Unified Agent"
+      ],
+      "correct_answers": [
+        "CloudWatch Logs Encryption"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

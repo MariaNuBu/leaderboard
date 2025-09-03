@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You are fine-tuning a pre-trained GPT model for a customer service chatbot. Which training technique is most appropriate if you want to adapt the model with minimal training data?",
+      "options": [
+        "Freezing the initial layers and training the last few layers",
+        "Training from scratch",
+        "Training the entire model with new data",
+        "Changing the tokenizer and training the whole model"
+      ],
+      "correct_answers": [
+        "Freezing the initial layers and training the last few layers"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

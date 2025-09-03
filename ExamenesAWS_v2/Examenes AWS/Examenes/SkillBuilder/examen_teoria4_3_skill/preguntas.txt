@@ -1,0 +1,201 @@
+Who is responsible for securing the data in an Amazon Simple Storage Service (Amazon S3) bucket, according to the shared responsibility model?
+AWS is solely responsible for securing the data in an Amazon S3 bucket.
+The customer is solely responsible for securing the data in an Amazon S3 bucket.
+Both AWS and the customer share responsibility for securing the data in an Amazon S3 bucket.  (Correct)
+The responsibility for securing the data in an Amazon S3 bucket depends on the specific use case and configuration.
+
+
+A machine learning engineer is working on a project that involves sensitive financial data. Which security policy would be MOST appropriate to restrict access to the training data stored in an Amazon Simple Storage Service (Amazon S3) bucket?
+IAM policy
+Amazon S3 bucket policy  (Correct)
+ML endpoint policy
+Amazon SageMaker Role Manager
+
+
+Which statement is true regarding securing machine learning (ML) resources, according to the principle of least privilege?
+Users should be granted access to all ML resources, regardless of their roles and responsibilities. This ensures they have the necessary permissions to perform their tasks efficiently.
+Users should be granted the minimum level of access required to perform their specific roles and responsibilities and no more.  (Correct)
+Users should be granted access to ML resources based on their job titles, regardless of their actual roles and responsibilities.
+All users should have administrative-level access to ML resources to ensure they can troubleshoot and resolve issues quickly.
+
+
+A data scientist is working on a machine learning project that involves sensitive data. Which network access controls should they implement to ensure the security and isolation of the ML resources?
+Configure a VPC with private subnets for the ML resources and restrict access to the resources from the internet.  (Correct)
+Use public subnets for the ML resources and rely on IAM policies to control access.
+Implement a bastion host in a public subnet and access the ML resources through the bastion host.
+Use AWS security groups to control inbound and outbound traffic to the ML resources.
+
+
+
+
+A machine learning engineer wants to deploy an Amazon SageMaker endpoint for a real-time inference application. The endpoint should only be accessible from within the company's internal network.
+Which configuration should they use?
+Deploy the SageMaker endpoint in a public subnet and configure a Network Address Translation (NAT) gateway to allow inbound traffic from the internal network.
+Deploy the SageMaker endpoint in a private subnet within a VPC and configure a VPC endpoint to allow traffic from the internal network.  (Correct)
+Deploy the SageMaker endpoint in a public subnet and configure an Internet Gateway to allow inbound traffic from the internal network.
+Deploy the SageMaker endpoint in a private subnet within a VPC. Then, configure a bastion host in a public subnet to allow access from the internal network.
+
+
+A data scientist requires access to an Amazon Simple Storage Service (Amazon S3) bucket containing training data from an Amazon SageMaker notebook instance running within a VPC. Which approaches should they use to enable secure access to the S3 bucket?
+Configure an Internet Gateway in the VPC to allow outbound internet access from the notebook instance to the S3 bucket.
+Configure a VPC endpoint for Amazon S3 in the VPC and use the endpoint to access the S3 bucket.  (Correct)
+Configure a NAT Gateway in the VPC to allow outbound internet access from the notebook instance to the S3 bucket.
+Configure a bastion host in a public subnet and access the S3 bucket through the bastion host.
+
+
+You have deployed an Amazon SageMaker endpoint for your machine learning model within a VPC. To enhance security, you want to configure the endpoint to be accessible only from within the VPC.
+Which steps should you take to achieve this?
+Create a security group that allows inbound traffic to the endpoint from any source (0.0.0.0/0) on the necessary ports.
+Configure a NACL to allow all inbound and outbound traffic for the subnet hosting the endpoint.
+Create a security group that allows inbound traffic to the endpoint only from sources within the VPC's CIDR range.  (Correct)
+Enable public internet access for the subnet hosting the endpoint to ensure accessibility from outside the VPC.
+
+
+A machine learning engineer is working for a healthcare company and is responsible for deploying a machine learning model on Amazon SageMaker. The model will be used to analyze patient data, which is highly sensitive information. To ensure the security of your ML resources, you must configure security groups appropriately.
+Which statement about security groups is correct?
+Security groups act as virtual firewalls that control inbound and outbound traffic to your ML resources, such as SageMaker notebooks and endpoints.  (Correct)
+AWS configures security groups and users cannot modify them.
+Security groups only apply to Amazon Elastic Compute Cloud (Amazon EC2) instances and cannot be used to secure SageMaker resources.
+Security groups control access to AWS services based on user roles and permissions.
+
+
+A machine learning engineer is working on a fraud detection model using Amazon SageMaker. To ensure the security of the project, the engineer must implement proper access controls and logging mechanisms. Which action should the engineer take to achieve this?
+Create a custom IAM policy that grants his team members read-only access to the SageMaker resources used in the project.
+Enable Amazon CloudWatch to monitor the performance of the SageMaker resources and set up alarms for any unusual activity.
+Configure AWS CloudTrail to log all API calls and actions taken in the SageMaker environment and enable encryption at rest using AWS Key Management Service (AWS KMS).  (Correct)
+Opt out of metadata collection to prevent any data related to the fraud detection model from being shared with AWS.
+
+
+A machine learning engineer at a healthcare organization is tasked with building a machine learning model using Amazon SageMaker. The model will analyze medical images and assist radiologists in detecting potential abnormalities. However, the engineer must ensure that the entire process complies with HIPAA regulations to protect patient privacy and data security. Which combination of AWS services would be MOST appropriate to achieve this?
+AWS Artifact, AWS Config, and AWS Security Hub  (Correct)
+AWS Artifact, AWS Config, and Amazon Inspector
+AWS Artifact, AWS Security Hub, and Amazon Inspector
+AWS Config, AWS Security Hub, and AWS Audit Manager
+
+
+A machine learning engineer is responsible for securing the CI/CD pipeline for a critical machine learning application. What is the MOST important reason for implementing secure communication channels throughout the pipeline?
+Secure communication channels are necessary to protect sensitive data and prevent unauthorized access during the transfer of code, artifacts, and deployment activities in the pipeline.  (Correct)
+Secure communication channels are only required for the deployment stage to ensure the secure transfer of artifacts to production environments.
+Secure communication channels are not necessary if access controls are implemented for each stage of the pipeline.
+Secure communication channels are only relevant for external integrations with third-party applications and services.
+
+
+A machine learning engineer is responsible for monitoring the security and compliance of their organization's AWS resources. Which AWS service would the engineer use to track and record all API calls made to their AWS account, including changes made to AWS resources?
+Amazon CloudWatch 
+AWS Config 
+AWS Security Hub 
+AWS CloudTrail  (Correct)
+
+
+As a machine learning engineer, you have deployed a model using Amazon SageMaker and received reports of unauthorized access attempts. Which of the following SageMaker features would you leverage to investigate the security issue?
+Amazon Athena
+AWS CloudTrail Logs  (Correct)
+Amazon Kinesis Data Streams
+Amazon S3 Versioning
+
+
+A machine learning engineer is setting up a private subnet within a VPC to host their ML workloads.  Which statement about security groups in this environment is correct?
+Security groups should be configured to allow inbound and outbound traffic only on the specific ports required by the ML workloads and services.  (Correct)
+Security groups should be configured to allow inbound SSH traffic from the public internet to enable remote access to the ML instances.
+Security groups should be configured to allow all inbound and outbound traffic to ensure the ML workloads can communicate freely.
+Security groups are not required in a private subnet environment, as all traffic within the VPC is automatically allowed.
+
+
+A machine learning engineer is deploying an application that uses Amazon SageMaker for model training and inference. Who is responsible for securing the training data stored in Amazon Simple Storage Service (Amazon S3), according to the shared responsibility model?
+The responsibility for securing the training data in Amazon S3 depends on the specific use case and configuration.
+AWS is solely responsible for securing the training data stored in Amazon S3.
+The machine learning engineer is solely responsible for securing the training data stored in Amazon S3.
+Both AWS and the machine learning engineer share responsibility for securing the training data stored in Amazon S3  (Correct)
+
+
+A machine learning engineer is working on a project that involves training and deploying a machine learning model using Amazon SageMaker. As part of the project, they must ensure that the principle of least privilege is applied to the various components of the machine learning workflow. Which approach would be the MOST appropriate to achieve this?
+Analyze the specific tasks and responsibilities required for each user, application, or service. Create separate AWS Identity and Access Management (IAM) roles with the minimum permissions necessary for each entity to perform its intended tasks. Assign these roles accordingly.  (Correct)
+Implement AWS Organizations and create separate AWS accounts for different stages of the machine learning workflow such as data preparation, model training, and model deployment. Apply Service Control Policies (SCPs) to restrict access to specific services and resources based on the stage.
+Create a single AWS Identity and Access Management (IAM) role with full administrative permissions and assign it to all users, applications, and services involved in the project.
+Grant all users and applications involved in the project full access to SageMaker and related services. Restrict access to the training data stored in Amazon Simple Storage Service (Amazon S3) using an S3 bucket policy.
+
+
+A machine learning engineer is working on a project that involves sensitive financial data. The training data is stored in an Amazon Simple Storage Service (Amazon S3) bucket.
+Which security policy should the engineer use to restrict access to the training data in the S3 bucket?
+AWS Identity and Access Management (IAM) policy
+Identity-based policy
+SageMaker Role Manager
+S3 bucket policy  (Correct)
+
+
+A machine learning engineer is responsible for monitoring and logging the security and compliance of their SageMaker workloads. Which AWS service would the engineer use to set up alarms and receive notifications when certain thresholds are met, potentially indicating a security incident or compliance violation?
+AWS CloudTrail
+ AWS Config
+AWS Security Hub
+AWS CloudWatch  (Correct)
+
+
+A financial services organization wants to continuously monitor and evaluate the configurations of its Amazon SageMaker resources to ensure adherence to security policies and PCI-DSS requirements. Which AWS service would the machine learning engineer recommend?
+
+
+AWS Security Hub
+AWS Config  (Correct)
+ AWS Audit Manager
+AWS Artifact
+
+
+A machine learning engineer is working for a company that develops and deploys machine learning models using Amazon SageMaker. The engineer is responsible for ensuring that the models are secure and compliant with industry standards. Which Amazon SageMaker features should the engineer use to ensure the deployed models are secure and compliant with industry standards for data encryption and communication security? (Select TWO.)
+SageMaker Model Monitoring
+SageMaker Automatic Model Tuning
+SageMaker Encryption at Rest  (Correct)
+SageMaker Clarify
+SageMaker Encryption in Transit  (Correct)
+
+
+A machine learning engineer wants to isolate ML resources using a defense-in-depth strategy. The engineer has deployed Amazon SageMaker Studio in a virtual private cloud (VPC). Which additional security control can the engineer use to enhance security in the VPC?
+Amazon Config
+Amazon Inspector
+Amazon Network Firewall  (Correct)
+NAT Gateway
+
+
+Which Amazon SageMaker governance tool allows administrators to define minimum permissions for common machine learning activities in minutes?
+Amazon SageMaker Role Manager  (Correct)
+Amazon SageMaker Model Dashboard
+Amazon SageMaker Assets
+Amazon SageMaker Model Cards
+
+
+
+
+
+
+What is the importance of implementing secure communication channels, in the context of securing CI/CD pipelines for machine learning?
+Secure communication channels are not necessary as long as access controls are implemented for each stage of the pipeline.
+Secure communication channels are only relevant for external integrations with third-party applications and services.
+Secure communication channels are only required for the deployment stage to ensure the secure transfer of artifacts to production environments.
+Secure communication channels are necessary to protect sensitive data and prevent unauthorized access during the transfer of code, artifacts, and deployment activities within the pipeline.  (Correct)
+
+
+A machine learning engineer needs to track and record all API calls made to their AWS account, including changes made to AWS resources, for security and compliance purposes. Which AWS service should the engineer use to achieve this?
+AWS CloudWatch
+AWS CloudTrail  (Correct)
+AWS Config
+AWS Security Hub
+
+
+A machine learning engineer is setting up a private ML environment and needs to configure the security group to allow inbound traffic from specific sources. 
+What is the MOST appropriate way to configure the security group?
+Allow inbound traffic from all IP addresses.
+Allow inbound traffic from a specific EC2 instance.
+Allow inbound traffic from a specific security group.
+Allow inbound traffic from a specific IP range.  (Correct)
+
+
+A machine learning engineer wants to access compliance reports and online agreements related to regulations like HIPAA. Which AWS service should they use to do this?
+AWS Security Hub
+AWS Config
+AWS Audit Manager
+AWS Artifact  (Correct)
+
+
+What is the primary purpose of a virtual private cloud (VPC) in a machine learning (ML) environment?
+To provide a secure and isolated network for hosting ML models and related resources  (Correct)
+To enable the integration of ML models with other AWS services
+To facilitate the deployment of ML models to end-users
+To manage the scaling and provisioning of ML compute resources

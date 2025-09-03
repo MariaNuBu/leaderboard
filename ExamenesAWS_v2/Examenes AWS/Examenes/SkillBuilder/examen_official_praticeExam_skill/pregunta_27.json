@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "An ML engineer needs to develop an audio podcast from written scripts. The ML engineer must introduce a unique break after each paragraph of the script. Which solution will meet these requirements?",
+      "options": [
+        "Use Amazon Transcribe to convert the text to speech. Define the breaks by using intents.",
+        "Use Amazon Polly to convert the text to speech. Define the breaks by using lexicons.",
+        "Use Amazon Comprehend to convert the text to speech. Define the breaks by using Speech Synthesis Markup Language (SSML).",
+        "Use Amazon Polly to convert the text to speech. Define the breaks by using Speech Synthesis Markup Language (SSML)."
+      ],
+      "correct_answers": [
+        "Use Amazon Polly to convert the text to speech. Define the breaks by using Speech Synthesis Markup Language (SSML)."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

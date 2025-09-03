@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "You are a data scientist at a financial services company tasked with deploying a lightweight machine learning model that predicts creditworthiness based on a customer’s transaction history. The model needs to provide real-time predictions with minimal latency, and the traffic pattern is unpredictable, with occasional spikes during business hours. The company is cost-conscious and prefers a serverless architecture to minimize infrastructure management overhead.\n\nWhich approach is the MOST SUITABLE for deploying this solution, and why?",
+      "options": [
+        "Deploy the model as a SageMaker endpoint for real-time inference, and configure AWS Lambda to preprocess incoming requests before sending them to the SageMaker endpoint for prediction",
+        "Use an Amazon EC2 instance to host the model, with AWS Lambda functions handling the communication between the API Gateway and the EC2 instance for prediction requests",
+        "Deploy the model directly within AWS Lambda as a function, and expose it through an API Gateway endpoint, allowing the function to scale automatically with traffic and provide real-time predictions",
+        "Deploy the model using Amazon ECS (Elastic Container Service) and configure an AWS Lambda to trigger the ECS service on-demand, ensuring that the model is only running during peak traffic periods"
+      ],
+      "correct_answers": [
+        "Deploy the model directly within AWS Lambda as a function, and expose it through an API Gateway endpoint, allowing the function to scale automatically with traffic and provide real-time predictions"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/compute/deploying-machine-learning-models-with-serverless-templates/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

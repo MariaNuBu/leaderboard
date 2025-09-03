@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A developer is building an image generation model for their company. They want their model to be trained on high-definition images and to be able to output images of the highest quality. The dataset they are training it on is large. Which of these statements is true regarding the decision between using a CPU or GPU instance, when balancing for cost efficiency?",
+      "options": [
+        "Although choosing a CPU might result in a more cost-efficient model, the performance might suffer too much, given the dataset and output required. For this reason, GPU should be selected.",
+        "Because they are dealing with images and not video, a CPU could be more cost efficient because they will not need as much processing power.",
+        "This is a simpler model, so CPU should be chosen to drive costs down.",
+        "GPU should be selected because it would be a more cost-efficient solution to this model."
+      ],
+      "correct_answers": [
+        "Although choosing a CPU might result in a more cost-efficient model, the performance might suffer too much, given the dataset and output required. For this reason, GPU should be selected."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

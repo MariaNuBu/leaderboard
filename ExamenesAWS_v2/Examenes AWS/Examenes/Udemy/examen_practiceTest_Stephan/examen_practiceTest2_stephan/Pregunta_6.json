@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A travel agency has collected a large volume of customer feedback recordings from calls made to its customer support team after launching a new vacation package. The agency wants to evaluate the success of the vacation package by analyzing the sentiment of customer feedback. The ML engineer needs to process and analyze the recordings to identify positive and negative sentiments in the least amount of time.\n\nWhich action should the ML engineer take?\n\nUse AWS Glue to preprocess the feedback recordings and implement a sentiment analysis solution using open-source libraries",
+      "options": [
+        "Use AWS Glue to preprocess the feedback recordings and implement a sentiment analysis solution using open-source libraries",
+        "Use Amazon Transcribe to convert the customer feedback recordings into text, and then use Amazon Comprehend to analyze the text for sentiment",
+        "Manually transcribe the recordings, convert them to English using Amazon Translate, and run a custom script to analyze sentiment",
+        "Build a custom sentiment analysis model using Amazon SageMaker and train it with labeled customer feedback data"
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert the customer feedback recordings into text, and then use Amazon Comprehend to analyze the text for sentiment"
+      ],
+      "references": [
+        "https://aws.amazon.com/transcribe/",
+        "https://aws.amazon.com/comprehend/",
+        "https://aws.amazon.com/blogs/machine-learning/generate-high-quality-meeting-notes-using-amazon-transcribe-and-amazon-comprehend/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

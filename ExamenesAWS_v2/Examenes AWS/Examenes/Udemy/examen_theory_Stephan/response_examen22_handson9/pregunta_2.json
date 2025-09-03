@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Which of the following is the most appropriate technique for ensuring that a specific SageMaker notebook instance has the least privilege required to perform its tasks?",
+      "options": [
+        "Assign the AdministratorAccess policy to the notebook instance role.",
+        "Use the AmazonSageMakerFullAccess policy to the notebook instance role.",
+        "Use IAM Access Analyzer to generate a custom least-privilege policy based on access activity.",
+        "Assign the AmazonSageMakerReadOnly policy to the notebook instance role."
+      ],
+      "correct_answers": [
+        "Use IAM Access Analyzer to generate a custom least-privilege policy based on access activity."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "An ML engineer is working on a credit risk prediction model. The model has been trained and deployed using Amazon SageMaker. To ensure fairness and transparency, the engineer wants to interpret the model's outputs and understand its behavior. Which AWS service or feature should you use to achieve this goal?",
+      "options": [
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Debugger",
+        "Amazon SageMaker Ground Truth",
+        "Amazon SageMaker Clarify"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Clarify"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

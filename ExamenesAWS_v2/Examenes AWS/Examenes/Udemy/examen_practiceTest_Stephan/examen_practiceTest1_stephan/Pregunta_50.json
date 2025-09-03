@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "You are a data scientist at a pharmaceutical company that builds predictive models to analyze clinical trial data.\nDue to regulatory requirements, the company must maintain strict version control of all models used in decision-making processes.\nThis includes tracking which data, hyperparameters, and code were used to train each model, as well as ensuring that models can be easily reproduced and audited in the future.\nYou decide to implement a system to manage model versions and track their lifecycle effectively.\n\nWhich of the following strategies is the MOST LIKELY to ensure model versioning, repeatability, and auditability?",
+      "options": [
+        "Create a version control system in Git for the model’s training code and configuration files, while storing the trained models in a separate S3 bucket for easy retrieval",
+        "Use SageMaker Model Monitor to track the performance of models in production, ensuring that any changes in model behavior are documented for future audits",
+        "Leverage the SageMaker Model Registry to register, track, and manage different versions of models, capturing all relevant metadata, including data sources, hyperparameters, and training code",
+        "Use Amazon S3 to store each version of the model manually, tagging the stored files with metadata about the training data, hyperparameters, and code used for training"
+      ],
+      "correct_answers": [
+        "Leverage the SageMaker Model Registry to register, track, and manage different versions of models, capturing all relevant metadata, including data sources, hyperparameters, and training code"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

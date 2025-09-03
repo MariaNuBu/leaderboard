@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "An ML engineer is building a classification model. During data exploration, the ML engineer notices that one of the columns is right-skewed. Which transformation technique should the ML engineer use to mitigate this issue?",
+      "options": [
+        "Cartesian product transformation",
+        "Quantile binning",
+        "Orthogonal sparse bigram (OSB) transformation",
+        "Logarithm transformation"
+      ],
+      "correct_answers": [
+        "Logarithm transformation"
+      ],
+      "references": [],
+      "topic": "Feature Engineering & Data Preprocessing",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

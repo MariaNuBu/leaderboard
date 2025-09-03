@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "As you work to find the right balance between your model's bias and variance, the associate ML engineer asks you to define model variance. How would you explain model variance to the associate machine learning engineer?",
+      "options": [
+        "Model variance is the range of predictions that the model makes.",
+        "Model variance is the sensitivity of the model to different training data. It's very susceptible to noise in the training dataset.",
+        "Model variance is the error identified when a model hasn't learned the relationship between the input features and the target variables.",
+        "Model variance is high when a model outputs the same predictions regardless of the input data."
+      ],
+      "correct_answers": [
+        "Model variance is the sensitivity of the model to different training data. It's very susceptible to noise in the training dataset."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

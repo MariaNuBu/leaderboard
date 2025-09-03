@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A non-profit organization is gathering data to decide which type of fundraiser their patrons would like to attend. They decide to provide two options for patrons to share their preferences: an online survey and a hard-copy mailer. Some patrons plan to fill out both the online and hard-copy survey to make sure their preference is recorded.\n\nWhich data cleaning technique will BEST help the company retain unique data points for the most effective machine learning (ML) solution?",
+      "options": [
+        "Reformatting the hard-copy mailer to contain only \"Yes/No\" answers",
+        "Inspecting the data for incorrectly entered dates",
+        "Identifying duplicate data from those who submitted both an online and hard-copy survey",
+        "Checking the datasets for mistyped patron names"
+      ],
+      "correct_answers": [
+        "Identifying duplicate data from those who submitted both an online and hard-copy survey"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

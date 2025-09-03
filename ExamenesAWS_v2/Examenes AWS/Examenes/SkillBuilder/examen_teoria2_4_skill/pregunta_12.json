@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "When training a recurrent neural network (RNN), exploding gradients cause convergence issues. Which Amazon SageMaker feature can help address this issue?",
+      "options": [
+        "Amazon SageMaker Model Monitor",
+        "Amazon SageMaker Clarify",
+        "Amazon SageMaker Ground Truth",
+        "Amazon SageMaker Training Compiler"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Training Compiler"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/training-compiler.html"
+      ],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

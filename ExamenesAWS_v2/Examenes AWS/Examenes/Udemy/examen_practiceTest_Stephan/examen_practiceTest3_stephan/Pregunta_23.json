@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "Pregunta 23\n\nA retail company uses a customer service chatbot powered by a large language model (LLM) through Amazon Bedrock to handle product inquiries and returns. Customers have reported that the chatbot gives slightly different answers when asked the same questions about return policies or product details. The company needs to ensure the chatbot provides consistent responses.\n\nWhich solution will meet these requirements?\n\nEnable caching in the chatbot application to reuse previously generated responses for frequently asked questions",
+      "options": [
+        "Enable caching in the chatbot application to reuse previously generated responses for frequently asked questions",
+        "Adjust the temperature parameter in the Amazon Bedrock API to a lower value and decrease the top-K parameter to limit the number of possible tokens the model can choose from, ensuring consistent and controlled responses",
+        "Retrain the LLM with a retail-specific dataset to improve consistency in responses related to product information and return policies",
+        "Adjust the temperature parameter in the Amazon Bedrock API to a higher value and increase the top-K parameter to limit the number of possible tokens the model can choose from, ensuring consistent and controlled responses"
+      ],
+      "correct_answers": [
+        "Adjust the temperature parameter in the Amazon Bedrock API to a lower value and decrease the top-K parameter to limit the number of possible tokens the model can choose from, ensuring consistent and controlled responses"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-parameters.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Your team needs to retrain an ML model whenever there is significant data drift. Which AWS service will help you automate the retraining process based on predefined conditions?",
+      "options": [
+        "AWS Step Functions",
+        "SageMaker Model Monitor",
+        "SageMaker Pipelines",
+        "Amazon Augmented AI"
+      ],
+      "correct_answers": [
+        "SageMaker Pipelines"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html#model-monitor-pipelines"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

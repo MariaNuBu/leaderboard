@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "An MLOps engineer needs to provide a repeatable method for creating standard infrastructure for testing environments. This infrastructure needs to be consistent for all users to ensure valid testing results. Users need to conduct tests once or twice per week. Which method uses an infrastructure as code (IaC) approach that is cost-effective and operationally efficient?",
+      "options": [
+        "Provide users with access to AWS CloudFormation so that they can build their own infrastructure on an as-needed basis.",
+        "Create an AWS CloudFormation template and use it to deploy infrastructure for a test environment. Keep the environment running and then add and remove access for users as needed.",
+        "Create an AWS CloudFormation template and use it to deploy infrastructure for a test environment. Destroy the resources after the results are gathered and testing is complete.",
+        "Create an AWS CloudFormation template for each test environment request. Provide users access to the resources after they are deployed."
+      ],
+      "correct_answers": [
+        "Create an AWS CloudFormation template and use it to deploy infrastructure for a test environment. Destroy the resources after the results are gathered and testing is complete."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

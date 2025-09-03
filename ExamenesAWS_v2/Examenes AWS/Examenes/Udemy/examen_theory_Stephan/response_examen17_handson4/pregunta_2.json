@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "Which SageMaker input mode is recommended for training when you need high-performance access to data stored in a single Availability Zone?",
+      "options": [
+        "S3 File Mode",
+        "Pipe Mode",
+        "Amazon FSx for Lustre",
+        "S3 Fast File Mode"
+      ],
+      "correct_answers": [
+        "Amazon FSx for Lustre"
+      ],
+      "references": [],
+      "topic": "SageMaker Built-In Algorithms",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496161#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

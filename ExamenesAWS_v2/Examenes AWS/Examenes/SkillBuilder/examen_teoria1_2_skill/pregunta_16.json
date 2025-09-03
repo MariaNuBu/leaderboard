@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "You work for the education department in your local government agency. Your education department needs to check student test score data from multiple sources and formats to identify trends.\n\nWhich AWS service is the best option for transforming and analyzing this dataset?",
+      "options": [
+        "Amazon S3",
+        "Amazon Mechanical Turk",
+        "Amazon Elastic File System (Amazon EFS)",
+        "AWS Glue"
+      ],
+      "correct_answers": [
+        "AWS Glue"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

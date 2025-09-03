@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A financial services firm needs to monitor transaction data in real-time to detect fraudulent activity as soon as it happens. The solution must handle high-throughput data streams and perform complex event processing to trigger alerts instantly.\nWhat is the MOST effective AWS solution to implement this requirement?\n\nImplement a Kinesis Data Stream with a standard consumer model to process transactions.\n\nExplicación\nThe standard consumer model might not provide the necessary speed and complexity of processing required for immediate fraud detection.\n\nDeploy AWS Lambda functions to manually parse and check each transaction record for fraud indicators.\n\nExplicación\nWhile AWS Lambda offers flexible programming, using it to manually parse high-throughput transactions is inefficient and could lead to processing bottlenecks.\n\nUse Kinesis Data Analytics with SQL applications to analyze and identify potential fraudulent activities immediately.\n\nExplicación\nKinesis Data Analytics allows for the immediate processing of high-throughput streams with SQL or Apache Flink applications, ideal for complex event processing and instant alerting in fraud detection scenarios.\n\nSet up Kinesis Data Firehose to stream data to Amazon S3, using scheduled Amazon Athena queries for detection.\n\nExplicación\nThis setup introduces a delay between data ingestion and analysis, which is not suitable for real-time fraud detection.",
+      "options": [
+        "Implement a Kinesis Data Stream with a standard consumer model to process transactions.",
+        "Deploy AWS Lambda functions to manually parse and check each transaction record for fraud indicators.",
+        "Use Kinesis Data Analytics with SQL applications to analyze and identify potential fraudulent activities immediately.",
+        "Set up Kinesis Data Firehose to stream data to Amazon S3, using scheduled Amazon Athena queries for detection."
+      ],
+      "correct_answers": [
+        "Use Kinesis Data Analytics with SQL applications to analyze and identify potential fraudulent activities immediately."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

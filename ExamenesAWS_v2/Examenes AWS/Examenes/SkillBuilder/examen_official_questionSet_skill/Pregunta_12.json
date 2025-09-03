@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "Case Study - 3 Questions\n\nA company wants to implement an internal employee chatbot that can answer questions that are related to internal company topics and processes. The chatbot will use a generative AI approach and large language models (LLMs) to interact with users. The relevant information is currently held in an unstructured format in thousands of PDF documents in the company's document management system. An ML engineer must implement the chatbot solution.\n\nQuestion\nThe ML engineer has set up a knowledge base with the company documents for retrieval augmented generation (RAG).\n\nWhat should the ML engineer do to find documents that are relevant to a user question?",
+      "options": [
+        "A\nUse an embeddings model to embed the question. Query the knowledge base by using the output from the embeddings model. Configure the query to return the embeddings of the desired number of nearest neighboring documents.",
+        "B\nUse an embeddings model to embed the question. Query the knowledge base by using the output from the embeddings model. Configure the query to return the contents of the desired number of nearest neighboring documents.",
+        "C\nQuery the knowledge base by using the plaintext question to find relevant documents. Create an embedding of the question and all relevant documents. Compare the embeddings and choose the desired number of documents with embeddings that are closest to the question.",
+        "D\nQuery the knowledge base by using the plaintext question to find relevant documents. Use a string distance function to compare the question to the relevant documents. Order the documents by distance ascending and choose the desired number of documents from the head of the list."
+      ],
+      "correct_answers": [
+        "B\nUse an embeddings model to embed the question. Query the knowledge base by using the output from the embeddings model. Configure the query to return the contents of the desired number of nearest neighboring documents."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

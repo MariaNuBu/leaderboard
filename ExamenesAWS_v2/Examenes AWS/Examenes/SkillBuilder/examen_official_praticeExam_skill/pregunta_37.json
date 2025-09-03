@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 37,
+      "question": "A company plans to deploy an ML model for production inference on an Amazon SageMaker AI endpoint. The average inference payload size will vary from 100 MB to 300 MB. Inference requests must be processed in 60 minutes or less, and the endpoint must remain persistent. Which SageMaker AI inference option will meet these requirements?",
+      "options": [
+        "Serverless inference",
+        "Asynchronous inference",
+        "Real-time inference",
+        "Batch transform"
+      ],
+      "correct_answers": [
+        "Asynchronous inference"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

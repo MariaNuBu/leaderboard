@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 26,
+      "question": "A machine learning engineer is tasked with monitoring the data quality of a machine learning model deployed for credit risk assessment. The model takes various financial and demographic features as input. \nWhich step should the engineer take to create a baseline dataset for monitoring data quality drift?",
+      "options": [
+        "Run a baseline processing job using the ModelQualityMonitor object in the Amazon SageMaker Python SDK, providing the training dataset stored in Amazon Simple Storage Service (Amazon S3).",
+        "Use a third-party tool to analyze the training dataset and generate baseline statistics and constraints.",
+        "Manually analyze the training dataset and create JSON files containing statistics and constraints based on your domain knowledge.",
+        "Skip creating a baseline dataset and directly compare the incoming inference data against predefined thresholds."
+      ],
+      "correct_answers": [
+        "Run a baseline processing job using the ModelQualityMonitor object in the Amazon SageMaker Python SDK, providing the training dataset stored in Amazon Simple Storage Service (Amazon S3)."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

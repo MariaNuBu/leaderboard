@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "TOPIC: 1.3 Ensure data integrity and prepare data for modeling.\n\nAn ML engineer uses Amazon SageMaker Data Wrangler to prepare a dataset for training an ML model to predict housing prices. The dataset consists of housing data from the past 10 years sorted by date and includes features such as location, size, and price. The ML engineer wants to reduce prediction bias and ensure that the model generalizes well on future, unseen data.\n\nWhich SageMaker Data Wrangler split transform will meet this requirement?",
+      "options": [
+        "A\nRandomized split",
+        "B\nOrdered split",
+        "C\nStratified split",
+        "D\nSplit by key"
+      ],
+      "correct_answers": [
+        "B\nOrdered split"
+      ],
+      "references": [],
+      "topic": "1.3 Ensure data integrity and prepare data for modeling.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

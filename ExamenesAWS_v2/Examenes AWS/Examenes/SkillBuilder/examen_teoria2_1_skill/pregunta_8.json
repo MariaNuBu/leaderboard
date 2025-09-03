@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You are building a model to translate text to different languages. You are providing answers during training for the neural machine. Which algorithm could you use for your text translation model?",
+      "options": [
+        "Sequence-to-Sequence algorithm",
+        "BlazingText algorithm",
+        "Neural Topic Model (NTM) algorithm",
+        "IP Insights algorithm"
+      ],
+      "correct_answers": [
+        "Sequence-to-Sequence algorithm"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "Your team needs to automatically label and classify images uploaded to an S3 bucket. Which AWS service should you use?",
+      "options": [
+        "Amazon Comprehend",
+        "Amazon Rekognition",
+        "Amazon SageMaker",
+        "Amazon Personalize"
+      ],
+      "correct_answers": [
+        "Amazon Rekognition"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

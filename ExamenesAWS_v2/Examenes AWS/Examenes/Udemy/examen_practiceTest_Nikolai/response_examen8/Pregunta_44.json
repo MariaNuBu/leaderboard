@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 44,
+      "question": "A media company uses AWS Glue for processing and analyzing streaming video metadata stored in Amazon S3, with a requirement to make the processed data available in a SQL-like queryable format for quick insights. Given the need to regularly update the metadata catalog and the integration with analytics services, which TWO actions should be implemented to optimize the processing workflow in AWS Glue? (Choose Two)",
+      "options": [
+        "Utilize AWS Glue crawlers to automatically infer schema from new data and update the Glue Data Catalog, ensuring data remains queryable with updated schema.",
+        "Schedule AWS Glue ETL jobs to perform transformations only during off-peak hours to reduce impact on operational costs and resource utilization.",
+        "Enable AWS Glue Studio to manage ETL jobs and transformations visually, thereby simplifying the modification and deployment of data pipelines.",
+        "Rely on Amazon Redshift Spectrum to handle the ETL processes directly from the S3 data lake, eliminating the need for AWS Glue.",
+        "Configure incremental data loads in Glue ETL jobs to ensure only newly added data is processed, thus minimizing compute resources and processing time."
+      ],
+      "correct_answers": [
+        "Utilize AWS Glue crawlers to automatically infer schema from new data and update the Glue Data Catalog, ensuring data remains queryable with updated schema.",
+        "Configure incremental data loads in Glue ETL jobs to ensure only newly added data is processed, thus minimizing compute resources and processing time."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

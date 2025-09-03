@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A company deployed an ML model into production. A data team needs to periodically ingest and transform updated datasets to support batch inference. The data team creates an Amazon SageMaker Data Wrangler data flow to transform the raw data into features.\n\nSelect and order the correct steps from the following list to make the data available for batch inferencing. Each step should be selected one time or not at all. (Select and order THREE.)",
+      "options": [
+        "Create a data pipeline to ingest features into the SageMaker Feature Store.",
+        "Specify a feature group as a data flow destination.",
+        "Read features from the offline SageMaker Feature Store.",
+        "Run a SageMaker Data Wrangler processing job.",
+        "Read features from the online SageMaker Feature Store."
+      ],
+      "correct_answers": [
+        "Specify a feature group as a data flow destination.",
+        "Run a SageMaker Data Wrangler processing job.",
+        "Read features from the offline SageMaker Feature Store."
+      ],
+      "references": [],
+      "topic": "Feature Store & Data Wrangler (Batch Inference)",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

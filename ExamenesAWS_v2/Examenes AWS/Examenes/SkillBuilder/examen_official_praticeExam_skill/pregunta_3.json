@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A bank has used Amazon SageMaker AI to develop a credit risk scoring model to evaluate loan applications. The model is deployed on a SageMaker AI real-time endpoint with the data capture feature enabled. The bank needs real-time explanations about the model's predictions. Which solution will meet these requirements?",
+      "options": [
+        "Run a SageMaker Clarify processing job on the endpoint inputs. Configure the processing job to return model explainability. Access the explainability report. Extract the general Shapley Additive Explanations (SHAP) feature attributions of the model.",
+        "Run a SageMaker Clarify processing job on the endpoint inputs. Configure the processing job to return model explainability and the local Shapley Additive Explanations (SHAP) values of each prediction. Access the report outputs in Amazon S3. Extract the SHAP feature attributions for each model prediction.",
+        "Update the SageMaker AI endpoint with an endpoint configuration that includes the SageMaker Clarify ExplainerConfig option. Extract the model predictions and Shapley Additive Explanations (SHAP) feature attributions from the data that is returned from the endpoint.",
+        "Create a SageMaker Jupyter notebook. Import the Shapley Additive Explanations (SHAP) library. Write Python code to process each captured input data point and to generate the SHAP feature attributions for each model prediction."
+      ],
+      "correct_answers": [
+        "Update the SageMaker AI endpoint with an endpoint configuration that includes the SageMaker Clarify ExplainerConfig option. Extract the model predictions and Shapley Additive Explanations (SHAP) feature attributions from the data that is returned from the endpoint."
+      ],
+      "references": [],
+      "topic": "Model Explainability (SageMaker Clarify)",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

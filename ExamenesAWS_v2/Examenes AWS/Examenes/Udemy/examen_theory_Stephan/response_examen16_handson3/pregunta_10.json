@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "An e‑commerce platform wants to prevent \"try before you buy\" abuse, where users repeatedly purchase items and return them after use. The company has labeled data of previous fraudulent activities. Which AWS service should they use to address this issue?",
+      "options": [
+        "Amazon Personalize",
+        "Amazon SageMaker",
+        "Amazon Fraud Detector",
+        "Amazon Translate"
+      ],
+      "correct_answers": [
+        "Amazon Fraud Detector"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-afd.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "An automotive fleet company wants help to determine when vehicle failures might happen and what the repair costs associated with those failures would be. Which Amazon SageMaker JumpStart pre-built ML solution category should they look into?",
+      "options": [
+        "Predictive maintenance",
+        "Financial pricing",
+        "Causal interference",
+        "Churn prediction"
+      ],
+      "correct_answers": [
+        "Predictive maintenance"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

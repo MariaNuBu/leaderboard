@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "Which tool can help identify opportunities for cost optimization in your AWS environment based on usage patterns and recommendations?",
+      "options": [
+        "AWS Trusted Advisor",
+        "Amazon EC2 Spot Fleets",
+        "AWS Cost Explorer",
+        "Amazon EC2 Spot Instances"
+      ],
+      "correct_answers": [
+        "AWS Cost Explorer"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

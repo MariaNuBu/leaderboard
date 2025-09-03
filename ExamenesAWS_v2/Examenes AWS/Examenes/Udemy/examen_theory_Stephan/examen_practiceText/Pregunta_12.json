@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A retail company has deployed several machine learning models using Amazon SageMaker to provide personalized product recommendations to customers on their website. The company has noticed that the accuracy of the recommendations seems to be degrading over time, potentially due to changes in customer behavior and preferences. The data science team wants to implement a solution to continuously monitor the models in production, detect any deviations in data quality or model performance, and automatically alert the team when significant issues are detected.\n\nWhich AWS service should the team use to achieve this goal?",
+      "options": [
+        "Amazon CloudWatch",
+        "AWS Glue",
+        "Amazon SageMaker Model Monitor",
+        "AWS Lambda"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Model Monitor"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

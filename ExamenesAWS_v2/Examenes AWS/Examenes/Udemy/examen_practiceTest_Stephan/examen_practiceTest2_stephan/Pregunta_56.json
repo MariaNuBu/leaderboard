@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A robotics company is training a deep learning model in Amazon SageMaker Studio to optimize the movement of autonomous robots in a warehouse. The training process involves fine-tuning a pre-trained model on a large dataset of movement trajectories. In previous training runs, the company encountered issues such as vanishing gradients, underutilized GPUs, and overfitting, leading to suboptimal model performance and wasted resources.\n\nThe company’s ML engineer needs a solution that meets the following requirements with the LEAST operational overhead:\n\nDetect these training issues in real-time.\n\nAutomatically react to these issues by stopping training or triggering notifications.\n\nProvide comprehensive metrics for monitoring without increasing operational complexity.\n\nWhat do you suggest?\n\nLeverage Amazon CloudWatch Logs to monitor GPU usage and manually analyze logs to identify vanishing gradients and overfitting during training",
+      "options": [
+        "Leverage Amazon CloudWatch Logs to monitor GPU usage and manually analyze logs to identify vanishing gradients and overfitting during training",
+        "Use Amazon SageMaker Debugger with built-in rules to detect vanishing gradients, GPU underutilization, and overfitting. Configure Debugger to automatically react based on predefined thresholds",
+        "Develop custom Python scripts to track training metrics and set up logic to monitor for issues like vanishing gradients and overfitting in real time",
+        "Use Amazon SageMaker Experiments to log training metrics and manually evaluate them for signs of vanishing gradients, GPU inefficiency, and overfitting"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Debugger with built-in rules to detect vanishing gradients, GPU underutilization, and overfitting. Configure Debugger to automatically react based on predefined thresholds"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-built-in-profiler-rules.html#low-gpu-utilization",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-built-in-rules.html#overfit",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-built-in-rules.html#vanishing-gradient"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

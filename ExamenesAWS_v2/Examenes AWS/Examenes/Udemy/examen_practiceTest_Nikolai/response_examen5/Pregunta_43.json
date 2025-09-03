@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 43,
+      "question": "A company is using Amazon Kinesis to monitor IoT sensor data for real-time security threats. The system needs to detect anomalies in the data stream and trigger alerts immediately, minimizing latency. They plan to have multiple consumers process the data streams concurrently.\n\nWhat approach should the company take to ensure optimal scalability and low latency?\n\nUse Kinesis Firehose to scale automatically and reduce latency for each consumer.\n\nExplicación\nKinesis Firehose is for delivering data to storage systems, not for optimizing read throughput or reducing latency.",
+      "options": [
+        "Use Kinesis Firehose to scale automatically and reduce latency for each consumer.",
+        "Enable enhanced fan-out for each consumer to achieve dedicated read throughput and lower latency.",
+        "Use AWS Glue for ETL and real-time data analysis of the streaming data.",
+        "Use standard Kinesis consumers and scale the number of shards as needed."
+      ],
+      "correct_answers": [
+        "Enable enhanced fan-out for each consumer to achieve dedicated read throughput and lower latency."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1"
+    }
+  ]
+}

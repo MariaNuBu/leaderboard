@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A machine learning engineer is working on a computer vision project for animal classification. During the training process, the engineer notices that the model's accuracy is not improving despite increasing the number of training epochs. Which of the following actions would be most appropriate for the engineer to identify and resolve the issue?",
+      "options": [
+        "Retrain the model from scratch with a different deep learning framework.",
+        "Deploy the model to production and monitor its performance using Amazon SageMaker Model Monitor.",
+        "Use Amazon SageMaker Debugger to analyze the model's behavior and identify potential issues such as overfitting, data quality problems, or vanishing gradients.",
+        "Increase the model's complexity by adding more layers or increasing the number of parameters."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Debugger to analyze the model's behavior and identify potential issues such as overfitting, data quality problems, or vanishing gradients."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

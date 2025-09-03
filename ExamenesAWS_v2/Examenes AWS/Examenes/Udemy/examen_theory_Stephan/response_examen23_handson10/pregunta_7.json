@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Which AWS service should you use to detect unusual activity, like unauthorized access attempts, in your account?",
+      "options": [
+        "AWS Config",
+        "CloudWatch Alarms",
+        "AWS CloudTrail Insights",
+        "AWS CloudTrail"
+      ],
+      "correct_answers": [
+        "AWS CloudTrail Insights"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

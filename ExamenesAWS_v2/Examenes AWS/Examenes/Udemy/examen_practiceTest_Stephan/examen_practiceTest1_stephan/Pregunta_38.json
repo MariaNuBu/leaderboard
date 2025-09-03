@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 38,
+      "question": "You are a data scientist at a retail company responsible for deploying a machine learning model that predicts customer purchase behavior. The model needs to serve real-time predictions with low latency to support the company’s recommendation engine on its e-commerce platform. The deployment solution must also be scalable to handle varying traffic loads during peak shopping periods, such as Black Friday and holiday sales. Additionally, you need to monitor the model's performance and automatically roll out updates when a new version of the model is available.\n\nGiven these requirements, which AWS deployment service and configuration is the MOST SUITABLE for deploying the machine learning model?",
+      "options": [
+        "Deploy the model using Amazon SageMaker real-time hosting services with an auto-scaling endpoint, enabling you to automatically adjust the number of instances based on traffic demand",
+        "Use AWS Lambda to deploy the model as a serverless function, automatically scaling based on the number of requests, and store the model artifacts in Amazon S3",
+        "Deploy the model on Amazon EC2 instances with a load balancer to distribute traffic, manually scaling the instances based on expected traffic during peak periods",
+        "Deploy the model on Amazon SageMaker with batch transform jobs, running the jobs periodically to generate predictions and storing the results in Amazon S3 for the recommendation engine"
+      ],
+      "correct_answers": [
+        "Deploy the model using Amazon SageMaker real-time hosting services with an auto-scaling endpoint, enabling you to automatically adjust the number of instances based on traffic demand"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-deployment.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

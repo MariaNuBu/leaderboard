@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A company designed a classification system. The system uses an ML model deployed on an Amazon SageMaker endpoint. The company wants to assess system performance by implementing a feedback mechanism to track the model's performance.\n\nWhich solution will meet these requirements with the LEAST development effort?",
+      "options": [
+        "A\nUse SageMaker Pipelines to load captured input data and processed feedback. Re-train the model and compare the classification accuracy against the accuracy of the deployed version.",
+        "B\nUse SageMaker Data Wrangler to ingest and transform the captured data from the endpoint and processed feedback. Use this information to detect model drift.",
+        "C\nUse AWS Glue to ingest the captured data from the endpoint and processed feedback. Use this information to calculate the classification accuracy.",
+        "D\nUse SageMaker Model Monitor to ingest and merge captured data from the endpoint and processed feedback. Create and schedule a baseline job and a model quality monitoring job."
+      ],
+      "correct_answers": [
+        "D\nUse SageMaker Model Monitor to ingest and merge captured data from the endpoint and processed feedback. Create and schedule a baseline job and a model quality monitoring job."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.1 Monitor model inference.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

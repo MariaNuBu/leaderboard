@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A machine learning team has deployed a model to production using Amazon SageMaker. They set up SageMaker Model Monitor to detect any data drift. After several weeks, they notice that the predictions of the model are becoming less accurate compared to the actual outcomes, and SageMaker Model Monitor has flagged significant differences in the input data distribution over time.\n\nWhat is the MOST likely cause of the declining model performance, and what is the recommended action?",
+      "options": [
+        "Data drift has occurred, causing the model to receive input data that is different from the training data. The team should update the model's hyperparameters to resolve the issue.",
+        "Data drift has occurred, causing the input data distribution to deviate from the training data. The team should retrain the model with updated training data to resolve the issue.",
+        "Model quality drift has occurred because the model’s predictions are becoming less accurate. The team should switch to a different algorithm to improve performance.",
+        "Bias drift has occurred, leading the model to favor certain outcomes. The team should retrain the model with a new algorithm and set stricter constraints in SageMaker Model Monitor."
+      ],
+      "correct_answers": [
+        "Data drift has occurred, causing the input data distribution to deviate from the training data. The team should retrain the model with updated training data to resolve the issue."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

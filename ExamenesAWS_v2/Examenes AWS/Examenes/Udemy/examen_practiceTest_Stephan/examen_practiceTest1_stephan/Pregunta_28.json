@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A healthcare company is building a predictive model to identify high-risk patients for hospital readmission. The dataset includes patient records such as demographic information, past diagnoses, and admission history. The data is stored in Amazon S3 and a relational database hosted on an on-premises PostgreSQL server. The dataset has a class imbalance issue where very few patients are flagged as high-risk, which affects the performance of the model. Additionally, the dataset contains both categorical features (e.g., \"diagnosis type\") and numerical features (e.g., \"days in hospital\"). The ML engineer must preprocess the data to resolve the class imbalance and ensure the dataset is ready for training, using a solution that requires minimal operational effort.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use AWS Glue ETL jobs to write custom scripts for handling class imbalance by oversampling the minority class",
+        "Leverage AWS Glue DataBrew’s native features to clean and transform the dataset, including attempting to balance class distribution by duplicating records from the minority class",
+        "Use Amazon SageMaker Data Wrangler's 'balance data' operation to oversample the minority class to resolve the class imbalance",
+        "Use SageMaker Feature Store to automatically balance the class distribution in the dataset"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Data Wrangler's 'balance data' operation to oversample the minority class to resolve the class imbalance",
+        "Use SageMaker Feature Store to automatically balance the class distribution in the dataset"
+      ],
+      "references": [
+        "https://aws.amazon.com/sagemaker-ai/data-wrangler/",
+        "https://aws.amazon.com/blogs/machine-learning/balance-your-data-for-machine-learning-with-amazon-sagemaker-data-wrangler/",
+        "https://aws.amazon.com/blogs/big-data/7-most-common-data-preparation-transformations-in-aws-glue-databrew/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

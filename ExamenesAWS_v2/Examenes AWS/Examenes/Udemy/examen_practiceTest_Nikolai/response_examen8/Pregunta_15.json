@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A data scientist is training a machine learning model to classify emails as either spam or not spam.\nThey want to evaluate the model using various metrics.\nIf the model correctly classifies 85% of the emails as spam or not spam, which metric is being used in this scenario?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Accuracy",
+        "F1 Score"
+      ],
+      "correct_answers": [
+        "Accuracy"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

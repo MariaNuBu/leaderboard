@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "You are building a large-scale ML model for deep learning training. You are expected to grow over time, but looking for a scalable and pay-as-you-grow purchasing model.",
+      "options": [
+        "Spot Instances",
+        "On-Demand Instances",
+        "Reserved Instances",
+        "Capacity Blocks"
+      ],
+      "correct_answers": [
+        "Capacity Blocks"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

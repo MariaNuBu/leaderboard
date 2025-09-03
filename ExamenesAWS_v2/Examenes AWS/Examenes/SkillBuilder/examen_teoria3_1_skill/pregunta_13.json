@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "You have deployed a machine learning (ML) model in a production environment, and it is receiving a high volume of requests. As you have learned, a couple of considerations to design effective pipelines and infrastructure are availability and scalability. Which approach would you consider to ensure high availability and scalability?",
+      "options": [
+        "Deploy the model on a single, high-performance server and route all requests to that server.",
+        "Implement a caching mechanism to store and serve frequently accessed model predictions, reducing the load on the model itself.",
+        "Use a load balancer to distribute incoming requests across multiple instances of the model running on different servers.",
+        "Shut down the model instances for maintenance and updates periodically, handling requests in a queue during downtime."
+      ],
+      "correct_answers": [
+        "Use a load balancer to distribute incoming requests across multiple instances of the model running on different servers."
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

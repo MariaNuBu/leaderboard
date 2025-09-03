@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "You are a machine learning engineer at a healthcare startup that uses an Amazon SageMaker endpoint to deliver real-time diagnostics based on patient data. The model needs to handle a high volume of requests with low latency to ensure timely results. Recently, the startup has experienced rapid growth, leading to occasional periods of high traffic where users experience increased latency and, in some cases, request timeouts. You also need to be mindful of cost, as the startup operates on a tight budget.\n\nWhich approach is the MOST EFFECTIVE for troubleshooting and resolving the capacity concerns while balancing cost and performance?",
+      "options": [
+        "Increase the instance size for the SageMaker endpoint to handle more requests per instance, and manually monitor performance and costs using Amazon CloudWatch metrics",
+        "Use AWS Lambda with provisioned concurrency to handle the requests, ensuring that the function is always ready to serve traffic. Configure Lambda to auto-scale based on traffic but limit the maximum concurrency to control costs",
+        "nable auto-scaling for the SageMaker endpoint to automatically adjust the number of instances based on request load, and set a budget alert in AWS Budgets to monitor cost increases as traffic scales",
+        "Request a service quota increase for the SageMaker endpoint to allow for more instances during peak traffic, and set up a CloudWatch Alarm to notify you when utilization exceeds 80% of the current quota"
+      ],
+      "correct_answers": [
+        "nable auto-scaling for the SageMaker endpoint to automatically adjust the number of instances based on request load, and set a budget alert in AWS Budgets to monitor cost increases as traffic scales"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html",
+        "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+        "https://aws.amazon.com/blogs/aws/new-provisioned-concurrency-for-lambda-functions/",
+        "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

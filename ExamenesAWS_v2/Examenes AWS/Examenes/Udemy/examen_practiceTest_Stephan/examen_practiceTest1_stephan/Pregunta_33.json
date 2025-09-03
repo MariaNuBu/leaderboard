@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A financial services company is developing an AI-based credit risk assessment system using Amazon SageMaker. The system needs to support end-to-end ML workflows, including experimentation, model training, version management, deployment, and monitoring. To comply with internal governance policies, the company requires a manual approval-based workflow to ensure that only approved models can be deployed to production endpoints. All training data should be securely stored in Amazon S3, and the models should be managed through a centralized system.\n\nWhich solution will best meet these requirements?",
+      "options": [
+        "Use Amazon SageMaker Model Monitor to validate and approve models before deployment",
+        "Use SageMaker Pipelines with conditional steps to implement manual approval workflows for model deployment",
+        "Use Amazon SageMaker Lineage Tracking to validate and approve models before deployment",
+        "Use AWS CodePipeline to manage deployments and set manual approval actions for endpoint updates"
+      ],
+      "correct_answers": [
+        "Use SageMaker Pipelines with conditional steps to implement manual approval workflows for model deployment"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry-approve.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

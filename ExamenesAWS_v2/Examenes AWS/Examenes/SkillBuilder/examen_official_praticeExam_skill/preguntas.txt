@@ -1,0 +1,2777 @@
+Pregunta 1
+
+A company builds and deploys ML models by using Amazon SageMaker AI. The models are used across multiple departments. The company allocates a monthly budget that each department can spend on AWS services. The company wants to ensure that each department knows when the department's monthly spend is likely to exceed the allocated budget. Which solution will meet these requirements with the LEAST operational overhead?
+
+A.
+Create a budget in AWS Budgets with a fixed method. Specify a filter based on user-defined cost allocation tags that are associated with each department. Configure the budget to trigger an alert and notify the department based on the forecasted monthly spend.
+
+Correct. You can use AWS Budgets to track and take actions based on AWS spend. You can use a fixed method for AWS Budgets to define a static budget every month. You can use user-defined cost allocation tags to monitor costs based on tags that you create, such as department ID or project ID. You can use AWS Budgets to establish filters based on tags and to trigger alerts. By configuring an alert based on the forecasted monthly spend, you can anticipate the likelihood of your monthly spend exceeding a defined threshold.
+
+Learn more about budget methods in AWS Budgets.
+
+Learn more about AWS Budget alerts.
+
+Learn more about user-defined cost allocation tags.
+
+
+B
+Create a budget in AWS Budgets with an auto-adjusting method. Specify a filter based on AWS generated cost allocation tags that are associated with each department. Configure the budget to trigger an alert and notify the department based on the actual monthly spend.
+
+Incorrect. You can use AWS Budgets to track and take actions based on AWS spend. However, the auto-adjusting method sets a dynamic budget based on previous spend instead of on a fixed threshold. AWS generated cost allocation tags do not incorporate business logic, such as department ID or project ID. You can set an alert based on actual monthly spend. However, then the departments will not be able to anticipate when the monthly spend is likely to exceed the allocated budget. The budget would be based on a fixed threshold or threshold percentage.
+
+Learn more about budget methods in AWS Budgets.
+
+Learn more about AWS Budgets alerts.
+
+Learn more about AWS generated cost allocation tags.
+
+
+C
+Create a cost report for each department by using AWS Cost Explorer. Filter the cost report based on user-defined cost allocation tags that are associated with each department. Grant each department access to its own Cost Explorer report to review and predict when each department will exceed its own budget.
+
+Incorrect. You can use Cost Explorer to view and analyze AWS costs and usage. You can create custom cost reports based on user-defined cost allocation tags. This solution requires the departments to access the Cost Explorer console. Therefore, this solution requires additional operational overhead.
+
+Learn more about Cost Explorer.
+
+Learn more about user-defined cost allocation tags.
+
+
+D
+Create a budget in AWS Budgets with an auto-adjusting method. Specify a filter based on AWS generated cost allocation tags that are associated with each department. Create budget reports for each department and configure AWS Budgets to deliver daily reports.
+
+Incorrect. You can use AWS Budgets to track and take actions based on AWS spend. However, the auto-adjusting method sets a dynamic budget based on previous spend instead of a fixed threshold. AWS generated cost allocation tags do not incorporate business logic, such as department ID or project ID. A solution that requires the departments to analyze daily reports requires additional operational overhead.
+
+Learn more about budget methods in AWS Budgets.
+
+Learn more about AWS Budgets alerts.
+
+Learn more about AWS generated cost allocation tags.
+
+----
+
+Pregunta 2:
+
+An ML engineer is building a classification model. During data exploration, the ML engineer notices that one of the columns is right-skewed. Which transformation technique should the ML engineer use to mitigate this issue?
+
+A
+Cartesian product transformation
+
+Incorrect. You can use Cartesian product transformation to create new features by capturing interactions between categorical or text input variables. This technique is not suitable to address right-skewed numerical data.
+
+Learn more about how to mitigate right-skewed data.
+
+
+B
+Quantile binning
+
+Incorrect. Quantile binning is a technique that assigns an equal number of observations to each bin. The technique assumes that the number of observations is evenly divisible by the number of bins. Quantile binning can be useful for categorizing continuous variables. However, quantile binning does not directly address the right-skewed nature of the data.
+
+Learn more about binning.
+
+
+C
+Orthogonal sparse bigram (OSB) transformation
+
+Incorrect. You would primarily use OSB transformation for text string analysis. OSB transformation is an alternative to bi-gram transformation. This technique is not applicable to a right-skewed numerical column.
+
+Learn more about how to mitigate right-skewed data.
+
+
+D
+Logarithm transformation
+
+Correct. Logarithm transformation is an effective technique to mitigate right-skewed data. You can apply a logarithmic function to the skewed column. Then, the transformation can help normalize the distribution. This solution will make the column more symmetric and suitable for many ML algorithms. This solution is a common approach in data preprocessing to handle skewed numerical variables.
+
+Learn more about how to mitigate right-skewed data.
+
+----
+
+Pregunta 3
+
+
+A bank has used Amazon SageMaker AI to develop a credit risk scoring model to evaluate loan applications. The model is deployed on a SageMaker AI real-time endpoint with the data capture feature enabled. The bank needs real-time explanations about the model's predictions. Which solution will meet these requirements?
+
+A
+Run a SageMaker Clarify processing job on the endpoint inputs. Configure the processing job to return model explainability. Access the explainability report. Extract the general Shapley Additive Explanations (SHAP) feature attributions of the model.
+
+Incorrect. SageMaker Clarify processing jobs are designed for offline batch explanations, not real-time explainability. This solution would not provide immediate explanations for each loan application prediction. Additionally, this solution provides only general SHAP feature attributions for the model. This solution does not provide specific explanations for individual predictions.
+
+Learn more about SageMaker Clarify processing jobs.
+
+
+B
+Run a SageMaker Clarify processing job on the endpoint inputs. Configure the processing job to return model explainability and the local Shapley Additive Explanations (SHAP) values of each prediction. Access the report outputs in Amazon S3. Extract the SHAP feature attributions for each model prediction.
+
+Incorrect. SageMaker Clarify processing jobs are designed for offline batch explanations, not real-time explainability. This solution uses SageMaker Clarify to generate model explainability, including local SHAP values for each prediction. However, accessing report outputs in Amazon S3 introduces a delay that does not meet the real-time requirement.
+
+Learn more about SageMaker Clarify processing jobs.
+
+
+C
+Update the SageMaker AI endpoint with an endpoint configuration that includes the SageMaker Clarify ExplainerConfig option. Extract the model predictions and Shapley Additive Explanations (SHAP) feature attributions from the data that is returned from the endpoint.
+
+Correct. You can update the SageMaker AI endpoint with the SageMaker Clarify ExplainerConfig option. Then, you can obtain both model predictions and SHAP feature attributions in real time from the endpoint. This solution meets the real-time requirement to evaluate loan applications and provides immediate explanations for each prediction.
+
+Learn more about SageMaker Clarify online explainability.
+
+Learn more about ExplainerConfig.
+
+
+D
+Create a SageMaker Jupyter notebook. Import the Shapley Additive Explanations (SHAP) library. Write Python code to process each captured input data point and to generate the SHAP feature attributions for each model prediction.
+
+Incorrect. This solution uses the SHAP library to generate feature attributions. However, you must write custom Python code to process each captured input. Therefore, this solution does not provide real-time explainability. This solution introduces a wait time for the data to be captured first. Then, the data must be processed by using the custom Python script. This solution would not deliver immediate explanations for loan application predictions.
+
+----
+
+Pregunta 4
+
+A binary classification model's performance has decreased significantly during the past few days. An ML engineer needs to adjust the hyperparameters of the model. The underlying model type must remain the same.
+
+Which Amazon SageMaker AI functionality should the ML engineer use to optimize hyperparameters with the LEAST effort?
+
+A
+SageMaker AI automatic model tuning
+
+Correct. You can use SageMaker AI automatic model tuning to adjust hyperparameters with minimal effort. You can use SageMaker AI automatic tuning to optimize hyperparameters while keeping the underlying model type the same. This functionality automates the process to identify the best hyperparameter configuration. Therefore, this solution significantly reduces effort compared to manual tuning.
+
+Learn more about SageMaker AI automatic model tuning.
+
+
+B
+SageMaker AI notebook with a custom random search
+
+Incorrect. A SageMaker AI notebook with a custom random search could potentially adjust hyperparameters. However, this method requires more effort than using automatic model tuning. You would need to write code, manage the search process, and analyze results manually. Additionally, random search is often less efficient than the more advanced hyperparameter optimization techniques that are offered by SageMaker AI automatic model tuning.
+
+Learn more about random search.
+
+
+C
+SageMaker Autopilot with the default configuration
+
+Incorrect. SageMaker Autopilot with the default configuration does not meet the requirement to keep the underlying model type the same. SageMaker Autopilot is designed to automatically try different algorithms and model types to find the best performing model. SageMaker Autopilot provides customized selection of algorithms for training. However, the default configuration uses the full set of available algorithms. Additionally, the SageMaker Autopilot default configuration would likely change the model type to a better performing alternative. Therefore, this solution does not meet requirements.
+
+Learn more about SageMaker Autopilot.
+
+Learn more about candidate generation configuration in SageMaker Autopilot.
+
+
+D
+SageMaker Autopilot with the TabularJobConfig ProblemType attribute set to BinaryClassification
+
+Incorrect. Setting the TabularJobConfig ProblemType attribute to BinaryClassification in SageMaker Autopilot correctly identifies the problem type. However, this action does not meet the requirement to keep the underlying model type the same. Even with this configuration, SageMaker Autopilot would explore multiple model types to find the best performing one. This approach does not provide the level of control that you would need to ensure that only the hyperparameters are adjusted, not the model type.
+
+Learn more about SageMaker Autopilot configuration.
+
+----
+
+Pregunta 5
+
+An ML engineer trained an ML model by using a tabular dataset. The dataset contains 1,000 data points with 5,000 features. The ML engineer needs to reduce overfitting to improve the model's performance. Which solution will reduce overfitting the MOST for the model?
+
+A
+Reduce the number of features by applying principal component analysis (PCA).
+
+Correct. PCA is a dimensionality reduction technique that calculates a new set of features. PCA can reduce the number of features while retaining as much variability in the data as possible. By transforming the original features into principal components, PCA minimizes the feature space. Therefore, PCA addresses the root cause of overfitting. PCA is effective in use cases where the dataset contains many more features than data points. Having many more features than data points increases the likelihood of overfitting because of data sparsity.
+
+Learn more about overfitting.
+
+Learn more about PCA in Amazon SageMaker AI.
+
+
+B
+Increase the number of features by deriving new features from the existing features.
+
+Incorrect. A solution that introduces additional features is more likely to increase overfitting than reduce overfitting. The current issue is that there are already too many features (5,000) compared to the number of data points (1,000). A solution that adds more features would further increase the dimensionality of the data. Then, the model would be more susceptible to fitting noise in the training data rather than learning generalizable patterns. This solution does not meet the requirement to reduce overfitting and improve the model's performance.
+
+
+C
+Reduce the number of data points by randomly dropping 100 data points.
+
+Incorrect. A solution that reduces the number of data points by randomly dropping 100 samples would not effectively address the overfitting issue. The issue is that there are too many features (5,000) compared to the number of data points (1,000). A solution that decreases the number of data points to 900 would slightly increase the data sparsity. Therefore, this solution could increase overfitting. This solution does not meet the requirement to reduce overfitting and improve the model's performance.
+
+
+D
+Increase the number of data points by collecting 100 additional data points.
+
+Incorrect. You can increase the number of data points to reduce overfitting. However, a solution that adds only 100 samples would not significantly change the ratio of data points to features in this scenario. The dataset would still have 1,100 data points compared to 5,000 features. This solution maintains a high level of data sparsity. The minor increase in data points is insufficient to address the fundamental issue of having too many features relative to the number of samples. A bigger increase in data points or a reduction in features would be necessary to effectively reduce overfitting.
+
+----
+
+Pregunta 6
+
+A glass manufacturing company uses a computer vision model to detect broken glass on its continuous production lines. The company uses Amazon SageMaker AI to train the model with more than 50 GB of images that are stored in Amazon S3. The company has deployed the model to the edge.
+
+The model is re-trained daily, but the training job starts more slowly than the company expects. The company needs to reduce the startup time of the training job.
+
+Which action will meet these requirements MOST cost-effectively?
+
+Report Content Errors
+
+A
+Use pipe mode as the input mode for the training job configuration.
+
+Correct. Pipe mode is an input mode for SageMaker AI training jobs that streams data directly from Amazon S3. This streaming approach can significantly reduce startup times for training jobs. This approach is especially helpful for large datasets, like the 50 GB of images in the scenario. Pipe mode is the most cost-effective option to meet the requirement to reduce training job startup time. Pipe mode does not require any additional infrastructure or services. Therefore, this approach is the most suitable for daily re-training.
+
+Learn more about pipe mode.
+
+
+B
+Use an Amazon FSx for Lustre file system to stream data from Amazon S3 to the training job.
+
+Incorrect. You can use FSx for Lustre to stream data from Amazon S3 to the training job. This method would likely speed up the startup time. However, this solution is not the most cost-effective option. FSx for Lustre introduces additional costs for the file system.
+
+Learn more about FSx for Lustre.
+
+
+C
+Change the instance type of the Amazon EC2 instance that the training job uses.
+
+Incorrect. You can change the instance type of the EC2 instance that you use for the training job. However, this solution will not directly address the slow startup time issue. The startup time is caused by the time taken to download the 50 GB of image data from Amazon S3 to the training instance. An increase in instance size might process the data faster after the data is loaded. However, this method will not significantly improve the initial data transfer time. Additionally, using a different instance type could increase costs without addressing the core problem.
+
+Learn more about instance types.
+
+
+D
+Load the training data onto an Amazon Elastic Block Store (Amazon EBS) volume. Attach the EBS volume to the training job instance.
+
+Incorrect. To load the training data onto an EBS volume and attach the volume to the training job instance is not a viable solution for SageMaker AI training jobs. SageMaker AI manages the infrastructure for training jobs. You cannot directly attach EBS volumes to managed instances. This solution does not align with the SageMaker AI managed training infrastructure. Additionally, this solution would not effectively address the startup time issue.
+
+Learn more about the SageMaker AI training job infrastructure.
+
+Learn more about Amazon EBS.
+
+----
+
+Pregunta 7
+
+An ML engineer has deployed a sentiment analysis ML model on an Amazon SageMaker AI endpoint that is supported by Amazon EC2 instances. The model will go into production in 1 week. The ML engineer must implement a solution to accommodate large increases and decreases in user traffic.
+
+Which solution will accommodate the changes in traffic MOST cost-effectively?
+
+Report Content Errors
+
+A
+Configure the EC2 instances to have more GPU compute capabilities.
+
+Incorrect. You can configure EC2 instances with more GPU compute capabilities to increase the processing power of individual instances. This action addresses the requirement to accommodate large increases in user traffic. However, this solution does not dynamically scale the number of instances based on demand. Scaling is essential for cost-effective handling of variable traffic. This solution would likely result in over-provisioning during low traffic periods and would lead to unnecessary costs.
+
+Learn more about automatic scaling for SageMaker AI endpoints.
+
+
+B
+Increase the number of EC2 instances to meet the expected peak demand.
+
+Incorrect. To increase the number of EC2 instances to meet expected peak demand is a static scaling approach. This approach does not efficiently accommodate the large increases and decreases in user traffic. This solution does not dynamically adjust resources based on actual demand. Dynamic scaling is essential for cost optimization in a production environment with variable traffic.
+
+Learn more about automatic scaling for SageMaker AI endpoints.
+
+
+C
+Configure a target tracking scaling policy based on a metric in Amazon CloudWatch.
+
+Correct. A target tracking scaling policy can automatically adjust the number of instances that are provisioned based on inference requests and workload. You can configure a target tracking scaling policy that is based on a metric in CloudWatch. Then, the policy can accommodate large increases and decreases in user traffic for the SageMaker AI endpoint. This solution provides dynamic scaling of EC2 instances based on real-time metrics. Therefore, this solution can ensure that the number of instances support the actual demand.
+
+Learn more about target tracking scaling for SageMaker AI endpoints.
+
+
+D
+Deploy an Application Load Balancer (ALB). Register the endpoint as a target for the ALB.
+
+Incorrect. You can deploy an ALB and register the SageMaker AI endpoint as a target to help distribute incoming traffic across multiple instances. However, this solution does not directly address the requirement to accommodate large increases and decreases in user traffic in a cost-effective manner. An ALB can improve availability and distribute load. However, an ALB does not provide the automatic scaling capabilities you need to adjust the number of EC2 instances based on demand.
+
+Learn more about automatic scaling for SageMaker AI endpoints.
+
+Learn more about ALBs.
+
+----
+
+Pregunta 8
+
+A company is deploying a computer vision model in retail stores. The model is for live self-checkout fraud detection and is deployed on an Amazon SageMaker AI real-time inference endpoint.
+
+After updates to the model, the company must validate the updated model on 10% of customers before making the model immediately available to all customers. The company has already created Amazon CloudWatch alarms to monitor the endpoint. The company will use the SageMaker UpdateEndpoint API operation for the deployment.
+
+Which deployment configuration will meet these requirements?
+
+Report Content Errors
+
+A
+Use a canary deployment. In the CanarySize field, specify CAPACITY_PERCENT with a value of 10.
+
+Correct. In canary deployment, you deploy the new model version to a small group of customers before you roll out the new model version to all customers. A canary deployment with the CanarySize field set to CAPACITY_PERCENT with a value of 10 meets the requirements. This configuration will validate the updated model on 10% of all incoming requests before full rollout. This configuration directs 10% of traffic to the new model version. This configuration keeps 90% of the traffic on the current production version. Therefore, this configuration provides the opportunity for controlled testing.
+
+Learn more about canary deployment.
+
+
+B
+Use a canary deployment. In the CanarySize field, specify CAPACITY_PERCENT with a value of 90.
+
+Incorrect. In canary deployment, you deploy the new model version to a small group of customers before you roll out the new model version to all customers. Setting CanarySize to CAPACITY_PERCENT with a value of 90 would direct 90% of traffic to the new model version. This configuration does not meet the requirement to validate the updated model on only 10% of incoming requests before full rollout. This configuration would expose the majority of customers to the unvalidated model. Therefore, this solution does not meet the requirement for controlled testing.
+
+Learn more about canary deployment.
+
+
+C
+Use a linear deployment. In the LinearStepSize field, specify CAPACITY_PERCENT with a value of 10.
+
+Incorrect. In a linear deployment, you gradually shift traffic from the old model version to the new model version in multiple steps. Setting LinearStepSize to CAPACITY_PERCENT with a value of 10 does not meet the requirement for immediate availability to all customers after validation. Linear deployments gradually increase traffic to the new version over time. Therefore, this configuration does not meet the requirement for immediate full rollout after the initial 10% validation. This solution would continue to incrementally add more customers to the new model. This solution would not meet the requirement for a quick switch to full deployment.
+
+Learn more about linear deployment.
+
+
+D
+Use a linear deployment. In the LinearStepSize field, specify CAPACITY_PERCENT with a value of 90.
+
+Incorrect. In a linear deployment, you gradually shift traffic from the old model version to the new model version in multiple steps. Linear deployments gradually increase traffic. This solution does not meet the requirement for an immediate full rollout after validation. Setting LinearStepSize to CAPACITY_PERCENT with a value of 90 does not meet the requirement to validate on only 10% of customers initially. This solution would expose most customers to the unvalidated model and continue to incrementally add traffic. Therefore, this solution does not meet the initial testing and rapid full deployment requirements.
+
+Learn more about linear deployment.
+
+----
+
+Pregunta 9
+
+A restaurant company is building an ML model by using Amazon SageMaker AI to predict daily sales. The sales system generates data in CSV format. The company has 6,000 restaurants and generates many files each day. The company performs queries on the data. An ML engineer must build a solution to prepare, move, and integrate the data to use in the ML model. The ML engineer wants to use a serverless service and optimize query performance.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Store the data in Amazon S3 in CSV format. Use SageMaker Model Monitor to define and maintain a schema for the data.
+
+Incorrect. Amazon S3 is an object storage service. SageMaker Model Monitor is a series of APIs that you can use for continuous data and model-quality monitoring. SageMaker Model Monitor does not perform data transformations. Additionally, to save file space and optimize query performance, you should store the data in Parquet format instead of CSV format.
+
+Learn more about how to use SageMaker AI training storage paths for training datasets, checkpoints, model artifacts, and outputs.
+
+Learn more about how to convert data to Parquet by using AWS Glue.
+
+Learn more about SageMaker Model Monitor.
+
+
+B
+Store the data in Amazon Elastic Block Store (Amazon EBS). Use SageMaker Ground Truth to extract, transform, and load (ETL) the data in CSV format.
+
+Incorrect. Amazon EBS is a block storage service that is typically mounted to a server. Therefore, Amazon EBS is not serverless. SageMaker Ground Truth is a service that you can use to label datasets. SageMaker Ground Truth is not suitable for ETL pipelines. Additionally, to save file space and optimize query performance, you should store the data in Parquet format instead of CSV format.
+
+Learn more about Amazon EBS.
+
+Learn more about SageMaker Ground Truth.
+
+
+C
+Store the data in Amazon Elastic File System (Amazon EFS). Use AWS Glue to extract, transform, and load (ETL) the data in JSON format.
+
+Incorrect. Amazon EFS is a scalable file storage service. AWS Glue is a serverless data integration service that you can use for ETL jobs. However, this solution does not meet the requirements because AWS Glue is unable to read directly from Amazon EFS. Additionally, to save file space and optimize query performance, you should store the data in Parquet format instead of JSON format.
+
+Learn more about Amazon EFS.
+
+Learn more about SageMaker AI supported data formats.
+
+
+D
+Store the data in Amazon S3 in CSV format. Use AWS Glue to extract, transform, and load (ETL) the data in Apache Parquet format.
+
+Correct. Amazon S3 is an object storage service. AWS Glue is a serverless data integration service that you can use for ETL jobs. You can use AWS Glue to convert CSV files into Parquet format. Parquet is an open source columnar data format that is suitable to save file space and optimize query performance.
+
+Learn more about how to convert data to Parquet by using AWS Glue.
+
+----
+
+Pregunta 10
+
+A company deployed an ML model into production. A data team needs to periodically ingest and transform updated datasets to support batch inference. The data team creates an Amazon SageMaker Data Wrangler data flow to transform the raw data into features.
+
+Select and order the correct steps from the following list to make the data available for batch inferencing. Each step should be selected one time or not at all. (Select and order THREE.)
+
+Create a data pipeline to ingest features into the SageMaker Feature Store.
+Specify a feature group as a data flow destination.
+Read features from the offline SageMaker Feature Store.
+Run a SageMaker Data Wrangler processing job.
+Read features from the online SageMaker Feature Store.
+Step 1:
+
+ Specify a feature group as a data flow destination.
+Step 2:
+
+ Run a SageMaker Data Wrangler processing job.
+Step 3:
+
+ Read features from the offline SageMaker Feature Store.
+Report Content Errors
+SageMaker Data Wrangler includes ML data transforms to featurize your dataset. You can define a repeatable data flow to clean, transform, and featurize your data. SageMaker Feature Store reduces repetitive efforts to transform raw data into features by providing centralized storage, discovery, and sharing of features and related metadata. The first step is to specify where to store the transformed data. You can configure the destination of the data flow as a feature group. Then, SageMaker Data Wrangler processing jobs will export features to the SageMaker Feature Store.
+
+After specifying the feature group, the next step is to run the SageMaker Data Wrangler processing job. The job will transform raw data into the desired features based on the data flow that you created. After the data has been processed and ingested into the feature group, you can read the features from the offline SageMaker Feature Store. The offline store is optimized for batch processing. You can use the offline store to retrieve features for batch inference.
+
+Creating a separate data pipeline to ingest the features is not necessary. The process of transforming and ingesting data into the feature store is already handled by the SageMaker Data Wrangler processing job. The online SageMaker Feature Store is intended for real-time uses cases where you need low-latency access to feature data. For batch inference, the offline SageMaker Feature Store is more appropriate.
+
+Learn more about how to prepare data by using SageMaker Data Wrangler.
+
+Learn more about SageMaker Feature Store.
+
+Learn more about how to export features from SageMaker Data Wrangler to SageMaker Feature Store.
+
+----
+
+Pregunta 11
+
+A company wants to use Amazon Bedrock to automatically generate customer-facing content. The content must concisely explain the company's operational rules, special events, and guidelines. All content that is generated by Amazon Bedrock must be consistent with the company's brand guidelines. The company plans to use the Claude family of models by Anthropic on Amazon Bedrock.
+
+Which combination of model configuration adjustments will meet these requirements? (Select TWO.)
+
+Report Content Errors
+
+A
+Use higher temperature (float).
+
+Incorrect. A higher temperature value increases the randomness and creativity of the model. The company wants to generate concise, consistent messages that match specific brand guidelines and operational information. Increasing the temperature setting could cause the generated text to be too varied, not follow brand guidelines, or be irrelevant.
+
+
+B
+Use higher top_p (float).
+
+Incorrect. A higher top_p value can lead to more varied and unpredictable outputs. A higher top_p value is not recommended to generate concise, consistent messages that need to match specific brand guidelines and operational information. This solution increases the risk that the generated text could be too varied, not follow brand guidelines, or be irrelevant.
+
+
+C
+Control length by using max_tokens_to_sample (int).
+
+Correct. The max_tokens_to_sample parameter provides direct control over the length of the generated text. You can use this parameter to ensure that the output is brief and ends at an appropriate length. This parameter is useful for creating concise messages that need to match information like operational rules, special events, and brand guidelines.
+
+Learn more about Anthropic Claude text completions.
+
+
+D
+Use higher top_k (int).
+
+Incorrect. A higher top_k value increases the pool of considered words, potentially leading to more varied outputs. The company wants to generate concise, consistent messages that match specific brand guidelines and operational information. Increasing the top_k value could cause generated text to be too varied, not follow brand guidelines, or be irrelevant.
+
+
+E
+Use specific stop_sequences (string).
+
+Correct. The stop_sequences parameter provides the precise marking of content endpoints. By using clear endpoints, the generated content remains organized and consistent. This parameter can match the company's brand guidelines.
+
+Learn more about Anthropic Claude text completions.
+
+----
+
+Pregunta 12
+
+
+A company wants to improve its fraud detection capabilities. The company must implement a highly available streaming solution on AWS to ingest credit card data in real time to detect fraudulent transactions.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use Amazon Kinesis Data Streams to ingest the data. Use Amazon Managed Service for Apache Flink to analyze data. Use Amazon SageMaker AI to detect fraudulent transactions.
+
+Correct. Kinesis Data Streams can ingest credit card data in real time. Then, Managed Service for Apache Flink can analyze the streaming data. Finally, you can use SageMaker AI to detect fraudulent transactions by using ML models. This solution provides a highly available streaming architecture for real-time fraud detection.
+
+Learn more about real-time data ingestion by using Kinesis Data Streams.
+
+Learn more about how to develop consumers by using Managed Service for Apache Flink.
+
+Learn more about Managed Service for Apache Flink.
+
+Learn more about how to deploy ML models on SageMaker AI.
+
+
+B
+Use Amazon Kinesis Data Streams to ingest the data. Configure Amazon Fraud Detector to read from the Kinesis data stream to detect fraudulent transactions.
+
+Incorrect. Kinesis Data Streams can ingest the credit card data in real time. Amazon Fraud Detector is a fully managed fraud detection service. Amazon Fraud Detector cannot read directly from a Kinesis data stream. Amazon Fraud Detector typically reads data from Amazon S3, not from streaming sources. Therefore, this solution does not meet the real-time processing requirement for fraud detection.
+
+Learn more about Amazon Fraud Detector.
+
+
+C
+Use Amazon SageMaker Autopilot to automatically ingest the data, build a model, and analyze the data to detect fraudulent transactions.
+
+Incorrect. SageMaker Autopilot is designed to automate the process to build, train, and tune ML models. SageMaker Autopilot does not provide real-time data ingestion capabilities. Therefore, SageMaker Autopilot is not suitable for streaming data ingestion or real-time fraud detection.
+
+Learn more about SageMaker Autopilot.
+
+
+D
+Use Amazon SageMaker Data Wrangler to ingest the data in real time. Configure SageMaker Autopilot to perform the analysis to detect fraudulent transactions.
+
+Incorrect. You can use SageMaker Data Wrangler for data preparation and analysis. SageMaker Autopilot is designed to automate the process to build, train, and tune ML models. SageMaker Data Wrangler is not designed for real-time data ingestion. SageMaker Autopilot can perform analysis. However, SageMaker Autopilot is not designed for real-time streaming data processing. This solution does not provide highly available streaming for real-time fraud detection.
+
+Learn more about SageMaker Data Wrangler.
+
+Learn more about SageMaker Autopilot.
+
+----
+
+Pregunta 13
+
+A company needs to ingest data from an Amazon Redshift cluster and a Snowflake data source into Amazon SageMaker Data Wrangler. The company also must transform the data to prepare the data for ML model training.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use Amazon Athena to directly query the Redshift cluster and the Snowflake data source. Use Athena also to transform the data. Import the query results into SageMaker Data Wrangler.
+
+Incorrect. Athena is a serverless query service that you can use to analyze data in Amazon S3 by using SQL. Athena can query some external data sources. However, Athena cannot directly query Amazon Redshift or Snowflake data sources. You would need to connect Amazon Redshift or Snowflake data sources directly.
+
+Learn more about Athena data sources.
+
+
+B
+Use AWS Glue to crawl the Redshift cluster and the Snowflake data source. Import the resulting data catalog into SageMaker Data Wrangler. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data.
+
+Incorrect. AWS Glue crawlers are designed to discover and catalog data in supported data stores. However, SageMaker Data Wrangler does not support importing data directly from AWS Glue data catalogs.
+
+Learn more about SageMaker Data Wrangler import sources.
+
+
+C
+Use Amazon Kinesis Data Streams to stream the data directly from the Redshift cluster and the Snowflake data source into an Amazon S3 bucket. Import the data from the S3 bucket into SageMaker Data Wrangler. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data.
+
+Incorrect. Kinesis Data Streams is designed for the real-time streaming of data. You would not use Kinesis Data Streams to batch data extraction from data warehouses such as Amazon Redshift and Snowflake. You can import data from Amazon S3 into SageMaker Data Wrangler. However, you cannot write directly from Snowflake or Amazon Redshift to Kinesis Data Streams. Additionally, Kinesis Data Streams cannot write to Amazon S3 directly. You would need to use another connector, such as AWS Lambda or Amazon Data Firehose.
+
+Learn more about how to write to Kinesis Data Streams.
+
+Learn more about third-party integrations to write to Kinesis Data Streams.
+
+Learn more about how to read data from Kinesis Data Streams.
+
+
+D
+Connect to the Redshift cluster and the Snowflake data source by using separate data connections in SageMaker Data Wrangler. Import the data by using SQL queries. Use the data preparation capabilities in SageMaker Data Wrangler to transform the data.
+
+Correct. SageMaker Data Wrangler supports direct connections to both Amazon Redshift and Snowflake through built-in connectors. You can write SQL queries to import data from the Amazon Redshift and Snowflake sources. Then, you can use the transformation capabilities of SageMaker Data Wrangler to prepare the data for ML training.
+
+Learn more about how to prepare data by using SageMaker Data Wrangler.
+
+----
+
+Pregunta 14
+
+A company has an Amazon S3 bucket that contains 1 TB of files from different sources. The S3 bucket contains the following file types in the same S3 folder: CSV, JSON, XLSX, and Apache Parquet.
+
+An ML engineer must implement a solution that uses AWS Glue DataBrew to process the data. The ML engineer also must store the final output in Amazon S3 so that AWS Glue can consume the output in the future.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use DataBrew to process the existing S3 folder. Store the output in Apache Parquet format.
+
+Incorrect. DataBrew is a visual data preparation tool that you can use to clean and normalize data without writing code. DataBrew requires all files in a folder to be the same file type. Therefore, you cannot process the existing S3 folder that contains different file types.
+
+Learn more about supported file types for data sources.
+
+
+B
+Use DataBrew to process the existing S3 folder. Store the output in YAML format.
+
+Incorrect. DataBrew is a visual data preparation tool that you can use to clean and normalize data without writing code. DataBrew requires all files in a folder to be the same file type. You cannot process the existing S3 folder that contains different file types. Additionally, DataBrew does not support YAML as an output format.
+
+Learn more about supported file types for data sources.
+
+
+C
+Separate the data into a different folder for each file type. Use DataBrew to process each folder individually. Store the output in Apache Parquet format.
+
+Correct. DataBrew is a visual data preparation tool that you can use to clean and normalize data without writing code. To process data in DataBrew, you must organize the file types of different formats into separate folders by type. Apache Parquet is a columnar storage format that provides compression and query performance. DataBrew can process each file type correctly. This solution ensures that the output is optimized for future consumption by AWS Glue.
+
+Learn more about how to connect to data with DataBrew.
+
+Learn more about supported file types for data sources.
+
+
+D
+Separate the data into a different folder for each file type. Use DataBrew to process each folder individually. Store the output in YAML format.
+
+Incorrect. DataBrew is a visual data preparation tool that you can use to clean and normalize data without writing code. To process data in DataBrew, you must organize the file types of different formats into separate folders by type. DataBrew can process each file type correctly. However, DataBrew does not support YAML as an output format. Additionally, YAML is not an appropriate format for big data processing use cases.
+
+Learn more about supported file types for data sources.
+
+----
+
+Pregunta 15
+
+An ML engineer receives datasets that contain missing values, duplicates, and extreme outliers. The ML engineer must consolidate these datasets into a single data frame and must prepare the data for ML.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use Amazon SageMaker Data Wrangler to import the datasets and to consolidate them into a single data frame. Use the cleansing and enrichment functionalities to prepare the data.
+
+Correct. You can use SageMaker Data Wrangler to prepare data for ML workflows. You can use SageMaker Data Wrangler to import and consolidate the datasets into a single frame. Then, you can cleanse, analyze, and transform the data for ML.
+
+Learn more about SageMaker Data Wrangler.
+
+
+B
+Use Amazon SageMaker Ground Truth to import the datasets and to consolidate them into a single data frame. Use the human-in-the-loop capability to prepare the data.
+
+Incorrect. SageMaker Ground Truth is a data labeling service that you can use to create high-quality training datasets. SageMaker Ground Truth uses a human workforce to label data. You cannot use SageMaker Ground Truth for data cleansing and preparation.
+
+Learn more about SageMaker Ground Truth.
+
+
+C
+Manually import and merge the datasets. Consolidate the datasets into a single data frame. Use Amazon Q Developer to generate code snippets that will prepare the data.
+
+Incorrect. Amazon Q Developer is a generative AI conversational assistant that you can use to generate code snippets. You cannot use Amazon Q Developer to prepare data.
+
+Learn more about Amazon Q Developer.
+
+
+D
+Manually import and merge the datasets. Consolidate the datasets into a single data frame. Use Amazon SageMaker AI data labeling to prepare the data.
+
+Incorrect. You can use data labeling to annotate datasets for supervised learning tasks. Data labeling is not designed to cleanse data, handle missing values, or manage outliers.
+
+Learn more about data labeling.
+
+----
+
+Pregunta 16
+
+A company is planning to create several ML prediction models. The training data is stored in Amazon S3. The entire dataset is more than 5 TB in size and consists of CSV, JSON, Apache Parquet, and simple text files.
+
+The data must be processed in several consecutive steps. The steps include complex manipulations that can take hours to finish running. Some of the processing involves natural language processing (NLP) transformations. The entire process must be automated.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Process data at each step by using Amazon SageMaker Data Wrangler. Automate the process by using SageMaker Data Wrangler jobs.
+
+Incorrect. You can use SageMaker Data Wrangler for data preparation tasks. SageMaker Data Wrangler can process only tabular and image data. SageMaker Data Wrangler does not support simple text processing. SageMaker Data Wrangler is more suitable for data transformations. SageMaker Data Wrangler is not suitable for complex, multi-step processing workflows.
+
+Learn more about SageMaker Data Wrangler.
+
+
+B
+Use Amazon SageMaker AI notebooks for each data processing step. Automate the process by using Amazon EventBridge.
+
+Incorrect. A SageMaker AI notebook is a fully managed ML compute instance that runs a Jupyter notebook. You can use notebooks to process data. However, notebooks are not suitable for the production-level automation of complex data processing workflows. Notebooks are more suitable for experimentation and development. Additionally, you would need to use notebook jobs.
+
+Learn more about SageMaker AI notebooks.
+
+Learn more about SageMaker AI notebook jobs.
+
+
+C
+Process data at each step by using AWS Lambda functions. Automate the process by using AWS Step Functions and Amazon EventBridge.
+
+Incorrect. You can use Lambda to run serverless code. Lambda has a processing time quota of 15 minutes. Lambda would not meet the requirement for complex tasks that take hours to run.
+
+Learn more about Lambda quotas.
+
+
+D
+Use Amazon SageMaker Pipelines to create a pipeline of data processing steps. Automate the pipeline by using Amazon EventBridge.
+
+Correct. SageMaker Pipelines is a tool that you can use to create and manage ML workflows at scale. You can use SageMaker Pipelines to process large datasets with complex, multi-step transformations. SageMaker Pipelines can handle more than 5 TB of diverse data formats that are stored in Amazon S3. The data formats include CSV, JSON, Parquet, and text files. You can use SageMaker Pipelines to create a series of interconnected processing steps for complex manipulations and NLP transformations. You can automate the pipeline by using EventBridge. This solution provides the scalability, flexibility, and automation that you need to create multiple ML prediction models.
+
+Learn more about SageMaker Pipelines.
+
+----
+
+Pregunta 17
+
+A company is using Amazon SageMaker AI to develop an ML model. The model uses tabular data and image data. An ML engineer needs to implement a solution to prepare and visualize the data for the model.
+
+Which solution will meet these requirements with the LEAST operational overhead?
+
+Report Content Errors
+
+A
+Use SageMaker Processing to prepare and visualize the data.
+
+Incorrect. You can use SageMaker Processing to run data for preprocessing, postprocessing, feature engineering, and model evaluation tasks. However, SageMaker Processing would require custom code for visualizations. SageMaker Processing does not provide built-in visualization capabilities.
+
+Learn more about SageMaker Processing.
+
+
+B
+Use SageMaker Data Wrangler to prepare and visualize the data.
+
+Correct. You can use SageMaker Data Wrangler to import, prepare, transform, and analyze data in a low-code no-code interface. SageMaker Data Wrangler provides a unified solution for data preparation and visualization. SageMaker Data Wrangler provides built-in support for tabular and image data.
+
+Learn more about SageMaker Data Wrangler.
+
+
+C
+Use SageMaker batch transform to prepare the data. Use SageMaker Data Wrangler to visualize the data.
+
+Incorrect. You can use batch transform to preprocess datasets to remove noise or bias from the dataset before training or inference. You can use batch transform to run inference on large datasets. Batch transform cannot prepare image data.
+
+Learn more about batch transform.
+
+
+D
+Use SageMaker Data Wrangler to prepare the data. Use Amazon QuickSight to visualize the data.
+
+Incorrect. You can use SageMaker Data Wrangler to import, prepare, transform, and analyze data in a low-code no-code interface. QuickSight is a business intelligence tool that you can use to create dashboards and visualize data. Using QuickSight to visualize the data requires more operational overhead than using built-in data visualization capabilities in SageMaker Data Wrangler. You would need to create and manage the QuickSight dashboard.
+
+Learn more about SageMaker Data Wrangler.
+
+Learn more about QuickSight.
+
+----
+Pregunta 18
+
+A company needs to train an ML model that will use historical transaction data to predict customer behavior.
+
+Select the correct AWS service from the following list to perform each task on the data. Each service should be selected one time or not at all. (Select THREE.)
+
+Amazon Athena
+AWS Glue
+Amazon Kinesis Data Streams
+Amazon S3
+Query the data for exploration and analysis.
+
+ Amazon Athena
+Store the data.
+
+ Amazon S3
+Transform the data.
+
+ AWS Glue
+Report Content Errors
+Athena is a serverless interactive query service that you can use to analyze data in Amazon S3 by using standard SQL. You would typically use Athena for data exploration and analysis. You can use Athena to query and explore data that is stored in Amazon S3 without the need to set up or manage any infrastructure.
+
+Amazon S3 is an object storage service that provides durable, highly available, and scalable object storage. You would typically use Amazon S3 to store structured and unstructured data. For example, you can use Amazon S3 for data lakes, backup and archive data, and other big data workloads. You can use Amazon S3 to store data to train an ML model.
+
+AWS Glue is a fully managed extract, transform, and load (ETL) service that you can use to prepare and load data for analytics. You can use AWS Glue to extract data from various sources, transform and clean the data, and then load the data into destinations. Destinations could include Amazon S3, Amazon Redshift, or other data stores. You can use AWS Glue to streamline the data engineering process and provide more efficient data analytics and ML pipelines.
+
+Kinesis Data Streams is a scalable and durable real-time data streaming service. Kinesis Data Streams can continuously capture and store terabytes of data each hour from hundreds of thousands of sources. You cannot use Kinesis Data Streams to query, store, or transform data.
+
+Learn more about Athena.
+
+Learn more about Amazon S3.
+
+Learn more about AWS Glue.
+
+Learn more about Kinesis Data Streams.
+
+----
+
+Pregunta 19
+
+An ML engineer needs to optimize features to train ML models.
+
+Select the correct feature engineering technique from the following list for each use case. Each feature engineering technique should be selected one time or not at all. (Select THREE.)
+
+Binning
+Feature splitting
+Logarithm transformation
+Text featurization
+Change a variable that has a skewed distribution to create a more normal distribution.
+
+ Logarithm transformation
+Convert a feature such as a date into individual features of year, month, and day.
+
+ Feature splitting
+Convert numeric variables into categorical variables by dividing the range into groups.
+
+ Binning
+Report Content Errors
+You can use logarithm transformation to normalize a skewed distribution. You can apply a log transformation to create a more normal distribution. Feature splitting is the process of breaking down a single feature into multiple features. In the use case, the feature engineering technique splits a date into separate features for year, month, and day. Binning is the process of converting continuous numerical variables into categorical variables. Binning divides the range of the variable into a set number of intervals or "bins". Binning can be useful to reduce the effects of minor observation errors and to reveal non-linear relationships between variables.
+
+Learn more about logarithm transformation.
+
+Learn more about feature splitting.
+
+Learn more about binning.
+
+----
+
+Pregunta 20
+
+A company receives hundreds of resumes every day. The company stores the resumes in an Amazon S3 bucket.
+
+The company needs to deploy an automated and scalable solution to detect and extract personally identifiable information (PII) from PDF resume files. The solution must also detect and provide PII entities before saving the result back to the S3 bucket.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Create an Amazon Transcribe batch translation job. Start an asynchronous job to detect the PII entities.
+
+Incorrect. Amazon Transcribe is an automatic speech recognition service that you can use to convert audio to text. You cannot use Amazon Transcribe to detect and extract PII entities from PDF files.
+
+Learn more about Amazon Transcribe.
+
+
+B
+Create an Amazon Personalize batch inference job. Start an asynchronous job to detect the PII entities.
+
+Incorrect. Amazon Personalize is a service that uses ML to generate item recommendations for users. You cannot use Amazon Personalize to detect PII entities.
+
+Learn more about Amazon Personalize.
+
+
+C
+Call the Amazon Textract asynchronous API operations to detect the PII entities.
+
+Incorrect. Amazon Textract is a service that you can use for text extraction. You can use Amazon Textract to detect and extract text in documents. However, you cannot use Amazon Textract to detect PII entities.
+
+Learn more about Amazon Textract.
+
+
+D
+Create an Amazon Comprehend analysis job. Start an asynchronous job to detect the PII entities.
+
+Correct. Amazon Comprehend is a natural language processing (NLP) service that you can use to extract insights from documents. Amazon Comprehend can detect and redact PII in PDF files. You can use an Amazon Comprehend analysis job to parse multiple documents asynchronously. Then, you can save the results back to the S3 bucket.
+
+Learn more about how to detect PII entities by using Amazon Comprehend.
+
+----
+
+Pregunta 21
+
+An ML engineer notices class imbalance in an image classification training job.
+
+What should the ML engineer do to resolve this issue?
+
+Report Content Errors
+
+A
+Reduce the size of the dataset.
+
+Incorrect. Class imbalance occurs when one class in a dataset significantly outweighs the other class. Class imbalance is not related to the absolute size of the dataset. Reducing the size of the dataset will not resolve the class imbalance issue. This approach could make the issue worse by potentially reducing the number of samples in the minority class even further.
+
+Learn more about how to reduce the size of a dataset.
+
+
+B
+Transform some of the images in the dataset.
+
+Incorrect. Transforming some of the images in the dataset will not directly address the class imbalance problem. Transformations can include rotation, mirroring, or shifting. Image transformations do not impact the underlying class distribution or create new samples of the minority class. The scenario is about class imbalance in the training job. Class imbalance requires you to adjust the relative proportions of different classes.
+
+Learn more about image transformation.
+
+
+C
+Apply random oversampling on the dataset.
+
+Correct. Class imbalance occurs when one class in a dataset significantly outweighs the other class. You can apply random oversampling on the dataset to effectively address class imbalance in image classification. This technique involves creating additional samples of the minority class. For this technique, you can duplicate existing samples or generate synthetic samples. By increasing the representation of the underrepresented class, random oversampling helps balance the class distribution. This approach directly addresses the class imbalance problem without altering the original data.
+
+Learn more about data transformation techniques to balance data in a dataset.
+
+Learn more about class imbalance.
+
+
+D
+Apply random data splitting on the dataset.
+
+Incorrect. Random splitting is a technique that you can use to divide data into training, validation, and test sets. Random splitting does not alter the underlying class distribution within the sets. The scenario is about class imbalance in the training job. Class imbalance requires you to adjust the proportions of different classes. To resolve class imbalance, you cannot redistribute the classes across different dataset splits.
+
+Learn more about the split data transform.
+
+----
+
+Pregunta 22
+
+A company wants to develop an ML model by using tabular data from its customers. The data contains meaningful ordered features with sensitive information that should not be discarded. An ML engineer must ensure that the sensitive data is masked before another team starts to build the model.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use Amazon Macie to categorize the sensitive data.
+
+Incorrect. Macie is a data security service that you can use to discover sensitive data in Amazon S3. Macie can detect and send alerts when sensitive data is found. However, Macie cannot categorize or mask the data.
+
+Learn more about Macie.
+
+
+B
+Prepare the data by using AWS Glue DataBrew.
+
+Correct. DataBrew is a data preparation service that includes built-in transformations. You can use a built-in transformation to mask data while preserving the statistical properties and relationships in the data.
+
+Learn more about DataBrew.
+
+
+C
+Run an AWS Batch job to change the sensitive data to random values.
+
+Incorrect. AWS Batch is a service that you can use to run batch computing workloads. You can use AWS Batch to change sensitive data to random values. However, the features in the scenario have meaningful information. Therefore, substituting sensitive information for random values could degrade the information within the features. This solution would not preserve the meaningful order of the features.
+
+Learn more about AWS Batch.
+
+
+D
+Run an Amazon EMR job to change the sensitive data to random values.
+
+Incorrect. Amazon EMR is designed for big data processing. You can use Amazon EMR to change sensitive data to random values. However, this solution does not provide built-in data masking capabilities that preserve data relationships. Substituting sensitive information for random values could degrade the information within the features and create a model that performs poorly.
+
+Learn more about Amazon EMR.
+
+----
+
+Pregunta 23
+
+An ML engineer needs to encrypt all data in transit when an ML training job runs. The ML engineer must ensure that encryption in transit is applied to processes that Amazon SageMaker AI uses during the training job.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Encrypt communication between nodes for batch processing.
+
+Incorrect. You can use batch processing to run inference on large datasets. You can use batch processing when you want to run inference without the need for a persistent endpoint. Batch processing is different from training jobs. You can encrypt batch processing data. However, this solution does not meet the requirement to secure training job communications.
+
+Learn more about batch processing by using batch transform.
+
+
+B
+Encrypt communication between nodes in a training cluster.
+
+Correct. SageMaker AI can encrypt inter-node communication when you run distributed training jobs. This solution ensures the encryption of all the data that is transmitted between nodes in a training cluster. Therefore, this solution meets the requirement to encrypt data in transit during training.
+
+Learn more about how to encrypt data in transit.
+
+
+C
+Specify an AWS Key Management Service (AWS KMS) key during the creation of the training job request.
+
+Incorrect. AWS KMS is a managed service that you can use to create and manage cryptographic keys that can encrypt data. You can use KMS keys to encrypt data at rest, not data in transit. You can specify a KMS key during the creation of the training job request. However, this solution would not encrypt network communications between training nodes.
+
+Learn more about how to encrypt data at rest.
+
+
+D
+Specify an AWS Key Management Service (AWS KMS) key during the creation of the SageMaker AI domain.
+
+Incorrect. AWS KMS is a managed service that you can use to create and manage cryptographic keys that can encrypt data. You can use KMS keys to encrypt data at rest, not data in transit. You cannot use a KMS key to encrypt network communications between training nodes.
+
+Learn more about how to encrypt data at rest.
+
+----
+
+Pregunta 24
+
+A company needs a model that predicts the price of a house before the house is listed for sale.
+
+Which algorithm should the company use to meet this requirement?
+
+Report Content Errors
+
+A
+Instance segmentation
+
+Incorrect. Instance segmentation is an image processing technique that you can use to identify and delineate individual objects within an image. You would not use instance segmentation to predict house prices. Predicting house prices is a regression task that requires numerical prediction based on various features.
+
+Learn more about instance segmentation with object detection.
+
+
+B
+Semantic segmentation
+
+Incorrect. Semantic segmentation is an image processing technique that you can use to classify each pixel in an image into predefined categories. You would not use semantic segmentation to predict house prices. The requirement is to predict a numerical value (house price) based on various features. Therefore, semantic segmentation cannot meet the requirement.
+
+Learn more about the semantic segmentation algorithm.
+
+
+C
+Principal component analysis (PCA)
+
+Incorrect. PCA is an unsupervised ML algorithm that you can use for dimensionality reduction. PCA can be useful in preprocessing data for a house price prediction model. However, PCA itself does not make predictions. You would typically use PCA as a preprocessing step rather than a predictive algorithm.
+
+Learn more about the PCA algorithm.
+
+
+D
+XGBoost for regression
+
+Correct. The XGBoost algorithm is an open source implementation of the gradient boosting technique. The gradient boosting technique is a supervised learning method that combines predictions from multiple simpler models to accurately forecast a target variable. Predicting house prices is a regression problem. You can use XGBoost to handle complex relationships between various features. Features can include location, amenities, and the target variable (house price). XGBoost for regression can predict the price of a house before the house is listed for sale by learning from historical data and generating accurate numerical predictions.
+
+Learn more about the XGBoost algorithm.
+
+----
+
+Pregunta 25
+
+A company needs to develop an ML model. The model must identify an item in an image and must provide the location of the item.
+
+Which Amazon SageMaker AI algorithm will meet these requirements?
+
+Report Content Errors
+
+A
+Image classification
+
+Incorrect. Image classification identifies the class or category of an object in an image. Image classification does not provide the location of the object within the image.
+
+Learn more about image classification.
+
+
+B
+XGBoost
+
+Incorrect. XGBoost is an implementation of the gradient boosted trees algorithm. You would primarily use XGBoost to predict numerical values or classification tasks. XGBoost is not designed for object detection or localization in images.
+
+Learn more about the XGBoost algorithm.
+
+
+C
+Object detection
+
+Correct. Object detection identifies items in an image and provides the locations of the items. Object detection often provides the locations in the form of bounding boxes. You can use the object detection algorithm in SageMaker AI to identify an item in an image and provide the location of the item.
+
+Learn more about object detection.
+
+
+D
+K-nearest neighbors (k-NN)
+
+Incorrect. You can use the k-NN algorithm for classification or regression tasks based on the proximity of data points. You cannot use the k-NN algorithm for object detection or to identify the location of an item in an image.
+
+Learn more about the k-NN algorithm.
+
+---- Pregunta 26
+
+A company needs to use an Amazon SageMaker AI built-in algorithm for supervised training to predict whether a customer will buy a product.
+
+Which algorithm should the company use to meet this requirement?
+
+Report Content Errors
+
+A
+K-means
+
+Incorrect. The k-means algorithm is an unsupervised learning algorithm that you can use to cluster data points into groups. The k-means algorithm does not meet the requirement for supervised training to predict customer purchases. The k-means algorithm is not suitable to make predictions on labeled data.
+
+Learn more about the k-means algorithm.
+
+
+B
+K-nearest neighbors (k-NN)
+
+Correct. The k-NN algorithm is a supervised learning algorithm that you can use for classification tasks. An example of a classification task is predicting whether a customer will buy a product. The k-NN algorithm meets the requirement for supervised training and can make predictions based on labeled historical data. The k-NN algorithm can find the closest data points to a new input and can use labels to make a prediction. Therefore, this solution is appropriate for binary classification problems like customer purchase prediction.
+
+Learn more about the k-NN algorithm.
+
+
+C
+Support Vector Regression (SVR)
+
+Incorrect. SVR is a supervised learning algorithm. SVR is designed for regression problems, not classification problems. The company needs to predict whether a customer will buy a product. Therefore, the scenario describes a binary classification task. SVR is more suitable for predicting continuous values, not discrete outcomes like purchase decisions. Additionally, SVR is not available as a built-in algorithm in SageMaker AI. SVR is available as part of a scikit-learn built-in container image.
+
+Learn more about supervised learning problems.
+
+Learn more about SageMaker AI scikit-learn built-in container images.
+
+
+D
+Random Cut Forest (RCF)
+
+Incorrect. RCF is an unsupervised learning algorithm that you can use for anomaly detection. RCF does not meet the requirement for supervised training to predict customer purchases. RCF is designed to identify unusual data points within a dataset, not to make predictions based on labeled data.
+
+Learn more about RCF.
+
+---- 
+
+Pregunta 27
+
+An ML engineer needs to develop an audio podcast from written scripts. The ML engineer must introduce a unique break after each paragraph of the script.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use Amazon Transcribe to convert the text to speech. Define the breaks by using intents.
+
+Incorrect. Amazon Transcribe can convert audio sources to written text. Audio sources could include customer calls or video files. You cannot use Amazon Transcribe to convert text to speech.
+
+Learn more about Amazon Transcribe.
+
+
+B
+Use Amazon Polly to convert the text to speech. Define the breaks by using lexicons.
+
+Incorrect. Amazon Polly is a service that you can use to convert text to speech. You can use lexicons to customize the pronunciation of specific words or phrases. You cannot use lexicons to control the timing or structure of the audio output. Therefore, you cannot use lexicons to define breaks between paragraphs.
+
+Learn more about lexicons in Amazon Polly.
+
+
+C
+Use Amazon Comprehend to convert the text to speech. Define the breaks by using Speech Synthesis Markup Language (SSML).
+
+Incorrect. Amazon Comprehend is a natural language processing (NLP) service that you can use to extract insights and analyze text. Amazon Comprehend does not have text-to-speech capabilities. Amazon Comprehend does not support SSML or audio output generation.
+
+Learn more about Amazon Comprehend.
+
+
+D
+Use Amazon Polly to convert the text to speech. Define the breaks by using Speech Synthesis Markup Language (SSML).
+
+Correct. Amazon Polly is a service that you can use to convert text to speech. You can use Amazon Polly to develop an audio podcast from written scripts. SSML in Amazon Polly provides precise control over speech output, including the ability to introduce breaks. By using SSML tags, you can define unique breaks after each paragraph of the script.
+
+Learn more about how to use SSML in Amazon Polly.
+
+----
+
+Pregunta 28
+
+An ML engineer is using the Amazon SageMaker AI XGBoost algorithm to develop a diagnostic tool. The tool uses multiple indicators to predict whether a patient has a specific disease. The dataset includes data from a large number of patients classified as healthy and a small number of patients diagnosed with the disease.
+
+Initial tests show that the model can consistently identify a patient who does not have the disease. However, the model cannot accurately predict whether a patient has the disease.
+
+Which adjustment should the ML engineer make to improve the model's ability to accurately predict which patients have the disease?
+
+Report Content Errors
+
+A
+Increase the learning rate.
+
+Incorrect. The learning rate controls the step size during optimization. A higher learning rate can lead to faster convergence. However, this adjustment does not directly address the class imbalance problem.
+
+Learn more about the learning rate.
+
+
+B
+Increase the value of the scale_pos_weight hyperparameter.
+
+Correct. You can have an imbalanced dataset where one class is underrepresented compared to the other class. In this scenario, the class of patients with the disease is underrepresented compared to the class of healthy patients. You can increase the scale_pos_weight hyperparameter to help the model better identify the minority class. Increasing this hyperparameter will give higher weight to the positive class (patients with the disease) during training. This adjustment will effectively increase the penalty for misclassifying instances of the minority class.
+
+Learn more about XGBoost hyperparameters.
+
+
+C
+Decrease the value of the scale_pos_weight hyperparameter.
+
+Incorrect. You can have an imbalanced dataset where one class is underrepresented compared to the other class. In this scenario, the class of patients with the disease is underrepresented compared to the class of healthy patients. Decreasing the scale_pos_weight hyperparameter is not a suitable solution. The scale_pos_weight hyperparameter adjusts the weight that is given to the positive class (patients with the disease) during training. Decreasing this hyperparameter will give lower weight to the positive class. Then, correctly identifying instances of the minority class (patients with the disease) will be more difficult. This is the opposite of the requirement. The requirement is to improve the model's ability to accurately predict the minority class in an imbalanced dataset.
+
+Learn more about XGBoost hyperparameters.
+
+
+D
+Decrease the value of the max_depth hyperparameter.
+
+Incorrect. You can use the max_depth hyperparameter to control the complexity of the model. Decreasing the max_depth hyperparameter can help prevent overfitting. Decreasing the max_depth hyperparameter does not address the issue of the model's inability to correctly identify the positive class. The positive class is the minority class in the imbalanced dataset.
+
+Learn more about XGBoost hyperparameters.
+
+----
+
+Pregunta 29
+
+
+An ML engineer needs to create a training environment for thousands of training jobs. Each training job runs for a short duration of time and uses the same configuration, such as instance type. Each job needs to start running as soon as the previous job finishes running. On some days, no training jobs run.
+
+Which solution will meet these requirements MOST cost-effectively?
+
+Report Content Errors
+
+A
+Create an Amazon SageMaker HyperPod cluster. Queue the training jobs by using Slurm.
+
+Incorrect. SageMaker HyperPod clusters are designed for long-running, persistent environments. SageMaker HyperPod clusters can handle thousands of training jobs. However, SageMaker HyperPod clusters are not cost-effective when some training jobs do not run on some days. SageMaker HyperPod clusters would continue to incur costs even when idle.
+
+Learn more about SageMaker HyperPod.
+
+
+B
+Create an AWS Batch job that uses Amazon EC2 Spot Instances. Queue the training jobs by using FIFO scheduling.
+
+Incorrect. AWS Batch with EC2 Spot Instances can be cost-effective for running batch jobs. However, this solution does not ensure the immediate job starts that you need. Spot Instances can be interrupted. The interruptions could cause delays between job completions and new job starts. This solution does not meet the requirement that each job needs to start running as soon as the previous job finishes running.
+
+Learn more about AWS Batch.
+
+Learn more about EC2 Spot Instances best practices for AWS Batch.
+
+
+C
+Create an Amazon Elastic Kubernetes Service (Amazon EKS) cluster that uses AWS Fargate. Use Apache Airflow to queue the training jobs.
+
+Incorrect. Amazon EKS with Fargate can run containerized training jobs. However, this solution is not the most cost-effective for this scenario. An EKS cluster would continue to run and incur costs even on days when no training jobs run.
+
+Learn more about Amazon EKS and Fargate.
+
+
+D
+Create Amazon SageMaker AI training jobs. Set the keep_alive_period_in_seconds value for each job.
+
+Correct. This solution uses SageMaker AI managed warm pools. You can use SageMaker AI managed warm pools for quick sequential runs of the training jobs. This solution keeps the cluster warm between training jobs. This solution is serverless and therefore minimizes infrastructure costs. You pay only for the time the training job is active or the warm pool is waiting for the next job. Therefore, this solution is suitable for use cases with intermittent workloads. This solution starts each job as soon as the previous one finishes and is cost-effective on days with no training jobs.
+
+Learn more about SageMaker AI managed warm pools.
+
+----
+
+Pregunta 30
+
+A company needs to use retrieval augmented generation (RAG) to supplement an open source large language model (LLM) that runs on Amazon Bedrock. The company's data for RAG is a set of documents in an Amazon S3 bucket. The documents consist of .csv files and .docx files.
+
+Which solution will meet these requirements with the LEAST operational overhead?
+
+Report Content Errors
+
+A
+Create a pipeline in Amazon SageMaker Pipelines to generate a new model. Call the new model from Amazon Bedrock to perform RAG queries.
+
+Incorrect. SageMaker Pipelines is a workflow orchestration service that you can use to build, automate, and manage ML workflows. You can use SageMaker Pipelines to create and manage ML models. However, to implement RAG functionality within this framework would require additional customization and operational overhead.
+
+Learn more about SageMaker Pipelines.
+
+
+B
+Convert the data into vectors. Store the data in an Amazon Neptune database. Connect the database to Amazon Bedrock. Call the Amazon Bedrock API to perform RAG queries.
+
+Incorrect. Neptune is a fully managed graph database service. You can convert the data into vectors, store the data in Neptune, and then integrate the data by using Amazon Bedrock. This solution requires you to move data from Amazon S3 to Neptune. This solution involves several steps and requires additional operational overhead.
+
+Learn more about Neptune.
+
+
+C
+Fine-tune an existing LLM by using an AutoML job in Amazon SageMaker AI. Configure the S3 bucket as a data source for the AutoML job. Deploy the LLM to a SageMaker AI endpoint. Use the endpoint to perform RAG queries.
+
+Incorrect. An AutoML job is an automated process that you can use to build ML models with minimal operational effort and ML expertise. Fine-tuning an LLM by using AutoML in SageMaker AI focuses on modifying the model itself. RAG is designed to supplement an existing model with external knowledge during inference. This solution does not meet the requirement to enhance an existing LLM by using RAG. This solution requires additional operational overhead because you need to re-train the model whenever the document store changes.
+
+Learn more about AutoML jobs in SageMaker AI.
+
+
+D
+Create an Amazon Bedrock knowledge base. Configure a data source that references the S3 bucket. Use the Amazon Bedrock API to perform RAG queries.
+
+Correct. You can use Amazon Bedrock knowledge bases to search data to find the most useful information. You can create an Amazon Bedrock knowledge base and configure the knowledge base to use the S3 bucket as a data source. This method provides a fully managed RAG solution. This solution supplements the LLM with information from the .csv and .docx files in Amazon S3 without additional data movement or complex pipeline management. By using the Amazon Bedrock API to perform RAG queries, you can integrate the knowledge base with the existing LLM.
+
+Learn more about Amazon Bedrock knowledge bases.
+
+Learn more about supported document formats for knowledge base data.
+
+----
+
+Pregunta 31
+
+An ML engineer is using Amazon SageMaker AI to build and compare binary classification models for a company. The company needs a model that returns results with the fewest possible false positives.
+
+Which algorithm and primary model metric should the ML engineer use to select the model to meet these requirements?
+
+Report Content Errors
+
+A
+Use LightGBM as the algorithm. Use precision as the metric.
+
+Correct. LightGBM is a gradient boosting framework that you can use for binary classification tasks. Precision measures the proportion of true positive predictions among all positive predictions. Therefore, precision is the appropriate metric to minimize false positives.
+
+Learn more about LightGBM.
+
+Learn more about metrics.
+
+
+B
+Use CatBoost as the algorithm. Use recall as the metric.
+
+Incorrect. CatBoost is a supervised learning algorithm that you can use for binary classification. Recall focuses on minimizing false negatives. Therefore, recall is not the appropriate metric to minimize false positives.
+
+Learn more about CatBoost.
+
+C
+Use Random Cut Forest (RCF) as the algorithm. Use precision as the metric.
+
+Incorrect. RCF is an unsupervised algorithm that you can use for anomaly detection. Precision measures the proportion of true positive predictions among all positive predictions. However, RCF is not appropriate for binary classification problems.
+
+Learn more about RCF.
+
+
+D
+Use DeepAR forecasting as the algorithm. Use recall as the metric.
+
+Incorrect. DeepAR forecasting is a supervised learning algorithm that you can use for time series forecasting. DeepAR forecasting is not appropriate for classification problems. Recall focuses on minimizing false negatives. Therefore, recall is not the appropriate metric to minimize false positives.
+
+Learn more about DeepAR.
+
+----
+
+Pregunta 32
+
+A manufacturing company uses an ML model to determine whether products meet a standard for quality. The model produces an output of "Passed" or "Failed". Robots separate the products into the two categories by using the model to analyze photos on the assembly line.
+
+Which metrics should the company use to evaluate the model's performance? (Select TWO.)
+
+Report Content Errors
+
+A
+Precision and recall
+
+Correct. This problem is a binary classification task (pass/fail). Precision measures the proportion of products that are classified as "Passed" that actually meet the standard for quality. Recall measures the proportion of products with the label "Passed" that are correctly classified as "Passed". You can use these metrics to evaluate the performance of the model in identifying passed or failed products accurately.
+
+Learn more about precision and recall.
+
+
+B
+Root mean squared error (RMSE) and mean absolute percentage error (MAPE)
+
+Incorrect. RMSE and MAPE are metrics that you can use for regression problems. In regression problems, the goal is to predict a continuous numerical value. In this case, the problem is a binary classification task where the output is a categorical label ("Passed" or "Failed"). RMSE and MAPE are not suitable to evaluate the performance of classification models.
+
+Learn more about RMSE and MAPE.
+
+
+C
+Accuracy and F1 score
+
+Correct. This problem is a binary classification task (pass/fail). Accuracy and F1 score are appropriate metrics for this binary classification problem. Accuracy measures the overall proportion of products that are correctly classified as "Passed" or "Failed". The F1 score is the harmonic mean of precision and recall. The F1 score provides a single metric that balances both measures. These metrics are useful for evaluating the overall performance of the model in correctly classifying products.
+
+Learn more about F1 scores.
+
+Learn more about accuracy.
+
+
+D
+Bilingual Evaluation Understudy (BLEU) score
+
+Incorrect. The BLEU score is a metric that you can use in natural language processing (NLP) tasks. You can use the BLEU score to evaluate the quality of machine-translated text by comparing the text to human-translated reference texts. The BLEU score is not applicable to a binary classification task for product quality.
+
+Learn more about BLEU scores.
+
+
+E
+Perplexity
+
+Incorrect. Perplexity is a metric that you can use in language modeling tasks. Language modeling tasks include speech recognition or text generation. Perplexity measures how well a language model predicts a sample of text. This metric is not relevant for a binary classification task for product quality.
+
+Learn more about perplexity.
+
+----
+
+Pregunta 33
+
+A company has an ML model that uses historical transaction data to predict customer behavior. An ML engineer is optimizing the model in Amazon SageMaker AI to enhance the model's predictive accuracy. The ML engineer must examine the input data and the resulting predictions to identify trends that could skew the model's performance across different demographics.
+
+Which solution will provide this level of analysis?
+
+Report Content Errors
+
+A
+Use Amazon CloudWatch to monitor network metrics and CPU metrics for resource optimization during model training.
+
+Incorrect. CloudWatch is a monitoring and observability service for AWS resources and applications. CloudWatch can monitor network and CPU metrics for resource optimization during model training. However, CloudWatch does not provide the capability to examine input data and the resulting predictions to identify trends across different demographics. This solution does not meet the requirement to analyze the data and predictions for potential biases or skews in model performance.
+
+Learn more about CloudWatch.
+
+
+B
+Create AWS Glue DataBrew recipes to correct the data based on statistics from the model output.
+
+Incorrect. DataBrew is a visual data preparation tool that you can use to clean and normalize data. DataBrew does not have the capability to analyze model output or to identify trends that could skew model performance across demographics. DataBrew can help improve data quality. However, DataBrew cannot provide the level of analysis that you would need to examine the relationship between input data, predictions, and demographic trends.
+
+Learn more about DataBrew.
+
+
+C
+Use SageMaker Clarify to evaluate the model and training data for underlying patterns that might affect accuracy.
+
+Correct. You can use SageMaker Clarify to understand and explain how ML models make predictions. SageMaker Clarify provides tools to detect bias in training data and model predictions, evaluate feature importance, and generate model explainability reports. SageMaker Clarify can analyze the input data and resulting predictions to identify trends that could skew the model's performance across different demographics.
+
+Learn more about SageMaker Clarify.
+
+
+D
+Create AWS Lambda functions to automate data preprocessing and to ensure consistent quality of input data for the model.
+
+Incorrect. Lambda is a serverless compute service that you can use to automate data preprocessing tasks. Lambda functions can help ensure the consistent quality of input data for the model. However, Lambda functions do not provide built-in capabilities to analyze model predictions or to identify trends across demographics. This solution focuses on data preprocessing but does not address the requirement to examine the relationship between input data, predictions, and demographic trends.
+
+Learn more about Lambda.
+
+----
+
+Pregunta 34
+
+A company runs Amazon SageMaker AI ML models that use accelerated instances. The models require real-time responses. Each model has different scaling requirements. The company must not allow a cold start for the models.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Create a SageMaker Serverless Inference endpoint for each model. Use provisioned concurrency for the endpoints.
+
+Incorrect. SageMaker Serverless Inference is a feature that automatically provisions and scales compute resources for inference workloads based on incoming traffic. Serverless endpoints are suitable for workloads that have unpredictable traffic and that can tolerate cold starts. Serverless inference endpoints do not support accelerated instances. However, the scenario uses accelerated instances.
+
+Learn more about serverless inference.
+
+
+B
+Create a SageMaker Asynchronous Inference endpoint for each model. Create an auto scaling policy for each endpoint.
+
+Incorrect. SageMaker Asynchronous Inference is a feature that you can use to run batch inference workloads asynchronously. Asynchronous inference endpoints are designed for workloads where you do not need immediate responses. However, the models for the scenario require real-time responses. Therefore, this solution does not meet the requirements.
+
+Learn more about asynchronous inference.
+
+
+C
+Create a SageMaker AI endpoint. Create an inference component for each model. In the inference component settings, specify the newly created endpoint. Create an auto scaling policy for each inference component. Set the parameter for the minimum number of copies to at least 1.
+
+Correct. SageMaker AI inference components are a feature that you can use to configure and manage individual models within a SageMaker AI endpoint. You can use accelerated instances when you create a SageMaker AI endpoint with inference components for each model. The auto scaling policy for each inference component accommodates different scaling requirements for each model. You can set the minimum number of copies to at least 1 to ensure that at least 1 instance is always running. This solution avoids cold starts and meets the real-time response requirement.
+
+Learn more about how to deploy models for real-time inference.
+
+
+D
+Create an Amazon S3 bucket. Store all the model artifacts in the S3 bucket. Create a SageMaker AI multi-model endpoint. Point the endpoint to the S3 bucket. Create an auto scaling policy for the endpoint. Set the parameter for the minimum number of copies to at least 1.
+
+Incorrect. SageMaker AI multi-model endpoints are a feature that you can use to host multiple models on a single endpoint. Multi-model endpoints do not provide a mechanism to avoid cold starts for individual models. With multi-model endpoints, you cannot set scaling policies at the individual model level. You can only set scaling policies at the instance level.
+
+Learn more about SageMaker AI multi-model endpoints.
+
+----
+
+Pregunta 35
+
+A company needs to host a custom ML model to perform forecast analysis. The forecast analysis will occur with predictable and sustained load during the same 2-hour period every day. Multiple invocations during the analysis period will require quick responses. The company needs AWS to manage the underlying infrastructure and any auto scaling activities.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Schedule an Amazon SageMaker batch transform job by using AWS Lambda.
+
+Incorrect. Batch transform is designed for asynchronous inference on large datasets. You would not use batch transform for quick-response requirements. Batch transform jobs are more suitable for use cases where real-time predictions are not required.
+
+Learn more about batch transform.
+
+
+B
+Configure an Auto Scaling group of Amazon EC2 instances to use scheduled scaling.
+
+Incorrect. You can use EC2 Auto Scaling with scheduled scaling to automatically increase or decrease EC2 instance capacity based on a specified schedule. This solution requires you to manage the EC2 instances. Therefore, this solution does not meet the requirement for AWS to manage the underlying infrastructure and auto scaling activities.
+
+Learn more about scheduled scaling.
+
+
+C
+Use Amazon SageMaker Serverless Inference with provisioned concurrency.
+
+Correct. Serverless inference is an inference option that automatically provisions, scales, and manages compute capacity to run your ML model. You can configure serverless inference with provisioned concurrency. This solution provides low-latency responses for predictable workloads by keeping the model warm and ready to serve requests.
+
+Learn more about serverless inference.
+
+
+D
+Run the model on an Amazon Elastic Kubernetes Service (Amazon EKS) cluster on Amazon EC2 with pod auto scaling.
+
+Incorrect. You can use Amazon EKS to run Kubernetes clusters. You can run an Amazon EKS cluster on Amazon EC2. However, this solution requires you to manage the underlying infrastructure and auto scaling configurations.
+
+Learn more about Amazon EKS.
+
+----
+
+Pregunta 36
+
+A company has an ML model that needs to run one time each night to predict stock values. The model input is 3 MB of data that is collected during the current day. The model produces the predictions for the next day. The prediction process takes less than 1 minute to finish running.
+
+Which Amazon SageMaker AI deployment option will meet these requirements MOST cost-effectively?
+
+Report Content Errors
+
+A
+Use a multi-model serverless endpoint. Enable caching.
+
+Incorrect. You can use multi-model endpoints to deploy multiple models in one endpoint. In this scenario, there is only one model. Therefore, using a multi-model endpoint is not cost-effective. Additionally, caching would not provide additional benefits for once-daily predictions.
+
+Learn more about multi-modal endpoints.
+
+
+B
+Use an asynchronous inference endpoint. Set the InitialInstanceCount parameter to 0.
+
+Incorrect. You can use asynchronous endpoints to queue incoming requests and process the requests asynchronously. You can use the InitialInstanceCount parameter to set the number of instances to launch. Asynchronous endpoints are suitable for long-running predictions. However, asynchronous endpoints are not suitable for a use case where predictions take less than 1 minute. For this scenario, asynchronous endpoints are not the most cost-effective option. Additionally, the InitialInstanceCount parameter requires a minimum of 1.
+
+Learn more about asynchronous inference.
+
+Learn more about the InitialInstanceCount parameter.
+
+
+C
+Use a real-time endpoint. Configure an auto scaling policy to scale the model to 0 when the model is not in use.
+
+Incorrect. Real-time endpoints are suitable for use cases that require real-time low-latency inference. Real-time endpoints with auto scaling enabled cannot scale to zero instances.
+
+Learn more about real-time inference.
+
+Learn more about auto scaling policies.
+
+
+D
+Use a serverless inference endpoint. Set the MaxConcurrency parameter to 1.
+
+Correct. You can use serverless inference to deploy and scale ML models without the need to configure or manage the underlying infrastructure. With serverless inference, you pay for only the compute time that you use during inference. Serverless inference automatically scales to zero when not in use. The MaxConcurrency parameter specifies the maximum number of concurrent requests that the endpoint can process. Setting the MaxConcurrency parameter to 1 would make the endpoint process one request at a time. The model is invoked only one time each day and takes less than 1 minute to run. Therefore, a MaxConcurrency parameter of 1 is sufficient.
+
+Learn more about serverless inference.
+
+Learn more about MaxConcurrency.
+
+----
+
+Pregunta 37
+
+A company plans to deploy an ML model for production inference on an Amazon SageMaker AI endpoint. The average inference payload size will vary from 100 MB to 300 MB. Inference requests must be processed in 60 minutes or less, and the endpoint must remain persistent.
+
+Which SageMaker AI inference option will meet these requirements?
+
+Report Content Errors
+
+A
+Serverless inference
+
+Incorrect. Serverless inference is a fully managed option to deploy ML models without the need to provision or manage infrastructure. Serverless inference has a 60-second timeout. The maximum request payload for serverless inference endpoints is 4 MB. Therefore, this solution does not meet the 100 MB to 300 MB payload size requirement.
+
+Learn more about serverless inference.
+
+
+B
+Asynchronous inference
+
+Correct. Asynchronous inference supports payloads up to 1 GB. Therefore, this solution can accommodate the 100 MB to 300 MB payload size requirement. Asynchronous inference also supports long-running processes of up to 1 hour. Therefore, this solution meets the 60-minute processing time requirement. Asynchronous inference is suitable when you do not need immediate responses and you need to handle larger payloads with longer processing times.
+
+Learn more about asynchronous inference.
+
+
+C
+Real-time inference
+
+Incorrect. Real-time inference is designed for workloads that require high throughput and low latency. Real-time inference has a 60-second timeout. The maximum request payload for real-time inference endpoints is 6 MB. Therefore, this solution does not meet the 100 MB to 300 MB payload size requirement.
+
+Learn more about real-time inference.
+
+
+D
+Batch transform
+
+Incorrect. You can use batch transform when you need to run inference on large datasets and do not need a persistent endpoint. A batch transform job could process the data. However, batch transform does not meet the requirement to provide a persistent endpoint.
+
+Learn more about batch transform.
+
+----
+
+Pregunta 38
+
+A company that has hundreds of data scientists is using Amazon SageMaker AI to create ML models. The models are in model groups in the SageMaker Model Registry.
+
+The data scientists are grouped into three categories: computer vision, natural language processing (NLP), and speech recognition. An ML engineer needs to implement a solution to organize the existing models into these categories to improve model discoverability at scale. The solution must not affect the integrity of the model artifacts and their existing groupings.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Create a custom tag for each of the three categories. Add the tags to the model packages in the SageMaker Model Registry.
+
+Incorrect. You would typically use tags for resource management and cost allocation. You can use tags to add metadata to models. However, model packages in the SageMaker Model Registry do not support tags.
+
+Learn more about SageMaker Model Registry.
+
+
+B
+Create a model group for each category. Move the existing models into these category model groups.
+
+Incorrect. You can use model groups to group related model versions together. Each model group corresponds to a trained model that stores all the successive versions of the model under one model group. You can create new model groups and move the existing models. However, this solution would disrupt the current organizational structure. This solution would affect the integrity of existing groupings. Therefore, this solution does not meet the requirements.
+
+Learn more about model groups.
+
+
+C
+Use SageMaker ML Lineage Tracking to automatically identify and tag which model groups should contain the models.
+
+Incorrect. You can use SageMaker ML Lineage Tracking to track relationships and dependencies between ML artifacts. You cannot use SageMaker ML Lineage Tracking to categorize models. You cannot use SageMaker ML Lineage Tracking to create a hierarchy between models or to help with discoverability.
+
+Learn more about SageMaker ML Lineage Tracking.
+
+
+D
+Create a SageMaker Model Registry collection for each of the three categories. Move the existing model groups into the collections.
+
+Correct. SageMaker Model Registry collections are specifically designed to organize model groups into logical categories without affecting their existing structure. Collections will preserve the existing model group relationships. Additionally, collections can improve model discoverability at scale.
+
+Learn more about collections.
+
+----
+
+Pregunta 39
+
+A company has a medical image diagnostics application that analyzes images that are up to 1 MB in size. Hospitals use REST API calls to AWS to transmit images to CPU-based inference models that are hosted on Amazon SageMaker AI.
+
+The models take less than 1 minute to process each image. The models must respond with interpretations for the images in real time. The traffic volume to the models is unpredictable during working hours and is almost nonexistent after working hours.
+
+Which deployment solution will meet these requirements MOST cost-effectively?
+
+Report Content Errors
+
+A
+Set up SageMaker AI batch transform to preprocess the images. Perform inference at the end of each day.
+
+Incorrect. SageMaker AI batch transform is designed for offline processing of large datasets. Batch transform typically occurs at the end of a day or other scheduled intervals. SageMaker AI batch transform is not suitable for real-time inference requirements.
+
+Learn more about batch transform.
+
+
+B
+Set up SageMaker Asynchronous Inference. Queue the inference requests and respond within 1 hour.
+
+Incorrect. SageMaker Asynchronous Inference is designed to handle unpredictable traffic volumes by queuing requests. With asynchronous inference, the response time is up to 1 hour. Asynchronous inference does not meet the real-time requirement.
+
+Learn more about asynchronous inference.
+
+
+C
+Set up SageMaker Serverless Inference. Scale the underlying infrastructure based on workload requests.
+
+Correct. SageMaker Serverless Inference provides real-time inference. Therefore, this solution meets the requirement for immediate responses to REST API calls. The serverless architecture automatically scales based on workload. Therefore, serverless inference can handle the unpredictable traffic during working hours efficiently. Serverless Inference is cost-effective because you pay for only the compute time that you use to process requests. Therefore, this solution is suitable for the scenario where traffic is almost nonexistent after working hours. Serverless inference is suitable for the 1 MB image size because serverless inference is optimized for payloads under 4 MB.
+
+Learn more about model deployment options in SageMaker AI.
+
+Learn more about serverless inference.
+
+
+D
+Host the models in a Docker container. Use SageMaker AI to perform real-time inference.
+
+Incorrect. A solution that hosts models in a Docker container by using SageMaker AI for real-time inference can meet the requirement for real-time responses. However, this solution is not the most cost-effective. This solution would require you to run the container continuously, even during periods of low or no traffic such as after working hours and on weekends. Serverless inference can scale down to nothing when there is no traffic. A continuously running container would incur costs even when idle.
+
+Learn more about real-time inference.
+
+----
+
+Pregunta 40
+
+A company has trained an ML model in Amazon SageMaker AI. The company needs to host the model to provide inferences in a production environment.
+
+The model must be highly available and must respond with minimum latency. The size of each request will be between 1 KB and 3 MB. The model will receive unpredictable bursts of requests during the day. The inferences must adapt proportionally to the changes in demand.
+
+How should the company deploy the model into production to meet these requirements?
+
+Report Content Errors
+
+A
+Create a SageMaker AI real-time inference endpoint. Configure auto scaling. Configure the endpoint to present the existing model.
+
+Correct. Real-time endpoints with auto scaling provide hosting capabilities for ML models in production. Additionally, real-time endpoints with auto scaling provide low-latency responses for real-time inference requests. Real-time inference can efficiently handle request sizes between 1 KB and 3 MB. Auto scaling ensures that the endpoint adapts to unpredictable bursts of traffic during the day by adjusting capacity based on demand. This solution provides built-in integration with SageMaker AI trained models. This solution provides an ML-optimized infrastructure.
+
+Learn more about real-time inference.
+
+Learn more about auto scaling.
+
+
+B
+Deploy the model on an Amazon Elastic Container Service (Amazon ECS) cluster. Use ECS scheduled scaling that is based on the CPU of the ECS cluster.
+
+Incorrect. Amazon ECS can host ML models. You can use scheduled scaling to follow increased demand if there is a known pattern. In the scenario, there are sudden bursts of demand. Scheduled scaling would not be able to meet the low-latency requirement for unpredictable bursts of requests. Therefore, this solution does not meet the requirements.
+
+Learn more about scheduled scaling.
+
+
+C
+Install SageMaker AI Operators on an Amazon Elastic Kubernetes Service (Amazon EKS) cluster. Deploy the model in Amazon EKS. Set the Horizontal Pod Autoscaler to scale replicas based on the memory metric.
+
+Incorrect. You can use SageMaker AI Operators for Kubernetes to train, tune, and deploy ML models in SageMaker AI. You can run the model on Amazon EKS. However, setting the Horizontal Pod Autoscaler to scale based on the memory metric would not meet the requirements. The data size for each request could vary. Therefore, memory-based scaling would not adapt proportionally to the demand. Memory-based scaling is not an appropriate indicator for ML inference workloads.
+
+Learn more about SageMaker AI Operators for Kubernetes.
+
+Learn more about Horizontal Pod Autoscaler.
+
+
+D
+Use Spot Instances with a Spot Fleet behind an Application Load Balancer (ALB) for inferences. Use the ALBRequestCountPerTarget metric as the metric for auto scaling.
+
+Incorrect. Spot Instances provide instance capacity at a discounted rate. However, Spot Instances can be interrupted. The ALBRequestCountPerTarget metric would scale based on the amount of requests. Spot Instances can experience interruptions and inconsistent performance. Therefore, Spot Instances are not suitable for real-time inference. This solution does not ensure high availability or low latency.
+
+Learn more about Spot Fleet.
+
+Learn more about ALBRequestCountPerTarget metric.
+
+----
+
+Pregunta 41
+
+A company wants to deploy a new ML model to Amazon SageMaker AI. The company developed the model by using the JAX framework. The JAX framework must be immediately available in a SageMaker AI notebook to all notebook users.
+
+Which solution will add the model with the JAX framework to SageMaker AI?
+
+Report Content Errors
+
+A
+Create a custom Docker container that includes the JAX framework and associated libraries. Push the container image to Amazon Elastic Container Registry (Amazon ECR). Use the container image in SageMaker AI.
+
+Correct. Amazon ECR is a service that you can use to store Docker images that use repositories. You should create a custom Docker container with the JAX framework and associated libraries to add a custom framework to SageMaker AI. This solution meets the requirement to make JAX immediately available to all notebook users. You can push the container image to Amazon ECR and use the container image in SageMaker AI. This solution includes all necessary dependencies and ensures that the environment is consistent for all users.
+
+Learn more about how to use custom containers in SageMaker AI.
+
+Learn more about how to bring your own JAX environment to SageMaker AI.
+
+
+B
+Store the JAX framework and associated libraries in AWS CodeArtifact. Install the framework and libraries by using the SageMaker SDK.
+
+Incorrect. CodeArtifact is a fully managed artifact repository service. The SageMaker SDK cannot load custom frameworks from CodeArtifact. This solution would not meet the requirement to make JAX immediately available to all notebook users.
+
+Learn more about CodeArtifact.
+
+Learn more about SageMaker SDK.
+
+
+C
+Use a PyTorch SageMaker AI notebook. Install the JAX framework and associated libraries before using the model. Ensure that the correct runtime is selected.
+
+Incorrect. You can install the JAX framework in a PyTorch SageMaker AI notebook. However, this solution does not meet the requirement to make JAX immediately available to all notebook users. You would need to install the framework and associated libraries for each notebook instance before you use the model. This solution does not provide the immediate availability and consistency required.
+
+Learn more about SageMaker AI notebook instances.
+
+Learn more about how to use PyTorch with SageMaker AI.
+
+
+D
+Use the prebuilt PyTorch SageMaker AI Docker container with a requirements.txt file to download and install the JAX framework and associated libraries.
+
+Incorrect. This solution can install custom libraries. However, this solution does not support adding custom frameworks like JAX. Frameworks like JAX could require additional system-level dependencies. Therefore, this solution does not meet the requirement of immediate availability for all notebook users.
+
+Learn more about prebuilt SageMaker AI Docker containers.
+
+----
+
+Pregunta 42
+
+A company has deployed an ML model by using an Amazon SageMaker AI endpoint. The company needs to deploy the latest version of the model in several steps over several days.
+
+The company will start by exposing 10% of users to the new model. Each day, the company will increase user exposure to the new model by 10% until 100% of users are using the new model. If the new version encounters errors, the company needs the capability to roll back immediately to the previous version.
+
+Which deployment option will meet these requirements?
+
+Report Content Errors
+
+A
+Use a rolling deployment.
+
+Incorrect. Rolling deployments involve gradually releasing a new version by replacing instances one at a time or in batches. This method provides gradual exposure. However, this method does not provide full rollback capabilities.
+
+Learn more about rolling deployments.
+
+
+B
+Use a blue/green deployment with canary traffic shifting.
+
+Incorrect. A blue/green deployment with canary traffic shifting routes a small percentage of traffic to a new version to test the new version before fully deploying. This method does not provide the gradual 10% daily increase in user exposure.
+
+Learn more about blue/green deployment with canary traffic shifting.
+
+
+C
+Use a blue/green deployment with linear traffic shifting.
+
+Correct. You can use a blue/green deployment with linear traffic shifting to gradually shift traffic from an existing environment (blue) to a new environment (green) over time. This method meets the requirement of starting with 10% user exposure and increasing 10% each day until you reach 100%. Additionally, you can use this method to roll back to the previous environment (blue) if issues occur.
+
+Learn more about blue/green deployment with linear traffic shifting.
+
+
+D
+Use a blue/green deployment with all-at-once traffic shifting.
+
+Incorrect. Blue/green with all-at-once traffic shifting immediately routes all traffic to the new environment after testing. This method does provide the gradual 10% daily increase requirement.
+
+Learn more about blue/green deployment with all at once traffic shifting.
+
+----
+
+Pregunta 43
+
+A company uses Amazon SageMaker AI to develop an ML model. The company needs to receive a notification if a significant drift in model quality occurs.
+
+Which combination of actions will meet this requirement? (Select TWO.)
+
+Report Content Errors
+
+A
+Use SageMaker Model Monitor to collect model metrics.
+
+Correct. SageMaker Model Monitor is a tool that you can use to monitor the quality of ML models in production. You can use SageMaker Model Monitor to set up continuous monitoring for a real-time endpoint. Additionally, you can run on-schedule monitoring for irregularly run batch transform jobs.
+
+Learn more about SageMaker Model Monitor.
+
+
+B
+Use SageMaker Data Wrangler to periodically check model metrics for feature drift.
+
+Incorrect. You can use SageMaker Data Wrangler to import, prepare, and analyze data for ML tasks. You can use SageMaker Data Wrangler to streamline data preprocessing and feature engineering tasks with minimal coding. You cannot use SageMaker Data Wrangler for model monitoring or to monitor for feature drift.
+
+Learn more about SageMaker Data Wrangler.
+
+
+C
+Create an Amazon CloudWatch alarm that notifies an Amazon Simple Notification Service (Amazon SNS) topic when the model metrics exceed a threshold.
+
+Correct. CloudWatch is a monitoring service that you can use to monitor AWS resources and applications. You can use CloudWatch metrics to create an alarm when a specific metric exceeds a threshold that you specify. For every state that a CloudWatch alarm can take, you can configure the alarm to send a message to an SNS topic.
+
+Learn more about how to monitor model quality metrics by using CloudWatch.
+
+Learn more about how to notify users of alarm changes in CloudWatch by using Amazon SNS.
+
+
+D
+Create a step in SageMaker Data Wrangler to send a notification when the model metrics exceed a threshold.
+
+Incorrect. You can use SageMaker Data Wrangler to import, prepare, and analyze data for ML tasks. You can use SageMaker Data Wrangler to streamline data preprocessing and feature engineering tasks with minimal coding. You cannot use SageMaker Data Wrangler for model monitoring or to send a notification based on metrics.
+
+Learn more about SageMaker Data Wrangler.
+
+
+E
+Collect Amazon CloudWatch logs in an Amazon S3 bucket. Monitor the model metrics.
+
+Incorrect. CloudWatch is a monitoring service that you can use to monitor AWS resources and applications. You can collect CloudWatch logs in an S3 bucket. However, this solution does not provide automatic notifications when there is a significant drift in model quality.
+
+Learn more about how to export log data to Amazon S3 from CloudWatch.
+
+----
+
+Pregunta 44
+
+A company wants to improve the performance of its ML model that is deployed in production. The company evaluates the performance of the model by getting feedback from customers.
+
+When the company deploys a new version of the model, only a small subset of customers should use the new version. After the company collects feedback and validates the model, the company needs to make the model available to more customers.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use Amazon SageMaker AI endpoints. Create two production model variants. Assign a smaller weight to the new model than to the existing model. Increase the new model's weight after validation occurs.
+
+Correct. You can use a SageMaker AI endpoint with two production model variants for A/B testing of ML models. By assigning a smaller weight to the new model, only a subset of customers will use the new model initially. This solution meets the requirement to expose the new model to a small group first. You can increase the weight after validation to make the new model available to more customers. This solution provides a direct comparison of model performance and the collection of customer feedback.
+
+Learn more about production variants.
+
+
+B
+Use Amazon SageMaker AI endpoints. Create two production model variants. Assign a larger weight to the new model than to the existing model. Decrease the new model's weight after validation occurs.
+
+Incorrect. You can use a SageMaker AI endpoint with two production model variants for A/B testing of ML models. However, assigning a larger weight to the new model does not meet the requirement to expose the new model to only a small subset of customers initially. This solution would immediately route more traffic to the new, unvalidated model. Therefore, this solution does not meet the gradual rollout and validation requirements.
+
+Learn more about production variants.
+
+
+C
+Use an Amazon SageMaker AI endpoint. Create a production variant and a shadow variant. Configure the new model as the shadow variant. Assign a smaller traffic sampling percentage to the new model than to the existing model. Increase the new model's traffic sampling percentage after validation occurs.
+
+Incorrect. A solution that uses a shadow variant in SageMaker AI does not meet the requirement to collect customer feedback on the new model. Shadow variants receive a copy of the incoming requests but do not return predictions to customers. By assigning a smaller weight to the new model, only a subset of customers will use the new model initially. This solution prevents the company from evaluating the new model's performance based on customer feedback.
+
+Learn more about shadow variants.
+
+
+D
+Use an Amazon SageMaker AI endpoint. Create a production variant and a shadow variant. Configure the new model as the shadow variant. Assign a larger traffic sampling percentage to the new model than to the existing model. Decrease the new model's traffic sampling percentage after validation occurs.
+
+Incorrect. A solution that uses a shadow variant in SageMaker AI does not meet the requirement to collect customer feedback on the new model. Shadow variants receive a copy of the incoming requests but do not return predictions to customers. Assigning a larger weight to the new model does not meet the requirement to expose the new model to only a small subset of customers initially. This solution prevents the company from evaluating the new model's performance based on customer feedback.
+
+Learn more about shadow variants.
+
+----
+
+Pregunta 45
+
+A company has a trained ML model. The company needs an inference option that is always available. The inference option also must provide low, consistent latency for predictable traffic patterns.
+
+Which type of inference will meet these requirements?
+
+Report Content Errors
+
+A
+Real-time inference
+
+Correct. Real-time inference is designed to provide low and consistent latency for predictable traffic patterns. Real-time inference ensures that the model is always available. Real-time inference is suitable for applications that require immediate responses.
+
+Learn more about real-time inference.
+
+Learn more about model deployment options.
+
+
+B
+Serverless inference
+
+Incorrect. Serverless inference is useful for synchronous workloads. Serverless inference is designed for unpredictable traffic patterns. In the scenario, you need an inference option for a predictable traffic pattern. Additionally, serverless inference does not provide consistent latency because of the potential for periodic cold starts.
+
+Learn more about serverless inference.
+
+
+C
+Asynchronous inference
+
+Incorrect. Asynchronous inference is designed for workloads that can tolerate latency. However, the requirement is for low, consistent latency. Asynchronous inference does not provide low, consistent latency.
+
+Learn more about asynchronous inference.
+
+
+D
+Batch inference
+
+Incorrect. You can implement batch inference by using Amazon SageMaker AI batch transform jobs. You can use batch inference to process large datasets for offline use cases. This option does not meet the company's requirement for an inference option that is always available and provides low, consistent latency.
+
+Learn more about batch transform.
+
+----
+
+Pregunta 46
+
+A company has deployed an image classification ML model. The company improves the existing model's accuracy.
+
+An ML engineer needs to validate the model upgrade in a production environment. The ML engineer must not change the existing production endpoint and must not expose end users to the upgraded model.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Deploy the upgraded model as a production variant. Join the production model and the production variant behind a unique endpoint.
+
+Incorrect. You can use a production variant to test multiple models or versions behind the same endpoint as the production model. However, this solution would expose end users to the upgraded model. The requirement is to avoid exposing end users to the upgraded model. Production variants receive a portion of the incoming requests. Therefore, this solution is not suitable to validate the model upgrade without user exposure.
+
+Learn more about production variants.
+
+
+B
+Deploy the upgraded model as a production variant. Split the production model and the production variant between two endpoints.
+
+Incorrect. You can deploy the upgraded model as a production variant and split the model and production variant between two endpoints. However, this solution does not meet the requirement of not changing the existing production endpoint. This solution would require you to create a new endpoint. Additionally, using a production variant would potentially expose end users to the upgraded model. Therefore, this solution does not meet the requirements.
+
+Learn more about Amazon SageMaker AI endpoints.
+
+
+C
+Deploy the upgraded model as a shadow variant. Join the production model and the shadow variant behind a unique endpoint.
+
+Correct. You can use a shadow variant to test a new model version without exposing end users to the responses. This solution does not change the existing production endpoint. You can use this solution to validate the model upgrade in the production environment without impacting end users. Shadow variants receive a copy of the incoming requests but do not return responses to the client.
+
+Learn more about the validation of models.
+
+Learn more about shadow variants.
+
+
+D
+Deploy the upgraded model as a shadow variant. Split the production model and the shadow variant between two endpoints.
+
+Incorrect. You can use a shadow variant to test a new model version without exposing end users to the responses. However, splitting the production model and shadow variant between two endpoints does not meet the requirement to avoid changing the existing production endpoint. Creating a separate endpoint for the shadow variant would unnecessarily complicate the setup. This solution does not meet the requirements.
+
+Learn more about shadow variants.
+
+----
+
+Pregunta 47
+
+A company's data scientists are using Amazon SageMaker Studio to train and implement new ML models. The company needs to allocate costs for each user. The company decides to create a report in AWS Cost Explorer that details daily costs with a tag filter.
+
+How should the company configure the report to provide the required information with the LEAST operational overhead?
+
+Report Content Errors
+
+A
+Activate the following cost allocation tag: sagemaker:<user-profile-arn>. Wait 24–48 hours for tags to show up in the cost allocation tag panel.
+
+Correct. SageMaker Studio has a built-in cost allocation feature that automatically tags all resources with the sagemaker:<user-profile-arn> tag after you activate the feature. The tag identifies the individual user who created each resource. After activation, the tag will be applied automatically to new resources. Therefore, this solution provides detailed cost tracking with no additional operational overhead. Within 24–48 hours of activation, the company can begin generating user-level cost reports in Cost Explorer. Therefore, this solution meets the requirement to allocate costs for each user with minimal operational overhead.
+
+Learn more about SageMaker Studio cost attribution.
+
+Learn more about cost allocation tags.
+
+
+B
+Activate the following cost allocation tag: sagemaker:<domain-arn>. Wait 1 month for tags to show up in the cost allocation tag panel.
+
+Incorrect. The sagemaker:<domain-arn> cost allocation tag is useful for domain-level cost tracking. However, the tag does not provide the user-level granularity that the company requires. The requirement is to allocate costs for each user. This tag cannot allocate costs for each user. Additionally, waiting a full month for the tags to appear in the cost allocation panel is unnecessarily long.
+
+Learn more about SageMaker Studio cost attribution.
+
+Learn more about cost allocation tags.
+
+
+C
+Create an AWS Lambda function that adds a new createdBy tag for each resource in SageMaker AI. Wait 24–48 hours for tags to show up in the cost allocation tag panel.
+
+Incorrect. You can use Lambda to add a createdBy tag for each SageMaker AI resource. However, this solution increases operational overhead to create and maintain a custom Lambda function solely for tagging.
+
+Learn more about Lambda.
+
+
+D
+Create an AWS Lambda function that adds a new createdBy tag for each resource in SageMaker AI. Wait 1 month for tags to show up in the cost allocation tag panel.
+
+Incorrect. You can use Lambda to add a createdBy tag. However, this solution increases operational overhead to create and maintain a custom Lambda function solely for tagging. Additionally, this solution delays cost visibility because AWS cost allocation tags take up to 24 hours to appear in billing reports and up to a month for complete cost data.
+
+Learn more about Lambda.
+
+----
+
+Pregunta 48
+
+A company is using an AWS Lambda function to monitor the metrics from an ML model. An ML engineer needs to implement a solution to send an email message when the metrics breach a threshold.
+
+Which solution will meet this requirement?
+
+Report Content Errors
+
+A
+Log the metrics from the Lambda function to AWS CloudTrail. Configure a CloudTrail trail to send the email message.
+
+Incorrect. You can use CloudTrail to log API activity and user actions. Lambda can directly log metrics to CloudTrail. However, CloudTrail is not designed to store application metrics. Additionally, CloudTrail cannot provide the event history for application logs.
+
+Learn more about CloudTrail.
+
+Learn more about CloudTrail trails.
+
+
+B
+Log the metrics from the Lambda function to Amazon CloudFront. Configure an Amazon CloudWatch alarm to send the email message.
+
+Incorrect. CloudFront is a content delivery service that you can use to speed up the distribution of static and dynamic content. CloudFront is not a metrics storage or monitoring service. You cannot use CloudFront to send email messages based on an alarm.
+
+Learn more about CloudFront.
+
+
+C
+Log the metrics from the Lambda function to Amazon CloudWatch. Configure a CloudWatch alarm to send the email message.
+
+Correct. CloudWatch is a monitoring and observability service that monitors AWS resources and applications. CloudWatch provides data and actionable insights to monitor applications, to respond to system-wide performance changes, and to optimize resource utilization. Additionally, CloudWatch can provide a unified view of operational health. You can use CloudWatch to collect metrics, to set alarms, and to invoke automated actions such as sending email notifications. Lambda can write to CloudWatch. CloudWatch alarms can alert and send emails when a metrics threshold is breached.
+
+Learn more about CloudWatch.
+
+Learn more about CloudWatch alarms.
+
+
+D
+Log the metrics from the Lambda function to Amazon CloudWatch. Configure an Amazon CloudFront rule to send the email message.
+
+Incorrect. CloudWatch is a monitoring and observability service that monitors AWS resources and applications. CloudFront is a content delivery service that you can use to speed up the distribution of static and dynamic content. You can use a Lambda function to log metrics to CloudWatch. However, you cannot use CloudFront to send email messages based on an alarm.
+
+Learn more about CloudWatch.
+
+Learn more about CloudFront.
+
+----
+
+Pregunta 49
+
+A company runs training jobs on Amazon SageMaker AI by using a compute optimized instance. Demand for training runs will remain constant for the next 55 weeks. The instance needs to run for 35 hours each week. The company needs to reduce its model training costs.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use a serverless endpoint with a provisioned concurrency of 35 hours for each week. Run the training on the endpoint.
+
+Incorrect. Serverless inference automatically provisions and scales compute capacity for model deployment. You can use provisioned concurrency to pre-provision endpoints to prevent cold starts. However, serverless inference is not suitable to run training jobs.
+
+Learn more about serverless endpoints with provisioned concurrency.
+
+
+B
+Use a SageMaker training plan to reserve the compute optimized instance for training. Specify the instance type. Run the training.
+
+Incorrect. SageMaker Training Plan is a capability that helps streamline the use of GPU capacity. A training plan helps provide efficient processing for demanding ML workloads. A training plan supports GPU instances. However, a training plan does not support compute optimized (C-type) instances.
+
+Learn more about SageMaker Training Plan.
+
+Learn more about compute optimized instances.
+
+
+C
+Use the heterogeneous cluster feature of SageMaker Training. Configure the instance_type, instance_count, and instance_groups arguments to run training jobs.
+
+Incorrect. You can use heterogeneous clusters to run a training job with multiple ML instances. This solution can be useful to optimize resource utilization in certain use cases. However, this solution does not meet the cost-saving requirement for a consistent, long-term usage pattern. Heterogeneous clusters provide flexibility in instance types. Heterogeneous clusters are not suitable to provide cost savings for the predictable workload in the scenario.
+
+Learn more about heterogeneous clusters.
+
+
+D
+Opt in to a SageMaker AI Savings Plan with a 1-year term and an All Upfront payment. Run a SageMaker Training job on the instance.
+
+Correct. SageMaker AI Savings Plans provide a flexible pricing model with savings on SageMaker AI usage. With Savings Plans, you must commit to a consistent amount of usage for a 1-year or 3-year term. In this scenario, the company has a consistent, predictable usage pattern of 35 hours each week for 55 weeks. You can opt for a Savings Plan with a 1-year term and an All Upfront payment to receive a discount on SageMaker AI training costs.
+
+Learn more about model training by using SageMaker AI.
+
+Learn more about Savings Plans.
+
+----
+
+Pregunta 50
+
+A company needs to run a batch data-processing job on Amazon EC2 instances. The job will run during the weekend and will take 90 minutes to finish running. The processing can handle interruptions. The company will run the job every weekend for the next 6 months.
+
+Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?
+
+Report Content Errors
+
+A
+Spot Instances
+
+Correct. Spot Instances are a purchasing option that provides available EC2 instance capacity at a discounted price. Spot Instances are suitable for workloads that can handle interruptions. The job takes only 90 minutes and can handle interruptions. Therefore, Spot Instances are the most cost-effective option.
+
+Learn more about Spot Instances.
+
+
+B
+Reserved Instances
+
+Incorrect. Reserved Instances are a purchasing option that provides a discounted rate for EC2 instance usage for a 1-year or 3-year commitment. This option might be more cost-effective than On-Demand pricing. However, this option requires an upfront commitment of at least 1 year. The job will run for only 90 minutes every weekend for 6 months. Therefore, this option is not the most cost-effective.
+
+Learn more about Reserved Instances.
+
+
+C
+On-Demand Instances
+
+Incorrect. On-Demand Instances are a purchasing option where you pay for compute capacity by the second. There is no commitment for On-Demand Instances. However, this option is less cost-effective than Spot Instances because the workload can handle interruptions.
+
+Learn more about On-Demand Instances.
+
+
+D
+Dedicated Instances
+
+Incorrect. Dedicated Instances are a purchasing option where you can run EC2 instances on hardware that is dedicated to one AWS account. The scenario does not require the workload to run on an instance that is physically isolated from other instances at the host hardware level. Therefore, this option is not the most cost-effective for this scenario.
+
+Learn more about Dedicated Instances.
+
+----
+
+Pregunta 51
+
+A company uses AWS provided libraries during Amazon SageMaker AI training jobs. The SageMaker AI domain is configured to use public subnets. The company does not want SageMaker AI to collect metadata about the use of the AWS provided libraries.
+
+What should the company do to prevent SageMaker AI from collecting the metadata?
+
+Report Content Errors
+
+A
+Set the OPT_OUT_TRACKING environment variable to 1 in the SageMaker AI CreateTrainingJob API.
+
+Correct. You can set the OPT_OUT_TRACKING environment variable to 1 in the SageMaker AI CreateTrainingJob API to prevent SageMaker AI from collecting metadata about the use of AWS provided libraries. This directly addresses the company's requirement to avoid collecting metadata during training jobs. You can use this environment variable to opt out of SageMaker AI metadata collection for AWS provided libraries.
+
+Learn more about data privacy in SageMaker AI.
+
+
+B
+Set the subnet used by SageMaker AI to be private by using the VpcConfig option in the CreateTrainingJob API.
+
+Incorrect. You can set the subnet that is used by SageMaker AI to be private by using the VpcConfig option in the CreateTrainingJob API. However, this solution does not prevent metadata collection. This solution changes the network configuration. This solution does not address the requirement to prevent metadata collection about AWS provided libraries. The VpcConfig option can isolate SageMaker AI training jobs from the internet for network isolation and security purposes. However, the VpcConfig option has no direct impact on SageMaker AI metadata collection practices.
+
+Learn more about VpcConfig.
+
+
+C
+Set the OPT_OUT_TRACKING environment variable to 0 in the SageMaker AI CreateTrainingJob API.
+
+Incorrect. You can set the OPT_OUT_TRACKING environment variable to 0 in the SageMaker AI CreateTrainingJob API. However, this solution will not prevent metadata collection. This setting would explicitly allow metadata collection. Therefore, this solution is the opposite of what the company wants. To opt out of tracking, the variable should be set to 1, not 0.
+
+Learn more about data privacy in SageMaker AI.
+
+
+D
+Disable the use of a VPC from SageMaker AI by using the VpcConfig option in the CreateTrainingJob API.
+
+Incorrect. You can disable the use of a VPC from SageMaker AI by using the VpcConfig option in the CreateTrainingJob API. However, this solution does not prevent metadata collection. This solution changes the network configuration but does not address the requirement to prevent metadata collection about AWS provided libraries. VPC configuration is unrelated to SageMaker AI metadata collection practices for AWS provided libraries that are used in training jobs.
+
+Learn more about VpcConfig.
+
+----
+
+Pregunta 52
+
+A company uses Amazon SageMaker AI for its ML process. A compliance audit discovers that an Amazon S3 bucket for training data uses server-side encryption with S3 managed keys (SSE-S3).
+
+The company requires customer managed keys. An ML engineer changes the S3 bucket to use server-side encryption with AWS KMS keys (SSE-KMS). The ML engineer makes no other configuration changes.
+
+After the change to the encryption settings, SageMaker AI training jobs start to fail with AccessDenied errors.
+
+What should the ML engineer do to resolve this problem?
+
+Report Content Errors
+
+A
+Update the IAM policy that is attached to the execution role for the training jobs. Include the s3:ListBucket and s3:GetObject permissions.
+
+Incorrect. The s3:ListBucket permission provides access to list objects from S3 buckets. The s3:GetObject permission provides access to get objects from S3 buckets. However, the AccessDenied errors are specifically related to the new SSE-KMS encryption method. The AccessDenied errors are not related to S3 access permissions.
+
+Learn more about S3 bucket permissions.
+
+
+B
+Update the S3 bucket policy that is attached to the S3 bucket. Set the value of the aws:SecureTransport condition key to True.
+
+Incorrect. The aws:SecureTransport condition in S3 bucket policies enforces encryption in transit. The AccessDenied errors are caused by using SSE-KMS. SSE-KMS provides encryption at rest.
+
+Learn more about S3 bucket policy examples.
+
+
+C
+Update the IAM policy that is attached to the execution role for the training jobs. Include the kms:Encrypt and kms:Decrypt permissions.
+
+Correct. When you use SSE-KMS, the IAM execution role for SageMaker AI training jobs needs kms:Encrypt and kms:Decrypt permissions to access the AWS KMS encrypted S3 data. Adding these permissions will allow SageMaker AI to read and write the encrypted training data.
+
+Learn more about AWS KMS permissions.
+
+
+D
+Update the IAM policy that is attached to the user that created the training jobs. Include the kms:CreateGrant permission.
+
+Incorrect. SageMaker AI training jobs run by using the permissions of the specified IAM execution role, not the permissions of the individual user. Adding the kms:CreateGrant permission to the user's IAM policy would not grant the necessary permissions for the execution role to access the AWS KMS encrypted S3 bucket during training.
+
+Learn more about SageMaker AI execution roles.
+
+----
+
+Pregunta 53
+
+A company is using Amazon SageMaker AI to develop ML models. All of the company's resources are in the us-east-1 AWS Region. The company stores sensitive training data in an Amazon S3 bucket. The model training must have network isolation from the internet.
+
+Which solution will meet this requirement?
+
+Report Content Errors
+
+A
+Run the SageMaker AI training jobs in private subnets. Create a NAT gateway. Route traffic for training through the NAT gateway.
+
+Incorrect. You can run SageMaker AI training jobs in private subnets to provide network isolation. However, using a NAT gateway allows outbound internet access. This solution does not meet the requirement for complete network isolation from the internet during model training.
+
+Learn more about NAT gateways.
+
+
+B
+Run the SageMaker AI training jobs in private subnets. Create an S3 interface endpoint. Use the VPC endpoint to access the training data.
+
+Correct. You can run SageMaker AI training jobs in private subnets and use an S3 interface endpoint. This solution ensures that all traffic between SageMaker AI and the S3 bucket remains within the AWS network. This solution avoids traversing the public internet. This solution provides network isolation from the internet during model training and allows access to the required S3 resources.
+
+Learn more about SageMaker AI VPC configuration.
+
+Learn more about S3 interface VPC endpoints.
+
+
+C
+Run the SageMaker AI training jobs in public subnets that have an attached security group. In the security group, use inbound rules to limit traffic from the internet. Encrypt SageMaker AI instance storage by using server-side encryption with AWS KMS keys (SSE-KMS).
+
+Incorrect. You can run SageMaker AI training jobs in public subnets with security group rules to limit inbound traffic from the internet. However, this solution does not provide complete network isolation as required. Public subnets have direct internet connectivity. Therefore, this solution does not meet the requirement for network isolation from the internet during model training. Additionally, encrypting instance storage with SSE-KMS addresses data protection at rest but does not contribute to network isolation.
+
+Learn more about public subnets.
+
+
+D
+Encrypt traffic to Amazon S3 by using a bucket policy that includes a value of True for the aws:SecureTransport condition key. Use default at-rest encryption for Amazon S3. Encrypt SageMaker AI instance storage by using server-side encryption with AWS KMS keys (SSE-KMS).
+
+Incorrect. This solution provides data encryption for Amazon S3 and SageMaker AI instance storage. However, this solution does not meet the requirement for network isolation from the internet during model training. Encrypting traffic to Amazon S3 and using at-rest encryption does not prevent internet connectivity for the training jobs.
+
+Learn more about S3 encryption.
+
+----
+
+Pregunta 54
+
+A company is working on an ML project that will include Amazon SageMaker AI notebook instances. An ML engineer must ensure that the SageMaker AI notebook instances do not allow root access.
+
+Which solution will prevent the deployment of notebook instances that allow root access?
+
+Report Content Errors
+
+A
+Use IAM condition keys to stop deployments of SageMaker AI notebook instances that allow root access.
+
+Correct. IAM condition keys are attributes that you can include in an IAM policy statement to define conditions to grant or deny permissions. You can use IAM condition keys to prevent the creation of SageMaker AI notebook instances that do not have the required security controls. Specifically, you can use the condition key sagemaker:RootAccess in an IAM policy to deny the creation of notebook instances with root access.
+
+Learn more about sagemaker:RootAccess.
+
+Learn more about condition keys for SageMaker AI.
+
+
+B
+Use AWS Key Management Service (AWS KMS) keys to stop deployments of SageMaker AI notebook instances that allow root access.
+
+Incorrect. You can use AWS KMS to create and manage cryptographic keys that can encrypt data. You can use KMS keys for the encryption or decryption of files. You cannot use KMS keys to stop resource deployments.
+
+Learn more about KMS keys.
+
+
+C
+Monitor resource creation by using Amazon EventBridge events. Create an AWS Lambda function that deletes all deployed SageMaker AI notebook instances that allow root access.
+
+Incorrect. You can use EventBridge events to detect changes in an environment and invoke actions. EventBridge can invoke a Lambda function based on an event. This solution would remove resources that do not meet the security requirements. Therefore, this solution is reactive, not preventative. This solution would still allow the creation of noncompliant resources. This solution would not prevent the instances from being created.
+
+Learn more about EventBridge events.
+
+
+D
+Monitor resource creation by using AWS CloudFormation events. Create an AWS Lambda function that deletes all deployed SageMaker AI notebook instances that allow root access.
+
+Incorrect. You can use CloudFormation to model and set up AWS resources. You can use CloudFormation to deploy resources by using a stack. CloudFormation events occur when a create, update, delete, or drift-detection operation is performed on a stack. Therefore, CloudFormation events are specific to CloudFormation stack operations. CloudFormation stacks would not capture SageMaker AI notebook instance creations unless the instances were part of a CloudFormation stack. Additionally, this solution would still allow the creation of noncompliant resources. This solution would not prevent the instances from being created.
+
+Learn more about CloudFormation.
+
+----
+
+Pregunta 55
+
+A company created an ML training job by using the Amazon SageMaker AI API. The company stores training data on Amazon S3. The company wants to replicate a subset of the data onto each ML compute instance that is launched for model training.
+
+Which solution will meet this requirement?
+
+Report Content Errors
+
+A
+Set the S3DataType field to ShardedByS3Key.
+
+Incorrect. You can use the S3DataType field to designate the S3 data source for SageMaker AI. The ShardedByS3Key is the most suitable key to use. However, the key is associated with the S3DataDistributionType field.
+
+
+B
+Set the S3Uri field to FullyReplicated.
+
+Incorrect. You can use the S3Uri field to specify the S3 data source for SageMaker AI, depending on the value that is set for the S3DataType field. FullyReplicated is a key associated with the S3DataDistributionType field. Setting the S3DataDistributionType field to FullyReplicated replicates the entire dataset on each ML compute instance that is launched for model training. However, the requirement is to replicate only a subset of data.
+
+
+C
+Set the S3DataDistributionType field to FullyReplicated.
+
+Incorrect. You can use the S3DataDistributionType field to designate how the dataset is replicated on each ML compute instance. Setting the S3DataDistributionType field to FullyReplicated replicates the entire dataset on each ML compute instance that is launched for model training. However, the requirement is to replicate only a subset of data.
+
+
+D
+Set the S3DataDistributionType field to ShardedByS3Key.
+
+Correct. You can use the S3DataDistributionType field to designate how the dataset is replicated on each ML compute instance. To replicate a subset of data on each ML compute instance that is launched for model training, you can set the S3DataDistributionType field to ShardedByS3Key.
+
+Learn more about the S3 data source.
+
+----
+
+Pregunta 56
+
+A company wants to migrate an ML application to the AWS Cloud. The application predicts employee turnover. The company wants to continue using its current code implementation that is based on Apache Spark.
+
+Which solution will meet these requirements with the LEAST operational overhead?
+
+Report Content Errors
+
+A
+Run the code in an Amazon EMR cluster.
+
+Incorrect. Amazon EMR is a managed big data platform that you can use to run distributed data processing jobs by using open source analytics frameworks on AWS. You can use Amazon EMR for data preparation workloads if you want maximum control over hardware and software versions, containers, and big data processing applications. In the scenario, the company wants to manage its infrastructure with the least operational overhead. Using Amazon EMR increases operational overhead because you need to deploy and manage an Amazon EMR cluster.
+
+Learn more about how to prepare data by using Amazon EMR.
+
+
+B
+Run the code in an AWS Glue interactive session.
+
+Correct. AWS Glue interactive sessions provide an on-demand, serverless Spark runtime environment. Because AWS Glue is serverless, you do not need to manage the underlying infrastructure. Therefore, this solution requires the least operational overhead.
+
+Learn more about how to prepare data by using AWS Glue interactive sessions.
+
+
+C
+Run the code in Amazon SageMaker Data Wrangler.
+
+Incorrect. SageMaker Data Wrangler is a low-code no-code (LCNC) solution to import and prepare data. However, SageMaker Data Wrangler does not manage Spark processing jobs. Therefore, you would need to convert the processing jobs. This solution requires additional operational overhead.
+
+Learn more about SageMaker Data Wrangler.
+
+
+D
+Run the code in an Amazon SageMaker Spark Processing job.
+
+Incorrect. You can use the PySparkProcessor to run a Spark application in a processing job. However, this solution requires you to select the number of instances and instance types. Therefore, this solution requires additional operational overhead to manage the instance types.
+
+Learn more about data processing by using Spark.
+
+----
+
+Pregunta 57
+
+A bank is preparing data to train an ML model on Amazon SageMaker AI. The ML model will be used for loan approvals. The bank notices that the historical loan data for training contains many types of biases. An ML engineer must identify the features that contain bias with minimal operational overhead.
+
+Select and order the correct steps from the following list to identify features that contain bias with the LEAST operational overhead. Each step should be selected one time or not at all. (Select and order THREE.)
+
+Download the report from the output location in Amazon S3.
+Create and run a bias report by using SageMaker Data Wrangler and specify the features that were identified.
+Perform an exploratory data analysis (EDA) by using SageMaker Data Wrangler to identify the features to analyze.
+Create and run a bias report on the dataset by using SageMaker Clarify.
+Use Amazon EMR HiveQL to query and prepare the data for analysis.
+Review the report by using SageMaker Data Wrangler.
+Step 1:
+
+ Perform an exploratory data analysis (EDA) by using SageMaker Data Wrangler to identify the features to analyze.
+Step 2:
+
+ Create and run a bias report by using SageMaker Data Wrangler and specify the features that were identified.
+Step 3:
+
+ Review the report by using SageMaker Data Wrangler.
+Report Content Errors
+SageMaker Data Wrangler can help you identify bias during data preparation without the need to write your own code. SageMaker Data Wrangler provides an end-to-end solution to import, prepare, transform, featurize, and analyze data by using SageMaker Studio.
+
+First, you should perform an EDA by using SageMaker Data Wrangler. Next, you should run a bias report by using SageMaker Data Wrangler. Finally, you can review the report in SageMaker Data Wrangler.
+
+A solution that uses Amazon EMR to prepare data would require you to operate the EMR cluster and create the HiveQL code. Therefore, to use Amazon EMR would require significantly more operational overhead.
+
+You can use SageMaker Clarify to detect bias. However, to use SageMaker Clarify would require significantly more operational overhead because the same SageMaker Clarify capabilities are built into SageMaker Data Wrangler. When you use SageMaker Clarify alone, you also need to specify an output S3 bucket for the report and retrieve the report from the bucket. When you use SageMaker Data Wrangler, you do not need to add this step because you can access the report directly from SageMaker Data Wrangler.
+
+Learn more about how to generate reports for bias in pre-training data by using SageMaker Data Wrangler.
+
+----
+
+Pregunta 58
+
+A data scientist wants to use generative AI to run natural language queries on thousands of legal documents and generate responses.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use the Amazon Kendra Retrieve API to search an Amazon Kendra index to return relevant text chunks. Pass relevant text chunks to a language model for generative responses.
+
+Correct. Amazon Kendra is a service that uses natural language processing (NLP) and semantic and contextual understanding for intelligent search. You can use the Retrieve API within Amazon Kendra to first retrieve the most relevant text chunks across documents. Then, the API will pass the text chunks to the language model to provide the best answer.
+
+Learn more about Amazon Kendra.
+
+Learn more about the Retrieve API for Amazon Kendra.
+
+Learn more about the Amazon Kendra index.
+
+
+B
+Use the Amazon Bedrock API to customize a foundation model (FM) for generative responses. Query the documents to return relevant text chunks.
+
+Incorrect. Amazon Bedrock is a service that provides high-performing FMs from both AWS and AI startups within a unified API. You can customize the FMs to a specific task by using the Amazon Bedrock API. However, this solution would require additional services. For example, you could use Amazon Kendra or packages to query and retrieve relevant text chunks from the FM. The Amazon Bedrock API cannot query the documents without a searchable document store such as an Amazon Kendra index.
+
+Learn more about Amazon Bedrock.
+
+Learn more about the Amazon Kendra index.
+
+
+C
+Use the Amazon Lex console to create an Amazon Lex bot to query the documents to return both relevant text chunks and generative responses.
+
+Incorrect. Amazon Lex is a service that you can use to build conversational interfaces for chatbots. You can use Amazon Lex to create, test, and deploy a chatbot application. You would not use Amazon Lex for intelligent document searches. Amazon Lex can query an Amazon Kendra index. However, you would need additional coding through an AWS Lambda function.
+
+Learn more about Amazon Lex.
+
+
+D
+Use Amazon Comprehend entity recognition to identify relevant text chunks. Pass relevant text chunks to a language model for generative responses.
+
+Incorrect. Amazon Comprehend is a service that uses natural language processing (NLP) and ML to perform specific tasks. For example, the tasks include entity recognition and sentiment analysis to extract results from text. However, Amazon Comprehend would not be the most suitable solution for intelligent document searches. You can use entity recognition to identify specified entities in documents. For example, entity recognition can identify product identifications. However, you would not use entity recognition to return relevant text chunks in documents.
+
+Learn more about Amazon Comprehend.
+
+----
+
+Pregunta 59
+
+
+An industrial company is exploring the use of generative AI to retrieve information from maintenance notes. The company currently uses a text-to-text foundation model (FM) on Amazon Bedrock. The company wants to optimize the model. The company wants to help the model better understand the terminology and abbreviations that maintenance technicians use.
+
+What is the MOST cost-effective solution to help the model understand the company's data?
+
+Report Content Errors
+
+A
+Replace the model with a new model that has more parameters.
+
+Incorrect. Scaling laws indicate that larger models tend to have better performance than smaller models. However, making a new model that is bigger does not solve the problems caused by using a general model in an industry-specific application.
+
+Learn more about model customization by using Amazon Bedrock.
+
+
+B
+Customize the model by using fine-tuning.
+
+Correct. Fine-tuning is the process of customizing a model to improve its performance in a particular task. You can use fine-tuning to improve a model's domain-specific knowledge within a particular industry by providing labeled examples of industry-specific terminology. This solution is the most cost-effective because the process will take less time than continued pre-training.
+
+Learn more about model customization by using Amazon Bedrock.
+
+Learn more about fine-tuning a model.
+
+
+C
+Create an Amazon Bedrock Knowledge Base.
+
+Incorrect. You can use an Amazon Bedrock Knowledge Base to create a retrieval augmented generation (RAG) technique. With knowledge bases, you can retrieve information from multiple data sources to help augment the generation of model responses. A knowledge base is suitable to access newer data that you did not use during the model training process. You would not use a knowledge base to customize a model to understand industry-specific terminology.
+
+Learn more about Amazon Bedrock Knowledge Bases.
+
+
+D
+Pre-train a new FM by using the Amazon SageMaker AI model parallelism library.
+
+Incorrect. Model parallelism in SageMaker AI is a distributed training method that can train large models that are distributed across multiple devices. The company could use model parallelism to pre-train a language model with data. However, this solution would likely require collection and curation of more data. This solution is not as cost-effective as fine-tuning an existing model.
+
+Learn more about model parallelism in SageMaker AI.
+
+----
+
+Pregunta 60
+
+A data scientist is building a translation model by using Amazon SageMaker AI seq2seq. The model will translate news articles into multiple languages. The data scientist has a dataset with historical news articles written in multiple languages. The data scientist developed two different models and wants to compare the effectiveness of the models.
+
+Which metric should the data scientist use to compare the models?
+
+Report Content Errors
+
+A
+F1 score
+
+Incorrect. You would not typically use F1 scores to evaluate machine translation models. You typically use F1 scores in binary classification tasks to balance precision. Precision is calculated by true positives divided by all positive predictions. You can also use F1 scores for recall. Recall is calculated by true positives divided by all actual positives.
+
+Learn more about F1 scores.
+
+
+B
+Root Mean Square Error (RMSE)
+
+Incorrect. You can use RMSE to evaluate regression models. You would not use RMSE to compare machine translation models.
+
+Learn more about RMSE.
+
+
+C
+Bilingual evaluation understudy (BLEU) score
+
+Correct. You can use BLEU scores to evaluate machine translation models. You can use this metric to assess the quality of translation by comparing the output of the model to the reference translation.
+
+Learn more about BLEU scores.
+
+
+D
+Recall
+
+Incorrect. Recall is a metric that you can use to evaluate classification models. Recall measures the proportion of actual positives that are correctly identified by the model. Recall does not assess the quality of translations.
+
+Learn more about recall.
+
+----
+
+Pregunta 61
+
+A company wants a cost-effective way to train an ML model from AWS Marketplace algorithms by using Amazon SageMaker AI. The model is trained once each month and takes several hours. Training time is not a concern for the company.
+
+What is the MOST cost-effective way to train the model?
+
+Report Content Errors
+
+A
+Use SageMaker AI managed spot training.
+
+Correct. You can use SageMaker AI to build, train, and deploy ML models. You can use managed EC2 Spot Instances to train the model. Managed spot training can optimize the cost of training models compared to On-Demand Instances. SageMaker AI can also manage spot interruptions for you.
+
+Learn more about managed spot training.
+
+
+B
+Use the Amazon EC2 On-Demand Instance type.
+
+Incorrect. On-Demand Instances provide capacity at a set price. You can use On-Demand Instance for training. However, the price is not discounted. Therefore, On-Demand Instances are not the most cost-effective.
+
+Learn more about On-Demand Instances.
+
+
+C
+Use a SageMaker AI Savings Plan.
+
+Incorrect. SageMaker AI Savings Plans provide a discount on SageMaker AI instances when you commit to a consistent amount of usage. SageMaker AI Savings Plans require a 1-year or 3-year contract. However, the training will take only a few hours to run each month. Therefore, a SageMaker AI Savings Plan is not the most cost-effective solution. You would pay for more SageMaker AI instance usage than necessary.
+
+Learn more about SageMaker AI Savings Plans.
+
+
+D
+Use an Amazon EC2 Instance Savings Plan.
+
+Incorrect. EC2 Instance Savings Plans can provide a discount when you commit to a 1-year or 3-year contract. However, the training will take only a few hours to run each month. An EC2 Instance Savings Plan is not the most cost-effective solution. You would pay for more instance usage than necessary.
+
+Learn more about EC2 Instance Savings Plans.
+
+----
+
+Pregunta 62
+
+An ecommerce company designed an ML recommendation system to suggest similar products to customers that visit a product page. The system was deployed by using an Amazon SageMaker AI endpoint. After the system deployment, traffic has increased sporadically throughout the day. An ML engineer must implement a solution that uses auto scaling policies to better handle the increasing traffic without compromising customer experience.
+
+Which solution will meet these requirements?
+
+Report Content Errors
+
+A
+Use a target tracking scaling policy based on a custom metric and a target value to scale instance count.
+
+Correct. A target tracking scaling policy targets a metric and automatically adds or removes instances based on the specified target value. You can use predefined metrics or custom metrics as a target. This solution ensures the system can handle the increasing traffic.
+
+Learn more about SageMaker AI scaling policies.
+
+Learn more about how to define a scaling policy.
+
+
+B
+Use a target tracking scaling policy to specify different instance types based on a predefined metric.
+
+Incorrect. A target tracking scaling policy cannot change the instance type to a different instance type with more resources. Auto scaling policies increase or decrease the number of instances based on demand.
+
+Learn more about how to define a scaling policy.
+
+
+C
+Use a schedule-based scaling policy to scale instance count at different times during the day.
+
+Incorrect. A schedule-based scaling policy would not be the most suitable because the traffic increase is sporadic throughout the day. A schedule-based policy would not dynamically scale the resources based on the actual workload. Therefore, this solution could potentially lead to underutilization or overload of the system.
+
+Learn more about auto scaling policies.
+
+
+D
+Use a step scaling policy to specify different instance types based on demand.
+
+Incorrect. A step scaling policy cannot specify different instance types. Step scaling can add or remove instances. You can use scaling to increase or decrease the number of instances based on alarm metrics. However, target tracking scaling policies are more suitable to scale based on metrics such as average CPU utilization.
+
+Learn more about step and simple scaling policies.
+
+Learn more about automatic scaling in SageMaker AI.
+
+----
+
+Pregunta 63
+
+A company deployed into production an ML model to use for image classification. The company developed a new version of the model with improved precision. The company wants to deploy the new model into production. The company must test the new model alongside the old model by using the same data. Precision cannot be compromised. Some downtime can be tolerated.
+
+Which deployment strategy will meet these requirements?
+
+Report Content Errors
+
+A
+Blue/green deployment
+
+Incorrect. Blue/green deployment provides two identical production environments. After testing finishes on the green environment, traffic is directed from the green environment to the blue environment. A blue/green deployment strategy does not test the new model alongside the old model by using the same data.
+
+Learn more about blue/green deployment.
+
+
+B
+Canary deployment
+
+Incorrect. Canary deployment would deploy the new model to a small group of users while other users continue to use the previous model. You can use canary deployment to test the new model alongside the old model. However, canary deployment does not perform inference on the same data. Additionally, this deployment strategy introduces risk because the system precision cannot be compromised.
+
+Learn more about canary deployment.
+
+
+C
+A/B testing
+
+Incorrect. An A/B testing strategy deploys changes to a model by directing a defined portion of traffic to the new model and directing the remaining traffic to the old model. This deployment strategy does not perform inference on the same data. Additionally, this strategy introduces risk because the system precision cannot be compromised.
+
+Learn more about A/B testing.
+
+
+D
+Shadow testing
+
+Correct. Shadow testing makes the new version of the model available alongside the old version. The input data runs through both versions. This strategy performs inference on the same data. This strategy ensures that the new model works as expected while minimizing risks.
+
+Learn more about ML deployment strategies.
+
+Learn more about shadow testing.
+
+----
+
+Pregunta 64
+
+A company deployed an ML model in Amazon SageMaker AI over 6 months ago. The model provides product recommendations. The model contributed to increased sales in the first quarter. In the most recent quarter, the number of customers purchasing the model's recommended products has been steadily declining.
+
+Which solution can help improve the model’s effectiveness?
+
+Report Content Errors
+
+A
+Re-train the model periodically with new and original data when a significant change in customer data is detected.
+
+Correct. For a model to effectively make accurate predictions, you must re-train the model when you detect drift. Re-training the model when you detect significant changes in customer data can help the model adapt to new patterns and trends in customer behavior. You should use both new and existing data. You should re-train with new data because the new data contains patterns that were not present in the original data. Additionally, you should re-train with existing data because you do not want to lose patterns that were present in the original data. This solution can mitigate the impact of model drift and improve the model's performance over time.
+
+Learn more about how to train models by using SageMaker AI.
+
+
+B
+Tune the hyperparameters periodically to reduce model drift.
+
+Incorrect. You can use hyperparameter tuning to increase your productivity by trying many variations of the model before deployment. Hyperparameter tuning has no impact on the model after deployment.
+
+Learn more about hyperparameter tuning.
+
+
+C
+Re-train the model periodically with only the original data. Apply regularization to improve prediction accuracy.
+
+Incorrect. The model is already showing a decline in its effectiveness. Therefore, re-training the model on only the original data will not have a positive impact on the model's effectiveness. This solution will lead to overfitting. Overfitting is when the model performs well on the original data but does not perform well on new data.
+
+Learn more about overfitting.
+
+
+D
+Train a new model with only new data. Use a different ML algorithm to handle model drift.
+
+Incorrect. To train a new model and use a different ML algorithm takes significant time and resources. This level of effort is unnecessary because the model performed well in the first quarter. Additionally, training a new model only on new data can lead to losing valuable information that is contained in the original data. As the model ages over time and is presented with new data, the more effective solution is to re-train the model with original and new data.
+
+Learn more about model drift.
+
+----
+
+Pregunta 65
+
+A financial services company is migrating its data science environment to an Amazon SageMaker Studio domain. The data necessary for exploratory analysis is already stored in an Amazon S3 bucket. All network traffic must stay in the company's private network. The company must configure the SageMaker Studio domain and networking environment.
+
+Which combination of steps will meet these requirements? (Select TWO.)
+
+Report Content Errors
+
+A
+Create the SageMaker Studio domain in VPC only mode.
+
+Correct. Creating a SageMaker Studio domain in VPC only mode prevents internet access to SageMaker Studio notebooks. In this case, SageMaker Studio communicates with other hosts and AWS services through a customer VPC and not through the internet. This step is necessary to ensure private connectivity.
+
+Learn more about how to connect SageMaker Studio notebooks to VPC resources.
+
+
+B
+Create the SageMaker Studio domain with the EnableNetworkIsolation parameter set to True.
+
+Incorrect. The EnableNetworkIsolation parameter prevents outbound communication in SageMaker AI training and inference containers. This parameter is not a valid configuration for SageMaker Studio.
+
+Learn more about SageMaker AI network isolation in training and inference containers.
+
+
+C
+Use a NAT gateway to run SageMaker Studio and to access the data in Amazon S3.
+
+Incorrect. A NAT gateway can provide network access to other hosts and AWS services for SageMaker Studio in VPC only mode. However, the network traffic does not stay private in the VPC. Instead, you can use a NAT gateway to provide internet access to SageMaker Studio notebooks.
+
+Learn more about how to connect SageMaker Studio notebooks to VPC resources.
+
+
+D
+Use interface VPC endpoints to run SageMaker Studio and to access the data in Amazon S3.
+
+Correct. Interface VPC endpoints allow SageMaker Studio to access other AWS services from a customer VPC without requiring internet access. You can use interface VPC endpoints to allow SageMaker Studio to access Amazon S3, the SageMaker runtime, and the SageMaker API.
+
+Learn more about how to connect SageMaker Studio notebooks to VPC resources.
+
+
+E
+Use a public subnet to run SageMaker Studio and to access the data in Amazon S3.
+
+Incorrect. In VPC only mode, you must use private subnets to deploy SageMaker Studio. You cannot use public subnets.
+
+Learn more about how to connect SageMaker Studio notebooks to VPC resources.

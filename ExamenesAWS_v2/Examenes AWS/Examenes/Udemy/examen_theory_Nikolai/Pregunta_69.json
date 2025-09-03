@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 69,
+      "question": "A team is collaborating on a deep learning project using Amazon SageMaker. They need an environment that allows them to spin up instances with GPUs and share their work easily across multiple users. Which option would be the most suitable for this scenario?",
+      "options": [
+        "Standalone SageMaker notebooks that allow each user to have independent instances.",
+        "SageMaker notebook instances with manually configured IAM roles for each user.",
+        "SageMaker Studio, where the team can create a shared domain and manage multiple notebooks.",
+        "Amazon EC2 instances running Jupyter notebooks for GPU support and sharing capabilities."
+      ],
+      "correct_answers": [
+        "SageMaker Studio, where the team can create a shared domain and manage multiple notebooks."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

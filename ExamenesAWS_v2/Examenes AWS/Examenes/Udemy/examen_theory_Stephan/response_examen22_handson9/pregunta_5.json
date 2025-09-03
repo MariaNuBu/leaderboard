@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "You are configuring a SageMaker notebook that requires access to a private S3 bucket and other AWS services in the same VPC. What is the best practice to ensure secure and efficient access?",
+      "options": [
+        "Use an internet gateway and public IP addresses.",
+        "Enable multi-factor authentication (MFA) for the notebook instance.",
+        "Assign a custom policy that allows unrestricted S3 access.",
+        "Use a VPC endpoint to access S3 and other services."
+      ],
+      "correct_answers": [
+        "Use a VPC endpoint to access S3 and other services."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

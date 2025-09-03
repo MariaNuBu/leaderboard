@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A data scientist is working on a project that involves training a natural language processing (NLP) model using Amazon SageMaker. Their training data is stored in an Amazon S3 bucket. They need to choose the appropriate data ingestion mode for optimal performance given the following information:\n- The training data consists of millions of text files.\n- The training algorithm needs to read the data sequentially.\n- The data scientist wants to minimize the startup time and data transfer overhead.\n\nWhich data ingestion mode should they choose?",
+      "options": [
+        "Pipe mode",
+        "File mode",
+        "Fast File mode",
+        "Download Free mode"
+      ],
+      "correct_answers": [
+        "Fast File mode"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/fast-file-mode.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "You are working as a data scientist at a financial services company tasked with developing a credit risk prediction model. After experimenting with several models, including logistic regression, decision trees, and support vector machines, you find that none of the models individually achieves the desired level of accuracy and robustness. Your goal is to improve overall model performance by combining these models in a way that leverages their strengths while minimizing their weaknesses.\n\nGiven the scenario, which of the following approaches is the MOST LIKELY to improve the model’s performance?",
+      "options": [
+        "Implement boosting by training sequentially different types of models - logistic regression, decision trees, and support vector machines - where each new model corrects the errors of the previous ones",
+        "Use a simple voting ensemble, where the final prediction is based on the majority vote from the logistic regression, decision tree, and support vector machine models",
+        "Use bagging, where different types of models - logistic regression, decision trees, and support vector machines - are trained on different subsets of the data, and their predictions are averaged to produce the final result",
+        "Apply stacking, where the predictions from logistic regression, decision trees, and support vector machines are used as inputs to a meta-model, such as a random forest, to make the final prediction"
+      ],
+      "correct_answers": [
+        "Apply stacking, where the predictions from logistic regression, decision trees, and support vector machines are used as inputs to a meta-model, such as a random forest, to make the final prediction"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/efficiently-train-tune-and-deploy-custom-ensembles-using-amazon-sagemaker/",
+        "https://aws.amazon.com/what-is/boosting/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

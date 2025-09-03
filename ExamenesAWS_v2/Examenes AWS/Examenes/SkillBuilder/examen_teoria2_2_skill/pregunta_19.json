@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A machine learning engineer is preparing to launch a training job on Amazon SageMaker using script mode. The training script is written in PyTorch and requires access to a large dataset stored in an Amazon S3 bucket. The training script will run on multiple GPU instances. What best describes the expected architecture during the training process for this training scenario?",
+      "options": [
+        "The training script will run on a single CPU instance and access the dataset directly from the S3 bucket.",
+        "The training script will run on multiple CPU instances with each instance processing a portion of the dataset.",
+        "The training script will run on a single GPU instance, and the dataset will be streamed from the S3 bucket.",
+        "The training script will run across multiple GPU instances, each instance pulling its data from the S3 bucket."
+      ],
+      "correct_answers": [
+        "The training script will run across multiple GPU instances, each instance pulling its data from the S3 bucket."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/script-mode.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

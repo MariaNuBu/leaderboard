@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 63,
+      "question": "A financial services company has tasked its ML team to analyze customer transaction data for enhancing its fraud detection system and identify potential customer segments for targeted marketing campaigns. The company has a dataset with multiple features, including transaction amounts, frequency, and location data.\n\nThe tasks are listed below, and the ML team must use Amazon SageMaker built-in algorithms to complete these tasks:\n\nReduce the dimensionality of the dataset to improve model performance and visualization.\n\nPerform cluster analysis to identify distinct customer groups.\n\nDetect anomalous transactions that may indicate fraud.\n\nWhich combination of SageMaker built-in algorithms should the ML team use to meet the requirements?",
+      "options": [
+        "Linear Learner for dimensionality reduction, DBSCAN for cluster analysis, and Random Cut Forest (RCF) for anomaly detection",
+        "Principal Component Analysis (PCA) for dimensionality reduction, K-Means for cluster analysis, and Neural Networks for anomaly detection",
+        "XGBoost for dimensionality reduction, K-Means for cluster analysis, and Random Cut Forest (RCF) for both anomaly detection"
+      ],
+      "correct_answers": [
+        "Principal Component Analysis (PCA) for dimensionality reduction, K-Means for cluster analysis, Random Cut Forest (RCF) for anomaly detection"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pca.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/k-means.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/randomcutforest.html",
+        "https://aws.amazon.com/compare/the-difference-between-deep-learning-and-neural-networks/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

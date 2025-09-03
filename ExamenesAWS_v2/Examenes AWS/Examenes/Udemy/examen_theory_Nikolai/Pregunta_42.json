@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "A company has deployed a real-time endpoint using Amazon SageMaker to predict product demand. They want to continuously monitor the model’s performance in production, specifically looking for changes in data quality and prediction accuracy. The team wants to receive automated alerts if there is a drift in the incoming data or a decline in model accuracy. Which combination of SageMaker features and services should the company use to achieve this? (Choose Two.)",
+      "options": [
+        "Amazon CloudWatch for setting up alerts on drift and performance metrics",
+        "SageMaker Neo for optimizing model inference speed",
+        "SageMaker Ground Truth for tracking model prediction accuracy",
+        "AWS Glue for scheduling model monitoring jobs",
+        "SageMaker Model Monitor for detecting data and model quality drift"
+      ],
+      "correct_answers": [
+        "Amazon CloudWatch for setting up alerts on drift and performance metrics",
+        "SageMaker Model Monitor for detecting data and model quality drift"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

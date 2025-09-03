@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "What is the purpose of the Amazon SageMaker Inference Recommender?",
+      "options": [
+        "Provide insights into the performance and latency of a machine learning system.",
+        "Connect application data from various sources, including AWS services, for near real-time monitoring and alerting.",
+        "Enable interactive data visualization and analysis of a machine learning system.",
+        "Automatically test and recommend the optimal instance type and configuration for deploying machine learning models in production."
+      ],
+      "correct_answers": [
+        "Automatically test and recommend the optimal instance type and configuration for deploying machine learning models in production."
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

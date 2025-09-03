@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An ML engineer trained an ML model by using a tabular dataset. The dataset contains 1,000 data points with 5,000 features. The ML engineer needs to reduce overfitting to improve the model's performance. Which solution will reduce overfitting the MOST for the model?",
+      "options": [
+        "Reduce the number of features by applying principal component analysis (PCA).",
+        "Increase the number of features by deriving new features from the existing features.",
+        "Reduce the number of data points by randomly dropping 100 data points.",
+        "Increase the number of data points by collecting 100 additional data points."
+      ],
+      "correct_answers": [
+        "Reduce the number of features by applying principal component analysis (PCA)."
+      ],
+      "references": [],
+      "topic": "Overfitting & Dimensionality Reduction",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

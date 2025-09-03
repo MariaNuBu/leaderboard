@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A data scientist requires access to an Amazon Simple Storage Service (Amazon S3) bucket containing training data from an Amazon SageMaker notebook instance running within a VPC. Which approaches should they use to enable secure access to the S3 bucket?",
+      "options": [
+        "Configure an Internet Gateway in the VPC to allow outbound internet access from the notebook instance to the S3 bucket.",
+        "Configure a VPC endpoint for Amazon S3 in the VPC and use the endpoint to access the S3 bucket.",
+        "Configure a NAT Gateway in the VPC to allow outbound internet access from the notebook instance to the S3 bucket.",
+        "Configure a bastion host in a public subnet and access the S3 bucket through the bastion host."
+      ],
+      "correct_answers": [
+        "Configure a VPC endpoint for Amazon S3 in the VPC and use the endpoint to access the S3 bucket."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

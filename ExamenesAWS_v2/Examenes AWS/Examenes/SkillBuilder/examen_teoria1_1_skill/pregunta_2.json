@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A company that provides a subscription-based service wants to implement a machine learning model that provides sentiment analysis to improve customer interactions. The company is collecting data from various data sources. One of these sources collects a user’s comment, the number of likes on the comment, and time and date that the comment is posted. It also collects the user's profile statistics, such as age, name, and demographics. The data is collected in a comma separate value (CSV) format. Which data format changes could a data scientist make to improve performance?",
+      "options": [
+        "Keep the data in a CSV format as row-based processing. This is already the most efficiently formatted data, and each attribute is important to sentiment analysis.",
+        "Include only the relevant columns, such as comments, likes, time, and date. Compress the data to reduce processing time and improve performance.",
+        "Convert the data to an object notation format such as JSON because the hierarchical structure of JSON is more flexible than any other data format.",
+        "Keep the data in CSV format, but compress the data to reduce processing time and improve performance."
+      ],
+      "correct_answers": [
+        "Include only the relevant columns, such as comments, likes, time, and date. Compress the data to reduce processing time and improve performance."
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

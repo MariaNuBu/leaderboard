@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "When a machine learning engineer training a deep learning model on a classification task notices that the training and validation loss curves are converging towards each other, what does this convergence indicate?",
+      "options": [
+        "The model is underfitting, and it needs more training iterations or a more complex architecture.",
+        "The model is experiencing mode collapse, a common issue in generative adversarial networks (GANs).",
+        "The model is overfitting to the training data, and it will likely perform poorly on new, unseen data.",
+        "The model has reached its optimal performance, and further training will not improve its accuracy."
+      ],
+      "correct_answers": [
+        "The model has reached its optimal performance, and further training will not improve its accuracy."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

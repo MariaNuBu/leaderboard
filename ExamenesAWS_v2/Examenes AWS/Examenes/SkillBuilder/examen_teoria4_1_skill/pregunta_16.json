@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "An online education platform wants to use Amazon SageMaker Clarify to monitor their student performance prediction model for potential bias against certain demographic groups. Which option would be the most efficient for this use case?",
+      "options": [
+        "Use SageMaker Data Wrangler to identify potential bias during data preparation.",
+        "SageMaker Clarify cannot be used for monitoring deployed models; it can only analyze bias in the training data.",
+        "Use SageMaker Clarify directly by configuring a SageMaker Clarify processing job.",
+        "Use SageMaker Model Monitor with SageMaker Clarify to monitor the model's predictions for bias drift."
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Monitor with SageMaker Clarify to monitor the model's predictions for bias drift."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

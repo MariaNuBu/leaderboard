@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You are working on a machine learning project where your model frequently encounters issues such as vanishing gradients and overfitting during training. You decide to use Amazon SageMaker Debugger to monitor and debug the model in real-time to resolve these issues before deployment.\n\nWhich of the following actions should you take when configuring SageMaker Debugger for this task? (Select Two)",
+      "options": [
+        "Configure a Debugger hook in the training script to capture and log tensors, which provide insights into the model's performance.",
+        "Enable SageMaker Model Monitor to visualize and track resource utilization, such as CPU and GPU, during training.",
+        "Set up built-in or custom debug rules to monitor training metrics and detect issues such as vanishing gradients or overfitting.",
+        "Use SageMaker Profiler to automatically correct hyperparameters such as learning rate and batch size during training."
+      ],
+      "correct_answers": [
+        "Configure a Debugger hook in the training script to capture and log tensors, which provide insights into the model's performance.",
+        "Set up built-in or custom debug rules to monitor training metrics and detect issues such as vanishing gradients or overfitting."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

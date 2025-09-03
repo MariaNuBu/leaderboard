@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "You are a Machine Learning Engineer working for a large retail company that has developed multiple machine learning models to improve various aspects of their business, including personalized recommendations, generative AI, and fraud detection.\n\nThe models have different deployment requirements:\n\nThe recommendations models need to handle real-time inference with low latency.\n\nThe generative AI model requires high scalability to manage fluctuating loads.\n\nThe fraud detection model is a large model and needs to be integrated into serverless applications to minimize infrastructure management.\n\nWhich of the following deployment targets should you choose for the different machine learning models, given their specific requirements? (Select two)\n\nUse AWS Lambda to deploy the fraud detection model, which requires rapid scaling and integration into an existing serverless architecture, minimizing infrastructure management\n\nChoose Amazon Elastic Container Service (Amazon ECS) for the recommendation model, as it provides container orchestration for large-scale, batch processing workloads with tight integration into other AWS services\n\nDeploy all models using Amazon SageMaker endpoints for consistency and ease of management, regardless of their individual requirements for scalability, latency, or integration",
+      "options": [
+        "Use AWS Lambda to deploy the fraud detection model, which requires rapid scaling and integration into an existing serverless architecture, minimizing infrastructure management",
+        "Choose Amazon Elastic Container Service (Amazon ECS) for the recommendation model, as it provides container orchestration for large-scale, batch processing workloads with tight integration into other AWS services",
+        "Deploy all models using Amazon SageMaker endpoints for consistency and ease of management, regardless of their individual requirements for scalability, latency, or integration",
+        "Deploy the real-time recommendation model using Amazon SageMaker endpoints to ensure low-latency, high-availability, and managed infrastructure for real-time inference",
+        "Deploy the generative AI model using Amazon Elastic Kubernetes Service (Amazon EKS) to leverage containerized microservices for high scalability and control over the deployment environment"
+      ],
+      "correct_answers": [
+        "Deploy the real-time recommendation model using Amazon SageMaker endpoints to ensure low-latency, high-availability, and managed infrastructure for real-time inference",
+        "Deploy the generative AI model using Amazon Elastic Kubernetes Service (Amazon EKS) to leverage containerized microservices for high scalability and control over the deployment environment"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html",
+        "https://aws.amazon.com/blogs/containers/deploy-generative-ai-models-on-amazon-eks/"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

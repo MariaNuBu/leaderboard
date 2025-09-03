@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "You are training a deep neural network and notice that the training accuracy is high, but the validation accuracy is much lower. What is the most likely issue?",
+      "options": [
+        "Underfitting",
+        "Vanishing gradient problem",
+        "Overfitting",
+        "Insufficient data"
+      ],
+      "correct_answers": [
+        "Overfitting"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

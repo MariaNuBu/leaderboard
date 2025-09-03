@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "What might be a reason for a machine learning (ML) engineer to use Amazon SageMaker?",
+      "options": [
+        "They want to build their ML models using their own infrastructure.",
+        "They want a prebuilt ML model with little to no configuration required.",
+        "They want to use Amazon Bedrock.",
+        "They want a single service to manage building, training, and deploying their ML models"
+      ],
+      "correct_answers": [
+        "They want a single service to manage building, training, and deploying their ML models"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

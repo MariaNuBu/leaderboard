@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A financial company is looking to use network data and traditional tabular datasets to help construct corporate SEC filings. Which Amazon SageMaker JumpStart pre-built ML solution category they you look into?",
+      "options": [
+        "Personalized Recommendations",
+        "Demand forecasting",
+        "Credit rating prediction",
+        "Extract and analyze data from documents"
+      ],
+      "correct_answers": [
+        "Credit rating prediction"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

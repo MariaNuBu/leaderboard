@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A company that produces description text used in a board game rule book wants to automatically generate it using AI. Which FM category should they select from Amazon Bedrock to do this task?",
+      "options": [
+        "Text generation",
+        "Chatbots",
+        "Search",
+        "Text summarization"
+      ],
+      "correct_answers": [
+        "Text generation"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

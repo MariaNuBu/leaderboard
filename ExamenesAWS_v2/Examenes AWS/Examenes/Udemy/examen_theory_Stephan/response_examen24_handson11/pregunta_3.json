@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Which of the following practices would help you minimize the environmental impact of your ML workloads on AWS?",
+      "options": [
+        "Use on-demand instances for all training jobs",
+        "Train large models without considering reuse",
+        "Utilize Spot Instances and energy-efficient instance types",
+        "Use the largest possible models for every task"
+      ],
+      "correct_answers": [
+        "Utilize Spot Instances and energy-efficient instance types"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model_training-budget-and-cost.html#model_training-spot-instances",
+        "https://aws.amazon.com/blogs/aws/infrastructure-innovation-sustainability/"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

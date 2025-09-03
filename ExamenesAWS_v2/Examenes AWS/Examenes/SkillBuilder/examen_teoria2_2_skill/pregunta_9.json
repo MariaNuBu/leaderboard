@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A research team at a university is working on developing a new machine learning (ML) algorithm for natural language processing (NLP) tasks. They want to use Amazon SageMaker to train and deploy their algorithm on large-scale datasets. Which steps should they follow to bring their custom algorithm to SageMaker using script mode?",
+      "options": [
+        "Write the training script in Python, create a SageMaker estimator, and call the fit method to launch the training job.",
+        "Create a custom SageMaker container image with their algorithm and dependencies and use it to train and deploy their model.",
+        "Implement their algorithm as a SageMaker built-in algorithm and use it like any other pre-built algorithm.",
+        "Develop and train their algorithm locally, and then use SageMaker for deployment and inference only."
+      ],
+      "correct_answers": [
+        "Write the training script in Python, create a SageMaker estimator, and call the fit method to launch the training job."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

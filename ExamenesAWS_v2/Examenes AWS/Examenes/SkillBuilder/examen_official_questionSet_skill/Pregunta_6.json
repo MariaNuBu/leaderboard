@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A company is moving its ML models to the cloud. The company wants to use Amazon SageMaker to deploy and monitor ML models in production. The company has built several ML models over the last few years by using R. An ML engineer must bring the existing R models into SageMaker.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "A\nCompose an R Dockerfile to bring existing R models as containers into SageMaker.",
+        "B\nTranslate the source code to Python. Use the SageMaker SDK to bring Python models into SageMaker.",
+        "C\nUse SageMaker Canvas to bring R models into SageMaker.",
+        "D\nUse a SageMaker built-in algorithm to bring R models into SageMaker."
+      ],
+      "correct_answers": [
+        "A\nCompose an R Dockerfile to bring existing R models as containers into SageMaker."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

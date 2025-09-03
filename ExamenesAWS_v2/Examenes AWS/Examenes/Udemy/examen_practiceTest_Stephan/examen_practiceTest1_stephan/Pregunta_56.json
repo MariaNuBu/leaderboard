@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "You are a data scientist at a financial institution tasked with building a model to detect fraudulent transactions. The dataset is highly imbalanced, with only a small percentage of transactions being fraudulent. After experimenting with several models, you decide to implement a boosting technique to improve the model’s accuracy, particularly on the minority class. You are considering different types of boosting, including Adaptive Boosting (AdaBoost), Gradient Boosting, and Extreme Gradient Boosting (XGBoost).\n\nGiven the problem context and the need to effectively handle class imbalance, which boosting technique is MOST SUITABLE for this scenario?\n\nImplement Gradient Boosting to sequentially train weak learners, using the gradient of the loss function to improve performance on the minority class\n\nUse Adaptive Boosting (AdaBoost) to focus on correcting the errors of weak classifiers, giving more weight to incorrectly classified instances during each iteration\n\nUse Gradient Boosting and manually adjust the learning rate and class weights to improve performance on the minority class, avoiding the complexities of XGBoost",
+      "options": [
+        "Implement Gradient Boosting to sequentially train weak learners, using the gradient of the loss function to improve performance on the minority class",
+        "Use Adaptive Boosting (AdaBoost) to focus on correcting the errors of weak classifiers, giving more weight to incorrectly classified instances during each iteration",
+        "Use Gradient Boosting and manually adjust the learning rate and class weights to improve performance on the minority class, avoiding the complexities of XGBoost",
+        "Apply Extreme Gradient Boosting (XGBoost) for its ability to handle imbalanced datasets effectively through regularization, weighted classes, and optimized computational efficiency"
+      ],
+      "correct_answers": [
+        "Apply Extreme Gradient Boosting (XGBoost) for its ability to handle imbalanced datasets effectively through regularization, weighted classes, and optimized computational efficiency"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/boosting/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost_hyperparameters.html",
+        "https://aws.amazon.com/blogs/gametech/fraud-detection-for-games-using-machine-learning/",
+        "https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Build_a_fraud_detection_system_with_Amazon_SageMaker_AIM359-R1.pdf"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

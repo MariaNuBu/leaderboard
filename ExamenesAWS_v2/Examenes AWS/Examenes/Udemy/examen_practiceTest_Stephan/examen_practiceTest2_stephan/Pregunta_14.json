@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A healthcare organization has deployed a predictive ML model in production using Amazon SageMaker. To ensure the model's performance, the organization has enabled SageMaker Model Monitor to track data quality. After recent update to the model, a data scientist observes data quality issues flagged by Model Monitor checks.\n\nWhat steps should the data scientist take to address the data quality issues identified by Model Monitor?",
+      "options": [
+        "Generate a new baseline using the latest dataset and configure Model Monitor to use this updated baseline for future evaluations",
+        "Ingest Ground Truth labels and use these as an updated baseline for future evaluations",
+        "Modify the model's hyperparameters and redeploy the updated version to production",
+        "The constraint_violations.json file lists the violations detected in the current dataset. Manually correct the data issues and rerun the model"
+      ],
+      "correct_answers": [
+        "Generate a new baseline using the latest dataset and configure Model Monitor to use this updated baseline for future evaluations"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-data-quality.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-faqs.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

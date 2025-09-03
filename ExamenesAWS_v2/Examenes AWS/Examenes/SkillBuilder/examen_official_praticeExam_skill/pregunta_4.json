@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A binary classification model's performance has decreased significantly during the past few days. An ML engineer needs to adjust the hyperparameters of the model. The underlying model type must remain the same.\n\nWhich Amazon SageMaker AI functionality should the ML engineer use to optimize hyperparameters with the LEAST effort?",
+      "options": [
+        "SageMaker AI automatic model tuning",
+        "SageMaker AI notebook with a custom random search",
+        "SageMaker Autopilot with the default configuration",
+        "SageMaker Autopilot with the TabularJobConfig ProblemType attribute set to BinaryClassification"
+      ],
+      "correct_answers": [
+        "SageMaker AI automatic model tuning"
+      ],
+      "references": [],
+      "topic": "Hyperparameter Tuning",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

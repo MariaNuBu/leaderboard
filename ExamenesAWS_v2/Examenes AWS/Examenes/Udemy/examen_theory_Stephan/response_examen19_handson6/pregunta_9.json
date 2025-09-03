@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "In the context of self-attention, which matrices are used to compute the attention scores for each token?",
+      "options": [
+        "Query and Value",
+        "Query and Key",
+        "Key and Value",
+        "Embedding and Value"
+      ],
+      "correct_answers": [
+        "Query and Key"
+      ],
+      "references": [],
+      "topic": "Generative AI Model Fundamentals",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496233#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

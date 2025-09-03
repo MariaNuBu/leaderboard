@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A retail company wants to monitor its key business metrics, such as daily sales and customer engagement, to quickly identify any unusual changes. Which AWS service should they use to minimize development effort?",
+      "options": [
+        "Amazon Lookout for Metrics",
+        "Amazon SageMaker",
+        "Amazon Lookout for Equipment",
+        "Amazon Personalize"
+      ],
+      "correct_answers": [
+        "Amazon Lookout for Metrics"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/lookoutmetrics/latest/dev/what-is.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

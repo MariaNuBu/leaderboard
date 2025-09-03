@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "id": 55,
+      "question": "You are a Data Scientist working for an e-commerce platform that uses a machine learning model to recommend products to customers. The model has been in production for over a year and was initially performing well. However, you have recently noticed a decrease in the model's accuracy, particularly when recommending products to new customers. This decline suggests that the model may be experiencing drift due to changing customer preferences and market trends. To address this issue, you need to implement a strategy for detecting and managing model drift using Amazon SageMaker.\n\nWhich of the following strategies should you implement to effectively detect and manage model drift in your product recommendation model using Amazon SageMaker? (Select two)",
+      "options": [
+        "Use Amazon SageMaker Model Monitor to set up monitoring for data quality and data drift, enabling you to receive alerts and initiate model retraining when the distribution of input data changes significantly from the training data",
+        "Use Amazon SageMaker Clarify to continuously monitor and mitigate bias in the model, and initiate model retraining due to changes in data distribution",
+        "Retrain the model with the new training data, ensuring that the model remains up to date with new customer preferences",
+        "Manually review model performance every quarter and initiate retraining only if a significant drop in accuracy is observed, minimizing unnecessary retraining costs",
+        "Deploy multiple versions of the model simultaneously using Amazon SageMaker multi-model endpoints, and switch between them based on performance metrics"
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Model Monitor to set up monitoring for data quality and data drift, enabling you to receive alerts and initiate model retraining when the distribution of input data changes significantly from the training data",
+        "Retrain the model with the new training data, ensuring that the model remains up to date with new customer preferences"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html",
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/retraining-models-on-new-data.html",
+        "https://aws.amazon.com/blogs/machine-learning/automate-model-retraining-with-amazon-sagemaker-pipelines-when-drift-is-detected/",
+        "https://aws.amazon.com/blogs/architecture/detecting-data-drift-using-amazon-sagemaker/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

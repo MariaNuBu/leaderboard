@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "You are a data scientist working for a financial institution that uses a machine learning model to predict loan defaults. The model was trained on historical data from the past five years, but after being deployed for several months, its accuracy has gradually decreased. Upon investigation, you suspect that the underlying data distribution has changed due to economic shifts and changes in customer behavior. This phenomenon is known as model drift, and you need to address it to ensure the model continues to perform well.\n\nWhich of the following approaches would you combine for detecting and managing drift in your ML model? (Select two)",
+      "options": [
+        "Retrain the model on the most recent data to ensure it captures current trends, and use model versioning to track performance improvements over time",
+        "Decrease the complexity of the model by removing features and layers, thereby turning it into a simpler model that can various types of data distributions",
+        "Implement continuous monitoring of input data features and model predictions using statistical tests to detect shifts in data distribution or performance, triggering an alert when drift is detected",
+        "Increase the complexity of the model by adding more features and deeper layers, ensuring it can adapt to changing data distributions over time",
+        "Deploy a secondary model trained on different data and compare its predictions with the original model to detect any significant differences, indicating potential drift"
+      ],
+      "correct_answers": [
+        "Retrain the model on the most recent data to ensure it captures current trends, and use model versioning to track performance improvements over time",
+        "Implement continuous monitoring of input data features and model predictions using statistical tests to detect shifts in data distribution or performance, triggering an alert when drift is detected"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/retraining-models-on-new-data.html",
+        "https://aws.amazon.com/blogs/machine-learning/automate-model-retraining-with-amazon-sagemaker-pipelines-when-drift-is-detected/"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

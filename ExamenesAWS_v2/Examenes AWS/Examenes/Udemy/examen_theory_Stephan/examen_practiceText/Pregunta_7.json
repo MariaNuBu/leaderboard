@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A mobile gaming company has developed a machine learning model using Amazon SageMaker to predict the likelihood of users making in-app purchases. The model is integrated into the game to offer personalized promotions to users based on their predicted purchasing behavior. The company expects a high volume of prediction requests that need to be processed immediately as users interact with the game. However, user traffic fluctuates significantly throughout the day, with peak usage times in the evenings and low usage times in the early morning.\n\nWhich SageMaker inference deployment endpoint should the company use to deploy this model?",
+      "options": [
+        "Serverless Inference",
+        "Batch Transform",
+        "Asynchronous Inference",
+        "Real-Time Inference"
+      ],
+      "correct_answers": [
+        "Serverless Inference"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 - "
+    }
+  ]
+}

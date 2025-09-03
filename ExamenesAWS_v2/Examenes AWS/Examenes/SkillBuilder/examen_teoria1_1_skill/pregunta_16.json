@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "You are a member of a machine learning (ML) team that is tasked with building a real-time product recommendation engine for an e-commerce website. The data used for recommendations will consist of unstructured data, such as purchases, browsing history, customer details, and more. The team needs to decide on a file format that provides efficient parsing and analysis of the dataset as it is streamed in real time. Which file format should the team use?",
+      "options": [
+        "CSV",
+        "JSON Lines",
+        "JSON",
+        "Parquet"
+      ],
+      "correct_answers": [
+        "JSON Lines"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

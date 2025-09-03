@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "You are working for a large enterprise business that requires you to budget for the deployment of an ML model. You are instructed to give a predictable budget over a 3-year timespan. The model should always be available during that timeframe.",
+      "options": [
+        "Spot Instances",
+        "On-Demand Instances",
+        "Reserved Instances",
+        "Capacity Blocks"
+      ],
+      "correct_answers": [
+        "Reserved Instances"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

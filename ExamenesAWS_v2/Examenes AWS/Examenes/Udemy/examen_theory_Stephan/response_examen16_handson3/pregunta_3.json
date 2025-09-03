@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A financial institution needs to detect fraudulent transactions in real-time using historical transaction data.\nWhich AWS service is most appropriate for this use case, while minimizing development effort?",
+      "options": [
+        "Amazon Translate",
+        "Amazon Personalize",
+        "Amazon SageMaker",
+        "Amazon Fraud Detector"
+      ],
+      "correct_answers": [
+        "Amazon Fraud Detector"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-afd.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

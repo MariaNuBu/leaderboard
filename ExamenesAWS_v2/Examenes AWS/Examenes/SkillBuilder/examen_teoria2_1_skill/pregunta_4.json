@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "You work for a retailer that wants to use an online chatbot on their website to help customers with common needs and questions in a natural and human-like way. Which is best service for this business need?",
+      "options": [
+        "Amazon Comprehend",
+        "Amazon Kendra",
+        "Amazon Lex V2",
+        "Amazon Rekognition"
+      ],
+      "correct_answers": [
+        "Amazon Lex V2"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

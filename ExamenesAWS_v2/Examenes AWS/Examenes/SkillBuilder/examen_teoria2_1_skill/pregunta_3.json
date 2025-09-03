@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "You work for a call center. The call center wants to automatically detect customer sentiment and categorize inbound support requests. They also want to extract insights from customer surveys to help improve products. Which is best service for this use case?",
+      "options": [
+        "Amazon Connect Contact Lens",
+        "Amazon SageMaker Canvas",
+        "Amazon Personalize",
+        "Amazon Textract"
+      ],
+      "correct_answers": [
+        "Amazon Connect Contact Lens"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

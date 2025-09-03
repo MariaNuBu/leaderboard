@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A healthcare startup is developing a machine learning model to predict the risk of various diseases based on patient data. The dataset includes demographic information, such as age, gender, and ethnicity, as well as medical history. The data science team suspects that there might be a bias in the dataset related to the distribution of disease labels across different demographic groups. They decide to use the Difference in Proportion of Labels (DPL) metric to analyze this bias before training the model.\n\nWhich type of analysis is best performed using the Difference in Proportion of Labels (DPL) metric, and why is it suitable for this scenario?",
+      "options": [
+        "To identify potential biases in the dataset by comparing the proportion of each disease label across different demographic groups",
+        "To measure the imbalance in the dataset by comparing the total count of disease labels",
+        "To determine the optimal data augmentation techniques for balancing the dataset",
+        "To evaluate the overall accuracy of the model predictions by comparing them to a baseline"
+      ],
+      "correct_answers": [
+        "To identify potential biases in the dataset by comparing the proportion of each disease label across different demographic groups"
+      ],
+      "references": [],
+      "topic": "Transform data and perform feature engineering.",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6519585/result/1592019035",
+      "Practice test": "20-Question Practice Exam: AWS Certified Machine Learning Engineer - Associate MLA-C01 - "
+    }
+  ]
+}

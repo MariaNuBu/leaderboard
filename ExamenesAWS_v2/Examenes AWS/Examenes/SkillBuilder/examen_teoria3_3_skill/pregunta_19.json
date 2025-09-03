@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A team is developing a new deep learning model to classify images. They want to automate testing in their CI/CD pipeline. Which type of automated tests should they focus on implementing first?",
+      "options": [
+        "Integration tests to validate that your model training code connects properly to your preprocessing pipeline and your inference serving container.",
+        "Unit tests for individual Python functions used in your preprocessing script.",
+        "Regression tests comparing the performance of the current model version against a previously deployed baseline.",
+        "End-to-end tests that train a model on your full dataset and evaluate accuracy on a test set."
+      ],
+      "correct_answers": [
+        "Unit tests for individual Python functions used in your preprocessing script."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

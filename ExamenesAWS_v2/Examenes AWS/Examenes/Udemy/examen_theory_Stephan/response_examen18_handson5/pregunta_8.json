@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You need to process a massive dataset for training a deep learning model and want to speed up the training process. Which AWS service or feature should you consider using?",
+      "options": [
+        "AWS Lambda",
+        "SageMaker Debugger",
+        "SageMaker Distributed Training",
+        "AWS Glue"
+      ],
+      "correct_answers": [
+        "SageMaker Distributed Training"
+      ],
+      "references": [],
+      "topic": "Model Tuning, Training, and Evaluation",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496201#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A financial company has a compliance policy that states that direct internet access from an Amazon SageMaker notebook instance is not allowed. An ML engineer disabled direct internet access on the SageMaker notebook instance and hosted the instance in a private subnet in a VPC. However, internet access is required to update the SageMaker instance.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "A\nSet up a NAT gateway within the VPC. Configure security groups and network access control lists (network ACLs) to allow outbound connections.",
+        "B\nSet up an internet gateway within the VPC. Configure the route tables of private subnets to route the 0.0.0.0/0 traffic through the internet gateway.",
+        "C\nCreate SageMaker VPC interface endpoints within the company's VPC. Host the notebook instance in public subnets. Route the internet traffic through an internet gateway.",
+        "D\nSet the SageMaker parameter EnableNetworkIsolation to True."
+      ],
+      "correct_answers": [
+        "A\nSet up a NAT gateway within the VPC. Configure security groups and network access control lists (network ACLs) to allow outbound connections."
+      ],
+      "references": [],
+      "topic": "TOPIC 4.3 Secure AWS Resources.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

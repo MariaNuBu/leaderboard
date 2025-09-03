@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "What is the primary benefit of using provisioned concurrency with Amazon SageMaker Serverless Inference?",
+      "options": [
+        "Streamlines capacity planning by automatically adjusting the number of instances based on traffic patterns",
+        "Eliminates the need to manage scaling policies and choose instance types",
+        "Scales your instances down to zero when there are no requests, minimizing costs",
+        "Reduces the cold start latency associated with on-demand instances"
+      ],
+      "correct_answers": [
+        "Reduces the cold start latency associated with on-demand instances"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

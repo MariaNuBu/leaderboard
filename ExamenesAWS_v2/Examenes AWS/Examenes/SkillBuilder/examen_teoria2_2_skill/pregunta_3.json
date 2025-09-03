@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A developer wants to build a new large language model (LLM) to compete with the best LLMs available in the market. The developer needs to train a deep learning model using high-performance and cost-effective machine learning (ML) training. Which instance type is the best for their use case?",
+      "options": [
+        "CPU training instances",
+        "GPU training instances",
+        "AWS Trainium instances",
+        "Neural network"
+      ],
+      "correct_answers": [
+        "AWS Trainium instances"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

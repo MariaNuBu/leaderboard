@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A retail company wants to use an Amazon Elastic File System (Amazon EFS) file server for their machine learning (ML) workload. The Amazon EFS file server will be used to store data for model training that will be accessed from a fleet of training instances. Which AWS service would best be used for efficiently extracting a large dataset from a file system hosted on Amazon EC2 to an Amazon EFS file server?",
+      "options": [
+        "AWS DataSync",
+        "AWS Lambda",
+        "Amazon S3 Transfer Acceleration",
+        "AWS CLI"
+      ],
+      "correct_answers": [
+        "AWS DataSync"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

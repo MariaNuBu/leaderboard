@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You need to grant cross-account access to a KMS-encrypted S3 bucket used in a SageMaker job. What should you configure?",
+      "options": [
+        "Create an S3 bucket policy allowing access from the other account.",
+        "Add the other account's IAM roles to the KMS key policy.",
+        "Use AWS Shield to protect the bucket.",
+        "Enable CloudTrail logging for the bucket."
+      ],
+      "correct_answers": [
+        "Add the other account's IAM roles to the KMS key policy."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

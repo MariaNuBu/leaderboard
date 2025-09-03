@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Topic: 1.1 Ingest and store data.\\n\\nA company wants to read, write, and transform Apache Parquet files from an Amazon S3 bucket. An ML engineer has been asked to automate this process by creating a custom transform script in Python.\\n\\nWhich solution meets these requirements with the LEAST operational effort?",
+      "options": [
+        "A\\nCreate a workflow for processing by using Amazon Managed Workflows for Apache Airflow (Amazon MWAA). Create a Python script by using PySpark.",
+        "B\\nCreate an Amazon EMR cluster for processing. Create a Python script by using the EMR integration with PySpark.",
+        "C\\nCreate an AWS Glue job for processing. Create a Python script by using the AWS Glue PySpark extension.",
+        "D\\nCreate a workflow for processing by using Amazon Managed Workflows for Apache Airflow (Amazon MWAA). Create an AWS Glue transformation from Apache Airflow."
+      ],
+      "correct_answers": [
+        "C\\nCreate an AWS Glue job for processing. Create a Python script by using the AWS Glue PySpark extension."
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Which SageMaker algorithm is best suited for clustering similar items without labeled data?",
+      "options": [
+        "XGBoost",
+        "K-Means",
+        "BlazingText",
+        "Linear Learner"
+      ],
+      "correct_answers": [
+        "K-Means"
+      ],
+      "references": [],
+      "topic": "SageMaker Built-In Algorithms",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496161#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

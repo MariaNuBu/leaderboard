@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "An organization needs to develop and deploy a machine learning model for real-time customer behavior prediction using SageMaker. They want a solution that provides persistent storage, allows collaborative development, and makes it easy to track and manage multiple experiments in an integrated interface.\n\nWhich of the following best meets the organization's needs?",
+      "options": [
+        "SageMaker Ground Truth",
+        "SageMaker Studio",
+        "SageMaker Neo",
+        "SageMaker Autopilot"
+      ],
+      "correct_answers": [
+        "SageMaker Studio"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

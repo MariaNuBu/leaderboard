@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement BEST describes the benefit of using automation in an application, according to the AWS Well-Architected Framework?",
+      "options": [
+        "It helps to verify that the provisioned resources are cost efficient.",
+        "It helps to create an energy-efficient infrastructure.",
+        "It helps to ensure that solutions are resilient to disruptions and recover quickly.",
+        "It provides a method for repeatable, consistent deployments."
+      ],
+      "correct_answers": [
+        "It provides a method for repeatable, consistent deployments."
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

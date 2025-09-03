@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "A company needs to perform regular ETL operations on large semi-structured datasets stored in Amazon S3 and then load the processed data into Amazon Redshift for analytics. They also want to automatically extract metadata from the S3 files and query the data using SQL without managing the infrastructure.\n\nWhich combination of AWS Glue services should the company use to meet their requirements?\n\nAWS Glue Data Catalog for metadata extraction, Glue crawlers for processing data into Redshift, and Glue ETL jobs to transform the data.\n\nExplicación\nGlue crawlers only discover data schemas, and Glue ETL jobs process the data into Redshift. Crawlers do not process data into Redshift.\n\nAWS Glue Data Catalog to manage S3 data, manual scripts to process the data, and Redshift for analytics.\n\nExplicación\nManually processing data introduces high overhead and management complexity compared to serverless AWS Glue ETL.",
+      "options": [
+        "AWS Glue Data Catalog for metadata extraction, Glue crawlers for processing data into Redshift, and Glue ETL jobs to transform the data.",
+        "AWS Glue Data Catalog to manage S3 data, manual scripts to process the data, and Redshift for analytics.",
+        "AWS Glue Data Catalog for metadata extraction, Glue ETL jobs for data transformation, and Athena for querying the data directly from S3.",
+        "AWS Glue Data Catalog for metadata extraction, Glue ETL jobs to process the data, and Glue crawlers to schedule the jobs."
+      ],
+      "correct_answers": [
+        "AWS Glue Data Catalog for metadata extraction, Glue ETL jobs for data transformation, and Athena for querying the data directly from S3."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

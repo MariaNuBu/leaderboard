@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "An enterprise wants to deploy Amazon Q Business to assist its customer service team by automating ticket creation in Jira based on customer requests.\nThey also need the assistant to handle tasks like retrieving knowledge from their internal database and managing user permissions. Which of the following features of Amazon Q Business are required to meet these requirements? (Choose two.)",
+      "options": [
+        "Deployment of custom APIs for third-party application interaction",
+        "Use of Amazon Athena for querying data from internal databases",
+        "IAM Identity Center for managing user access and permissions",
+        "Integration with Jira through Amazon Q Business Plugins",
+        "Manual setup of underlying infrastructure for third-party tool integrations"
+      ],
+      "correct_answers": [
+        "IAM Identity Center for managing user access and permissions",
+        "Integration with Jira through Amazon Q Business Plugins"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

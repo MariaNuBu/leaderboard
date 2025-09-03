@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A data scientist is facing the challenge of high variance in a machine learning model, where the model performs well on training data but poorly on new, unseen data. Which of the following methods would MOST LIKELY improve the model's ability to generalize, adhering to responsible AI principles?\n\nRemove cross-validation steps to speed up model training and testing.\n\nExplicación\nCross-validation helps to ensure the model generalizes better to new data, so removing it is not recommended.\n\nFocus on training the model using a smaller subset of the data to prevent overfitting.\n\nExplicación\nTraining on a smaller subset can lead to underfitting, where the model is unable to capture important patterns due to lack of data.",
+      "options": [
+        "Remove cross-validation steps to speed up model training and testing.",
+        "Focus on training the model using a smaller subset of the data to prevent overfitting.",
+        "Use early stopping to halt the training once the model's performance starts to degrade on the validation set.",
+        "Increase the number of parameters in the model to capture more complex patterns in the data."
+      ],
+      "correct_answers": [
+        "Use early stopping to halt the training once the model's performance starts to degrade on the validation set."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

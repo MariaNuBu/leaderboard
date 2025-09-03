@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "You are experimenting with reducing training time for your models to reduce compute costs. Which model characteristic INCREASES as you decrease the number of training epochs?",
+      "options": [
+        "Model variance",
+        "Model bias",
+        "Model complexity",
+        "Model size"
+      ],
+      "correct_answers": [
+        "Model bias"
+      ],
+      "references": [
+        "https://machinelearningmastery.com/difference-between-bias-and-variance/"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

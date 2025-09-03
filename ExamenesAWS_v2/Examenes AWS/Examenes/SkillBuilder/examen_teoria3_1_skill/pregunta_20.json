@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "You are responsible for selecting how to containerize your machine learning (ML) model. You are deciding whether to use Amazon SageMaker fully managed container options or use SageMaker options to bring your own inference code. What is the MOST important factor to consider when deciding between these two options?",
+      "options": [
+        "Whether you can bring your own data",
+        "Whether a turnkey solution or flexibility is more important to your business",
+        "Whether your business is designing an ML solution for the public sector",
+        "Whether your solution contains sensitive data like Protected Health Information (PHI)"
+      ],
+      "correct_answers": [
+        "Whether a turnkey solution or flexibility is more important to your business"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

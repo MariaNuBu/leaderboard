@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A media company wants to automatically generate subtitles for videos in real-time. Which AWS service is best suited for this task?",
+      "options": [
+        "Amazon Polly",
+        "Amazon Comprehend",
+        "Amazon Translate",
+        "Amazon Transcribe"
+      ],
+      "correct_answers": [
+        "Amazon Transcribe"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html"
+      ],
+      "topic": "AWS Managed AI Services",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496135#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

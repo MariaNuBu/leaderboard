@@ -1,0 +1,299 @@
+You are mentoring a new associate machine learning engineer through the machine learning lifecycle. During the model evaluation phase, you examine your model's bias. How would you explain model bias to the associate machine learning engineer?
+
+Model bias is the error identified when a model hasn't learned the relationship between the input features and the target variable in the training data. (Correct)
+
+Model bias occurs when the model favors certain input features over others during training. 
+
+Model bias is the sensitivity of the model to different training data. It's very susceptible to noise in the training dataset.
+
+Model bias measures the amount of variance in the model's predictions. 
+
+---
+
+As you work to find the right balance between your model's bias and variance, the associate ML engineer asks you to define model variance. How would you explain model variance to the associate machine learning engineer?
+
+Model variance is the range of predictions that the model makes. 
+
+Model variance is the sensitivity of the model to different training data. It's very susceptible to noise in the training dataset. (Correct)
+
+Model variance is the error identified when a model hasn't learned the relationship between the input features and the target variables.
+
+Model variance is high when a model outputs the same predictions regardless of the input data.
+
+---
+
+The associate ML engineer asks you what the ideal balance is between model bias and model variance. How would you respond?
+
+Find the HIGHEST model bias and HIGHEST model variance that perform well on validation data.
+
+The ideal balance is HIGH model bias and LOW model variance.
+
+The ideal balance is LOW model bias and LOW model variance. (Correct)
+
+The ideal balance is LOW model bias and HIGH model variance.
+
+---
+
+While evaluating your model, you notice that it performed well on the training data but did not perform well on validation data. Which of the following describe the model fit and a possible cause for this fit?
+
+This model is underfit, it might not have been trained for a long enough period of time to capture the underlying relationships in the data.
+
+This model is underfit, it might have been trained for too long a period of time and learned noise in the training data.
+
+The model is overfit, it might have been trained for too long on the same data and memorized the training examples instead of learning the underlying patterns. (Correct)
+
+The model is overfit, it might not have been trained for a long enough period of time to capture the underlying relationships in the data.
+
+---
+
+When evaluating a model, you notice that it performed well on the training set, but poorly on the validation set. You recognize this an an overfit model. You notice that for the first half of the training job, model performance improved rapidly. However, during the second half of the training job, model performance on the training data had mostly leveled out and wasn't improving much. Which regularization technique might help address this issue.
+
+Early stopping (Correct)
+
+Dropout
+
+L1 regularization
+
+L2 regularization
+
+---
+
+When evaluating a model, you notice that it performed poorly on both the training set and the validation set. You recognize this an an underfit model. Which regularization setting adjustment should you consider when rerunning the training job.
+
+Use early stopping
+
+Increase L1 regularization
+
+Increase L2 regularization
+
+Decrease L2 regularization (Correct)
+
+---
+
+You need to build a model to solve a complex problem. You have determined that the diversity of data in your dataset requires the creation of multiple models of different types. You want to aggregate the predictions of this heterogeneous model groups. Which would be best suited to solving this problem.  Which ensemble model strategy would meet these requirements?
+
+Boosting
+
+Bagging
+
+Random forest
+
+Stacking (Correct)
+
+---
+
+Which hyperparameter configuration could result in an underfit model?
+
+A gradient descent algorithm configuration with too many epochs
+
+A decision tree model trained with a maximum depth hyperparameter that is too low (Correct)
+
+A neural network model trained with a number of layers hyperparameter set too high
+
+A neural network model trained with a number of neurons in each layer hyperparameter set too high
+
+---
+
+Which hyperparameter tuning method is best for finding optimum hyperparameter values with limited compute resources?
+
+Manual selection
+
+Grid search
+
+Random search
+
+Hyperband (Correct)
+
+---
+
+How does iterative model pruning reduce the size of a machine learning (ML) model?
+
+It uses a larger teacher model to transfer knowledge to a smaller student model.
+
+It changes the representation of weights within the model to the most space-efficient representation.
+
+It removes the least important parameters or nodes from a model. (Correct)
+
+It reduces the size of the training dataset.
+
+---
+
+A machine learning engineer has been tasked with fine-tuning a pre-trained text generation model. The text generation model needs to be able to answer to industry-specific terminology and acronyms but is otherwise effective in the business solution. Which approach should you take to fine-tuning this model?
+
+Train the model from scratch using new or updated data.
+
+Use the pre-trained model as is and have it learn over time.
+
+Use a custom dataset to fine-tune the model with domain-specific data. (Correct)
+
+Change the hyperparameters on the pre-trained model.
+
+---
+
+A machine learning engineer needs to train an ML model that can perform image generation. She works for a company that has a dog named Doppler as its mascot. She has decided to fine-tune a Stable Diffusion by Stability AI model so it can generate images of Doppler in various scenarios. The CEO of the company decides to add a second mascot, a cat named Mittens. So, the ML engineer needs the model to generate images of Mittens as well. What approach can be taken to add Mittens to the model?
+
+Choose a new model that is better suited for the task to eliminate the need for fine-tuning.
+
+Create a second model, trained on Mittens. Then, use transfer learning to combine the model trained on Doppler with the one trained on Mittens.
+
+Create a brand-new model and fine-tune it using both Doppler the dog and Mittens the cat as the custom dataset.
+
+Fine-tune the model using the output artifact from the original model trained with Doppler the dog. (Correct)
+
+---
+
+A machine learning engineer must make sure that catastrophic forgetting doesn’t occur during model fine-tuning. Which technique would help them identify catastrophic forgetting because of a drop in model performance?
+
+Plot the model’s performance over time, and then look for significant decreases in performance on specific tasks after fine-tuning with new data. (Correct)
+
+Re-train the model frequently on new data to make sure it doesn’t forget previously learned knowledge.
+
+Use a small validation set that only contains the most recent examples.
+
+Monitor the model’s loss function during training for any increases.
+
+---
+
+A machine learning engineer is working on a project that involves training multiple versions of a model for sentiment analysis. Her team wants to maintain a clear record of all model versions, track their performance metrics, and ensure only approved models are deployed to production.
+
+Which approach should the team use to achieve these goals?
+
+Store all model versions in a shared file system and manually keep track of their metadata and performance metrics.
+
+Use Amazon SageMaker Model Registry to register and manage different versions of the sentiment analysis model within a Model Group. (Correct)
+
+Create a custom database to store model artifacts and metadata, and develop a custom approval workflow for model deployment.
+
+Train and deploy only a single version of the model because managing multiple versions would be too complex and time-consuming.
+
+---
+
+You are a data scientist working on a project that involves training a machine learning (ML) model to forecast customer demand. You and other members of your team need to re-train the model in Amazon SageMaker frequently as new data becomes available. Which method should you use to manage and track model versions? 
+
+Manage this model using local storage and share the model as needed.
+
+Manage this model using Amazon SageMaker Model Registry in a Collection.
+
+Manage this model using Amazon SageMaker Model Registry in a Model Group. (Correct)
+
+Manage this model using Amazon S3.
+
+---
+
+You are training a random forest model and trying to identify hyperparameter values. You are working on the hyperparameters that define the characteristics of the decision trees in the model. Which changes to the hyperparameters would help reduce overfitting?
+
+Increase the number of samples required to split a node. (Correct)
+
+Increase the maximum depth of tree hyperparameter.
+
+Decrease the number of nodes on the input layer.
+
+Set a lower Gini impurity threshold for splitting a node.
+
+---
+
+You are experimenting with different ensemble methods and want to train an ensemble model using the bagging method. Which model types can you consider?
+
+Random forest (Correct)
+
+Decision tree
+
+Linear regression model
+
+Neural network
+
+---
+
+You are training a neural network and observe that the model performs well on training data but fails to generalize to new, unseen data. Which technique can help improve model performance?
+
+Add new domain-specific features and more feature Cartesian products.
+
+Decrease L1 regularization.
+
+Increase the size of the training set.
+
+Use dropout. (Correct)
+
+---
+
+You are reviewing the results of a model training job. You notice that the model performed well on the training set but poorly on the validation set. What is a likely cause for this behavior?
+
+The model was not trained long enough.
+
+The model is overfit. (Correct)
+
+The model bias is high.
+
+The model is underfit.
+
+---
+
+You are a machine learning (ML) engineer trying to decide between hyperparameter tuning techniques. You need a technique that prioritizes speed and scalability for data with a larger search space. What is the best choice?
+
+Hyperband (Correct)
+
+Grid search
+
+Bayesian optimization
+
+Manual selection
+
+---
+
+You are experimenting with reducing training time for your models to reduce compute costs. Which model characteristic INCREASES as you decrease the number of training epochs?
+
+Model variance
+
+Model bias (Correct)
+
+Model complexity
+
+Model size
+
+---
+
+You are a data scientist who needs to reduce the size of a machine learning (ML) model. You decide to use iterative model pruning. What would impact how much smaller your model becomes?
+
+After ranking neurons in a neural network by their importance in making correct predictions, setting a higher percentage of top-ranked neurons to consolidate in the model
+
+After ranking neurons in a neural network by their importance to making correct predictions, setting a higher percentage of bottom-ranked neurons to remove from the model
+
+After ranking weights by their importance in making correct permissions, setting a higher percentage of bottom-ranked weights to remove from the model (Correct)
+
+After ranking weights by their importance in making correct predictions, setting a higher percentage of top-ranked weights to consolidate into single weights
+
+---
+
+You are a data scientist troubleshooting a model re-training job for a neural network. Model performance on specific tasks has decreased and you have identified the issue as catastrophic forgetting. Which changes might you consider?
+
+Use a rehearsal strategy in your training job and include older samples in your training set. (Correct)
+
+Make your data less complex by removing the number of features used in the training job.
+
+Decrease the number of layers in the neural network.
+
+Use data augmentation to remove the older samples from the training set.
+
+---
+
+You are a data scientist working with a model for performing text summarization on customer feedback. You observe that the model does not perform well when processing industry-specific jargon and technical terms. You do not have access to the original training data but have a collection of text samples with this terminology. What is the best approach for improving the performance of this model? 
+
+Instruction-based fine-tuning
+
+Elastic weight consolidation (EWC)
+
+Model re-training
+
+Domain adaptation fine-tuning (Correct)
+
+---
+
+You are a data scientist who needs to create a model that will be deployed for an edge computing use case. The model must be small to make efficient use of compute and storage resources. What should you consider to manage model size?
+
+Maximize the number of parameters used in your training job so the model can create an efficient representation of the patterns in the training set.
+
+Only use as many features as needed to achieve the required accuracy. (Correct)
+
+Where possible, choose a deep neural network instead of a linear regression model or decision tree.
+
+Decrease the size of the training set so that it will create a smaller model.

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "When setting up a new LLM agent in Amazon Bedrock, you want it to dynamically decide which tool to use based on the user's query. Which component is responsible for guiding the LLM in making this decision?",
+      "options": [
+        "Action Groups",
+        "Vector Database",
+        "SageMaker Canvas",
+        "Knowledge Base"
+      ],
+      "correct_answers": [
+        "Action Groups"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/action-define.html"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

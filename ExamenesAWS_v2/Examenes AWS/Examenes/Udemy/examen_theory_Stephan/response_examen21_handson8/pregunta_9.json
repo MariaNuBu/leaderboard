@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Which SageMaker feature allows you to compare a new model's performance against an existing production model without impacting live traffic?",
+      "options": [
+        "Canary Deployment",
+        "Linear Deployment",
+        "Blue/Green Deployment",
+        "Shadow Testing"
+      ],
+      "correct_answers": [
+        "Shadow Testing"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/shadow-testing.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

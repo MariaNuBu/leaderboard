@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Which of the following AWS Command Line Interface (AWS CLI) commands will provision resources defined in a AWS CloudFormation template?",
+      "options": [
+        "$ aws cloudformation create-change-set",
+        "$ aws cdk synth",
+        "$ aws cdk init",
+        "$ aws cloudformation create-stack"
+      ],
+      "correct_answers": [
+        "$ aws cloudformation create-stack"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A gaming company hosts monthly promotional events that have recently become more popular. The gaming application retrieves inferences from an ML model that is hosted on an Amazon SageMaker endpoint. The inference endpoint is configured with a target tracking scaling policy that is based on latency. Recently, users have reported negative performance impacts as events begin. The operations team needs to adjust the scaling policy to provide more consistent application performance to improve user experience.\n\nWhich scaling configuration change on the SageMaker endpoint will meet these requirements?",
+      "options": [
+        "A Add a scheduled scaling policy to increase capacity before each event.",
+        "B Increase the target value in the target tracking scaling policy.",
+        "C Change the target tracking scaling policy to a step scaling policy.",
+        "D Decrease the target value in the target tracking scaling policy."
+      ],
+      "correct_answers": [
+        "A Add a scheduled scaling policy to increase capacity before each event."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

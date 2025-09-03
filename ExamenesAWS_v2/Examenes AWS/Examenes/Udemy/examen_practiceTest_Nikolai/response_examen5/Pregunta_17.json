@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A machine learning team is using SageMaker Pipelines to automate the training and deployment of multiple machine learning models. They want to scale the pipeline to handle thousands of workflows simultaneously while ensuring that steps, such as model training and evaluation, are executed in a specific sequence. Which feature of SageMaker Pipelines ensures that steps are executed in a defined order?\n\nModel Package\n\nExplicación\nA Model Package is a versioned model in SageMaker's Model Registry, not related to pipeline step ordering.",
+      "options": [
+        "Model Package",
+        "Directed Acyclic Graph (DAG)",
+        "SageMaker Model Monitor",
+        "Pipeline Parameters"
+      ],
+      "correct_answers": [
+        "Directed Acyclic Graph (DAG)"
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "You are an ML engineer working for a logistics company that uses machine learning models to optimize delivery routes, predict maintenance needs, and forecast demand. The company wants to deploy several models into production, each serving different business functions but running on the same infrastructure to minimize costs. These models differ in the frequency of updates. The company is considering whether to use a multi-model deployment approach or a multi-container deployment approach on Amazon SageMaker to manage these models efficiently.\n\nGiven these requirements, which deployment strategy is MOST SUITABLE for managing these diverse models?",
+      "options": [
+        "Use a multi-model deployment on a single SageMaker endpoint to host all models together, allowing you to dynamically load and serve models as needed without needing separate endpoints",
+        "Implement a multi-container deployment strategy on a single SageMaker endpoint, where each model runs in its own container, allowing you to manage resource allocation more precisely across models",
+        "Deploy each model individually using separate SageMaker endpoints, ensuring each model has dedicated resources and can be scaled independently",
+        "Use a hybrid approach where frequently updated models are deployed using multi-model endpoints and more complex models are deployed using multi-container endpoints, balancing flexibility and resource management"
+      ],
+      "correct_answers": [
+        "Use a multi-model deployment on a single SageMaker endpoint to host all models together, allowing you to dynamically load and serve models as needed without needing separate endpoints"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/multi-container-direct.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 51,
+      "question": "A customer service organization has collected historical data with information about clients that required extended assistance from the support team. The organization now seeks to create an ML model to forecast whether future clients will need long-term support.\n\nWhat approach should the organization take to build and implement this predictive model?\n\nLinear regression\n\nPrincipal Component Analysis (PCA) Algorithm",
+      "options": [
+        "Linear regression",
+        "Principal Component Analysis (PCA) Algorithm",
+        "Logistic regression",
+        "Anomaly Detection"
+      ],
+      "correct_answers": [
+        "Logistic regression"
+      ],
+      "references": [
+        "https://aws.amazon.com/what-is/logistic-regression/",
+        "https://aws.amazon.com/what-is/linear-regression/",
+        "https://aws.amazon.com/what-is/anomaly-detection/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/pca.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

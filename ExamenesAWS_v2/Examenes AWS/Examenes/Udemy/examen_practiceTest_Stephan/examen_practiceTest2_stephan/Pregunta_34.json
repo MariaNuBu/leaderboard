@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "You are a machine learning engineer responsible for managing a fraud detection model deployed on Amazon SageMaker.\nThe model needs to be retrained periodically as new transaction data becomes available and as data distribution shifts over time.\nTo ensure compliance and traceability, the company requires that all re-training activities, including data access and model updates, be logged and monitored.\nAdditionally, the security team wants to be notified of any unauthorized attempts to retrain the model.\n\nHow can you use AWS CloudTrail to meet these guidelines?",
+      "options": [
+        "Enable AWS CloudTrail to log all API calls related to SageMaker, including CreateTrainingJob and UpdateEndpoint, and configure CloudWatch Alarms to notify the security team if unauthorized API calls are detected",
+        "Enable detailed monitoring in Amazon CloudWatch to track all SageMaker activities, and use CloudWatch Logs to store and analyze the logs for any suspicious activity related to re-training",
+        "Enable AWS CloudWatch to log all API calls related to SageMaker, including CreateTrainingJob and UpdateEndpoint, and configure CloudWatch Alarms to notify the security team if unauthorized API calls are detected",
+        "Configure AWS CloudTrail to log only the data access events that trigger re-training, and manually trigger model re-training when changes in the data are detected through these logs"
+      ],
+      "correct_answers": [
+        "Enable AWS CloudTrail to log all API calls related to SageMaker, including CreateTrainingJob and UpdateEndpoint, and configure CloudWatch Alarms to notify the security team if unauthorized API calls are detected"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

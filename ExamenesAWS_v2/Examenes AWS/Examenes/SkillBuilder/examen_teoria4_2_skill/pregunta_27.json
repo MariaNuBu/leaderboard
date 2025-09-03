@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "What are the main reasons for monitoring your ML infrastructure?",
+      "options": [
+        "Tracking the number of users accessing ML endpoints",
+        "Reducing model drift",
+        "Optimizing and decreasing infrastructure costs",
+        "To ensure model compliance with regulators"
+      ],
+      "correct_answers": [
+        "Optimizing and decreasing infrastructure costs"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

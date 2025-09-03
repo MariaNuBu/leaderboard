@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "What happens when you delete an AWS CloudFormation stack?\n\nThe stack is archived for future reference.\n\nExplicación\nDeleting a stack will delete all resources defined within it.",
+      "options": [
+        "The stack is archived for future reference.",
+        "All resources defined in the stack are deleted.",
+        "Only the stack metadata is deleted, not the resources.",
+        "All resources within the stack are retained."
+      ],
+      "correct_answers": [
+        "All resources defined in the stack are deleted."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 40,
+      "question": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.\n\nA company hosts many ML models that support unique use cases that have dynamic workloads. All the models were trained by using the same ML framework. The models are hosted on Amazon SageMaker dedicated endpoints that are underutilized. The company has a goal to optimize its environment for cost.\n\nWhich solution will meet these requirements MOST cost-effectively?",
+      "options": [
+        "A\nConfigure the dedicated endpoints by using smaller instances.",
+        "B\nConfigure a SageMaker multi-model endpoint.",
+        "C\nConfigure a SageMaker multi-container endpoint.",
+        "D\nConfigure an inference pipeline behind a SageMaker endpoint."
+      ],
+      "correct_answers": [
+        "B\nConfigure a SageMaker multi-model endpoint."
+      ],
+      "references": [],
+      "topic": "TOPIC 3.1 Select deployment infrastructure based on existing architecture and requirements.",
+      "Source": "Official Pretest: AWS Certified Machine Learning Engineer - Associate",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

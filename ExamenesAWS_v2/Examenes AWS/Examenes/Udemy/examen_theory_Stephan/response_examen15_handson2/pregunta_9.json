@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "You are working with a dataset that contains several missing values in a column representing customer ages. The data is relatively small, and the distribution of ages is skewed by a few extreme outliers. Which imputation technique should you choose to fill in the missing values?",
+      "options": [
+        "Mean Replacement",
+        "Mode Replacement",
+        "Median Replacement",
+        "Dropping Rows with Missing Data"
+      ],
+      "correct_answers": [
+        "Median Replacement"
+      ],
+      "references": [],
+      "topic": "Data Transformation, Integrity, and Feature Engineering",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496099",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

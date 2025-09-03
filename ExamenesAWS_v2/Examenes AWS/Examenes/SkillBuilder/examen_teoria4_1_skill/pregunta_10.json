@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A company wants to ensure that their ML models are compliant with regulatory requirements and can provide evidence of the data sources used for training.\nWhich feature of the Amazon SageMaker Model Dashboard would be MOST useful for this scenario?",
+      "options": [
+        "Alerts",
+        "Risk rating",
+        "Endpoint performance",
+        "Model lineage graphs"
+      ],
+      "correct_answers": [
+        "Model lineage graphs"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A financial company is building a machine learning solution for lending purposes. The team wants to validate that their data does not contain biases toward the ages of loan applicants, and they need to make sure that the data has enough representation across multiple age groups.\n\nWhich pre-training bias metric best measures whether the raw data is leaning too heavily on a certain data class for its predictions?",
+      "options": [
+        "Class Imbalance (CI)",
+        "Difference in proportions of labels (DPL)",
+        "Model bias",
+        "Model variance"
+      ],
+      "correct_answers": [
+        "Class Imbalance (CI)"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Topic: MLA – Deployment and Orchestration of ML Workflows\n\nA data scientist is working for a company that specializes in developing machine learning models for large-scale video processing tasks. The current project involves training a deep-learning model using a massive dataset of high-resolution videos. The dataset is stored in a distributed file system, and the training process requires high throughput and low latency access to the data. Additionally, the training process involves frequent read and write operations, and the storage solution must be able to handle the high I/O demands efficiently.\n\nWhich of the following storage services will meet the requirements?\n\nAmazon Elastic File System (Amazon EFS)\nAWS Storage Gateway\nAmazon File Cache\nAmazon FSx for Lustre",
+      "options": [
+        "Amazon Elastic File System (Amazon EFS)",
+        "AWS Storage Gateway",
+        "Amazon File Cache",
+        "Amazon FSx for Lustre"
+      ],
+      "correct_answers": [
+        "Amazon FSx for Lustre"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html",
+        "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html"
+      ],
+      "topic": "MLA – Deployment and Orchestration of ML Workflows",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    },
+    {
+      "id": 2,
+      "question": "TOPIC: MLA – Data Preparation for Machine Learning (ML)\nA company is working on a machine learning project that involves analyzing customer data to predict churn rates.\n\nWhich of the following statements best describes the machine learning approach the company should take?\n\nDevelop a set of hard-coded rules and conditional statements to generate predictions.\nFeed the customer data into machine learning algorithms, which will learn patterns and build models to make predictions.\nManually analyze the customer data and replicate the analysis process using custom code to automate predictions.\nUse raw, unprocessed customer data directly as input to train the machine learning model.",
+      "options": [
+        "Develop a set of hard-coded rules and conditional statements to generate predictions.",
+        "Feed the customer data into machine learning algorithms, which will learn patterns and build models to make predictions.",
+        "Manually analyze the customer data and replicate the analysis process using custom code to automate predictions.",
+        "Use raw, unprocessed customer data directly as input to train the machine learning model."
+      ],
+      "correct_answers": [
+        "Feed the customer data into machine learning algorithms, which will learn patterns and build models to make predictions."
+      ],
+      "references": [
+        "https://community.aws/content/2drbbXokwrIXivItJ8ZeCk3gT5F/introduction-to-artificial-intelligence-and-machine-learning?lang=en",
+        "https://aws.amazon.com/what-is/machine-learning/"
+      ],
+      "topic": "MLA – Data Preparation for Machine Learning (ML)",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

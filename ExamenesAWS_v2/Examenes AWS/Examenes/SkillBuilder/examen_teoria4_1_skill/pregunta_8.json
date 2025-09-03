@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A financial institution has developed a credit risk assessment model to evaluate loan applications. The model's predictions are influenced by various features, such as the applicant's income, credit history, and employment status. The institution wants to ensure that the model's feature attributions remain consistent and fair over time.\nWhich benefit of SageMaker Clarify attribution monitoring would be most relevant in this scenario?",
+      "options": [
+        "Automatically create a baseline and compute feature statistics for the model's predictions.",
+        "Inspect merged data and generate quality metrics and violations related to feature attribution drift.",
+        "Push generated reports to Amazon Simple Storage Service (Amazon S3) for further analysis in a notebook environment.",
+        "Emit CloudWatch metrics to set up alerts and triggers for detected violations"
+      ],
+      "correct_answers": [
+        "Inspect merged data and generate quality metrics and violations related to feature attribution drift."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

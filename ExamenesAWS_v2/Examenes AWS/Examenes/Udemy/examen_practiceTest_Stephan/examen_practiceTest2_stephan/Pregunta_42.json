@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "Which of the following is correct regarding the techniques used to improve the performance of a Foundation Model (FM)?\n\nFine-tuning does not change the weights of the FM whereas Retrieval-augmented generation (RAG) changes the weights of the FM\n\nNeither Fine-tuning nor Retrieval-augmented generation (RAG) changes the weights of the FM\n\nBoth Fine-tuning and Retrieval-augmented generation (RAG) change the weights of the FM",
+      "options": [
+        "Fine-tuning does not change the weights of the FM whereas Retrieval-augmented generation (RAG) changes the weights of the FM",
+        "Neither Fine-tuning nor Retrieval-augmented generation (RAG) changes the weights of the FM",
+        "Both Fine-tuning and Retrieval-augmented generation (RAG) change the weights of the FM"
+      ],
+      "correct_answers": [
+        "Fine-tuning changes the weights of the FM whereas Retrieval-augmented generation (RAG) does not change the weights of the FM"
+      ],
+      "references": [
+        "https://aws.amazon.com/blogs/machine-learning/best-practices-to-build-generative-ai-applications-on-aws/",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-fine-tuning.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

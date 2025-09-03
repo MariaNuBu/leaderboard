@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A machine learning (ML) engineer is tasked with building an ML model that can help with customer retention. They want a model that can interpret historic records in which customers continued using their service or ultimately ended up leaving. They then want to send the model current customer profile information and have it predict whether that customer is going to leave or stay. They have heard of a few models that can work for this, such as CatBoost and TabTransformer, but they want to get up and running as quickly as possible. Which prebuilt solution template might they select from Amazon SageMaker JumpStart for this solution?",
+      "options": [
+        "Churn prediction",
+        "Personalized recommendations",
+        "Predictive maintenance",
+        "Reinforcement learning (RL)"
+      ],
+      "correct_answers": [
+        "Churn prediction"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

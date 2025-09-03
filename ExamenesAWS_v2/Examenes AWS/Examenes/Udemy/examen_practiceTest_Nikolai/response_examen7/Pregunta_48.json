@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "A machine learning team is building an end-to-end workflow using Amazon SageMaker Pipelines to automate their ML tasks. They want to ensure that their workflow is reusable, scalable, and can handle concurrent execution of multiple machine learning jobs. What key features of SageMaker Pipelines make this possible?\n\nThe integration with SageMaker Studio, which only supports small-scale experimental workflows.\n\nExplicación\nSageMaker Pipelines can scale from small experiments to large-scale production workflows and is integrated with SageMaker Studio for development but not limited to small-scale tasks.\n\nThe ability to manually trigger each step in the pipeline for better control.\n\nExplicación\nSageMaker Pipelines is designed to automate the workflow, so manually triggering each step defeats the purpose of automation.\n\nPre-defined templates for building models with a user-friendly UI but limited scalability.\n\nExplicación\nWhile SageMaker Pipelines provides a user-friendly UI, it is highly scalable and not limited to small-scale tasks.",
+      "options": [
+        "The integration with SageMaker Studio, which only supports small-scale experimental workflows.",
+        "The ability to manually trigger each step in the pipeline for better control.",
+        "Pre-defined templates for building models with a user-friendly UI but limited scalability.",
+        "Directed Acyclic Graph (DAG) representation with automatic step execution and scalability to tens of thousands of concurrent workflows."
+      ],
+      "correct_answers": [
+        "Directed Acyclic Graph (DAG) representation with automatic step execution and scalability to tens of thousands of concurrent workflows."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

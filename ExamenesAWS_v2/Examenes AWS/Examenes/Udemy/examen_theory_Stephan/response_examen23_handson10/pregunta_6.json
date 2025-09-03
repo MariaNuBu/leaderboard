@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "Your organization wants to ensure that a specific instance type is used for all EC2 instances in a particular environment. Which AWS Config feature would you use?",
+      "options": [
+        "AWS Config Rules",
+        "AWS Config Resource Compliance",
+        "AWS Config Aggregator",
+        "AWS Config Snapshot"
+      ],
+      "correct_answers": [
+        "AWS Config Rules"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

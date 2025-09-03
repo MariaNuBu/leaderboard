@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 36,
+      "question": "A company has an ML model that needs to run one time each night to predict stock values. The model input is 3 MB of data that is collected during the current day. The model produces the predictions for the next day. The prediction process takes less than 1 minute to finish running. Which Amazon SageMaker AI deployment option will meet these requirements MOST cost-effectively?",
+      "options": [
+        "Use a multi-model serverless endpoint. Enable caching.",
+        "Use an asynchronous inference endpoint. Set the InitialInstanceCount parameter to 0.",
+        "Use a real-time endpoint. Configure an auto scaling policy to scale the model to 0 when the model is not in use.",
+        "Use a serverless inference endpoint. Set the MaxConcurrency parameter to 1."
+      ],
+      "correct_answers": [
+        "Use a serverless inference endpoint. Set the MaxConcurrency parameter to 1."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A real estate company is working on a machine learning project where the goal is to predict housing prices. The team has a dataset that contains information on the number of bedrooms, the square footage, and the locations of different houses. Before building a machine learning model, the team wants to prepare and transform the data.\n\nWhich data preparation technique could convert values for the home's location (with values of urban, suburban, and rural) into numeric representations that can be fed into a machine learning algorithm?",
+      "options": [
+        "Data cleaning",
+        "Feature engineering",
+        "Categorical encoding",
+        "Dimensionality reduction"
+      ],
+      "correct_answers": [
+        "Categorical encoding"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

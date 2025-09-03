@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "An ML engineer needs to optimize features to train ML models.\n\nSelect the correct feature engineering technique from the following list for each use case. Each feature engineering technique should be selected one time or not at all. (Select THREE.)\n\nBinning\nFeature splitting\nLogarithm transformation\nText featurization\n\nChange a variable that has a skewed distribution to create a more normal distribution.\n\nConvert a feature such as a date into individual features of year, month, and day.\n\nConvert numeric variables into categorical variables by dividing the range into groups.",
+      "options": [
+        "Binning",
+        "Feature splitting",
+        "Logarithm transformation",
+        "Text featurization"
+      ],
+      "correct_answers": [
+        "Logarithm transformation",
+        "Feature splitting",
+        "Binning"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

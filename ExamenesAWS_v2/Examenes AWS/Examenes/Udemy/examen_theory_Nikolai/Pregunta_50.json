@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "A machine learning engineer is using AWS Glue's interactive sessions to develop ETL scripts. To manage costs effectively, what practice should be followed?\n\nRun interactive sessions continuously to avoid restart costs.\n\nExplicación\nRunning sessions continuously can lead to higher costs due to prolonged resource usage.",
+      "options": [
+        "Run interactive sessions continuously to avoid restart costs.",
+        "Ensure interactive sessions have a defined idle timeout.",
+        "Always use the maximum number of DPUs for each session.",
+        "Disable all idle timeouts for continuous operation."
+      ],
+      "correct_answers": [
+        "Ensure interactive sessions have a defined idle timeout."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

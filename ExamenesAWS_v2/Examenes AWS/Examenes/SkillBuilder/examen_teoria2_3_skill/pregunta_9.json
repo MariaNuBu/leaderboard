@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "Which hyperparameter tuning method is best for finding optimum hyperparameter values with limited compute resources?",
+      "options": [
+        "Manual selection",
+        "Grid search",
+        "Random search",
+        "Hyperband"
+      ],
+      "correct_answers": [
+        "Hyperband"
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

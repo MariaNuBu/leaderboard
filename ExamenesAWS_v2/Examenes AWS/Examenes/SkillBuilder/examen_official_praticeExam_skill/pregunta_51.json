@@ -1,0 +1,17 @@
+{
+  "id": 51,
+  "question": "A company uses AWS provided libraries during Amazon SageMaker AI training jobs. The SageMaker AI domain is configured to use public subnets. The company does not want SageMaker AI to collect metadata about the use of the AWS provided libraries.\n\nWhat should the company do to prevent SageMaker AI from collecting the metadata?",
+  "options": [
+    "Set the OPT_OUT_TRACKING environment variable to 1 in the SageMaker AI CreateTrainingJob API.",
+    "Set the subnet used by SageMaker AI to be private by using the VpcConfig option in the CreateTrainingJob API.",
+    "Set the OPT_OUT_TRACKING environment variable to 0 in the SageMaker AI CreateTrainingJob API.",
+    "Disable the use of a VPC from SageMaker AI by using the VpcConfig option in the CreateTrainingJob API."
+  ],
+  "correct_answers": [
+    "Set the OPT_OUT_TRACKING environment variable to 1 in the SageMaker AI CreateTrainingJob API."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

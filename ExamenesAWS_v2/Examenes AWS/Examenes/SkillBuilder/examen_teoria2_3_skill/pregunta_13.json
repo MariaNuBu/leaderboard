@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A machine learning engineer must make sure that catastrophic forgetting doesn’t occur during model fine-tuning. Which technique would help them identify catastrophic forgetting because of a drop in model performance?",
+      "options": [
+        "Plot the model’s performance over time, and then look for significant decreases in performance on specific tasks after fine-tuning with new data.",
+        "Re-train the model frequently on new data to make sure it doesn’t forget previously learned knowledge.",
+        "Use a small validation set that only contains the most recent examples.",
+        "Monitor the model’s loss function during training for any increases."
+      ],
+      "correct_answers": [
+        "Plot the model’s performance over time, and then look for significant decreases in performance on specific tasks after fine-tuning with new data."
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

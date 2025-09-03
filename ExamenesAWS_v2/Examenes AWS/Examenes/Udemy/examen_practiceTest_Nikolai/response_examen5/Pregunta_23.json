@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A data scientist is building a fraud detection model using Amazon SageMaker. The dataset is highly imbalanced, with only 2% of the data representing fraudulent cases. The scientist wants to ensure the model can effectively detect fraud while minimizing false negatives.\n\nWhich techniques should the scientist use to handle this issue? (Choose TWO.)\n\nTrain the model on the original dataset and rely on evaluation metrics for adjustments.\n\nExplicación\nTraining on the original dataset without adjustments can lead to a biased model that underperforms on the minority class.\n\nUse Amazon SageMaker Random Cut Forest (RCF) algorithm for anomaly detection.\n\nExplicación\nRandom Cut Forest is used for anomaly detection but may not be effective for structured fraud detection tasks.\n\nPerform dimensionality reduction to reduce the number of features and make the dataset more manageable.\n\nExplicación\nDimensionality reduction does not directly address class imbalance and may lead to the loss of important features.",
+      "options": [
+        "Train the model on the original dataset and rely on evaluation metrics for adjustments.",
+        "Use Amazon SageMaker Random Cut Forest (RCF) algorithm for anomaly detection.",
+        "Perform dimensionality reduction to reduce the number of features and make the dataset more manageable.",
+        "Use weighted loss functions during training to penalize misclassification of the minority class.",
+        "Use oversampling techniques, such as SMOTE, to balance the dataset."
+      ],
+      "correct_answers": [
+        "Use weighted loss functions during training to penalize misclassification of the minority class.",
+        "Use oversampling techniques, such as SMOTE, to balance the dataset."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

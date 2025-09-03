@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "When evaluating a model, you notice that it performed poorly on both the training set and the validation set. You recognize this an an underfit model. Which regularization setting adjustment should you consider when rerunning the training job.",
+      "options": [
+        "Use early stopping",
+        "Increase L1 regularization",
+        "Increase L2 regularization",
+        "Decrease L2 regularization"
+      ],
+      "correct_answers": [
+        "Decrease L2 regularization"
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

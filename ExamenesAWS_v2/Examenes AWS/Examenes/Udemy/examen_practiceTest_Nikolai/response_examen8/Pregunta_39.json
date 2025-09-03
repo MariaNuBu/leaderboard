@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 39,
+      "question": "A financial firm is using Amazon SageMaker to develop a reinforcement learning (RL) model for optimizing portfolio management. The agent is tasked with adjusting the portfolio by buying, selling, or holding assets in a fluctuating market. To ensure the agent maximizes the long-term return while minimizing risk, how should the reward function be structured?",
+      "options": [
+        "The reward function should penalize any change in the portfolio and reward only large gains in asset value.",
+        "The reward function should reward every transaction made by the agent to encourage exploration of different strategies.",
+        "The reward function should provide small rewards for gains in asset value and larger penalties for significant losses, to encourage both risk management and profit maximization.",
+        "The reward function should only reward short-term profit increases, ensuring the agent takes immediate action for portfolio growth."
+      ],
+      "correct_answers": [
+        "The reward function should provide small rewards for gains in asset value and larger penalties for significant losses, to encourage both risk management and profit maximization."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

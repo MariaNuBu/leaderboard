@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A machine learning team for a fitness company is building a model to assess customer workout statistics. The team needs to access data from multiple Amazon Elastic Compute Cloud (EC2) instances.\n\nWhich AWS storage option should the machine learning team choose to store the customer workout data that needs to be accessed from multiple EC2 instances?",
+      "options": [
+        "Amazon Glacier",
+        "Amazon Elastic File System",
+        "Amazon Simple Storage Service",
+        "Amazon Elastic Block Store"
+      ],
+      "correct_answers": [
+        "Amazon Elastic File System"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

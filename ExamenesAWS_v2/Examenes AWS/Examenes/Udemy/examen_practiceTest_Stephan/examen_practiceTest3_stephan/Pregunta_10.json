@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "A logistics company needs to deploy a custom ML model for daily demand forecasting. The workload is predictable and occurs within a 90-minute window each day. During this period, multiple concurrent invocations are expected, requiring low-latency responses. The company prefers minimal involvement in infrastructure maintenance or configuration. The company wants AWS to manage the underlying infrastructure and auto scaling functionality.\n\nWhich is a cost-effective solution to meet these requirements?",
+      "options": [
+        "Deploy the model using Amazon SageMaker Serverless Inference with provisioned concurrency",
+        "Deploy the model using Amazon SageMaker Asynchronous Inference with auto scaling",
+        "Deploy the model on Amazon Elastic Compute Cloud (EC2) instance using SageMaker Python SDK. This spins up a managed endpoint with multiple EC2 instances. Each instance has a webserver that provides low-latency responses to the requests",
+        "Deploy the model using Amazon SageMaker Real-time Inference with auto scaling"
+      ],
+      "correct_answers": [
+        "Deploy the model using Amazon SageMaker Serverless Inference with provisioned concurrency"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/async-inference-autoscale.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-prerequisites.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-policy.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

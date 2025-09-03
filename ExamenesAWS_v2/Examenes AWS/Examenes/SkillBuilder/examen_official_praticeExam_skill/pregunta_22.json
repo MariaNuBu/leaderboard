@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "A company wants to develop an ML model by using tabular data from its customers. The data contains meaningful ordered features with sensitive information that should not be discarded. An ML engineer must ensure that the sensitive data is masked before another team starts to build the model.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use Amazon Macie to categorize the sensitive data.",
+        "Prepare the data by using AWS Glue DataBrew.",
+        "Run an AWS Batch job to change the sensitive data to random values.",
+        "Run an Amazon EMR job to change the sensitive data to random values."
+      ],
+      "correct_answers": [
+        "Prepare the data by using AWS Glue DataBrew."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

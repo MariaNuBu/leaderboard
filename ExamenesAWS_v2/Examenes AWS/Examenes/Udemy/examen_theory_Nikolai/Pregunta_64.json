@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A healthcare company uses Amazon SageMaker to train machine learning models for patient diagnostics.\nDue to strict regulatory requirements, they must ensure the security of both their training data and deployed models.\nThey also need to continuously monitor the model's predictions for accuracy and automatically retrain the model if accuracy declines over time.\nAdditionally, they must track access to the model and ensure that sensitive patient data is encrypted.\nWhich combination of AWS services will best meet these security and monitoring requirements? (Choose three.)",
+      "options": [
+        "AWS Secrets Manager to securely store the model’s hyperparameters",
+        "Amazon SageMaker Model Monitor to track the model's prediction accuracy",
+        "AWS CloudTrail to log access and actions performed on the model",
+        "AWS Glue for encrypting data during preprocessing",
+        "Amazon GuardDuty to protect against unauthorized access to the model",
+        "AWS Key Management Service (KMS) for encrypting training data and model artifacts"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Model Monitor to track the model's prediction accuracy",
+        "AWS CloudTrail to log access and actions performed on the model",
+        "AWS Key Management Service (KMS) for encrypting training data and model artifacts"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

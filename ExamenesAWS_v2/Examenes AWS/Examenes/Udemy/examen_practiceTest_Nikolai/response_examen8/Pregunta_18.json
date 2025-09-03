@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A company is setting up an AI-powered assistant using Amazon Q Business to streamline internal operations. They want to generate summaries of meetings and ensure that the assistant can retrieve relevant information from a knowledge base to provide accurate responses.\nWhat key feature of Amazon Business should be implemented to meet these requirements?",
+      "options": [
+        "Use the Retrieval Augmented Generation (RAG) system to pull information from the knowledge base.",
+        "Set up a custom plugin to generate responses based on Jira tickets.",
+        "Deploy the assistant with access to only Amazon S3 as the primary data source.",
+        "Disable the knowledge base integration to ensure faster response times."
+      ],
+      "correct_answers": [
+        "Use the Retrieval Augmented Generation (RAG) system to pull information from the knowledge base."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 - "
+    }
+  ]
+}

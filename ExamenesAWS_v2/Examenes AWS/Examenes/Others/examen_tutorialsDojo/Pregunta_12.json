@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "TOPIC: MLA – ML Solution Monitoring, Maintenance, and Security\nA finance company recently moved its on-premises application to AWS, using Amazon EC2 for hosting, Amazon RDS for database management, and Amazon S3 for data storage. The company wants to leverage machine learning to analyze log data from various AWS resources that they are using.\n\nWhich AWS service would best support these requirements?\n\nAmazon CloudWatch Logs Insights\nAWS Config\nAWS CloudTrail\nAmazon Managed Grafana",
+      "options": [
+        "Amazon CloudWatch Logs Insights",
+        "AWS Config",
+        "AWS CloudTrail",
+        "Amazon Managed Grafana"
+      ],
+      "correct_answers": [
+        "Amazon CloudWatch Logs Insights"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html",
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+        "https://docs.aws.amazon.com/decision-guides/latest/monitoring-on-aws-how-to-choose/monitoring-on-aws-how-to-choose.html",
+        "https://tutorialsdojo.com/amazon-cloudwatch/"
+      ],
+      "topic": "MLA – ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://portal.tutorialsdojo.com/courses/free-aws-certified-machine-learning-engineer-associate-practice-exams-mla-c01-sampler/",
+      "Practice test": "FREE AWS Certified Machine Learning Engineer Associate Practice Exam – Sampler"
+    }
+  ]
+}

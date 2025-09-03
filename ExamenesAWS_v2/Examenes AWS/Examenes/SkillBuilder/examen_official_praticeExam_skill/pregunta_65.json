@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "A financial services company is migrating its data science environment to an Amazon SageMaker Studio domain. The data necessary for exploratory analysis is already stored in an Amazon S3 bucket. All network traffic must stay in the company's private network. The company must configure the SageMaker Studio domain and networking environment.\n\nWhich combination of steps will meet these requirements? (Select TWO.)",
+      "options": [
+        "Create the SageMaker Studio domain in VPC only mode.",
+        "Create the SageMaker Studio domain with the EnableNetworkIsolation parameter set to True.",
+        "Use a NAT gateway to run SageMaker Studio and to access the data in Amazon S3.",
+        "Use interface VPC endpoints to run SageMaker Studio and to access the data in Amazon S3.",
+        "Use a public subnet to run SageMaker Studio and to access the data in Amazon S3."
+      ],
+      "correct_answers": [
+        "Create the SageMaker Studio domain in VPC only mode.",
+        "Use interface VPC endpoints to run SageMaker Studio and to access the data in Amazon S3."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

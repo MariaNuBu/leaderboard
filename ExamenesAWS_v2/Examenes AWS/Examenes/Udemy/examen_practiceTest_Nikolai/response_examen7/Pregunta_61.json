@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "A financial institution's machine learning model in production shows a significant drop in prediction accuracy over the last month. Upon investigation, the data science team suspects that the real-world data used for inference has shifted from the training dataset. They want to continuously monitor the quality of the input data to ensure it meets the expected constraints.\n\nWhich steps should the team take to monitor the data quality using Amazon SageMaker Model Monitor? (Select TWO)",
+      "options": [
+        "Enable data capture on the SageMaker endpoint to store incoming requests and predictions.",
+        "Use AWS CloudTrail to log and evaluate prediction errors.",
+        "Define a baseline of the training data to set expected statistical properties.",
+        "Set up a batch transform job to retrain the model when data drift is detected.",
+        "Manually review each data point for drift after the model has made predictions."
+      ],
+      "correct_answers": [
+        "Enable data capture on the SageMaker endpoint to store incoming requests and predictions.",
+        "Define a baseline of the training data to set expected statistical properties."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

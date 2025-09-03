@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You are designing an ML system that must be able to scale during high traffic and ensure that model predictions are delivered within a set latency threshold. Which SageMaker deployment strategy should you consider?",
+      "options": [
+        "Blue/Green deployment",
+        "A/B Testing",
+        "Multi-Model endpoint",
+        "Real-Time inference with Auto-scaling"
+      ],
+      "correct_answers": [
+        "Real-Time inference with Auto-scaling"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling.html"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 42,
+      "question": "Which of the following best describes a trust policy in AWS IAM?",
+      "options": [
+        "A policy that specifies which identities (users, services, or accounts) are allowed to assume a role, commonly used for cross-account access.",
+        "A policy attached to a user that allows them to assume roles in different AWS accounts.",
+        "A policy that defines permissions to access AWS resources from external services but only for AWS-managed resources like Lambda functions.",
+        "A policy that defines all actions permitted for an AWS account’s root user."
+      ],
+      "correct_answers": [
+        "A policy that specifies which identities (users, services, or accounts) are allowed to assume a role, commonly used for cross-account access."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

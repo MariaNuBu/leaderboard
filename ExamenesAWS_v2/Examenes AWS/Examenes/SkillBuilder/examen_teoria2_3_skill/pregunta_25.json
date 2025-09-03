@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "You are a data scientist who needs to create a model that will be deployed for an edge computing use case. The model must be small to make efficient use of compute and storage resources. What should you consider to manage model size?",
+      "options": [
+        "Maximize the number of parameters used in your training job so the model can create an efficient representation of the patterns in the training set.",
+        "Only use as many features as needed to achieve the required accuracy.",
+        "Where possible, choose a deep neural network instead of a linear regression model or decision tree.",
+        "Decrease the size of the training set so that it will create a smaller model."
+      ],
+      "correct_answers": [
+        "Only use as many features as needed to achieve the required accuracy."
+      ],
+      "references": [
+        "https://arxiv.org/abs/1803.03635"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

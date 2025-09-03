@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "A machine learning engineer is training a machine learning model to predict housing prices based on various features such as square footage, number of bedrooms, and location. During the training process, they notice that the model's loss is not decreasing with each iteration, and it seems to be stuck at a particular value. What could be the potential reason for this behavior?",
+      "options": [
+        "The batch size is too large, causing the optimizer to converge slowly.",
+        "The number of training epochs is too low, preventing the model from fully learning the patterns in the data.",
+        "The learning rate is too low, causing the optimizer to get stuck in a local minimum.",
+        "The learning rate is too high, causing the optimizer to overshoot the global minimum."
+      ],
+      "correct_answers": [
+        "The learning rate is too low, causing the optimizer to get stuck in a local minimum."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/optimization-choose-algorithm.html"
+      ],
+      "topic": "Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

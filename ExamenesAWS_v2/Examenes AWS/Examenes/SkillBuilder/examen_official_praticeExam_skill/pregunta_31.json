@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "An ML engineer is using Amazon SageMaker AI to build and compare binary classification models for a company. The company needs a model that returns results with the fewest possible false positives. Which algorithm and primary model metric should the ML engineer use to select the model to meet these requirements?",
+      "options": [
+        "Use LightGBM as the algorithm. Use precision as the metric.",
+        "Use CatBoost as the algorithm. Use recall as the metric.",
+        "Use Random Cut Forest (RCF) as the algorithm. Use precision as the metric.",
+        "Use DeepAR forecasting as the algorithm. Use recall as the metric."
+      ],
+      "correct_answers": [
+        "Use LightGBM as the algorithm. Use precision as the metric."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

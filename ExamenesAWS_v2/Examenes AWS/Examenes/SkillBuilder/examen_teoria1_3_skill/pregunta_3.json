@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "Your team is implementing a new machine learning model that requires high-quality data. You decide to use AWS Glue Data Quality to assess the data before training the model. Which capability of AWS Glue Data Quality would be most beneficial in this scenario?",
+      "options": [
+        "Data validation rules",
+        "Data quality monitoring",
+        "Data quality alerting",
+        "Data quality reporting"
+      ],
+      "correct_answers": [
+        "Data validation rules"
+      ],
+      "references": [],
+      "topic": "1.3 Validate Data and Prepare for Modeling",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

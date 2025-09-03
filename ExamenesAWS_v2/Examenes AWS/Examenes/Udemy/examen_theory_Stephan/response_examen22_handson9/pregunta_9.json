@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "To enhance the security of your SageMaker environment, you decide to log and monitor all AP| calls. Which\nAWS service should you use?",
+      "options": [
+        "AWS WAF",
+        "AWS CloudWatch",
+        "AWS CloudTrail",
+        "AWS Shield"
+      ],
+      "correct_answers": [
+        "AWS CloudTrail"
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

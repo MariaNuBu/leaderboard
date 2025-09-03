@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A newly trained machine learning engineer is working on a project that involves extensive experimentation with different algorithms, hyperparameters, and data configurations. Alex wants to ensure that the experimentation process is organized, reproducible, and scalable.\n\nWhich of the following AWS services would be most suitable to streamline the machine learning experimentation workflow?",
+      "options": [
+        "AWS Lambda",
+        "Amazon SageMaker Experiments",
+        "Amazon S3",
+        "Amazon EC2"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Experiments"
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A financial services company needs to monitor its application infrastructure hosted on AWS. The company wants to set up an alarm that triggers an action if the average CPU utilization of their EC2 instances exceeds 80% over a 5-minute period. Additionally, they want to automatically stop the instance if the alarm triggers.\n\nWhich steps should the machine learning engineer take to meet these requirements?",
+      "options": [
+        "Create a CloudWatch alarm to monitor the average CPU utilization of the EC2 instances. Configure the alarm action to stop the instances directly.",
+        "Create a CloudWatch alarm to monitor the average CPU utilization of the EC2 instances. Use the alarm action to trigger an AWS Lambda function that stops the instances.",
+        "Create a CloudWatch alarm to monitor the average CPU utilization of the EC2 instances. Configure an alarm action to send an SNS notification when the alarm state is triggered.",
+        "Create a CloudWatch alarm to monitor the average CPU utilization of the EC2 instances. Use the alarm action to trigger an Auto Scaling policy that stops the instances."
+      ],
+      "correct_answers": [
+        "Create a CloudWatch alarm to monitor the average CPU utilization of the EC2 instances. Configure the alarm action to stop the instances directly."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3 -"
+    }
+  ]
+}

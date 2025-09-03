@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A law firm wants to automate the extraction of key-value pairs from contracts, identify tabular data, and categorize documents for easier searchability using Amazon Textract. What combination of Textract APIs should they use?",
+      "options": [
+        "Analyze Document API for key-value pairs and tables, Analyze ID API for categorization",
+        "Analyze Expenses API for key-value pairs, Analyze ID API for tables, and custom queries for categorization",
+        "Analyze Document API for key-value pairs and tables, and custom queries for document categorization",
+        "Analyze Document API for forms, Analyze Lending Workflow API for tables, and Analyze Expenses API for categorization"
+      ],
+      "correct_answers": [
+        "Analyze Document API for key-value pairs and tables, and custom queries for document categorization"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

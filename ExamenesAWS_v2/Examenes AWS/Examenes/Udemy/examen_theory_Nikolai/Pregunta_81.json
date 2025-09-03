@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 81,
+      "question": "You are tasked with creating a reinforcement learning model in SageMaker to optimize trading strategies for a financial application. What are the key steps you should take to develop and train this model? (Choose Two)",
+      "options": [
+        "Deploy the model to an Amazon RDS instance to scale performance.",
+        "Use AWS Lambda to automatically trigger training when new data is available.",
+        "Define the trading environment, including the state, actions, and reward function.",
+        "Use the SageMaker RL estimator and train the model using local mode for faster prototyping.",
+        "Manually evaluate model performance outside of SageMaker using custom Python scripts."
+      ],
+      "correct_answers": [
+        "Define the trading environment, including the state, actions, and reward function.",
+        "Use the SageMaker RL estimator and train the model using local mode for faster prototyping."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A company wants to deploy into production a new version of its XGBoost ML model for real-time inference. An ML engineer needs to minimize the risk of downtime and ensure a smooth transition. The ML engineer needs to begin with a small fraction of users and gradually shift traffic from the old model to the new model. The gradual shift will provide the opportunity for performance monitoring and quick rollback if necessary.\n\nWhich deployment strategy will meet these requirements?",
+      "options": [
+        "A\nIn-place deployment",
+        "B\nAll-at-once deployment",
+        "C\nCanary deployment",
+        "D\nLinear deployment"
+      ],
+      "correct_answers": [
+        "C\nCanary deployment"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "A machine learning engineer is working on a project that involves sensitive financial data. Which security policy would be MOST appropriate to restrict access to the training data stored in an Amazon Simple Storage Service (Amazon S3) bucket?",
+      "options": [
+        "IAM policy",
+        "Amazon S3 bucket policy",
+        "ML endpoint policy",
+        "Amazon SageMaker Role Manager"
+      ],
+      "correct_answers": [
+        "Amazon S3 bucket policy"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

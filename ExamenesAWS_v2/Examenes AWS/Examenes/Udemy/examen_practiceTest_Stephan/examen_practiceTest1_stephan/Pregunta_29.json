@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "A financial analytics company runs a data aggregation job every Saturday night to process transactional data from the past week. The job is scheduled to run for approximately 2 hours and can tolerate interruptions without impacting the results. The company plans to run this job consistently every weekend for the next 6 months.\n\nWhich EC2 instance purchasing option will meet these requirements MOST cost-effectively?\n\nUse EC2 On-Demand Instances to run the job each weekend for 2 hours, paying only for the compute time consumed\n\nUse EC2 Reserved Instances with a 6-month commitment to ensure lower costs and guaranteed availability",
+      "options": [
+        "Use EC2 On-Demand Instances to run the job each weekend for 2 hours, paying only for the compute time consumed",
+        "Use EC2 Reserved Instances with a 6-month commitment to ensure lower costs and guaranteed availability",
+        "Use EC2 Spot Instances to run the aggregation job, as they provide substantial cost savings and can handle interruptions",
+        "Use EC2 Dedicated Hosts to run the job for full control over the infrastructure and long-term cost efficiency"
+      ],
+      "correct_answers": [
+        "Use EC2 Spot Instances to run the aggregation job, as they provide substantial cost savings and can handle interruptions"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html"
+      ],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A machine learning engineer is responsible for securing the CI/CD pipeline for a critical machine learning application. What is the MOST important reason for implementing secure communication channels throughout the pipeline?",
+      "options": [
+        "Secure communication channels are necessary to protect sensitive data and prevent unauthorized access during the transfer of code, artifacts, and deployment activities in the pipeline.",
+        "Secure communication channels are only required for the deployment stage to ensure the secure transfer of artifacts to production environments.",
+        "Secure communication channels are not necessary if access controls are implemented for each stage of the pipeline.",
+        "Secure communication channels are only relevant for external integrations with third-party applications and services."
+      ],
+      "correct_answers": [
+        "Secure communication channels are necessary to protect sensitive data and prevent unauthorized access during the transfer of code, artifacts, and deployment activities in the pipeline."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

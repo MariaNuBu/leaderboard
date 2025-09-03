@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Topic: 1.1 Ingest and store data.\n\nSelect the correct type of database from the following list to store information for each use case. Each type of database should be selected one or more times. (Select FOUR.)\n\nRelational database\nVector database\nCustomer information (for example, name, address, and phone number) for an online auction website.\n\n Relational database\nText embeddings for retrieval augmented generation (RAG) by using a chatbot.\n\n Vector database\nProduct information for generative AI–powered recommendations on an online shopping website.\n\n Vector database\nMovie and actor information for a film repository website.\n\n Relational database",
+      "options": [
+        "Customer information (for example, name, address, and phone number) for an online auction website. Relational database",
+        "Text embeddings for retrieval augmented generation (RAG) by using a chatbot. Vector database",
+        "Product information for generative AI–powered recommendations on an online shopping website. Vector database",
+        "Movie and actor information for a film repository website. Relational database"
+      ],
+      "correct_answers": [
+        "Customer information (for example, name, address, and phone number) for an online auction website. Relational database",
+        "Text embeddings for retrieval augmented generation (RAG) by using a chatbot. Vector database",
+        "Product information for generative AI–powered recommendations on an online shopping website. Vector database",
+        "Movie and actor information for a film repository website. Relational database"
+      ],
+      "references": [],
+      "topic": "1.1 Ingest and store data.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

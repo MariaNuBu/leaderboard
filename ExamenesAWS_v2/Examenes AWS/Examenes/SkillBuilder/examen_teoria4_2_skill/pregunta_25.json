@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 25,
+      "question": "What is a key feature of Amazon CloudWatch Logs for machine learning (ML) infrastructure monitoring?",
+      "options": [
+        "The capability to integrate CloudWatch Logs with your custom machine learning pipelines",
+        "The Patterns tab on the Logs Insights page to find recurring patterns in your query results",
+        "The option to store your log files in an Amazon S3 bucket for long-term retention",
+        "The ability to automatically scale your EC2 instances based on log anomalies"
+      ],
+      "correct_answers": [
+        "The Patterns tab on the Logs Insights page to find recurring patterns in your query results"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

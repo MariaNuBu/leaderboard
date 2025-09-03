@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "To optimize costs, you want to automatically shut down underutilized EC2 instances. Which CloudWatch feature should you use?",
+      "options": [
+        "CloudWatch Logs",
+        "CloudWatch Metrics",
+        "CloudWatch Dashboards",
+        "CloudWatch Alarms"
+      ],
+      "correct_answers": [
+        "CloudWatch Alarms"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

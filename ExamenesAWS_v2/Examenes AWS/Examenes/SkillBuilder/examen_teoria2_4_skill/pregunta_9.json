@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A data scientist is tasked with creating a performance baseline for a machine learning model. Which of the following approaches should the data scientist take?",
+      "options": [
+        "Train the model on the entire dataset and use the same data to evaluate the model's performance.",
+        "Train multiple complex models on the entire dataset, and use the average of their performances as the baseline.",
+        "Start with a simple model, such as linear regression, and evaluate its performance on a held-out test dataset to establish the baseline.",
+        "Split the dataset randomly into training and test sets and use the test set to establish the baseline performance."
+      ],
+      "correct_answers": [
+        "Start with a simple model, such as linear regression, and evaluate its performance on a held-out test dataset to establish the baseline."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

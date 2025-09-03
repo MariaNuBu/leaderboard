@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "question": "An ML engineer is training a time series forecasting model using a recurrent neural network (RNN) to predict electricity demand for a utility company. The model is trained using stochastic gradient descent (SGD) as the optimizer. During training, the engineer notices the following:\n\nThe training loss and validation loss remain high.\n\nThe loss values oscillate, decreasing for a few epochs and then increasing again before repeating the cycle.\n\nThe ML engineer needs to resolve this issue to stabilize the training process and improve model performance. What should the ML engineer do to improve the training process?\n\nIncrease the number of training epochs to give the model more time to learn the patterns in the data",
+      "options": [
+        "Reduce the learning rate to allow the gradient updates to converge more smoothly and prevent oscillations in the loss values",
+        "Apply dropout regularization to the RNN layers to improve generalization and reduce oscillations in the loss",
+        "Increase the learning rate to allow the gradient updates to converge more smoothly and prevent oscillations in the loss values",
+        "Increase the number of training epochs to give the model more time to learn the patterns in the data"
+      ],
+      "correct_answers": [
+        "Reduce the learning rate to allow the gradient updates to converge more smoothly and prevent oscillations in the loss values"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/machine-learning/latest/dg/training-parameters1.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A clothing company collects customer data from various sources including online transactions, in-store purchases, and customer surveys. This data is stored across different systems and formats. Your team needs to combine all this data into a centralized data lake for analysis.\n\nWhich AWS service can automate extract, transform, and load (ETL) processes, and could help transform and clean this varied data into a standard format?",
+      "options": [
+        "AWS Glue",
+        "AWS Database Migration Service (AWS DMS)",
+        "Amazon SageMaker Ground Truth",
+        "Spark running on Amazon EMR"
+      ],
+      "correct_answers": [
+        "AWS Glue"
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

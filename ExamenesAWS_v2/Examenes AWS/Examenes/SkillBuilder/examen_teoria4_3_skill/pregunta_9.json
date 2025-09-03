@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A machine learning engineer is working on a fraud detection model using Amazon SageMaker. To ensure the security of the project, the engineer must implement proper access controls and logging mechanisms. Which action should the engineer take to achieve this?",
+      "options": [
+        "Create a custom IAM policy that grants his team members read-only access to the SageMaker resources used in the project.",
+        "Enable Amazon CloudWatch to monitor the performance of the SageMaker resources and set up alarms for any unusual activity.",
+        "Configure AWS CloudTrail to log all API calls and actions taken in the SageMaker environment and enable encryption at rest using AWS Key Management Service (AWS KMS).",
+        "Opt out of metadata collection to prevent any data related to the fraud detection model from being shared with AWS."
+      ],
+      "correct_answers": [
+        "Configure AWS CloudTrail to log all API calls and actions taken in the SageMaker environment and enable encryption at rest using AWS Key Management Service (AWS KMS)."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "A telecommunications company uses an Amazon SageMaker ML model to predict customer turnover. The model is an XGBoost tree-based model. The tabular dataset includes both nominal categorical variables and numerical variables. A data scientist must transform the variables so that the data can be analyzed in the SageMaker environment.\n\nWhich solution should the data scientist use to help analyze the data?",
+      "options": [
+        "A\nUse SageMaker to perform label normalization on the numerical variables.",
+        "B\nUse SageMaker Data Wrangler to perform Principal Component Analysis (PCA) on the dataset.",
+        "C\nUse SageMaker to perform data normalization on the numerical variables.",
+        "D\nUse SageMaker Data Wrangler to perform encoding on the categorical variables."
+      ],
+      "correct_answers": [
+        "D\nUse SageMaker Data Wrangler to perform encoding on the categorical variables."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

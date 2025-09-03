@@ -1,0 +1,91 @@
+Pregunta 1:
+A media company wants to automatically generate subtitles for videos in real-time. Which AWS service is best suited for this task?
+Amazon Polly
+Amazon Comprehend
+Amazon Translate
+Amazon Transcribe (Correct)
+
+-----
+
+Pregunta 2:
+Your company needs to perform sentiment analysis on customer feedback provided in various languages.
+Which AWS service would best suit this requirement?
+Amazon Translate
+Amazon Polly
+Amazon Comprehend (Correct)
+Amazon Transcribe
+
+-----
+
+Pregunta 3:
+A financial institution needs to detect fraudulent transactions in real-time using historical transaction data.
+Which AWS service is most appropriate for this use case, while minimizing development effort?
+Amazon Translate
+Amazon Personalize
+Amazon SageMaker
+Amazon Fraud Detector (Correct)
+
+-----
+
+Pregunta 4:
+A developer wants to build an application that can translate customer service chat logs from one language to another in real-time. Which AWS service would be most appropriate?
+Amazon Polly
+Amazon Translate (Correct)
+Amazon Comprehend
+Amazon Lex
+
+-----
+
+Pregunta 5:
+Your team needs to automatically label and classify images uploaded to an S3 bucket. Which AWS service should you use?
+Amazon Comprehend
+Amazon Rekognition (Correct)
+Amazon SageMaker
+Amazon Personalize
+
+-----
+
+Pregunta 6:
+A news organization needs to automatically transcribe live news broadcasts into multiple languages simultaneously. Which combination of AWS services should they use?
+Amazon Polly and Amazon Comprehend
+Amazon Translate and Amazon Polly
+Amazon Transcribe and Amazon Translate (Correct)
+Amazon Rekognition and Amazon Comprehend
+
+-----
+
+Pregunta 7:
+A sports analytics company wants to identify player positions and movements in real-time during live broadcasts. Which AWS service should they utilize, while minimizing development effort?
+Amazon SageMaker
+Amazon Rekognition (Correct)
+Amazon Polly
+Amazon Lex
+
+-----
+
+Pregunta 8:
+You need to redact personally identifiable information (PII) from a large set of documents. Which AWS
+service should you use, while minimizing development and maintenance effort?
+Amazon SageMaker
+Amazon Textract
+Amazon Comprehend (Correct)
+Amazon Rekognition
+
+-----
+
+Pregunta 9:
+A retail company wants to monitor its key business metrics, such as daily sales and customer engagement, to quickly identify any unusual changes. Which AWS service should they use to minimize development effort?
+Amazon Lookout for Metrics (Correct)
+Amazon SageMaker
+Amazon Lookout for Equipment
+Amazon Personalize
+
+-----
+
+Pregunta 10:
+An e-commerce platform wants to prevent "try before you buy" abuse, where users repeatedly purchase items and return them after use. The company has labeled data of previous fraudulent activities. Which
+AWS service should they use to address this issue?
+Amazon Personalize
+Amazon SageMaker
+Amazon Fraud Detector (Correct)
+Amazon Translate.

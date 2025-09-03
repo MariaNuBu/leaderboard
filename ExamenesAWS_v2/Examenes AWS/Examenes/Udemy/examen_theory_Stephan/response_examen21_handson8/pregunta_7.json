@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "Which AWS service is used to orchestrate steps in a machine learning pipeline, such as model training and deployment?",
+      "options": [
+        "AWS Step Functions",
+        "AWS Lambda",
+        "AWS CodePipeline",
+        "Amazon MWAA"
+      ],
+      "correct_answers": [
+        "AWS Step Functions"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html"
+      ],
+      "topic": "MLOps",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496291",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

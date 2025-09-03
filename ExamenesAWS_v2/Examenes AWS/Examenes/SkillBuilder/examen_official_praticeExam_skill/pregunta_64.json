@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 64,
+      "question": "A company deployed an ML model in Amazon SageMaker AI over 6 months ago. The model provides product recommendations. The model contributed to increased sales in the first quarter. In the most recent quarter, the number of customers purchasing the model's recommended products has been steadily declining.\n\nWhich solution can help improve the model’s effectiveness?",
+      "options": [
+        "Re-train the model periodically with new and original data when a significant change in customer data is detected.",
+        "Tune the hyperparameters periodically to reduce model drift.",
+        "Re-train the model periodically with only the original data. Apply regularization to improve prediction accuracy.",
+        "Train a new model with only new data. Use a different ML algorithm to handle model drift."
+      ],
+      "correct_answers": [
+        "Re-train the model periodically with new and original data when a significant change in customer data is detected."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

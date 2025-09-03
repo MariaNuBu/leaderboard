@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 62,
+      "question": "A data scientist is working with a large dataset that cannot fit into the memory of a single machine and decides to use distributed training in Amazon SageMaker. The model is small enough to fit in memory on each worker, but the data is too large for one machine. Which distributed training approach should they use, and how will SageMaker manage the process?\n\nModel parallelism, where the model is split across different workers, and each worker trains a portion of the model.\n\nExplicación\nModel parallelism is used when the model itself is too large to fit into memory, not when the dataset is too large. In this case, the model can fit in memory on each worker.\n\nData parallelism, where the model is divided into smaller components, and each component is trained on a different machine.\n\nExplicación\nIn data parallelism, the dataset, not the model, is split across workers.",
+      "options": [
+        "Model parallelism, where the model is split across different workers, and each worker trains a portion of the model.",
+        "Data parallelism, where the model is divided into smaller components, and each component is trained on a different machine.",
+        "Data parallelism, where the dataset is split into chunks across multiple workers, and each worker trains the same model on its chunk of data.",
+        "Model parallelism, where each worker trains the same data on a subset of the model layers."
+      ],
+      "correct_answers": [
+        "Data parallelism, where the dataset is split into chunks across multiple workers, and each worker trains the same model on its chunk of data."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

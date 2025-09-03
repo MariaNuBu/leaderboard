@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 12,
+      "question": "A recommendation model during training needs access to a redundant and highly available data store. It must securely store images and serve the images during training. Which of the AWS storage options best meets these requirements?",
+      "options": [
+        "Amazon S3",
+        "Amazon Elastic File System (Amazon EFS)",
+        "Amazon Elastic Block Store (Amazon EBS)",
+        "Amazon FSx for Windows File Server"
+      ],
+      "correct_answers": [
+        "Amazon S3"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

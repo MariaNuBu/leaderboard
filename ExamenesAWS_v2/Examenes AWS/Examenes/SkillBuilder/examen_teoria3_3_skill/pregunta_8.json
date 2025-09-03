@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "After verifying the pipeline configuration, the data engineer finds no issues. The Deploy logs show timeout errors when downloading application artifacts from Amazon Simple Storage Service (Amazon S3). In addition, the logs show explicit access denied messages. What should they do next?",
+      "options": [
+        "Validate that the AWS Identity and Access Management (IAM) roles used by AWS CodeDeploy have permissions to access the Amazon S3 artifacts bucket.",
+        "Increase the Deploy timeout setting in AWS CodeDeploy.",
+        "Restart the AWS CodeDeploy agent on the Amazon Elastic Compute Cloud (Amazon EC2) instances.",
+        "Delete all artifacts from Amazon S3 and re-upload them."
+      ],
+      "correct_answers": [
+        "Validate that the AWS Identity and Access Management (IAM) roles used by AWS CodeDeploy have permissions to access the Amazon S3 artifacts bucket."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

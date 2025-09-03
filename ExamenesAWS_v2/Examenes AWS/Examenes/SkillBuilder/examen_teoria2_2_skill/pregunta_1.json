@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A machine learning engineer is training a model for predicting used car prices. What two components are needed to train a model effectively? (Choose TWO.)",
+      "options": [
+        "Loss function",
+        "Optimization technique",
+        "Hyperparameter",
+        "Feature",
+        "Parameter"
+      ],
+      "correct_answers": [
+        "Loss function",
+        "Optimization technique"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

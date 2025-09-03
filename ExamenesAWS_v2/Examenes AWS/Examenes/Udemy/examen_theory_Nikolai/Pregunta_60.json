@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 60,
+      "question": "A data scientist wants to monitor and troubleshoot the training of an XGBoost model on Amazon SageMaker to ensure there are no disappearing gradients or overfitting. Which combination of services and steps should the data scientist implement?\n\nSet up AWS CloudWatch Alarms to detect vanishing gradients and automate hyperparameter tuning\n\nExplicación\nAWS CloudWatch Alarms monitor system performance, but Debugger handles training issues like vanishing gradients.\n\nIntegrate AWS Glue to transform data during training and track overfitting issues\n\nExplicación\nAWS Glue is for data processing, not training monitoring or debugging.\n\nUse AWS CloudTrail to monitor model metrics and Amazon Athena to query training logs\n\nExplicación\nAWS CloudTrail and Athena are not suitable for real-time model training debugging.",
+      "options": [
+        "Set up AWS CloudWatch Alarms to detect vanishing gradients and automate hyperparameter tuning",
+        "Integrate AWS Glue to transform data during training and track overfitting issues",
+        "Use AWS CloudTrail to monitor model metrics and Amazon Athena to query training logs",
+        "Enable real-time debugging with SageMaker Debugger and set up built-in rules for gradient vanishing detection"
+      ],
+      "correct_answers": [
+        "Enable real-time debugging with SageMaker Debugger and set up built-in rules for gradient vanishing detection"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

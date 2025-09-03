@@ -1,0 +1,100 @@
+Pregunta 1:
+You are developing a customer support chatbot using Amazon Bedrock. The chatbot needs to respond accurately to specific customer inquiries using recent company data. Which approach would be most effective for this scenario?
+• Fine-tuning the foundational model with proprietary data.
+• Using Retrieval-Augmented Generation (RAG) with a vector database.
+Manually coding responses for common inquiries.
+• Relying on pre-trained models without any modifications.
+
+----
+
+Pregunta 2:
+You are using Amazon Bedrock to build an Al system for generating marketing content. The system must ensure the content generated adheres to brand guidelines and avoids inappropriate language. Which feature of Amazon Bedrock would best serve this purpose?
+• Content filtering guardrails. (Correct)
+• Fine-tuning with labeled data.
+• RAG with an up-to-date database.
+• Integrating SageMaker Canvas.
+
+----
+
+
+Pregunta 3:
+You're implementing a customer query system that uses Amazon Bedrock's LLM agents. The agent needs to use both a knowledge base and an external API for retrieving real-time data. How should you structure the agent to meet these requirements?
+Create a single action group combining the knowledge base and the API.
+Use separate action groups for the knowledge base and API, guiding the LLM on when to use each. (Correct)
+Hardcode the API calls within the LLM prompt.
+Train the LLM to handle both tasks without external action groups.
+
+
+----
+
+Pregunta 4:
+While working with Amazon Bedrock, you need to frequently update your knowledge base with new company policies. What is the most efficient way to handle this?
+Fine-tuning the model every time a policy changes.
+Manually adding new policies to the LLM's training dataset.
+Using SageMaker Canvas to modify the model.
+Updating the vector database used for Retrieval-Augmented Generation (RAG). (Correct)
+
+----
+
+Pregunta 5:
+When setting up a new LLM agent in Amazon Bedrock, you want it to dynamically decide which tool to use based on the user's query. Which component is responsible for guiding the LLM in making this decision?
+Action Groups (Correct)
+Vector Database
+SageMaker Canvas
+Knowledge Base
+
+----
+
+Pregunta 6:
+You're working on a Bedrock model that needs to incorporate sensitive customer data during fine-tuning. What steps should you take to ensure the security of this data?
+Use a VPC and PrivateLink for data transfer during fine-tuning. (Correct)
+Encrypt the data using Amazon KMS and then fine-tune the model.
+Ensure data is anonymized before fine-tuning.
+Use SageMaker Canvas to fine-tune the model in a secure environment.
+
+----
+
+Pregunta 7:
+Your team is planning to deploy a generative Al model in a serverless environment using Amazon Bedrock.
+What advantage does this provide?
+Increased control over the underlying hardware.
+Lower latency in model inference.
+Automatic scaling without managing infrastructure. (Correct)
+Ability to use custom GPU configurations.
+
+----
+
+Pregunta 7:
+Your team is planning to deploy a generative Al model in a serverless environment using Amazon Bedrock.
+What advantage does this provide?
+• Increased control over the underlying hardware.
+• Lower latency in model inference.
+• Automatic scaling without managing infrastructure.
+• Ability to use custom GPU configurations.
+
+----
+
+Pregunta 8:
+You are tasked with deploying a Bedrock model that requires high availability and low-latency responses. Which deployment option should you choose?
+Provisioned Throughput (Correct)
+On-Demand Throughput
+Serverless Deployment
+Model Evaluation with high availability settings
+
+----
+
+Pregunta 9:
+You are creating a custom model in Amazon Bedrock that will require additional training data. What type of training should you use if the data is not labeled?
+Fine-Tuning
+RAG-based Retrieval
+Action Group Training
+Continued Pre-Training (Correct)
+
+----
+
+Pregunta 10:
+Your company wants to deploy a Bedrock-based Al system with the ability to write and execute Python code as part of its responses. Which feature should be enabled?
+Action Groups with a Code Interprete (Correct)
+Model Evaluation for code execution
+Knowledge Base with embedded Python scripts
+RAG with integrated code modules

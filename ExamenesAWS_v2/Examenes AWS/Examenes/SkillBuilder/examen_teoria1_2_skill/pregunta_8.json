@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "A company is building a machine learning model to predict credit risk. One of the features in the dataset is LoanAmount, which is likely to contain a few outliers.\n\nWhich feature engineering technique is a good method for engineering this numeric feature before model training?",
+      "options": [
+        "Take the log transform of the values to help normalize distribution.",
+        "Leave the values unchanged.",
+        "Take the mean of all values.",
+        "Use one-hot encoding to sort the values."
+      ],
+      "correct_answers": [
+        "Take the log transform of the values to help normalize distribution."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

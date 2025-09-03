@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "What is the primary benefit of using Amazon SageMaker Model Monitor?",
+      "options": [
+        "Automating the re-training of your learning (ML) models",
+        "Providing detailed cost analysis for machine learning (ML) infrastructure",
+        "Continuously monitoring the quality of machine learning (ML) models in production",
+        "Generating custom metrics and dashboards for machine learning (ML) workloads"
+      ],
+      "correct_answers": [
+        "Continuously monitoring the quality of machine learning (ML) models in production"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

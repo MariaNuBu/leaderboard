@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A large language model (LLM) for natural language processing (NLP) will be deployed. The model requires fast Network File System (NFS) access to a large dataset from multiple instances. Which AWS storage option is best suited for storing the data during training?",
+      "options": [
+        "Amazon FSx for Lustre",
+        "Amazon Elastic Block Store (Amazon EBS)",
+        "Amazon S3",
+        "Amazon EFS"
+      ],
+      "correct_answers": [
+        "Amazon EFS"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

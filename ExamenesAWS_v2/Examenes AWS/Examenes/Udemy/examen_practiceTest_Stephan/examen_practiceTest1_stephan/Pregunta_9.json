@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 9,
+      "question": "A company stores its training datasets on Amazon S3 in the form of tabular data running into millions of rows.\nThe company needs to prepare this data for Machine Learning jobs.\nThe data preparation involves data selection, cleansing, exploration, and visualization using a single visual interface.\n\nWhich Amazon SageMaker service is the best fit for this requirement?",
+      "options": [
+        "Amazon SageMaker Feature Store",
+        "Amazon SageMaker Clarify",
+        "Amazon SageMaker Data Wrangler",
+        "SageMaker Model Dashboard"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker Data Wrangler"
+      ],
+      "references": [
+        "https://aws.amazon.com/sagemaker/data-wrangler/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

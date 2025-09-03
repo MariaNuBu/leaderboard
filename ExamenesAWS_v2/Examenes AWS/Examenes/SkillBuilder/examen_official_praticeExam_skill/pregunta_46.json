@@ -1,0 +1,17 @@
+{
+  "id": 46,
+  "question": "A company has deployed an image classification ML model. The company improves the existing model's accuracy.\n\nAn ML engineer needs to validate the model upgrade in a production environment. The ML engineer must not change the existing production endpoint and must not expose end users to the upgraded model.\n\nWhich solution will meet these requirements?",
+  "options": [
+    "Deploy the upgraded model as a production variant. Join the production model and the production variant behind a unique endpoint.",
+    "Deploy the upgraded model as a production variant. Split the production model and the production variant between two endpoints.",
+    "Deploy the upgraded model as a shadow variant. Join the production model and the shadow variant behind a unique endpoint.",
+    "Deploy the upgraded model as a shadow variant. Split the production model and the shadow variant between two endpoints."
+  ],
+  "correct_answers": [
+    "Deploy the upgraded model as a shadow variant. Join the production model and the shadow variant behind a unique endpoint."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "During peak usage, your Kinesis Data Streams application is experiencing throttling errors. Which of the following actions should you take to resolve this issue?",
+      "options": [
+        "Increase the number of shards",
+        "Decrease the retention period",
+        "Use S3 Glacier for storage",
+        "Disable encryption"
+      ],
+      "correct_answers": [
+        "Increase the number of shards"
+      ],
+      "topic": "Data Ingestion and Storage",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496015#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

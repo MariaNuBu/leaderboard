@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 65,
+      "question": "A data scientist is running an Amazon SageMaker Studio notebook. The code relies on credentials that are stored in AWS Secrets Manager. The data scientist wants to grant least privilege access.\n\nWhich action will allow access programmatically?",
+      "options": [
+        "A\nAdd a permission boundary to the role that executes the SageMaker Studio notebook.",
+        "B\nAdd a service control policy (SCP) to the role that executes the SageMaker Studio notebook.",
+        "C\nAdd an inline policy to the execution role of the SageMaker Studio domain.",
+        "D\nAdd an inline policy to the IAM user of the data scientist that accesses the SageMaker Studio notebook."
+      ],
+      "correct_answers": [
+        "C\nAdd an inline policy to the execution role of the SageMaker Studio domain."
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS Resources",
+      "Source": "",
+      "Practice test": "Official Pretest: AWS Certified Machine Learning Engineer - Associate"
+    }
+  ]
+}

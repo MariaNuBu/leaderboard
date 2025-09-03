@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A data science team has developed a new ML model to predict customer churn. They would like to deploy this model to production as soon as possible to start benefiting the business. However, they are concerned about the risks associated with manual deployment processes and want to ensure the model is thoroughly tested before going live. Which CI/CD principle would be most beneficial to incorporate into the ML workflow to address this team's concerns?",
+      "options": [
+        "Continuous integration",
+        "Collaboration",
+        "Monitoring and feedback",
+        "Continuous deployment"
+      ],
+      "correct_answers": [
+        "Continuous integration"
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "Which step should an ML engineer take using Amazon SageMaker Clarify to evaluate a binary classification model for explainability?",
+      "options": [
+        "Use the SageMaker Clarify model explainability feature to identify the most influential features for the model's predictions.",
+        "Retrain the model using SageMaker Clarify to remove any potential bias.",
+        "Use the SageMaker Clarify bias detection feature to analyze the model's inputs, outputs, and metadata against known protected variables.",
+        "Use SageMaker Clarify to automatically fix any detected bias in the model."
+      ],
+      "correct_answers": [
+        "Use the SageMaker Clarify model explainability feature to identify the most influential features for the model's predictions."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-explain.html"
+      ],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

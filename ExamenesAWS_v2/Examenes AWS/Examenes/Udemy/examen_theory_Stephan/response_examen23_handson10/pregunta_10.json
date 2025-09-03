@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "Your team uses Amazon QuickSight for business analytics. You want to enable anomaly detection on sales data to automatically identify unusual spikes in sales. Which feature of QuickSight should you use?",
+      "options": [
+        "SPICE",
+        "AutoGraph",
+        "Machine Learning Insights",
+        "QuickSight Q"
+      ],
+      "correct_answers": [
+        "Machine Learning Insights"
+      ],
+      "references": [],
+      "topic": "Management and Governance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496335",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A company wants to delegate the creation of its ML models to an ML startup. The company plans to provide the training data that is currently stored on Amazon S3 to the startup. The startup already uses Amazon S3 as a storage solution within its AWS account. Access to the data is required both programmatically and through the AWS Management Console.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Create a resource-based bucket policy in the ML startup's AWS account.",
+        "Create a role in the company's AWS account. Assume this IAM role from the ML startup's AWS account.",
+        "Set up AWS Organizations in the company's account and add the ML startup's account to an existing organizational unit (OU) in the organization.",
+        "Create an ACL in the company's AWS account."
+      ],
+      "correct_answers": [
+        "Create a role in the company's AWS account. Assume this IAM role from the ML startup's AWS account."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "",
+      "Practice test": "Official Practice Question Set: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "A nonprofit company runs a local food bank and wants to use machine learning (ML) to better predict how much food they will need to stock their pantry each month. Before building any models, they know it is important to prepare and clean their historical data on food donations and distributions.\n\nWhy is data cleaning and transformation an important step for this company\u2019s ML workload?",
+      "options": [
+        "Data cleaning transforms the data into a standardized format and handles missing values. This consistent and complete data helps machine learning models make accurate predictions.",
+        "Without cleaning and transforming their historical data, the company\u2019s ML model will not process the data at all.",
+        "Data cleaning is unimportant. The models will learn the patterns in the data regardless of small errors.",
+        "The company should skip cleaning the data and go straight to building models. The deep learning algorithms can handle messy data without any preparation."
+      ],
+      "correct_answers": [
+        "Data cleaning transforms the data into a standardized format and handles missing values. This consistent and complete data helps machine learning models make accurate predictions."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

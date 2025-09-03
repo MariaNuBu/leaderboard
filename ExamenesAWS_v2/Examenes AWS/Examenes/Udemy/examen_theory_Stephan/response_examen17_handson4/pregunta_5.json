@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "Which SageMaker algorithm is used to organize documents into topics in an unsupervised manner?",
+      "options": [
+        "LDA",
+        "BlazingText",
+        "IP Insights",
+        "Object2Vec"
+      ],
+      "correct_answers": [
+        "LDA"
+      ],
+      "references": [],
+      "topic": "SageMaker Built-In Algorithms",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496161#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

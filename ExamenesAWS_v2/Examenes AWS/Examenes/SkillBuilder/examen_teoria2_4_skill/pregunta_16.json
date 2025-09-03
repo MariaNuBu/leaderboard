@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "As a machine learning associate, which of the following statements accurately describe the benefits of using Amazon SageMaker Experiments? (Select TWO.)",
+      "options": [
+        "SageMaker Experiments automatically deploys your best-performing model to production, eliminating the need for manual deployment.",
+        "SageMaker Experiments is only compatible with machine learning frameworks developed by AWS, and cannot be used with third-party libraries or languages.",
+        "SageMaker Experiments allows you to organize, view, analyze, and compare iterative machine learning experiments, making it easier to manage and gain insights from your experimentation workflow.",
+        "SageMaker Experiments automatically tracks the inputs, parameters, configurations, and results of your machine learning experiments, enabling reproducibility and auditing.",
+        "SageMaker Experiments automatically selects the best hyperparameters for your machine learning model, eliminating the need for manual tuning."
+      ],
+      "correct_answers": [
+        "SageMaker Experiments allows you to organize, view, analyze, and compare iterative machine learning experiments, making it easier to manage and gain insights from your experimentation workflow.",
+        "SageMaker Experiments automatically tracks the inputs, parameters, configurations, and results of your machine learning experiments, enabling reproducibility and auditing."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/experiments.html"
+      ],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

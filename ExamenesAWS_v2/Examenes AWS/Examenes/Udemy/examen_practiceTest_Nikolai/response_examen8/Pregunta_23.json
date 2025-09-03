@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "A data scientist is using AWS Lambda to preprocess incoming JSON data from an IoT device stream. The Lambda function needs to validate the data, enrich it by calling an external API, and forward the processed data to an Amazon Kinesis stream for further machine learning processing. The solution should be cost-effective, minimize latency, and ensure the Lambda function does not exceed its timeout limit during the API call.\n\nWhich of the following approaches should the data scientist take?",
+      "options": [
+        "Use AWS Lambda with asynchronous invocation to call the external API, validate the data, and forward the processed data to Kinesis.",
+        "Use AWS Lambda with the built-in AWS SDK to call the external API synchronously, validate the data, and send the result to Kinesis.",
+        "Use AWS Step Functions to manage the workflow, including the API call and data validation, and then use a separate Lambda function to forward data to Kinesis.",
+        "Use Lambda to invoke an AWS Fargate container for handling the external API call, and forward the enriched data to Kinesis from the Lambda function after validation."
+      ],
+      "correct_answers": [
+        "Use AWS Step Functions to manage the workflow, including the API call and data validation, and then use a separate Lambda function to forward data to Kinesis."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6615561/result/1592040951",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 4 -"
+    }
+  ]
+}

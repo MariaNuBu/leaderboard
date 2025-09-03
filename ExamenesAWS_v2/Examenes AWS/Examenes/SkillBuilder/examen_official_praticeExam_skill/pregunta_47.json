@@ -1,0 +1,17 @@
+{
+  "id": 47,
+  "question": "A company's data scientists are using Amazon SageMaker Studio to train and implement new ML models. The company needs to allocate costs for each user. The company decides to create a report in AWS Cost Explorer that details daily costs with a tag filter.\n\nHow should the company configure the report to provide the required information with the LEAST operational overhead?",
+  "options": [
+    "Activate the following cost allocation tag: sagemaker:<user-profile-arn>. Wait 24–48 hours for tags to show up in the cost allocation tag panel.",
+    "Activate the following cost allocation tag: sagemaker:<domain-arn>. Wait 1 month for tags to show up in the cost allocation tag panel.",
+    "Create an AWS Lambda function that adds a new createdBy tag for each resource in SageMaker AI. Wait 24–48 hours for tags to show up in the cost allocation tag panel.",
+    "Create an AWS Lambda function that adds a new createdBy tag for each resource in SageMaker AI. Wait 1 month for tags to show up in the cost allocation tag panel."
+  ],
+  "correct_answers": [
+    "Activate the following cost allocation tag: sagemaker:<user-profile-arn>. Wait 24–48 hours for tags to show up in the cost allocation tag panel."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "You need to build a model to solve a complex problem. You have determined that the diversity of data in your dataset requires the creation of multiple models of different types. You want to aggregate the predictions of this heterogeneous model groups. Which would be best suited to solving this problem.  Which ensemble model strategy would meet these requirements?",
+      "options": [
+        "Boosting",
+        "Bagging",
+        "Random forest",
+        "Stacking"
+      ],
+      "correct_answers": [
+        "Stacking"
+      ],
+      "references": [],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

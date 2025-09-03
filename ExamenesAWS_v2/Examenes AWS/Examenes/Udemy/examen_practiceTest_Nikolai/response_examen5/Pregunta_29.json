@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 29,
+      "question": "Which of the following strategies is MOST effective in reducing overfitting when training an AI model, according to responsible AI practices?\n\nReducing the size of the training dataset to speed up training.\n\nExplicación\nReducing the size of the training dataset can lead to underfitting, not overfitting, as the model will have fewer data points to learn from.\n\nUtilizing a more complex model with a larger number of parameters to improve accuracy.\n\nExplicación\nA more complex model with too many parameters is likely to overfit, as it may capture noise and irrelevant patterns in the training data.\n\nIncreasing the training data without any validation steps to capture more patterns.\n\nExplicación\nWhile increasing training data can help, it is important to validate the model to ensure it is generalizing well, rather than relying solely on more data.",
+      "options": [
+        "Reducing the size of the training dataset to speed up training.",
+        "Utilizing a more complex model with a larger number of parameters to improve accuracy.",
+        "Increasing the training data without any validation steps to capture more patterns.",
+        "Using regularization techniques that add penalties to extreme model parameters."
+      ],
+      "correct_answers": [
+        "Using regularization techniques that add penalties to extreme model parameters."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

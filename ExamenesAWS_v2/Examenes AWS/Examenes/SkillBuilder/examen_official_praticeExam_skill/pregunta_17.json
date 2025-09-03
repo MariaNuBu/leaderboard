@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 17,
+      "question": "A company is using Amazon SageMaker AI to develop an ML model. The model uses tabular data and image data. An ML engineer needs to implement a solution to prepare and visualize the data for the model.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Use SageMaker Processing to prepare and visualize the data.",
+        "Use SageMaker Data Wrangler to prepare and visualize the data.",
+        "Use SageMaker batch transform to prepare the data. Use SageMaker Data Wrangler to visualize the data.",
+        "Use SageMaker Data Wrangler to prepare the data. Use Amazon QuickSight to visualize the data."
+      ],
+      "correct_answers": [
+        "Use SageMaker Data Wrangler to prepare and visualize the data."
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

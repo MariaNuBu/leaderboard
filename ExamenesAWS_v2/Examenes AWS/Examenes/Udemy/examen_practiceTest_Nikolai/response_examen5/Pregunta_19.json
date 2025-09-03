@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "An ML engineer wants to build a sentiment analysis model using pre-built solutions in SageMaker JumpStart. They need a model that can quickly be deployed and then customized using their own dataset.\n\nWhat features of SageMaker JumpStart would be most useful for the ML engineer's needs?",
+      "options": [
+        "The ability to fine-tune foundation models with custom datasets and perform hyperparameter tuning.",
+        "Only the use of prompt engineering to modify the inputs without needing to retrain the model.",
+        "Pre-built solutions that automatically perform both data preprocessing and model training without user intervention.",
+        "The option to use custom-built proprietary models with full infrastructure control."
+      ],
+      "correct_answers": [
+        "The ability to fine-tune foundation models with custom datasets and perform hyperparameter tuning."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

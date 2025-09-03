@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "A manufacturing company has developed a machine learning model to predict equipment failures based on sensor data. The model is used in batch transform jobs that run weekly to process the latest sensor data. The company wants to ensure that the model's performance and the quality of the input data remain within acceptable limits.\nWhich option would be the most appropriate for monitoring the model in this scenario?",
+      "options": [
+        "Set up Amazon SageMaker Model Monitor to continuously monitor the model's performance and data quality for the real-time endpoint.",
+        "Use Amazon SageMaker Model Monitor to schedule monitoring jobs to run after each batch transform job.",
+        "Manually analyze the model's predictions and input data after each batch transform job to identify any issues.",
+        "Retrain the model periodically with new data to ensure it remains up to date."
+      ],
+      "correct_answers": [
+        "Use Amazon SageMaker Model Monitor to schedule monitoring jobs to run after each batch transform job."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 48,
+      "question": "A logistics company is building a delivery time prediction model on AWS to estimate the number of hours it will take for packages to reach their destination. The dataset includes information such as distance traveled, traffic conditions, and package weight. The model outputs a continuous numerical value representing the estimated delivery time in hours. The ML engineer needs to evaluate the model’s performance to determine how accurately it predicts delivery times.\n\nWhich metric should the ML engineer use to evaluate the model's performance?\n\nPrecision",
+      "options": [
+        "Precision",
+        "Mean Absolute Error (MAE)",
+        "Accuracy",
+        "Area Under the ROC Curve (AUC-ROC)"
+      ],
+      "correct_answers": [
+        "Mean Absolute Error (MAE)"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

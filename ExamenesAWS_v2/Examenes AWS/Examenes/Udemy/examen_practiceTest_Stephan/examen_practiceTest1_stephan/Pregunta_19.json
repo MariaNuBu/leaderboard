@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 19,
+      "question": "A retail company has deployed a machine learning (ML) model using Amazon SageMaker to forecast product demand. The model is exposed via a SageMaker endpoint that processes requests from multiple applications. The company needs to record and monitor all API call events made to the endpoint and receive a notification whenever the number of requests exceeds a specific threshold during peak traffic hours.\n\nWhich solution will meet these requirements?\n\nUse SageMaker Model Monitor to capture and analyze endpoint traffic and configure a rule to notify when API calls exceed the specified threshold",
+      "options": [
+        "Use SageMaker Model Monitor to capture and analyze endpoint traffic and configure a rule to notify when API calls exceed the specified threshold",
+        "Use Amazon CloudWatch to monitor the API call metrics for the SageMaker endpoint and create an alarm to send notifications through Amazon SNS when the call count breaches the threshold",
+        "Enable AWS CloudTrail to log all SageMaker API call events and use CloudTrail Insights to send notifications when the API call volume exceeds a threshold",
+        "Use Amazon EventBridge to capture SageMaker API call events and configure a rule to send a notification when the event count breaches the threshold"
+      ],
+      "correct_answers": [
+        "Use Amazon CloudWatch to monitor the API call metrics for the SageMaker endpoint and create an alarm to send notifications through Amazon SNS when the call count breaches the threshold"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/monitoring-cloudwatch.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) -"
+    }
+  ]
+}

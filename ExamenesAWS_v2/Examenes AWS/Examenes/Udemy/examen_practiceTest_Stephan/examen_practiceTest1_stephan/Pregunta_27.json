@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A fintech company is developing an AI-driven fraud detection system using Amazon SageMaker. The system must provide end-to-end ML capabilities, including data preprocessing, model training, versioned model storage, deployment, and monitoring. Customer transaction data is stored securely in Amazon S3.\n\nThe company requires the following:\n\nSecure access to training data for different ML workflows to ensure data isolation.\n\nA centralized model registry to manage model versions and deployments with minimal operational overhead.\n\nWhat is the most appropriate approach to meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Use unique tags for each model version and use SageMaker Model Registry to manage model deployments",
+        "Use SageMaker Model Registry to manage model versions and associate models with model groups",
+        "Use Amazon S3 versioning to track model artifacts and manage deployments manually",
+        "Use Amazon Elastic Container Registry (Amazon ECR) to store model artifacts and versions"
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Registry to manage model versions and associate models with model groups"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry-deploy.html"
+      ],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

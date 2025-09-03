@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A data scientist is working on a machine learning project that requires integrating a pre-trained model from AWS Marketplace. Their team wants to ensure that the model is deployed efficiently and cost-effectively on Amazon SageMaker. They decide to deploy the pre-trained model from AWS Marketplace on SageMaker. Which step should they take?",
+      "options": [
+        "Create a custom Docker container with the pre-trained model and deploy it on SageMaker.",
+        "Download the pre-trained model from AWS Marketplace and manually deploy it on an Amazon EC2 instance.",
+        "Train a new model on SageMaker using the pre-trained model as a starting point.",
+        "Subscribe to the pre-trained model on AWS Marketplace, and deploy it on SageMaker through a Jupyter notebook, a SageMaker SDK, or the AWS Command Line Interface (AWS CLI)."
+      ],
+      "correct_answers": [
+        "Subscribe to the pre-trained model on AWS Marketplace, and deploy it on SageMaker through a Jupyter notebook, a SageMaker SDK, or the AWS Command Line Interface (AWS CLI)."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

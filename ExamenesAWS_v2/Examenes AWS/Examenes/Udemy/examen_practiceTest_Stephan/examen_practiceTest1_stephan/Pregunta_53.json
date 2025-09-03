@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 53,
+      "question": "An e-commerce company’s ML engineer is tasked with building a machine learning model to predict customer purchase behavior. To ensure consistency and reusability of features, the engineer decides to use Amazon SageMaker Feature Store to create, manage, and store features for training and inference. Given this context, consider the following steps:\n\nPrepare training dataset by accessing the feature data from the store\n\nLoad the feature data into the store.\n\nSet up a feature group to organize and store features.\n\nWhat should be the correct order of steps to create and use the features in Amazon SageMaker Feature Store?",
+      "options": [
+        "3,2,1",
+        "3,1,2",
+        "2,3,1",
+        "1,2,3"
+      ],
+      "correct_answers": [
+        "3,2,1"
+      ],
+      "references": [
+        "https://aws.amazon.com/sagemaker-ai/feature-store/",
+        "https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_FeatureGroup.html"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502003/result/1590579819#overview",
+      "Practice test": "Practice Test #1 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

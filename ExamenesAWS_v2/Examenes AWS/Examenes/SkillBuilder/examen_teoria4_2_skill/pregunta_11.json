@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 11,
+      "question": "Which AWS service can help you forecast future costs for your machine learning (ML) workloads based on historical usage patterns?",
+      "options": [
+        "AWS Billing and Cost Management",
+        "AWS Budgets",
+        "AWS Cost Explorer",
+        "AWS Trusted Advisor"
+      ],
+      "correct_answers": [
+        "AWS Cost Explorer"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

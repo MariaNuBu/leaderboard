@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A data scientist is working on a machine learning project for a retail company. The goal is to develop a product recommendation system. The company has a large dataset of customer purchase histories and product details. The data scientist has trained several models and needs to select the best one for deployment. What is the recommended approach for the data scientist to assess the trade-offs between model performance, training time, and cost?",
+      "options": [
+        "Choose the model with the highest accuracy, regardless of training time and cost. This approach prioritizes model performance over other factors, which may lead to excessive computational resources and costs.",
+        "Select the model with the lowest deployment cost, even if it means sacrificing performance or increasing training time.",
+        "Choose the model with the shortest training time, as this will minimize costs and allow for faster iterations.",
+        "Evaluate the models based on a combination of performance, training time, and estimated deployment costs. Select the model that strikes the best balance between these factors, considering the company's requirements and constraints."
+      ],
+      "correct_answers": [
+        "Evaluate the models based on a combination of performance, training time, and estimated deployment costs. Select the model that strikes the best balance between these factors, considering the company's requirements and constraints."
+      ],
+      "references": [],
+      "topic": "2.4 Analyze Model Performance",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

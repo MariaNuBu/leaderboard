@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 4,
+      "question": "Which AWS service provides pre-built Docker containers for popular deep learning frameworks and machine learning (ML) libraries?",
+      "options": [
+        "Amazon Elastic Container Service (Amazon ECS)",
+        "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "Amazon Fargate",
+        "Amazon SageMaker"
+      ],
+      "correct_answers": [
+        "Amazon SageMaker"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

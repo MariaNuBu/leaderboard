@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 31,
+      "question": "How does AWS Glue's serverless architecture benefit a machine learning engineer when setting up ETL jobs?\\n\\nIt limits the integration to only S3 and Redshift.\\n\\nExplicación\\nAWS Glue integrates with various data sources and targets beyond just S3 and Redshift, including databases and other services.\\n\\nIt requires the engineer to manually manage and scale infrastructure.\\n\\nExplicación\\nAWS Glue’s serverless nature means no manual infrastructure management is needed.\\n\\nIt mandates upfront capacity planning and provisioning.\\n\\nExplicación\\nAWS Glue does not require upfront capacity planning; it scales automatically.",
+      "options": [
+        "It limits the integration to only S3 and Redshift.",
+        "It requires the engineer to manually manage and scale infrastructure.",
+        "It mandates upfront capacity planning and provisioning.",
+        "It automatically scales resources and simplifies infrastructure management."
+      ],
+      "correct_answers": [
+        "It automatically scales resources and simplifies infrastructure management."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

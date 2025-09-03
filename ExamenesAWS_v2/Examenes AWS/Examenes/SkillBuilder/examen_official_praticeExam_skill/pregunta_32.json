@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 32,
+      "question": "A manufacturing company uses an ML model to determine whether products meet a standard for quality. The model produces an output of \"Passed\" or \"Failed\". Robots separate the products into the two categories by using the model to analyze photos on the assembly line. Which metrics should the company use to evaluate the model's performance? (Select TWO.)",
+      "options": [
+        "Precision and recall",
+        "Root mean squared error (RMSE) and mean absolute percentage error (MAPE)",
+        "Accuracy and F1 score",
+        "Bilingual Evaluation Understudy (BLEU) score",
+        "Perplexity"
+      ],
+      "correct_answers": [
+        "Precision and recall",
+        "Accuracy and F1 score"
+      ],
+      "references": [],
+      "topic": "",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

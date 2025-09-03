@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A machine learning engineer is working on a fraud detection system for a financial institution. The system uses a machine learning model to identify potentially fraudulent transactions based on various features such as transaction amount, location, and customer behavior. \nWhich monitoring task would be most important to ensure the reliability and fairness of the fraud detection system?",
+      "options": [
+        "Monitor bias drift by calculating bias metrics for different customer demographics and comparing them to established baselines.",
+        "Monitor data quality by checking for missing values and outliers in the input data.",
+        "Monitor model quality by calculating evaluation metrics like precision, recall, and F1 score on a held-out test set.",
+        "Monitor feature attribution drift by analyzing changes in the importance or contribution of individual features to the model's predictions."
+      ],
+      "correct_answers": [
+        "Monitor bias drift by calculating bias metrics for different customer demographics and comparing them to established baselines."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

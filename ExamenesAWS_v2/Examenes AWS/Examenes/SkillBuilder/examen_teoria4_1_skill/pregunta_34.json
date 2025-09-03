@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 34,
+      "question": "A company has deployed a machine learning model for predictive maintenance of industrial equipment. Which category of monitoring is MOST relevant for ensuring the model remains effective over time? ",
+      "options": [
+        "Monitoring infrastructure performance",
+        "Meeting business requirements",
+        "Evaluating model performance",
+        "Ensuring compliance with regulations and industry standards"
+      ],
+      "correct_answers": [
+        "Evaluating model performance"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

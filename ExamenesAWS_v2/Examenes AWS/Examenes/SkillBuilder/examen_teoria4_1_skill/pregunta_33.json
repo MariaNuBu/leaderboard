@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 33,
+      "question": "A machine learning engineer is working on a project that involves deploying a credit risk assessment model in production. To ensure the model's transparency and explainability, you want to monitor for feature attribution drift using Amazon SageMaker Clarify, integrated with SageMaker Model Monitor. Which statement accurately describes the benefits of this approach?",
+      "options": [
+        "It automatically retrains the model when feature attribution drift is detected, ensuring the model remains up-to-date with the latest data patterns.",
+        "It provides insights into how the model makes predictions by quantifying the contribution of each feature, facilitating the detection for any shifts in feature importance.",
+        "It aids in tracking the performance of the model by comparing its predictions to the actual credit risk outcomes, helping you identify any accuracy degradation.",
+        "It helps you to monitor for changes in the distribution of input features over time, ensuring the model's predictions remain consistent and reliable."
+      ],
+      "correct_answers": [
+        "It provides insights into how the model makes predictions by quantifying the contribution of each feature, facilitating the detection for any shifts in feature importance."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

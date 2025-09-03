@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 57,
+      "question": "What is Feature Engineering in the context of machine learning?\n\nFeature Engineering refers to the visualization of data to understand patterns, and it is important because it helps in identifying trends in the dataset\n\nFeature Engineering is the process of collecting raw data, and it is important because it ensures the availability of data for model training",
+      "options": [
+        "Feature Engineering refers to the visualization of data to understand patterns, and it is important because it helps in identifying trends in the dataset",
+        "Feature Engineering is the process of collecting raw data, and it is important because it ensures the availability of data for model training",
+        "Feature Engineering involves selecting, modifying, or creating features from raw data to improve the performance of machine learning models, and it is important because it can significantly enhance model accuracy and efficiency",
+        "Feature Engineering is the process of tuning hyperparameters in a machine learning model, and it is important because it optimizes the model’s performance"
+      ],
+      "correct_answers": [
+        "Feature Engineering involves selecting, modifying, or creating features from raw data to improve the performance of machine learning models, and it is important because it can significantly enhance model accuracy and efficiency"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/feature-engineering.html",
+        "https://aws.amazon.com/what-is/feature-engineering/"
+      ],
+      "topic": "Data Preparation for Machine Learning (ML)",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 70,
+      "question": "A robotics company is using Amazon SageMaker to train reinforcement learning models that control the movement of robots in complex environments.\nAfter training the model, they want to deploy it for continuous use in real-world scenarios.\nWhat is the best approach for deployment and monitoring of this model?",
+      "options": [
+        "Use AWS Lambda to periodically deploy and monitor the model.",
+        "Run the trained model on EC2 instances and use CloudWatch for monitoring.",
+        "Use Amazon S3 to deploy the model and monitor it using AWS Trusted Advisor.",
+        "Deploy the model using SageMaker's managed endpoints and monitor performance with Amazon CloudWatch."
+      ],
+      "correct_answers": [
+        "Deploy the model using SageMaker's managed endpoints and monitor performance with Amazon CloudWatch."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

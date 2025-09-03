@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You are tasked with deploying a Bedrock model that requires high availability and low‑latency responses. Which deployment option should you choose?",
+      "options": [
+        "Provisioned Throughput",
+        "On-Demand Throughput",
+        "Serverless Deployment",
+        "Model Evaluation with high availability settings"
+      ],
+      "correct_answers": [
+        "Provisioned Throughput"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/prov-throughput.html"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

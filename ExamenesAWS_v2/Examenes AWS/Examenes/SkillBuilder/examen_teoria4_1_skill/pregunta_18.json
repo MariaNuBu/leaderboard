@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 18,
+      "question": "A company has developed a machine learning model to predict customer churn. Which statement best describes the importance of monitoring this model?",
+      "options": [
+        "Monitoring is not necessary since the model was trained on historical data and will remain accurate over time.",
+        "Monitoring is important to detect potential data quality issues, model performance degradation, or bias drift that may occur.",
+        "Monitoring is solely focused on tracking the model's computational resource usage and infrastructure performance.",
+        "Monitoring is only required during the initial deployment phase to ensure the model is functioning correctly."
+      ],
+      "correct_answers": [
+        "Monitoring is important to detect potential data quality issues, model performance degradation, or bias drift that may occur."
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

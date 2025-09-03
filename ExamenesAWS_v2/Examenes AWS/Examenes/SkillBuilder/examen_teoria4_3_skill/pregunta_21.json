@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "A machine learning engineer wants to isolate ML resources using a defense-in-depth strategy. The engineer has deployed Amazon SageMaker Studio in a virtual private cloud (VPC). Which additional security control can the engineer use to enhance security in the VPC?",
+      "options": [
+        "Amazon Config",
+        "Amazon Inspector",
+        "Amazon Network Firewall",
+        "NAT Gateway"
+      ],
+      "correct_answers": [
+        "Amazon Network Firewall"
+      ],
+      "references": [],
+      "topic": "4.3 Secure AWS ML Resources",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

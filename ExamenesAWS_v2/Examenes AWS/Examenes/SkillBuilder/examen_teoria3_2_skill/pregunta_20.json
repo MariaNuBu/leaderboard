@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 20,
+      "question": "Which AWS Cloud Development Kit (AWS CDK) Command Line Interface (CLI) command is used to generate AWS CloudFormation templates of the stacks defined in an app?",
+      "options": [
+        "cdk diff",
+        "cdk bootstrap",
+        "cdk synth",
+        "cdk deploy"
+      ],
+      "correct_answers": [
+        "cdk synth"
+      ],
+      "references": [],
+      "topic": "3.2 Create and Script Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

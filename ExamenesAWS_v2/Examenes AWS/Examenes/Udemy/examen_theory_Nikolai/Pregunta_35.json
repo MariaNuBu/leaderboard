@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 35,
+      "question": "What is a primary advantage of a stateful data ingestion system?\n\nUses fewer computational resources than a stateless system.\n\nExplicación\nStateful systems often require more resources to maintain state information compared to stateless systems.\n\nSimplifies the ingestion process by not requiring previous context.\n\nExplicación\nThis describes stateless systems, which do not require previous context.",
+      "options": [
+        "Uses fewer computational resources than a stateless system.",
+        "Simplifies the ingestion process by not requiring previous context.",
+        "Maintains context of previous data ingestion events to avoid reprocessing the same data.",
+        "Processes each new data ingestion request independently."
+      ],
+      "correct_answers": [
+        "Maintains context of previous data ingestion events to avoid reprocessing the same data."
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

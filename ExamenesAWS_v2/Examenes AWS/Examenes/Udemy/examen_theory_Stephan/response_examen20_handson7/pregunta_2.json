@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 2,
+      "question": "You are using Amazon Bedrock to build an AI system for generating marketing content. The system must ensure the content generated adheres to brand guidelines and avoids inappropriate language. Which feature of Amazon Bedrock would best serve this purpose?",
+      "options": [
+        "Content filtering guardrails.",
+        "Fine-tuning with labeled data.",
+        "RAG with an up-to-date database.",
+        "Integrating SageMaker Canvas."
+      ],
+      "correct_answers": [
+        "Content filtering guardrails."
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-content-filters.html",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html"
+      ],
+      "topic": "Developing Generative AI Applications with Bedrock",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496285#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

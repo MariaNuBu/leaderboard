@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 21,
+      "question": "An agriculture company is analyzing yield data from their corn fields from the past 5 years. Upon plotting the data, they notice a few data points that are much higher or lower than the majority of the data.\n\nWhat should the agriculture company do with these potential outlier data points when analyzing the yield data?",
+      "options": [
+        "Replace any outliers with the mean or median value of the remaining data.",
+        "Leave the outliers in the data set because they represent real values.",
+        "Remove the outliers completely from the dataset before further analysis.",
+        "Keep the outliers but run statistical tests to identify any significant outliers. Determine if the outliers are natural or artificial before deciding to keep or remove outliers."
+      ],
+      "correct_answers": [
+        "Keep the outliers but run statistical tests to identify any significant outliers. Determine if the outliers are natural or artificial before deciding to keep or remove outliers."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

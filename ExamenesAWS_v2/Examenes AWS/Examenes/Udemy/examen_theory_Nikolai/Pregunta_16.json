@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A machine learning team has deployed several models using Amazon SageMaker. To ensure the models perform optimally in production, they need to monitor the models for data drift and performance degradation. Additionally, they want to track which version of the dataset and hyperparameters were used in the experiments that produced these models. Which combination of SageMaker services will help them achieve this?\n\nSageMaker Experiments and SageMaker Neo\n\nExplicación\nSageMaker Neo is for optimizing models, and while SageMaker Experiments tracks experiments, it does not handle production model monitoring.",
+      "options": [
+        "SageMaker Experiments and SageMaker Neo",
+        "SageMaker Model Monitor and SageMaker Experiments",
+        "SageMaker Feature Store and SageMaker Model Monitor",
+        "SageMaker Clarify and SageMaker Studio"
+      ],
+      "correct_answers": [
+        "SageMaker Model Monitor and SageMaker Experiments"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

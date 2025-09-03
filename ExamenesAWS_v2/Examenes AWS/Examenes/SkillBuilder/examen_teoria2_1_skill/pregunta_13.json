@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 13,
+      "question": "A ML engineer for a healthcare company is building a machine learning (ML) model that can help to diagnose illnesses based on a series of test results. It is crucial that medical professionals are able to ascertain the reasons behind the diagnoses to help determine care and to also explain their reasoning to their patients. When balancing model interpretability and model performance, which statement would best describe the priorities used when selecting an algorithm?",
+      "options": [
+        "Select an algorithm with a very high model interpretability while putting much less emphasis on model performance.",
+        "Select an algorithm with a very high model performance while putting much less emphasis on model interpretability.",
+        "Select an algorithm that balances both model interpretability and model performance identically.",
+        "Only model performance matters. Model interpretability should have no bearing on your decision."
+      ],
+      "correct_answers": [
+        "Select an algorithm that balances both model interpretability and model performance identically."
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

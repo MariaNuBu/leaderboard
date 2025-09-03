@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A machine learning engineer is setting up model quality monitoring for a multiclass classification model deployed using Amazon SageMaker. \nWhich metrics will SageMaker Model Monitor compute to assess the model's quality?",
+      "options": [
+        "Area Under the Curve (AUC), Precision-Recall (PR) Curve, Receiver Operating Characteristic (ROC) Curve",
+        "Confusion Matrix, Weighted Precision, Weighted Recall, Weighted Accuracy, Weighted F1 score",
+        "Mean Absolute Error (MAE), Mean Squared Error (MSE), R-squared (R²)",
+        "Accuracy, Precision, Recall, F1 score"
+      ],
+      "correct_answers": [
+        "Confusion Matrix, Weighted Precision, Weighted Recall, Weighted Accuracy, Weighted F1 score"
+      ],
+      "references": [],
+      "topic": "4.1 Monitor Model Performance and Data Quality",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

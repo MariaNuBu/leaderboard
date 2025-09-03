@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 8,
+      "question": "You are setting up a CI/CD pipeline for machine learning in AWS and need to ensure model consistency between training and inference. Which service can help maintain feature consistency across these stages?",
+      "options": [
+        "SageMaker Data Wrangler",
+        "SageMaker Feature Store",
+        "SageMaker Neo",
+        "AWS Glue Data Catalog"
+      ],
+      "correct_answers": [
+        "SageMaker Feature Store"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store-use-cases.html"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

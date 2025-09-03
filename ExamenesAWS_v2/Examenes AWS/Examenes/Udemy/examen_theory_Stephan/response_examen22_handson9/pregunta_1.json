@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are deploying a SageMaker training job that handles sensitive data. Which of the following options would best ensure that the data is protected both at rest and in transit?",
+      "options": [
+        "Enable KMS encryption for data at rest and TLS/SSL for data in transit.",
+        "Use S3 bucket policies for access control and VPC endpoints for data transfer.",
+        "Store data in an unencrypted S3 bucket but ensure VPC isolation.",
+        "Use IAM roles to limit access and KMS for encryption in transit."
+      ],
+      "correct_answers": [
+        "Enable KMS encryption for data at rest and TLS/SSL for data in transit."
+      ],
+      "references": [],
+      "topic": "Security, Identity, and Compliance",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496313",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

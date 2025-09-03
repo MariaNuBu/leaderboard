@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "question": "A machine learning engineer at an artificial intelligence company is working on a project to train a large language model on an extensive text corpus using AWS infrastructure. The project requires distributed training across multiple instances to achieve faster model convergence and reduced training time. Cost-efficiency is also an important consideration. Which approach should they take?",
+      "options": [
+        "Choose AWS Trainium instances.",
+        "Choose CPU-based instances.",
+        "Choose storage-optimized instances.",
+        "Choose GPU-accelerated instances."
+      ],
+      "correct_answers": [
+        "Choose AWS Trainium instances."
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

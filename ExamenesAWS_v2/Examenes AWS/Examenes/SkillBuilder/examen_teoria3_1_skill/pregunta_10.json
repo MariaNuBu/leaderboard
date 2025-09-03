@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 10,
+      "question": "Your company operates a fleet of delivery vehicles equipped with various sensors. These vehicles frequently travel to areas where connectivity is not reliable. Which benefits of edge computing would be the most relevant in this scenario?",
+      "options": [
+        "Improved data availability and reliability",
+        "Reduce operational costs",
+        "Increased scalability and flexibility",
+        "Enhanced data analytics and insights"
+      ],
+      "correct_answers": [
+        "Improved data availability and reliability"
+      ],
+      "references": [],
+      "topic": "3.1 Select a Deployment Infrastructure",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

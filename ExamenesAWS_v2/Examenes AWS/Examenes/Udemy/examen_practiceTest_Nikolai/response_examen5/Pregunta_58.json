@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 58,
+      "question": "A company is building a multi-lingual customer support system that allows users to communicate both via text and voice. The system should transcribe customer support calls into text, translate the text into the user’s preferred language, and generate audio responses in the same language. Which combination of AWS services is MOST appropriate for this use case?",
+      "options": [
+        "Use AWS Lambda to convert speech to text, Amazon Translate to handle text translations, and Amazon SageMaker to generate speech responses.",
+        "Use Amazon Transcribe to convert speech to text, Amazon Lex to handle translations, and Amazon Polly to generate the voice responses.",
+        "Use Amazon Transcribe to convert speech to text, Amazon Translate to translate the text, and Amazon Polly to convert the translated text to speech.",
+        "Use Amazon Polly to convert speech to text, AWS Glue to manage translations, and Amazon Transcribe to generate speech responses."
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert speech to text, Amazon Translate to translate the text, and Amazon Polly to convert the translated text to speech."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 - "
+    }
+  ]
+}

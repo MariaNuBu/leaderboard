@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 27,
+      "question": "A machine learning engineer at a healthcare company has deployed a model on Amazon SageMaker and wants to monitor the data quality to ensure that the data used in production maintains high integrity.\n\nWhich of the following actions is MOST appropriate for monitoring data quality using Amazon SageMaker?",
+      "options": [
+        "Enable SageMaker Feature Store to log and validate all incoming data used for predictions and correct data quality issues in real-time.",
+        "Use a custom SageMaker algorithm to filter out low-quality data before making predictions in the production environment.",
+        "Set up Amazon CloudWatch to automatically retrain the model whenever the incoming data has quality issues.",
+        "Use SageMaker Model Monitor to evaluate incoming data for missing values, outliers, and deviations from the baseline training data."
+      ],
+      "correct_answers": [
+        "Use SageMaker Model Monitor to evaluate incoming data for missing values, outliers, and deviations from the baseline training data."
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559453/result/1592028351",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 1 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "shrinkage?\nIn SageMaker's XBoost, which hyperparameter helps prevent overfitting by controlling the step size",
+      "options": [
+        "max_depth",
+        "subsample",
+        "eta",
+        "gamma"
+      ],
+      "correct_answers": [
+        "eta"
+      ],
+      "references": [],
+      "topic": "SageMaker Built-In Algorithms",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496161#overview",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

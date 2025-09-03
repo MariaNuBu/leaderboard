@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 15,
+      "question": "A machine learning (ML) workload has the following requirements: shared storage to train a machine learning model simultaneously on a massive amount of storage, extremely low latency, and high throughput. Which storage service would be the most effective choice?",
+      "options": [
+        "Amazon Elastic File System (Amazon EFS)",
+        "Amazon S3",
+        "Amazon FSx for Lustre",
+        "Amazon Elastic Block Store (Amazon EBS)"
+      ],
+      "correct_answers": [
+        "Amazon FSx for Lustre"
+      ],
+      "references": [],
+      "topic": "1.1 Collect, Ingest, and Store Data",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

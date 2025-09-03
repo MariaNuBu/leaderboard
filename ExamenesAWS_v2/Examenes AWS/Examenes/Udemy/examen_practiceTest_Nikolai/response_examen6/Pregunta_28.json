@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 28,
+      "question": "A fintech company is building a machine learning pipeline to predict credit card fraud. They plan to use SageMaker Pipelines to automate the entire workflow, including data preprocessing, model training, hyperparameter tuning, and deployment. To ensure that the pipeline produces the most accurate model, they want to test multiple configurations of the model, including variations in the algorithm and feature sets. They also need to track and compare each configuration to determine the best performing model.\n\nWhich of the following solutions BEST fits their needs?\n\nUse SageMaker Feature Store to manage model versions and SageMaker Autopilot to automatically deploy the best model based on accuracy.\n\nUse Amazon S3 to store training data, manually track hyperparameter configurations, and SageMaker Pipelines to handle training and deployment.\n\nUse SageMaker Ground Truth to create a labeled dataset, SageMaker Autopilot to automate model training, and SageMaker Feature Store to track hyperparameters and metrics.",
+      "options": [
+        "Use SageMaker Feature Store to manage model versions and SageMaker Autopilot to automatically deploy the best model based on accuracy.",
+        "Use Amazon S3 to store training data, manually track hyperparameter configurations, and SageMaker Pipelines to handle training and deployment.",
+        "Use SageMaker Ground Truth to create a labeled dataset, SageMaker Autopilot to automate model training, and SageMaker Feature Store to track hyperparameters and metrics."
+      ],
+      "correct_answers": [
+        "Use SageMaker Pipelines to automate the workflow and SageMaker Experiments to track and compare multiple configurations."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

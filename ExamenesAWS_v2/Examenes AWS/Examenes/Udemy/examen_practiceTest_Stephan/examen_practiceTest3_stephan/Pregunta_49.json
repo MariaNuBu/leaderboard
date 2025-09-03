@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 49,
+      "question": "A company has recently migrated to AWS Cloud and it wants to optimize the hardware used for its AI workflows.\n\nWhich of the following would you suggest?",
+      "options": [
+        "Leverage AWS Trainium for high-performance, cost-effective Deep Learning training. Leverage AWS Inferentia for the deep learning (DL) and generative AI inference applications",
+        "Leverage either AWS Trainium or AWS Inferentia for the deep learning (DL) and generative AI inference applications",
+        "Leverage AWS Inferentia for high-performance, cost-effective Deep Learning training. Leverage AWS Trainium for the deep learning (DL) and generative AI inference applications",
+        "Leverage either AWS Trainium or AWS Inferentia for high-performance, cost-effective Deep Learning training"
+      ],
+      "correct_answers": [
+        "Leverage AWS Trainium for high-performance, cost-effective Deep Learning training. Leverage AWS Inferentia for the deep learning (DL) and generative AI inference applications"
+      ],
+      "references": [
+        "https://aws.amazon.com/machine-learning/inferentia/",
+        "https://aws.amazon.com/machine-learning/trainium/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6749283/result/1595220593#overview",
+      "Practice test": "Practice Test #3 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01)"
+    }
+  ]
+}

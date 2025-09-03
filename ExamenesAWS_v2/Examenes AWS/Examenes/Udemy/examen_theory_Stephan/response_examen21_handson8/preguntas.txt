@@ -1,0 +1,84 @@
+Pregunta 1:
+Which step is most critical before deploying a SageMaker model using a Docker container?
+Validate the model using SageMaker JumpStart. (Correct)
+Ensure the model is stored in /opt/ml/model within the container.
+Set up Auto Scaling policies for the endpoint.
+Use SageMaker Neo to compile the model.
+
+---
+
+Pregunta 2:
+What is a primary use case for SageMaker Model Monitor?
+Optimizing models for specific hardware
+Detecting data drift in deployed models (Correct)
+Automating model training pipelines
+Running models on edge devices
+---
+
+Pregunta 3:
+What is the correct way to structure a Dockerfile for a SageMaker training container?
+Specify the training script using ENV SAGEMAKER_PROGRAM (Correct)
+Store the training data in /opt/ml/model
+Run the Docker container using CMD instead of ENTRYPOINT
+Set up a virtual environment within the Docker container
+---
+
+Pregunta 4:
+You need to monitor a deployed model for feature attribution drift. Which metric should you monitor using
+SageMaker Model Monitor?
+Kullback-Leibler Divergence (KL)
+Total Variation Distance (TVD)
+Conditional Demographic Disparity (CDD)
+Normalized Discounted Cumulative Gain (NDCG) (Correct)
+
+---
+
+Pregunta 5:
+For which use case is SageMaker JumpStart most appropriate?
+Custom model training from scratch
+Real-time anomaly detection
+Deploying pre-trained models to pre-configured endpoints (Correct)
+Optimizing models for edge devices
+---
+
+Pregunta 6:
+Which deployment method in SageMaker is most suitable for handling infrequent or unpredictable traffic with the ability to scale down to zero?
+Real-Time Inference
+Serverless Inference (Correct)
+Batch Transform
+Asynchronous Inference
+
+---
+Pregunta 7:
+Which AWS service is used to orchestrate steps in a machine learning pipeline, such as model training and deployment?
+AWS Step Functions (Correct)
+AWS Lambda
+AWS CodePipeline
+Amazon MWAA
+---
+
+Pregunta 8:
+What is a key advantage of using SageMaker's Managed Spot Training?
+Spot instances guarantee uninterrupted training.
+Training cost can be reduced by up to 90% (Correct)
+Spot instances automatically scale based on traffic.
+Managed Spot Training only works with GPU instances.
+
+---
+
+Pregunta 9:
+Which SageMaker feature allows you to compare a new model's performance against an existing production model without impacting live traffic?
+Canary Deployment
+Linear Deployment
+Blue/Green Deployment
+Shadow Testing (Correct)
+
+---
+
+Pregunta 10:
+Which of the following is a key benefit of using Docker containers in Amazon SageMaker?
+
+Containers are tied to a specific instance type.
+Containers allow the use of any script or algorithm regardless of runtime or language. (Correct)
+Containers must use SageMaker built-in algorithms only.
+Containers cannot be used for inference tasks.

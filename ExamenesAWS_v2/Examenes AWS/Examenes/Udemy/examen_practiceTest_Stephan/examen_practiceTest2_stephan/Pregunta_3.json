@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 3,
+      "question": "A global e-commerce company collects video/audio/text based customer feedback in various languages, including German, and stores the data for analysis. The company wants to use a large language model (LLM) to analyze and generate summaries of customer feedback in English. The solution must handle multilingual audio data efficiently and complete the task with the least operational effort.\n\nWhich solution will meet these requirements?",
+      "options": [
+        "Use Amazon Transcribe to convert video/audio feedback into German text, Amazon Translate to translate the German text into English, and Amazon Comprehend to analyze sentiment and summarize the feedback in English",
+        "Use Amazon Rekognition to extract metadata from video and audio feedback and combine it with audio data transcription to summarize using Amazon Comprehend",
+        "Manually preprocess all data formats into plain text and use a custom-trained SageMaker model for summarization in English",
+        "Use Amazon Transcribe to directly summarize the audio and video feedback from German to English text and use Amazon Comprehend to analyze customer sentiment"
+      ],
+      "correct_answers": [
+        "Use Amazon Transcribe to convert video/audio feedback into German text, Amazon Translate to translate the German text into English, and Amazon Comprehend to analyze sentiment and summarize the feedback in English"
+      ],
+      "references": [
+        "https://aws.amazon.com/pm/transcribe/",
+        "https://aws.amazon.com/rekognition/",
+        "https://aws.amazon.com/translate/",
+        "https://aws.amazon.com/blogs/machine-learning/break-through-language-barriers-with-amazon-transcribe-amazon-translate-and-amazon-polly/"
+      ],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/practice-exams-aws-certified-machine-learning-engineer-associate/learn/quiz/6502005/results#overview",
+      "Practice test": "Practice Test #2 - Full Exam - AWS Certified Machine Learning Engineer - Associate (MLA-C01) - "
+    }
+  ]
+}

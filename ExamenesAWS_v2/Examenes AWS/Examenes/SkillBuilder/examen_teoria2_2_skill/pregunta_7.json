@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "A manufacturing company wants to develop a machine learning (ML) model to predict equipment failures based on sensor data collected from their production lines. The company has a large dataset of historical sensor readings and corresponding equipment failure events stored in Amazon S3. They want to use Amazon SageMaker for training their model. Which data ingestion mode would be most suitable for this scenario?",
+      "options": [
+        "File mode",
+        "Pipe mode",
+        "Fast File mode",
+        "Fast Pipe mode"
+      ],
+      "correct_answers": [
+        "Pipe mode"
+      ],
+      "references": [],
+      "topic": "2.2 Train models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

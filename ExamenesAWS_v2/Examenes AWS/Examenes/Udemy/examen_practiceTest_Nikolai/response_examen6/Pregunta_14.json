@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 14,
+      "question": "A machine learning engineer is setting up a Jupyter notebook environment to streamline an end-to-end machine learning workflow, including model training and deployment. The engineer wants to minimize manual infrastructure management and use a fully integrated environment within Amazon SageMaker.\n\nWhich option should the engineer choose to achieve this?",
+      "options": [
+        "Manually provision an EC2 instance with Jupyter notebooks installed and manage the environment through AWS CLI.",
+        "Use SageMaker Studio to set up a domain and configure multiple Jupyter Lab notebooks within the same workspace.",
+        "Install SageMaker libraries on a local machine and run Jupyter notebooks locally.",
+        "Set up a SageMaker notebook instance from the AWS Management Console and attach an IAM role."
+      ],
+      "correct_answers": [
+        "Use SageMaker Studio to set up a domain and configure multiple Jupyter Lab notebooks within the same workspace."
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

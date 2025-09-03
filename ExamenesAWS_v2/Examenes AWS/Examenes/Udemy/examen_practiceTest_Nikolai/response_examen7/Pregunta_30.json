@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 30,
+      "question": "Pregunta 30\n\nA machine learning team is using Amazon SageMaker Experiments to evaluate different model configurations. They want to track and compare the performance of several training runs with varying hyperparameters, data features, and algorithms to identify the best performing model. What components in SageMaker Experiments should they use to organize and track these training runs?\n\nHyperparameters, Experiments, Trackers, Notebooks\n\nExplicación\nWhile experiments and trackers are correct, hyperparameters and notebooks are not SageMaker Experiment components.\n\nTrackers, Algorithms, Metrics, Pipelines\n\nExplicación\nAlgorithms and metrics are tracked as part of experiments, but they are not core components of SageMaker Experiments.\n\nPipelines, Trials, Stages, Logs\n\nExplicación\nPipelines and stages are not part of SageMaker Experiments, though pipelines may be used for automation outside of the experiment tracking.",
+      "options": [
+        "Hyperparameters, Experiments, Trackers, Notebooks",
+        "Trackers, Algorithms, Metrics, Pipelines",
+        "Pipelines, Trials, Stages, Logs",
+        "Experiments, Trials, Trial Components, Trackers"
+      ],
+      "correct_answers": [
+        "Experiments, Trials, Trial Components, Trackers"
+      ],
+      "references": [],
+      "topic": "Data Preparation for Machine Learning",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559765/result/1595598623",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 3"
+    }
+  ]
+}

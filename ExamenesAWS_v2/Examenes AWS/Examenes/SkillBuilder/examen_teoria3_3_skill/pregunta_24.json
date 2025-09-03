@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 24,
+      "question": "A developer is working on an ML project that involves training and deploying a deep learning model for image classification. Their team uses AWS services for the continuous integration and deployment (CI/CD) pipeline. The pipeline includes the following stages: 1. Source: Retrieve the source code from a Git repository. 2. Build: Build the machine learning model using AWS CodeBuild. 3. Test: Run unit tests and validation tests on the built model. 4. Deploy: Deploy the model to an Amazon Elastic Compute Cloud (Amazon ECS) cluster using AWS CodeDeploy. They want to ensure that the pipeline follows best practices and meets the necessary security requirements. Which action should they take?",
+      "options": [
+        "Use a custom Docker image with the required machine learning libraries for the CodeBuild build environment.",
+        "Configure AWS CodePipeline to require manual approval before deploying the model to the production environment.",
+        "Store the built model artifacts in an Amazon Simple Storage Service (Amazon S3) bucket with public access to enable easy sharing.",
+        "Grant full administrative access to the Git repository to all team members for collaboration."
+      ],
+      "correct_answers": [
+        "Use a custom Docker image with the required machine learning libraries for the CodeBuild build environment."
+      ],
+      "references": [],
+      "topic": "3.3 Automate deployment",
+      "Source": "Skill Builder Domain 3",
+      "Practice test": ""
+    }
+  ]
+}

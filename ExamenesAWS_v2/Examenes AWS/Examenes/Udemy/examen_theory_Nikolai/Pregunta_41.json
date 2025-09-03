@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "question": "A machine learning team is using Amazon SageMaker Model Monitor to automatically track both data and model quality in a real-time endpoint. They want to set up monitoring for data drift, bias drift, and feature attribution drift, and they need a solution that can trigger alerts when deviations are detected. How should they set up their monitoring system?\\n\\nSet up SageMaker Autopilot to automatically monitor model quality and retrain the model\\n\\nExplicación\\nSageMaker Autopilot automates model building but does not offer real-time monitoring or alerting features.\\n\\nUse SageMaker Ground Truth to label the data in real time and configure SageMaker Debugger to trigger alerts\\n\\nExplicación\\nSageMaker Ground Truth is used for labeling, and SageMaker Debugger focuses on training, not monitoring deployed models.",
+      "options": [
+        "Set up SageMaker Autopilot to automatically monitor model quality and retrain the model",
+        "Use SageMaker Ground Truth to label the data in real time and configure SageMaker Debugger to trigger alerts",
+        "Configure SageMaker Model Monitor with prebuilt monitoring schedules and integrate with Amazon CloudWatch to trigger alerts",
+        "Use AWS Glue for data capture and SageMaker Data Wrangler for drift detection"
+      ],
+      "correct_answers": [
+        "Configure SageMaker Model Monitor with prebuilt monitoring schedules and integrate with Amazon CloudWatch to trigger alerts"
+      ],
+      "references": [],
+      "topic": "ML Solution Monitoring, Maintenance, and Security",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01-exam-prep/learn/quiz/6550303/results?expanded=1497470169",
+      "Practice test": "AWS Certified Machine Learning Engineer - Associate MLA-C01"
+    }
+  ]
+}

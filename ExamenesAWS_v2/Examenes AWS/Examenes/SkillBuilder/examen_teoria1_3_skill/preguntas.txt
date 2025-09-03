@@ -1,0 +1,255 @@
+A financial company is building a machine learning solution for lending purposes. The team wants to validate that their data does not contain biases toward the ages of loan applicants, and they need to make sure that the data has enough representation across multiple age groups.
+
+Which pre-training bias metric best measures whether the raw data is leaning too heavily on a certain data class for its predictions?
+
+Class Imbalance (CI) (Correct)
+
+Difference in proportions of labels (DPL)
+
+Model bias
+
+Model variance
+
+----
+
+A home decor company is building a machine learning (ML) model to classify product reviews. They plan to categorize the responses as positive, negative, or neutral reviews. Of their dataset that contains 100,000 product reviews, the balance consists of 60,000 positive reviews, 35,000 negative reviews, and 5,000 neutral reviews.
+
+Which validation strategy is the most effective choice to help this company address class imbalance in this text-based dataset?
+
+Text-based data augmentation (Correct)
+
+SMOTE
+
+Oversampling positive reviews
+
+Undersampling neutral reviews
+
+----
+
+Your team is implementing a new machine learning model that requires high-quality data. You decide to use AWS Glue Data Quality to assess the data before training the model. Which capability of AWS Glue Data Quality would be most beneficial in this scenario?
+
+Data validation rules (Correct)
+
+Data quality monitoring
+
+Data quality alerting
+
+Data quality reporting
+
+----
+
+The machine learning (ML) engineer learns that the class imbalance (CI) metric of this dataset is -0.33. Which statement BEST describes the assessment of this metric?
+
+The CI measure is negative, which indicates the advantaged group is relatively underrepresented in this dataset. (Correct)
+
+The CI measure is negative, which indicates the advantaged group is relatively overrepresented in this dataset.
+
+The CI measure is positive, which indicates the disadvantaged group is relatively underrepresented in this dataset.
+
+The CI measure is positive, which indicates the disadvantaged group is relatively overrepresented in this dataset.
+
+----
+
+A medical research company wants to develop a machine learning model that can predict medical diagnoses. The datasets include patient data, such as medical bills, lab results, and medical history.
+
+Before deploying this model, how should the company proceed with their dataset?
+
+The company can freely use whatever patient data they need to as long as it's for research purposes.
+
+The company must get signed patient consent before using any medical data, including PHI such as conditions, medications, and procedures.
+
+The company must follow HIPAA guidelines to securely collect, store, and use PHI data. PII and PHI should be protected through security measures such as encryption and access controls to minimize privacy risks. (Correct)
+
+The company needs to remove all PII, such as names, addresses, and Social Security numbers, before using the data to avoid privacy violations. However, they can keep medical condition details such as PHI to train the model effectively.
+
+----
+
+You are building a machine learning model to predict housing prices. You have a dataset of 1,000 housing records. Which technique would be most appropriate to evaluate the performance of your model?
+
+Simple hold-out
+
+Removing all outliers of your dataset
+
+K-fold cross-validation (Correct)
+
+No need for data splitting
+
+----
+
+A telecommunications company wants to use Amazon SageMaker to train a machine learning model on their customer data. They have the data stored in different formats. Which data formats do most Amazon SageMaker algorithms support for training? 
+
+CSV and RecordIO-protobuf (Correct)
+
+All data formats
+
+No data formats
+
+Custom data formats
+
+----
+
+A healthcare organization is developing a machine learning (ML) model to predict patient risk of developing certain chronic conditions. Which consideration should they prioritize to ensure compliance with data privacy regulations?
+
+Obtaining explicit consent from patients for the use of their personal health data in the model
+
+Limiting the model's access to only the minimum necessary patient information required (Correct)
+
+Implementing rigorous data security measures to protect the model from unauthorized access
+
+Anonymizing the patient data before using it to train the model
+
+----
+
+You are working on a machine learning project that involves processing highly sensitive data. To ensure the confidentiality of this data, you need to implement encryption. You decide to use an Amazon SageMaker feature to help encrypt your data. How can you use Amazon SageMaker to help encrypt your data at rest?
+
+There is no need to encrypt data at rest when dealing with ML workloads. You only need to secure data in transit.
+
+Upload the unencrypted data to Amazon S3 and let SageMaker encrypt it automatically before training the model.
+
+SageMaker does not have any features that you can use for encryption.
+
+When you create a SageMaker notebook instance, training job, or other SageMaker resource that involves the storage of data, you can specify that an AWS Key Management Service (AWS KMS) key be used for encrypting the data at rest. (Correct)
+
+----
+
+A publishing company is training a machine learning (ML) model on customer data to predict how many customers will buy their new book series. However, they are concerned about potential bias in the data due to historical underrepresentation of certain demographic groups. Which AWS service could this company use to help assess potential bias in the dataset?
+
+Amazon FSx
+
+Amazon Comprehend
+
+AWS Glue DataBrew
+
+Amazon SageMaker Clarify (Correct)
+
+----
+
+You work as a machine learning engineer at a finance company, and you are building a machine learning model to predict loan default risk. You want to make sure you have a balanced and accurate dataset, and you want to split your data to test out the model.
+
+
+
+Why is it important to split your data into training, testing, and validation data sets?
+
+Splitting the data allows you to train the model on data relationships, tune hyperparameters, and evaluate the model on distinct datasets. (Correct)
+
+Splitting the data is a requirement for regulated financial models to ensure governance. The validation set proves to auditors that the model works.
+
+Splitting the data is important so that you can preserve some data for future models. The test set should be saved separately and not used for the model.
+
+Splitting the data is unnecessary. You can train and test the model on the full dataset.
+
+----
+
+A software company is developing a machine learning model to identify objects in photos. Before training the model, the team wants to use pre-training bias metrics to evaluate potential biases in the training data. The team wants to ensure that there is a balance of different classes of data in the dataset. Which pre-training metric could the company use to assess whether there is a balance between numbers of samples in each class of data? 
+
+Resampling
+
+Synthetic data generation
+
+Difference in proportions of labels (DPL)
+
+Class imbalance (CI) (Correct)
+
+----
+
+You are a machine learning engineer for a neuroscience company. Your team is building a model to analyze neuroimaging statistics. You've cleaned and transformed your data for modeling. Now it's time to take final steps to configure your data for your AWS machine learning model.
+
+
+
+Which steps are a part of the process to properly mount and configure the data for your AWS machine learning model? SELECT THREE.
+
+Load the data from staged storage service to ML training resource like Amazon SageMaker (Correct)
+
+Load data into model without assessing configuration
+
+Mount Amazon Elastic File System (EFS) or Amazon FSx (Correct)
+
+Eliminate security measures once data is clean
+
+Remove outliers from the data (Check)
+
+Copy data from Amazon S3 to Amazon EFS or Amazon FSx
+
+----
+
+An appliance company has a dataset that contains information about customer purchases, including product details, purchase date, and order value. You want to use an AWS service to validate your data's integrity.Which AWS services can you use to validate data integrity? SELECT TWO.
+
+Amazon Simple Storage Service (Amazon S3)
+
+AWS Glue Data Quality (Correct)
+
+AWS Glue DataBrew (Correct)
+
+Amazon Elastic Compute Cloud (EC2)
+
+Amazon Elastic File System (EFS)
+
+----
+
+You are training a deep learning model to classify images of different dog breeds. Your dataset consists of 10,000 images, with each breed represented in a roughly equal proportion. 
+
+
+
+Which answer best describes the impact of shuffling the dataset before splitting it into training, validation, and test sets?
+
+Shuffling the dataset will introduce unnecessary randomness and can lead to overfitting on the training set.
+
+Shuffling the dataset is only necessary for datasets with more than 20,000 values.
+
+Shuffling the dataset will ensure that the training, validation, and test sets have a similar distribution of dog breeds, leading to a more robust model. (Correct)
+
+Shuffling the dataset is not necessary, because the equal representation of each breed in the overall dataset ensures that the split sets will have a similar distribution.
+
+----
+
+You work for a non-profit organization that is building a machine learning model for a university. The university wants to predict whether scholarship applicants are likely to succeed in college if awarded a scholarship. However, only 20% of applicants typically get accepted to the scholarship program, while 80% are rejected. This means you have a significant class imbalance in your dataset. Which strategy would help address this imbalance in the training data? 
+
+Randomly remove half of the dataset to restore balance.
+
+Oversample by increasing the number of minority examples in the training set by sampling with replacement. (Correct)
+
+Use data augmentation of image rotation to modify existing positive examples.
+
+Undersample by decreasing the number of minority examples in the training set by randomly removing some.
+
+----
+
+A pharmaceutical company is developing a machine learning (ML) model to predict the efficacy of a new drug. The company has cleaned, transformed, and otherwise prepared their data for the ML model. The company wants to take steps to validate their data's integrity.
+
+
+
+Which answer best describes the value of ensuring data integrity?
+
+It is important to validate that your data is accurate, complete, reliable, consistent, and secure. Validating these aspects of your data leads to more accurate and efficient predictions from your ML model. (Correct)
+
+It is important to validate that your data does not contain bias. Bias can lead to inaccurate ML model predictions.
+
+It is important to validate that your data is stored efficiently. Efficient storage leads to efficient ML predictions.
+
+It is important to validate that your data does not contain patient information. Including patient information in your data might disregard compliance requirements.
+
+----
+
+You are working on a machine learning (ML) project and need to preprocess your data before training your model. Your dataset consists of images in various formats, such as JPEG, PNG, and TIFF. Which data format would you use to efficiently store and process this data for model training in Amazon SageMaker?
+
+RecordIO-protobuf (Correct)
+
+Attribute-Relation File Format (ARFF)
+
+JSON
+
+Comma-Separated Values (CSV)
+
+----
+
+A machine learning team for a fitness company is building a model to assess customer workout statistics. The team needs to access data from multiple Amazon Elastic Compute Cloud (EC2) instances.
+
+Which AWS storage option should the machine learning team choose to store the customer workout data that needs to be accessed from multiple EC2 instances?
+
+Amazon Glacier
+
+Amazon Elastic File System (Correct)
+
+Amazon Simple Storage Service
+
+Amazon Elastic Block Store

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "You are training your machine learning (ML) model for a classification problem. You provide answers in the example data during training. Which algorithm can be used for a binary classification, a multi-class classification, and a regression ML task?",
+      "options": [
+        "Linear learner algorithm",
+        "k-nearest neighbors (k-NN) algorithm",
+        "Factorization Machines algorithm",
+        "XGBoost algorithm"
+      ],
+      "correct_answers": [
+        "XGBoost algorithm"
+      ],
+      "references": [],
+      "topic": "2.1 Choose a Modeling Approach",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

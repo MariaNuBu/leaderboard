@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 56,
+      "question": "A company wants to automate the processing of onboarding documents submitted by new employees. These documents include scanned images of identification cards and PDF files containing contracts and employee information. The company needs to extract relevant details such as employee names, addresses, and job roles from both images and text documents, and categorize the documents based on content (e.g., ID card, contract, tax form). The system should also enable easy searching of these documents using natural language queries.\n\nWhich combination of AWS services would BEST meet the company’s needs?",
+      "options": [
+        "Amazon Rekognition for image analysis, Amazon SageMaker for building a custom entity recognition model, and Amazon DynamoDB for storing the document metadata.",
+        "Amazon Textract for text extraction from images and documents, Amazon Comprehend for entity recognition and document categorization, and Amazon Kendra for search functionality.",
+        "Amazon Comprehend for extracting text from images, Amazon Kendra for categorizing documents, and Amazon Elasticsearch for indexing and searching the documents.",
+        "Amazon Rekognition for text and image analysis, Amazon Comprehend for entity extraction, and Amazon S3 for storing the categorized documents."
+      ],
+      "correct_answers": [
+        "Amazon Textract for text extraction from images and documents, Amazon Comprehend for entity recognition and document categorization, and Amazon Kendra for search functionality."
+      ],
+      "references": [],
+      "topic": "Deployment and Orchestration of ML Workflows",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 - "
+    }
+  ]
+}

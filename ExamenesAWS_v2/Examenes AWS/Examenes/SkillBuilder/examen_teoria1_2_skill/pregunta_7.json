@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 7,
+      "question": "An energy company wants to assess how often their customers have to replace their solar panels after their initial solar panel purchase. Their raw data includes the dates of first purchase, customer reviews, and dates of additional purchases.\n\nHow might this company use feature engineering to help the machine learning model understand the relationship between these features in their dataset?",
+      "options": [
+        "This is not a good use case for feature engineering, because the data includes a text-based feature.",
+        "The company can use numeric feature engineering to extract information from the purchase dates, and they can use text feature engineering to extract information from the customer reviews.",
+        "The company can only use numeric feature engineering to extract information from this dataset.",
+        "The company can only use text feature engineering to extract information from this dataset."
+      ],
+      "correct_answers": [
+        "The company can use numeric feature engineering to extract information from the purchase dates, and they can use text feature engineering to extract information from the customer reviews."
+      ],
+      "references": [],
+      "topic": "1.2 Transform data and perform feature engineering.",
+      "Source": "Skill Builder Domain 1",
+      "Practice test": ""
+    }
+  ]
+}

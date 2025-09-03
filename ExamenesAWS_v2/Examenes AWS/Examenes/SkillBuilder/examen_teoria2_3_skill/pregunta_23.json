@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "question": "You are a data scientist troubleshooting a model re-training job for a neural network. Model performance on specific tasks has decreased and you have identified the issue as catastrophic forgetting. Which changes might you consider?",
+      "options": [
+        "Use a rehearsal strategy in your training job and include older samples in your training set.",
+        "Make your data less complex by removing the number of features used in the training job.",
+        "Decrease the number of layers in the neural network.",
+        "Use data augmentation to remove the older samples from the training set."
+      ],
+      "correct_answers": [
+        "Use a rehearsal strategy in your training job and include older samples in your training set."
+      ],
+      "references": [
+        "https://arxiv.org/abs/1708.04782"
+      ],
+      "topic": "2.3 Refine models",
+      "Source": "Skill Builder Domain 2",
+      "Practice test": ""
+    }
+  ]
+}

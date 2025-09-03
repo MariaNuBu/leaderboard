@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "question": "A company wants to optimize its ML model to ensure minimal cost while maintaining adequate performance. What approach should they take?",
+      "options": [
+        "Deploy models on the largest instance type available",
+        "Use Elastic Inference to right-size GPU usage",
+        "Train models without stopping unused resources",
+        "Use random hyperparameter search"
+      ],
+      "correct_answers": [
+        "Use Elastic Inference to right-size GPU usage"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/ei.html",
+        "https://aws.amazon.com/machine-learning/elastic-inference/"
+      ],
+      "topic": "Machine Learning Best Practices",
+      "Source": "https://rgitsc.udemy.com/course/aws-certified-machine-learning-engineer-associate-mla-c01/learn/quiz/6496347#questions/22431659",
+      "Practice test": "AWS Certified Machine Learning Engineer Associate: Hands On!"
+    }
+  ]
+}

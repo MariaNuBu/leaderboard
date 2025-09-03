@@ -1,0 +1,17 @@
+{
+  "id": 44,
+  "question": "A company wants to improve the performance of its ML model that is deployed in production. The company evaluates the performance of the model by getting feedback from customers.\n\nWhen the company deploys a new version of the model, only a small subset of customers should use the new version. After the company collects feedback and validates the model, the company needs to make the model available to more customers.\n\nWhich solution will meet these requirements?",
+  "options": [
+    "Use Amazon SageMaker AI endpoints. Create two production model variants. Assign a smaller weight to the new model than to the existing model. Increase the new model's weight after validation occurs.",
+    "Use Amazon SageMaker AI endpoints. Create two production model variants. Assign a larger weight to the new model than to the existing model. Decrease the new model's weight after validation occurs.",
+    "Use an Amazon SageMaker AI endpoint. Create a production variant and a shadow variant. Configure the new model as the shadow variant. Assign a smaller traffic sampling percentage to the new model than to the existing model. Increase the new model's traffic sampling percentage after validation occurs.",
+    "Use an Amazon SageMaker AI endpoint. Create a production variant and a shadow variant. Configure the new model as the shadow variant. Assign a larger traffic sampling percentage to the new model than to the existing model. Decrease the new model's traffic sampling percentage after validation occurs."
+  ],
+  "correct_answers": [
+    "Use Amazon SageMaker AI endpoints. Create two production model variants. Assign a smaller weight to the new model than to the existing model. Increase the new model's weight after validation occurs."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}

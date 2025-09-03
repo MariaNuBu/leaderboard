@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 50,
+      "question": "A company uses a robotic arm to pick and place objects in a factory. The robot continuously learns through trial and error by interacting with its environment and receiving feedback based on its actions. Which machine learning paradigm is the robot using?",
+      "options": [
+        "Semi-supervised Learning",
+        "Unsupervised Learning",
+        "Supervised Learning",
+        "Reinforcement Learning"
+      ],
+      "correct_answers": [
+        "Reinforcement Learning"
+      ],
+      "references": [],
+      "topic": "ML Model Development",
+      "Source": "https://rgitsc.udemy.com/course/aws-machine-learning-engineer-associate-practice-exams/learn/quiz/6559763/result/1592034089",
+      "Practice test": "AWS Machine Learning Engineer - Associate Practice Test 2 -"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 22,
+      "question": "What is the purpose of Amazon SageMaker Inference Recommender?",
+      "options": [
+        "To train machine learning models more efficiently",
+        "To develop new machine learning algorithms",
+        "To optimize the performance and cost of deploying machine learning models for inference",
+        "To visualize and interpret machine learning models"
+      ],
+      "correct_answers": [
+        "To optimize the performance and cost of deploying machine learning models for inference"
+      ],
+      "references": [],
+      "topic": "4.2 Monitor and Optimize Infrastructure and Costs",
+      "Source": "Skill Builder Domain 4",
+      "Practice test": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": 6,
+      "question": "A glass manufacturing company uses a computer vision model to detect broken glass on its continuous production lines. The company uses Amazon SageMaker AI to train the model with more than 50 GB of images that are stored in Amazon S3. The company has deployed the model to the edge.\n\nThe model is re-trained daily, but the training job starts more slowly than the company expects. The company needs to reduce the startup time of the training job.\n\nWhich action will meet these requirements MOST cost-effectively?",
+      "options": [
+        "Use pipe mode as the input mode for the training job configuration.",
+        "Use an Amazon FSx for Lustre file system to stream data from Amazon S3 to the training job.",
+        "Change the instance type of the Amazon EC2 instance that the training job uses.",
+        "Load the training data onto an Amazon Elastic Block Store (Amazon EBS) volume. Attach the EBS volume to the training job instance."
+      ],
+      "correct_answers": [
+        "Use pipe mode as the input mode for the training job configuration."
+      ],
+      "references": [],
+      "topic": "Training Performance & Input Modes",
+      "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+      "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 42,
+  "question": "A company has deployed an ML model by using an Amazon SageMaker AI endpoint. The company needs to deploy the latest version of the model in several steps over several days.\n\nThe company will start by exposing 10% of users to the new model. Each day, the company will increase user exposure to the new model by 10% until 100% of users are using the new model. If the new version encounters errors, the company needs the capability to roll back immediately to the previous version.\n\nWhich deployment option will meet these requirements?",
+  "options": [
+    "Use a rolling deployment.",
+    "Use a blue/green deployment with canary traffic shifting.",
+    "Use a blue/green deployment with linear traffic shifting.",
+    "Use a blue/green deployment with all-at-once traffic shifting."
+  ],
+  "correct_answers": [
+    "Use a blue/green deployment with linear traffic shifting."
+  ],
+  "references": [],
+  "topic": "",
+  "Source": "https://skillbuilder.aws/learn/B1MA33BPE6/official-practice-exam-aws-certified-machine-learning-engineer--associate-mlac01--english/SQ932WDU8P",
+  "Practice test": "Official Practice Exam: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+}
