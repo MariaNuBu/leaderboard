@@ -3,7 +3,7 @@ import pandas as pd
 import card_game
 import crucigrama
 import sopa_letras
-from ExamenesAWS import questions_app
+from ExamenesAWS_v2.Examenes import questions_app
 
 # --- Configuración de la página ---
 # Esto le da un título a la pestaña de tu navegador y un ícono.
